@@ -178,6 +178,11 @@
   height: 318px;
   object-fit: contain;
 }
+.responsive-image-qc {
+  width: 602px;
+  
+  object-fit: contain;
+}
 
 
   </style>
@@ -252,7 +257,7 @@
       </div>
       <div class="card">
         <div class="card-title">Quantum Computing</div>
-        <div class="card-subtext">Sheldon Copper's gonna love this</div>
+        <div class="card-subtext">Sheldon Cooper's gonna love this</div>
         <button class="explain-button" onclick="showModal('quantumComputing')">Explain</button>
       </div>
       <div class="card">
@@ -324,7 +329,7 @@
       <div class="card">
         <div class="card-title">CSS</div>
         <div class="card-subtext">Cascading Style Sheets</div>
-        <button class="explain-button" onclick="showModal('threeSigmaRule')">Explain</button>
+        <button class="explain-button" onclick="showModal('css')">Explain</button>
       </div>
       <div class="card">
         <div class="card-title">Java</div>
@@ -339,7 +344,7 @@
       <div class="card">
         <div class="card-title">Ruby</div>
         <div class="card-subtext">Another simple, OOP language</div>
-        <button class="explain-button" onclick="showModal('threeSigmaRule')">Explain</button>
+        <button class="explain-button" onclick="showModal('ruby')">Explain</button>
       </div>
       <div class="card">
         <div class="card-title">Swift</div>
@@ -522,25 +527,27 @@
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Epochs</h2>
     <br>
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">In machine learning, an epoch is one complete pass through the entire training dataset. During each epoch, the model's parameters are updated to improve accuracy.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Multiple epochs are often needed for a model to learn effectively and reach high performance on the task it is trained for.</p>
+    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Multiple epochs are often needed for a model to learn effectively and reach high performance on the task it is trained for. However, its' crucial to determine the number of epochs carefully, as explaned in the image below.</p>
     <br>
-    <img class="responsive-image" src="assets/images/epochs.jpg" alt="Epochs image">
+    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:860/1*GXftMdKjyaLYuAIn-nB4zA.png" alt="Epochs image">
   `,
   apis: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">APIs</h2>
     <br>
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">An API (Application Programming Interface) is a set of rules that allows different software programs to communicate with each other. It defines how requests and responses should be formatted so that different systems can interact seamlessly.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">APIs are used to integrate different services, enabling developers to build applications that interact with other software or services.</p>
+     <br>
+    <p>For example, An API is like a messenger between apps and services. Imagine you are using a weather app. The app uses an API to ask a weather service for today’s weather. The weather service sends the info back through the API, and you see the weather on your app. So, an API helps different software talk to each other and share information.</p>
     <br>
-    <img class="responsive-image" src="assets/images/apis.jpg" alt="APIs image">
+    <img class="responsive-image" src="https://www.openlegacy.com/hs-fs/hubfs/Picture1-2.webp?width=969&height=509&name=Picture1-2.webp" alt="APIs image">
   `,
   cloudComputing: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Cloud Computing</h2>
     <br>
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Cloud computing is the delivery of computing services—such as servers, storage, databases, and software—over the internet (the cloud). It allows users to access and use these services without having to manage physical servers or infrastructure.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Cloud computing provides flexibility, scalability, and cost-efficiency for businesses and individuals.</p>
+    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Cloud computing provides flexibility, scalability, and cost-efficiency for businesses and individuals. Following image shows types of cloud computing</p>
     <br>
-    <img class="responsive-image" src="assets/images/cloudComputing.jpg" alt="Cloud Computing image">
+    <img class="responsive-image" src="https://images.spiceworks.com/wp-content/uploads/2021/07/02105247/Cloud-Computing.png" alt="Cloud Computing image">
   `,
   dataScience: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Data Science</h2>
@@ -548,7 +555,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Data science involves using scientific methods, processes, and systems to extract insights and knowledge from data. It combines various fields such as statistics, data analysis, and machine learning to understand and interpret complex data.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Data science helps in making informed decisions and predictions based on data analysis.</p>
     <br>
-    <img class="responsive-image" src="assets/images/dataScience.jpg" alt="Data Science image">
+    <img class="responsive-image" src="https://editor.analyticsvidhya.com/uploads/73194new%202.png" alt="Data Science image from DataScientist.com">
   `,
   quantumComputing: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Quantum Computing</h2>
@@ -556,7 +563,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Quantum computing is an area of computing that uses principles of quantum mechanics to perform calculations. It leverages quantum bits (qubits) to process information in ways that classical computers cannot.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Quantum computing has the potential to solve complex problems more efficiently than traditional computers.</p>
     <br>
-    <img class="responsive-image" src="assets/images/quantumComputing.jpg" alt="Quantum Computing image">
+    <img class="responsive-image-qc" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/auzqrr27ccgv9ylkloed.png" alt="Quantum Computing image">
   `,
   internetOfThings: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Internet of Things</h2>
@@ -564,7 +571,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">The Internet of Things (IoT) refers to the network of physical objects embedded with sensors and software that can connect and exchange data with other devices over the internet.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">IoT enables smarter interactions between devices and can be used in various applications like smart homes, health monitoring, and industrial automation.</p>
     <br>
-    <img class="responsive-image" src="assets/images/internetOfThings.jpg" alt="Internet of Things image">
+    <img class="responsive-image" src="https://www.i-scoop.eu/wp-content/uploads/2016/10/The-Internet-of-Things-from-connecting-devices-to-creating-value-large.jpg" alt="Internet of Things image">
   `,
   blockchain: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Blockchain</h2>
@@ -572,7 +579,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Blockchain is a digital ledger technology that records transactions across many computers in a way that ensures the security and transparency of the data.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Each transaction is recorded in a "block," and blocks are linked together in a "chain." Blockchain is used in cryptocurrencies and other applications requiring secure data storage.</p>
     <br>
-    <img class="responsive-image" src="assets/images/blockchain.jpg" alt="Blockchain image">
+    <img class="responsive-image" src="https://www.investopedia.com/thmb/XrimO6cL95A3j-ts3PknnOXn8EI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/dotdash_Final_Blockchain_Sep_2020-01-60f31a638c4944abbcfde92e1a408a30.jpg" alt="Blockchain image">
   `,
   reactJS: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">ReactJS</h2>
@@ -580,7 +587,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">ReactJS is a JavaScript library used for building user interfaces. It allows developers to create reusable UI components and manage the state of their applications efficiently.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">ReactJS is often used for developing single-page applications (SPAs) and can be integrated with other libraries or frameworks.</p>
     <br>
-    <img class="responsive-image" src="assets/images/reactJS.jpg" alt="ReactJS image">
+    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1400/1*6l9rCElYlP9EoG0A-iXULg.png" alt="ReactJS image">
   `,
   docker: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Docker</h2>
@@ -588,7 +595,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Docker is a platform that allows developers to package applications and their dependencies into containers. Containers are lightweight, portable, and can run on any system with Docker installed.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Docker simplifies deployment and scaling of applications, ensuring consistency across different environments.</p>
     <br>
-    <img class="responsive-image" src="assets/images/docker.jpg" alt="Docker image">
+    <img class="responsive-image" src="https://accesto.com/blog/static/d97eced7f59a885b5ba877366cf21909/3c492/docker-explained-1.png" alt="Docker image">
   `,
   initFunction: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">__init__ Function</h2>
@@ -596,7 +603,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">The __init__ function is a special method in Python that is called when an object is instantiated. It initializes the object's attributes and sets up the initial state of the object.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It is commonly used to set default values for object properties or to perform setup tasks when creating new instances of a class.</p>
     <br>
-    <img class="responsive-image" src="assets/images/initFunction.jpg" alt="__init__ Function image">
+    <img class="responsive-image" src="https://www.boardinfinity.com/blog/content/images/2023/05/init-in-python.png" alt="__init__ Function image">
   `,
   javaScript: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">JavaScript</h2>
@@ -826,7 +833,10 @@
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Big O Notation</h2>
     <br>
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Big O notation is used to describe the performance or complexity of an algorithm in terms of time and space. It provides an upper bound on the growth rate of an algorithm's running time or space usage.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Big O notation helps in analyzing and comparing the efficiency of different algorithms.</p>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">In simple words, Big O Notation helps us understand how the time to find something changes as the number of items increases. The lower the Big O value, the more efficient the process!</p>
+
+
+    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Big O notation also helps in <strong> analyzing and comparing the efficiency </strong> of different algorithms.</p>
     <br>
     <img class="responsive-image" src="assets/images/bigO.jpg" alt="Big O Notation image">
   `,
