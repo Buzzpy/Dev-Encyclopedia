@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tech Simplified</title>
+  <title>Programming, Simplified;</title>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
@@ -157,21 +157,22 @@
       max-height: 70vh;
     }
 
-    .modal-button {
-      display: block;
-      width: 100%;
-      padding: 10px;
+    .modal-link {
+      display: inline-block;
+      
       margin-top: 20px;
-      background-color: #000;
-      color: #fff;
+      background-color: #ffffff;
+      color: indianred;
       border: none;
       border-radius: 5px;
+      font-size: 15px;
+      text-align: left;
       font-family: 'JetBrains Mono', monospace;
       cursor: pointer;
     }
 
-    .modal-button:hover {
-      background-color: #333;
+    .modal-link:hover {
+      color: deeppink;
     }
     .responsive-image {
   width: 602px;
@@ -485,7 +486,7 @@
   <div id="modal" class="modal">
     <div class="modal-content">
       <div id="modal-body"></div>
-      <button class="modal-button" onclick="readMore()">Read More About It</button>
+    <!-- <button class="modal-button" onclick="readMore()">Read More About It</button>--> 
     </div>
   </div>
 
@@ -496,8 +497,9 @@
     <br>
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Machine learning is a type of artificial intelligence that allows software applications to become more accurate at predicting outcomes without being explicitly programmed to do so. Machine learning algorithms use historical data as input to predict new output values.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's used in many areas such as email filtering, network security, and computer vision.</p>
-   
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ilep9ckl66ho6mp5v6ht.png" alt="Machine Learning image">
+  
   `,
   deepLearning: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Deep Learning</h2>
@@ -505,6 +507,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Deep learning is a subset of machine learning where artificial neural networks, algorithms inspired by the human brain, learn from large amounts of data. It's a key technology behind driverless cars, enabling them to recognize a stop sign, or to distinguish a pedestrian from a lamppost.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Deep learning is used in many applications such as voice assistants, translation services, and image recognition.</p>
     <br>
+      <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2l6t6kevnd062opmw6ab.png" alt="Deep Learning image">
   `,
   artificialIntelligence: `
@@ -513,6 +516,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions. The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">AI is used in many areas such as robotics, autonomous vehicles, and natural language processing.</p>
     <br>
+      <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/iii01cstbhic3xzt9ceu.png" alt="Artificial Intelligence image">
   `,
   cybersecurity: `
@@ -521,6 +525,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Cybersecurity involves protecting computer systems and networks from digital attacks, theft, and damage. It includes various practices and technologies to safeguard data and maintain privacy.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Cybersecurity is crucial for protecting sensitive information and ensuring the safe operation of systems in both personal and professional environments.</p>
     <br>
+      <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="https://reciprocity.com/wp-content/uploads/2022/10/resources_top-cybersecurity-threats_730x425.jpg" alt="Cybersecurity image">
   `,
   epochs: `
@@ -537,6 +542,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">An API (Application Programming Interface) is a set of rules that allows different software programs to communicate with each other. It defines how requests and responses should be formatted so that different systems can interact seamlessly.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">APIs are used to integrate different services, enabling developers to build applications that interact with other software or services.</p>
      <br>
+       <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <p>For example, An API is like a messenger between apps and services. Imagine you are using a weather app. The app uses an API to ask a weather service for today’s weather. The weather service sends the info back through the API, and you see the weather on your app. So, an API helps different software talk to each other and share information.</p>
     <br>
     <img class="responsive-image" src="https://www.openlegacy.com/hs-fs/hubfs/Picture1-2.webp?width=969&height=509&name=Picture1-2.webp" alt="APIs image">
@@ -547,6 +553,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Cloud computing is the delivery of computing services—such as servers, storage, databases, and software—over the internet (the cloud). It allows users to access and use these services without having to manage physical servers or infrastructure.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Cloud computing provides flexibility, scalability, and cost-efficiency for businesses and individuals. Following image shows types of cloud computing</p>
     <br>
+      <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="https://images.spiceworks.com/wp-content/uploads/2021/07/02105247/Cloud-Computing.png" alt="Cloud Computing image">
   `,
   dataScience: `
@@ -555,6 +562,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Data science involves using scientific methods, processes, and systems to extract insights and knowledge from data. It combines various fields such as statistics, data analysis, and machine learning to understand and interpret complex data.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Data science helps in making informed decisions and predictions based on data analysis.</p>
     <br>
+      <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="https://editor.analyticsvidhya.com/uploads/73194new%202.png" alt="Data Science image from DataScientist.com">
   `,
   quantumComputing: `
@@ -571,6 +579,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">The Internet of Things (IoT) refers to the network of physical objects embedded with sensors and software that can connect and exchange data with other devices over the internet.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">IoT enables smarter interactions between devices and can be used in various applications like smart homes, health monitoring, and industrial automation.</p>
     <br>
+      <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="https://www.i-scoop.eu/wp-content/uploads/2016/10/The-Internet-of-Things-from-connecting-devices-to-creating-value-large.jpg" alt="Internet of Things image">
   `,
   blockchain: `
@@ -579,6 +588,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Blockchain is a digital ledger technology that records transactions across many computers in a way that ensures the security and transparency of the data.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Each transaction is recorded in a "block," and blocks are linked together in a "chain." Blockchain is used in cryptocurrencies and other applications requiring secure data storage.</p>
     <br>
+      <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="https://www.investopedia.com/thmb/XrimO6cL95A3j-ts3PknnOXn8EI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/dotdash_Final_Blockchain_Sep_2020-01-60f31a638c4944abbcfde92e1a408a30.jpg" alt="Blockchain image">
   `,
   reactJS: `
@@ -587,6 +597,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">ReactJS is a JavaScript library used for building user interfaces. It allows developers to create reusable UI components and manage the state of their applications efficiently.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">ReactJS is often used for developing single-page applications (SPAs) and can be integrated with other libraries or frameworks.</p>
     <br>
+      <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1400/1*6l9rCElYlP9EoG0A-iXULg.png" alt="ReactJS image">
   `,
   docker: `
@@ -595,6 +606,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Docker is a platform that allows developers to package applications and their dependencies into containers. Containers are lightweight, portable, and can run on any system with Docker installed.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Docker simplifies deployment and scaling of applications, ensuring consistency across different environments.</p>
     <br>
+      <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="https://accesto.com/blog/static/d97eced7f59a885b5ba877366cf21909/3c492/docker-explained-1.png" alt="Docker image">
   `,
   initFunction: `
@@ -603,31 +615,27 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">The __init__ function is a special method in Python that is called when an object is instantiated. It initializes the object's attributes and sets up the initial state of the object.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It is commonly used to set default values for object properties or to perform setup tasks when creating new instances of a class.</p>
     <br>
+      <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="https://www.boardinfinity.com/blog/content/images/2023/05/init-in-python.png" alt="__init__ Function image">
   `,
-  javaScript: `
-    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">JavaScript</h2>
-    <br>
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">JavaScript is a programming language commonly used to create interactive effects within web browsers. It allows developers to build dynamic web pages and add functionality to websites.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">JavaScript is versatile and can be used for both client-side and server-side programming.</p>
-    <br>
-    <img class="responsive-image" src="assets/images/javaScript.jpg" alt="JavaScript image">
-  `,
+
   python: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Python</h2>
     <br>
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Python is a high-level programming language known for its readability and simplicity. It is widely used in web development, data science, automation, and more.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Python's syntax is designed to be easy to understand and write, making it a popular choice for beginners and experienced programmers alike.</p>
     <br>
-    <img class="responsive-image" src="assets/images/python.jpg" alt="Python image">
+      <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <img class="responsive-image" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9fx9gi335wgl2pdt6sjj.png" alt="Python image">
   `,
   threeSigmaRule: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Three-Sigma Rule</h2>
     <br>
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">The Three-Sigma Rule, also known as the 68-95-99.7 rule, states that for a normal distribution, nearly all data points will fall within three standard deviations of the mean.</p>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">The Three-Sigma Rule, also known as <strong> the 68-95-99.7 rule and  </strong>  <strong>Empirical Rule </strong>, states that for a normal distribution, nearly all data points will fall within three standard deviations of the mean.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">This rule helps to understand data variability and is used in various fields, including quality control and statistics.</p>
     <br>
-    <img class="responsive-image" src="assets/images/threeSigmaRule.jpg" alt="Three-Sigma Rule image">
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <img class="responsive-image" src="https://decodingdatascience.com/wp-content/uploads/2023/05/Screenshot-2023-05-05-101857.jpg" alt="Three-Sigma Rule image">
   `,
   recursion: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Recursion</h2>
@@ -635,7 +643,8 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Recursion is a programming technique where a function calls itself in order to solve a problem. It is often used to break down complex problems into simpler sub-problems.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Recursion is useful in tasks such as tree traversal, sorting algorithms, and solving mathematical problems.</p>
     <br>
-    <img class="responsive-image" src="assets/images/recursion.jpg" alt="Recursion image">
+          <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:2000/1*QrQ5uFKIhK3jQSFYeRBIRg.png" alt="Recursion image">
   `,
   git: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Git</h2>
@@ -643,7 +652,8 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Git is a version control system that tracks changes to files and allows multiple people to collaborate on a project. It helps manage code changes, track history, and resolve conflicts.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Git is widely used in software development to maintain code integrity and support collaborative work.</p>
     <br>
-    <img class="responsive-image" src="assets/images/git.jpg" alt="Git image">
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:693/1*pEduJdPky05DeojVGVtPpQ.jpeg" alt="Git image">
   `,
   versionControl: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Version Control</h2>
@@ -651,6 +661,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Version control is a system that records changes to files over time so that you can recall specific versions later. It is essential for managing software development and tracking changes to code.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Version control helps coordinate work among multiple developers and track the history of changes.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/versionControl.jpg" alt="Version Control image">
   `,
   agile: `
@@ -659,6 +670,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Agile is a methodology for software development that emphasizes flexibility, collaboration, and customer feedback. It focuses on delivering small, incremental improvements to a project.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Agile methodologies include frameworks such as Scrum and Kanban, which help teams adapt to changes and continuously improve their processes.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/agile.jpg" alt="Agile image">
   `,
   scrum: `
@@ -667,6 +679,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Scrum is a framework within the Agile methodology used for managing and completing complex projects. It involves iterative development and regular feedback from stakeholders.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Scrum emphasizes teamwork, accountability, and continuous improvement through practices such as sprints, daily stand-ups, and retrospectives.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/scrum.jpg" alt="Scrum image">
   `,
   kanban: `
@@ -675,6 +688,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Kanban is a visual workflow management method that helps teams visualize and manage work. It uses a board with columns to represent different stages of the work process.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Kanban helps teams improve efficiency by limiting work in progress and optimizing the flow of tasks through the workflow.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/kanban.jpg" alt="Kanban image">
   `,
   sql: `
@@ -683,6 +697,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">SQL (Structured Query Language) is a language used for managing and querying relational databases. It allows users to perform operations such as retrieving, inserting, updating, and deleting data.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">SQL is essential for working with databases and is widely used in various applications to interact with data.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/sql.jpg" alt="SQL image">
   `,
   nosql: `
@@ -691,6 +706,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">NoSQL is a type of database that provides a mechanism for data storage and retrieval that is different from traditional relational databases. It is designed to handle large volumes of unstructured or semi-structured data.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">NoSQL databases are often used for applications that require high scalability, performance, and flexibility in handling data.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/nosql.jpg" alt="NoSQL image">
   `,
   html: `
@@ -699,6 +715,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">HTML (HyperText Markup Language) is the standard language used to create and design web pages. It structures content on the web by using tags and elements to define headings, paragraphs, links, images, and other components.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">HTML forms the backbone of web content and is used in conjunction with CSS and JavaScript to build complete web pages.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/html.jpg" alt="HTML image">
   `,
   css: `
@@ -707,6 +724,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in HTML. It controls the layout, colors, fonts, and overall design of web pages.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">CSS allows for the separation of content and design, making web pages more flexible and easier to maintain.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/css.jpg" alt="CSS image">
   `,
   java: `
@@ -715,6 +733,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Java is a high-level programming language known for its portability, scalability, and performance. It is widely used for building enterprise-level applications, mobile apps, and web services.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Java's "write once, run anywhere" philosophy makes it a popular choice for cross-platform development.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/java.jpg" alt="Java image">
   `,
   cSharp: `
@@ -723,6 +742,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">C# (C-Sharp) is a modern, object-oriented programming language developed by Microsoft. It is used primarily for developing applications on the .NET framework, including web, desktop, and mobile apps.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">C# is known for its simplicity, versatility, and strong integration with Microsoft technologies.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/cSharp.jpg" alt="C# image">
   `,
   php: `
@@ -731,6 +751,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">PHP (Hypertext Preprocessor) is a server-side scripting language designed for web development. It is commonly used to create dynamic web pages and interact with databases.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">PHP is widely supported and integrates well with HTML, making it a popular choice for web developers.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/php.jpg" alt="PHP image">
   `,
   ruby: `
@@ -739,6 +760,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Ruby is an object-oriented programming language known for its simplicity and productivity. It is often used for web development, particularly with the Ruby on Rails framework.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Ruby's elegant syntax makes it easy to read and write, helping developers create robust applications quickly.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/ruby.jpg" alt="Ruby image">
   `,
   swift: `
@@ -747,6 +769,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Swift is a programming language developed by Apple for iOS and macOS development. It is known for its speed, safety, and ease of use.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Swift allows developers to build high-performance applications with modern features and a clean syntax.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/swift.jpg" alt="Swift image">
   `,
   typescript: `
@@ -755,6 +778,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">TypeScript is a superset of JavaScript that adds static typing to the language. It helps developers catch errors early and improve code quality by providing type-checking and advanced features.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">TypeScript is compiled to JavaScript and is compatible with existing JavaScript code and libraries.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/typescript.jpg" alt="TypeScript image">
   `,
   kotlin: `
@@ -763,6 +787,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Kotlin is a statically-typed programming language developed by JetBrains. It is used for Android development and is fully interoperable with Java.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Kotlin offers modern features, concise syntax, and improved safety compared to Java.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/kotlin.jpg" alt="Kotlin image">
   `,
   bash: `
@@ -771,6 +796,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Bash is a Unix shell and command language used for writing shell scripts. It allows users to automate tasks, manage files, and interact with the operating system through commands.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Bash scripts are commonly used for system administration and software deployment tasks.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/bash.jpg" alt="Bash image">
   `,
   rubyOnRails: `
@@ -779,6 +805,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Ruby on Rails is a web application framework written in Ruby. It follows the Model-View-Controller (MVC) architecture and emphasizes convention over configuration.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Rails helps developers build robust and scalable web applications quickly by providing built-in tools and best practices.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/rubyOnRails.jpg" alt="Ruby on Rails image">
   `,
   angular: `
@@ -787,6 +814,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Angular is a TypeScript-based open-source web application framework developed by Google. It provides a comprehensive solution for building dynamic and responsive web applications.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Angular includes features such as data binding, dependency injection, and modular development to streamline the development process.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/angular.jpg" alt="Angular image">
   `,
   vueJS: `
@@ -795,6 +823,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">VueJS is a progressive JavaScript framework used for building user interfaces. It is designed to be incrementally adoptable and can be integrated into existing projects.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">VueJS provides reactive data binding and component-based architecture, making it easy to build interactive and maintainable web applications.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/vueJS.jpg" alt="VueJS image">
   `,
   flutter: `
@@ -803,6 +832,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Flutter is an open-source UI toolkit developed by Google for building natively compiled applications for mobile, web, and desktop from a single codebase.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Flutter uses the Dart programming language and provides a rich set of pre-designed widgets and tools for creating beautiful and responsive user interfaces.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/flutter.jpg" alt="Flutter image">
   `,
   swiftUI: `
@@ -811,6 +841,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">SwiftUI is a framework by Apple for building user interfaces across all Apple platforms using a declarative Swift syntax. It simplifies the process of creating complex UI elements and animations.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">SwiftUI integrates seamlessly with existing Swift code and provides a live preview of UI changes, enhancing the development workflow.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/swiftUI.jpg" alt="SwiftUI image">
   `,
   algorithm: `
@@ -819,6 +850,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">An algorithm is a step-by-step procedure or formula for solving a problem. It is a fundamental concept in computer science and programming used to perform tasks, calculations, and data processing.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Algorithms are the basis of programming and are used to design and optimize code for various applications.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/algorithm.jpg" alt="Algorithm image">
   `,
   dataStructure: `
@@ -827,6 +859,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">A data structure is a way of organizing and storing data so that it can be accessed and modified efficiently. Common data structures include arrays, linked lists, stacks, queues, and trees.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Choosing the right data structure is crucial for optimizing performance and managing data effectively in software applications.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/dataStructure.jpg" alt="Data Structure image">
   `,
   bigO: `
@@ -835,9 +868,9 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Big O notation is used to describe the performance or complexity of an algorithm in terms of time and space. It provides an upper bound on the growth rate of an algorithm's running time or space usage.</p>
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">In simple words, Big O Notation helps us understand how the time to find something changes as the number of items increases. The lower the Big O value, the more efficient the process!</p>
 
-
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Big O notation also helps in <strong> analyzing and comparing the efficiency </strong> of different algorithms.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/bigO.jpg" alt="Big O Notation image">
   `,
   recursionDepth: `
@@ -846,6 +879,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Recursion depth refers to the number of times a recursive function calls itself before reaching the base case. It is important to manage recursion depth to avoid stack overflow errors and ensure efficient execution.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Understanding recursion depth helps in designing algorithms that use recursion effectively and safely.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/recursionDepth.jpg" alt="Recursion Depth image">
   `,
   debugging: `
@@ -854,6 +888,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Debugging is the process of identifying and fixing errors or bugs in software code. It involves testing, analyzing, and modifying code to ensure that it functions correctly.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Effective debugging is crucial for improving software quality and performance.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/debugging.jpg" alt="Debugging image">
   `,
   testing: `
@@ -862,6 +897,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Testing is the process of evaluating software to ensure it behaves as expected. It involves executing code with various inputs to verify correctness, performance, and reliability.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Testing can be performed manually or through automated test scripts and is essential for delivering high-quality software.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/testing.jpg" alt="Testing image">
   `,
   unitTest: `
@@ -870,6 +906,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">A unit test is a type of testing that focuses on verifying individual components or functions of a software application. It ensures that each unit of code performs as intended.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Unit tests are typically automated and help identify bugs early in the development process.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/unitTest.jpg" alt="Unit Test image">
   `,
   integrationTest: `
@@ -878,6 +915,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Integration testing focuses on verifying the interactions between different components or systems to ensure they work together as expected.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Integration tests help ensure that different parts of a software application integrate smoothly and function correctly as a whole.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/integrationTest.jpg" alt="Integration Test image">
   `,
   endToEndTest: `
@@ -886,6 +924,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">End-to-end testing evaluates the entire software application from start to finish to ensure that it works as intended in a real-world scenario.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It verifies that all components of the application interact correctly and that the system as a whole meets the desired requirements.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/endToEndTest.jpg" alt="End-to-End Test image">
   `,
   performanceTest: `
@@ -894,6 +933,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Performance testing evaluates how well a software application performs under various conditions, including load, stress, and scalability.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It helps identify bottlenecks and ensure that the application meets performance criteria and handles user demands effectively.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/performanceTest.jpg" alt="Performance Test image">
   `,
   loadTest: `
@@ -902,6 +942,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Load testing is a type of performance testing that evaluates how a software application handles a specific volume of users or transactions.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It helps determine if the application can handle expected load conditions without degrading performance.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/loadTest.jpg" alt="Load Test image">
   `,
   stressTest: `
@@ -910,6 +951,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Stress testing assesses how a software application performs under extreme conditions, such as a sudden spike in user activity or data volume.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It helps identify the application's breaking point and ensure it can recover gracefully from high-stress situations.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/stressTest.jpg" alt="Stress Test image">
   `,
   securityTest: `
@@ -918,6 +960,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Security testing identifies vulnerabilities and weaknesses in a software application to ensure it is protected against potential threats and attacks.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It involves checking for issues such as unauthorized access, data breaches, and compliance with security standards.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img src="assets/images/securityTest.jpg" alt="Security Test image">
   `,
   usabilityTest: `
@@ -926,6 +969,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Usability testing evaluates how easy and intuitive a software application is for users. It focuses on user experience, including ease of navigation, accessibility, and overall satisfaction.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Usability tests help ensure that the application is user-friendly and meets the needs of its target audience.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/usabilityTest.jpg" alt="Usability Test image">
   `,
   testDrivenDevelopment: `
@@ -934,6 +978,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Test-Driven Development (TDD) is a software development approach where tests are written before the actual code. It involves creating tests to define desired functionality and then writing code to pass those tests.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">TDD helps ensure code quality and functionality by promoting continuous testing and iterative development.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/testDrivenDevelopment.jpg" alt="Test-Driven Development image">
   `,
   continuousIntegration: `
@@ -942,6 +987,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Continuous Integration (CI) is a practice where code changes are automatically tested and integrated into a shared repository multiple times a day. It aims to detect and fix errors early in the development process.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">CI helps improve software quality and reduce integration issues by ensuring that code changes are tested and validated frequently.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/continuousIntegration.jpg" alt="Continuous Integration image">
   `,
   continuousDelivery: `
@@ -950,6 +996,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Continuous Delivery (CD) is a practice where code changes are automatically built, tested, and prepared for release to production. It ensures that software can be deployed at any time with minimal manual intervention.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">CD promotes faster delivery of new features and bug fixes by streamlining the release process and ensuring that software is always in a deployable state.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/continuousDelivery.jpg" alt="Continuous Delivery image">
   `,
   devOps: `
@@ -958,6 +1005,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to improve collaboration, automation, and efficiency throughout the software development lifecycle.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">DevOps aims to enhance the speed, quality, and reliability of software delivery by fostering a culture of continuous improvement and shared responsibility.</p>
     <br>
+    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
     <img class="responsive-image" src="assets/images/devOps.jpg" alt="DevOps image">
   `,
 };
