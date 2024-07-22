@@ -1,4 +1,4 @@
-`IMPORTANT: This project is currently under development and not ready for users. For future updates, watch this repository.
+`IMPORTANT: This project is currently under development and not ready for users. For future updates, watch this repository.`
 # Programming, Simplified;
 This simple project simplifies technical terms, concepts, jargon, and whatnot.
 
