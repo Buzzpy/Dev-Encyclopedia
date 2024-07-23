@@ -478,6 +478,18 @@
         <div class="card-subtext">A set of practices that combine Dev and Ops</div>
         <button class="explain-button" onclick="showModal('devOps')">Explain</button>
       </div>
+      <div class="card">
+        <div class="card-title">SQL</div>
+        <div class="card-subtext">A relational database management system</div>
+        <button class="explain-button" onclick="showModal('sql')">Explain</button>
+      </div>
+    
+      <div class="card">
+        <div class="card-title">NoSQL</div>
+        <div class="card-subtext">A non-relational database management system</div>
+        <button class="explain-button" onclick="showModal('nosql')">Explain</button>
+      </div>
+    
     
 
   
@@ -699,7 +711,7 @@
     <br>
     <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:718/0*7te6LdDJm2DqZIHB.png" alt="Agile image">
     <br>
-    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <a href="https://www.spiceworks.com/tech/devops/articles/what-is-agile-software-development/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   scrum: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Scrum</h2>
@@ -709,7 +721,7 @@
     <br>
     <img class="responsive-image" src="https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2023-09/scrum-framework-9.29.23.png" alt="Scrum image">
     <br>
-    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <a href="https://www.scrum.org/resources/what-scrum-module" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   kanban: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Kanban</h2>
@@ -719,7 +731,7 @@
     <br>
     <img class="responsive-image" src="https://media.geeksforgeeks.org/wp-content/uploads/20231107173425/Kanban-board-2.png" alt="Kanban image">
     <br>
-    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <a href="https://www.atlassian.com/agile/kanban" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   sql: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">SQL</h2>
@@ -729,7 +741,7 @@
     <br>
     <img class="responsive-image" src="https://www.spiceworks.com/wp-content/uploads/2022/06/How-Does-SQL-Work.png" alt="SQL image">
     <br>
-    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <a href="https://aws.amazon.com/what-is/sql/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   nosql: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">NoSQL</h2>
@@ -739,7 +751,7 @@
     <br>
     <img class="responsive-image" src="assets/images/nosql.jpg" alt="NoSQL image">
     <br>
-    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <a href="https://www.ibm.com/topics/nosql-databases" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   html: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">HTML</h2>
@@ -749,7 +761,7 @@
     <br>
     <img class="responsive-image" src="assets/images/html.jpg" alt="HTML image">
     <br>
-    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <a href="https://www.hostinger.com/tutorials/what-is-html" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   css: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">CSS</h2>
@@ -759,7 +771,7 @@
     <br>
     <img class="responsive-image" src="assets/images/css.jpg" alt="CSS image">
     <br>
-    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <a href="https://www.hostinger.com/tutorials/what-is-css" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   java: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Java</h2>
@@ -769,7 +781,7 @@
     <br>
     <img class="responsive-image" src="assets/images/java.jpg" alt="Java image">
     <br>
-    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <a href="https://www.simplilearn.com/tutorials/java-tutorial/what-is-java" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   cSharp: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">C#</h2>
@@ -1087,7 +1099,7 @@
     function showAbout() {
       const modal = document.getElementById('modal');
       const modalBody = document.getElementById('modal-body');
-      modalBody.innerHTML = '<h2>About</h2><p>Tech Simplified is a simple project that simplifies things.<p>This website has almost all the commonly used technical terms, concepts and even programming-language specific jargons explained and links provided for furthur reading.</p><p><strong>IMPORTANT: </strong> Bookmarking or Pinning this webpage would help you get a quick overview of anything related to tech in a second!</p>';
+      modalBody.innerHTML = '<h2>About</h2><strong>IMPORTANT: Bookmarking or Pinning this webpage would help you get a quick overview of anything related to tech in seconds! </strong></p><p>Tech Simplified is a simple project that simplifies things.<p>This website has almost all the commonly used technical terms, concepts and even programming-language specific jargons explained and links provided for furthur reading.</p><br><p>Builit with love, by Chenuli J.</p><img src="image/Chenuli Signature.png"></img>';
       modal.style.display = 'block';
     }
     function showBuilders() {
