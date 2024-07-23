@@ -6,14 +6,14 @@
   <meta name="google-site-verification" content="-QKN9sbp37vkvEPbvMv7pz_OtmphW72Qoz_KhnNC3MI" />
   <meta name="title" content="Programming, Simplified; | Developers' Encyclopedia">
   <meta name="description" content="Stuck on a tech term, or concept? The developers' encyclopedia includes short explanations and samples to help you find everything you need.">
-  <meta name="keywords" content="programming simplified , developer encyclopedia , developer dictionary , developer resources , developer tools , software resources , programming resources , programming cards , programming terms , tech terms">
+  <meta name="keywords" content="programming simplified , developer encyclopedia , developer dictionary , developer resources , developer tools , software resources , programming resources , programming cards , programming terms , tech terms , dev encyclopedia">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
   <meta name="author" content="chenuli jayasinghe">
 
   <title>Programming, Simplified;</title>
 
-
+  <link rel="icon" href="logo.png">
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
@@ -309,6 +309,11 @@
         <button class="explain-button" onclick="showModal('recursion')">Explain</button>
       </div>
       <div class="card">
+        <div class="card-title">Iteration</div>
+        <div class="card-subtext">A programming technique</div>
+        <button class="explain-button" onclick="showModal('iterations')">Explain</button>
+      </div>
+      <div class="card">
         <div class="card-title">Version Control</div>
         <div class="card-subtext">Recording every change</div>
         <button class="explain-button" onclick="showModal('versionControl')">Explain</button>
@@ -484,6 +489,11 @@
         <button class="explain-button" onclick="showModal('continuousDelivery')">Explain</button>
       </div>
       <div class="card">
+        <div class="card-title">Continuous Deployment</div>
+        <div class="card-subtext">No idea</div>
+        <button class="explain-button" onclick="showModal('continuousDeployment')">Explain</button>
+      </div>
+      <div class="card">
         <div class="card-title">DevOps</div>
         <div class="card-subtext">A set of practices that combine Dev and Ops</div>
         <button class="explain-button" onclick="showModal('devOps')">Explain</button>
@@ -499,7 +509,255 @@
         <div class="card-subtext">A non-relational database management system</div>
         <button class="explain-button" onclick="showModal('nosql')">Explain</button>
       </div>
+      <div class="card">
+        <div class="card-title">Dimensionality Reduction</div>
+        <div class="card-subtext">Reducing feature space</div>
+        <button class="explain-button" onclick="showModal('dimensionalityReduction')">Explain</button>
+    </div>
     
+    <div class="card">
+        <div class="card-title">Ensemble Learning</div>
+        <div class="card-subtext">Combining multiple models</div>
+        <button class="explain-button" onclick="showModal('ensembleLearning')">Explain</button>
+    </div>
+
+    
+    <div class="card">
+        <div class="card-title">Precision and Recall</div>
+        <div class="card-subtext">Classification metrics</div>
+        <button class="explain-button" onclick="showModal('precisionRecall')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">ROC Curve</div>
+        <div class="card-subtext">Classifier performance plot</div>
+        <button class="explain-button" onclick="showModal('rocCurve')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Feature Engineering</div>
+        <div class="card-subtext">Creating new features</div>
+        <button class="explain-button" onclick="showModal('featureEngineering')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Bias-Variance Tradeoff</div>
+        <div class="card-subtext">Balancing model errors</div>
+        <button class="explain-button" onclick="showModal('biasVarianceTradeoff')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Outlier Detection</div>
+        <div class="card-subtext">Identifying unusual data</div>
+        <button class="explain-button" onclick="showModal('outlierDetection')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Cross-Validation</div>
+        <div class="card-subtext">Assessing model performance</div>
+        <button class="explain-button" onclick="showModal('crossValidation')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Decision Trees</div>
+        <div class="card-subtext">Tree-like model for decisions</div>
+        <button class="explain-button" onclick="showModal('decisionTrees')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Support Vector Machines</div>
+        <div class="card-subtext">Classification and regression</div>
+        <button class="explain-button" onclick="showModal('supportVectorMachines')">Explain</button>
+    </div>
+    
+    
+    <div class="card">
+        <div class="card-title">K-Means Clustering</div>
+        <div class="card-subtext">Partitioning data into clusters</div>
+        <button class="explain-button" onclick="showModal('kMeansClustering')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Neural Networks</div>
+        <div class="card-subtext">Computational models inspired by the brain</div>
+        <button class="explain-button" onclick="showModal('neuralNetworks')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Decision Boundaries</div>
+        <div class="card-subtext">Separating different classes</div>
+        <button class="explain-button" onclick="showModal('decisionBoundaries')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Precision-Recall Curve</div>
+        <div class="card-subtext">Plot of precision vs recall</div>
+        <button class="explain-button" onclick="showModal('precisionRecallCurve')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Gradient Descent</div>
+        <div class="card-subtext">Optimization technique</div>
+        <button class="explain-button" onclick="showModal('gradientDescent')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Regularization</div>
+        <div class="card-subtext">Preventing overfitting</div>
+        <button class="explain-button" onclick="showModal('regularization')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Hyperparameters</div>
+        <div class="card-subtext">Tuning model settings</div>
+        <button class="explain-button" onclick="showModal('hyperparameters')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Bagging</div>
+        <div class="card-subtext">Bootstrap aggregation</div>
+        <button class="explain-button" onclick="showModal('bagging')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Boosting</div>
+        <div class="card-subtext">Combining weak learners</div>
+        <button class="explain-button" onclick="showModal('boosting')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Random Forests</div>
+        <div class="card-subtext">Ensemble of decision trees</div>
+        <button class="explain-button" onclick="showModal('randomForests')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Principal Component Analysis</div>
+        <div class="card-subtext">Dimensionality reduction technique</div>
+        <button class="explain-button" onclick="showModal('principalComponentAnalysis')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Hierarchical Clustering</div>
+        <div class="card-subtext">Cluster analysis method</div>
+        <button class="explain-button" onclick="showModal('hierarchicalClustering')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Autoencoders</div>
+        <div class="card-subtext">Neural network for encoding data</div>
+        <button class="explain-button" onclick="showModal('autoencoders')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Naive Bayes</div>
+        <div class="card-subtext">Probabilistic classification method</div>
+        <button class="explain-button" onclick="showModal('naiveBayes')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Text Mining</div>
+        <div class="card-subtext">Extracting information from text</div>
+        <button class="explain-button" onclick="showModal('textMining')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Time Series Analysis</div>
+        <div class="card-subtext">Analyzing data over time</div>
+        <button class="explain-button" onclick="showModal('timeSeriesAnalysis')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Reinforcement Learning</div>
+        <div class="card-subtext">Learning through rewards</div>
+        <button class="explain-button" onclick="showModal('reinforcementLearning')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Generative Adversarial Networks</div>
+        <div class="card-subtext">Creating data with GANs</div>
+        <button class="explain-button" onclick="showModal('generativeAdversarialNetworks')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Natural Language Processing</div>
+        <div class="card-subtext">Processing and analyzing language</div>
+        <button class="explain-button" onclick="showModal('naturalLanguageProcessing')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Neural Network Activation Functions</div>
+        <div class="card-subtext">Functions that determine neuron activation</div>
+        <button class="explain-button" onclick="showModal('neuralNetworkActivationFunctions')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Convolutional Neural Networks</div>
+        <div class="card-subtext">Neural networks for image data</div>
+        <button class="explain-button" onclick="showModal('convolutionalNeuralNetworks')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Recurrent Neural Networks</div>
+        <div class="card-subtext">Neural networks for sequential data</div>
+        <button class="explain-button" onclick="showModal('recurrentNeuralNetworks')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Long Short-Term Memory</div>
+        <div class="card-subtext">Special type of RNN for long sequences</div>
+        <button class="explain-button" onclick="showModal('longShortTermMemory')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Word Embeddings</div>
+        <div class="card-subtext">Representing words in vectors</div>
+        <button class="explain-button" onclick="showModal('wordEmbeddings')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Model Evaluation Metrics</div>
+        <div class="card-subtext">Metrics to evaluate model performance</div>
+        <button class="explain-button" onclick="showModal('modelEvaluationMetrics')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Hyperparameter Tuning</div>
+        <div class="card-subtext">Optimizing model parameters</div>
+        <button class="explain-button" onclick="showModal('hyperparameterTuning')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Feature Selection</div>
+        <div class="card-subtext">Choosing relevant features</div>
+        <button class="explain-button" onclick="showModal('featureSelection')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Data Preprocessing</div>
+        <div class="card-subtext">Preparing data for modeling</div>
+        <button class="explain-button" onclick="showModal('dataPreprocessing')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Data Augmentation</div>
+        <div class="card-subtext">Increasing data variability</div>
+        <button class="explain-button" onclick="showModal('dataAugmentation')">Explain</button>
+    </div>
+    
+    <div class="card">
+        <div class="card-title">Model Deployment</div>
+        <div class="card-subtext">Putting models into production</div>
+        <button class="explain-button" onclick="showModal('modelDeployment')">Explain</button>
+    </div>
+    
+  
+  <div class="card">
+      <div class="card-title">Ensemble Learning</div>
+      <div class="card-subtext">Combining multiple models</div>
+      <button class="explain-button" onclick="showModal('ensembleLearning')">Explain</button>
+  </div>
+
     
 
   
@@ -801,7 +1059,7 @@
     <br>
     <img class="responsive-image" src="assets/images/cSharp.jpg" alt="C# image">
     <br>
-    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <a href="https://dotnet.microsoft.com/en-us/languages/csharp" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   php: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">PHP</h2>
@@ -811,7 +1069,7 @@
     <br>
     <img class="responsive-image" src="assets/images/php.jpg" alt="PHP image">
     <br>
-     <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+     <a href="https://www.freecodecamp.org/news/what-is-php-the-php-programming-language-meaning-explained/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   ruby: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Ruby</h2>
@@ -819,7 +1077,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Ruby is an object-oriented programming language known for its simplicity and productivity. It is often used for web development, particularly with the Ruby on Rails framework.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Ruby's elegant syntax makes it easy to read and write, helping developers create robust applications quickly.</p>
     <br>
-     <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+     <a href="https://developer.oracle.com/learn/technical-articles/what-is-ruby" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   swift: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Swift</h2>
@@ -829,7 +1087,7 @@
     <br>
     <img class="responsive-image" src="assets/images/swift.jpg" alt="Swift image">
     <br>
-     <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+     <a href="https://developer.apple.com/swift/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   typescript: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">TypeScript</h2>
@@ -839,7 +1097,7 @@
     <br>
     <img class="responsive-image" src="assets/images/typescript.jpg" alt="TypeScript image">
    <br>
-     <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+     <a href="https://www.typescripttutorial.net/typescript-tutorial/what-is-typescript/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
 
   `,
   kotlin: `
@@ -849,7 +1107,7 @@
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Kotlin offers modern features, concise syntax, and improved safety compared to Java.</p>
     <br>
    
-     <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+     <a href="https://www.techtarget.com/whatis/definition/Kotlin" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   bash: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Bash</h2>
@@ -857,7 +1115,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Bash is a Unix shell and command language used for writing shell scripts. It allows users to automate tasks, manage files, and interact with the operating system through commands.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Bash scripts are commonly used for system administration and software deployment tasks.</p>
     <br>
-    <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <a href="https://opensource.com/resources/what-bash" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   rubyOnRails: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Ruby on Rails</h2>
@@ -867,7 +1125,7 @@
     <br>
     <img class="responsive-image" src="assets/images/rubyOnRails.jpg" alt="Ruby on Rails image">
      <br>
-     <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+     <a href="https://www.codecademy.com/resources/blog/what-is-ruby-on-rails/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   angular: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Angular</h2>
@@ -877,7 +1135,7 @@
     <br>
     <img class="responsive-image" src="https://www.aalpha.net/wp-content/uploads/2019/07/angularjs-development-india.jpg" alt="Angular image">
      <br>
-     <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+     <a href="https://v17.angular.io/guide/what-is-angular" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   vueJS: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">VueJS</h2>
@@ -905,7 +1163,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">SwiftUI is a framework by Apple for building user interfaces across all Apple platforms using a declarative Swift syntax. It simplifies the process of creating complex UI elements and animations.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">SwiftUI integrates seamlessly with existing Swift code and provides a live preview of UI changes, enhancing the development workflow.</p>
     <br>
-     <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+     <a href="https://www.adjust.com/blog/get-started-with-swiftui/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   algorithm: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Algorithm</h2>
@@ -915,7 +1173,7 @@
     <br>
     <img class="responsive-image" src="https://cdn.ttgtmedia.com/rms/onlineimages/types_of_algorithms-f_mobile.png" alt="Algorithm image">
      <br>
-     <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+     <a href="https://www.geeksforgeeks.org/introduction-to-algorithms/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   dataStructure: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Data Structure</h2>
@@ -925,7 +1183,7 @@
     <br>
     <img class="responsive-image" src="https://media.geeksforgeeks.org/wp-content/uploads/20220520182504/ClassificationofDataStructure-660x347.jpg" alt="Data Structure image">
      <br>
-     <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+     <a href="https://www.w3schools.com/dsa/dsa_intro.php" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   bigO: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Big O Notation</h2>
@@ -934,7 +1192,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">In simple words, Big O Notation helps us understand how the time to find something changes as the number of items increases. The lower the Big O value, the more efficient the process!</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Big O notation also helps in <strong> analyzing and comparing the efficiency </strong> of different algorithms.</p>
     <br>
-     <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+     <a href="https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   recursionDepth: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Recursion Depth</h2>
@@ -942,7 +1200,6 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Recursion depth refers to the number of times a recursive function calls itself before reaching the base case. It is important to manage recursion depth to avoid stack overflow errors and ensure efficient execution.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Understanding recursion depth helps in designing algorithms that use recursion effectively and safely.</p>
     <br>
-     <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   debugging: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Debugging</h2>
@@ -952,7 +1209,7 @@
     <br>
     <img class="responsive-image" src="https://www.edureka.co/blog/wp-content/uploads/2019/08/debuuging-steps-528x294.png" alt="Debugging image">
      <br>
-     <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+     <a href="https://www.ibm.com/topics/debugging" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   testing: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Testing</h2>
@@ -961,7 +1218,7 @@
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Testing can be performed manually or through automated test scripts and is essential for delivering high-quality software.</p>
     <br>
 
-     <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+     <a href="https://www.ibm.com/topics/software-testing" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   unitTest: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Unit Test</h2>
@@ -971,7 +1228,7 @@
     <br>
     <img class="responsive-image" src="https://codenboxautomationlab.com/wp-content/uploads/2022/06/unit-testing-life-cycle-pic.png" alt="Unit Test image">
      <br>
-     <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+     <a href="https://aws.amazon.com/what-is/unit-testing/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   integrationTest: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Integration Test</h2>
@@ -981,7 +1238,7 @@
     <br>
     <img class="responsive-image" src="https://www.simform.com/wp-content/uploads/2022/01/Integration-testing-types.png" alt="Integration Test image">
      <br>
-     <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+     <a href="https://katalon.com/resources-center/blog/integration-testing" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   endToEndTest: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">End-to-End Test</h2>
@@ -991,7 +1248,7 @@
     <br>
     <img class="responsive-image" src="https://cdn.prod.website-files.com/610bb663a35dd3364ddbf08c/62b594796e28e910d6624e03_end-to-end-testing-metrics.png" alt="End-to-End Test image">
      <br>
-     <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+     <a href="https://smartbear.com/learn/automated-testing/what-is-end-to-end-testing/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   performanceTest: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Performance Test</h2>
@@ -1001,7 +1258,7 @@
     <br>
     <img class="responsive-image" src="https://www.a1qa.com/wp-content/uploads/2019/06/performance-testing.jpg" alt="Performance Test image">
      <br>
-     <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+     <a href="https://en.wikipedia.org/wiki/Software_performance_testing" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   loadTest: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Load Test</h2>
@@ -1010,7 +1267,7 @@
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It helps determine if the application can handle expected load conditions without degrading performance.</p>
     <br>
    
-     <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+     <a href="https://en.wikipedia.org/wiki/Software_load_testing#:~:text=Load%20testing%20generally%20refers%20to,model%2C%20such%20as%20web%20servers." class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   stressTest: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Stress Test</h2>
@@ -1019,7 +1276,7 @@
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It helps identify the application's breaking point and ensure it can recover gracefully from high-stress situations.</p>
     <br>
    
-     <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+     <a href="https://www.geeksforgeeks.org/stress-testing-software-testing/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   securityTest: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Security Test</h2>
@@ -1028,7 +1285,7 @@
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It involves checking for issues such as unauthorized access, data breaches, and compliance with security standards.</p>
     <br>
 
-     <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+     <a href="https://www.hackerone.com/knowledge-center/what-security-testing" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   usabilityTest: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Usability Test</h2>
@@ -1037,7 +1294,7 @@
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Usability tests help ensure that the application is user-friendly and meets the needs of its target audience.</p>
     <br>
   
-     <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+     <a href="https://www.geeksforgeeks.org/usability-testing/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   testDrivenDevelopment: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Test-Driven Development</h2>
@@ -1045,7 +1302,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Test-Driven Development (TDD) is a software development approach where tests are written before the actual code. It involves creating tests to define desired functionality and then writing code to pass those tests.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">TDD helps ensure code quality and functionality by promoting continuous testing and iterative development.</p>
     <br>
-     <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+     <a href="https://testdriven.io/test-driven-development/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   continuousIntegration: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Continuous Integration</h2>
@@ -1055,7 +1312,7 @@
     <br>
     <img class="responsive-image" src="https://www.pagerduty.com/wp-content/uploads/2020/01/continuous-integration-2.png" alt="Continuous Integration image">
      <br>
-     <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+     <a href="https://aws.amazon.com/devops/continuous-integration/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   continuousDelivery: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Continuous Delivery</h2>
@@ -1065,7 +1322,7 @@
     <br>
     <img class="responsive-image" src="https://infraascode.com.br/images/ci_cd-CD.png" alt="Continuous Delivery image">
      <br>
-     <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+     <a href="https://aws.amazon.com/devops/continuous-delivery/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   devOps: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">DevOps</h2>
@@ -1073,10 +1330,520 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to improve collaboration, automation, and efficiency throughout the software development lifecycle.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">DevOps aims to enhance the speed, quality, and reliability of software delivery by fostering a culture of continuous improvement and shared responsibility.</p>
     <br>
-    <img class="responsive-image" src="https://images.spiceworks.com/wp-content/uploads/2021/08/26123909/DevOps-Lifecycle.pnghttps://images.spiceworks.com/wp-content/uploads/2021/08/26123909/DevOps-Lifecycle.png" alt="DevOps image">
+    <img class="responsive-image" src="https://d1.awsstatic.com/product-marketing/DevOps/DevOps_feedback-diagram.ff668bfc299abada00b2dcbdc9ce2389bd3dce3f.png" alt="DevOps image">
      <br>
-     <a href="https://example.com" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+     <a href="https://aws.amazon.com/devops/what-is-devops/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
+  continuousDeployment: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Continuous Deployment</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Continuous Deployment is a software release process where code changes are automatically deployed to production without manual intervention.</p>
+    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">This practice ensures that new features and bug fixes are delivered quickly and efficiently.</p>
+    <br>
+    <img class="responsive-image" src="https://cdn-images-1.medium.com/max/1600/1*oJYE13DtVrDms_0xb7lWHw.png" alt="Continuous Deployment image">
+    <br>
+    <a href="https://www.redhat.com/en/topics/devops/what-is-continuous-deployment" class="modal-link" style="text-align: center;" target="_blank">⌁—— Read more about it ——⌁</a>
+  `,
+
+
+  gitHub: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">GitHub</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">GitHub is a web-based platform used for version control and collaborative software development. It uses Git for tracking changes in source code during development.</p>
+    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Developers can share their projects and collaborate on code with others using GitHub repositories.</p>
+    <br>
+    <img class="responsive-image" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub image">
+    <br>
+    <a href="https://docs.github.com/en/get-started" class="modal-link" style="text-align: center;" target="_blank">⌁—— Read more about it ——⌁</a>
+  `,
+
+  gitLab: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">GitLab</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">GitLab is a web-based DevOps lifecycle tool that provides a Git repository manager providing wiki, issue-tracking, and CI/CD pipeline features.</p>
+    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It allows teams to collaborate on code, track changes, and automate the software release process.</p>
+    <br>
+    <img class="responsive-image" src="https://about.gitlab.com/images/press/logo/png/gitlab-icon-rgb.png" alt="GitLab image">
+    <br>
+    <a href="https://about.gitlab.com/handbook/engineering/#development" class="modal-link" style="text-align: center;" target="_blank">⌁—— Read more about it ——⌁</a>
+  `,
+
+  tkinter: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Tkinter</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Tkinter is a standard GUI (Graphical User Interface) toolkit in Python. It provides a fast and easy way to create graphical user interfaces for Python applications.</p>
+    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">With Tkinter, you can create buttons, labels, text boxes, and more to build interactive applications.</p>
+    <br>
+    <img class="responsive-image" src="https://upload.wikimedia.org/wikipedia/commons/8/88/TkinterLogo.png" alt="Tkinter image">
+    <br>
+    <a href="https://docs.python.org/3/library/tkinter.html" class="modal-link" style="text-align: center;" target="_blank">⌁—— Read more about it ——⌁</a>
+  `,
+
+  vim: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Vim</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Vim is a highly configurable text editor built to enable efficient text editing. It is an improved version of the vi editor distributed with most UNIX systems.</p>
+    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Vim is often used for programming due to its powerful features and efficiency.</p>
+    <br>
+    <img class="responsive-image" src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Vimlogo.svg" alt="Vim image">
+    <br>
+    <a href="https://www.vim.org/about.php" class="modal-link" style="text-align: center;" target="_blank">⌁—— Read more about it ——⌁</a>
+  `,
+
+  iterations: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Iterations</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Iteration is the process of repeating a set of instructions in a loop until a specific condition is met. It is commonly used in programming to perform repetitive tasks.</p>
+    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">For example, a loop can iterate over elements in a list to perform an action on each element.</p>
+    <br>
+    <img class="responsive-image" src="https://miro.medium.com/max/1400/0*KozJk0MdbfuSpS4Y.png" alt="Iterations image">
+    <br>
+    <a href="https://www.geeksforgeeks.org/iteration-in-python/" class="modal-link" style="text-align: center;" target="_blank">⌁—— Read more about it ——⌁</a>
+  `,
+
+  jamstack: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">JAMstack</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">JAMstack stands for JavaScript, APIs, and Markup. It is a modern web development architecture that decouples the front-end from the back-end.</p>
+    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">This approach improves performance, security, and scalability of web applications.</p>
+    <br>
+    <img class="responsive-image" src="https://jamstack.org/img/jamstack-logo.svg" alt="JAMstack image">
+    <br>
+    <a href="https://jamstack.org/what-is-jamstack/" class="modal-link" style="text-align: center;" target="_blank">⌁—— Read more about it ——⌁</a>
+  `,
+  modelEvaluation: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Model Evaluation</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Model Evaluation involves assessing the performance of a machine learning model using various metrics such as accuracy, precision, recall, and F1 score. It helps to determine how well the model performs on unseen data.</p>
+    <br>
+    <img class="responsive-image" src="https://www.kdnuggets.com/wp-content/uploads/2020/01/Model-Evaluation-1024x683.png" alt="Model Evaluation image">
+    <br>
+    <a href="https://towardsdatascience.com/model-evaluation-in-machine-learning-263d62e0df12" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+
+  hyperparameterTuning: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Hyperparameter Tuning</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Hyperparameter Tuning is the process of optimizing the hyperparameters of a machine learning model to achieve better performance. It involves methods like grid search and random search.</p>
+    <br>
+    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*De6k7WwWzKJxA8tce2jFSA.png" alt="Hyperparameter Tuning image">
+    <br>
+    <a href="https://towardsdatascience.com/hyperparameter-tuning-dc4f8a78d1bb" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+
+  anomalyDetection: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Anomaly Detection</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Anomaly Detection involves identifying unusual data points that do not fit the expected pattern. It's used in fraud detection, network security, and quality control.</p>
+    <br>
+    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*R5gG62dyjKnvqfug1E2tQw.png" alt="Anomaly Detection image">
+    <br>
+    <a href="https://towardsdatascience.com/anomaly-detection-in-machine-learning-2a24fd237691" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+
+  naturalLanguageProcessing: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Natural Language Processing (NLP)</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Natural Language Processing (NLP) is a field of AI that enables machines to understand, interpret, and generate human language. It is used in applications like chatbots, translation services, and sentiment analysis.</p>
+    <br>
+    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*TrXaRkzQeM8NNxCEp2-aLw.png" alt="Natural Language Processing image">
+    <br>
+    <a href="https://www.ibm.com/cloud/learn/natural-language-processing" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+
+
+  gradientDescent: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Gradient Descent</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Gradient Descent is an optimization algorithm used to minimize the cost function of a machine learning model. It adjusts the model's parameters to find the best fit for the data.</p>
+    <br>
+    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*0D3Hf1nW8iFi1dHZpUR-hQ.png" alt="Gradient Descent image">
+    <br>
+    <a href="https://towardsdatascience.com/gradient-descent-algorithm-1fd09d1bb7ef" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+
+  dimensionalityReduction: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Dimensionality Reduction</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Dimensionality Reduction involves reducing the number of input variables in a dataset. Techniques like Principal Component Analysis (PCA) help to simplify models and improve performance.</p>
+    <br>
+    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*RkN0aG78q2eXANIG1ZAtxA.png" alt="Dimensionality Reduction image">
+    <br>
+    <a href="https://towardsdatascience.com/dimensionality-reduction-in-machine-learning-c14c6a5b927b" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+
+  ensembleLearning: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Ensemble Learning</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Ensemble Learning is a technique that combines multiple models to improve overall performance. Methods like bagging, boosting, and stacking are used to enhance prediction accuracy.</p>
+    <br>
+    <img class="responsive-image" src="https://ro.medium.com/v2/resize:fit:1200/format:webp/1*clLs4-p8w4hQ17NN8E7wXg.png" alt="Ensemble Learning image">
+    <br>
+    <a href="https://www.datacamp.com/community/tutorials/ensemble-methods-machine-learning" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+
+  abTesting: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">A/B Testing</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">A/B Testing is a method of comparing two versions of a webpage or product to determine which one performs better. It helps in making data-driven decisions for improving user experience.</p>
+    <br>
+    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*FzIHqeqybYNwGEpD-7e9vA.png" alt="A/B Testing image">
+    <br>
+    <a href="https://www.optimizely.com/optimization-glossary/ab-testing/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+
+  precisionRecall: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Precision and Recall</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Precision and Recall are metrics used to evaluate the performance of a classification model. Precision measures the accuracy of positive predictions, while Recall measures the ability to find all positive instances.</p>
+    <br>
+    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*HaJof_U_Lv4zchN6ZX5iIA.png" alt="Precision and Recall image">
+    <br>
+    <a href="https://towardsdatascience.com/precision-recall-and-f1-score-in-machine-learning-6c689db55ae3" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+
+  rocCurve: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">ROC Curve</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">ROC Curve (Receiver Operating Characteristic Curve) is a graphical representation of a classifier's performance. It plots the true positive rate against the false positive rate.</p>
+    <br>
+    <img class="responsive-image" src="https://www.analyticsvidhya.com/wp-content/uploads/2019/04/roc-curve.jpg" alt="ROC Curve image">
+    <br>
+    <a href="https://towardsdatascience.com/understanding-the-roc-curve-86b02fbe727b" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+
+  featureEngineering: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Feature Engineering</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Feature Engineering involves creating new features or modifying existing ones to improve the performance of machine learning models. It helps in making the data more suitable for modeling.</p>
+    <br>
+    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*N8XkNeNp_qzm6b14bbM4BA.png" alt="Feature Engineering image">
+    <br>
+    <a href="https://www.datascience.com/blog/feature-engineering" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+
+  biasVarianceTradeoff: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Bias-Variance Tradeoff</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">The Bias-Variance Tradeoff is a fundamental concept in machine learning that describes the tradeoff between the bias and variance of a model. Lower bias typically means higher variance and vice versa.</p>
+    <br>
+    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*QGkTP-u6_mOaEFmVvPxopA.png" alt="Bias-Variance Tradeoff image">
+    <br>
+    <a href="https://towardsdatascience.com/bias-variance-tradeoff-explained-cb705b9c0b68" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+
+  outlierDetection: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Outlier Detection</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Outlier Detection involves identifying data points that deviate significantly from the rest of the data. It's important for ensuring data quality and can affect the performance of machine learning models.</p>
+    <br>
+    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*FEqA3k9u5KybkHsCci62pw.png" alt="Outlier Detection image">
+    <br>
+    <a href="https://towardsdatascience.com/outlier-detection-methods-in-machine-learning-7a40f2f8102f" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+
+  crossValidation: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Cross-Validation</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Cross-Validation is a technique for assessing how the results of a statistical analysis will generalize to an independent dataset. It is mainly used to validate the performance of a model.</p>
+    <br>
+    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*xmVAs2w73LcbRug8nV8sCQ.png" alt="Cross-Validation image">
+    <br>
+    <a href="https://towardsdatascience.com/cross-validation-in-machine-learning-5f96d7a7de4f" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+
+  decisionTrees: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Decision Trees</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Decision Trees are a type of model used in machine learning for classification and regression tasks. They work by splitting data into subsets based on feature values, resulting in a tree-like structure.</p>
+    <br>
+    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*Vk_nQ1-QsCuDgnpZUztd-A.png" alt="Decision Trees image">
+    <br>
+    <a href="https://towardsdatascience.com/decision-trees-in-machine-learning-dff897f6d76e" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+
+  supportVectorMachines: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Support Vector Machines</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Support Vector Machines (SVM) are a type of supervised learning algorithm used for classification and regression. They work by finding the optimal hyperplane that separates data points of different classes.</p>
+    <br>
+    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*FJydPQQOir7ApQn8uA9YgA.png" alt="Support Vector Machines image">
+    <br>
+    <a href="https://towardsdatascience.com/support-vector-machines-svm-explained-e2d92b4b63e3" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+
+  logisticRegression: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Logistic Regression</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Logistic Regression is a statistical model used for binary classification tasks. It estimates the probability that a given input belongs to a certain class.</p>
+    <br>
+    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*sI0UkA-YWmjxQgMxpyqW5Q.png" alt="Logistic Regression image">
+    <br>
+    <a href="https://towardsdatascience.com/logistic-regression-d5b538e4b6ea" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+
+  kMeansClustering: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">K-Means Clustering</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">K-Means Clustering is an unsupervised learning algorithm used to partition data into k clusters. Each cluster has a centroid, and the algorithm minimizes the distance between data points and the centroid.</p>
+    <br>
+    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*XHUmP1wS1jld1U2aY-78vQ.png" alt="K-Means Clustering image">
+    <br>
+    <a href="https://towardsdatascience.com/k-means-clustering-algorithm-fc36e65e12d6" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+
+  neuralNetworks: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Neural Networks</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Neural Networks are computational models inspired by the human brain. They consist of interconnected nodes or neurons that work together to process data and make predictions.</p>
+    <br>
+    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*e2P4lNGtKQQq1nZfg2-5SA.png" alt="Neural Networks image">
+    <br>
+    <a href="https://www.ibm.com/topics/what-is-a-neural-network" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+
+  decisionBoundaries: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Decision Boundaries</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Decision Boundaries are lines or surfaces that separate different classes in a dataset. They help to visualize how a model classifies data points based on their features.</p>
+    <br>
+    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*XXmT9BQphU8G1mXtTiNdww.png" alt="Decision Boundaries image">
+    <br>
+    <a href="https://towardsdatascience.com/understanding-decision-boundaries-in-machine-learning-9fd2e1f6d49b" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+
+  precisionRecallCurve: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Precision-Recall Curve</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">The Precision-Recall Curve is a plot of the precision versus recall for a classification model. It helps evaluate the trade-off between precision and recall at different threshold settings.</p>
+    <br>
+    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*Q2VE3y_MheYXoUR2G7C1fA.png" alt="Precision-Recall Curve image">
+    <br>
+    <a href="https://towardsdatascience.com/precision-recall-curves-2d5f8a8c4b73" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `
+  ,
+  regularization: `
+        <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Regularization</h2>
+        <br>
+        <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Regularization is a technique used to prevent overfitting in machine learning models by adding a penalty to the complexity of the model. This helps in improving the model’s generalization to new, unseen data.</p>
+        <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Common regularization methods include L1 and L2 regularization, which add penalties based on the magnitude of the coefficients in the model.</p>
+        <br>
+        <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/1*ru-vwVZzlvAszN2yyi9rlw.png" alt="Regularization image">
+        <br>
+        <a href="https://www.analyticsvidhya.com/blog/2020/03/regularization-in-machine-learning/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    `,
+    hyperparameters: `
+        <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Hyperparameters</h2>
+        <br>
+        <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Hyperparameters are the parameters that are set before the learning process begins and are used to control the training of a machine learning model. Examples include the learning rate, number of layers in a neural network, and the number of trees in a random forest.</p>
+        <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Tuning hyperparameters is crucial for optimizing model performance and is often done using techniques like grid search or random search.</p>
+        <br>
+        <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/1*a77qwheMw6C2Q5LsV5TiQg.png" alt="Hyperparameters image">
+        <br>
+        <a href="https://towardsdatascience.com/understanding-hyperparameters-and-hyperparameter-tuning-7e6dbbce3d65" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    `,
+    bagging: `
+        <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Bagging</h2>
+        <br>
+        <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Bagging, or Bootstrap Aggregating, is an ensemble learning technique that improves model accuracy by training multiple models on different subsets of the training data and averaging their predictions.</p>
+        <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">This technique helps in reducing variance and improving the robustness of the model.</p>
+        <br>
+        <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*2yOyej7DA6YoMIsXLhYH7g.png" alt="Bagging image">
+        <br>
+        <a href="https://towardsdatascience.com/bagging-and-boosting-7d62792c045e" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    `,
+    boosting: `
+        <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Boosting</h2>
+        <br>
+        <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Boosting is an ensemble technique that combines multiple weak learners to create a strong learner by sequentially correcting the errors of the previous models.</p>
+        <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">This approach helps in improving the model’s accuracy by focusing on the errors made by previous models.</p>
+        <br>
+        <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*nmOp1N59z0T2JZzO7l6TWQ.png" alt="Boosting image">
+        <br>
+        <a href="https://towardsdatascience.com/understanding-boosting-in-machine-learning-7a4465e9a26f" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    `,
+    randomForests: `
+        <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Random Forests</h2>
+        <br>
+        <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Random Forests is an ensemble learning method that constructs multiple decision trees during training and outputs the class that is the mode of the classes (for classification) or mean prediction (for regression) of the individual trees.</p>
+        <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It helps in reducing overfitting and improving model accuracy.</p>
+        <br>
+        <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*FLPZxYqpyW9WmFif0WLElA.png" alt="Random Forests image">
+        <br>
+        <a href="https://towardsdatascience.com/random-forest-algorithm-in-machine-learning-3a0d7e9b1c7d" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    `,
+    principalComponentAnalysis: `
+        <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Principal Component Analysis</h2>
+        <br>
+        <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Principal Component Analysis (PCA) is a technique used for dimensionality reduction by transforming the data into a set of orthogonal components. These components capture the maximum variance in the data.</p>
+        <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">PCA is useful for reducing the number of features while preserving as much information as possible.</p>
+        <br>
+        <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*ZxsqgW2omVo0TWGb3GpL3g.png" alt="Principal Component Analysis image">
+        <br>
+        <a href="https://towardsdatascience.com/principal-component-analysis-pca-explained-2b848b9f78b8" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    `,
+    hierarchicalClustering: `
+        <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Hierarchical Clustering</h2>
+        <br>
+        <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Hierarchical Clustering is a method of cluster analysis that builds a hierarchy of clusters. It can be performed either agglomeratively (bottom-up) or divisively (top-down).</p>
+        <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">This technique is useful for understanding the structure of the data and for creating dendrograms to visualize the clustering process.</p>
+        <br>
+        <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*zC1SY1XPvKmVTL1txlIK9A.png" alt="Hierarchical Clustering image">
+        <br>
+        <a href="https://towardsdatascience.com/hierarchical-clustering-algorithm-for-data-analysis-6b57c66098d6" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    `,
+    autoencoders: `
+        <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Autoencoders</h2>
+        <br>
+        <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Autoencoders are a type of neural network used for unsupervised learning of efficient codings. They work by encoding input data into a compressed representation and then decoding it back to the original input.</p>
+        <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Autoencoders are often used for dimensionality reduction, feature learning, and anomaly detection.</p>
+        <br>
+        <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*_FgUJdQzFzA-SxvsgG8OBw.png" alt="Autoencoders image">
+        <br>
+        <a href="https://towardsdatascience.com/autoencoders-in-deep-learning-a-brief-introduction-c1c91b07c4b5" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    `,
+    naiveBayes: `
+        <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Naive Bayes</h2>
+        <br>
+        <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Naive Bayes is a probabilistic classification method based on applying Bayes' theorem with strong (naive) independence assumptions between the features.</p>
+        <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It is widely used for text classification and spam filtering due to its simplicity and efficiency.</p>
+        <br>
+        <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*ViQv2CHJP1ubPFSZk5HzuQ.png" alt="Naive Bayes image">
+        <br>
+        <a href="https://towardsdatascience.com/naive-bayes-classification-explained-with-python-c21c3cce5e82" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    `,
+    textMining: `
+        <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Text Mining</h2>
+        <br>
+        <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Text Mining involves extracting useful information and patterns from text data using techniques from natural language processing and data mining.</p>
+        <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It is used in various applications such as sentiment analysis, topic modeling, and information retrieval.</p>
+        <br>
+        <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*cs-VRO2LlZafMwjhmwR0YQ.png" alt="Text Mining image">
+        <br>
+        <a href="https://towardsdatascience.com/text-mining-introduction-4b6e3c20d579" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    `,
+    timeSeriesAnalysis: `
+        <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Time Series Analysis</h2>
+        <br>
+        <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Time Series Analysis involves analyzing data points collected or recorded at specific time intervals to identify trends, patterns, and seasonal variations.</p>
+        <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It is commonly used in forecasting and anomaly detection.</p>
+        <br>
+        <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*G3w2T1s4Xk2Q8XpHJroJZQ.png" alt="Time Series Analysis image">
+        <br>
+        <a href="https://towardsdatascience.com/introduction-to-time-series-analysis-8e9d3a0d46cb" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    `,
+    reinforcementLearning: `
+        <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Reinforcement Learning</h2>
+        <br>
+        <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Reinforcement Learning is a type of machine learning where an agent learns to make decisions by taking actions in an environment to maximize cumulative rewards.</p>
+        <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It is used in various applications like game playing, robotics, and autonomous systems.</p>
+        <br>
+        <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*iZjbKlq0ZyRsVbtCGI4i3A.png" alt="Reinforcement Learning image">
+        <br>
+        <a href="https://towardsdatascience.com/reinforcement-learning-introduction-and-algorithms-f7380d18fd7b" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    `,
+    generativeAdversarialNetworks: `
+        <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Generative Adversarial Networks</h2>
+        <br>
+        <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Generative Adversarial Networks (GANs) consist of two neural networks, a generator and a discriminator, that compete against each other. The generator creates data, while the discriminator evaluates its authenticity.</p>
+        <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">GANs are used for generating realistic images, data augmentation, and more.</p>
+        <br>
+        <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*d-rc1c11wO9i7PSA4TVwBQ.png" alt="Generative Adversarial Networks image">
+        <br>
+        <a href="https://towardsdatascience.com/generative-adversarial-networks-gans-a-simple-introduction-2a7aee083f56" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    `,
+    naturalLanguageProcessing: `
+        <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Natural Language Processing</h2>
+        <br>
+        <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Natural Language Processing (NLP) involves the use of algorithms and models to analyze and interpret human language. It enables computers to understand, interpret, and generate human language.</p>
+        <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">NLP is used in applications like language translation, sentiment analysis, and chatbots.</p>
+        <br>
+        <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*T0rQlL1mge1gCNLH8scfMQ.png" alt="Natural Language Processing image">
+        <br>
+        <a href="https://towardsdatascience.com/natural-language-processing-nlp-guide-for-beginners-8b6f58e94c6e" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    `,
+    neuralNetworkActivationFunctions: `
+        <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Neural Network Activation Functions</h2>
+        <br>
+        <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Activation functions in neural networks determine whether a neuron should be activated or not. They introduce non-linearity into the model, allowing it to learn complex patterns.</p>
+        <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Common activation functions include ReLU, sigmoid, and tanh.</p>
+        <br>
+        <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*ijCzowHfbHV6CRybvtdJfg.png" alt="Neural Network Activation Functions image">
+        <br>
+        <a href="https://towardsdatascience.com/activation-functions-in-deep-learning-6ddefbf1c0e5" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    `,
+    convolutionalNeuralNetworks: `
+        <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Convolutional Neural Networks</h2>
+        <br>
+        <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Convolutional Neural Networks (CNNs) are specialized neural networks for processing data with a grid-like topology, such as images. They use convolutional layers to detect features like edges, textures, and shapes.</p>
+        <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">CNNs are widely used in image recognition and classification tasks.</p>
+        <br>
+        <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*s7mty7y4mfjdH6h7oHp2Dw.png" alt="Convolutional Neural Networks image">
+        <br>
+        <a href="https://towardsdatascience.com/a-complete-guide-to-convolutional-neural-networks-the-essentials-15017d3b0a0e" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    `,
+    recurrentNeuralNetworks: `
+        <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Recurrent Neural Networks</h2>
+        <br>
+        <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Recurrent Neural Networks (RNNs) are designed for sequential data processing, where the output depends on previous computations. They use feedback connections to maintain a memory of past inputs.</p>
+        <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">RNNs are used in tasks like language modeling and time series forecasting.</p>
+        <br>
+        <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*o2HyrkekVd0j7GgdFn02-Q.png" alt="Recurrent Neural Networks image">
+        <br>
+        <a href="https://towardsdatascience.com/recurrent-neural-networks-rnns-181a5c0b08d5" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    `,
+    longShortTermMemory: `
+        <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Long Short-Term Memory</h2>
+        <br>
+        <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Long Short-Term Memory (LSTM) networks are a type of RNN designed to learn long-term dependencies and address issues like vanishing gradients. They use a special gating mechanism to regulate the flow of information.</p>
+        <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">LSTMs are effective in handling tasks involving long sequences, such as language translation and speech recognition.</p>
+        <br>
+        <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*UfdS_KKfUuKkq5L29Sh-Dg.png" alt="Long Short-Term Memory image">
+        <br>
+        <a href="https://towardsdatascience.com/long-short-term-memory-networks-3b7d04d2a4e4" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    `,
+    wordEmbeddings: `
+        <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Word Embeddings</h2>
+        <br>
+        <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Word Embeddings are a type of word representation that captures semantic meaning by mapping words to vectors of real numbers. They help in capturing the context and meaning of words in a continuous vector space.</p>
+        <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Popular word embedding techniques include Word2Vec, GloVe, and FastText.</p>
+        <br>
+        <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*cj2-fHf8M-FFHSQpPjSxrg.png" alt="Word Embeddings image">
+        <br>
+        <a href="https://towardsdatascience.com/word-embeddings-an-intuitive-guide-930bf39c7288" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    `,
+    modelEvaluationMetrics: `
+        <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Model Evaluation Metrics</h2>
+        <br>
+        <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Model Evaluation Metrics are measures used to assess the performance of a machine learning model. They help in determining how well a model is performing and guide improvements.</p>
+        <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Common metrics include accuracy, precision, recall, F1 score, and ROC-AUC.</p>
+        <br>
+        <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*HahPDfQYJfN2OKVE8HkR3A.png" alt="Model Evaluation Metrics image">
+        <br>
+        <a href="https://towardsdatascience.com/metrics-for-evaluating-machine-learning-models-6348a7982d45" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    `,
+    hyperparameterTuning: `
+        <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Hyperparameter Tuning</h2>
+        <br>
+        <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Hyperparameter Tuning involves optimizing the hyperparameters of a machine learning model to improve its performance. This process can significantly impact the model's accuracy and generalization ability.</p>
+        <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Common techniques include grid search, random search, and Bayesian optimization.</p>
+        <br>
+        <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*KknZ5BoVbHk58Fqgf-H4Yw.png" alt="Hyperparameter Tuning image">
+        <br>
+        <a href="https://towardsdatascience.com/a-comprehensive-guide-to-hyperparameter-tuning-ff565cf22870" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    `,
+    featureSelection: `
+        <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Feature Selection</h2>
+        <br>
+        <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Feature Selection is the process of choosing the most relevant features for building a machine learning model. It helps in reducing overfitting, improving accuracy, and decreasing the computational cost.</p>
+        <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Techniques for feature selection include filter methods, wrapper methods, and embedded methods.</p>
+        <br>
+        <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/format:webp/1*1xTy8zEymkxdVJAVkV4eGA.png" alt="Feature Selection image">
+        <br>
+        <a href="https://towardsdatascience.com/feature-selection-techniques-in-machine-learning-with-python-82d8e5a682f0" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    `,
+
+  
 };
 
     function filterCards() {
