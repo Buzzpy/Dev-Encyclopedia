@@ -12,6 +12,7 @@
   <meta name="author" content="chenuli jayasinghe">
 
   <title>Programming, Simplified;</title>
+  <link rel="icon" type="image/x-icon" href="image/icon.png">
 
 
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
@@ -654,6 +655,12 @@
       <div class="card-subtext">Graphical representation of a classifier's performance.</div>
       <button class="explain-button" onclick="showModal('rocCurve')">Explain</button>
     </div>
+    <div class="card">
+      <div class="card-title">AUC Curve</div>
+      <div class="card-subtext">i.e. Area Under the Curve</div>
+      <button class="explain-button" onclick="showModal('aucCurve')">Explain</button>
+    </div>
+    
     
     <div class="card">
       <div class="card-title">Precision and Recall</div>
@@ -1401,8 +1408,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Hyperparameter Tuning is the process of optimizing the settings of a machine learning model to improve its performance. These settings, called hyperparameters, control the learning process and the structure of the model.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's like adjusting the knobs on a radio to get the best sound quality.</p>
     
-    <br>
-    <img class="responsive-image" src="https://example.com/hyperparameter-tuning-image.png" alt="Hyperparameter Tuning image">
+    
     <a href="https://www.analyticsvidhya.com/blog/2022/02/a-comprehensive-guide-on-hyperparameter-tuning-and-its-techniques/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1413,7 +1419,7 @@
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's like taking a practice test to see how well you'll do on the real exam.</p>
     
     <br>
-    <img class="responsive-image" src="https://example.com/cross-validation-image.png" alt="Cross-Validation image">
+    <img class="responsive-image" src="https://www.sharpsightlabs.com/wp-content/uploads/2024/02/cross-validation-explained_FEATURED-IMAGE.png" alt="Cross-Validation image">
     <a href="https://www.geeksforgeeks.org/cross-validation-machine-learning/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1424,7 +1430,7 @@
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Effective feature engineering can make a significant difference in how well a model performs.</p>
     
     <br>
-    <img class="responsive-image" src="https://example.com/feature-engineering-image.png" alt="Feature Engineering image">
+    <img class="responsive-image" src="https://blog.minitab.com/hubfs/FeatureEngineering-blog-img1-hubspot.jpg" alt="Feature Engineering image">
     <a href="https://builtin.com/articles/feature-engineering" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1434,9 +1440,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Feature Scaling is the process of normalizing the range of features in your data. This helps improve the performance and convergence speed of machine learning algorithms.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's like making sure all the pieces of a puzzle fit together properly.</p>
     
-    <br>
-    <img class="responsive-image" src="https://example.com/feature-scaling-image.png" alt="Feature Scaling image">
-    <a href="https://www.analyticsvidhya.com/blog/2020/04/feature-scaling-machine-learning-normalization-standardization/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  
   `,
 
   overfitting: `
@@ -1446,7 +1450,7 @@
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's like memorizing answers to a practice test without understanding the material, leading to poor performance on the actual exam.</p>
     
     <br>
-    <img class="responsive-image" src="https://example.com/overfitting-image.png" alt="Overfitting image">
+    <img class="responsive-image" src="https://www.mathworks.com/discovery/overfitting/_jcr_content/mainParsys/image.adapt.full.medium.svg/1718273106637.svg" alt="Overfitting image">
     <a href="https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1457,7 +1461,7 @@
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's like using a very basic formula to solve a complex problem, resulting in inaccurate answers.</p>
     
     <br>
-    <img class="responsive-image" src="https://example.com/underfitting-image.png" alt="Underfitting image">
+    <img class="responsive-image" src="https://www.mathworks.com/discovery/overfitting/_jcr_content/mainParsys/image.adapt.full.medium.svg/1718273106637.svg" alt="Underfitting image">
     <a href="https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1468,7 +1472,7 @@
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's like adding rules to limit how much a model can change to avoid fitting too closely to the training data.</p>
     
     <br>
-    <img class="responsive-image" src="https://example.com/regularization-image.png" alt="Regularization image">
+    <img class="responsive-image" src="https://editor.analyticsvidhya.com/uploads/71199regularization.jpg" alt="Regularization image">
     <a href="" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1478,8 +1482,6 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Bagging, or Bootstrap Aggregating, is an ensemble technique that improves model performance by training multiple models on different subsets of the data and combining their predictions.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's like asking several people for their opinions and then averaging them to make a decision.</p>
     
-    <br>
-    <img class="responsive-image" src="https://example.com/bagging-image.png" alt="Bagging image">
     <a href="https://www.ibm.com/topics/bagging" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1488,10 +1490,8 @@
     <br>
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Boosting is an ensemble technique that builds multiple models sequentially, where each model tries to correct the errors of the previous one. The final prediction is a weighted sum of the predictions from all models.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's like learning from mistakes and improving with each step.</p>
-    
-    <br>
-    <img class="responsive-image" src="https://example.com/boosting-image.png" alt="Boosting image">
-    <a href="https://towardsdatascience.com/boosting-explained-with-visuals-9bfae8e0d074" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+ 
+    <a href="https://aws.amazon.com/what-is/boosting/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
   ensembleMethods: `
@@ -1501,8 +1501,8 @@
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's like using the wisdom of a group to make a better decision.</p>
     
     <br>
-    <img class="responsive-image" src="https://example.com/ensemble-methods-image.png" alt="Ensemble Methods image">
-    <a href="https://towardsdatascience.com/ensemble-methods-in-machine-learning-101-f8a8a4d2d71c" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <img class="responsive-image" src="https://cdn.corporatefinanceinstitute.com/assets/ensemble-methods.png" alt="Ensemble Methods image">
+    <a href="https://corporatefinanceinstitute.com/resources/data-science/ensemble-methods/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
   rocCurve: `
@@ -1512,8 +1512,18 @@
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It helps in assessing how well a model can distinguish between classes.</p>
     
     <br>
-    <img class="responsive-image" src="https://example.com/roc-curve-image.png" alt="ROC Curve image">
-    <a href="https://towardsdatascience.com/roc-curve-and-auc-5b618c583a65" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <img class="responsive-image" src="https://media.geeksforgeeks.org/wp-content/uploads/20230410164437/AUC-ROC-Curve.webp" alt="ROC Curve image">
+    <a href="https://medium.com/@shaileydash/understanding-the-roc-and-auc-intuitively-31ca96445c02" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+  aucCurve: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">AUC Curve</h2>
+    <br>
+    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">AUC (Area Under the Curve) is a performance measurement for classification problems at various threshold settings. The AUC represents the degree or measure of separability. It tells how much the model is capable of distinguishing between classes.</p>
+    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's like checking how well a doctor can distinguish between patients with and without a disease based on a diagnostic test.</p>
+    
+    <br>
+    <img class="responsive-image" src="https://media.geeksforgeeks.org/wp-content/uploads/20230410164437/AUC-ROC-Curve.webp" alt="AUC Curve image">
+    <a href="https://medium.com/@shaileydash/understanding-the-roc-and-auc-intuitively-31ca96445c025" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
   precisionRecall: `
@@ -1523,8 +1533,8 @@
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">They are especially useful when dealing with imbalanced datasets.</p>
     
     <br>
-    <img src="https://example.com/precision-recall-image.png" alt="Precision and Recall image">
-    <a href="https://towardsdatascience.com/precision-vs-recall-46a4d24e882b" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <img src="https://miro.medium.com/v2/resize:fit:824/1*xMl_wkMt42Hy8i84zs2WGg.png" alt="Precision and Recall image">
+    <a href="https://www.analyticsvidhya.com/blog/2020/09/precision-recall-machine-learning/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
   f1Score: `
@@ -1534,8 +1544,8 @@
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's useful when you need a single metric to assess the performance of a model.</p>
     
     <br>
-    <img class="responsive-image" src="https://example.com/f1-score-image.png" alt="F1 Score image">
-    <a href="https://towardsdatascience.com/f1-score-how-to-interpret-it-and-use-it-25d5d9be5605" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:898/1*7tC4-fUHtcffvXGcGTJJtg.png" alt="F1 Score image">
+    <a href="https://www.v7labs.com/blog/f1-score-guide" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
   confusionMatrix: `
@@ -1545,8 +1555,8 @@
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It helps in understanding the types of errors a model makes.</p>
     
     <br>
-    <img class="responsive-image" src="https://example.com/confusion-matrix-image.png" alt="Confusion Matrix image">
-    <a href="https://towardsdatascience.com/confusion-matrix-for-classification-models-8d25a3e8ef22" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <img class="responsive-image" src="https://cdn.prod.website-files.com/5d7b77b063a9066d83e1209c/63b413d2cdc133446aa23fc5_636b9182cfaef2115e028921_HERO_1_Confusion.png" alt="Confusion Matrix image">
+    <a href="https://www.analyticsvidhya.com/blog/2020/04/confusion-matrix-machine-learning/" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
   crossEntropy: `
@@ -1555,9 +1565,7 @@
     <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Cross-Entropy is a loss function used to measure the performance of a classification model. It quantifies the difference between the predicted probabilities and the actual class labels.</p>
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Lower cross-entropy indicates better model performance.</p>
     
-    <br>
-    <img class="responsive-image" src="https://example.com/cross-entropy-image.png" alt="Cross-Entropy image">
-    <a href="https://towardsdatascience.com/cross-entropy-loss-function-9e75b4eb1a7c" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <a href="https://towardsdatascience.com/what-is-cross-entropy-3bdb04c13616" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `
 
   
