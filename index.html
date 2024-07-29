@@ -1570,7 +1570,7 @@
     <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's used in many areas such as email filtering, network security, and computer vision.</p>
     
     <br>
-    <img  src="https://dev-to-uploads.s3.amazonawscom/uploads/articles/ilep9ckl66ho6mp5v6ht.png" alt="Machine Learning image">
+    <img  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ilep9ckl66ho6mp5v6ht.png" alt="Machine Learning image">
     <a href="https://mitsloan.mit.edu/ideas-made-to-matter/machine-learning-explained" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
   
   `,
@@ -2692,13 +2692,18 @@
       modal.style.display = 'block';
     }
 
-    // Close the modal when clicking outside of it
-    window.onclick = function(event) {
-      const modal = document.getElementById('modal');
-      if (event.target == modal) {
-        modal.style.display = 'none';
-      }
-    }
+   // Function to close the modal
+function closeModal(event) {
+  const modal = document.getElementById('modal');
+  if (event.target == modal) {
+    modal.style.display = 'none';
+  }
+}
+
+// Add event listeners for both click and touchstart
+window.addEventListener('click', closeModal);
+window.addEventListener('touchstart', closeModal);
+
   </script>
 </body>
 </html>
