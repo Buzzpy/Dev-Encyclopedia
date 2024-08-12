@@ -10,3 +10,6 @@ Found some important piece of information missing? Please open a Pull Request an
 
 #### Sponsor
 A few dollars toward hosting and domain costs would be appreciated! Also, a sponsor page would be dedicated to the website so be the first! 
+
+#### License: CC BY-NC-SA 4.0
+This project, Dev Encyclopedia, is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. You are free to share and adapt the content for non-commercial purposes, as long as you give appropriate credit and share any derivative works under the same license. [For more details, see the full license.](https://github.com/Buzzpy/Dev-Encyclopedia/blob/main/LICENSE)
