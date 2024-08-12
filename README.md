@@ -1,4 +1,4 @@
-`IMPORTANT: This project is currently under development and not ready for users. For future updates, watch this repository.`
+`IMPORTANT: This project is currently under development and a lot of space for improvement is left. Help me build this project by contributing to this repository`
 # DEV Encyclopedia;
 This simple project simplifies technical terms, concepts, jargon, and whatnot.
 
