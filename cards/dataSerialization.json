@@ -1,0 +1,13 @@
+{
+    "title": "Data Serialization",
+    "tags": [],
+    "paragraphs": [
+        "Data serialization is the process of converting data into a format that can be easily stored or transmitted and then reconstructed later. Common formats include JSON and XML.",
+        "Think of data serialization like packing a suitcase for a trip, making it easy to carry and unpack later.",
+        "<img class=\"responsive-image\" src=\"https://miro.medium.com/v2/resize:fit:1018/1*QaauFe77Rsk7YeULrhUtxw.gif\" alt=\"Data Serialization image\">"
+    ],
+    "link": {
+        "href": "https://medium.com/@jdelamettrie/data-serialization-631a0325c38a",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

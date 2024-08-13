@@ -1,0 +1,13 @@
+{
+    "title": "Deployment Pipeline",
+    "tags": [],
+    "paragraphs": [
+        "A deployment pipeline is a set of automated processes that ensure software changes go through various stages like building, testing, and deployment. It helps deliver high-quality software quickly and consistently.",
+        "Think of a deployment pipeline like an assembly line in a factory, where each step ensures the product is perfect before it reaches the customer.",
+        "<img class=\"responsive-image\" src=\"https://example.com/deployment-pipeline-image.png\" alt=\"Deployment Pipeline image\">"
+    ],
+    "link": {
+        "href": "https://www.pagerduty.com/resources/learn/what-is-a-deployment-pipeline/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

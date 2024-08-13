@@ -1,0 +1,13 @@
+{
+    "title": "Functions",
+    "tags": [],
+    "paragraphs": [
+        "Functions are blocks of code that perform specific tasks. You can call a function whenever you need to perform that task, which helps keep your code organized and reusable.",
+        "It's like having a set of instructions for making a sandwich. Anytime you want a sandwich, you just follow the steps.",
+        "<img class=\"responsive-image\" src=\"https://cdn-images-1.medium.com/max/1024/1%2A709ugF12LLkYxvb839YNlg.png\" alt=\"Functions image\">"
+    ],
+    "link": {
+        "href": "https://www.w3schools.com/js/js_functions.asp",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

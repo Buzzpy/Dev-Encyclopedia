@@ -1,0 +1,13 @@
+{
+    "title": "Authentication",
+    "tags": [],
+    "paragraphs": [
+        "Authentication is the process of verifying who someone is. It’s like showing your ID to prove your identity.",
+        "Think of authentication as logging into your email account using your username and password to prove it’s really you.",
+        "<img class=\"responsive-image\" src=\"https://miro.medium.com/v2/resize:fit:960/1*FhdNVsZV5cPvrBKsE0OVvw.png\" alt=\"Authentication image\">"
+    ],
+    "link": {
+        "href": "https://medium.com/geekculture/authentication-and-authorization-a5a2eafdde16",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

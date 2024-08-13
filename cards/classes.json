@@ -1,0 +1,13 @@
+{
+    "title": "Classes",
+    "tags": [],
+    "paragraphs": [
+        "Classes are blueprints for creating objects in programming. They define the properties and behaviors that the objects created from the class will have.",
+        "Think of a class as a cookie cutter and the objects as the cookies made from it.",
+        "<img class=\"responsive-image\" src=\"https://nonlineardata.com/wp-content/uploads/2020/11/Car_Class.png\" alt=\"Classes image\">"
+    ],
+    "link": {
+        "href": "https://brilliant.org/wiki/classes-oop/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

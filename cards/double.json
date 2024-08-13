@@ -1,0 +1,12 @@
+{
+    "title": "Double",
+    "tags": [],
+    "paragraphs": [
+        "A double is similar to a float, but it can store much larger and more precise decimal numbers.",
+        "Imagine a double as a super accurate float, used when you need extra precision, like in scientific calculations."
+    ],
+    "link": {
+        "href": "https://www.w3schools.com/java/java_data_types.asp",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}
