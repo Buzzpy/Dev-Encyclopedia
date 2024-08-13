@@ -1,6 +1,14 @@
-`IMPORTANT: This project is currently under development and a lot of space for improvement is left. Help me build this project by contributing to this repository`
+### It's live on Product Hunt!
+Please upvote and give it a share, so the word will spread, helping hundreds of developers!
+
+<a href="https://www.producthunt.com/posts/dev-encyclopedia?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-dev&#0045;encyclopedia" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=479151&theme=light" alt="Dev&#0032;Encyclopedia&#0059; - An&#0032;Encyclopedia&#0032;for&#0032;Developers | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
+
+> This project is currently under development and a lot of space for improvement is left. Help me build this project by contributing to this repository
 # Dev Encyclopedia; 
 ### [devpedia.pages.dev](https://devpedia.pages.dev/)
+
+
 
 This simple project simplifies technical terms, concepts, jargon, and whatnot.
 
@@ -62,7 +70,7 @@ Found some important information missing? Please open a Pull Request and help im
 Thank you for contributing to the Dev Encyclopedia!
 
 
-#### Sponsor
+### Sponsoring
 A few dollars toward hosting and domain costs would be appreciated! Also, a sponsor page would be dedicated to the website so it's a win-win.
 
 
