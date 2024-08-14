@@ -9,7 +9,7 @@
       Use a simple, real-life example, even a 15-year-old may understand
     </p>
     
-    <img class="responsive-image" src="a-desscriptive-image-link.png">
+    <img  src="a-desscriptive-image-link.png">
     <a href="a-link-to-an-article-on-the-topic-mentioned-for-beginners" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `
 */
@@ -24,7 +24,7 @@ const descriptions = {  codeSmell: `
       Think of it like noticing a weird smell in your house. It doesn't mean there's definitely a fire, but it's worth checking out.
     </p>
     
-    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1400/1*ufqp4eDLabgkKTxqi168yA.png" alt="Code Smell image">
+    <img  src="https://miro.medium.com/v2/resize:fit:1400/1*ufqp4eDLabgkKTxqi168yA.png" alt="Code Smell image">
     <a href="https://www.sonarsource.com/learn/code-smells/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -38,7 +38,7 @@ const descriptions = {  codeSmell: `
       It's like renting a car instead of owning one. You get to use it when you need it without worrying about maintenance.
     </p>
     
-    <img class="responsive-image" src="https://www.fortinet.com/content/dam/fortinet/images/cyberglossary/serverless-computing.png" alt="Serverless Computing image">
+    <img  src="https://www.fortinet.com/content/dam/fortinet/images/cyberglossary/serverless-computing.png" alt="Serverless Computing image">
     <a href="https://cloud.google.com/discover/what-is-serverless-computing" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -65,7 +65,7 @@ const descriptions = {  codeSmell: `
       It's like getting a text alert when your favorite show is on TV.
     </p>
     
-    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1200/1*D0JykQxrL0IpYCZ6LH0CiA.png" alt="Web Hooks image">
+    <img  src="https://miro.medium.com/v2/resize:fit:1200/1*D0JykQxrL0IpYCZ6LH0CiA.png" alt="Web Hooks image">
     <a href="https://zapier.com/blog/what-are-webhooks/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -79,7 +79,7 @@ const descriptions = {  codeSmell: `
       Imagine a robot that has read all the books in the library and can talk about any topic.
     </p>
     
-    <img class="responsive-image" src="https://f5b623aa.rocketcdn.me/wp-content/uploads/2023/06/page-4.jpg" alt="LLMs image">
+    <img  src="https://f5b623aa.rocketcdn.me/wp-content/uploads/2023/06/page-4.jpg" alt="LLMs image">
     <a href="https://aws.amazon.com/what-is/large-language-model/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -106,7 +106,7 @@ const descriptions = {  codeSmell: `
       It's like using a vacuum to clean up a room instead of picking up every piece of dust by hand.
     </p>
     
-    <img class="responsive-image" src="https://d1pnnwteuly8z3.cloudfront.net/images/4d5bf260-c3d0-4f21-b718-8ede8d4ca716/febf9de6-8a5a-4055-b274-e685485496f5.jpeg" alt="Web Scraping image">
+    <img  src="https://d1pnnwteuly8z3.cloudfront.net/images/4d5bf260-c3d0-4f21-b718-8ede8d4ca716/febf9de6-8a5a-4055-b274-e685485496f5.jpeg" alt="Web Scraping image">
     <a href="https://www.geeksforgeeks.org/what-is-web-scraping-and-how-to-use-it/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -120,7 +120,7 @@ const descriptions = {  codeSmell: `
       Think of it like decorating a cake. It's all about making it look good and making sure it’s easy to enjoy.
     </p>
     
-    <img class="responsive-image" src="https://www.extwebtech.com/wp-content/uploads/2023/03/frontend-vs-bancend.webp" alt="Front End image">
+    <img  src="https://www.extwebtech.com/wp-content/uploads/2023/03/frontend-vs-bancend.webp" alt="Front End image">
     <a href="https://flatironschool.com/blog/front-end-vs-back-end-development/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   fullStack: `
@@ -133,7 +133,7 @@ const descriptions = {  codeSmell: `
       It's like being able to bake a cake and decorate it too!
     </p>
     
-    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1400/0*cl7fc6pt1MHjIF4K.png" alt="Full Stack image">
+    <img  src="https://miro.medium.com/v2/resize:fit:1400/0*cl7fc6pt1MHjIF4K.png" alt="Full Stack image">
     <a href="https://aws.amazon.com/what-is/full-stack-development/#:~:text=Full%20stack%20development%20is%20the,user%20interactions%20with%20the%20application." id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -147,7 +147,7 @@ const descriptions = {  codeSmell: `
       It's like having a set of instructions for making a sandwich. Anytime you want a sandwich, you just follow the steps.
     </p>
     
-    <img class="responsive-image" src="https://res.cloudinary.com/practicaldev/image/fetch/s--iCkOfD0L--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/1024/1%2A709ugF12LLkYxvb839YNlg.png" alt="Functions image">
+    <img  src="https://res.cloudinary.com/practicaldev/image/fetch/s--iCkOfD0L--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/1024/1%2A709ugF12LLkYxvb839YNlg.png" alt="Functions image">
     <a href="https://www.w3schools.com/js/js_functions.asp" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -161,7 +161,7 @@ const descriptions = {  codeSmell: `
       Think of it like telling a function to make a sandwich and giving it bread, peanut butter, and jelly.
     </p>
     
-    <img class="responsive-image" src="https://i.sstatic.net/9lg1H.png" alt="Arguments image">
+    <img  src="https://i.sstatic.net/9lg1H.png" alt="Arguments image">
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#parameters" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -175,7 +175,7 @@ const descriptions = {  codeSmell: `
       Imagine having a box with labels (keys) and items (values) inside. You can quickly find what you need by looking at the labels.
     </p>
     
-    <img class="responsive-image" src="https://cdn-wordpress-info.futurelearn.com/info/wp-content/uploads/FL-Prog103-2.3-Dictionary-768x317.png" alt="Dictionary image">
+    <img  src="https://cdn-wordpress-info.futurelearn.com/info/wp-content/uploads/FL-Prog103-2.3-Dictionary-768x317.png" alt="Dictionary image">
     <a href="https://www.w3schools.com/python/python_dictionaries.asp" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -276,7 +276,7 @@ const descriptions = {  codeSmell: `
       Imagine a restaurant kitchen where multiple chefs (threads) are preparing different dishes at the same time.
     </p>
     
-    <img class="responsive-image" src="https://cdn.ttgtmedia.com/rms/onlineimages/how_threads_make_process-f_mobile.png" alt="Threads image">
+    <img  src="https://cdn.ttgtmedia.com/rms/onlineimages/how_threads_make_process-f_mobile.png" alt="Threads image">
     <a href="https://www.techtarget.com/whatis/definition/thread/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -290,7 +290,7 @@ const descriptions = {  codeSmell: `
       Think of a class as a cookie cutter and the objects as the cookies made from it.
     </p>
     
-    <img class="responsive-image" src="https://nonlineardata.com/wp-content/uploads/2020/11/Car_Class.png" alt="Classes image">
+    <img  src="https://nonlineardata.com/wp-content/uploads/2020/11/Car_Class.png" alt="Classes image">
     <a href="https://brilliant.org/wiki/classes-oop/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -317,7 +317,7 @@ const descriptions = {  codeSmell: `
       Think of inheritance like getting traits from your parents, like eye color or hair color.
     </p>
     
-    <img class="responsive-image" src="https://cdn-images-1.medium.com/v2/resize:fit:1080/1*gvHEf4lT2m_dHyH6c0UC1Q.png" alt="Inheritance image">
+    <img  src="https://cdn-images-1.medium.com/v2/resize:fit:1080/1*gvHEf4lT2m_dHyH6c0UC1Q.png" alt="Inheritance image">
     <a href="https://www.enjoyalgorithms.com/blog/inheritance-in-java" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -355,7 +355,7 @@ const descriptions = {  codeSmell: `
       Imagine a debugger like a magnifying glass that helps you see exactly where things go wrong in a program.
     </p>
     
-    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*554AE0054vtiRNfcqlOXLw.png" alt="Debugger image">
+    <img  src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*554AE0054vtiRNfcqlOXLw.png" alt="Debugger image">
     <a href="https://medium.com/@dwivedi.ankit21/the-debugger-a-behind-the-scenes-look-at-how-it-works-983a65883e97" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -395,7 +395,7 @@ const descriptions = {  codeSmell: `
       Think of a deployment pipeline like an assembly line in a factory, where each step ensures the product is perfect before it reaches the customer.
     </p>
     
-    <img class="responsive-image" src="https://example.com/deployment-pipeline-image.png" alt="Deployment Pipeline image">
+    <img  src="https://example.com/deployment-pipeline-image.png" alt="Deployment Pipeline image">
     <a href="https://www.pagerduty.com/resources/learn/what-is-a-deployment-pipeline/#:~:text=In%20software%20development%2C%20a%20deployment,%2C%20building%2C%20and%20deploying%20code." id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -409,7 +409,7 @@ const descriptions = {  codeSmell: `
       Imagine data validation like checking your homework for mistakes before submitting it to your teacher.
     </p>
     
-    <img class="responsive-image" src="https://media.geeksforgeeks.org/wp-content/uploads/20240709183957/Verification-vs-validation.png" alt="Data Validation image">
+    <img  src="https://media.geeksforgeeks.org/wp-content/uploads/20240709183957/Verification-vs-validation.png" alt="Data Validation image">
     <a href="https://www.tibco.com/glossary/what-is-data-validation#:~:text=Data%20validation%20is%20the%20process,validation%20to%20ensure%20accurate%20results." id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -423,7 +423,7 @@ const descriptions = {  codeSmell: `
       Think of data serialization like packing a suitcase for a trip, making it easy to carry and unpack later.
     </p>
     
-    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1018/1*QaauFe77Rsk7YeULrhUtxw.gif" alt="Data Serialization image">
+    <img  src="https://miro.medium.com/v2/resize:fit:1018/1*QaauFe77Rsk7YeULrhUtxw.gif" alt="Data Serialization image">
     <a href="https://medium.com/@jdelamettrie/data-serialization-631a0325c38a" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -449,7 +449,7 @@ const descriptions = {  codeSmell: `
       Think of authentication as logging into your email account using your username and password to prove it’s really you.
     </p>
     
-    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:960/1*FhdNVsZV5cPvrBKsE0OVvw.png" alt="Authentication image">
+    <img  src="https://miro.medium.com/v2/resize:fit:960/1*FhdNVsZV5cPvrBKsE0OVvw.png" alt="Authentication image">
     <a href="https://medium.com/geekculture/authentication-and-authorization-a5a2eafdde16" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -463,7 +463,7 @@ const descriptions = {  codeSmell: `
       Think of authorization like a security guard checking if you have access to a VIP area after you’ve shown your ID.
     </p>
     
-    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:960/1*FhdNVsZV5cPvrBKsE0OVvw.png" alt="Authorization image">
+    <img  src="https://miro.medium.com/v2/resize:fit:960/1*FhdNVsZV5cPvrBKsE0OVvw.png" alt="Authorization image">
     <a href="https://medium.com/geekculture/authentication-and-authorization-a5a2eafdde16" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -489,7 +489,7 @@ const descriptions = {  codeSmell: `
       Imagine monolithic architecture like a giant block of Legos all stuck together, where changing one part affects the entire structure.
     </p>
     
-    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:755/1*Tiizur0VlvZlJSIgADsp4w.png" alt="Monolithic Architecture image">
+    <img  src="https://miro.medium.com/v2/resize:fit:755/1*Tiizur0VlvZlJSIgADsp4w.png" alt="Monolithic Architecture image">
     <a href="https://tech.tamara.co/monolith-architecture-5f00270f384e" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -503,7 +503,7 @@ const descriptions = {  codeSmell: `
       Think of GitHub like a social network for programmers where they share and improve each other’s code.
     </p>
     
-    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1400/1*irvoqLol7t-EPNzZN6CSnA.png" alt="GitHub image">
+    <img  src="https://miro.medium.com/v2/resize:fit:1400/1*irvoqLol7t-EPNzZN6CSnA.png" alt="GitHub image">
     <a href="https://medium.com/swlh/an-introduction-to-git-and-github-22ecb4cb1256" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -517,7 +517,7 @@ const descriptions = {  codeSmell: `
       Think of ORM like a translator that helps your code speak the language of the database.
     </p>
     
-    <img class="responsive-image" src="https://media.licdn.com/dms/image/D5612AQGZjJpjEP1iEA/article-cover_image-shrink_720_1280/0/1686716645931?e=2147483647&v=beta&t=tAiEVMUjaDyUeHbCWsWd6jQb5u1DZyWomJgqow1HzWM" alt="ORM image">
+    <img  src="https://media.licdn.com/dms/image/D5612AQGZjJpjEP1iEA/article-cover_image-shrink_720_1280/0/1686716645931?e=2147483647&v=beta&t=tAiEVMUjaDyUeHbCWsWd6jQb5u1DZyWomJgqow1HzWM" alt="ORM image">
     <a href="https://medium.com/@grover.vinayak0611/what-is-orm-why-to-use-it-and-brief-introduction-of-orm-frameworks-b61b16d02a3c" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -552,7 +552,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">Deep learning is used in many applications such as voice assistants, translation services, and image recognition.</p>
     
      
-    <img class="responsive-image" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2l6t6kevnd062opmw6ab.png" alt="Deep Learning image">
+    <img  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2l6t6kevnd062opmw6ab.png" alt="Deep Learning image">
     
     <a href="https://www.ibm.com/topics/deep-learning" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -562,7 +562,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions. The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving.</p>
     <p class="modal-paragraph">AI is used in many areas such as robotics, autonomous vehicles, and natural language processing.</p>
     
-    <img class="responsive-image" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/iii01cstbhic3xzt9ceu.png" alt="Artificial Intelligence image">
+    <img  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/iii01cstbhic3xzt9ceu.png" alt="Artificial Intelligence image">
     
     <a href="https://www.ibm.com/topics/artificial-intelligence" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -572,7 +572,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">Cybersecurity involves protecting computer systems and networks from digital attacks, theft, and damage. It includes various practices and technologies to safeguard data and maintain privacy.</p>
     <p class="modal-paragraph">Cybersecurity is crucial for protecting sensitive information and ensuring the safe operation of systems in both personal and professional environments.</p>
     
-    <img class="responsive-image" src="https://reciprocity.com/wp-content/uploads/2022/10/resources_top-cybersecurity-threats_730x425.jpg" alt="Cybersecurity image">
+    <img  src="https://reciprocity.com/wp-content/uploads/2022/10/resources_top-cybersecurity-threats_730x425.jpg" alt="Cybersecurity image">
     
     <a href="https://www.ibm.com/topics/cybersecurity" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -582,7 +582,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">In machine learning, an epoch is one complete pass through the entire training dataset. During each epoch, the model's parameters are updated to improve accuracy.</p>
     <p class="modal-paragraph">Multiple epochs are often needed for a model to learn effectively and reach high performance on the task it is trained for. However, its' crucial to determine the number of epochs carefully, as explaned in the image below.</p>
     
-    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:860/1*GXftMdKjyaLYuAIn-nB4zA.png" alt="Epochs image">
+    <img  src="https://miro.medium.com/v2/resize:fit:860/1*GXftMdKjyaLYuAIn-nB4zA.png" alt="Epochs image">
     
     <a href="https://www.simplilearn.com/tutorials/machine-learning-tutorial/what-is-epoch-in-machine-learning" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -594,7 +594,7 @@ const descriptions = {  codeSmell: `
      
       <p>For example, An API is like a messenger between apps and services. Imagine you are using a weather app. The app uses an API to ask a weather service for today’s weather. The weather service sends the info back through the API, and you see the weather on your app. So, an API helps different software talk to each other and share information.</p>
     
-    <img class="responsive-image" src="https://www.openlegacy.com/hs-fs/hubfs/Picture1-2.webp?width=969&height=509&name=Picture1-2.webp" alt="APIs image">
+    <img  src="https://www.openlegacy.com/hs-fs/hubfs/Picture1-2.webp?width=969&height=509&name=Picture1-2.webp" alt="APIs image">
     
     <a href="https://www.postman.com/what-is-an-api/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -605,7 +605,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">Cloud computing provides flexibility, scalability, and cost-efficiency for businesses and individuals. Following image shows types of cloud computing</p>
     
     
-    <img class="responsive-image" src="https://images.spiceworks.com/wp-content/uploads/2021/07/02105247/Cloud-Computing.png" alt="Cloud Computing image">
+    <img  src="https://images.spiceworks.com/wp-content/uploads/2021/07/02105247/Cloud-Computing.png" alt="Cloud Computing image">
     
     <a href="https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -615,7 +615,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">Data science involves using scientific methods, processes, and systems to extract insights and knowledge from data. It combines various fields such as statistics, data analysis, and machine learning to understand and interpret complex data.</p>
     <p class="modal-paragraph">Data science helps in making informed decisions and predictions based on data analysis.</p>
     
-    <img class="responsive-image" src="https://editor.analyticsvidhya.com/uploads/73194new%202.png" alt="Data Science image from DataScientist.com">
+    <img  src="https://editor.analyticsvidhya.com/uploads/73194new%202.png" alt="Data Science image from DataScientist.com">
     
     <a href="https://www.ibm.com/topics/data-science" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -625,7 +625,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">Quantum computing is an area of computing that uses principles of quantum mechanics to perform calculations. It leverages quantum bits (qubits) to process information in ways that classical computers cannot.</p>
     <p class="modal-paragraph">Quantum computing has the potential to solve complex problems more efficiently than traditional computers.</p>
     
-    <img class="responsive-image-qc" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/auzqrr27ccgv9ylkloed.png" alt="Quantum Computing image">
+    <img  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/auzqrr27ccgv9ylkloed.png" alt="Quantum Computing image">
     
     <a href="https://www.explainthatstuff.com/quantum-computing.html" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -636,7 +636,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">IoT enables smarter interactions between devices and can be used in various applications like smart homes, health monitoring, and industrial automation.</p>
     
      
-    <img class="responsive-image" src="https://www.i-scoop.eu/wp-content/uploads/2016/10/The-Internet-of-Things-from-connecting-devices-to-creating-value-large.jpg" alt="Internet of Things image">
+    <img  src="https://www.i-scoop.eu/wp-content/uploads/2016/10/The-Internet-of-Things-from-connecting-devices-to-creating-value-large.jpg" alt="Internet of Things image">
     
     <a href="https://www.oracle.com/internet-of-things/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a> 
   `,
@@ -646,7 +646,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">Blockchain is a digital ledger technology that records transactions across many computers in a way that ensures the security and transparency of the data.</p>
     <p class="modal-paragraph">Each transaction is recorded in a "block," and blocks are linked together in a "chain." Blockchain is used in cryptocurrencies and other applications requiring secure data storage.</p>
     
-    <img class="responsive-image" src="https://www.investopedia.com/thmb/XrimO6cL95A3j-ts3PknnOXn8EI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/dotdash_Final_Blockchain_Sep_2020-01-60f31a638c4944abbcfde92e1a408a30.jpg" alt="Blockchain image">
+    <img  src="https://www.investopedia.com/thmb/XrimO6cL95A3j-ts3PknnOXn8EI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/dotdash_Final_Blockchain_Sep_2020-01-60f31a638c4944abbcfde92e1a408a30.jpg" alt="Blockchain image">
     
     <a href="https://builtin.com/blockchain" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -656,7 +656,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">ReactJS is a JavaScript library used for building user interfaces. It allows developers to create reusable UI components and manage the state of their applications efficiently.</p>
     <p class="modal-paragraph">ReactJS is often used for developing single-page applications (SPAs) and can be integrated with other libraries or frameworks.</p>
     
-    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1400/1*6l9rCElYlP9EoG0A-iXULg.png" alt="ReactJS image">
+    <img  src="https://miro.medium.com/v2/resize:fit:1400/1*6l9rCElYlP9EoG0A-iXULg.png" alt="ReactJS image">
     
     <a href="https://www.freecodecamp.org/news/react-for-beginners-handbook/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -666,7 +666,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">Docker is a platform that allows developers to package applications and their dependencies into containers. Containers are lightweight, portable, and can run on any system with Docker installed.</p>
     <p class="modal-paragraph">Docker simplifies deployment and scaling of applications, ensuring consistency across different environments.</p>
     
-    <img class="responsive-image" src="https://accesto.com/blog/static/d97eced7f59a885b5ba877366cf21909/3c492/docker-explained-1.png" alt="Docker image">
+    <img  src="https://accesto.com/blog/static/d97eced7f59a885b5ba877366cf21909/3c492/docker-explained-1.png" alt="Docker image">
     
     <a href="https://docker-curriculum.com/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -676,7 +676,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">The __init__ function is a special method in Python that is called when an object is instantiated. It initializes the object's attributes and sets up the initial state of the object.</p>
     <p class="modal-paragraph">It is commonly used to set default values for object properties or to perform setup tasks when creating new instances of a class.</p>
     
-    <img class="responsive-image" src="https://www.boardinfinity.com/blog/content/images/2023/05/init-in-python.png" alt="__init__ Function image">
+    <img  src="https://www.boardinfinity.com/blog/content/images/2023/05/init-in-python.png" alt="__init__ Function image">
     
     <a href="https://docker-curriculum.com/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -687,7 +687,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">Python is a high-level programming language known for its readability and simplicity. It is widely used in web development, data science, automation, and more.</p>
     <p class="modal-paragraph">Python's syntax is designed to be easy to understand and write, making it a popular choice for beginners and experienced programmers alike.</p>
     
-    <img class="responsive-image" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9fx9gi335wgl2pdt6sjj.png" alt="Python image">
+    <img  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9fx9gi335wgl2pdt6sjj.png" alt="Python image">
     
     <a href="https://example.com" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -698,7 +698,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">This rule helps to understand data variability and is used in various fields, including quality control and statistics.</p>
     
 
-    <img class="responsive-image" src="https://decodingdatascience.com/wp-content/uploads/2023/05/Screenshot-2023-05-05-101857.jpg" alt="Three-Sigma Rule image">
+    <img  src="https://decodingdatascience.com/wp-content/uploads/2023/05/Screenshot-2023-05-05-101857.jpg" alt="Three-Sigma Rule image">
     
     <a href="https://www.investopedia.com/terms/t/three-sigma-limits.asp" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -708,7 +708,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">Recursion is a programming technique where a function calls itself in order to solve a problem. It is often used to break down complex problems into simpler sub-problems.</p>
     <p class="modal-paragraph">Recursion is useful in tasks such as tree traversal, sorting algorithms, and solving mathematical problems.</p>
     
-    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:2000/1*QrQ5uFKIhK3jQSFYeRBIRg.png" alt="Recursion image">
+    <img  src="https://miro.medium.com/v2/resize:fit:2000/1*QrQ5uFKIhK3jQSFYeRBIRg.png" alt="Recursion image">
     
     <a href="https://2533.medium.com/recursion-explained-with-pictures-72578d28058a" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -728,7 +728,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">Version control is a system that records changes to files over time so that you can recall specific versions later. It is essential for managing software development and tracking changes to code.</p>
     <p class="modal-paragraph">Version control helps coordinate work among multiple developers and track the history of changes. Mainly, there are two types of version control systems as "Centralized" and "Distributed" Version Control Systems, as explained in the image below.</p>
     
-    <img class="responsive-image" src="https://www.thatcompany.com/wp-content/uploads/2020/03/art3.jpg" alt="Version Control image">
+    <img  src="https://www.thatcompany.com/wp-content/uploads/2020/03/art3.jpg" alt="Version Control image">
     
     <a href="https://about.gitlab.com/topics/version-control/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -742,7 +742,7 @@ const descriptions = {  codeSmell: `
       Think of microservices like a team of specialists. Each specialist is very good at one thing. They work independently, but they all come together to complete a big project.
     </p>
     
-    <img class="responsive-image" src="https://d1.awsstatic.com/Developer%20Marketing/containers/monolith_1-monolith-microservices.70b547e30e30b013051d58a93a6e35e77408a2a8.png" alt="Microservices image">
+    <img  src="https://d1.awsstatic.com/Developer%20Marketing/containers/monolith_1-monolith-microservices.70b547e30e30b013051d58a93a6e35e77408a2a8.png" alt="Microservices image">
     <a href="https://aws.amazon.com/microservices/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -756,7 +756,7 @@ const descriptions = {  codeSmell: `
       Think of it as a way for different programs to talk to each other over the internet, using common language and protocols.
     </p>
     
-    <img class="responsive-image" src="    https://www.altexsoft.com/media/2021/03/rest_api_works.png" alt="GraphQL image">
+    <img  src="    https://www.altexsoft.com/media/2021/03/rest_api_works.png" alt="GraphQL image">
 
     <a href="https://aws.amazon.com/what-is/restful-api/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -771,7 +771,7 @@ const descriptions = {  codeSmell: `
       Imagine being able to ask for specific ingredients in a recipe, rather than getting the entire cookbook.
     </p>
     
-    <img class="responsive-image" src="https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/614841249e5f844b0c7550d1_REST%20vs%20GraphQL.png" alt="GraphQL image">
+    <img  src="https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/614841249e5f844b0c7550d1_REST%20vs%20GraphQL.png" alt="GraphQL image">
     <a href="https://www.solo.io/topics/graphql/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -797,7 +797,7 @@ const descriptions = {  codeSmell: `
       Think of it as the conductor of an orchestra, ensuring all the musicians (containers) play in harmony.
     </p>
     
-    <img class="responsive-image" src="https://example.com/kubernetes-image.png" alt="Kubernetes image">
+    <img  src="https://example.com/kubernetes-image.png" alt="Kubernetes image">
     <a href="https://kubernetes.io/docs/concepts/overview/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -811,7 +811,7 @@ const descriptions = {  codeSmell: `
       It's like having different drafts of an essay where you can make changes without messing up the original.
     </p>
     
-    <img class="responsive-image" src="https://res.cloudinary.com/snyk/image/upload/v1615821731/wordpress-sync/image1-11.png" alt="Branching image">
+    <img  src="https://res.cloudinary.com/snyk/image/upload/v1615821731/wordpress-sync/image1-11.png" alt="Branching image">
     <a href="https://medium.com/@jacoblogan98/understanding-git-branching-5d01f3dda541" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -847,7 +847,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">Agile is a methodology for software development that emphasizes flexibility, collaboration, and customer feedback. It focuses on delivering small, incremental improvements to a project.</p>
     <p class="modal-paragraph">Agile methodologies include frameworks such as Scrum and Kanban, which help teams adapt to changes and continuously improve their processes.</p>
     
-    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:718/0*7te6LdDJm2DqZIHB.png" alt="Agile image">
+    <img  src="https://miro.medium.com/v2/resize:fit:718/0*7te6LdDJm2DqZIHB.png" alt="Agile image">
     
     <a href="https://www.spiceworks.com/tech/devops/articles/what-is-agile-software-development/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -857,7 +857,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">Scrum is a framework within the Agile methodology used for managing and completing complex projects. It involves iterative development and regular feedback from stakeholders.</p>
     <p class="modal-paragraph">Scrum emphasizes teamwork, accountability, and continuous improvement through practices such as sprints, daily stand-ups, and retrospectives.</p>
     
-    <img class="responsive-image" src="https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2023-09/scrum-framework-9.29.23.png" alt="Scrum image">
+    <img  src="https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2023-09/scrum-framework-9.29.23.png" alt="Scrum image">
     
     <a href="https://www.scrum.org/resources/what-scrum-module" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -867,7 +867,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">Kanban is a visual workflow management method that helps teams visualize and manage work. It uses a board with columns to represent different stages of the work process.</p>
     <p class="modal-paragraph">Kanban helps teams improve efficiency by limiting work in progress and optimizing the flow of tasks through the workflow.</p>
     
-    <img class="responsive-image" src="https://media.geeksforgeeks.org/wp-content/uploads/20231107173425/Kanban-board-2.png" alt="Kanban image">
+    <img  src="https://media.geeksforgeeks.org/wp-content/uploads/20231107173425/Kanban-board-2.png" alt="Kanban image">
     
     <a href="https://www.atlassian.com/agile/kanban" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -877,7 +877,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">SQL (Structured Query Language) is a language used for managing and querying relational databases. It allows users to perform operations such as retrieving, inserting, updating, and deleting data.</p>
     <p class="modal-paragraph">SQL is essential for working with databases and is widely used in various applications to interact with data.</p>
     
-    <img class="responsive-image" src="https://www.spiceworks.com/wp-content/uploads/2022/06/How-Does-SQL-Work.png" alt="SQL image">
+    <img  src="https://www.spiceworks.com/wp-content/uploads/2022/06/How-Does-SQL-Work.png" alt="SQL image">
     
     <a href="https://aws.amazon.com/what-is/sql/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -896,7 +896,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">HTML (HyperText Markup Language) is the standard language used to create and design web pages. It structures content on the web by using tags and elements to define headings, paragraphs, links, images, and other components.</p>
     <p class="modal-paragraph">HTML forms the backbone of web content and is used in conjunction with CSS and JavaScript to build complete web pages.</p>
     
-    <img class="responsive-image" src="assets/images/html.jpg" alt="HTML image">
+    <img  src="assets/images/html.jpg" alt="HTML image">
     
     <a href="https://www.hostinger.com/tutorials/what-is-html" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -906,7 +906,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in HTML. It controls the layout, colors, fonts, and overall design of web pages.</p>
     <p class="modal-paragraph">CSS allows for the separation of content and design, making web pages more flexible and easier to maintain.</p>
     
-    <img class="responsive-image" src="assets/images/css.jpg" alt="CSS image">
+    <img  src="assets/images/css.jpg" alt="CSS image">
     
     <a href="https://www.hostinger.com/tutorials/what-is-css" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -916,7 +916,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">Java is a high-level programming language known for its portability, scalability, and performance. It is widely used for building enterprise-level applications, mobile apps, and web services.</p>
     <p class="modal-paragraph">Java's "write once, run anywhere" philosophy makes it a popular choice for cross-platform development.</p>
     
-    <img class="responsive-image" src="assets/images/java.jpg" alt="Java image">
+    <img  src="assets/images/java.jpg" alt="Java image">
     
     <a href="https://www.simplilearn.com/tutorials/java-tutorial/what-is-java" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -926,7 +926,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">C# (C-Sharp) is a modern, object-oriented programming language developed by Microsoft. It is used primarily for developing applications on the .NET framework, including web, desktop, and mobile apps.</p>
     <p class="modal-paragraph">C# is known for its simplicity, versatility, and strong integration with Microsoft technologies.</p>
     
-    <img class="responsive-image" src="assets/images/cSharp.jpg" alt="C# image">
+    <img  src="assets/images/cSharp.jpg" alt="C# image">
     
     <a href="https://dotnet.microsoft.com/en-us/languages/csharp" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -936,7 +936,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">PHP (Hypertext Preprocessor) is a server-side scripting language designed for web development. It is commonly used to create dynamic web pages and interact with databases.</p>
     <p class="modal-paragraph">PHP is widely supported and integrates well with HTML, making it a popular choice for web developers.</p>
     
-    <img class="responsive-image" src="assets/images/php.jpg" alt="PHP image">
+    <img  src="assets/images/php.jpg" alt="PHP image">
     
      <a href="https://www.freecodecamp.org/news/what-is-php-the-php-programming-language-meaning-explained/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -954,7 +954,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">Swift is a programming language developed by Apple for iOS and macOS development. It is known for its speed, safety, and ease of use.</p>
     <p class="modal-paragraph">Swift allows developers to build high-performance applications with modern features and a clean syntax.</p>
     
-    <img class="responsive-image" src="assets/images/swift.jpg" alt="Swift image">
+    <img  src="assets/images/swift.jpg" alt="Swift image">
     
      <a href="https://developer.apple.com/swift/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -964,7 +964,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">TypeScript is a superset of JavaScript that adds static typing to the language. It helps developers catch errors early and improve code quality by providing type-checking and advanced features.</p>
     <p class="modal-paragraph">TypeScript is compiled to JavaScript and is compatible with existing JavaScript code and libraries.</p>
     
-    <img class="responsive-image" src="assets/images/typescript.jpg" alt="TypeScript image">
+    <img  src="assets/images/typescript.jpg" alt="TypeScript image">
    
      <a href="https://www.typescripttutorial.net/typescript-tutorial/what-is-typescript/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
 
@@ -992,7 +992,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">Ruby on Rails is a web application framework written in Ruby. It follows the Model-View-Controller (MVC) architecture and emphasizes convention over configuration.</p>
     <p class="modal-paragraph">Rails helps developers build robust and scalable web applications quickly by providing built-in tools and best practices.</p>
     
-    <img class="responsive-image" src="assets/images/rubyOnRails.jpg" alt="Ruby on Rails image">
+    <img  src="assets/images/rubyOnRails.jpg" alt="Ruby on Rails image">
      
      <a href="https://www.codecademy.com/resources/blog/what-is-ruby-on-rails/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1002,7 +1002,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">Angular is a TypeScript-based open-source web application framework developed by Google. It provides a comprehensive solution for building dynamic and responsive web applications.</p>
     <p class="modal-paragraph">Angular includes features such as data binding, dependency injection, and modular development to streamline the development process.</p>
     
-    <img class="responsive-image" src="https://www.aalpha.net/wp-content/uploads/2019/07/angularjs-development-india.jpg" alt="Angular image">
+    <img  src="https://www.aalpha.net/wp-content/uploads/2019/07/angularjs-development-india.jpg" alt="Angular image">
      
      <a href="https://v17.angular.io/guide/what-is-angular" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1012,7 +1012,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">VueJS is a progressive JavaScript framework used for building user interfaces. It is designed to be incrementally adoptable and can be integrated into existing projects.</p>
     <p class="modal-paragraph">VueJS provides reactive data binding and component-based architecture, making it easy to build interactive and maintainable web applications.</p>
     
-    <img class="responsive-image" src="https://v1.vuejs.org/images/mvvm.png" alt="VueJS image">
+    <img  src="https://v1.vuejs.org/images/mvvm.png" alt="VueJS image">
      
      <a href="https://v1.vuejs.org/guide/overview.html" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1022,7 +1022,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">Flutter is an open-source UI toolkit developed by Google for building natively compiled applications for mobile, web, and desktop from a single codebase.</p>
     <p class="modal-paragraph">Flutter uses the Dart programming language and provides a rich set of pre-designed widgets and tools for creating beautiful and responsive user interfaces.</p>
     
-    <img class="responsive-image" src="assets/images/flutter.jpg" alt="Flutter image">
+    <img  src="assets/images/flutter.jpg" alt="Flutter image">
      
      <a href="https://techvify-software.com/wp-content/uploads/2023/07/how-flutter-works.jpg" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1040,7 +1040,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">An algorithm is a step-by-step procedure or formula for solving a problem. It is a fundamental concept in computer science and programming used to perform tasks, calculations, and data processing.</p>
     <p class="modal-paragraph">Algorithms are the basis of programming and are used to design and optimize code for various applications.</p>
     
-    <img class="responsive-image" src="https://cdn.ttgtmedia.com/rms/onlineimages/types_of_algorithms-f_mobile.png" alt="Algorithm image">
+    <img  src="https://cdn.ttgtmedia.com/rms/onlineimages/types_of_algorithms-f_mobile.png" alt="Algorithm image">
      
      <a href="https://www.geeksforgeeks.org/introduction-to-algorithms/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1050,7 +1050,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">A data structure is a way of organizing and storing data so that it can be accessed and modified efficiently. Common data structures include arrays, linked lists, stacks, queues, and trees.</p>
     <p class="modal-paragraph">Choosing the right data structure is crucial for optimizing performance and managing data effectively in software applications.</p>
     
-    <img class="responsive-image" src="https://media.geeksforgeeks.org/wp-content/uploads/20220520182504/ClassificationofDataStructure-660x347.jpg" alt="Data Structure image">
+    <img  src="https://media.geeksforgeeks.org/wp-content/uploads/20220520182504/ClassificationofDataStructure-660x347.jpg" alt="Data Structure image">
      
      <a href="https://www.w3schools.com/dsa/dsa_intro.php" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1076,7 +1076,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">Debugging is the process of identifying and fixing errors or bugs in software code. It involves testing, analyzing, and modifying code to ensure that it functions correctly.</p>
     <p class="modal-paragraph">Effective debugging is crucial for improving software quality and performance.</p>
     
-    <img class="responsive-image" src="https://www.edureka.co/blog/wp-content/uploads/2019/08/debuuging-steps-528x294.png" alt="Debugging image">
+    <img  src="https://www.edureka.co/blog/wp-content/uploads/2019/08/debuuging-steps-528x294.png" alt="Debugging image">
      
      <a href="https://www.ibm.com/topics/debugging" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1095,7 +1095,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">A unit test is a type of testing that focuses on verifying individual components or functions of a software application. It ensures that each unit of code performs as intended.</p>
     <p class="modal-paragraph">Unit tests are typically automated and help identify bugs early in the development process.</p>
     
-    <img class="responsive-image" src="https://codenboxautomationlab.com/wp-content/uploads/2022/06/unit-testing-life-cycle-pic.png" alt="Unit Test image">
+    <img  src="https://codenboxautomationlab.com/wp-content/uploads/2022/06/unit-testing-life-cycle-pic.png" alt="Unit Test image">
      
      <a href="https://aws.amazon.com/what-is/unit-testing/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1105,7 +1105,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">Integration testing focuses on verifying the interactions between different components or systems to ensure they work together as expected.</p>
     <p class="modal-paragraph">Integration tests help ensure that different parts of a software application integrate smoothly and function correctly as a whole.</p>
     
-    <img class="responsive-image" src="https://www.simform.com/wp-content/uploads/2022/01/Integration-testing-types.png" alt="Integration Test image">
+    <img  src="https://www.simform.com/wp-content/uploads/2022/01/Integration-testing-types.png" alt="Integration Test image">
      
      <a href="https://katalon.com/resources-center/blog/integration-testing" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1115,7 +1115,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">End-to-end testing evaluates the entire software application from start to finish to ensure that it works as intended in a real-world scenario.</p>
     <p class="modal-paragraph">It verifies that all components of the application interact correctly and that the system as a whole meets the desired requirements.</p>
     
-    <img class="responsive-image" src="https://cdn.prod.website-files.com/610bb663a35dd3364ddbf08c/62b594796e28e910d6624e03_end-to-end-testing-metrics.png" alt="End-to-End Test image">
+    <img  src="https://cdn.prod.website-files.com/610bb663a35dd3364ddbf08c/62b594796e28e910d6624e03_end-to-end-testing-metrics.png" alt="End-to-End Test image">
      
      <a href="https://smartbear.com/learn/automated-testing/what-is-end-to-end-testing/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1125,7 +1125,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">Performance testing evaluates how well a software application performs under various conditions, including load, stress, and scalability.</p>
     <p class="modal-paragraph">It helps identify bottlenecks and ensure that the application meets performance criteria and handles user demands effectively.</p>
     
-    <img class="responsive-image" src="https://www.a1qa.com/wp-content/uploads/2019/06/performance-testing.jpg" alt="Performance Test image">
+    <img  src="https://www.a1qa.com/wp-content/uploads/2019/06/performance-testing.jpg" alt="Performance Test image">
      
      <a href="https://en.wikipedia.org/wiki/Software_performance_testing" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1175,7 +1175,7 @@ const descriptions = {  codeSmell: `
       Think of it as having a friend read your essay to catch any errors and suggest better ways to write it.
     </p>
     
-    <img class="responsive-image" src="https://browserstack.wpenginepowered.com/wp-content/uploads/2023/09/Code-Review-Process-700x380.png" alt="Code Review image">
+    <img  src="https://browserstack.wpenginepowered.com/wp-content/uploads/2023/09/Code-Review-Process-700x380.png" alt="Code Review image">
     <a href="https://about.gitlab.com/topics/version-control/what-is-code-review/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1189,7 +1189,7 @@ const descriptions = {  codeSmell: `
       Imagine rewriting a messy essay to make it clearer and easier to understand.
     </p>
     
-    <img class="responsive-image" src="https://lvivity.com/wp-content/uploads/2020/09/refactoring-process.png" alt="Refactoring image">
+    <img  src="https://lvivity.com/wp-content/uploads/2020/09/refactoring-process.png" alt="Refactoring image">
     <a href="https://refactoring.guru/refactoring/what-is-refactoring" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1203,7 +1203,7 @@ const descriptions = {  codeSmell: `
       Think of it as borrowing time now but paying back with interest later.
     </p>
     
-    <img class="responsive-image" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2vdqiy2rlvcg00nw230f.png" alt="Technical Debt image">
+    <img  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2vdqiy2rlvcg00nw230f.png" alt="Technical Debt image">
     <a href="https://asana.com/resources/technical-debt" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1230,7 +1230,7 @@ const descriptions = {  codeSmell: `
       Think of them as rules for writing good, clean, and efficient code.
     </p>
     
-    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:751/1*GoLwqfeB624NB5g7JPVyBA.png" alt="SOLID Principles image">
+    <img  src="https://miro.medium.com/v2/resize:fit:751/1*GoLwqfeB624NB5g7JPVyBA.png" alt="SOLID Principles image">
     <a href="https://en.wikipedia.org/wiki/SOLID" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1244,7 +1244,7 @@ const descriptions = {  codeSmell: `
       Think of it like writing an essay in clear, straightforward language so everyone can understand it easily.
     </p>
     
-    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1400/1*yN1zFlkN7bKVo1lld0Vm1A.png" alt="KISS Principle image">
+    <img  src="https://miro.medium.com/v2/resize:fit:1400/1*yN1zFlkN7bKVo1lld0Vm1A.png" alt="KISS Principle image">
     <a href="https://en.wikipedia.org/wiki/KISS_principle" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1258,7 +1258,7 @@ const descriptions = {  codeSmell: `
       Think of it like using the same recipe card for your favorite dish instead of writing a new one each time.
     </p>
     
-    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1400/1*lQlLv4AJZysvATx1AEIpUQ.png" alt="DRY Principle image">
+    <img  src="https://miro.medium.com/v2/resize:fit:1400/1*lQlLv4AJZysvATx1AEIpUQ.png" alt="DRY Principle image">
     <a href="https://thevaluable.dev/dry-principle-cost-benefit-example/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1272,7 +1272,7 @@ const descriptions = {  codeSmell: `
       It's like asking a friend to try out a game you made to make sure it's fun and works well before sharing it with everyone.
     </p>
     
-    <img class="responsive-image" src="https://images.spiceworks.com/wp-content/uploads/2022/10/14110825/UAT-Testing-Process.png" alt="UAT image">
+    <img  src="https://images.spiceworks.com/wp-content/uploads/2022/10/14110825/UAT-Testing-Process.png" alt="UAT image">
     <a href="https://www.guru99.com/user-acceptance-testing.html" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   testDrivenDevelopment: `
@@ -1289,7 +1289,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">Continuous Integration (CI) is a practice where code changes are automatically tested and integrated into a shared repository multiple times a day. It aims to detect and fix errors early in the development process.</p>
     <p class="modal-paragraph">CI helps improve software quality and reduce integration issues by ensuring that code changes are tested and validated frequently.</p>
     
-    <img class="responsive-image" src="https://www.pagerduty.com/wp-content/uploads/2020/01/continuous-integration-2.png" alt="Continuous Integration image">
+    <img  src="https://www.pagerduty.com/wp-content/uploads/2020/01/continuous-integration-2.png" alt="Continuous Integration image">
      
      <a href="https://aws.amazon.com/devops/continuous-integration/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1299,7 +1299,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">Continuous Delivery (CD) is a practice where code changes are automatically built, tested, and prepared for release to production. It ensures that software can be deployed at any time with minimal manual intervention.</p>
     <p class="modal-paragraph">CD promotes faster delivery of new features and bug fixes by streamlining the release process and ensuring that software is always in a deployable state.</p>
     
-    <img class="responsive-image" src="https://infraascode.com.br/images/ci_cd-CD.png" alt="Continuous Delivery image">
+    <img  src="https://infraascode.com.br/images/ci_cd-CD.png" alt="Continuous Delivery image">
      
      <a href="https://aws.amazon.com/devops/continuous-delivery/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1309,7 +1309,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to improve collaboration, automation, and efficiency throughout the software development lifecycle.</p>
     <p class="modal-paragraph">DevOps aims to enhance the speed, quality, and reliability of software delivery by fostering a culture of continuous improvement and shared responsibility.</p>
     
-    <img class="responsive-image" src="https://d1.awsstatic.com/product-marketing/DevOps/DevOps_feedback-diagram.ff668bfc299abada00b2dcbdc9ce2389bd3dce3f.png" alt="DevOps image">
+    <img  src="https://d1.awsstatic.com/product-marketing/DevOps/DevOps_feedback-diagram.ff668bfc299abada00b2dcbdc9ce2389bd3dce3f.png" alt="DevOps image">
      
      <a href="https://aws.amazon.com/devops/what-is-devops/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1321,7 +1321,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">It works by fitting a logistic curve to the data and using this curve to make predictions.</p>
     
     
-    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1400/1*dm6ZaX5fuSmuVvM4Ds-vcg.jpeg" alt="Logistic Regression image">
+    <img  src="https://miro.medium.com/v2/resize:fit:1400/1*dm6ZaX5fuSmuVvM4Ds-vcg.jpeg" alt="Logistic Regression image">
     <a href="https://towardsdatascience.com/introduction-to-logistic-regression-66248243c148" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1332,7 +1332,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">For example, it can group customers into segments based on their purchasing behavior.</p>
     
     
-    <img class="responsive-image" src="https://editor.analyticsvidhya.com/uploads/56854k%20means%20clustering.png" alt="K-Means Clustering image">
+    <img  src="https://editor.analyticsvidhya.com/uploads/56854k%20means%20clustering.png" alt="K-Means Clustering image">
     <a href="https://www.analyticsvidhya.com/blog/2020/10/a-simple-explanation-of-k-means-clustering/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1343,7 +1343,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">For instance, they can help determine whether a loan should be approved based on applicant details.</p>
     
     
-    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:820/1*JAEY3KP7TU2Q6HN6LasMrw.png" alt="Decision Trees image">
+    <img  src="https://miro.medium.com/v2/resize:fit:820/1*JAEY3KP7TU2Q6HN6LasMrw.png" alt="Decision Trees image">
     <a href="https://chirag-sehra.medium.com/decision-trees-explained-easily-28f23241248" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1354,7 +1354,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">It's like having a group of experts where the decision is based on the consensus of all experts.</p>
     
     
-    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1010/1*R3oJiyaQwyLUyLZL-scDpw.png" alt="Random Forest image">
+    <img  src="https://miro.medium.com/v2/resize:fit:1010/1*R3oJiyaQwyLUyLZL-scDpw.png" alt="Random Forest image">
     <a href="https://medium.com/@denizgunay/random-forest-af5bde5d7e1e" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1365,7 +1365,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">Imagine drawing a line that best divides two groups of points on a graph. SVM finds this optimal line.</p>
     
     
-    <img class="responsive-image" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/l4xu4d635cva6izqylzl.png" alt="Support Vector Machines image">
+    <img  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/l4xu4d635cva6izqylzl.png" alt="Support Vector Machines image">
     <a href="https://www.kdnuggets.com/2016/07/support-vector-machines-simple-explanation.html" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1385,7 +1385,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">They can learn from data and make predictions, just like how our brains learn from experience.</p>
     
     
-    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:667/1*SqsP6IcQoCLy9eMU8te3Vw.png" alt="Neural Networks image">
+    <img  src="https://miro.medium.com/v2/resize:fit:667/1*SqsP6IcQoCLy9eMU8te3Vw.png" alt="Neural Networks image">
     <a href="https://www.freecodecamp.org/news/deep-learning-neural-networks-explained-in-plain-english/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1396,7 +1396,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">NLP enables computers to understand, interpret, and generate human language.</p>
     
     
-    <img class="responsive-image" src="https://media.geeksforgeeks.org/wp-content/uploads/20240524132821/nlp-working.webp" alt="Natural Language Processing image">
+    <img  src="https://media.geeksforgeeks.org/wp-content/uploads/20240524132821/nlp-working.webp" alt="Natural Language Processing image">
     <a href="https://www.freecodecamp.org/news/deep-learning-neural-networks-explained-in-plain-english/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1407,7 +1407,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">RNNs are great for tasks where context from previous inputs is important.</p>
     
     
-    <img class="responsive-image" src="https://media.geeksforgeeks.org/wp-content/uploads/20231204125839/What-is-Recurrent-Neural-Network-660.webp" alt="Recurrent Neural Networks image">
+    <img  src="https://media.geeksforgeeks.org/wp-content/uploads/20231204125839/What-is-Recurrent-Neural-Network-660.webp" alt="Recurrent Neural Networks image">
     <a href="https://media.geeksforgeeks.org/wp-content/uploads/20240524132821/nlp-working.webp" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1418,7 +1418,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">CNNs are used for recognizing objects in photos or videos.</p>
     
     
-    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1400/1*7_BCJFzekmPXmJQVRdDgwg.png" alt="Convolutional Neural Networks image">
+    <img  src="https://miro.medium.com/v2/resize:fit:1400/1*7_BCJFzekmPXmJQVRdDgwg.png" alt="Convolutional Neural Networks image">
     <a href="https://nafizshahriar.medium.com/what-is-convolutional-neural-network-cnn-deep-learning-b3921bdd82d5" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1429,7 +1429,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">They are useful for tasks like noise reduction and dimensionality reduction.</p>
     
     
-    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:600/1*nqzWupxC60iAH2dYrFT78Q.png" alt="Autoencoders image">
+    <img  src="https://miro.medium.com/v2/resize:fit:600/1*nqzWupxC60iAH2dYrFT78Q.png" alt="Autoencoders image">
     <a href="https://medium.com/@birla.deepak26/autoencoders-76bb49ae6a8f" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1440,7 +1440,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">It's like training a robot to play a game by giving it points for making good moves and penalties for bad moves.</p>
     
     
-    <img class="responsive-image" src="https://images.spiceworks.com/wp-content/uploads/2022/09/29100907/Reinforcement-Learning-Model.png" alt="Reinforcement Learning image">
+    <img  src="https://images.spiceworks.com/wp-content/uploads/2022/09/29100907/Reinforcement-Learning-Model.png" alt="Reinforcement Learning image">
     <a href="https://www.spiceworks.com/tech/artificial-intelligence/articles/what-is-reinforcement-learning/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1451,7 +1451,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">For example, a model trained to recognize cats and dogs can be adapted to identify different breeds of dogs.</p>
     
     
-    <img class="responsive-image" src="https://cdn.prod.website-files.com/5d7b77b063a9066d83e1209c/627d125248f5fa07e1faf0c6_61f54fb4bbd0e14dfe068c8f_transfer-learned-knowledge.png" alt="Transfer Learning image">
+    <img  src="https://cdn.prod.website-files.com/5d7b77b063a9066d83e1209c/627d125248f5fa07e1faf0c6_61f54fb4bbd0e14dfe068c8f_transfer-learned-knowledge.png" alt="Transfer Learning image">
     <a href="https://www.v7labs.com/blog/transfer-learning-guide" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   hyperparameterTuning: `
@@ -1471,7 +1471,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">It's like taking a practice test to see how well you'll do on the real exam.</p>
     
     
-    <img class="responsive-image" src="https://www.sharpsightlabs.com/wp-content/uploads/2024/02/cross-validation-explained_FEATURED-IMAGE.png" alt="Cross-Validation image">
+    <img  src="https://www.sharpsightlabs.com/wp-content/uploads/2024/02/cross-validation-explained_FEATURED-IMAGE.png" alt="Cross-Validation image">
     <a href="https://www.geeksforgeeks.org/cross-validation-machine-learning/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1482,7 +1482,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">Effective feature engineering can make a significant difference in how well a model performs.</p>
     
     
-    <img class="responsive-image" src="https://blog.minitab.com/hubfs/FeatureEngineering-blog-img1-hubspot.jpg" alt="Feature Engineering image">
+    <img  src="https://blog.minitab.com/hubfs/FeatureEngineering-blog-img1-hubspot.jpg" alt="Feature Engineering image">
     <a href="https://builtin.com/articles/feature-engineering" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1502,7 +1502,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">It's like memorizing answers to a practice test without understanding the material, leading to poor performance on the actual exam.</p>
     
     
-    <img class="responsive-image" src="https://www.mathworks.com/discovery/overfitting/_jcr_content/mainParsys/image.adapt.full.medium.svg/1718273106637.svg" alt="Overfitting image">
+    <img  src="https://www.mathworks.com/discovery/overfitting/_jcr_content/mainParsys/image.adapt.full.medium.svg/1718273106637.svg" alt="Overfitting image">
     <a href="https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1513,7 +1513,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">It's like using a very basic formula to solve a complex problem, resulting in inaccurate answers.</p>
     
     
-    <img class="responsive-image" src="https://www.mathworks.com/discovery/overfitting/_jcr_content/mainParsys/image.adapt.full.medium.svg/1718273106637.svg" alt="Underfitting image">
+    <img  src="https://www.mathworks.com/discovery/overfitting/_jcr_content/mainParsys/image.adapt.full.medium.svg/1718273106637.svg" alt="Underfitting image">
     <a href="https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1524,7 +1524,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">It's like adding rules to limit how much a model can change to avoid fitting too closely to the training data.</p>
     
     
-    <img class="responsive-image" src="https://editor.analyticsvidhya.com/uploads/71199regularization.jpg" alt="Regularization image">
+    <img  src="https://editor.analyticsvidhya.com/uploads/71199regularization.jpg" alt="Regularization image">
     <a href="" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1553,7 +1553,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">It's like using the wisdom of a group to make a better decision.</p>
     
     
-    <img class="responsive-image" src="https://cdn.corporatefinanceinstitute.com/assets/ensemble-methods.png" alt="Ensemble Methods image">
+    <img  src="https://cdn.corporatefinanceinstitute.com/assets/ensemble-methods.png" alt="Ensemble Methods image">
     <a href="https://corporatefinanceinstitute.com/resources/data-science/ensemble-methods/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1564,7 +1564,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">It helps in assessing how well a model can distinguish between classes.</p>
     
     
-    <img class="responsive-image" src="https://media.geeksforgeeks.org/wp-content/uploads/20230410164437/AUC-ROC-Curve.webp" alt="ROC Curve image">
+    <img  src="https://media.geeksforgeeks.org/wp-content/uploads/20230410164437/AUC-ROC-Curve.webp" alt="ROC Curve image">
     <a href="https://medium.com/@shaileydash/understanding-the-roc-and-auc-intuitively-31ca96445c02" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   aucCurve: `
@@ -1574,7 +1574,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">It's like checking how well a doctor can distinguish between patients with and without a disease based on a diagnostic test.</p>
     
     
-    <img class="responsive-image" src="https://media.geeksforgeeks.org/wp-content/uploads/20230410164437/AUC-ROC-Curve.webp" alt="AUC Curve image">
+    <img  src="https://media.geeksforgeeks.org/wp-content/uploads/20230410164437/AUC-ROC-Curve.webp" alt="AUC Curve image">
     <a href="https://medium.com/@shaileydash/understanding-the-roc-and-auc-intuitively-31ca96445c025" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1596,7 +1596,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">It's useful when you need a single metric to assess the performance of a model.</p>
     
     
-    <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:898/1*7tC4-fUHtcffvXGcGTJJtg.png" alt="F1 Score image">
+    <img  src="https://miro.medium.com/v2/resize:fit:898/1*7tC4-fUHtcffvXGcGTJJtg.png" alt="F1 Score image">
     <a href="https://www.v7labs.com/blog/f1-score-guide" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -1607,7 +1607,7 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">It helps in understanding the types of errors a model makes.</p>
     
     
-    <img class="responsive-image" src="https://cdn.prod.website-files.com/5d7b77b063a9066d83e1209c/63b413d2cdc133446aa23fc5_636b9182cfaef2115e028921_HERO_1_Confusion.png" alt="Confusion Matrix image">
+    <img  src="https://cdn.prod.website-files.com/5d7b77b063a9066d83e1209c/63b413d2cdc133446aa23fc5_636b9182cfaef2115e028921_HERO_1_Confusion.png" alt="Confusion Matrix image">
     <a href="https://www.analyticsvidhya.com/blog/2020/04/confusion-matrix-machine-learning/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -2837,9 +2837,20 @@ const descriptions = {  codeSmell: `
     function showSponsors() {
       const modal = document.getElementById('modal');
       const modalBody = document.getElementById('modal-body');
-      modalBody.innerHTML = '<h3>Sponsors</h3><p> You can sponsor this project via my Ko-Fi profile : <a href="https://ko-fi.com/buzzpy">ko-fi.com/buzzpy<a></p> <p>Once you make any donation, I will get in touch with you and make sure you get a place in this "Sponsors" page! </p>';
+    
+      modalBody.innerHTML = `
+        <h3>Sponsors</h3>
+        <p>You can sponsor this project via my Ko-Fi profile: <a href="https://ko-fi.com/buzzpy">ko-fi.com/buzzpy</a></p>
+        <p>Once you make any donation, I will get in touch with you and make sure you get a place on this "Sponsors" page!</p>
+        <div id="sponsor-info">
+          <img src="https://media.licdn.com/dms/image/D5603AQHJyX4hVmqjpQ/profile-displayphoto-shrink_200_200/0/1715316807453?e=2147483647&v=beta&t=7_xJ7ANI71x0vnvp1_2vj86V0kVvNDQGGflUzLfQBBk" alt="Malith J. Don" id="sponsor-image" />
+          <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Flk.linkedin.com%2Fin%2Fmalith-jayasinghe-484509180&psig=AOvVaw3pVLfvt056d-wG57Gc361x&ust=1723739678386000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCOijn-v09IcDFQAAAAAdAAAAABAK" id="sponsor-name">Malith J. Don</a>
+        </div>
+      `;
       modal.style.display = 'block';
     }
+    
+    
 
    // to close the modal
 function closeModal(event) {
