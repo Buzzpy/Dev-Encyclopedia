@@ -2633,7 +2633,7 @@ const descriptions = {  codeSmell: `
       Think of a dark launch as a soft opening for a restaurant, where new dishes are tested discreetly before the official menu launch.
     </p>
     
-    <a href="https://launchdarkly.com/blog/what-is-a-dark-launch/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <a href="https://launchdarkly.com/blog/guide-to-dark-launching/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
   cloudSecurity: `
