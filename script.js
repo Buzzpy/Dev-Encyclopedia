@@ -2824,7 +2824,7 @@ const descriptions = {  codeSmell: `
     function showAbout() {
       const modal = document.getElementById('modal');
       const modalBody = document.getElementById('modal-body');
-      modalBody.innerHTML = '<h2>About</h2><strong>IMPORTANT: Bookmarking or Pinning this webpage would help you get a quick overview of anything related to tech in seconds! </strong></p><p>This "Dev Encyclopedia" is a simple project that simplifies things.<p>This website has almost all the commonly used technical terms, concepts and even programming-language specific jargons explained and links provided for furthur reading.</p><p>Most importantly, it is ad-free, so basically, the best encyclopedia everr! *excited. too much.*</p><p>Built with love, by Chenuli J.</p><img src="image/Chenuli Signature.png"></img>';
+      modalBody.innerHTML = '<h2>About</h2><strong>IMPORTANT: Bookmarking or Pinning this webpage would help you get a quick overview of anything related to tech in seconds! </strong></p><p>This "Dev Encyclopedia" is a simple project that simplifies things.<p>This website has almost all the commonly used technical terms, concepts and even programming-language specific jargons explained and links provided for further reading.</p><p>Most importantly, it is ad-free, so basically, the best encyclopedia everr! *excited. too much.*</p><p>Built with love, by Chenuli J.</p><img src="image/Chenuli Signature.png"></img>';
       modal.style.display = 'block';
     }
     function showBuilders() {
@@ -2836,7 +2836,7 @@ const descriptions = {  codeSmell: `
     function showSponsors() {
       const modal = document.getElementById('modal');
       const modalBody = document.getElementById('modal-body');
-      modalBody.innerHTML = '<h3>Sponsors</h3><p> You can sponsor this project via my Ko-Fi profile : <a href="https://ko-fi.com/buzzpy">ko-fi.com/buzzpy<a></p> <p>Once you make any donatioon, I will get in touch with you and make sure you get a place in this "Sponsors" page! </p>';
+      modalBody.innerHTML = '<h3>Sponsors</h3><p> You can sponsor this project via my Ko-Fi profile : <a href="https://ko-fi.com/buzzpy">ko-fi.com/buzzpy<a></p> <p>Once you make any donation, I will get in touch with you and make sure you get a place in this "Sponsors" page! </p>';
       modal.style.display = 'block';
     }
 
