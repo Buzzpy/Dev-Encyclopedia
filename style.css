@@ -5,6 +5,48 @@ body {
     margin: 0;
     padding: 0;
 }
+#sponsor-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #000000; /* Optional: Add border to make it stand out */
+    border-radius: 15px; /* Optional: Add rounded corners */
+    background-color: #ffffff; /* Optional: Add background color */
+  }
+  
+  #sponsor-image {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  
+  #sponsor-name {
+    font-size: 15px; 
+    font-weight: bold;
+    color: #0073b1; 
+    text-decoration: none;
+  }
+  
+  #sponsor-name:hover {
+    text-decoration: underline; 
+  }
+  
+  @media (max-width: 600px) {
+    #sponsor-info {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #sponsor-image {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
+  
 
 .hero-section {
     text-align: center;
