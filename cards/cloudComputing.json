@@ -1,0 +1,13 @@
+{
+    "title": "Cloud Computing",
+    "tags": [],
+    "paragraphs": [
+        "Cloud computing is the delivery of computing services—such as servers, storage, databases, and software—over the internet (the cloud). It allows users to access and use these services without having to manage physical servers or infrastructure.",
+        "Cloud computing provides flexibility, scalability, and cost-efficiency for businesses and individuals. Following image shows types of cloud computing",
+        "<img class=\"responsive-image\" src=\"https://images.spiceworks.com/wp-content/uploads/2021/07/02105247/Cloud-Computing.png\" alt=\"Cloud Computing image\">"
+    ],
+    "link": {
+        "href": "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Pull Requests (PR)",
+    "tags": [],
+    "paragraphs": [
+        "A pull request is a way to propose changes to a codebase. It allows developers to review and discuss the changes before integrating them into the main branch.",
+        "It's like asking your teacher to review and approve your essay before adding it to the class's shared document."
+    ],
+    "link": {
+        "href": "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

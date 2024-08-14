@@ -1,0 +1,13 @@
+{
+    "title": "SQL",
+    "tags": [],
+    "paragraphs": [
+        "SQL (Structured Query Language) is a language used for managing and querying relational databases. It allows users to perform operations such as retrieving, inserting, updating, and deleting data.",
+        "SQL is essential for working with databases and is widely used in various applications to interact with data.",
+        "<img class=\"responsive-image\" src=\"https://www.spiceworks.com/wp-content/uploads/2022/06/How-Does-SQL-Work.png\" alt=\"SQL image\">"
+    ],
+    "link": {
+        "href": "https://aws.amazon.com/what-is/sql/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

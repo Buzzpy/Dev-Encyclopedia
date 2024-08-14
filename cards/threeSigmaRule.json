@@ -1,0 +1,13 @@
+{
+    "title": "Three-Sigma Rule",
+    "tags": [],
+    "paragraphs": [
+        "The Three-Sigma Rule, also known as <strong> the 68-95-99.7 rule and  </strong>  <strong>Empirical Rule </strong>, states that for a normal distribution, nearly all data points will fall within three standard deviations of the mean.",
+        "This rule helps to understand data variability and is used in various fields, including quality control and statistics.",
+        "<img class=\"responsive-image\" src=\"https://decodingdatascience.com/wp-content/uploads/2023/05/Screenshot-2023-05-05-101857.jpg\" alt=\"Three-Sigma Rule image\">"
+    ],
+    "link": {
+        "href": "https://www.investopedia.com/terms/t/three-sigma-limits.asp",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

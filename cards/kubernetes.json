@@ -1,0 +1,13 @@
+{
+    "title": "Kubernetes",
+    "tags": [],
+    "paragraphs": [
+        "Kubernetes is an open-source platform designed to automate the deployment, scaling, and operation of containerized applications. It helps manage clusters of containers.",
+        "Think of it as the conductor of an orchestra, ensuring all the musicians (containers) play in harmony.",
+        "<img class=\"responsive-image\" src=\"https://example.com/kubernetes-image.png\" alt=\"Kubernetes image\">"
+    ],
+    "link": {
+        "href": "https://kubernetes.io/docs/concepts/overview/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

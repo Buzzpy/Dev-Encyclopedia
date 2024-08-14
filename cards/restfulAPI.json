@@ -1,0 +1,13 @@
+{
+    "title": "RESTful API",
+    "tags": [],
+    "paragraphs": [
+        "A RESTful API (Representational State Transfer API) is a type of API that follows a set of rules for how to create, read, update, and delete data. It uses standard HTTP methods like GET, POST, PUT, and DELETE.",
+        "Think of it as a way for different programs to talk to each other over the internet, using common language and protocols.",
+        "<img class=\"responsive-image\" src=\"    https://www.altexsoft.com/media/2021/03/rest_api_works.png\" alt=\"GraphQL image\">"
+    ],
+    "link": {
+        "href": "https://aws.amazon.com/what-is/restful-api/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

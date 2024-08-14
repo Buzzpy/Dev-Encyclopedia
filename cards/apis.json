@@ -1,0 +1,14 @@
+{
+    "title": "APIs",
+    "tags": [],
+    "paragraphs": [
+        "An API (Application Programming Interface) is a set of rules that allows different software programs to communicate with each other. It defines how requests and responses should be formatted so that different systems can interact seamlessly.",
+        "APIs are used to integrate different services, enabling developers to build applications that interact with other software or services.",
+        "For example, An API is like a messenger between apps and services. Imagine you are using a weather app. The app uses an API to ask a weather service for today’s weather. The weather service sends the info back through the API, and you see the weather on your app. So, an API helps different software talk to each other and share information.",
+        "<img class=\"responsive-image\" src=\"https://www.openlegacy.com/hs-fs/hubfs/Picture1-2.webp?width=969&height=509&name=Picture1-2.webp\" alt=\"APIs image\">"
+    ],
+    "link": {
+        "href": "https://www.postman.com/what-is-an-api/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

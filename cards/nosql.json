@@ -1,0 +1,12 @@
+{
+    "title": "NoSQL",
+    "tags": [],
+    "paragraphs": [
+        "NoSQL is a type of database that provides a mechanism for data storage and retrieval that is different from traditional relational databases. It is designed to handle large volumes of unstructured or semi-structured data.",
+        "NoSQL databases are often used for applications that require high scalability, performance, and flexibility in handling data."
+    ],
+    "link": {
+        "href": "",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Quantum Computing",
+    "tags": [],
+    "paragraphs": [
+        "Quantum computing is an area of computing that uses principles of quantum mechanics to perform calculations. It leverages quantum bits (qubits) to process information in ways that classical computers cannot.",
+        "Quantum computing has the potential to solve complex problems more efficiently than traditional computers.",
+        "<img class=\"responsive-image-qc\" src=\"https://dev-to-uploads.s3.amazonaws.com/uploads/articles/auzqrr27ccgv9ylkloed.png\" alt=\"Quantum Computing image\">"
+    ],
+    "link": {
+        "href": "https://www.explainthatstuff.com/quantum-computing.html",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "title": "ReactJS",
+    "tags": [],
+    "paragraphs": [
+        "ReactJS is a JavaScript library used for building user interfaces. It allows developers to create reusable UI components and manage the state of their applications efficiently.",
+        "ReactJS is often used for developing single-page applications (SPAs) and can be integrated with other libraries or frameworks.",
+        "<img class=\"responsive-image\" src=\"https://miro.medium.com/v2/resize:fit:1400/1*6l9rCElYlP9EoG0A-iXULg.png\" alt=\"ReactJS image\">"
+    ],
+    "link": {
+        "href": "https://www.freecodecamp.org/news/react-for-beginners-handbook/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Merging",
+    "tags": [],
+    "paragraphs": [
+        "Merging is the process of combining changes from different branches into a single branch in version control systems. It helps integrate features and fixes back into the main codebase.",
+        "It's like combining different drafts of an essay into one final version."
+    ],
+    "link": {
+        "href": "https://atlassian.com/git/tutorials/using-branches/git-merge",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}
