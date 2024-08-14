@@ -13,8 +13,9 @@
     <a href="a-link-to-an-article-on-the-topic-mentioned-for-beginners" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `
 */
- 
-const descriptions = {  codeSmell: `
+
+const descriptions = {
+  codeSmell: `
     <h2 id="modal-heading">Code Smell</h2>
     
     <p class="modal-paragraph">
@@ -840,7 +841,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  
+
   agile: `
     <h2 id="modal-heading">Agile</h2>
     
@@ -2454,7 +2455,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://immutable-js.github.io/immutable-js/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  
+
   dataDeduplication: `
     <h2 id="modal-heading">Data Deduplication</h2>
     
@@ -2777,64 +2778,88 @@ const descriptions = {  codeSmell: `
     
     <a href="https://mlops.community/what-is-mlops/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
+  GDPR:
+    `
+  <h2 id="modal-heading">GDPR</h2>
+    
+    <p class="modal-paragraph">
+    The General Data Protection Regulation is a European Union regulation on information privacy in the European Union and the European Economic Area. The GDPR is an important component of EU privacy law and human rights law, in particular Article 8 of the Charter of Fundamental Rights of the European Union.
+    </p>
+    <p class="modal-paragraph">
 
-  
+    </p>
+    
+    <a href="https://gdpr.eu/" target="_blank"> ⌁—— Read more about it ——⌁</a>
+
+  `
+
+
 };
 
-    function filterCards() {
-      const input = document.getElementById('searchInput');
-      const filter = input.value.toLowerCase();
-      const cards = document.getElementsByClassName('card');
+function filterCards()
+{
+  const input = document.getElementById('searchInput');
+  const filter = input.value.toLowerCase();
+  const cards = document.getElementsByClassName('card');
 
-      for (let i = 0; i < cards.length; i++) {
-        const title = cards[i].getElementsByClassName('card-title')[0];
-        if (title.innerText.toLowerCase().indexOf(filter) > -1) {
-          cards[i].style.display = '';
-        } else {
-          cards[i].style.display = 'none';
-        }
-      }
+  for (let i = 0; i < cards.length; i++)
+  {
+    const title = cards[i].getElementsByClassName('card-title')[0];
+    if (title.innerText.toLowerCase().indexOf(filter) > -1)
+    {
+      cards[i].style.display = '';
+    } else
+    {
+      cards[i].style.display = 'none';
     }
+  }
+}
 
-    function showModal(term) {
-      const modal = document.getElementById('modal');
-      const modalBody = document.getElementById('modal-body');
-      modalBody.innerHTML = descriptions[term];
-      modal.style.display = 'block';
-    }
+function showModal(term)
+{
+  const modal = document.getElementById('modal');
+  const modalBody = document.getElementById('modal-body');
+  modalBody.innerHTML = descriptions[term];
+  modal.style.display = 'block';
+}
 
-    function readMore() {
-      // Redirect to detailed explanation page (e.g., a blog or documentation)
-      window.open('https://example.com/detailed-explanation', '_blank');
-    }
+function readMore()
+{
+  // Redirect to detailed explanation page (e.g., a blog or documentation)
+  window.open('https://example.com/detailed-explanation', '_blank');
+}
 
-    function showAbout() {
-      const modal = document.getElementById('modal');
-      const modalBody = document.getElementById('modal-body');
-      modalBody.innerHTML = '<h2>About</h2><strong>IMPORTANT: Bookmarking or Pinning this webpage would help you get a quick overview of anything related to tech in seconds! </strong></p><p>This "Dev Encyclopedia" is a simple project that simplifies things.<p>This website has almost all the commonly used technical terms, concepts and even programming-language specific jargons explained and links provided for furthur reading.</p><p>Most importantly, it is ad-free, so basically, the best encyclopedia everr! *excited. too much.*</p><p>Builit with love, by Chenuli J.</p><img src="image/Chenuli Signature.png"></img>';
-      modal.style.display = 'block';
-    }
-    function showBuilders() {
-      const modal = document.getElementById('modal');
-      const modalBody = document.getElementById('modal-body');
-      modalBody.innerHTML = '<h3>A Note from the Builder</h3><p>If you find a flaw, love to sponsor or need help with learning something, my inbox is open : <a href="mailto:buzzpy123@gmail.com">buzzpy123@gmail.com<a></p><p>-><p><p>- I am a Python Developer especilizing in backend so my <strong> web design skills </strong> are <strong>terrible.</strong></p><p>- This project was built in a month, unlike Rome which took years to build. Which means this is on early stages of development, so why not to <strong>fork, star and contribute? </strong> </p>';
-      modal.style.display = 'block';
-    }
-    function showSponsors() {
-      const modal = document.getElementById('modal');
-      const modalBody = document.getElementById('modal-body');
-      modalBody.innerHTML = '<h3>Sponsors</h3><p> You can sponsor this project via my Ko-Fi profile : <a href="https://ko-fi.com/buzzpy">ko-fi.com/buzzpy<a></p> <p>Once you make any donatioon, I will get in touch with you and make sure you get a place in this "Sponsors" page! </p>';
-      modal.style.display = 'block';
-    }
+function showAbout()
+{
+  const modal = document.getElementById('modal');
+  const modalBody = document.getElementById('modal-body');
+  modalBody.innerHTML = '<h2>About</h2><strong>IMPORTANT: Bookmarking or Pinning this webpage would help you get a quick overview of anything related to tech in seconds! </strong></p><p>This "Dev Encyclopedia" is a simple project that simplifies things.<p>This website has almost all the commonly used technical terms, concepts and even programming-language specific jargons explained and links provided for furthur reading.</p><p>Most importantly, it is ad-free, so basically, the best encyclopedia everr! *excited. too much.*</p><p>Builit with love, by Chenuli J.</p><img src="image/Chenuli Signature.png"></img>';
+  modal.style.display = 'block';
+}
+function showBuilders()
+{
+  const modal = document.getElementById('modal');
+  const modalBody = document.getElementById('modal-body');
+  modalBody.innerHTML = '<h3>A Note from the Builder</h3><p>If you find a flaw, love to sponsor or need help with learning something, my inbox is open : <a href="mailto:buzzpy123@gmail.com">buzzpy123@gmail.com<a></p><p>-><p><p>- I am a Python Developer especilizing in backend so my <strong> web design skills </strong> are <strong>terrible.</strong></p><p>- This project was built in a month, unlike Rome which took years to build. Which means this is on early stages of development, so why not to <strong>fork, star and contribute? </strong> </p>';
+  modal.style.display = 'block';
+}
+function showSponsors()
+{
+  const modal = document.getElementById('modal');
+  const modalBody = document.getElementById('modal-body');
+  modalBody.innerHTML = '<h3>Sponsors</h3><p> You can sponsor this project via my Ko-Fi profile : <a href="https://ko-fi.com/buzzpy">ko-fi.com/buzzpy<a></p> <p>Once you make any donatioon, I will get in touch with you and make sure you get a place in this "Sponsors" page! </p>';
+  modal.style.display = 'block';
+}
 
 // Function to close the modal
 const modal = document.getElementById('modal');
-function closeModal(event) {
+function closeModal(event)
+{
   event.preventDefault();
   const learnMoreLink = event.target.getAttribute('href') ?? undefined;
-  if(event.target === modal)
+  if (event.target === modal)
     modal.style.display = 'none';
-  else if(learnMoreLink) 
+  else if (learnMoreLink)
     window.open(learnMoreLink, '_blank').focus();
 }
 
