@@ -903,9 +903,18 @@
             "link": "https://2533.medium.com/recursion-explained-with-pictures-72578d28058a"
         }
     },
-    "iteration ": {
+    "iteration": {
         "title": "Iteration",
-        "subtext": "A programming technique"
+        "subtext": "A programming technique",
+        "content":{
+            "heading": "Iteration",
+            "paragraphs": [
+                "\n  Iteration is the process of repeating a set of operations or instructions in software development, refining the outcome with each cycle.\n  ",
+                "\n  Think of iteration as a loop where each pass brings you closer to the perfect solution, whether it's fine-tuning code or improving a machine learning model.\n  "
+            ],
+            "images": [],
+            "link": "https://goodspeed.studio/glossary/what-is-iteration-iteration-explained"
+        }
     },
     "versionControl": {
         "title": "Version Control",
@@ -1253,7 +1262,7 @@
             ],
             "images": [
                 {
-                    "link": "http://localhost:5500/assets/images/html.jpg",
+                    "link": "assets/images/html.jpg",
                     "description": "HTML image"
                 }
             ],
@@ -1271,7 +1280,7 @@
             ],
             "images": [
                 {
-                    "link": "http://localhost:5500/assets/images/css.jpg",
+                    "link": "assets/images/css.jpg",
                     "description": "CSS image"
                 }
             ],
@@ -1289,7 +1298,7 @@
             ],
             "images": [
                 {
-                    "link": "http://localhost:5500/assets/images/java.jpg",
+                    "link": "assets/images/java.jpg",
                     "description": "Java image"
                 }
             ],
@@ -1298,7 +1307,21 @@
     },
     "C#": {
         "title": "C#",
-        "subtext": "A modern, OOP language from Microsoft"
+        "subtext": "A modern, OOP language from Microsoft",
+        "content":{
+            "heading": "C#",
+            "paragraphs": [
+                "C# (C-Sharp) is a modern, object-oriented programming language developed by Microsoft. It is used primarily for developing applications on the .NET framework, including web, desktop, and mobile apps.",
+                "C# is known for its simplicity, versatility, and strong integration with Microsoft technologies."
+            ],
+            "images": [
+                {
+                    "link": "assets/images/cSharp.jpg",
+                    "description": "C# image"
+                }
+            ],
+            "link": "https://dotnet.microsoft.com/en-us/languages/csharp"
+        }
     },
     "ruby": {
         "title": "Ruby",
@@ -1324,7 +1347,7 @@
             ],
             "images": [
                 {
-                    "link": "http://localhost:5500/assets/images/swift.jpg",
+                    "link": "assets/images/swift.jpg",
                     "description": "Swift image"
                 }
             ],
@@ -1342,7 +1365,7 @@
             ],
             "images": [
                 {
-                    "link": "http://localhost:5500/assets/images/typescript.jpg",
+                    "link": "assets/images/typescript.jpg",
                     "description": "TypeScript image"
                 }
             ],
@@ -1386,7 +1409,7 @@
             ],
             "images": [
                 {
-                    "link": "http://localhost:5500/assets/images/rubyOnRails.jpg",
+                    "link": "assets/images/rubyOnRails.jpg",
                     "description": "Ruby on Rails image"
                 }
             ],
@@ -1440,7 +1463,7 @@
             ],
             "images": [
                 {
-                    "link": "http://localhost:5500/assets/images/flutter.jpg",
+                    "link": "assets/images/flutter.jpg",
                     "description": "Flutter image"
                 }
             ],
@@ -2737,7 +2760,7 @@
                     "description": "Regularization image"
                 }
             ],
-            "link": "http://localhost:5500/"
+            "link": "/"
         }
     },
     "bagging": {

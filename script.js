@@ -48,16 +48,18 @@ export  function showModal(key) {
     }
     <a href="${content?.link}" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
     `
+  }else{
+    modalBody.innerHTML = `
+      <h2>This Page is Missing!</h2>
+
+      <p>Can you find it?</p>
+      <button class="button" onclick="window.open('https://github.com/Buzzpy/Programming-Simplified', '_blank')">
+        <i class="fab fa-github" style="padding-right: 10px;"></i> Contribute;
+      </button>
+    `
   }
 
-  modalBody.innerHTML = `
-    <h2>This Page is Missing!</h2>
-
-    <p>Can you find it?</p>
-    <button class="button" onclick="window.open('https://github.com/Buzzpy/Programming-Simplified', '_blank')">
-      <i class="fab fa-github" style="padding-right: 10px;"></i> Contribute;
-    </button>
-  `
+  
 
   modal.style.display = 'block';
 }
