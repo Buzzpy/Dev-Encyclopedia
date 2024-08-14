@@ -86,8 +86,21 @@
   </div>
 
  
-   <script src="script.js"></script>
-   <script type="module" src="card_generator.js"></script>
+   <script type="module" src="script.js"></script>
+   
+   <script type="module">
+
+    //used ES6 Module , thus we need to import the functions that we are calling from html
+    import {filterCards,showModal,readMore,showAbout,showBuilders,showSponsors,closeModal} from './script.js'
+
+    window.filterCards = filterCards;
+    window.showModal = showModal;
+    window.readMore = readMore;
+    window.showAbout = showAbout;
+    window.showBuilders = showBuilders;
+    window.showSponsors = showSponsors;
+    window.closeModal = closeModal;
+   </script>
 
 </body>
 </html>
