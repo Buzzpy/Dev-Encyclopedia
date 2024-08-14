@@ -175,16 +175,33 @@ body {
     max-height: 70vh;
 }
 
+.modal-heading {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.modal-paragraph {
+    text-align: left;
+   line-height: 1.5;
+
+}
+
+#modal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .modal-link {
     display: inline-block;
-
     margin-top: 20px;
     background-color: #ffffff;
     color: indianred;
     border: none;
     border-radius: 5px;
     font-size: 15px;
-    text-align: left;
+    text-align: center;
     font-family: 'JetBrains Mono', monospace;
     cursor: pointer;
 }
