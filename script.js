@@ -1,4 +1,4 @@
-/*Same Structure of a JS item
+/* Sample Structure of a JS item
  nameOfTerm: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Title (Eg: Monolith)</h2>
     <br>
@@ -6,7 +6,7 @@
       Description, formal and professional
     </p>
     <p style="text-align: left; line-height:1.8; margin:0px; padding:0px;">
-      Use a simple, real-life example, even a 15 year old may understand
+      Use a simple, real-life example, even a 15-year-old may understand
     </p>
     <br>
     <img class="responsive-image" src="a-desscriptive-image-link.png">
