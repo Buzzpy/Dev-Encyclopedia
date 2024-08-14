@@ -1,4 +1,4 @@
-import htmlCards from "/data/html_cards.json" with { type: "json" };
+import htmlCards from "./data/html_cards.json" with { type: "json" };
 
 let cardContainer = document.querySelector("#cardContainer")
 
