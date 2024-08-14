@@ -1,0 +1,12 @@
+{
+    "title": "Event Loop",
+    "tags": [],
+    "paragraphs": [
+        "The event loop is a programming construct that waits for and dispatches events or messages in a program.",
+        "Imagine the event loop as a postal worker sorting and delivering mail as it arrives, ensuring that each message reaches its destination promptly."
+    ],
+    "link": {
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

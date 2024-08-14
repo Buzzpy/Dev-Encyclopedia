@@ -1,0 +1,13 @@
+{
+    "title": "Swift",
+    "tags": [],
+    "paragraphs": [
+        "Swift is a programming language developed by Apple for iOS and macOS development. It is known for its speed, safety, and ease of use.",
+        "Swift allows developers to build high-performance applications with modern features and a clean syntax.",
+        "<img class=\"responsive-image\" src=\"assets/images/swift.jpg\" alt=\"Swift image\">"
+    ],
+    "link": {
+        "href": "https://developer.apple.com/swift/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

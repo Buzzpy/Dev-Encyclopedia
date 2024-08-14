@@ -1,0 +1,12 @@
+{
+    "title": "Data Lakes vs Data Warehouses",
+    "tags": [],
+    "paragraphs": [
+        "Data Lakes store raw data in its native format, while Data Warehouses store structured data optimized for query and analysis.",
+        "Imagine data lakes as vast, unfiltered collections of data and data warehouses as well-organized libraries ready for study."
+    ],
+    "link": {
+        "href": "https://aws.amazon.com/big-data/datalakes-and-analytics/data-lake-vs-data-warehouse/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

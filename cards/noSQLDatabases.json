@@ -1,0 +1,12 @@
+{
+    "title": "NoSQL Databases",
+    "tags": [],
+    "paragraphs": [
+        "NoSQL databases store data in a flexible, scalable way, unlike traditional SQL databases. It's like having different types of storage boxes that can expand as you add more stuff.",
+        "Imagine NoSQL as a big collection of adjustable shelves that fit all kinds of items, not just books."
+    ],
+    "link": {
+        "href": "https://www.mongodb.com/nosql-explained",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

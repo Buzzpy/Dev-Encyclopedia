@@ -1,0 +1,12 @@
+{
+    "title": "Server Sent Events (SSE)",
+    "tags": [],
+    "paragraphs": [
+        "Server Sent Events (SSE) is a standard allowing a web page to get updates from a server automatically.",
+        "Imagine SSE as a news ticker on a website, continuously updating with the latest news without you needing to refresh the page."
+    ],
+    "link": {
+        "href": "https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

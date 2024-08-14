@@ -1,0 +1,13 @@
+{
+    "title": "Technical Debt",
+    "tags": [],
+    "paragraphs": [
+        "Technical debt refers to the extra work required in the future because of shortcuts or suboptimal solutions made in the past. It's like doing your homework quickly and poorly, knowing you'll have to redo it later.",
+        "Think of it as borrowing time now but paying back with interest later.",
+        "<img class=\"responsive-image\" src=\"https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2vdqiy2rlvcg00nw230f.png\" alt=\"Technical Debt image\">"
+    ],
+    "link": {
+        "href": "https://asana.com/resources/technical-debt",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

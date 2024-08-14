@@ -1,0 +1,13 @@
+{
+    "title": "ROC Curve",
+    "tags": [],
+    "paragraphs": [
+        "The ROC Curve (Receiver Operating Characteristic Curve) is a graphical representation of a classifier's performance. It plots the true positive rate against the false positive rate at various thresholds.",
+        "It helps in assessing how well a model can distinguish between classes.",
+        "<img class=\"responsive-image\" src=\"https://media.geeksforgeeks.org/wp-content/uploads/20230410164437/AUC-ROC-Curve.webp\" alt=\"ROC Curve image\">"
+    ],
+    "link": {
+        "href": "https://medium.com/@shaileydash/understanding-the-roc-and-auc-intuitively-31ca96445c02",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

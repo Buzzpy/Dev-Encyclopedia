@@ -1,0 +1,13 @@
+{
+    "title": "DevOps",
+    "tags": [],
+    "paragraphs": [
+        "DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to improve collaboration, automation, and efficiency throughout the software development lifecycle.",
+        "DevOps aims to enhance the speed, quality, and reliability of software delivery by fostering a culture of continuous improvement and shared responsibility.",
+        "<img class=\"responsive-image\" src=\"https://d1.awsstatic.com/product-marketing/DevOps/DevOps_feedback-diagram.ff668bfc299abada00b2dcbdc9ce2389bd3dce3f.png\" alt=\"DevOps image\">"
+    ],
+    "link": {
+        "href": "https://aws.amazon.com/devops/what-is-devops/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

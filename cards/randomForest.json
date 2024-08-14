@@ -1,0 +1,13 @@
+{
+    "title": "Random Forest",
+    "tags": [],
+    "paragraphs": [
+        "Random Forest is an ensemble learning technique that combines multiple decision trees to improve prediction accuracy. Each tree makes a decision, and the majority vote determines the final outcome.",
+        "It's like having a group of experts where the decision is based on the consensus of all experts.",
+        "<img class=\"responsive-image\" src=\"https://miro.medium.com/v2/resize:fit:1010/1*R3oJiyaQwyLUyLZL-scDpw.png\" alt=\"Random Forest image\">"
+    ],
+    "link": {
+        "href": "https://medium.com/@denizgunay/random-forest-af5bde5d7e1e",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

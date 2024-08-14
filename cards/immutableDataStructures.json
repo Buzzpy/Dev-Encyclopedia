@@ -1,0 +1,12 @@
+{
+    "title": "Immutable Data Structures",
+    "tags": [],
+    "paragraphs": [
+        "Immutable data structures are data structures that cannot be modified after they are created.",
+        "Imagine immutable data structures as a written contract; once it's signed, it cannot be changed, only replaced with a new version."
+    ],
+    "link": {
+        "href": "https://immutable-js.github.io/immutable-js/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

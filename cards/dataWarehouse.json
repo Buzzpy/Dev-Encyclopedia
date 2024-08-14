@@ -1,0 +1,12 @@
+{
+    "title": "Data Warehouse",
+    "tags": [],
+    "paragraphs": [
+        "A Data Warehouse is a system used to store and manage large amounts of data for analysis. It's like a giant library where all the books are organized for easy searching.",
+        "Think of a Data Warehouse as a super-organized bookshelf that makes finding information quick and easy."
+    ],
+    "link": {
+        "href": "https://www.oracle.com/data-warehouse/what-is-a-data-warehouse.html",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

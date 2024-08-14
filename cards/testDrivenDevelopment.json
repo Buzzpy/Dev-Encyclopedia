@@ -1,0 +1,12 @@
+{
+    "title": "Test-Driven Development",
+    "tags": [],
+    "paragraphs": [
+        "Test-Driven Development (TDD) is a software development approach where tests are written before the actual code. It involves creating tests to define desired functionality and then writing code to pass those tests.",
+        "TDD helps ensure code quality and functionality by promoting continuous testing and iterative development."
+    ],
+    "link": {
+        "href": "https://testdriven.io/test-driven-development/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

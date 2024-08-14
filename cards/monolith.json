@@ -1,0 +1,12 @@
+{
+    "title": "Monolith",
+    "tags": [],
+    "paragraphs": [
+        "A monolith is a large, single software application that handles multiple tasks. It's like having one big machine that does everything, from washing clothes to making coffee.",
+        "Imagine a monolith as an all-in-one tool that can be harder to fix if something breaks."
+    ],
+    "link": {
+        "href": "https://en.wikipedia.org/wiki/Monolithic_application",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

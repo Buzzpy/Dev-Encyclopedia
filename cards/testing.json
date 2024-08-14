@@ -1,0 +1,12 @@
+{
+    "title": "Testing",
+    "tags": [],
+    "paragraphs": [
+        "Testing is the process of evaluating software to ensure it behaves as expected. It involves executing code with various inputs to verify correctness, performance, and reliability.",
+        "Testing can be performed manually or through automated test scripts and is essential for delivering high-quality software."
+    ],
+    "link": {
+        "href": "https://www.ibm.com/topics/software-testing",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

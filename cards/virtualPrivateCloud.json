@@ -1,0 +1,12 @@
+{
+    "title": "Virtual Private Cloud (VPC)",
+    "tags": [],
+    "paragraphs": [
+        "A Virtual Private Cloud (VPC) is a private cloud space within a public cloud environment. It's like having your own private room in a large hotel.",
+        "Imagine a VPC as a secure area in a public place where only you can go."
+    ],
+    "link": {
+        "href": "https://en.wikipedia.org/wiki/Virtual_private_cloud",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

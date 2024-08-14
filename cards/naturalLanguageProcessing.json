@@ -1,0 +1,13 @@
+{
+    "title": "Natural Language Processing",
+    "tags": [],
+    "paragraphs": [
+        "Natural Language Processing (NLP) is a field of artificial intelligence that helps computers understand and interact with human language. It's used in applications like chatbots and translation services.",
+        "NLP enables computers to understand, interpret, and generate human language.",
+        "<img class=\"responsive-image\" src=\"https://media.geeksforgeeks.org/wp-content/uploads/20240524132821/nlp-working.webp\" alt=\"Natural Language Processing image\">"
+    ],
+    "link": {
+        "href": "https://www.freecodecamp.org/news/deep-learning-neural-networks-explained-in-plain-english/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

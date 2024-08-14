@@ -1,0 +1,12 @@
+{
+    "title": "Infrastructure as Code (IaC)",
+    "tags": [],
+    "paragraphs": [
+        "IaC is managing and provisioning computing infrastructure through machine-readable scripts. It's like using a recipe to automatically make a cake.",
+        "Imagine IaC as writing instructions for a robot to set up your computer systems."
+    ],
+    "link": {
+        "href": "https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

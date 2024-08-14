@@ -1,0 +1,13 @@
+{
+    "title": "UAT",
+    "tags": [],
+    "paragraphs": [
+        "UAT (User Acceptance Testing) is the final phase of software testing where actual users test the software to ensure it meets their needs and requirements.",
+        "It's like asking a friend to try out a game you made to make sure it's fun and works well before sharing it with everyone.",
+        "<img class=\"responsive-image\" src=\"https://images.spiceworks.com/wp-content/uploads/2022/10/14110825/UAT-Testing-Process.png\" alt=\"UAT image\">"
+    ],
+    "link": {
+        "href": "https://www.guru99.com/user-acceptance-testing.html",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

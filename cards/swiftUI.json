@@ -1,0 +1,12 @@
+{
+    "title": "SwiftUI",
+    "tags": [],
+    "paragraphs": [
+        "SwiftUI is a framework by Apple for building user interfaces across all Apple platforms using a declarative Swift syntax. It simplifies the process of creating complex UI elements and animations.",
+        "SwiftUI integrates seamlessly with existing Swift code and provides a live preview of UI changes, enhancing the development workflow."
+    ],
+    "link": {
+        "href": "https://www.adjust.com/blog/get-started-with-swiftui/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

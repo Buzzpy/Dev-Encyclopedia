@@ -1,0 +1,12 @@
+{
+    "title": "OAuth 2.0",
+    "tags": [],
+    "paragraphs": [
+        "OAuth 2.0 is a way to let apps access your information without giving them your password. It's like giving a friend a key that only works for one room, not your whole house.",
+        "Imagine OAuth 2.0 as a permission slip that allows access to specific parts of your data."
+    ],
+    "link": {
+        "href": "https://oauth.net/2/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

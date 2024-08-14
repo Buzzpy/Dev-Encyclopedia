@@ -1,0 +1,13 @@
+{
+    "title": "Big O Notation",
+    "tags": [],
+    "paragraphs": [
+        "Big O notation is used to describe the performance or complexity of an algorithm in terms of time and space. It provides an upper bound on the growth rate of an algorithm's running time or space usage.",
+        "In simple words, Big O Notation helps us understand how the time to find something changes as the number of items increases. The lower the Big O value, the more efficient the process!",
+        "Big O notation also helps in <strong> analyzing and comparing the efficiency </strong> of different algorithms."
+    ],
+    "link": {
+        "href": "https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Namespace",
+    "tags": [],
+    "paragraphs": [
+        "A namespace is a declarative region that provides a scope to the identifiers (the names of types, functions, variables, etc) inside it.",
+        "Think of a namespace as a way of organizing the books in a library into different sections to avoid naming conflicts and confusion."
+    ],
+    "link": {
+        "href": "https://docs.microsoft.com/en-us/cpp/cpp/namespaces-cpp",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

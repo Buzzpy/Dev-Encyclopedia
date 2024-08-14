@@ -1,0 +1,12 @@
+{
+    "title": "Homomorphic Encryption",
+    "tags": [],
+    "paragraphs": [
+        "Homomorphic Encryption allows computations on encrypted data without decrypting it. It's like solving a puzzle without seeing the pieces.",
+        "Imagine Homomorphic Encryption as doing math with secret numbers that only make sense when you finish the calculation."
+    ],
+    "link": {
+        "href": "https://en.wikipedia.org/wiki/Homomorphic_encryption",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

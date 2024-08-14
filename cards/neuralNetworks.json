@@ -1,0 +1,13 @@
+{
+    "title": "Neural Networks",
+    "tags": [],
+    "paragraphs": [
+        "Neural Networks are a set of algorithms modeled after the human brain. They consist of interconnected nodes (neurons) that work together to solve complex problems, like image recognition.",
+        "They can learn from data and make predictions, just like how our brains learn from experience.",
+        "<img class=\"responsive-image\" src=\"https://miro.medium.com/v2/resize:fit:667/1*SqsP6IcQoCLy9eMU8te3Vw.png\" alt=\"Neural Networks image\">"
+    ],
+    "link": {
+        "href": "https://www.freecodecamp.org/news/deep-learning-neural-networks-explained-in-plain-english/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

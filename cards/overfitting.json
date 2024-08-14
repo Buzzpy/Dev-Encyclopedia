@@ -1,0 +1,13 @@
+{
+    "title": "Overfitting",
+    "tags": [],
+    "paragraphs": [
+        "Overfitting occurs when a machine learning model learns the details and noise in the training data to the extent that it negatively impacts its performance on new data.",
+        "It's like memorizing answers to a practice test without understanding the material, leading to poor performance on the actual exam.",
+        "<img class=\"responsive-image\" src=\"https://www.mathworks.com/discovery/overfitting/_jcr_content/mainParsys/image.adapt.full.medium.svg/1718273106637.svg\" alt=\"Overfitting image\">"
+    ],
+    "link": {
+        "href": "https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

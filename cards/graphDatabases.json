@@ -1,0 +1,12 @@
+{
+    "title": "Graph Databases (e.g., Neo4j)",
+    "tags": [],
+    "paragraphs": [
+        "Graph Databases store data in nodes and edges, which show relationships. It's like a web of connections, like a social network map.",
+        "Imagine a Graph Database as a map of your friendships, showing who knows who."
+    ],
+    "link": {
+        "href": "https://neo4j.com/what-is-a-graph-database/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

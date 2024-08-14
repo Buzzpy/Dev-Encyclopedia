@@ -1,0 +1,12 @@
+{
+    "title": "Multi-Tenancy",
+    "tags": [],
+    "paragraphs": [
+        "Multi-tenancy is a software architecture where a single instance of software serves multiple customers or tenants, keeping their data separate and secure.",
+        "Think of multi-tenancy as an apartment building where each tenant has their own secure unit within the same structure."
+    ],
+    "link": {
+        "href": "https://www.redhat.com/en/topics/cloud-computing/what-is-multi-tenancy",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

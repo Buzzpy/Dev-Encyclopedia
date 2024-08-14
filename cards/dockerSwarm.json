@@ -1,0 +1,12 @@
+{
+    "title": "Docker Swarm",
+    "tags": [],
+    "paragraphs": [
+        "Docker Swarm helps manage a group of Docker containers, making it easy to deploy, manage, and scale them. It's like having a team of workers that coordinate tasks efficiently.",
+        "Think of Docker Swarm as the conductor of an orchestra, ensuring all musicians play in harmony."
+    ],
+    "link": {
+        "href": "https://docs.docker.com/engine/swarm/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

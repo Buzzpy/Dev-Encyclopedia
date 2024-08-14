@@ -1,0 +1,12 @@
+{
+    "title": "Zero Trust Security Model",
+    "tags": [],
+    "paragraphs": [
+        "Zero Trust is a security approach where no one inside or outside the network is trusted by default. It's like having multiple locks and security checks before letting someone in.",
+        "Think of Zero Trust as always double-checking and verifying everyone before allowing access to important stuff."
+    ],
+    "link": {
+        "href": "https://www.csoonline.com/article/3247848/what-is-zero-trust-a-model-for-more-effective-security.html",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Distributed File System (DFS)",
+    "tags": [],
+    "paragraphs": [
+        "A Distributed File System is a network file system where data is stored across multiple servers but appears to the user as one single file system.",
+        "Think of a DFS as a public library system with multiple branches where books are spread out but accessible from any location."
+    ],
+    "link": {
+        "href": "https://www.ibm.com/docs/en/zos/2.1.0?topic=concepts-distributed-file-system",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "title": "gRPC",
+    "tags": [],
+    "paragraphs": [
+        "gRPC is a modern, high-performance framework that allows services to communicate with each other. Its primary usage is in connecting services in a microservices-style architecture.",
+        "Think of gRPC like a highly efficient postal service that ensures your messages are delivered quickly and correctly."
+    ],
+    "link": {
+        "href": "https://grpc.io/docs/what-is-grpc/introduction/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

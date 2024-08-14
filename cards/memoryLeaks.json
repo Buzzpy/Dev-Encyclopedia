@@ -1,0 +1,12 @@
+{
+    "title": "Memory Leaks",
+    "tags": [],
+    "paragraphs": [
+        "Memory leaks occur when a computer program incorrectly manages memory allocations, resulting in reduced performance or system crashes.",
+        "Think of a memory leak as a bucket with a slow leak; over time, it drains without you noticing until it affects the bucket’s use."
+    ],
+    "link": {
+        "href": "https://www.pluralsight.com/blog/software-development/understanding-memory-leaks",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

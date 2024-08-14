@@ -1,0 +1,12 @@
+{
+    "title": "Data Lake",
+    "tags": [],
+    "paragraphs": [
+        "A Data Lake is a storage system that holds vast amounts of raw data in its native format. It's like having a giant pool where you can store all kinds of water without sorting.",
+        "Think of a Data Lake as a big swimming pool where you can store different types of data."
+    ],
+    "link": {
+        "href": "https://aws.amazon.com/big-data/datalakes-and-analytics/what-is-a-data-lake/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

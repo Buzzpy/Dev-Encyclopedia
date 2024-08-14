@@ -1,0 +1,12 @@
+{
+    "title": "Dark Launch",
+    "tags": [],
+    "paragraphs": [
+        "Dark launching is a technique where new features are released to a subset of users under real conditions without their knowledge.",
+        "Think of a dark launch as a soft opening for a restaurant, where new dishes are tested discreetly before the official menu launch."
+    ],
+    "link": {
+        "href": "https://launchdarkly.com/blog/what-is-a-dark-launch/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

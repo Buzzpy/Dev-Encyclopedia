@@ -1,0 +1,12 @@
+{
+    "title": "ETL (Extract, Transform, Load)",
+    "tags": [],
+    "paragraphs": [
+        "ETL stands for Extract, Transform, Load. It's a process to collect data, change it to fit needs, and store it in a new place. It's like taking ingredients, cooking them, and serving the dish.",
+        "Imagine ETL as making a recipe where you gather ingredients, prepare them, and then serve the meal."
+    ],
+    "link": {
+        "href": "https://www.talend.com/resources/what-is-etl/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

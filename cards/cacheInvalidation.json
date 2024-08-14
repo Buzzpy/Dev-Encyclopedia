@@ -1,0 +1,12 @@
+{
+    "title": "Cache Invalidation",
+    "tags": [],
+    "paragraphs": [
+        "Cache invalidation is the process of removing outdated data from cache so that fresh data can be loaded the next time it is needed.",
+        "Think of cache invalidation like cleaning out your fridge; you need to remove old food to make room for fresh groceries."
+    ],
+    "link": {
+        "href": "https://www.cloudflare.com/learning/cdn/what-is-caching/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Throttling",
+    "tags": [],
+    "paragraphs": [
+        "Throttling is a technique used to control the amount of traffic sent or received on a network to prevent overloading.",
+        "Imagine throttling as a traffic light controlling the flow of cars to prevent congestion."
+    ],
+    "link": {
+        "href": "https://www.cloudflare.com/learning/bots/what-is-rate-limiting/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

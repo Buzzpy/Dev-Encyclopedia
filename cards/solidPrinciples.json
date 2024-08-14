@@ -1,0 +1,13 @@
+{
+    "title": "SOLID Principles",
+    "tags": [],
+    "paragraphs": [
+        "SOLID principles are a set of guidelines to make software design more understandable, flexible, and maintainable. They stand for Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion.",
+        "Think of them as rules for writing good, clean, and efficient code.",
+        "<img class=\"responsive-image\" src=\"https://miro.medium.com/v2/resize:fit:751/1*GoLwqfeB624NB5g7JPVyBA.png\" alt=\"SOLID Principles image\">"
+    ],
+    "link": {
+        "href": "https://en.wikipedia.org/wiki/SOLID",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

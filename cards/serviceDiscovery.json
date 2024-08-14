@@ -1,0 +1,12 @@
+{
+    "title": "Service Discovery",
+    "tags": [],
+    "paragraphs": [
+        "Service discovery is a dynamic directory that helps services find and communicate with each other in cloud environments.",
+        "Think of service discovery as the phonebook for services, allowing them to look up how to connect with other services dynamically."
+    ],
+    "link": {
+        "href": "https://www.consul.io/discovery.html",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

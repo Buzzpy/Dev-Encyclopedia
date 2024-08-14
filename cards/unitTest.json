@@ -1,0 +1,13 @@
+{
+    "title": "Unit Test",
+    "tags": [],
+    "paragraphs": [
+        "A unit test is a type of testing that focuses on verifying individual components or functions of a software application. It ensures that each unit of code performs as intended.",
+        "Unit tests are typically automated and help identify bugs early in the development process.",
+        "<img class=\"responsive-image\" src=\"https://codenboxautomationlab.com/wp-content/uploads/2022/06/unit-testing-life-cycle-pic.png\" alt=\"Unit Test image\">"
+    ],
+    "link": {
+        "href": "https://aws.amazon.com/what-is/unit-testing/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

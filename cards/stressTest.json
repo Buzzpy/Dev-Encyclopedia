@@ -1,0 +1,12 @@
+{
+    "title": "Stress Test",
+    "tags": [],
+    "paragraphs": [
+        "Stress testing assesses how a software application performs under extreme conditions, such as a sudden spike in user activity or data volume.",
+        "It helps identify the application's breaking point and ensure it can recover gracefully from high-stress situations."
+    ],
+    "link": {
+        "href": "https://www.geeksforgeeks.org/stress-testing-software-testing/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

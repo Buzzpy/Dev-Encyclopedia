@@ -1,0 +1,12 @@
+{
+    "title": "Stateful Widget",
+    "tags": [],
+    "paragraphs": [
+        "A Stateful Widget in UI programming is a component that maintains state data across user sessions and redraws itself when the data changes.",
+        "Think of a stateful widget as a scorekeeper in a game, constantly updating the score based on the game's progress."
+    ],
+    "link": {
+        "href": "https://flutter.dev/docs/development/ui/widgets-intro",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

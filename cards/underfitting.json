@@ -1,0 +1,13 @@
+{
+    "title": "Underfitting",
+    "tags": [],
+    "paragraphs": [
+        "Underfitting happens when a machine learning model is too simple to capture the underlying pattern in the data. It performs poorly on both training and new data.",
+        "It's like using a very basic formula to solve a complex problem, resulting in inaccurate answers.",
+        "<img class=\"responsive-image\" src=\"https://www.mathworks.com/discovery/overfitting/_jcr_content/mainParsys/image.adapt.full.medium.svg/1718273106637.svg\" alt=\"Underfitting image\">"
+    ],
+    "link": {
+        "href": "https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Micro-batching",
+    "tags": [],
+    "paragraphs": [
+        "Micro-batching is a processing technique where small groups of data are collected and processed together in short intervals.",
+        "Think of micro-batching as making mini-meals throughout the day instead of three large ones, optimizing energy levels and efficiency."
+    ],
+    "link": {
+        "href": "https://spark.apache.org/docs/latest/streaming-programming-guide.html#window-operations",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

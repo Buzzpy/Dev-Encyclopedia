@@ -1,0 +1,12 @@
+{
+    "title": "Load Test",
+    "tags": [],
+    "paragraphs": [
+        "Load testing is a type of performance testing that evaluates how a software application handles a specific volume of users or transactions.",
+        "It helps determine if the application can handle expected load conditions without degrading performance."
+    ],
+    "link": {
+        "href": "https://en.wikipedia.org/wiki/Software_load_testing",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

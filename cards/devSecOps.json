@@ -1,0 +1,12 @@
+{
+    "title": "DevSecOps",
+    "tags": [],
+    "paragraphs": [
+        "DevSecOps integrates security practices into the DevOps process. It's like adding security checks at every step of building a Lego tower to make sure it doesn't fall.",
+        "Imagine DevSecOps as building with Legos where every piece is checked for safety."
+    ],
+    "link": {
+        "href": "https://www.redhat.com/en/topics/devops/what-is-devsecops",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

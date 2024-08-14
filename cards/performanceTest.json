@@ -1,0 +1,13 @@
+{
+    "title": "Performance Test",
+    "tags": [],
+    "paragraphs": [
+        "Performance testing evaluates how well a software application performs under various conditions, including load, stress, and scalability.",
+        "It helps identify bottlenecks and ensure that the application meets performance criteria and handles user demands effectively.",
+        "<img class=\"responsive-image\" src=\"https://www.a1qa.com/wp-content/uploads/2019/06/performance-testing.jpg\" alt=\"Performance Test image\">"
+    ],
+    "link": {
+        "href": "https://en.wikipedia.org/wiki/Software_performance_testing",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

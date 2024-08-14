@@ -1,0 +1,13 @@
+{
+    "title": "Recurrent Neural Networks",
+    "tags": [],
+    "paragraphs": [
+        "Recurrent Neural Networks (RNNs) are a type of neural network designed for processing sequences of data, like time series or sentences. They have loops that allow information to persist across time steps.",
+        "RNNs are great for tasks where context from previous inputs is important.",
+        "<img class=\"responsive-image\" src=\"https://media.geeksforgeeks.org/wp-content/uploads/20231204125839/What-is-Recurrent-Neural-Network-660.webp\" alt=\"Recurrent Neural Networks image\">"
+    ],
+    "link": {
+        "href": "https://media.geeksforgeeks.org/wp-content/uploads/20240524132821/nlp-working.webp",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

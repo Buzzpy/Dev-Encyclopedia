@@ -1,0 +1,12 @@
+{
+    "title": "Feature Scaling",
+    "tags": [],
+    "paragraphs": [
+        "Feature Scaling is the process of normalizing the range of features in your data. This helps improve the performance and convergence speed of machine learning algorithms.",
+        "It's like making sure all the pieces of a puzzle fit together properly."
+    ],
+    "link": {
+        "href": null,
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

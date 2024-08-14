@@ -1,0 +1,12 @@
+{
+    "title": "Boosting",
+    "tags": [],
+    "paragraphs": [
+        "Boosting is an ensemble technique that builds multiple models sequentially, where each model tries to correct the errors of the previous one. The final prediction is a weighted sum of the predictions from all models.",
+        "It's like learning from mistakes and improving with each step."
+    ],
+    "link": {
+        "href": "https://aws.amazon.com/what-is/boosting/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

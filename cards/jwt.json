@@ -1,0 +1,12 @@
+{
+    "title": "JWT (JSON Web Tokens)",
+    "tags": [],
+    "paragraphs": [
+        "JWTs are a way to securely transmit information between parties as a JSON object. It's like a sealed envelope that can only be opened by the right person.",
+        "Think of JWT as a digital ID card that proves your identity and allows access to certain resources."
+    ],
+    "link": {
+        "href": "https://jwt.io/introduction/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

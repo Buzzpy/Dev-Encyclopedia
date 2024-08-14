@@ -1,0 +1,12 @@
+{
+    "title": "Dependency Graph",
+    "tags": [],
+    "paragraphs": [
+        "A dependency graph is a tool that helps visualize dependencies in systems or projects, showing how different elements are interconnected.",
+        "Imagine a dependency graph as a map that shows which city roads are connected to which, helping you plan your travel efficiently."
+    ],
+    "link": {
+        "href": "https://www.visual-paradigm.com/guide/software-development/what-is-dependency-graph/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

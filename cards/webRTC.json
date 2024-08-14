@@ -1,0 +1,12 @@
+{
+    "title": "WebRTC (Web Real-Time Communication)",
+    "tags": [],
+    "paragraphs": [
+        "WebRTC allows real-time communication in web browsers without needing special plugins. It's like a video call that works instantly in your browser.",
+        "Imagine WebRTC as a way to talk to your friends face-to-face through your browser, no extra apps needed."
+    ],
+    "link": {
+        "href": "https://webrtc.org/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

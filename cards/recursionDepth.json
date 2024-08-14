@@ -1,0 +1,12 @@
+{
+    "title": "Recursion Depth",
+    "tags": [],
+    "paragraphs": [
+        "Recursion depth refers to the number of times a recursive function calls itself before reaching the base case. It is important to manage recursion depth to avoid stack overflow errors and ensure efficient execution.",
+        "Understanding recursion depth helps in designing algorithms that use recursion effectively and safely."
+    ],
+    "link": {
+        "href": null,
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

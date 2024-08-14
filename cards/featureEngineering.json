@@ -1,0 +1,13 @@
+{
+    "title": "Feature Engineering",
+    "tags": [],
+    "paragraphs": [
+        "Feature Engineering involves creating new features or modifying existing ones to improve the performance of a machine learning model. It's like adding more details to a drawing to make it clearer.",
+        "Effective feature engineering can make a significant difference in how well a model performs.",
+        "<img class=\"responsive-image\" src=\"https://blog.minitab.com/hubfs/FeatureEngineering-blog-img1-hubspot.jpg\" alt=\"Feature Engineering image\">"
+    ],
+    "link": {
+        "href": "https://builtin.com/articles/feature-engineering",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

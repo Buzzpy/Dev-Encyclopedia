@@ -1,0 +1,13 @@
+{
+    "title": "VueJS",
+    "tags": [],
+    "paragraphs": [
+        "VueJS is a progressive JavaScript framework used for building user interfaces. It is designed to be incrementally adoptable and can be integrated into existing projects.",
+        "VueJS provides reactive data binding and component-based architecture, making it easy to build interactive and maintainable web applications.",
+        "<img class=\"responsive-image\" src=\"https://v1.vuejs.org/images/mvvm.png\" alt=\"VueJS image\">"
+    ],
+    "link": {
+        "href": "https://v1.vuejs.org/guide/overview.html",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

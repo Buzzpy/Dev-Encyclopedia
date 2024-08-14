@@ -1,0 +1,12 @@
+{
+    "title": "WebAssembly (Wasm)",
+    "tags": [],
+    "paragraphs": [
+        "WebAssembly is a new way to run code on the web, making it super fast. It's like turbocharging your web browser so it can do heavy tasks quickly.",
+        "Think of WebAssembly as a superhero suit that gives your web apps amazing speed and power."
+    ],
+    "link": {
+        "href": "https://webassembly.org/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

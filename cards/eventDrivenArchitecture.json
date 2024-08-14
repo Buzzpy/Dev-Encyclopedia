@@ -1,0 +1,12 @@
+{
+    "title": "Event-Driven Architecture",
+    "tags": [],
+    "paragraphs": [
+        "Event-Driven Architecture is a way of building software where actions (events) trigger responses. It's like ringing a doorbell and someone answers the door.",
+        "Imagine it as a cause-and-effect system where specific events lead to certain actions."
+    ],
+    "link": {
+        "href": "https://aws.amazon.com/event-driven-architecture/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

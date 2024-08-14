@@ -1,0 +1,13 @@
+{
+    "title": "End-to-End Test",
+    "tags": [],
+    "paragraphs": [
+        "End-to-end testing evaluates the entire software application from start to finish to ensure that it works as intended in a real-world scenario.",
+        "It verifies that all components of the application interact correctly and that the system as a whole meets the desired requirements.",
+        "<img class=\"responsive-image\" src=\"https://cdn.prod.website-files.com/610bb663a35dd3364ddbf08c/62b594796e28e910d6624e03_end-to-end-testing-metrics.png\" alt=\"End-to-End Test image\">"
+    ],
+    "link": {
+        "href": "https://smartbear.com/learn/automated-testing/what-is-end-to-end-testing/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Precision and Recall",
+    "tags": [],
+    "paragraphs": [
+        "Precision and Recall are metrics used to evaluate the performance of classification models. Precision measures the accuracy of positive predictions, while Recall measures how well the model identifies all positive instances.",
+        "They are especially useful when dealing with imbalanced datasets.",
+        "<img src=\"https://miro.medium.com/v2/resize:fit:824/1*xMl_wkMt42Hy8i84zs2WGg.png\" alt=\"Precision and Recall image\">"
+    ],
+    "link": {
+        "href": "https://www.analyticsvidhya.com/blog/2020/09/precision-recall-machine-learning/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "title": "IoT Edge Computing",
+    "tags": [],
+    "paragraphs": [
+        "IoT Edge Computing processes data at or near the location where it is generated in the Internet of Things, reducing latency and bandwidth use.",
+        "Imagine IoT Edge Computing as a smart home assistant making decisions locally rather than waiting for cloud instructions."
+    ],
+    "link": {
+        "href": "https://www.intel.com/content/www/us/en/internet-of-things/solutions/what-is-edge-computing.html",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

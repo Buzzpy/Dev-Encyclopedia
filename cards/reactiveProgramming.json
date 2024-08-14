@@ -1,0 +1,12 @@
+{
+    "title": "Reactive Programming",
+    "tags": [],
+    "paragraphs": [
+        "Reactive Programming is a way to handle data streams and changes in real time. It's like making sure your app can react instantly to user inputs, like a game that updates immediately when you press a button.",
+        "Imagine Reactive Programming as being able to respond quickly to events, just like a reflex."
+    ],
+    "link": {
+        "href": "https://www.reactivemanifesto.org/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

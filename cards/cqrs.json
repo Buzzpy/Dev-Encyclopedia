@@ -1,0 +1,12 @@
+{
+    "title": "CQRS (Command Query Responsibility Segregation)",
+    "tags": [],
+    "paragraphs": [
+        "CQRS is a pattern that separates reading and writing operations into different models. It's like having separate lines at a counter: one for placing orders and one for picking them up.",
+        "Think of CQRS as organizing tasks to improve efficiency and clarity in your system."
+    ],
+    "link": {
+        "href": "https://martinfowler.com/bliki/CQRS.html",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

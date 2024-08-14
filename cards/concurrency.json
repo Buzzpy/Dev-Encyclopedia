@@ -1,0 +1,12 @@
+{
+    "title": "Concurrency",
+    "tags": [],
+    "paragraphs": [
+        "Concurrency in computing allows multiple processes to run simultaneously within the same application, enhancing efficiency.",
+        "Imagine concurrency as a kitchen where several chefs prepare different parts of a meal at the same time."
+    ],
+    "link": {
+        "href": "https://www.geeksforgeeks.org/concurrency-in-operating-system/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

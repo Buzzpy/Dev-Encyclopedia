@@ -1,0 +1,12 @@
+{
+    "title": "Edge AI",
+    "tags": [],
+    "paragraphs": [
+        "Edge AI brings artificial intelligence to devices at the edge of the network, closer to where data is collected. It's like having a smart assistant right where you need it.",
+        "Imagine Edge AI as having a mini-brain in your device that makes decisions without waiting for instructions from a central server."
+    ],
+    "link": {
+        "href": "https://en.wikipedia.org/wiki/Edge_AI",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "title": "Angular",
+    "tags": [],
+    "paragraphs": [
+        "Angular is a TypeScript-based open-source web application framework developed by Google. It provides a comprehensive solution for building dynamic and responsive web applications.",
+        "Angular includes features such as data binding, dependency injection, and modular development to streamline the development process.",
+        "<img class=\"responsive-image\" src=\"https://www.aalpha.net/wp-content/uploads/2019/07/angularjs-development-india.jpg\" alt=\"Angular image\">"
+    ],
+    "link": {
+        "href": "https://v17.angular.io/guide/what-is-angular",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

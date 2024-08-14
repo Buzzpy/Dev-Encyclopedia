@@ -1,0 +1,13 @@
+{
+    "title": "Java",
+    "tags": [],
+    "paragraphs": [
+        "Java is a high-level programming language known for its portability, scalability, and performance. It is widely used for building enterprise-level applications, mobile apps, and web services.",
+        "Java's \"write once, run anywhere\" philosophy makes it a popular choice for cross-platform development.",
+        "<img class=\"responsive-image\" src=\"assets/images/java.jpg\" alt=\"Java image\">"
+    ],
+    "link": {
+        "href": "https://www.simplilearn.com/tutorials/java-tutorial/what-is-java",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

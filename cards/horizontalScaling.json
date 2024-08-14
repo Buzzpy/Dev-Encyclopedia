@@ -1,0 +1,12 @@
+{
+    "title": "Horizontal Scaling",
+    "tags": [],
+    "paragraphs": [
+        "Horizontal scaling, or scaling out, involves adding more machines or resources to a pool to handle increased load.",
+        "Imagine horizontal scaling as adding more lanes to a highway to accommodate more traffic."
+    ],
+    "link": {
+        "href": "https://www.datadoghq.com/blog/horizontal-scaling/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

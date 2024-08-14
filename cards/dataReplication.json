@@ -1,0 +1,12 @@
+{
+    "title": "Data Replication",
+    "tags": [],
+    "paragraphs": [
+        "Data replication involves copying data from one location to another to ensure consistency and support data recovery and accessibility.",
+        "Think of data replication like having multiple copies of a document in different locations, so if one is lost, others are still available."
+    ],
+    "link": {
+        "href": "https://www.techtarget.com/searchdatamanagement/definition/data-replication",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

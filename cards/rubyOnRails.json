@@ -1,0 +1,13 @@
+{
+    "title": "Ruby on Rails",
+    "tags": [],
+    "paragraphs": [
+        "Ruby on Rails is a web application framework written in Ruby. It follows the Model-View-Controller (MVC) architecture and emphasizes convention over configuration.",
+        "Rails helps developers build robust and scalable web applications quickly by providing built-in tools and best practices.",
+        "<img class=\"responsive-image\" src=\"assets/images/rubyOnRails.jpg\" alt=\"Ruby on Rails image\">"
+    ],
+    "link": {
+        "href": "https://www.codecademy.com/resources/blog/what-is-ruby-on-rails/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

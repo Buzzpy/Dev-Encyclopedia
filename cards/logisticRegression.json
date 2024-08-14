@@ -1,0 +1,13 @@
+{
+    "title": "Logistic Regression",
+    "tags": [],
+    "paragraphs": [
+        "Logistic regression is a statistical method used for binary classification. It helps predict the probability of an outcome that can be one of two possible categories. For example, it might predict whether an email is spam or not spam based on its content.",
+        "It works by fitting a logistic curve to the data and using this curve to make predictions.",
+        "<img class=\"responsive-image\" src=\"https://miro.medium.com/v2/resize:fit:1400/1*dm6ZaX5fuSmuVvM4Ds-vcg.jpeg\" alt=\"Logistic Regression image\">"
+    ],
+    "link": {
+        "href": "https://towardsdatascience.com/introduction-to-logistic-regression-66248243c148",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

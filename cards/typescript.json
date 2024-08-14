@@ -1,0 +1,13 @@
+{
+    "title": "TypeScript",
+    "tags": [],
+    "paragraphs": [
+        "TypeScript is a superset of JavaScript that adds static typing to the language. It helps developers catch errors early and improve code quality by providing type-checking and advanced features.",
+        "TypeScript is compiled to JavaScript and is compatible with existing JavaScript code and libraries.",
+        "<img class=\"responsive-image\" src=\"assets/images/typescript.jpg\" alt=\"TypeScript image\">"
+    ],
+    "link": {
+        "href": "https://www.typescripttutorial.net/typescript-tutorial/what-is-typescript/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

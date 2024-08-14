@@ -1,0 +1,13 @@
+{
+    "title": "Refactoring",
+    "tags": [],
+    "paragraphs": [
+        "Refactoring is the process of improving the structure and readability of code without changing its behavior. It's like cleaning and organizing your room to make it more efficient and pleasant to use.",
+        "Imagine rewriting a messy essay to make it clearer and easier to understand.",
+        "<img class=\"responsive-image\" src=\"https://lvivity.com/wp-content/uploads/2020/09/refactoring-process.png\" alt=\"Refactoring image\">"
+    ],
+    "link": {
+        "href": "https://refactoring.guru/refactoring/what-is-refactoring",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

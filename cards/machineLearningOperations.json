@@ -1,0 +1,12 @@
+{
+    "title": "Machine Learning Operations (MLOps)",
+    "tags": [],
+    "paragraphs": [
+        "MLOps is the practice of applying DevOps principles to machine learning processes to streamline model development and deployment.",
+        "Imagine MLOps as a production line where AI models are continuously improved and deployed, just like software applications."
+    ],
+    "link": {
+        "href": "https://mlops.community/what-is-mlops/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

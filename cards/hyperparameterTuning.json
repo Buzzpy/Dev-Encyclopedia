@@ -1,0 +1,12 @@
+{
+    "title": "Hyperparameter Tuning",
+    "tags": [],
+    "paragraphs": [
+        "Hyperparameter Tuning is the process of optimizing the settings of a machine learning model to improve its performance. These settings, called hyperparameters, control the learning process and the structure of the model.",
+        "It's like adjusting the knobs on a radio to get the best sound quality."
+    ],
+    "link": {
+        "href": "https://www.analyticsvidhya.com/blog/2022/02/a-comprehensive-guide-on-hyperparameter-tuning-and-its-techniques/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

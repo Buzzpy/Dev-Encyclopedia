@@ -1,0 +1,12 @@
+{
+    "title": "Chaos Engineering",
+    "tags": [],
+    "paragraphs": [
+        "Chaos Engineering is the practice of experimenting on a system to build confidence in its ability to withstand turbulent conditions. It's like testing a bridge by simulating strong winds.",
+        "Imagine Chaos Engineering as stress-testing your structures to ensure they can handle unexpected events."
+    ],
+    "link": {
+        "href": "https://principlesofchaos.org/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

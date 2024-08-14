@@ -1,0 +1,12 @@
+{
+    "title": "Immutable Infrastructure",
+    "tags": [],
+    "paragraphs": [
+        "Immutable Infrastructure means servers are never modified after deployment; they're replaced with new ones. It's like using a new sheet of paper for each new drawing.",
+        "Imagine Immutable Infrastructure as using new Lego pieces each time you build something new."
+    ],
+    "link": {
+        "href": "https://www.redhat.com/en/topics/automation/what-is-immutable-infrastructure",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

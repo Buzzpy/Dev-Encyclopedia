@@ -1,0 +1,13 @@
+{
+    "title": "C#",
+    "tags": [],
+    "paragraphs": [
+        "C# (C-Sharp) is a modern, object-oriented programming language developed by Microsoft. It is used primarily for developing applications on the .NET framework, including web, desktop, and mobile apps.",
+        "C# is known for its simplicity, versatility, and strong integration with Microsoft technologies.",
+        "<img class=\"responsive-image\" src=\"assets/images/cSharp.jpg\" alt=\"C# image\">"
+    ],
+    "link": {
+        "href": "https://dotnet.microsoft.com/en-us/languages/csharp",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

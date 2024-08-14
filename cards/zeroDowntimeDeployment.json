@@ -1,0 +1,12 @@
+{
+    "title": "Zero Downtime Deployment",
+    "tags": [],
+    "paragraphs": [
+        "Zero downtime deployment refers to the process of updating software without causing any service disruption or downtime.",
+        "Think of it as renovating a bridge while keeping it open to traffic."
+    ],
+    "link": {
+        "href": "https://www.digitalocean.com/community/tutorials/what-is-zero-downtime-deployment",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

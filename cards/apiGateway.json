@@ -1,0 +1,12 @@
+{
+    "title": "API Gateway",
+    "tags": [],
+    "paragraphs": [
+        "An API Gateway is like a front door that handles all requests from clients, ensuring they get directed to the right services. It's like a receptionist who directs calls to the correct department.",
+        "Imagine an API Gateway as a helpful guide that makes sure everyone gets to where they need to go."
+    ],
+    "link": {
+        "href": "https://aws.amazon.com/api-gateway/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

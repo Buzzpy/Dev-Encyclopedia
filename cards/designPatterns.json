@@ -1,0 +1,12 @@
+{
+    "title": "Design Patterns",
+    "tags": [],
+    "paragraphs": [
+        "Design patterns are standard solutions to common problems in software design. They provide a reusable template for solving recurring issues in coding.",
+        "It's like having a recipe for your favorite dish that you can use over and over again."
+    ],
+    "link": {
+        "href": "https://refactoring.guru/design-patterns/what-is-pattern",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

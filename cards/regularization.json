@@ -1,0 +1,13 @@
+{
+    "title": "Regularization",
+    "tags": [],
+    "paragraphs": [
+        "Regularization is a technique used to prevent overfitting by adding a penalty to the complexity of the model. It helps in keeping the model simpler and more generalizable.",
+        "It's like adding rules to limit how much a model can change to avoid fitting too closely to the training data.",
+        "<img class=\"responsive-image\" src=\"https://editor.analyticsvidhya.com/uploads/71199regularization.jpg\" alt=\"Regularization image\">"
+    ],
+    "link": {
+        "href": null,
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

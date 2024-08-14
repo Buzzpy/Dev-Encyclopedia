@@ -1,0 +1,13 @@
+{
+    "title": "Integration Test",
+    "tags": [],
+    "paragraphs": [
+        "Integration testing focuses on verifying the interactions between different components or systems to ensure they work together as expected.",
+        "Integration tests help ensure that different parts of a software application integrate smoothly and function correctly as a whole.",
+        "<img class=\"responsive-image\" src=\"https://www.simform.com/wp-content/uploads/2022/01/Integration-testing-types.png\" alt=\"Integration Test image\">"
+    ],
+    "link": {
+        "href": "https://katalon.com/resources-center/blog/integration-testing",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

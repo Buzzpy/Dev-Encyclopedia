@@ -1,0 +1,12 @@
+{
+    "title": "Deadlock",
+    "tags": [],
+    "paragraphs": [
+        "Deadlock is a situation in computing where two or more processes are each waiting for the other to release a resource, causing all of them to remain blocked.",
+        "Imagine deadlock as a stand-off in a narrow hallway where two people block each other's way and neither can move forward until one steps aside."
+    ],
+    "link": {
+        "href": "https://www.geeksforgeeks.org/deadlock-in-operating-system/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

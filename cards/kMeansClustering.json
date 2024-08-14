@@ -1,0 +1,13 @@
+{
+    "title": "K-Means Clustering",
+    "tags": [],
+    "paragraphs": [
+        "K-Means Clustering is an unsupervised learning algorithm used to divide data into groups (clusters) where each data point belongs to the cluster with the nearest mean. It's useful for discovering patterns in data.",
+        "For example, it can group customers into segments based on their purchasing behavior.",
+        "<img class=\"responsive-image\" src=\"https://editor.analyticsvidhya.com/uploads/56854k%20means%20clustering.png\" alt=\"K-Means Clustering image\">"
+    ],
+    "link": {
+        "href": "https://www.analyticsvidhya.com/blog/2020/10/a-simple-explanation-of-k-means-clustering/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

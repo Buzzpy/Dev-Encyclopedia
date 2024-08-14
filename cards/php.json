@@ -1,0 +1,13 @@
+{
+    "title": "PHP",
+    "tags": [],
+    "paragraphs": [
+        "PHP (Hypertext Preprocessor) is a server-side scripting language designed for web development. It is commonly used to create dynamic web pages and interact with databases.",
+        "PHP is widely supported and integrates well with HTML, making it a popular choice for web developers.",
+        "<img class=\"responsive-image\" src=\"assets/images/php.jpg\" alt=\"PHP image\">"
+    ],
+    "link": {
+        "href": "https://www.freecodecamp.org/news/what-is-php-the-php-programming-language-meaning-explained/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

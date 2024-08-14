@@ -1,0 +1,12 @@
+{
+    "title": "Function as a Service (FaaS)",
+    "tags": [],
+    "paragraphs": [
+        "Function as a Service (FaaS) is a cloud computing service that allows you to execute code in response to events without the complexity of building and maintaining the infrastructure typically required for developing and launching an app.",
+        "Think of FaaS like a magic button that only activates and uses resources when you need it, without the hassle of owning the machinery."
+    ],
+    "link": {
+        "href": "https://aws.amazon.com/lambda/faas/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Software Containers",
+    "tags": [],
+    "paragraphs": [
+        "Software containers package an application and its dependencies into a standardized unit for development, shipment, and deployment.",
+        "Think of containers as portable lunchboxes that hold everything needed for a meal, no matter where you eat it."
+    ],
+    "link": {
+        "href": "https://www.docker.com/resources/what-container/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

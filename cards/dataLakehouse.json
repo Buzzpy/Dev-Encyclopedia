@@ -1,0 +1,12 @@
+{
+    "title": "Data Lakehouse",
+    "tags": [],
+    "paragraphs": [
+        "A Data Lakehouse combines the features of data lakes and data warehouses to provide structured and unstructured data storage and analytics capabilities.",
+        "Think of a Data Lakehouse as a hybrid home that offers both the vast storage space of a warehouse and the relaxing, fluid environment of a lake."
+    ],
+    "link": {
+        "href": "https://databricks.com/glossary/data-lakehouse",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

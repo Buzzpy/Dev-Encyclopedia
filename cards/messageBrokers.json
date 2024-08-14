@@ -1,0 +1,12 @@
+{
+    "title": "Message Brokers",
+    "tags": [],
+    "paragraphs": [
+        "Message brokers are intermediaries that manage communication and data exchange between different software applications.",
+        "Think of message brokers as post offices, ensuring that messages are delivered from one application to another without them needing to communicate directly."
+    ],
+    "link": {
+        "href": "https://www.rabbitmq.com/tutorials/tutorial-one-python.html",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

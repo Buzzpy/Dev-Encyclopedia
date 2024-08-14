@@ -1,0 +1,12 @@
+{
+    "title": "Database Indexing",
+    "tags": [],
+    "paragraphs": [
+        "Database indexing improves the speed of data retrieval operations by efficiently locating and accessing the data within a database.",
+        "Think of database indexing like an index in a book, helping you find information quickly without scanning every page."
+    ],
+    "link": {
+        "href": "https://www.techopedia.com/definition/2788/indexing-database",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

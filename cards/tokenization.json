@@ -1,0 +1,12 @@
+{
+    "title": "Tokenization",
+    "tags": [],
+    "paragraphs": [
+        "Tokenization is the process of converting sensitive data into non-sensitive data called tokens, which can be used in a database or internal system without exposing sensitive information.",
+        "Think of tokenization as swapping out your real, valuable diamonds for costume jewelry when traveling to secure the real assets."
+    ],
+    "link": {
+        "href": "https://www.pcisecuritystandards.org/pdfs/pci_fs_data_tokenization.pdf",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

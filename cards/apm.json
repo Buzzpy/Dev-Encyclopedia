@@ -1,0 +1,12 @@
+{
+    "title": "APM (Application Performance Management)",
+    "tags": [],
+    "paragraphs": [
+        "APM monitors and manages the performance and availability of software applications. It's like having a fitness tracker for your software, showing how healthy it is.",
+        "Think of APM as a doctor for your apps, keeping them in top shape."
+    ],
+    "link": {
+        "href": "https://www.dynatrace.com/news/blog/what-is-apm/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

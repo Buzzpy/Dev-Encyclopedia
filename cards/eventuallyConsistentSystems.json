@@ -1,0 +1,12 @@
+{
+    "title": "Eventually Consistent Systems",
+    "tags": [],
+    "paragraphs": [
+        "Eventually consistent systems are a model of consistency in distributed computing where the system eventually reaches consistency but does not guarantee immediate consistency.",
+        "Think of eventually consistent systems like updates to social media profiles that might not show up immediately for all users but will eventually."
+    ],
+    "link": {
+        "href": "https://www.allthingsdistributed.com/2008/12/eventually_consistent.html",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

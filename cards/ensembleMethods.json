@@ -1,0 +1,13 @@
+{
+    "title": "Ensemble Methods",
+    "tags": [],
+    "paragraphs": [
+        "Ensemble Methods combine the predictions from multiple models to improve overall performance. Techniques like bagging, boosting, and stacking are common ensemble methods.",
+        "It's like using the wisdom of a group to make a better decision.",
+        "<img class=\"responsive-image\" src=\"https://cdn.corporatefinanceinstitute.com/assets/ensemble-methods.png\" alt=\"Ensemble Methods image\">"
+    ],
+    "link": {
+        "href": "https://corporatefinanceinstitute.com/resources/data-science/ensemble-methods/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "title": "Message Queues",
+    "tags": [],
+    "paragraphs": [
+        "Message queues help applications communicate and process operations asynchronously, managing data exchange between different processes or services.",
+        "Imagine a message queue as a series of post office boxes, where messages wait safely until their recipient is ready to process them."
+    ],
+    "link": {
+        "href": "https://www.ibm.com/cloud/learn/message-queues",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}

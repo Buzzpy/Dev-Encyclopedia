@@ -1,0 +1,13 @@
+{
+    "title": "Reinforcement Learning",
+    "tags": [],
+    "paragraphs": [
+        "Reinforcement Learning is a type of machine learning where an agent learns to make decisions by receiving rewards or penalties. The goal is to maximize the total reward over time.",
+        "It's like training a robot to play a game by giving it points for making good moves and penalties for bad moves.",
+        "<img class=\"responsive-image\" src=\"https://images.spiceworks.com/wp-content/uploads/2022/09/29100907/Reinforcement-Learning-Model.png\" alt=\"Reinforcement Learning image\">"
+    ],
+    "link": {
+        "href": "https://www.spiceworks.com/tech/artificial-intelligence/articles/what-is-reinforcement-learning/",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}
