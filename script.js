@@ -112,10 +112,8 @@ function showSponsors() {
         ]
     })
 }
-    
-    
 
-   // to close the modal
+// to close the modal
 function closeModal(event) {
   const modal = document.getElementById('modal');
   if (event.target == modal) {
