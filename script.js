@@ -2777,8 +2777,20 @@ const descriptions = {  codeSmell: `
     
     <a href="https://mlops.community/what-is-mlops/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
+  GDPR:
+    `
+  <h2 id="modal-heading">GDPR</h2>
+    
+    <p class="modal-paragraph">
+    The General Data Protection Regulation is a European Union regulation on information privacy in the European Union and the European Economic Area. The GDPR is an important component of EU privacy law and human rights law, in particular Article 8 of the Charter of Fundamental Rights of the European Union.
+    </p>
+    <p class="modal-paragraph">
 
-  
+    </p>
+    
+    <a href="https://gdpr.eu/" target="_blank"> ⌁—— Read more about it ——⌁</a>
+
+  `
 };
 
     function filterCards() {
