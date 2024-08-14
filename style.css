@@ -118,6 +118,10 @@ body {
     border-radius: 10px;
     padding: 20px;
     text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .card-title {
@@ -149,7 +153,7 @@ body {
 }
 
 /* Modal Styles */
-.modal {
+#modal {
     display: none;
     position: fixed;
     z-index: 1;
@@ -161,7 +165,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.modal-content {
+#modal-content {
     background-color: #ffffff;
     color: black;
     margin: 10% auto;
@@ -175,21 +179,39 @@ body {
     max-height: 70vh;
 }
 
-.modal-link {
-    display: inline-block;
+#modal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
 
+#modal-heading {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.modal-paragraph {
+   text-align: left;
+   line-height: 1.5;
+
+}
+
+#modal-link {
+    display: inline-block;
     margin-top: 20px;
     background-color: #ffffff;
     color: indianred;
     border: none;
     border-radius: 5px;
     font-size: 15px;
-    text-align: left;
+    text-align: center;
     font-family: 'JetBrains Mono', monospace;
     cursor: pointer;
 }
 
-.modal-link:hover {
+#modal-link:hover {
     color: deeppink;
 }
 

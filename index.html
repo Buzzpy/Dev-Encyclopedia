@@ -1,3 +1,15 @@
+<!--Sample Card Structure-->
+<!--Make sure you update script.js as well-->
+<!-- 
+<div class="card-container" id="cardContainer">
+    <div class="card">
+      <div class="card-title">Title</div>
+      <div class="card-subtext">A short context</div>
+      <button class="explain-button" onclick="showModal('correctJsVarName')">Explain</button>
+    </div>
+-->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -325,7 +337,7 @@
       </div>
       <div class="card">
         <div class="card-title">APIs</div>
-        <div class="card-subtext">Application Programming Interfaces, for 12 Year Olds</div>
+        <div class="card-subtext">Application Programming Interfaces</div>
         <button class="explain-button" onclick="showModal('apis')">Explain</button>
       </div>
       <div class="card">
@@ -498,911 +510,906 @@
   <div class="card-subtext">Avoid code repetition</div>
   <button class="explain-button" onclick="showModal('dryPrinciple')">Explain</button>
 </div>
+<div class="card">
+    <div class="card-title">Agile</div>
+    <div class="card-subtext">A methology in Software Development</div>
+    <button class="explain-button" onclick="showModal('agile')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">Scrum</div>
+    <div class="card-subtext">A framework within the Agile methodology</div>
+    <button class="explain-button" onclick="showModal('scrum')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">Kanban</div>
+    <div class="card-subtext">A visual workflow management method</div>
+    <button class="explain-button" onclick="showModal('kanban')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">HTML</div>
+    <div class="card-subtext">HyperText Markup Language</div>
+    <button class="explain-button" onclick="showModal('html')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">CSS</div>
+    <div class="card-subtext">Cascading Style Sheets</div>
+    <button class="explain-button" onclick="showModal('css')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">Java</div>
+    <div class="card-subtext">A high-level programming-language</div>
+    <button class="explain-button" onclick="showModal('java')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">C#</div>
+    <div class="card-subtext">A modern, OOP language from Microsoft</div>
+    <button class="explain-button" onclick="showModal('C#')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">Ruby</div>
+    <div class="card-subtext">Another simple, OOP language</div>
+    <button class="explain-button" onclick="showModal('ruby')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">Swift</div>
+    <div class="card-subtext">A programming language from Apple</div>
+    <button class="explain-button" onclick="showModal('swift')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">Typescript</div>
+    <div class="card-subtext">A superset of JavaScript</div>
+    <button class="explain-button" onclick="showModal('typescript')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">Kotlin</div>
+    <div class="card-subtext">A statically-typed programming language by JetBrains</div>
+    <button class="explain-button" onclick="showModal('kotlin')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">Bash</div>
+    <div class="card-subtext">A unix shell and command language</div>
+    <button class="explain-button" onclick="showModal('bash')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">Ruby on Rails</div>
+    <div class="card-subtext">A web application framework written in Ruby</div>
+    <button class="explain-button" onclick="showModal('rubyOnRails')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">Angular</div>
+    <div class="card-subtext">A TypeScript-based web application framework</div>
+    <button class="explain-button" onclick="showModal('angular')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">VueJS</div>
+    <div class="card-subtext">A <s>aggressive</s> progressive JavaScript framework</div>
+    <button class="explain-button" onclick="showModal('vueJS')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">Flutter</div>
+    <div class="card-subtext">An UI toolkit from Google</div>
+    <button class="explain-button" onclick="showModal('flutter')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">SwiftUI</div>
+    <div class="card-subtext">Another framework from Apple</div>
+    <button class="explain-button" onclick="showModal('swiftUI')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">Data Structure</div>
+    <div class="card-subtext">A way of oragnzing and storing data</div>
+    <button class="explain-button" onclick="showModal('dataStructure')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">Big O Notation</div>
+    <div class="card-subtext">A term used to explain... algorithms?</div>
+    <button class="explain-button" onclick="showModal('bigO')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">Recursion Depth</div>
+    <div class="card-subtext">Used to elaborate on recusrion method</div>
+    <button class="explain-button" onclick="showModal('recursionDepth')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">Debugging</div>
+    <div class="card-subtext">An interesting process that makes programmers yell "Just Why!?"</div>
+    <button class="explain-button" onclick="showModal('debugging')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">Testing</div>
+    <div class="card-subtext">The ultimate fear of developers</div>
+    <button class="explain-button" onclick="showModal('testing')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">Unit test</div>
+    <div class="card-subtext">A type of testing</div>
+    <button class="explain-button" onclick="showModal('unitTest')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">Integration Test</div>
+    <div class="card-subtext">Another type of testing</div>
+    <button class="explain-button" onclick="showModal('integrationTest')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">End-to-End Test</div>
+    <div class="card-subtext">Another type of testing</div>
+    <button class="explain-button" onclick="showModal('endToEndTest')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">Performence Test</div>
+    <div class="card-subtext">A type of testing focusing on applcation performence</div>
+    <button class="explain-button" onclick="showModal('performanceTest')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">Load Test</div>
+    <div class="card-subtext">A type of performance testing</div>
+    <button class="explain-button" onclick="showModal('loadTest')">Explain</button>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Stress Test</div>
+    <div class="card-subtext">A type of performance testing under pressure </div>
+    <button class="explain-button" onclick="showModal('stressTest')">Explain</button>
+  </div><div class="card">
+    <div class="card-title">Security Test</div>
+    <div class="card-subtext">A test against hacking and whatnot</div>
+    <button class="explain-button" onclick="showModal('securityTest')">Explain</button>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Usability Test</div>
+    <div class="card-subtext">A test that ensures that application is user-friendly</div>
+    <button class="explain-button" onclick="showModal('usabilityTest')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">User-Acceptance Test (UAT)</div>
+    <div class="card-subtext">Final user testing phase</div>
+    <button class="explain-button" onclick="showModal('uat')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">Test-Driven Development</div>
+    <div class="card-subtext">Or TDD, a software development approach</div>
+    <button class="explain-button" onclick="showModal('testDrivenDevelopment')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">Continuous Integration (CI)</div>
+    <div class="card-subtext">A software development practice</div>
+    <button class="explain-button" onclick="showModal('continuousIntegration')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">Continuous Delivery (CD)</div>
+    <div class="card-subtext">A software development practice often implemented with CI</div>
+    <button class="explain-button" onclick="showModal('continuousDelivery')">Explain</button>
+  </div>
+
+  <div class="card">
+    <div class="card-title">DevOps</div>
+    <div class="card-subtext">A set of practices that combine Dev and Ops</div>
+    <button class="explain-button" onclick="showModal('devOps')">Explain</button>
+  </div>
+  <div class="card">
+    <div class="card-title">SQL</div>
+    <div class="card-subtext">A relational database management system</div>
+    <button class="explain-button" onclick="showModal('sql')">Explain</button>
+  </div>
+
+  <div class="card">
+    <div class="card-title">NoSQL</div>
+    <div class="card-subtext">A non-relational database management system</div>
+    <button class="explain-button" onclick="showModal('nosql')">Explain</button>
+  </div>
+<!--New-->
+<div class="card">
+  <div class="card-title">Logistic Regression</div>
+  <div class="card-subtext">Predicts probabilities for binary outcomes.</div>
+  <button class="explain-button" onclick="showModal('logisticRegression')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">K-Means Clustering</div>
+  <div class="card-subtext">Groups data into clusters based on similarity.</div>
+  <button class="explain-button" onclick="showModal('kMeansClustering')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Decision Trees</div>
+  <div class="card-subtext">Uses a tree-like model of decisions and their possible consequences.</div>
+  <button class="explain-button" onclick="showModal('decisionTrees')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Random Forest</div>
+  <div class="card-subtext">Combines multiple decision trees to improve accuracy.</div>
+  <button class="explain-button" onclick="showModal('randomForest')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Support Vector Machines</div>
+  <div class="card-subtext">Finds the best boundary between classes in data.</div>
+  <button class="explain-button" onclick="showModal('supportVectorMachines')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Gradient Descent</div>
+  <div class="card-subtext">Optimizes model parameters by minimizing errors.</div>
+  <button class="explain-button" onclick="showModal('gradientDescent')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Neural Networks</div>
+  <div class="card-subtext">Mimics the human brain to recognize patterns and make predictions.</div>
+  <button class="explain-button" onclick="showModal('neuralNetworks')">Explain</button>
+</div>
+<div class="card">
+  <div class="card-title">gRPC</div>
+  <div class="card-subtext">A high-performance framework for service communication</div>
+  <button class="explain-button" onclick="showModal('gRPC')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Dependency Graph</div>
+  <div class="card-subtext">Visualize dependencies in systems or projects</div>
+  <button class="explain-button" onclick="showModal('dependencyGraph')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Cluster Computing</div>
+  <div class="card-subtext">Connecting multiple computers to work as a single system</div>
+  <button class="explain-button" onclick="showModal('clusterComputing')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Message Queues</div>
+  <div class="card-subtext">Manage asynchronous communication between processes</div>
+  <button class="explain-button" onclick="showModal('messageQueues')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Rate Limiting</div>
+  <div class="card-subtext">Control the frequency of resource access to prevent overuse</div>
+  <button class="explain-button" onclick="showModal('rateLimiting')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Concurrency</div>
+  <div class="card-subtext">Run multiple processes simultaneously for efficiency</div>
+  <button class="explain-button" onclick="showModal('concurrency')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Vertical Scaling</div>
+  <div class="card-subtext">Increase the capacity of a single server</div>
+  <button class="explain-button" onclick="showModal('verticalScaling')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Horizontal Scaling</div>
+  <div class="card-subtext">Add more machines to handle increased load</div>
+  <button class="explain-button" onclick="showModal('horizontalScaling')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Database Indexing</div>
+  <div class="card-subtext">Improve data retrieval speed in databases</div>
+  <button class="explain-button" onclick="showModal('databaseIndexing')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Data Replication</div>
+  <div class="card-subtext">Copy data to ensure consistency and accessibility</div>
+  <button class="explain-button" onclick="showModal('dataReplication')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">ACID Transactions</div>
+  <div class="card-subtext">Ensure reliability in database operations</div>
+  <button class="explain-button" onclick="showModal('acidTransactions')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Eventually Consistent Systems</div>
+  <div class="card-subtext">Systems that eventually reach consistency over time</div>
+  <button class="explain-button" onclick="showModal('eventuallyConsistentSystems')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Memory Leaks</div>
+  <div class="card-subtext">Issues in memory management that can cause system crashes</div>
+  <button class="explain-button" onclick="showModal('memoryLeaks')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Namespace</div>
+  <div class="card-subtext">Organize code to avoid naming conflicts</div>
+  <button class="explain-button" onclick="showModal('namespace')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Service Discovery</div>
+  <div class="card-subtext">Dynamic directory for services to find each other</div>
+  <button class="explain-button" onclick="showModal('serviceDiscovery')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Throttling</div>
+  <div class="card-subtext">Control network traffic to prevent overloading</div>
+  <button class="explain-button" onclick="showModal('throttling')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Function as a Service (FaaS)</div>
+  <div class="card-subtext">Execute code without managing infrastructure</div>
+  <button class="explain-button" onclick="showModal('functionAsAService')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Data Lakehouse</div>
+  <div class="card-subtext">Combine data lakes and warehouses for comprehensive storage</div>
+  <button class="explain-button" onclick="showModal('dataLakehouse')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Event Loop</div>
+  <div class="card-subtext">Programming construct that waits for and dispatches events</div>
+  <button class="explain-button" onclick="showModal('eventLoop')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Tokenization</div>
+  <div class="card-subtext">Convert sensitive data into non-sensitive tokens</div>
+  <button class="explain-button" onclick="showModal('tokenization')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Server Sent Events (SSE)</div>
+  <div class="card-subtext">Automatically update web pages with server data</div>
+  <button class="explain-button" onclick="showModal('serverSentEvents')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Message Brokers</div>
+  <div class="card-subtext">Intermediaries that manage communication between apps</div>
+  <button class="explain-button" onclick="showModal('messageBrokers')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Cache Invalidation</div>
+  <div class="card-subtext">Remove outdated data to make room for fresh information</div>
+  <button class="explain-button" onclick="showModal('cacheInvalidation')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Immutable Data Structures</div>
+  <div class="card-subtext">Data structures that cannot be modified after creation</div>
+  <button class="explain-button" onclick="showModal('immutableDataStructures')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Data Deduplication</div>
+  <div class="card-subtext">Eliminate redundant data to increase storage efficiency</div>
+  <button class="explain-button" onclick="showModal('dataDeduplication')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Stateful vs Stateless Systems</div>
+  <div class="card-subtext">Compare systems that maintain state with those that don't</div>
+  <button class="explain-button" onclick="showModal('statefulVsStatelessSystems')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Zero Downtime Deployment</div>
+  <div class="card-subtext">Update software without causing service disruption</div>
+  <button class="explain-button" onclick="showModal('zeroDowntimeDeployment')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Data Partitioning</div>
+  <div class="card-subtext">Divide a database into distinct, independent parts</div>
+  <button class="explain-button" onclick="showModal('dataPartitioning')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Feature Branching</div>
+  <div class="card-subtext">Isolate development in branches for easier integration</div>
+  <button class="explain-button" onclick="showModal('featureBranching')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Deadlock</div>
+  <div class="card-subtext">A stand-off where processes block each other's progress</div>
+  <button class="explain-button" onclick="showModal('deadlock')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Micro-batching</div>
+  <div class="card-subtext">Process small groups of data in short intervals</div>
+  <button class="explain-button" onclick="showModal('microBatching')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Domain-Driven Design</div>
+  <div class="card-subtext">Software development approach focused on core business concepts</div>
+  <button class="explain-button" onclick="showModal('domainDrivenDesign')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">API Versioning</div>
+  <div class="card-subtext">Manage API changes by assigning version numbers</div>
+  <button class="explain-button" onclick="showModal('apiVersioning')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Distributed File System (DFS)</div>
+  <div class="card-subtext">A network file system that spans multiple servers</div>
+  <button class="explain-button" onclick="showModal('distributedFileSystem')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Stateful Widget</div>
+  <div class="card-subtext">UI component that maintains state across sessions</div>
+  <button class="explain-button" onclick="showModal('statefulWidget')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Serverless Functions</div>
+  <div class="card-subtext">Execute code without the need to manage servers</div>
+  <button class="explain-button" onclick="showModal('serverlessFunctions')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Edge Services</div>
+  <div class="card-subtext">Technologies providing services closer to the user</div>
+  <button class="explain-button" onclick="showModal('edgeServices')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Dark Launch</div>
+  <div class="card-subtext">Release features to a subset of users without their knowledge</div>
+  <button class="explain-button" onclick="showModal('darkLaunch')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Cloud Security</div>
+  <div class="card-subtext">Procedures and technology to secure cloud environments</div>
+  <button class="explain-button" onclick="showModal('cloudSecurity')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Scalability</div>
+  <div class="card-subtext">Capability of a system to handle growth</div>
+  <button class="explain-button" onclick="showModal('scalability')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Event Stream Processing</div>
+  <div class="card-subtext">Analyze and process continuous streams of events</div>
+  <button class="explain-button" onclick="showModal('eventStreamProcessing')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Multi-Tenancy</div>
+  <div class="card-subtext">Single instance of software serves multiple customers</div>
+  <button class="explain-button" onclick="showModal('multiTenancy')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Software Containers</div>
+  <div class="card-subtext">Package an application and its dependencies into a unit</div>
+  <button class="explain-button" onclick="showModal('softwareContainers')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Cloud Orchestration</div>
+  <div class="card-subtext">Automated arrangement and coordination of cloud services</div>
+  <button class="explain-button" onclick="showModal('cloudOrchestration')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Network Slicing</div>
+  <div class="card-subtext">Create multiple virtual networks on shared infrastructure</div>
+  <button class="explain-button" onclick="showModal('networkSlicing')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">IoT Edge Computing</div>
+  <div class="card-subtext">Process data near its source in IoT devices</div>
+  <button class="explain-button" onclick="showModal('IoTEdgeComputing')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Data Lakes and Warehouses Integration</div>
+  <div class="card-subtext">Combine raw and structured data storage for better management</div>
+  <button class="explain-button" onclick="showModal('dataLakesAndWarehousesIntegration')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Machine Learning Operations (MLOps)</div>
+  <div class="card-subtext">Streamline machine learning processes using DevOps principles</div>
+  <button class="explain-button" onclick="showModal('machineLearningOperations')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Natural Language Processing</div>
+  <div class="card-subtext">Enables computers to understand and process human language.</div>
+  <button class="explain-button" onclick="showModal('naturalLanguageProcessing')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Recurrent Neural Networks</div>
+  <div class="card-subtext">Processes sequences of data, maintaining context over time.</div>
+  <button class="explain-button" onclick="showModal('recurrentNeuralNetworks')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Convolutional Neural Networks</div>
+  <div class="card-subtext">Analyzes grid-like data, such as images, using filters.</div>
+  <button class="explain-button" onclick="showModal('convolutionalNeuralNetworks')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Autoencoders</div>
+  <div class="card-subtext">Learns efficient data representations through compression and reconstruction.</div>
+  <button class="explain-button" onclick="showModal('autoencoders')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Reinforcement Learning</div>
+  <div class="card-subtext">Trains agents to make decisions by rewarding or punishing actions.</div>
+  <button class="explain-button" onclick="showModal('reinforcementLearning')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Transfer Learning</div>
+  <div class="card-subtext">Adapts pre-trained models for new but related tasks.</div>
+  <button class="explain-button" onclick="showModal('transferLearning')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Hyperparameter Tuning</div>
+  <div class="card-subtext">Optimizes model settings to improve performance.</div>
+  <button class="explain-button" onclick="showModal('hyperparameterTuning')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Cross-Validation</div>
+  <div class="card-subtext">Evaluates model performance on multiple data splits.</div>
+  <button class="explain-button" onclick="showModal('crossValidation')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Feature Engineering</div>
+  <div class="card-subtext">Creates or modifies features to enhance model performance.</div>
+  <button class="explain-button" onclick="showModal('featureEngineering')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Feature Scaling</div>
+  <div class="card-subtext">Normalizes feature ranges for better model performance.</div>
+  <button class="explain-button" onclick="showModal('featureScaling')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Overfitting</div>
+  <div class="card-subtext">When a model learns too much from training data, harming new data performance.</div>
+  <button class="explain-button" onclick="showModal('overfitting')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Underfitting</div>
+  <div class="card-subtext">When a model is too simple to capture the underlying data patterns.</div>
+  <button class="explain-button" onclick="showModal('underfitting')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Regularization</div>
+  <div class="card-subtext">Prevents overfitting by adding penalties to model complexity.</div>
+  <button class="explain-button" onclick="showModal('regularization')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Bagging</div>
+  <div class="card-subtext">Combines predictions from multiple models for improved accuracy.</div>
+  <button class="explain-button" onclick="showModal('bagging')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Boosting</div>
+  <div class="card-subtext">Builds models sequentially, with each correcting errors of the previous one.</div>
+  <button class="explain-button" onclick="showModal('boosting')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Ensemble Methods</div>
+  <div class="card-subtext">Combines multiple models to improve overall performance.</div>
+  <button class="explain-button" onclick="showModal('ensembleMethods')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">ROC Curve</div>
+  <div class="card-subtext">Graphical representation of a classifier's performance.</div>
+  <button class="explain-button" onclick="showModal('rocCurve')">Explain</button>
+</div>
+<div class="card">
+  <div class="card-title">AUC Curve</div>
+  <div class="card-subtext">i.e. Area Under the Curve</div>
+  <button class="explain-button" onclick="showModal('aucCurve')">Explain</button>
+</div>
 
 
+<div class="card">
+  <div class="card-title">Precision and Recall</div>
+  <div class="card-subtext">Metrics for evaluating classification model accuracy and completeness.</div>
+  <button class="explain-button" onclick="showModal('precisionRecall')">Explain</button>
+</div>
 
-      <div class="card">
-        <div class="card-title">Agile</div>
-        <div class="card-subtext">A methology in Software Development</div>
-        <button class="explain-button" onclick="showModal('agile')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">Scrum</div>
-        <div class="card-subtext">A framework within the Agile methodology</div>
-        <button class="explain-button" onclick="showModal('scrum')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">Kanban</div>
-        <div class="card-subtext">A visual workflow management method</div>
-        <button class="explain-button" onclick="showModal('kanban')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">HTML</div>
-        <div class="card-subtext">HyperText Markup Language</div>
-        <button class="explain-button" onclick="showModal('html')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">CSS</div>
-        <div class="card-subtext">Cascading Style Sheets</div>
-        <button class="explain-button" onclick="showModal('css')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">Java</div>
-        <div class="card-subtext">A high-level programming-language</div>
-        <button class="explain-button" onclick="showModal('java')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">C#</div>
-        <div class="card-subtext">A modern, OOP language from Microsoft</div>
-        <button class="explain-button" onclick="showModal('C#')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">Ruby</div>
-        <div class="card-subtext">Another simple, OOP language</div>
-        <button class="explain-button" onclick="showModal('ruby')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">Swift</div>
-        <div class="card-subtext">A programming language from Apple</div>
-        <button class="explain-button" onclick="showModal('swift')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">Typescript</div>
-        <div class="card-subtext">A superset of JavaScript</div>
-        <button class="explain-button" onclick="showModal('typescript')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">Kotlin</div>
-        <div class="card-subtext">A statically-typed programming language by JetBrains</div>
-        <button class="explain-button" onclick="showModal('kotlin')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">Bash</div>
-        <div class="card-subtext">A unix shell and command language</div>
-        <button class="explain-button" onclick="showModal('bash')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">Ruby on Rails</div>
-        <div class="card-subtext">A web application framework written in Ruby</div>
-        <button class="explain-button" onclick="showModal('rubyOnRails')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">Angular</div>
-        <div class="card-subtext">A TypeScript-based web application framework</div>
-        <button class="explain-button" onclick="showModal('angular')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">VueJS</div>
-        <div class="card-subtext">A <s>aggressive</s> progressive JavaScript framework</div>
-        <button class="explain-button" onclick="showModal('vueJS')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">Flutter</div>
-        <div class="card-subtext">An UI toolkit from Google</div>
-        <button class="explain-button" onclick="showModal('flutter')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">SwiftUI</div>
-        <div class="card-subtext">Another framework from Apple</div>
-        <button class="explain-button" onclick="showModal('swiftUI')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">Data Structure</div>
-        <div class="card-subtext">A way of oragnzing and storing data</div>
-        <button class="explain-button" onclick="showModal('dataStructure')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">Big O Notation</div>
-        <div class="card-subtext">A term used to explain... algorithms?</div>
-        <button class="explain-button" onclick="showModal('bigO')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">Recursion Depth</div>
-        <div class="card-subtext">Used to elaborate on recusrion method</div>
-        <button class="explain-button" onclick="showModal('recursionDepth')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">Debugging</div>
-        <div class="card-subtext">An interesting process that makes programmers yell "Just Why!?"</div>
-        <button class="explain-button" onclick="showModal('debugging')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">Testing</div>
-        <div class="card-subtext">The ultimate fear of developers</div>
-        <button class="explain-button" onclick="showModal('testing')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">Unit test</div>
-        <div class="card-subtext">A type of testing</div>
-        <button class="explain-button" onclick="showModal('unitTest')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">Integration Test</div>
-        <div class="card-subtext">Another type of testing</div>
-        <button class="explain-button" onclick="showModal('integrationTest')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">End-to-End Test</div>
-        <div class="card-subtext">Another type of testing</div>
-        <button class="explain-button" onclick="showModal('endToEndTest')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">Performence Test</div>
-        <div class="card-subtext">A type of testing focusing on applcation performence</div>
-        <button class="explain-button" onclick="showModal('performanceTest')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">Load Test</div>
-        <div class="card-subtext">A type of performance testing</div>
-        <button class="explain-button" onclick="showModal('loadTest')">Explain</button>
-      </div>
+<div class="card">
+  <div class="card-title">F1 Score</div>
+  <div class="card-subtext">Harmonic mean of Precision and Recall for balanced evaluation.</div>
+  <button class="explain-button" onclick="showModal('f1Score')">Explain</button>
+</div>
 
-      <div class="card">
-        <div class="card-title">Stress Test</div>
-        <div class="card-subtext">A type of performance testing under pressure </div>
-        <button class="explain-button" onclick="showModal('stressTest')">Explain</button>
-      </div><div class="card">
-        <div class="card-title">Security Test</div>
-        <div class="card-subtext">A test against hacking and whatnot</div>
-        <button class="explain-button" onclick="showModal('securityTest')">Explain</button>
-      </div>
+<div class="card">
+  <div class="card-title">Confusion Matrix</div>
+  <div class="card-subtext">A table to evaluate classification model performance.</div>
+  <button class="explain-button" onclick="showModal('confusionMatrix')">Explain</button>
+</div>
 
-      <div class="card">
-        <div class="card-title">Usability Test</div>
-        <div class="card-subtext">A test that ensures that application is user-friendly</div>
-        <button class="explain-button" onclick="showModal('usabilityTest')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">User-Acceptance Test (UAT)</div>
-        <div class="card-subtext">Final user testing phase</div>
-        <button class="explain-button" onclick="showModal('uat')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">Test-Driven Development</div>
-        <div class="card-subtext">Or TDD, a software development approach</div>
-        <button class="explain-button" onclick="showModal('testDrivenDevelopment')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">Continuous Integration (CI)</div>
-        <div class="card-subtext">A software development practice</div>
-        <button class="explain-button" onclick="showModal('continuousIntegration')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">Continuous Delivery (CD)</div>
-        <div class="card-subtext">A software development practice often implemented with CI</div>
-        <button class="explain-button" onclick="showModal('continuousDelivery')">Explain</button>
-      </div>
-    
-      <div class="card">
-        <div class="card-title">DevOps</div>
-        <div class="card-subtext">A set of practices that combine Dev and Ops</div>
-        <button class="explain-button" onclick="showModal('devOps')">Explain</button>
-      </div>
-      <div class="card">
-        <div class="card-title">SQL</div>
-        <div class="card-subtext">A relational database management system</div>
-        <button class="explain-button" onclick="showModal('sql')">Explain</button>
-      </div>
-    
-      <div class="card">
-        <div class="card-title">NoSQL</div>
-        <div class="card-subtext">A non-relational database management system</div>
-        <button class="explain-button" onclick="showModal('nosql')">Explain</button>
-      </div>
-    <!--New-->
-    <div class="card">
-      <div class="card-title">Logistic Regression</div>
-      <div class="card-subtext">Predicts probabilities for binary outcomes.</div>
-      <button class="explain-button" onclick="showModal('logisticRegression')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">K-Means Clustering</div>
-      <div class="card-subtext">Groups data into clusters based on similarity.</div>
-      <button class="explain-button" onclick="showModal('kMeansClustering')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Decision Trees</div>
-      <div class="card-subtext">Uses a tree-like model of decisions and their possible consequences.</div>
-      <button class="explain-button" onclick="showModal('decisionTrees')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Random Forest</div>
-      <div class="card-subtext">Combines multiple decision trees to improve accuracy.</div>
-      <button class="explain-button" onclick="showModal('randomForest')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Support Vector Machines</div>
-      <div class="card-subtext">Finds the best boundary between classes in data.</div>
-      <button class="explain-button" onclick="showModal('supportVectorMachines')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Gradient Descent</div>
-      <div class="card-subtext">Optimizes model parameters by minimizing errors.</div>
-      <button class="explain-button" onclick="showModal('gradientDescent')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Neural Networks</div>
-      <div class="card-subtext">Mimics the human brain to recognize patterns and make predictions.</div>
-      <button class="explain-button" onclick="showModal('neuralNetworks')">Explain</button>
-    </div>
-    <div class="card">
-      <div class="card-title">gRPC</div>
-      <div class="card-subtext">A high-performance framework for service communication</div>
-      <button class="explain-button" onclick="showModal('gRPC')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Dependency Graph</div>
-      <div class="card-subtext">Visualize dependencies in systems or projects</div>
-      <button class="explain-button" onclick="showModal('dependencyGraph')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Cluster Computing</div>
-      <div class="card-subtext">Connecting multiple computers to work as a single system</div>
-      <button class="explain-button" onclick="showModal('clusterComputing')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Message Queues</div>
-      <div class="card-subtext">Manage asynchronous communication between processes</div>
-      <button class="explain-button" onclick="showModal('messageQueues')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Rate Limiting</div>
-      <div class="card-subtext">Control the frequency of resource access to prevent overuse</div>
-      <button class="explain-button" onclick="showModal('rateLimiting')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Concurrency</div>
-      <div class="card-subtext">Run multiple processes simultaneously for efficiency</div>
-      <button class="explain-button" onclick="showModal('concurrency')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Vertical Scaling</div>
-      <div class="card-subtext">Increase the capacity of a single server</div>
-      <button class="explain-button" onclick="showModal('verticalScaling')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Horizontal Scaling</div>
-      <div class="card-subtext">Add more machines to handle increased load</div>
-      <button class="explain-button" onclick="showModal('horizontalScaling')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Database Indexing</div>
-      <div class="card-subtext">Improve data retrieval speed in databases</div>
-      <button class="explain-button" onclick="showModal('databaseIndexing')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Data Replication</div>
-      <div class="card-subtext">Copy data to ensure consistency and accessibility</div>
-      <button class="explain-button" onclick="showModal('dataReplication')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">ACID Transactions</div>
-      <div class="card-subtext">Ensure reliability in database operations</div>
-      <button class="explain-button" onclick="showModal('acidTransactions')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Eventually Consistent Systems</div>
-      <div class="card-subtext">Systems that eventually reach consistency over time</div>
-      <button class="explain-button" onclick="showModal('eventuallyConsistentSystems')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Memory Leaks</div>
-      <div class="card-subtext">Issues in memory management that can cause system crashes</div>
-      <button class="explain-button" onclick="showModal('memoryLeaks')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Namespace</div>
-      <div class="card-subtext">Organize code to avoid naming conflicts</div>
-      <button class="explain-button" onclick="showModal('namespace')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Service Discovery</div>
-      <div class="card-subtext">Dynamic directory for services to find each other</div>
-      <button class="explain-button" onclick="showModal('serviceDiscovery')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Throttling</div>
-      <div class="card-subtext">Control network traffic to prevent overloading</div>
-      <button class="explain-button" onclick="showModal('throttling')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Function as a Service (FaaS)</div>
-      <div class="card-subtext">Execute code without managing infrastructure</div>
-      <button class="explain-button" onclick="showModal('functionAsAService')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Data Lakehouse</div>
-      <div class="card-subtext">Combine data lakes and warehouses for comprehensive storage</div>
-      <button class="explain-button" onclick="showModal('dataLakehouse')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Event Loop</div>
-      <div class="card-subtext">Programming construct that waits for and dispatches events</div>
-      <button class="explain-button" onclick="showModal('eventLoop')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Tokenization</div>
-      <div class="card-subtext">Convert sensitive data into non-sensitive tokens</div>
-      <button class="explain-button" onclick="showModal('tokenization')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Server Sent Events (SSE)</div>
-      <div class="card-subtext">Automatically update web pages with server data</div>
-      <button class="explain-button" onclick="showModal('serverSentEvents')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Message Brokers</div>
-      <div class="card-subtext">Intermediaries that manage communication between apps</div>
-      <button class="explain-button" onclick="showModal('messageBrokers')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Cache Invalidation</div>
-      <div class="card-subtext">Remove outdated data to make room for fresh information</div>
-      <button class="explain-button" onclick="showModal('cacheInvalidation')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Immutable Data Structures</div>
-      <div class="card-subtext">Data structures that cannot be modified after creation</div>
-      <button class="explain-button" onclick="showModal('immutableDataStructures')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Data Deduplication</div>
-      <div class="card-subtext">Eliminate redundant data to increase storage efficiency</div>
-      <button class="explain-button" onclick="showModal('dataDeduplication')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Stateful vs Stateless Systems</div>
-      <div class="card-subtext">Compare systems that maintain state with those that don't</div>
-      <button class="explain-button" onclick="showModal('statefulVsStatelessSystems')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Zero Downtime Deployment</div>
-      <div class="card-subtext">Update software without causing service disruption</div>
-      <button class="explain-button" onclick="showModal('zeroDowntimeDeployment')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Data Partitioning</div>
-      <div class="card-subtext">Divide a database into distinct, independent parts</div>
-      <button class="explain-button" onclick="showModal('dataPartitioning')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Feature Branching</div>
-      <div class="card-subtext">Isolate development in branches for easier integration</div>
-      <button class="explain-button" onclick="showModal('featureBranching')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Deadlock</div>
-      <div class="card-subtext">A stand-off where processes block each other's progress</div>
-      <button class="explain-button" onclick="showModal('deadlock')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Micro-batching</div>
-      <div class="card-subtext">Process small groups of data in short intervals</div>
-      <button class="explain-button" onclick="showModal('microBatching')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Domain-Driven Design</div>
-      <div class="card-subtext">Software development approach focused on core business concepts</div>
-      <button class="explain-button" onclick="showModal('domainDrivenDesign')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">API Versioning</div>
-      <div class="card-subtext">Manage API changes by assigning version numbers</div>
-      <button class="explain-button" onclick="showModal('apiVersioning')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Distributed File System (DFS)</div>
-      <div class="card-subtext">A network file system that spans multiple servers</div>
-      <button class="explain-button" onclick="showModal('distributedFileSystem')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Stateful Widget</div>
-      <div class="card-subtext">UI component that maintains state across sessions</div>
-      <button class="explain-button" onclick="showModal('statefulWidget')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Serverless Functions</div>
-      <div class="card-subtext">Execute code without the need to manage servers</div>
-      <button class="explain-button" onclick="showModal('serverlessFunctions')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Edge Services</div>
-      <div class="card-subtext">Technologies providing services closer to the user</div>
-      <button class="explain-button" onclick="showModal('edgeServices')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Dark Launch</div>
-      <div class="card-subtext">Release features to a subset of users without their knowledge</div>
-      <button class="explain-button" onclick="showModal('darkLaunch')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Cloud Security</div>
-      <div class="card-subtext">Procedures and technology to secure cloud environments</div>
-      <button class="explain-button" onclick="showModal('cloudSecurity')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Scalability</div>
-      <div class="card-subtext">Capability of a system to handle growth</div>
-      <button class="explain-button" onclick="showModal('scalability')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Event Stream Processing</div>
-      <div class="card-subtext">Analyze and process continuous streams of events</div>
-      <button class="explain-button" onclick="showModal('eventStreamProcessing')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Multi-Tenancy</div>
-      <div class="card-subtext">Single instance of software serves multiple customers</div>
-      <button class="explain-button" onclick="showModal('multiTenancy')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Software Containers</div>
-      <div class="card-subtext">Package an application and its dependencies into a unit</div>
-      <button class="explain-button" onclick="showModal('softwareContainers')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Cloud Orchestration</div>
-      <div class="card-subtext">Automated arrangement and coordination of cloud services</div>
-      <button class="explain-button" onclick="showModal('cloudOrchestration')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Network Slicing</div>
-      <div class="card-subtext">Create multiple virtual networks on shared infrastructure</div>
-      <button class="explain-button" onclick="showModal('networkSlicing')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">IoT Edge Computing</div>
-      <div class="card-subtext">Process data near its source in IoT devices</div>
-      <button class="explain-button" onclick="showModal('IoTEdgeComputing')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Data Lakes and Warehouses Integration</div>
-      <div class="card-subtext">Combine raw and structured data storage for better management</div>
-      <button class="explain-button" onclick="showModal('dataLakesAndWarehousesIntegration')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Machine Learning Operations (MLOps)</div>
-      <div class="card-subtext">Streamline machine learning processes using DevOps principles</div>
-      <button class="explain-button" onclick="showModal('machineLearningOperations')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Natural Language Processing</div>
-      <div class="card-subtext">Enables computers to understand and process human language.</div>
-      <button class="explain-button" onclick="showModal('naturalLanguageProcessing')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Recurrent Neural Networks</div>
-      <div class="card-subtext">Processes sequences of data, maintaining context over time.</div>
-      <button class="explain-button" onclick="showModal('recurrentNeuralNetworks')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Convolutional Neural Networks</div>
-      <div class="card-subtext">Analyzes grid-like data, such as images, using filters.</div>
-      <button class="explain-button" onclick="showModal('convolutionalNeuralNetworks')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Autoencoders</div>
-      <div class="card-subtext">Learns efficient data representations through compression and reconstruction.</div>
-      <button class="explain-button" onclick="showModal('autoencoders')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Reinforcement Learning</div>
-      <div class="card-subtext">Trains agents to make decisions by rewarding or punishing actions.</div>
-      <button class="explain-button" onclick="showModal('reinforcementLearning')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Transfer Learning</div>
-      <div class="card-subtext">Adapts pre-trained models for new but related tasks.</div>
-      <button class="explain-button" onclick="showModal('transferLearning')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Hyperparameter Tuning</div>
-      <div class="card-subtext">Optimizes model settings to improve performance.</div>
-      <button class="explain-button" onclick="showModal('hyperparameterTuning')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Cross-Validation</div>
-      <div class="card-subtext">Evaluates model performance on multiple data splits.</div>
-      <button class="explain-button" onclick="showModal('crossValidation')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Feature Engineering</div>
-      <div class="card-subtext">Creates or modifies features to enhance model performance.</div>
-      <button class="explain-button" onclick="showModal('featureEngineering')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Feature Scaling</div>
-      <div class="card-subtext">Normalizes feature ranges for better model performance.</div>
-      <button class="explain-button" onclick="showModal('featureScaling')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Overfitting</div>
-      <div class="card-subtext">When a model learns too much from training data, harming new data performance.</div>
-      <button class="explain-button" onclick="showModal('overfitting')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Underfitting</div>
-      <div class="card-subtext">When a model is too simple to capture the underlying data patterns.</div>
-      <button class="explain-button" onclick="showModal('underfitting')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Regularization</div>
-      <div class="card-subtext">Prevents overfitting by adding penalties to model complexity.</div>
-      <button class="explain-button" onclick="showModal('regularization')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Bagging</div>
-      <div class="card-subtext">Combines predictions from multiple models for improved accuracy.</div>
-      <button class="explain-button" onclick="showModal('bagging')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Boosting</div>
-      <div class="card-subtext">Builds models sequentially, with each correcting errors of the previous one.</div>
-      <button class="explain-button" onclick="showModal('boosting')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Ensemble Methods</div>
-      <div class="card-subtext">Combines multiple models to improve overall performance.</div>
-      <button class="explain-button" onclick="showModal('ensembleMethods')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">ROC Curve</div>
-      <div class="card-subtext">Graphical representation of a classifier's performance.</div>
-      <button class="explain-button" onclick="showModal('rocCurve')">Explain</button>
-    </div>
-    <div class="card">
-      <div class="card-title">AUC Curve</div>
-      <div class="card-subtext">i.e. Area Under the Curve</div>
-      <button class="explain-button" onclick="showModal('aucCurve')">Explain</button>
-    </div>
-    
-    
-    <div class="card">
-      <div class="card-title">Precision and Recall</div>
-      <div class="card-subtext">Metrics for evaluating classification model accuracy and completeness.</div>
-      <button class="explain-button" onclick="showModal('precisionRecall')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">F1 Score</div>
-      <div class="card-subtext">Harmonic mean of Precision and Recall for balanced evaluation.</div>
-      <button class="explain-button" onclick="showModal('f1Score')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Confusion Matrix</div>
-      <div class="card-subtext">A table to evaluate classification model performance.</div>
-      <button class="explain-button" onclick="showModal('confusionMatrix')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Cross-Entropy</div>
-      <div class="card-subtext">Loss function measuring the difference between predicted and actual class labels.</div>
-      <button class="explain-button" onclick="showModal('crossEntropy')">Explain</button>
-    </div>
-    <!--New Set August-->
-    <div class="card">
-      <div class="card-title">NoSQL Databases</div>
-      <div class="card-subtext">Flexible, scalable data storage solutions</div>
-      <button class="explain-button" onclick="showModal('noSQLDatabases')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Microservices Architecture</div>
-      <div class="card-subtext">Independent, small service modules in software</div>
-      <button class="explain-button" onclick="showModal('microservicesArchitecture')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Serverless Architecture</div>
-      <div class="card-subtext">Cloud management of server operations</div>
-      <button class="explain-button" onclick="showModal('serverlessArchitecture')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">WebAssembly (Wasm)</div>
-      <div class="card-subtext">High-performance web applications</div>
-      <button class="explain-button" onclick="showModal('webAssembly')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Edge Computing</div>
-      <div class="card-subtext">Data processing closer to data sources</div>
-      <button class="explain-button" onclick="showModal('edgeComputing')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Zero Trust Security Model</div>
-      <div class="card-subtext">Security that trusts no one by default</div>
-      <button class="explain-button" onclick="showModal('zeroTrustSecurityModel')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Docker Swarm</div>
-      <div class="card-subtext">Management of Docker container clusters</div>
-      <button class="explain-button" onclick="showModal('dockerSwarm')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">OAuth 2.0</div>
-      <div class="card-subtext">Authorization framework for resource access</div>
-      <button class="explain-button" onclick="showModal('oAuth2_0')">Explain</button>
-    </div>
-    <div class="card">
-      <div class="card-title">JWT (JSON Web Tokens)</div>
-      <div class="card-subtext">Securely transmit information as JSON</div>
-      <button class="explain-button" onclick="showModal('jwt')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Event-Driven Architecture</div>
-      <div class="card-subtext">Building software with actions triggering responses</div>
-      <button class="explain-button" onclick="showModal('eventDrivenArchitecture')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">CQRS (Command Query Responsibility Segregation)</div>
-      <div class="card-subtext">Separating read and write operations for efficiency</div>
-      <button class="explain-button" onclick="showModal('cqrs')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">DevSecOps</div>
-      <div class="card-subtext">Integrating security into the DevOps process</div>
-      <button class="explain-button" onclick="showModal('devSecOps')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Data Lake</div>
-      <div class="card-subtext">Vast storage for raw data in its native format</div>
-      <button class="explain-button" onclick="showModal('dataLake')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">ETL (Extract, Transform, Load)</div>
-      <div class="card-subtext">Process to collect, change, and store data</div>
-      <button class="explain-button" onclick="showModal('etl')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Monolith</div>
-      <div class="card-subtext">A single, large application handling multiple tasks</div>
-      <button class="explain-button" onclick="showModal('monolith')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Data Warehouse</div>
-      <div class="card-subtext">System for storing and managing large data for analysis</div>
-      <button class="explain-button" onclick="showModal('dataWarehouse')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Graph Databases</div>
-      <div class="card-subtext">Databases storing data in nodes and edges to show relationships</div>
-      <button class="explain-button" onclick="showModal('graphDatabases')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">APM (Application Performance Management)</div>
-      <div class="card-subtext">Monitors and manages software application performance</div>
-      <button class="explain-button" onclick="showModal('apm')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Infrastructure as Code (IaC)</div>
-      <div class="card-subtext">Managing infrastructure through machine-readable scripts</div>
-      <button class="explain-button" onclick="showModal('infrastructureAsCode')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Immutable Infrastructure</div>
-      <div class="card-subtext">Infrastructure that is never modified after deployment</div>
-      <button class="explain-button" onclick="showModal('immutableInfrastructure')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Distributed Ledger Technology</div>
-      <div class="card-subtext">Digital system recording transactions in multiple places simultaneously</div>
-      <button class="explain-button" onclick="showModal('distributedLedgerTechnology')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Chaos Engineering</div>
-      <div class="card-subtext">Practice of testing systems to withstand turbulent conditions</div>
-      <button class="explain-button" onclick="showModal('chaosEngineering')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Reactive Programming</div>
-      <div class="card-subtext">Handling data streams and changes in real time</div>
-      <button class="explain-button" onclick="showModal('reactiveProgramming')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Data Sharding</div>
-      <div class="card-subtext">Splitting a database into smaller, faster parts</div>
-      <button class="explain-button" onclick="showModal('dataSharding')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">API Gateway</div>
-      <div class="card-subtext">Manages requests and directs them to the correct services</div>
-      <button class="explain-button" onclick="showModal('apiGateway')">Explain</button>
-    </div>
-    <div class="card">
-      <div class="card-title">WebRTC (Web Real-Time Communication)</div>
-      <div class="card-subtext">Enabling real-time communication directly in web browsers</div>
-      <button class="explain-button" onclick="showModal('webRTC')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Data Governance</div>
-      <div class="card-subtext">Management of data's availability, usability, integrity, and security</div>
-      <button class="explain-button" onclick="showModal('dataGovernance')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Data Anonymization</div>
-      <div class="card-subtext">Removing personal identifiers from data to protect privacy</div>
-      <button class="explain-button" onclick="showModal('dataAnonymization')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Federated Learning</div>
-      <div class="card-subtext">Training AI models across multiple devices without sharing data</div>
-      <button class="explain-button" onclick="showModal('federatedLearning')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Explainable AI (XAI)</div>
-      <div class="card-subtext">Making AI decisions understandable to humans</div>
-      <button class="explain-button" onclick="showModal('explainableAI')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Synthetic Data</div>
-      <div class="card-subtext">Artificially generated data that mimics real data</div>
-      <button class="explain-button" onclick="showModal('syntheticData')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Quantum Cryptography</div>
-      <div class="card-subtext">Using principles of quantum mechanics for secure communication</div>
-      <button class="explain-button" onclick="showModal('quantumCryptography')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Digital Twins</div>
-      <div class="card-subtext">Virtual replicas of physical objects or systems</div>
-      <button class="explain-button" onclick="showModal('digitalTwins')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Edge AI</div>
-      <div class="card-subtext">Bringing artificial intelligence to edge devices to process data locally</div>
-      <button class="explain-button" onclick="showModal('edgeAI')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Homomorphic Encryption</div>
-      <div class="card-subtext">Performing computations on encrypted data without decryption</div>
-      <button class="explain-button" onclick="showModal('homomorphicEncryption')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Fog Computing</div>
-      <div class="card-subtext">Extending cloud computing to the edge of an enterprise's network</div>
-      <button class="explain-button" onclick="showModal('fogComputing')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Virtual Private Cloud (VPC)</div>
-      <div class="card-subtext">Isolated cloud resources for enhanced security within a public cloud</div>
-      <button class="explain-button" onclick="showModal('virtualPrivateCloud')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Hybrid Cloud</div>
-      <div class="card-subtext">Combining public and private cloud environments for flexibility</div>
-      <button class="explain-button" onclick="showModal('hybridCloud')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Multi-Cloud Strategy</div>
-      <div class="card-subtext">Using multiple cloud computing services to mitigate single-provider risks</div>
-      <button class="explain-button" onclick="showModal('multiCloudStrategy')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">DataOps</div>
-      <div class="card-subtext">An agile methodology for developing and maintaining data analytics</div>
-      <button class="explain-button" onclick="showModal('dataOps')">Explain</button>
-    </div>
-    
-    <div class="card">
-      <div class="card-title">Bioinformatics</div>
-      <div class="card-subtext">Using technology to understand biological data</div>
-      <button class="explain-button" onclick="showModal('bioinformatics')">Explain</button>
-    </div>
-            
-  
+<div class="card">
+  <div class="card-title">Cross-Entropy</div>
+  <div class="card-subtext">Loss function measuring the difference between predicted and actual class labels.</div>
+  <button class="explain-button" onclick="showModal('crossEntropy')">Explain</button>
+</div>
+<!--New Set August-->
+<div class="card">
+  <div class="card-title">NoSQL Databases</div>
+  <div class="card-subtext">Flexible, scalable data storage solutions</div>
+  <button class="explain-button" onclick="showModal('noSQLDatabases')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Microservices Architecture</div>
+  <div class="card-subtext">Independent, small service modules in software</div>
+  <button class="explain-button" onclick="showModal('microservicesArchitecture')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Serverless Architecture</div>
+  <div class="card-subtext">Cloud management of server operations</div>
+  <button class="explain-button" onclick="showModal('serverlessArchitecture')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">WebAssembly (Wasm)</div>
+  <div class="card-subtext">High-performance web applications</div>
+  <button class="explain-button" onclick="showModal('webAssembly')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Edge Computing</div>
+  <div class="card-subtext">Data processing closer to data sources</div>
+  <button class="explain-button" onclick="showModal('edgeComputing')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Zero Trust Security Model</div>
+  <div class="card-subtext">Security that trusts no one by default</div>
+  <button class="explain-button" onclick="showModal('zeroTrustSecurityModel')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Docker Swarm</div>
+  <div class="card-subtext">Management of Docker container clusters</div>
+  <button class="explain-button" onclick="showModal('dockerSwarm')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">OAuth 2.0</div>
+  <div class="card-subtext">Authorization framework for resource access</div>
+  <button class="explain-button" onclick="showModal('oAuth2_0')">Explain</button>
+</div>
+<div class="card">
+  <div class="card-title">JWT (JSON Web Tokens)</div>
+  <div class="card-subtext">Securely transmit information as JSON</div>
+  <button class="explain-button" onclick="showModal('jwt')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Event-Driven Architecture</div>
+  <div class="card-subtext">Building software with actions triggering responses</div>
+  <button class="explain-button" onclick="showModal('eventDrivenArchitecture')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">CQRS (Command Query Responsibility Segregation)</div>
+  <div class="card-subtext">Separating read and write operations for efficiency</div>
+  <button class="explain-button" onclick="showModal('cqrs')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">DevSecOps</div>
+  <div class="card-subtext">Integrating security into the DevOps process</div>
+  <button class="explain-button" onclick="showModal('devSecOps')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Data Lake</div>
+  <div class="card-subtext">Vast storage for raw data in its native format</div>
+  <button class="explain-button" onclick="showModal('dataLake')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">ETL (Extract, Transform, Load)</div>
+  <div class="card-subtext">Process to collect, change, and store data</div>
+  <button class="explain-button" onclick="showModal('etl')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Monolith</div>
+  <div class="card-subtext">A single, large application handling multiple tasks</div>
+  <button class="explain-button" onclick="showModal('monolith')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Data Warehouse</div>
+  <div class="card-subtext">System for storing and managing large data for analysis</div>
+  <button class="explain-button" onclick="showModal('dataWarehouse')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Graph Databases</div>
+  <div class="card-subtext">Databases storing data in nodes and edges to show relationships</div>
+  <button class="explain-button" onclick="showModal('graphDatabases')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">APM (Application Performance Management)</div>
+  <div class="card-subtext">Monitors and manages software application performance</div>
+  <button class="explain-button" onclick="showModal('apm')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Infrastructure as Code (IaC)</div>
+  <div class="card-subtext">Managing infrastructure through machine-readable scripts</div>
+  <button class="explain-button" onclick="showModal('infrastructureAsCode')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Immutable Infrastructure</div>
+  <div class="card-subtext">Infrastructure that is never modified after deployment</div>
+  <button class="explain-button" onclick="showModal('immutableInfrastructure')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Distributed Ledger Technology</div>
+  <div class="card-subtext">Digital system recording transactions in multiple places simultaneously</div>
+  <button class="explain-button" onclick="showModal('distributedLedgerTechnology')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Chaos Engineering</div>
+  <div class="card-subtext">Practice of testing systems to withstand turbulent conditions</div>
+  <button class="explain-button" onclick="showModal('chaosEngineering')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Reactive Programming</div>
+  <div class="card-subtext">Handling data streams and changes in real time</div>
+  <button class="explain-button" onclick="showModal('reactiveProgramming')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Data Sharding</div>
+  <div class="card-subtext">Splitting a database into smaller, faster parts</div>
+  <button class="explain-button" onclick="showModal('dataSharding')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">API Gateway</div>
+  <div class="card-subtext">Manages requests and directs them to the correct services</div>
+  <button class="explain-button" onclick="showModal('apiGateway')">Explain</button>
+</div>
+<div class="card">
+  <div class="card-title">WebRTC (Web Real-Time Communication)</div>
+  <div class="card-subtext">Enabling real-time communication directly in web browsers</div>
+  <button class="explain-button" onclick="showModal('webRTC')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Data Governance</div>
+  <div class="card-subtext">Management of data's availability, usability, integrity, and security</div>
+  <button class="explain-button" onclick="showModal('dataGovernance')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Data Anonymization</div>
+  <div class="card-subtext">Removing personal identifiers from data to protect privacy</div>
+  <button class="explain-button" onclick="showModal('dataAnonymization')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Federated Learning</div>
+  <div class="card-subtext">Training AI models across multiple devices without sharing data</div>
+  <button class="explain-button" onclick="showModal('federatedLearning')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Explainable AI (XAI)</div>
+  <div class="card-subtext">Making AI decisions understandable to humans</div>
+  <button class="explain-button" onclick="showModal('explainableAI')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Synthetic Data</div>
+  <div class="card-subtext">Artificially generated data that mimics real data</div>
+  <button class="explain-button" onclick="showModal('syntheticData')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Quantum Cryptography</div>
+  <div class="card-subtext">Using principles of quantum mechanics for secure communication</div>
+  <button class="explain-button" onclick="showModal('quantumCryptography')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Digital Twins</div>
+  <div class="card-subtext">Virtual replicas of physical objects or systems</div>
+  <button class="explain-button" onclick="showModal('digitalTwins')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Edge AI</div>
+  <div class="card-subtext">Bringing artificial intelligence to edge devices to process data locally</div>
+  <button class="explain-button" onclick="showModal('edgeAI')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Homomorphic Encryption</div>
+  <div class="card-subtext">Performing computations on encrypted data without decryption</div>
+  <button class="explain-button" onclick="showModal('homomorphicEncryption')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Fog Computing</div>
+  <div class="card-subtext">Extending cloud computing to the edge of an enterprise's network</div>
+  <button class="explain-button" onclick="showModal('fogComputing')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Virtual Private Cloud (VPC)</div>
+  <div class="card-subtext">Isolated cloud resources for enhanced security within a public cloud</div>
+  <button class="explain-button" onclick="showModal('virtualPrivateCloud')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Hybrid Cloud</div>
+  <div class="card-subtext">Combining public and private cloud environments for flexibility</div>
+  <button class="explain-button" onclick="showModal('hybridCloud')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Multi-Cloud Strategy</div>
+  <div class="card-subtext">Using multiple cloud computing services to mitigate single-provider risks</div>
+  <button class="explain-button" onclick="showModal('multiCloudStrategy')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">DataOps</div>
+  <div class="card-subtext">An agile methodology for developing and maintaining data analytics</div>
+  <button class="explain-button" onclick="showModal('dataOps')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">Bioinformatics</div>
+  <div class="card-subtext">Using technology to understand biological data</div>
+  <button class="explain-button" onclick="showModal('bioinformatics')">Explain</button>
+</div>
+
   </div>
 
   <!-- Modal Structure -->
-  <div id="modal" class="modal">
-    <div class="modal-content">
+  <div id="modal">
+    <div id="modal-content">
       <div id="modal-body"></div>
-    <!-- <button class="modal-button" onclick="readMore()">Read More About It</button>--> 
     </div>
   </div>
 
