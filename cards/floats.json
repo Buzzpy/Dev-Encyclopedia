@@ -1,0 +1,12 @@
+{
+    "title": "Floats",
+    "tags": [],
+    "paragraphs": [
+        "Floats are numbers that have a decimal point. They can represent fractions and very precise values.",
+        "Think of a float as the way you write money, like $3.50 or $7.99."
+    ],
+    "link": {
+        "href": "https://www.w3schools.com/python/python_datatypes.asp",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}
