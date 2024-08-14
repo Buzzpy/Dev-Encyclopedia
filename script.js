@@ -24,29 +24,41 @@ export  function showModal(key) {
   const modal = document.getElementById('modal');
   const modalBody = document.getElementById('modal-body');
   
-  let content = htmlCards[key].content
+  let content = htmlCards[key]?.content
+
+  if(!!content){
+    modalBody.innerHTML = `
+    <h2 id="modal-heading">${content?.heading}</h2>
+    ${
+      content?.paragraphs?.reduce((acc,el)=>{
+        return acc+`
+          <p class="modal-paragraph">
+            ${el}
+          </p>
+        `
+      },``)
+    }
+    
+    ${
+      content?.images?.reduce((acc,el)=>{
+        return acc+`
+          <img src="${el.link}" alt="${el.description}">
+        `
+      },``)
+    }
+    <a href="${content?.link}" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    `
+  }
 
   modalBody.innerHTML = `
-  <h2 id="modal-heading">${content.heading}</h2>
-  ${
-    content.paragraphs?.reduce((acc,el)=>{
-      return acc+`
-        <p class="modal-paragraph">
-          ${el}
-        </p>
-      `
-    },``)
-  }
-  
-  ${
-    content.images?.reduce((acc,el)=>{
-      return acc+`
-        <img src="${el.link}" alt="${el.description}">
-      `
-    },``)
-  }
-  <a href="${content.link}" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <h2>This Page is Missing!</h2>
+
+    <p>Can you find it?</p>
+    <button class="button" onclick="window.open('https://github.com/Buzzpy/Programming-Simplified', '_blank')">
+      <i class="fab fa-github" style="padding-right: 10px;"></i> Contribute;
+    </button>
   `
+
   modal.style.display = 'block';
 }
 
