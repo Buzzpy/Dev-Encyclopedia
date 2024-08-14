@@ -2836,7 +2836,7 @@ const descriptions = {  codeSmell: `
     function showSponsors() {
       const modal = document.getElementById('modal');
       const modalBody = document.getElementById('modal-body');
-      modalBody.innerHTML = '<h3>Sponsors</h3><p> You can sponsor this project via my Ko-Fi profile : <a href="https://ko-fi.com/buzzpy">ko-fi.com/buzzpy<a></p> <p>Once you make any donatioon, I will get in touch with you and make sure you get a place in this "Sponsors" page! </p>';
+      modalBody.innerHTML = '<h3>Sponsors</h3><p> You can sponsor this project via my Ko-Fi profile : <a href="https://ko-fi.com/buzzpy">ko-fi.com/buzzpy<a></p> <p>Once you make any donation, I will get in touch with you and make sure you get a place in this "Sponsors" page! </p>';
       modal.style.display = 'block';
     }
 
