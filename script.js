@@ -636,9 +636,9 @@ const descriptions = {  codeSmell: `
     <p class="modal-paragraph">IoT enables smarter interactions between devices and can be used in various applications like smart homes, health monitoring, and industrial automation.</p>
     
      
-    <img class="responsive-image" src="https://www.i-scoop.eu/wp-content/uploads/2016/10/The-Internet-of-Things-from-connecting-devices-to-creating-value-large.jpg"
+    <img class="responsive-image" src="https://www.i-scoop.eu/wp-content/uploads/2016/10/The-Internet-of-Things-from-connecting-devices-to-creating-value-large.jpg" alt="Internet of Things image">
     
-    <a href="https://www.oracle.com/internet-of-things/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a> alt="Internet of Things image">
+    <a href="https://www.oracle.com/internet-of-things/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a> 
   `,
   blockchain: `
     <h2 id="modal-heading">Blockchain</h2>
