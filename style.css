@@ -149,7 +149,7 @@ body {
 }
 
 /* Modal Styles */
-.modal {
+#modal {
     display: none;
     position: fixed;
     z-index: 1;
@@ -161,7 +161,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.modal-content {
+#modal-content {
     background-color: #ffffff;
     color: black;
     margin: 10% auto;
@@ -175,25 +175,25 @@ body {
     max-height: 70vh;
 }
 
-.modal-heading {
-    text-align: center;
-    font-weight: bolder;
-    font-size: 25px;
-}
-
-.modal-paragraph {
-    text-align: left;
-   line-height: 1.5;
-
-}
-
 #modal-body {
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.modal-link {
+#modal-heading {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.modal-paragraph {
+   text-align: left;
+   line-height: 1.5;
+
+}
+
+#modal-link {
     display: inline-block;
     margin-top: 20px;
     background-color: #ffffff;
@@ -206,7 +206,7 @@ body {
     cursor: pointer;
 }
 
-.modal-link:hover {
+#modal-link:hover {
     color: deeppink;
 }
 
