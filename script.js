@@ -537,10 +537,10 @@ const descriptions = {  codeSmell: `
   machineLearning: `
     <h2 id="modal-heading">Machine Learning</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Machine learning is a type of artificial intelligence that allows software applications to become more accurate at predicting outcomes without being explicitly programmed to do so. Machine learning algorithms use historical data as input to predict new output values.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's used in many areas such as email filtering, network security, and computer vision.</p>
+    <p class="modal-paragraph">Machine learning is a type of artificial intelligence that allows software applications to become more accurate at predicting outcomes without being explicitly programmed to do so. Machine learning algorithms use historical data as input to predict new output values.</p>
+    <p class="modal-paragraph">It's used in many areas such as email filtering, network security, and computer vision.</p>
     
-    <br>
+    
     <img  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ilep9ckl66ho6mp5v6ht.png" alt="Machine Learning image">
     <a href="https://mitsloan.mit.edu/ideas-made-to-matter/machine-learning-explained" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   
@@ -548,188 +548,188 @@ const descriptions = {  codeSmell: `
   deepLearning: `
     <h2 id="modal-heading">Deep Learning</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Deep learning is a subset of machine learning where artificial neural networks, algorithms inspired by the human brain, learn from large amounts of data. It's a key technology behind driverless cars, enabling them to recognize a stop sign, or to distinguish a pedestrian from a lamppost.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Deep learning is used in many applications such as voice assistants, translation services, and image recognition.</p>
+    <p class="modal-paragraph">Deep learning is a subset of machine learning where artificial neural networks, algorithms inspired by the human brain, learn from large amounts of data. It's a key technology behind driverless cars, enabling them to recognize a stop sign, or to distinguish a pedestrian from a lamppost.</p>
+    <p class="modal-paragraph">Deep learning is used in many applications such as voice assistants, translation services, and image recognition.</p>
     
      
     <img class="responsive-image" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2l6t6kevnd062opmw6ab.png" alt="Deep Learning image">
-    <br>
+    
     <a href="https://www.ibm.com/topics/deep-learning" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   artificialIntelligence: `
     <h2 id="modal-heading">Artificial Intelligence</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions. The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">AI is used in many areas such as robotics, autonomous vehicles, and natural language processing.</p>
+    <p class="modal-paragraph">Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions. The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving.</p>
+    <p class="modal-paragraph">AI is used in many areas such as robotics, autonomous vehicles, and natural language processing.</p>
     
     <img class="responsive-image" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/iii01cstbhic3xzt9ceu.png" alt="Artificial Intelligence image">
-    <br>
+    
     <a href="https://www.ibm.com/topics/artificial-intelligence" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   cybersecurity: `
     <h2 id="modal-heading">Cybersecurity</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Cybersecurity involves protecting computer systems and networks from digital attacks, theft, and damage. It includes various practices and technologies to safeguard data and maintain privacy.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Cybersecurity is crucial for protecting sensitive information and ensuring the safe operation of systems in both personal and professional environments.</p>
+    <p class="modal-paragraph">Cybersecurity involves protecting computer systems and networks from digital attacks, theft, and damage. It includes various practices and technologies to safeguard data and maintain privacy.</p>
+    <p class="modal-paragraph">Cybersecurity is crucial for protecting sensitive information and ensuring the safe operation of systems in both personal and professional environments.</p>
     
     <img class="responsive-image" src="https://reciprocity.com/wp-content/uploads/2022/10/resources_top-cybersecurity-threats_730x425.jpg" alt="Cybersecurity image">
-    <br>
+    
     <a href="https://www.ibm.com/topics/cybersecurity" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   epochs: `
     <h2 id="modal-heading">Epochs</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">In machine learning, an epoch is one complete pass through the entire training dataset. During each epoch, the model's parameters are updated to improve accuracy.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Multiple epochs are often needed for a model to learn effectively and reach high performance on the task it is trained for. However, its' crucial to determine the number of epochs carefully, as explaned in the image below.</p>
+    <p class="modal-paragraph">In machine learning, an epoch is one complete pass through the entire training dataset. During each epoch, the model's parameters are updated to improve accuracy.</p>
+    <p class="modal-paragraph">Multiple epochs are often needed for a model to learn effectively and reach high performance on the task it is trained for. However, its' crucial to determine the number of epochs carefully, as explaned in the image below.</p>
     
     <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:860/1*GXftMdKjyaLYuAIn-nB4zA.png" alt="Epochs image">
-    <br>
+    
     <a href="https://www.simplilearn.com/tutorials/machine-learning-tutorial/what-is-epoch-in-machine-learning" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   apis: `
     <h2 id="modal-heading">APIs</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">An API (Application Programming Interface) is a set of rules that allows different software programs to communicate with each other. It defines how requests and responses should be formatted so that different systems can interact seamlessly.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">APIs are used to integrate different services, enabling developers to build applications that interact with other software or services.</p>
-     <br>
+    <p class="modal-paragraph">An API (Application Programming Interface) is a set of rules that allows different software programs to communicate with each other. It defines how requests and responses should be formatted so that different systems can interact seamlessly.</p>
+    <p class="modal-paragraph">APIs are used to integrate different services, enabling developers to build applications that interact with other software or services.</p>
+     
       <p>For example, An API is like a messenger between apps and services. Imagine you are using a weather app. The app uses an API to ask a weather service for today’s weather. The weather service sends the info back through the API, and you see the weather on your app. So, an API helps different software talk to each other and share information.</p>
     
     <img class="responsive-image" src="https://www.openlegacy.com/hs-fs/hubfs/Picture1-2.webp?width=969&height=509&name=Picture1-2.webp" alt="APIs image">
-    <br>
+    
     <a href="https://www.postman.com/what-is-an-api/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   cloudComputing: `
     <h2 id="modal-heading">Cloud Computing</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Cloud computing is the delivery of computing services—such as servers, storage, databases, and software—over the internet (the cloud). It allows users to access and use these services without having to manage physical servers or infrastructure.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Cloud computing provides flexibility, scalability, and cost-efficiency for businesses and individuals. Following image shows types of cloud computing</p>
+    <p class="modal-paragraph">Cloud computing is the delivery of computing services—such as servers, storage, databases, and software—over the internet (the cloud). It allows users to access and use these services without having to manage physical servers or infrastructure.</p>
+    <p class="modal-paragraph">Cloud computing provides flexibility, scalability, and cost-efficiency for businesses and individuals. Following image shows types of cloud computing</p>
     
     
     <img class="responsive-image" src="https://images.spiceworks.com/wp-content/uploads/2021/07/02105247/Cloud-Computing.png" alt="Cloud Computing image">
-    <br>
+    
     <a href="https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   dataScience: `
     <h2 id="modal-heading">Data Science</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Data science involves using scientific methods, processes, and systems to extract insights and knowledge from data. It combines various fields such as statistics, data analysis, and machine learning to understand and interpret complex data.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Data science helps in making informed decisions and predictions based on data analysis.</p>
+    <p class="modal-paragraph">Data science involves using scientific methods, processes, and systems to extract insights and knowledge from data. It combines various fields such as statistics, data analysis, and machine learning to understand and interpret complex data.</p>
+    <p class="modal-paragraph">Data science helps in making informed decisions and predictions based on data analysis.</p>
     
     <img class="responsive-image" src="https://editor.analyticsvidhya.com/uploads/73194new%202.png" alt="Data Science image from DataScientist.com">
-    <br>
+    
     <a href="https://www.ibm.com/topics/data-science" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   quantumComputing: `
     <h2 id="modal-heading">Quantum Computing</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Quantum computing is an area of computing that uses principles of quantum mechanics to perform calculations. It leverages quantum bits (qubits) to process information in ways that classical computers cannot.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Quantum computing has the potential to solve complex problems more efficiently than traditional computers.</p>
+    <p class="modal-paragraph">Quantum computing is an area of computing that uses principles of quantum mechanics to perform calculations. It leverages quantum bits (qubits) to process information in ways that classical computers cannot.</p>
+    <p class="modal-paragraph">Quantum computing has the potential to solve complex problems more efficiently than traditional computers.</p>
     
     <img class="responsive-image-qc" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/auzqrr27ccgv9ylkloed.png" alt="Quantum Computing image">
-    <br>
+    
     <a href="https://www.explainthatstuff.com/quantum-computing.html" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   internetOfThings: `
     <h2 id="modal-heading">Internet of Things</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">The Internet of Things (IoT) refers to the network of physical objects embedded with sensors and software that can connect and exchange data with other devices over the internet.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">IoT enables smarter interactions between devices and can be used in various applications like smart homes, health monitoring, and industrial automation.</p>
+    <p class="modal-paragraph">The Internet of Things (IoT) refers to the network of physical objects embedded with sensors and software that can connect and exchange data with other devices over the internet.</p>
+    <p class="modal-paragraph">IoT enables smarter interactions between devices and can be used in various applications like smart homes, health monitoring, and industrial automation.</p>
     
      
     <img class="responsive-image" src="https://www.i-scoop.eu/wp-content/uploads/2016/10/The-Internet-of-Things-from-connecting-devices-to-creating-value-large.jpg"
-    <br>
+    
     <a href="https://www.oracle.com/internet-of-things/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a> alt="Internet of Things image">
   `,
   blockchain: `
     <h2 id="modal-heading">Blockchain</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Blockchain is a digital ledger technology that records transactions across many computers in a way that ensures the security and transparency of the data.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Each transaction is recorded in a "block," and blocks are linked together in a "chain." Blockchain is used in cryptocurrencies and other applications requiring secure data storage.</p>
+    <p class="modal-paragraph">Blockchain is a digital ledger technology that records transactions across many computers in a way that ensures the security and transparency of the data.</p>
+    <p class="modal-paragraph">Each transaction is recorded in a "block," and blocks are linked together in a "chain." Blockchain is used in cryptocurrencies and other applications requiring secure data storage.</p>
     
     <img class="responsive-image" src="https://www.investopedia.com/thmb/XrimO6cL95A3j-ts3PknnOXn8EI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/dotdash_Final_Blockchain_Sep_2020-01-60f31a638c4944abbcfde92e1a408a30.jpg" alt="Blockchain image">
-    <br>
+    
     <a href="https://builtin.com/blockchain" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   reactJS: `
     <h2 id="modal-heading">ReactJS</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">ReactJS is a JavaScript library used for building user interfaces. It allows developers to create reusable UI components and manage the state of their applications efficiently.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">ReactJS is often used for developing single-page applications (SPAs) and can be integrated with other libraries or frameworks.</p>
+    <p class="modal-paragraph">ReactJS is a JavaScript library used for building user interfaces. It allows developers to create reusable UI components and manage the state of their applications efficiently.</p>
+    <p class="modal-paragraph">ReactJS is often used for developing single-page applications (SPAs) and can be integrated with other libraries or frameworks.</p>
     
     <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1400/1*6l9rCElYlP9EoG0A-iXULg.png" alt="ReactJS image">
-    <br>
+    
     <a href="https://www.freecodecamp.org/news/react-for-beginners-handbook/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   docker: `
     <h2 id="modal-heading">Docker</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Docker is a platform that allows developers to package applications and their dependencies into containers. Containers are lightweight, portable, and can run on any system with Docker installed.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Docker simplifies deployment and scaling of applications, ensuring consistency across different environments.</p>
+    <p class="modal-paragraph">Docker is a platform that allows developers to package applications and their dependencies into containers. Containers are lightweight, portable, and can run on any system with Docker installed.</p>
+    <p class="modal-paragraph">Docker simplifies deployment and scaling of applications, ensuring consistency across different environments.</p>
     
     <img class="responsive-image" src="https://accesto.com/blog/static/d97eced7f59a885b5ba877366cf21909/3c492/docker-explained-1.png" alt="Docker image">
-    <br>
+    
     <a href="https://docker-curriculum.com/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   initFunction: `
     <h2 id="modal-heading">__init__ Function</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">The __init__ function is a special method in Python that is called when an object is instantiated. It initializes the object's attributes and sets up the initial state of the object.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It is commonly used to set default values for object properties or to perform setup tasks when creating new instances of a class.</p>
+    <p class="modal-paragraph">The __init__ function is a special method in Python that is called when an object is instantiated. It initializes the object's attributes and sets up the initial state of the object.</p>
+    <p class="modal-paragraph">It is commonly used to set default values for object properties or to perform setup tasks when creating new instances of a class.</p>
     
     <img class="responsive-image" src="https://www.boardinfinity.com/blog/content/images/2023/05/init-in-python.png" alt="__init__ Function image">
-    <br>
+    
     <a href="https://docker-curriculum.com/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
   python: `
     <h2 id="modal-heading">Python</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Python is a high-level programming language known for its readability and simplicity. It is widely used in web development, data science, automation, and more.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Python's syntax is designed to be easy to understand and write, making it a popular choice for beginners and experienced programmers alike.</p>
+    <p class="modal-paragraph">Python is a high-level programming language known for its readability and simplicity. It is widely used in web development, data science, automation, and more.</p>
+    <p class="modal-paragraph">Python's syntax is designed to be easy to understand and write, making it a popular choice for beginners and experienced programmers alike.</p>
     
     <img class="responsive-image" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9fx9gi335wgl2pdt6sjj.png" alt="Python image">
-    <br>
+    
     <a href="https://example.com" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   threeSigmaRule: `
     <h2 id="modal-heading">Three-Sigma Rule</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">The Three-Sigma Rule, also known as <strong> the 68-95-99.7 rule and  </strong>  <strong>Empirical Rule </strong>, states that for a normal distribution, nearly all data points will fall within three standard deviations of the mean.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">This rule helps to understand data variability and is used in various fields, including quality control and statistics.</p>
+    <p class="modal-paragraph">The Three-Sigma Rule, also known as <strong> the 68-95-99.7 rule and  </strong>  <strong>Empirical Rule </strong>, states that for a normal distribution, nearly all data points will fall within three standard deviations of the mean.</p>
+    <p class="modal-paragraph">This rule helps to understand data variability and is used in various fields, including quality control and statistics.</p>
     
 
     <img class="responsive-image" src="https://decodingdatascience.com/wp-content/uploads/2023/05/Screenshot-2023-05-05-101857.jpg" alt="Three-Sigma Rule image">
-    <br>
+    
     <a href="https://www.investopedia.com/terms/t/three-sigma-limits.asp" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   recursion: `
     <h2 id="modal-heading">Recursion</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Recursion is a programming technique where a function calls itself in order to solve a problem. It is often used to break down complex problems into simpler sub-problems.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Recursion is useful in tasks such as tree traversal, sorting algorithms, and solving mathematical problems.</p>
+    <p class="modal-paragraph">Recursion is a programming technique where a function calls itself in order to solve a problem. It is often used to break down complex problems into simpler sub-problems.</p>
+    <p class="modal-paragraph">Recursion is useful in tasks such as tree traversal, sorting algorithms, and solving mathematical problems.</p>
     
     <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:2000/1*QrQ5uFKIhK3jQSFYeRBIRg.png" alt="Recursion image">
-    <br>
+    
     <a href="https://2533.medium.com/recursion-explained-with-pictures-72578d28058a" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   git: `
     <h2 id="modal-heading">Git</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Git is a version control system that tracks changes to files and allows multiple people to collaborate on a project. It helps manage code changes, track history, and resolve conflicts.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Git is widely used in software development to maintain code integrity and support collaborative work.</p>
+    <p class="modal-paragraph">Git is a version control system that tracks changes to files and allows multiple people to collaborate on a project. It helps manage code changes, track history, and resolve conflicts.</p>
+    <p class="modal-paragraph">Git is widely used in software development to maintain code integrity and support collaborative work.</p>
     
     <a href="https://dev.to/milu_franz/git-explained-the-basics-igc" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
-    <br>
+    
     
   `,
   versionControl: `
     <h2 id="modal-heading">Version Control</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Version control is a system that records changes to files over time so that you can recall specific versions later. It is essential for managing software development and tracking changes to code.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Version control helps coordinate work among multiple developers and track the history of changes. Mainly, there are two types of version control systems as "Centralized" and "Distributed" Version Control Systems, as explained in the image below.</p>
+    <p class="modal-paragraph">Version control is a system that records changes to files over time so that you can recall specific versions later. It is essential for managing software development and tracking changes to code.</p>
+    <p class="modal-paragraph">Version control helps coordinate work among multiple developers and track the history of changes. Mainly, there are two types of version control systems as "Centralized" and "Distributed" Version Control Systems, as explained in the image below.</p>
     
     <img class="responsive-image" src="https://www.thatcompany.com/wp-content/uploads/2020/03/art3.jpg" alt="Version Control image">
-    <br>
+    
     <a href="https://about.gitlab.com/topics/version-control/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   microservices: `
@@ -844,48 +844,48 @@ const descriptions = {  codeSmell: `
   agile: `
     <h2 id="modal-heading">Agile</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Agile is a methodology for software development that emphasizes flexibility, collaboration, and customer feedback. It focuses on delivering small, incremental improvements to a project.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Agile methodologies include frameworks such as Scrum and Kanban, which help teams adapt to changes and continuously improve their processes.</p>
+    <p class="modal-paragraph">Agile is a methodology for software development that emphasizes flexibility, collaboration, and customer feedback. It focuses on delivering small, incremental improvements to a project.</p>
+    <p class="modal-paragraph">Agile methodologies include frameworks such as Scrum and Kanban, which help teams adapt to changes and continuously improve their processes.</p>
     
     <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:718/0*7te6LdDJm2DqZIHB.png" alt="Agile image">
-    <br>
+    
     <a href="https://www.spiceworks.com/tech/devops/articles/what-is-agile-software-development/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   scrum: `
     <h2 id="modal-heading">Scrum</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Scrum is a framework within the Agile methodology used for managing and completing complex projects. It involves iterative development and regular feedback from stakeholders.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Scrum emphasizes teamwork, accountability, and continuous improvement through practices such as sprints, daily stand-ups, and retrospectives.</p>
+    <p class="modal-paragraph">Scrum is a framework within the Agile methodology used for managing and completing complex projects. It involves iterative development and regular feedback from stakeholders.</p>
+    <p class="modal-paragraph">Scrum emphasizes teamwork, accountability, and continuous improvement through practices such as sprints, daily stand-ups, and retrospectives.</p>
     
     <img class="responsive-image" src="https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2023-09/scrum-framework-9.29.23.png" alt="Scrum image">
-    <br>
+    
     <a href="https://www.scrum.org/resources/what-scrum-module" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   kanban: `
     <h2 id="modal-heading">Kanban</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Kanban is a visual workflow management method that helps teams visualize and manage work. It uses a board with columns to represent different stages of the work process.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Kanban helps teams improve efficiency by limiting work in progress and optimizing the flow of tasks through the workflow.</p>
+    <p class="modal-paragraph">Kanban is a visual workflow management method that helps teams visualize and manage work. It uses a board with columns to represent different stages of the work process.</p>
+    <p class="modal-paragraph">Kanban helps teams improve efficiency by limiting work in progress and optimizing the flow of tasks through the workflow.</p>
     
     <img class="responsive-image" src="https://media.geeksforgeeks.org/wp-content/uploads/20231107173425/Kanban-board-2.png" alt="Kanban image">
-    <br>
+    
     <a href="https://www.atlassian.com/agile/kanban" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   sql: `
     <h2 id="modal-heading">SQL</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">SQL (Structured Query Language) is a language used for managing and querying relational databases. It allows users to perform operations such as retrieving, inserting, updating, and deleting data.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">SQL is essential for working with databases and is widely used in various applications to interact with data.</p>
+    <p class="modal-paragraph">SQL (Structured Query Language) is a language used for managing and querying relational databases. It allows users to perform operations such as retrieving, inserting, updating, and deleting data.</p>
+    <p class="modal-paragraph">SQL is essential for working with databases and is widely used in various applications to interact with data.</p>
     
     <img class="responsive-image" src="https://www.spiceworks.com/wp-content/uploads/2022/06/How-Does-SQL-Work.png" alt="SQL image">
-    <br>
+    
     <a href="https://aws.amazon.com/what-is/sql/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   nosql: `
     <h2 id="modal-heading">NoSQL</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">NoSQL is a type of database that provides a mechanism for data storage and retrieval that is different from traditional relational databases. It is designed to handle large volumes of unstructured or semi-structured data.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">NoSQL databases are often used for applications that require high scalability, performance, and flexibility in handling data.</p>
+    <p class="modal-paragraph">NoSQL is a type of database that provides a mechanism for data storage and retrieval that is different from traditional relational databases. It is designed to handle large volumes of unstructured or semi-structured data.</p>
+    <p class="modal-paragraph">NoSQL databases are often used for applications that require high scalability, performance, and flexibility in handling data.</p>
     
   
     <a href="https://radixweb.com/blog/introduction-to-continuous-deployment#Continuous" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
@@ -893,87 +893,87 @@ const descriptions = {  codeSmell: `
   html: `
     <h2 id="modal-heading">HTML</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">HTML (HyperText Markup Language) is the standard language used to create and design web pages. It structures content on the web by using tags and elements to define headings, paragraphs, links, images, and other components.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">HTML forms the backbone of web content and is used in conjunction with CSS and JavaScript to build complete web pages.</p>
+    <p class="modal-paragraph">HTML (HyperText Markup Language) is the standard language used to create and design web pages. It structures content on the web by using tags and elements to define headings, paragraphs, links, images, and other components.</p>
+    <p class="modal-paragraph">HTML forms the backbone of web content and is used in conjunction with CSS and JavaScript to build complete web pages.</p>
     
     <img class="responsive-image" src="assets/images/html.jpg" alt="HTML image">
-    <br>
+    
     <a href="https://www.hostinger.com/tutorials/what-is-html" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   css: `
     <h2 id="modal-heading">CSS</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in HTML. It controls the layout, colors, fonts, and overall design of web pages.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">CSS allows for the separation of content and design, making web pages more flexible and easier to maintain.</p>
+    <p class="modal-paragraph">CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in HTML. It controls the layout, colors, fonts, and overall design of web pages.</p>
+    <p class="modal-paragraph">CSS allows for the separation of content and design, making web pages more flexible and easier to maintain.</p>
     
     <img class="responsive-image" src="assets/images/css.jpg" alt="CSS image">
-    <br>
+    
     <a href="https://www.hostinger.com/tutorials/what-is-css" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   java: `
     <h2 id="modal-heading">Java</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Java is a high-level programming language known for its portability, scalability, and performance. It is widely used for building enterprise-level applications, mobile apps, and web services.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Java's "write once, run anywhere" philosophy makes it a popular choice for cross-platform development.</p>
+    <p class="modal-paragraph">Java is a high-level programming language known for its portability, scalability, and performance. It is widely used for building enterprise-level applications, mobile apps, and web services.</p>
+    <p class="modal-paragraph">Java's "write once, run anywhere" philosophy makes it a popular choice for cross-platform development.</p>
     
     <img class="responsive-image" src="assets/images/java.jpg" alt="Java image">
-    <br>
+    
     <a href="https://www.simplilearn.com/tutorials/java-tutorial/what-is-java" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   cSharp: `
     <h2 id="modal-heading">C#</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">C# (C-Sharp) is a modern, object-oriented programming language developed by Microsoft. It is used primarily for developing applications on the .NET framework, including web, desktop, and mobile apps.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">C# is known for its simplicity, versatility, and strong integration with Microsoft technologies.</p>
+    <p class="modal-paragraph">C# (C-Sharp) is a modern, object-oriented programming language developed by Microsoft. It is used primarily for developing applications on the .NET framework, including web, desktop, and mobile apps.</p>
+    <p class="modal-paragraph">C# is known for its simplicity, versatility, and strong integration with Microsoft technologies.</p>
     
     <img class="responsive-image" src="assets/images/cSharp.jpg" alt="C# image">
-    <br>
+    
     <a href="https://dotnet.microsoft.com/en-us/languages/csharp" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   php: `
     <h2 id="modal-heading">PHP</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">PHP (Hypertext Preprocessor) is a server-side scripting language designed for web development. It is commonly used to create dynamic web pages and interact with databases.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">PHP is widely supported and integrates well with HTML, making it a popular choice for web developers.</p>
+    <p class="modal-paragraph">PHP (Hypertext Preprocessor) is a server-side scripting language designed for web development. It is commonly used to create dynamic web pages and interact with databases.</p>
+    <p class="modal-paragraph">PHP is widely supported and integrates well with HTML, making it a popular choice for web developers.</p>
     
     <img class="responsive-image" src="assets/images/php.jpg" alt="PHP image">
-    <br>
+    
      <a href="https://www.freecodecamp.org/news/what-is-php-the-php-programming-language-meaning-explained/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   ruby: `
     <h2 id="modal-heading">Ruby</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Ruby is an object-oriented programming language known for its simplicity and productivity. It is often used for web development, particularly with the Ruby on Rails framework.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Ruby's elegant syntax makes it easy to read and write, helping developers create robust applications quickly.</p>
+    <p class="modal-paragraph">Ruby is an object-oriented programming language known for its simplicity and productivity. It is often used for web development, particularly with the Ruby on Rails framework.</p>
+    <p class="modal-paragraph">Ruby's elegant syntax makes it easy to read and write, helping developers create robust applications quickly.</p>
     
      <a href="https://developer.oracle.com/learn/technical-articles/what-is-ruby" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   swift: `
     <h2 id="modal-heading">Swift</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Swift is a programming language developed by Apple for iOS and macOS development. It is known for its speed, safety, and ease of use.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Swift allows developers to build high-performance applications with modern features and a clean syntax.</p>
+    <p class="modal-paragraph">Swift is a programming language developed by Apple for iOS and macOS development. It is known for its speed, safety, and ease of use.</p>
+    <p class="modal-paragraph">Swift allows developers to build high-performance applications with modern features and a clean syntax.</p>
     
     <img class="responsive-image" src="assets/images/swift.jpg" alt="Swift image">
-    <br>
+    
      <a href="https://developer.apple.com/swift/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   typescript: `
     <h2 id="modal-heading">TypeScript</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">TypeScript is a superset of JavaScript that adds static typing to the language. It helps developers catch errors early and improve code quality by providing type-checking and advanced features.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">TypeScript is compiled to JavaScript and is compatible with existing JavaScript code and libraries.</p>
+    <p class="modal-paragraph">TypeScript is a superset of JavaScript that adds static typing to the language. It helps developers catch errors early and improve code quality by providing type-checking and advanced features.</p>
+    <p class="modal-paragraph">TypeScript is compiled to JavaScript and is compatible with existing JavaScript code and libraries.</p>
     
     <img class="responsive-image" src="assets/images/typescript.jpg" alt="TypeScript image">
-   <br>
+   
      <a href="https://www.typescripttutorial.net/typescript-tutorial/what-is-typescript/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
 
   `,
   kotlin: `
     <h2 id="modal-heading">Kotlin</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Kotlin is a statically-typed programming language developed by JetBrains. It is used for Android development and is fully interoperable with Java.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Kotlin offers modern features, concise syntax, and improved safety compared to Java.</p>
+    <p class="modal-paragraph">Kotlin is a statically-typed programming language developed by JetBrains. It is used for Android development and is fully interoperable with Java.</p>
+    <p class="modal-paragraph">Kotlin offers modern features, concise syntax, and improved safety compared to Java.</p>
     
    
      <a href="https://www.techtarget.com/whatis/definition/Kotlin" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
@@ -981,110 +981,110 @@ const descriptions = {  codeSmell: `
   bash: `
     <h2 id="modal-heading">Bash</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Bash is a Unix shell and command language used for writing shell scripts. It allows users to automate tasks, manage files, and interact with the operating system through commands.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Bash scripts are commonly used for system administration and software deployment tasks.</p>
+    <p class="modal-paragraph">Bash is a Unix shell and command language used for writing shell scripts. It allows users to automate tasks, manage files, and interact with the operating system through commands.</p>
+    <p class="modal-paragraph">Bash scripts are commonly used for system administration and software deployment tasks.</p>
     
     <a href="https://opensource.com/resources/what-bash" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   rubyOnRails: `
     <h2 id="modal-heading">Ruby on Rails</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Ruby on Rails is a web application framework written in Ruby. It follows the Model-View-Controller (MVC) architecture and emphasizes convention over configuration.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Rails helps developers build robust and scalable web applications quickly by providing built-in tools and best practices.</p>
+    <p class="modal-paragraph">Ruby on Rails is a web application framework written in Ruby. It follows the Model-View-Controller (MVC) architecture and emphasizes convention over configuration.</p>
+    <p class="modal-paragraph">Rails helps developers build robust and scalable web applications quickly by providing built-in tools and best practices.</p>
     
     <img class="responsive-image" src="assets/images/rubyOnRails.jpg" alt="Ruby on Rails image">
-     <br>
+     
      <a href="https://www.codecademy.com/resources/blog/what-is-ruby-on-rails/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   angular: `
     <h2 id="modal-heading">Angular</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Angular is a TypeScript-based open-source web application framework developed by Google. It provides a comprehensive solution for building dynamic and responsive web applications.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Angular includes features such as data binding, dependency injection, and modular development to streamline the development process.</p>
+    <p class="modal-paragraph">Angular is a TypeScript-based open-source web application framework developed by Google. It provides a comprehensive solution for building dynamic and responsive web applications.</p>
+    <p class="modal-paragraph">Angular includes features such as data binding, dependency injection, and modular development to streamline the development process.</p>
     
     <img class="responsive-image" src="https://www.aalpha.net/wp-content/uploads/2019/07/angularjs-development-india.jpg" alt="Angular image">
-     <br>
+     
      <a href="https://v17.angular.io/guide/what-is-angular" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   vueJS: `
     <h2 id="modal-heading">VueJS</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">VueJS is a progressive JavaScript framework used for building user interfaces. It is designed to be incrementally adoptable and can be integrated into existing projects.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">VueJS provides reactive data binding and component-based architecture, making it easy to build interactive and maintainable web applications.</p>
+    <p class="modal-paragraph">VueJS is a progressive JavaScript framework used for building user interfaces. It is designed to be incrementally adoptable and can be integrated into existing projects.</p>
+    <p class="modal-paragraph">VueJS provides reactive data binding and component-based architecture, making it easy to build interactive and maintainable web applications.</p>
     
     <img class="responsive-image" src="https://v1.vuejs.org/images/mvvm.png" alt="VueJS image">
-     <br>
+     
      <a href="https://v1.vuejs.org/guide/overview.html" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   flutter: `
     <h2 id="modal-heading">Flutter</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Flutter is an open-source UI toolkit developed by Google for building natively compiled applications for mobile, web, and desktop from a single codebase.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Flutter uses the Dart programming language and provides a rich set of pre-designed widgets and tools for creating beautiful and responsive user interfaces.</p>
+    <p class="modal-paragraph">Flutter is an open-source UI toolkit developed by Google for building natively compiled applications for mobile, web, and desktop from a single codebase.</p>
+    <p class="modal-paragraph">Flutter uses the Dart programming language and provides a rich set of pre-designed widgets and tools for creating beautiful and responsive user interfaces.</p>
     
     <img class="responsive-image" src="assets/images/flutter.jpg" alt="Flutter image">
-     <br>
+     
      <a href="https://techvify-software.com/wp-content/uploads/2023/07/how-flutter-works.jpg" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   swiftUI: `
     <h2 id="modal-heading">SwiftUI</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">SwiftUI is a framework by Apple for building user interfaces across all Apple platforms using a declarative Swift syntax. It simplifies the process of creating complex UI elements and animations.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">SwiftUI integrates seamlessly with existing Swift code and provides a live preview of UI changes, enhancing the development workflow.</p>
+    <p class="modal-paragraph">SwiftUI is a framework by Apple for building user interfaces across all Apple platforms using a declarative Swift syntax. It simplifies the process of creating complex UI elements and animations.</p>
+    <p class="modal-paragraph">SwiftUI integrates seamlessly with existing Swift code and provides a live preview of UI changes, enhancing the development workflow.</p>
     
      <a href="https://www.adjust.com/blog/get-started-with-swiftui/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   algorithm: `
     <h2 id="modal-heading">Algorithm</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">An algorithm is a step-by-step procedure or formula for solving a problem. It is a fundamental concept in computer science and programming used to perform tasks, calculations, and data processing.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Algorithms are the basis of programming and are used to design and optimize code for various applications.</p>
+    <p class="modal-paragraph">An algorithm is a step-by-step procedure or formula for solving a problem. It is a fundamental concept in computer science and programming used to perform tasks, calculations, and data processing.</p>
+    <p class="modal-paragraph">Algorithms are the basis of programming and are used to design and optimize code for various applications.</p>
     
     <img class="responsive-image" src="https://cdn.ttgtmedia.com/rms/onlineimages/types_of_algorithms-f_mobile.png" alt="Algorithm image">
-     <br>
+     
      <a href="https://www.geeksforgeeks.org/introduction-to-algorithms/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   dataStructure: `
     <h2 id="modal-heading">Data Structure</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">A data structure is a way of organizing and storing data so that it can be accessed and modified efficiently. Common data structures include arrays, linked lists, stacks, queues, and trees.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Choosing the right data structure is crucial for optimizing performance and managing data effectively in software applications.</p>
+    <p class="modal-paragraph">A data structure is a way of organizing and storing data so that it can be accessed and modified efficiently. Common data structures include arrays, linked lists, stacks, queues, and trees.</p>
+    <p class="modal-paragraph">Choosing the right data structure is crucial for optimizing performance and managing data effectively in software applications.</p>
     
     <img class="responsive-image" src="https://media.geeksforgeeks.org/wp-content/uploads/20220520182504/ClassificationofDataStructure-660x347.jpg" alt="Data Structure image">
-     <br>
+     
      <a href="https://www.w3schools.com/dsa/dsa_intro.php" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   bigO: `
     <h2 id="modal-heading">Big O Notation</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Big O notation is used to describe the performance or complexity of an algorithm in terms of time and space. It provides an upper bound on the growth rate of an algorithm's running time or space usage.</p>
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">In simple words, Big O Notation helps us understand how the time to find something changes as the number of items increases. The lower the Big O value, the more efficient the process!</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Big O notation also helps in <strong> analyzing and comparing the efficiency </strong> of different algorithms.</p>
+    <p class="modal-paragraph">Big O notation is used to describe the performance or complexity of an algorithm in terms of time and space. It provides an upper bound on the growth rate of an algorithm's running time or space usage.</p>
+    <p class="modal-paragraph">In simple words, Big O Notation helps us understand how the time to find something changes as the number of items increases. The lower the Big O value, the more efficient the process!</p>
+    <p class="modal-paragraph">Big O notation also helps in <strong> analyzing and comparing the efficiency </strong> of different algorithms.</p>
     
      <a href="https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   recursionDepth: `
     <h2 id="modal-heading">Recursion Depth</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Recursion depth refers to the number of times a recursive function calls itself before reaching the base case. It is important to manage recursion depth to avoid stack overflow errors and ensure efficient execution.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Understanding recursion depth helps in designing algorithms that use recursion effectively and safely.</p>
+    <p class="modal-paragraph">Recursion depth refers to the number of times a recursive function calls itself before reaching the base case. It is important to manage recursion depth to avoid stack overflow errors and ensure efficient execution.</p>
+    <p class="modal-paragraph">Understanding recursion depth helps in designing algorithms that use recursion effectively and safely.</p>
     
   `,
   debugging: `
     <h2 id="modal-heading">Debugging</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Debugging is the process of identifying and fixing errors or bugs in software code. It involves testing, analyzing, and modifying code to ensure that it functions correctly.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Effective debugging is crucial for improving software quality and performance.</p>
+    <p class="modal-paragraph">Debugging is the process of identifying and fixing errors or bugs in software code. It involves testing, analyzing, and modifying code to ensure that it functions correctly.</p>
+    <p class="modal-paragraph">Effective debugging is crucial for improving software quality and performance.</p>
     
     <img class="responsive-image" src="https://www.edureka.co/blog/wp-content/uploads/2019/08/debuuging-steps-528x294.png" alt="Debugging image">
-     <br>
+     
      <a href="https://www.ibm.com/topics/debugging" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   testing: `
     <h2 id="modal-heading">Testing</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Testing is the process of evaluating software to ensure it behaves as expected. It involves executing code with various inputs to verify correctness, performance, and reliability.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Testing can be performed manually or through automated test scripts and is essential for delivering high-quality software.</p>
+    <p class="modal-paragraph">Testing is the process of evaluating software to ensure it behaves as expected. It involves executing code with various inputs to verify correctness, performance, and reliability.</p>
+    <p class="modal-paragraph">Testing can be performed manually or through automated test scripts and is essential for delivering high-quality software.</p>
     
 
      <a href="https://www.ibm.com/topics/software-testing" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
@@ -1092,48 +1092,48 @@ const descriptions = {  codeSmell: `
   unitTest: `
     <h2 id="modal-heading">Unit Test</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">A unit test is a type of testing that focuses on verifying individual components or functions of a software application. It ensures that each unit of code performs as intended.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Unit tests are typically automated and help identify bugs early in the development process.</p>
+    <p class="modal-paragraph">A unit test is a type of testing that focuses on verifying individual components or functions of a software application. It ensures that each unit of code performs as intended.</p>
+    <p class="modal-paragraph">Unit tests are typically automated and help identify bugs early in the development process.</p>
     
     <img class="responsive-image" src="https://codenboxautomationlab.com/wp-content/uploads/2022/06/unit-testing-life-cycle-pic.png" alt="Unit Test image">
-     <br>
+     
      <a href="https://aws.amazon.com/what-is/unit-testing/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   integrationTest: `
     <h2 id="modal-heading">Integration Test</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Integration testing focuses on verifying the interactions between different components or systems to ensure they work together as expected.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Integration tests help ensure that different parts of a software application integrate smoothly and function correctly as a whole.</p>
+    <p class="modal-paragraph">Integration testing focuses on verifying the interactions between different components or systems to ensure they work together as expected.</p>
+    <p class="modal-paragraph">Integration tests help ensure that different parts of a software application integrate smoothly and function correctly as a whole.</p>
     
     <img class="responsive-image" src="https://www.simform.com/wp-content/uploads/2022/01/Integration-testing-types.png" alt="Integration Test image">
-     <br>
+     
      <a href="https://katalon.com/resources-center/blog/integration-testing" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   endToEndTest: `
     <h2 id="modal-heading">End-to-End Test</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">End-to-end testing evaluates the entire software application from start to finish to ensure that it works as intended in a real-world scenario.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It verifies that all components of the application interact correctly and that the system as a whole meets the desired requirements.</p>
+    <p class="modal-paragraph">End-to-end testing evaluates the entire software application from start to finish to ensure that it works as intended in a real-world scenario.</p>
+    <p class="modal-paragraph">It verifies that all components of the application interact correctly and that the system as a whole meets the desired requirements.</p>
     
     <img class="responsive-image" src="https://cdn.prod.website-files.com/610bb663a35dd3364ddbf08c/62b594796e28e910d6624e03_end-to-end-testing-metrics.png" alt="End-to-End Test image">
-     <br>
+     
      <a href="https://smartbear.com/learn/automated-testing/what-is-end-to-end-testing/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   performanceTest: `
     <h2 id="modal-heading">Performance Test</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Performance testing evaluates how well a software application performs under various conditions, including load, stress, and scalability.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It helps identify bottlenecks and ensure that the application meets performance criteria and handles user demands effectively.</p>
+    <p class="modal-paragraph">Performance testing evaluates how well a software application performs under various conditions, including load, stress, and scalability.</p>
+    <p class="modal-paragraph">It helps identify bottlenecks and ensure that the application meets performance criteria and handles user demands effectively.</p>
     
     <img class="responsive-image" src="https://www.a1qa.com/wp-content/uploads/2019/06/performance-testing.jpg" alt="Performance Test image">
-     <br>
+     
      <a href="https://en.wikipedia.org/wiki/Software_performance_testing" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   loadTest: `
     <h2 id="modal-heading">Load Test</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Load testing is a type of performance testing that evaluates how a software application handles a specific volume of users or transactions.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It helps determine if the application can handle expected load conditions without degrading performance.</p>
+    <p class="modal-paragraph">Load testing is a type of performance testing that evaluates how a software application handles a specific volume of users or transactions.</p>
+    <p class="modal-paragraph">It helps determine if the application can handle expected load conditions without degrading performance.</p>
     
    
      <a href="https://en.wikipedia.org/wiki/Software_load_testing#:~:text=Load%20testing%20generally%20refers%20to,model%2C%20such%20as%20web%20servers." id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
@@ -1141,8 +1141,8 @@ const descriptions = {  codeSmell: `
   stressTest: `
     <h2 id="modal-heading">Stress Test</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Stress testing assesses how a software application performs under extreme conditions, such as a sudden spike in user activity or data volume.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It helps identify the application's breaking point and ensure it can recover gracefully from high-stress situations.</p>
+    <p class="modal-paragraph">Stress testing assesses how a software application performs under extreme conditions, such as a sudden spike in user activity or data volume.</p>
+    <p class="modal-paragraph">It helps identify the application's breaking point and ensure it can recover gracefully from high-stress situations.</p>
     
    
      <a href="https://www.geeksforgeeks.org/stress-testing-software-testing/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
@@ -1150,8 +1150,8 @@ const descriptions = {  codeSmell: `
   securityTest: `
     <h2 id="modal-heading">Security Test</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Security testing identifies vulnerabilities and weaknesses in a software application to ensure it is protected against potential threats and attacks.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It involves checking for issues such as unauthorized access, data breaches, and compliance with security standards.</p>
+    <p class="modal-paragraph">Security testing identifies vulnerabilities and weaknesses in a software application to ensure it is protected against potential threats and attacks.</p>
+    <p class="modal-paragraph">It involves checking for issues such as unauthorized access, data breaches, and compliance with security standards.</p>
     
 
      <a href="https://www.hackerone.com/knowledge-center/what-security-testing" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
@@ -1159,8 +1159,8 @@ const descriptions = {  codeSmell: `
   usabilityTest: `
     <h2 id="modal-heading">Usability Test</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Usability testing evaluates how easy and intuitive a software application is for users. It focuses on user experience, including ease of navigation, accessibility, and overall satisfaction.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Usability tests help ensure that the application is user-friendly and meets the needs of its target audience.</p>
+    <p class="modal-paragraph">Usability testing evaluates how easy and intuitive a software application is for users. It focuses on user experience, including ease of navigation, accessibility, and overall satisfaction.</p>
+    <p class="modal-paragraph">Usability tests help ensure that the application is user-friendly and meets the needs of its target audience.</p>
     
   
      <a href="https://www.geeksforgeeks.org/usability-testing/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
@@ -1278,49 +1278,49 @@ const descriptions = {  codeSmell: `
   testDrivenDevelopment: `
     <h2 id="modal-heading">Test-Driven Development</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Test-Driven Development (TDD) is a software development approach where tests are written before the actual code. It involves creating tests to define desired functionality and then writing code to pass those tests.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">TDD helps ensure code quality and functionality by promoting continuous testing and iterative development.</p>
+    <p class="modal-paragraph">Test-Driven Development (TDD) is a software development approach where tests are written before the actual code. It involves creating tests to define desired functionality and then writing code to pass those tests.</p>
+    <p class="modal-paragraph">TDD helps ensure code quality and functionality by promoting continuous testing and iterative development.</p>
     
      <a href="https://testdriven.io/test-driven-development/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   continuousIntegration: `
     <h2 id="modal-heading">Continuous Integration</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Continuous Integration (CI) is a practice where code changes are automatically tested and integrated into a shared repository multiple times a day. It aims to detect and fix errors early in the development process.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">CI helps improve software quality and reduce integration issues by ensuring that code changes are tested and validated frequently.</p>
+    <p class="modal-paragraph">Continuous Integration (CI) is a practice where code changes are automatically tested and integrated into a shared repository multiple times a day. It aims to detect and fix errors early in the development process.</p>
+    <p class="modal-paragraph">CI helps improve software quality and reduce integration issues by ensuring that code changes are tested and validated frequently.</p>
     
     <img class="responsive-image" src="https://www.pagerduty.com/wp-content/uploads/2020/01/continuous-integration-2.png" alt="Continuous Integration image">
-     <br>
+     
      <a href="https://aws.amazon.com/devops/continuous-integration/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   continuousDelivery: `
     <h2 id="modal-heading">Continuous Delivery</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Continuous Delivery (CD) is a practice where code changes are automatically built, tested, and prepared for release to production. It ensures that software can be deployed at any time with minimal manual intervention.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">CD promotes faster delivery of new features and bug fixes by streamlining the release process and ensuring that software is always in a deployable state.</p>
+    <p class="modal-paragraph">Continuous Delivery (CD) is a practice where code changes are automatically built, tested, and prepared for release to production. It ensures that software can be deployed at any time with minimal manual intervention.</p>
+    <p class="modal-paragraph">CD promotes faster delivery of new features and bug fixes by streamlining the release process and ensuring that software is always in a deployable state.</p>
     
     <img class="responsive-image" src="https://infraascode.com.br/images/ci_cd-CD.png" alt="Continuous Delivery image">
-     <br>
+     
      <a href="https://aws.amazon.com/devops/continuous-delivery/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   devOps: `
     <h2 id="modal-heading">DevOps</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to improve collaboration, automation, and efficiency throughout the software development lifecycle.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">DevOps aims to enhance the speed, quality, and reliability of software delivery by fostering a culture of continuous improvement and shared responsibility.</p>
+    <p class="modal-paragraph">DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to improve collaboration, automation, and efficiency throughout the software development lifecycle.</p>
+    <p class="modal-paragraph">DevOps aims to enhance the speed, quality, and reliability of software delivery by fostering a culture of continuous improvement and shared responsibility.</p>
     
     <img class="responsive-image" src="https://d1.awsstatic.com/product-marketing/DevOps/DevOps_feedback-diagram.ff668bfc299abada00b2dcbdc9ce2389bd3dce3f.png" alt="DevOps image">
-     <br>
+     
      <a href="https://aws.amazon.com/devops/what-is-devops/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
   logisticRegression: `
     <h2 id="modal-heading">Logistic Regression</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Logistic regression is a statistical method used for binary classification. It helps predict the probability of an outcome that can be one of two possible categories. For example, it might predict whether an email is spam or not spam based on its content.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It works by fitting a logistic curve to the data and using this curve to make predictions.</p>
+    <p class="modal-paragraph">Logistic regression is a statistical method used for binary classification. It helps predict the probability of an outcome that can be one of two possible categories. For example, it might predict whether an email is spam or not spam based on its content.</p>
+    <p class="modal-paragraph">It works by fitting a logistic curve to the data and using this curve to make predictions.</p>
     
-    <br>
+    
     <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1400/1*dm6ZaX5fuSmuVvM4Ds-vcg.jpeg" alt="Logistic Regression image">
     <a href="https://towardsdatascience.com/introduction-to-logistic-regression-66248243c148" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1328,10 +1328,10 @@ const descriptions = {  codeSmell: `
   kMeansClustering: `
     <h2 id="modal-heading">K-Means Clustering</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">K-Means Clustering is an unsupervised learning algorithm used to divide data into groups (clusters) where each data point belongs to the cluster with the nearest mean. It's useful for discovering patterns in data.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">For example, it can group customers into segments based on their purchasing behavior.</p>
+    <p class="modal-paragraph">K-Means Clustering is an unsupervised learning algorithm used to divide data into groups (clusters) where each data point belongs to the cluster with the nearest mean. It's useful for discovering patterns in data.</p>
+    <p class="modal-paragraph">For example, it can group customers into segments based on their purchasing behavior.</p>
     
-    <br>
+    
     <img class="responsive-image" src="https://editor.analyticsvidhya.com/uploads/56854k%20means%20clustering.png" alt="K-Means Clustering image">
     <a href="https://www.analyticsvidhya.com/blog/2020/10/a-simple-explanation-of-k-means-clustering/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1339,10 +1339,10 @@ const descriptions = {  codeSmell: `
   decisionTrees: `
     <h2 id="modal-heading">Decision Trees</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Decision Trees are a type of algorithm used for classification and regression tasks. They split data into branches to make decisions based on various features, much like a flowchart.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">For instance, they can help determine whether a loan should be approved based on applicant details.</p>
+    <p class="modal-paragraph">Decision Trees are a type of algorithm used for classification and regression tasks. They split data into branches to make decisions based on various features, much like a flowchart.</p>
+    <p class="modal-paragraph">For instance, they can help determine whether a loan should be approved based on applicant details.</p>
     
-    <br>
+    
     <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:820/1*JAEY3KP7TU2Q6HN6LasMrw.png" alt="Decision Trees image">
     <a href="https://chirag-sehra.medium.com/decision-trees-explained-easily-28f23241248" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1350,10 +1350,10 @@ const descriptions = {  codeSmell: `
   randomForest: `
     <h2 id="modal-heading">Random Forest</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Random Forest is an ensemble learning technique that combines multiple decision trees to improve prediction accuracy. Each tree makes a decision, and the majority vote determines the final outcome.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's like having a group of experts where the decision is based on the consensus of all experts.</p>
+    <p class="modal-paragraph">Random Forest is an ensemble learning technique that combines multiple decision trees to improve prediction accuracy. Each tree makes a decision, and the majority vote determines the final outcome.</p>
+    <p class="modal-paragraph">It's like having a group of experts where the decision is based on the consensus of all experts.</p>
     
-    <br>
+    
     <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1010/1*R3oJiyaQwyLUyLZL-scDpw.png" alt="Random Forest image">
     <a href="https://medium.com/@denizgunay/random-forest-af5bde5d7e1e" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1361,10 +1361,10 @@ const descriptions = {  codeSmell: `
   supportVectorMachines: `
     <h2 id="modal-heading">Support Vector Machines</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Support Vector Machines (SVM) are a type of supervised learning algorithm used for classification and regression. They work by finding the best boundary that separates different classes of data points.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Imagine drawing a line that best divides two groups of points on a graph. SVM finds this optimal line.</p>
+    <p class="modal-paragraph">Support Vector Machines (SVM) are a type of supervised learning algorithm used for classification and regression. They work by finding the best boundary that separates different classes of data points.</p>
+    <p class="modal-paragraph">Imagine drawing a line that best divides two groups of points on a graph. SVM finds this optimal line.</p>
     
-    <br>
+    
     <img class="responsive-image" src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/l4xu4d635cva6izqylzl.png" alt="Support Vector Machines image">
     <a href="https://www.kdnuggets.com/2016/07/support-vector-machines-simple-explanation.html" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1372,19 +1372,19 @@ const descriptions = {  codeSmell: `
   gradientDescent: `
     <h2 id="modal-heading">Gradient Descent</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Gradient Descent is an optimization algorithm used to minimize the error of a model. It works by iteratively adjusting the model's parameters to find the lowest error value.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Think of it as climbing down a hill to reach the lowest point, which represents the smallest error.</p>  
-    <br>
+    <p class="modal-paragraph">Gradient Descent is an optimization algorithm used to minimize the error of a model. It works by iteratively adjusting the model's parameters to find the lowest error value.</p>
+    <p class="modal-paragraph">Think of it as climbing down a hill to reach the lowest point, which represents the smallest error.</p>  
+    
     <a href="https://towardsdatascience.com/gradient-descent-explained-9b953fc0d2c" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
   neuralNetworks: `
     <h2 id="modal-heading">Neural Networks</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Neural Networks are a set of algorithms modeled after the human brain. They consist of interconnected nodes (neurons) that work together to solve complex problems, like image recognition.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">They can learn from data and make predictions, just like how our brains learn from experience.</p>
+    <p class="modal-paragraph">Neural Networks are a set of algorithms modeled after the human brain. They consist of interconnected nodes (neurons) that work together to solve complex problems, like image recognition.</p>
+    <p class="modal-paragraph">They can learn from data and make predictions, just like how our brains learn from experience.</p>
     
-    <br>
+    
     <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:667/1*SqsP6IcQoCLy9eMU8te3Vw.png" alt="Neural Networks image">
     <a href="https://www.freecodecamp.org/news/deep-learning-neural-networks-explained-in-plain-english/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1392,10 +1392,10 @@ const descriptions = {  codeSmell: `
   naturalLanguageProcessing: `
     <h2 id="modal-heading">Natural Language Processing</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Natural Language Processing (NLP) is a field of artificial intelligence that helps computers understand and interact with human language. It's used in applications like chatbots and translation services.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">NLP enables computers to understand, interpret, and generate human language.</p>
+    <p class="modal-paragraph">Natural Language Processing (NLP) is a field of artificial intelligence that helps computers understand and interact with human language. It's used in applications like chatbots and translation services.</p>
+    <p class="modal-paragraph">NLP enables computers to understand, interpret, and generate human language.</p>
     
-    <br>
+    
     <img class="responsive-image" src="https://media.geeksforgeeks.org/wp-content/uploads/20240524132821/nlp-working.webp" alt="Natural Language Processing image">
     <a href="https://www.freecodecamp.org/news/deep-learning-neural-networks-explained-in-plain-english/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1403,10 +1403,10 @@ const descriptions = {  codeSmell: `
   recurrentNeuralNetworks: `
     <h2 id="modal-heading">Recurrent Neural Networks</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Recurrent Neural Networks (RNNs) are a type of neural network designed for processing sequences of data, like time series or sentences. They have loops that allow information to persist across time steps.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">RNNs are great for tasks where context from previous inputs is important.</p>
+    <p class="modal-paragraph">Recurrent Neural Networks (RNNs) are a type of neural network designed for processing sequences of data, like time series or sentences. They have loops that allow information to persist across time steps.</p>
+    <p class="modal-paragraph">RNNs are great for tasks where context from previous inputs is important.</p>
     
-    <br>
+    
     <img class="responsive-image" src="https://media.geeksforgeeks.org/wp-content/uploads/20231204125839/What-is-Recurrent-Neural-Network-660.webp" alt="Recurrent Neural Networks image">
     <a href="https://media.geeksforgeeks.org/wp-content/uploads/20240524132821/nlp-working.webp" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1414,10 +1414,10 @@ const descriptions = {  codeSmell: `
   convolutionalNeuralNetworks: `
     <h2 id="modal-heading">Convolutional Neural Networks</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Convolutional Neural Networks (CNNs) are designed to process grid-like data, such as images. They use filters to detect patterns in different parts of an image, which helps in tasks like image classification.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">CNNs are used for recognizing objects in photos or videos.</p>
+    <p class="modal-paragraph">Convolutional Neural Networks (CNNs) are designed to process grid-like data, such as images. They use filters to detect patterns in different parts of an image, which helps in tasks like image classification.</p>
+    <p class="modal-paragraph">CNNs are used for recognizing objects in photos or videos.</p>
     
-    <br>
+    
     <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:1400/1*7_BCJFzekmPXmJQVRdDgwg.png" alt="Convolutional Neural Networks image">
     <a href="https://nafizshahriar.medium.com/what-is-convolutional-neural-network-cnn-deep-learning-b3921bdd82d5" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1425,10 +1425,10 @@ const descriptions = {  codeSmell: `
   autoencoders: `
     <h2 id="modal-heading">Autoencoders</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Autoencoders are a type of neural network used for learning efficient representations of data. They work by compressing the input into a smaller representation and then reconstructing it to match the original input.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">They are useful for tasks like noise reduction and dimensionality reduction.</p>
+    <p class="modal-paragraph">Autoencoders are a type of neural network used for learning efficient representations of data. They work by compressing the input into a smaller representation and then reconstructing it to match the original input.</p>
+    <p class="modal-paragraph">They are useful for tasks like noise reduction and dimensionality reduction.</p>
     
-    <br>
+    
     <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:600/1*nqzWupxC60iAH2dYrFT78Q.png" alt="Autoencoders image">
     <a href="https://medium.com/@birla.deepak26/autoencoders-76bb49ae6a8f" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1436,10 +1436,10 @@ const descriptions = {  codeSmell: `
   reinforcementLearning: `
     <h2 id="modal-heading">Reinforcement Learning</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Reinforcement Learning is a type of machine learning where an agent learns to make decisions by receiving rewards or penalties. The goal is to maximize the total reward over time.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's like training a robot to play a game by giving it points for making good moves and penalties for bad moves.</p>
+    <p class="modal-paragraph">Reinforcement Learning is a type of machine learning where an agent learns to make decisions by receiving rewards or penalties. The goal is to maximize the total reward over time.</p>
+    <p class="modal-paragraph">It's like training a robot to play a game by giving it points for making good moves and penalties for bad moves.</p>
     
-    <br>
+    
     <img class="responsive-image" src="https://images.spiceworks.com/wp-content/uploads/2022/09/29100907/Reinforcement-Learning-Model.png" alt="Reinforcement Learning image">
     <a href="https://www.spiceworks.com/tech/artificial-intelligence/articles/what-is-reinforcement-learning/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1447,18 +1447,18 @@ const descriptions = {  codeSmell: `
   transferLearning: `
     <h2 id="modal-heading">Transfer Learning</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Transfer Learning is a technique where a pre-trained model is adapted to perform a different but related task. This approach helps save time and computational resources.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">For example, a model trained to recognize cats and dogs can be adapted to identify different breeds of dogs.</p>
+    <p class="modal-paragraph">Transfer Learning is a technique where a pre-trained model is adapted to perform a different but related task. This approach helps save time and computational resources.</p>
+    <p class="modal-paragraph">For example, a model trained to recognize cats and dogs can be adapted to identify different breeds of dogs.</p>
     
-    <br>
+    
     <img class="responsive-image" src="https://cdn.prod.website-files.com/5d7b77b063a9066d83e1209c/627d125248f5fa07e1faf0c6_61f54fb4bbd0e14dfe068c8f_transfer-learned-knowledge.png" alt="Transfer Learning image">
     <a href="https://www.v7labs.com/blog/transfer-learning-guide" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   hyperparameterTuning: `
     <h2 id="modal-heading">Hyperparameter Tuning</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Hyperparameter Tuning is the process of optimizing the settings of a machine learning model to improve its performance. These settings, called hyperparameters, control the learning process and the structure of the model.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's like adjusting the knobs on a radio to get the best sound quality.</p>
+    <p class="modal-paragraph">Hyperparameter Tuning is the process of optimizing the settings of a machine learning model to improve its performance. These settings, called hyperparameters, control the learning process and the structure of the model.</p>
+    <p class="modal-paragraph">It's like adjusting the knobs on a radio to get the best sound quality.</p>
     
     
     <a href="https://www.analyticsvidhya.com/blog/2022/02/a-comprehensive-guide-on-hyperparameter-tuning-and-its-techniques/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
@@ -1467,10 +1467,10 @@ const descriptions = {  codeSmell: `
   crossValidation: `
     <h2 id="modal-heading">Cross-Validation</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Cross-Validation is a technique used to assess how well a machine learning model performs on unseen data. It involves splitting the data into multiple subsets, training the model on some subsets, and testing it on the remaining ones.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's like taking a practice test to see how well you'll do on the real exam.</p>
+    <p class="modal-paragraph">Cross-Validation is a technique used to assess how well a machine learning model performs on unseen data. It involves splitting the data into multiple subsets, training the model on some subsets, and testing it on the remaining ones.</p>
+    <p class="modal-paragraph">It's like taking a practice test to see how well you'll do on the real exam.</p>
     
-    <br>
+    
     <img class="responsive-image" src="https://www.sharpsightlabs.com/wp-content/uploads/2024/02/cross-validation-explained_FEATURED-IMAGE.png" alt="Cross-Validation image">
     <a href="https://www.geeksforgeeks.org/cross-validation-machine-learning/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1478,10 +1478,10 @@ const descriptions = {  codeSmell: `
   featureEngineering: `
     <h2 id="modal-heading">Feature Engineering</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Feature Engineering involves creating new features or modifying existing ones to improve the performance of a machine learning model. It's like adding more details to a drawing to make it clearer.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Effective feature engineering can make a significant difference in how well a model performs.</p>
+    <p class="modal-paragraph">Feature Engineering involves creating new features or modifying existing ones to improve the performance of a machine learning model. It's like adding more details to a drawing to make it clearer.</p>
+    <p class="modal-paragraph">Effective feature engineering can make a significant difference in how well a model performs.</p>
     
-    <br>
+    
     <img class="responsive-image" src="https://blog.minitab.com/hubfs/FeatureEngineering-blog-img1-hubspot.jpg" alt="Feature Engineering image">
     <a href="https://builtin.com/articles/feature-engineering" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1489,8 +1489,8 @@ const descriptions = {  codeSmell: `
   featureScaling: `
     <h2 id="modal-heading">Feature Scaling</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Feature Scaling is the process of normalizing the range of features in your data. This helps improve the performance and convergence speed of machine learning algorithms.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's like making sure all the pieces of a puzzle fit together properly.</p>
+    <p class="modal-paragraph">Feature Scaling is the process of normalizing the range of features in your data. This helps improve the performance and convergence speed of machine learning algorithms.</p>
+    <p class="modal-paragraph">It's like making sure all the pieces of a puzzle fit together properly.</p>
     
   
   `,
@@ -1498,10 +1498,10 @@ const descriptions = {  codeSmell: `
   overfitting: `
     <h2 id="modal-heading">Overfitting</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Overfitting occurs when a machine learning model learns the details and noise in the training data to the extent that it negatively impacts its performance on new data.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's like memorizing answers to a practice test without understanding the material, leading to poor performance on the actual exam.</p>
+    <p class="modal-paragraph">Overfitting occurs when a machine learning model learns the details and noise in the training data to the extent that it negatively impacts its performance on new data.</p>
+    <p class="modal-paragraph">It's like memorizing answers to a practice test without understanding the material, leading to poor performance on the actual exam.</p>
     
-    <br>
+    
     <img class="responsive-image" src="https://www.mathworks.com/discovery/overfitting/_jcr_content/mainParsys/image.adapt.full.medium.svg/1718273106637.svg" alt="Overfitting image">
     <a href="https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1509,10 +1509,10 @@ const descriptions = {  codeSmell: `
   underfitting: `
     <h2 id="modal-heading">Underfitting</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Underfitting happens when a machine learning model is too simple to capture the underlying pattern in the data. It performs poorly on both training and new data.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's like using a very basic formula to solve a complex problem, resulting in inaccurate answers.</p>
+    <p class="modal-paragraph">Underfitting happens when a machine learning model is too simple to capture the underlying pattern in the data. It performs poorly on both training and new data.</p>
+    <p class="modal-paragraph">It's like using a very basic formula to solve a complex problem, resulting in inaccurate answers.</p>
     
-    <br>
+    
     <img class="responsive-image" src="https://www.mathworks.com/discovery/overfitting/_jcr_content/mainParsys/image.adapt.full.medium.svg/1718273106637.svg" alt="Underfitting image">
     <a href="https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1520,10 +1520,10 @@ const descriptions = {  codeSmell: `
   regularization: `
     <h2 id="modal-heading">Regularization</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Regularization is a technique used to prevent overfitting by adding a penalty to the complexity of the model. It helps in keeping the model simpler and more generalizable.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's like adding rules to limit how much a model can change to avoid fitting too closely to the training data.</p>
+    <p class="modal-paragraph">Regularization is a technique used to prevent overfitting by adding a penalty to the complexity of the model. It helps in keeping the model simpler and more generalizable.</p>
+    <p class="modal-paragraph">It's like adding rules to limit how much a model can change to avoid fitting too closely to the training data.</p>
     
-    <br>
+    
     <img class="responsive-image" src="https://editor.analyticsvidhya.com/uploads/71199regularization.jpg" alt="Regularization image">
     <a href="" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1531,8 +1531,8 @@ const descriptions = {  codeSmell: `
   bagging: `
     <h2 id="modal-heading">Bagging</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Bagging, or Bootstrap Aggregating, is an ensemble technique that improves model performance by training multiple models on different subsets of the data and combining their predictions.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's like asking several people for their opinions and then averaging them to make a decision.</p>
+    <p class="modal-paragraph">Bagging, or Bootstrap Aggregating, is an ensemble technique that improves model performance by training multiple models on different subsets of the data and combining their predictions.</p>
+    <p class="modal-paragraph">It's like asking several people for their opinions and then averaging them to make a decision.</p>
     
     <a href="https://www.ibm.com/topics/bagging" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1540,8 +1540,8 @@ const descriptions = {  codeSmell: `
   boosting: `
     <h2 id="modal-heading">Boosting</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Boosting is an ensemble technique that builds multiple models sequentially, where each model tries to correct the errors of the previous one. The final prediction is a weighted sum of the predictions from all models.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's like learning from mistakes and improving with each step.</p>
+    <p class="modal-paragraph">Boosting is an ensemble technique that builds multiple models sequentially, where each model tries to correct the errors of the previous one. The final prediction is a weighted sum of the predictions from all models.</p>
+    <p class="modal-paragraph">It's like learning from mistakes and improving with each step.</p>
  
     <a href="https://aws.amazon.com/what-is/boosting/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1549,10 +1549,10 @@ const descriptions = {  codeSmell: `
   ensembleMethods: `
     <h2 id="modal-heading">Ensemble Methods</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Ensemble Methods combine the predictions from multiple models to improve overall performance. Techniques like bagging, boosting, and stacking are common ensemble methods.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's like using the wisdom of a group to make a better decision.</p>
+    <p class="modal-paragraph">Ensemble Methods combine the predictions from multiple models to improve overall performance. Techniques like bagging, boosting, and stacking are common ensemble methods.</p>
+    <p class="modal-paragraph">It's like using the wisdom of a group to make a better decision.</p>
     
-    <br>
+    
     <img class="responsive-image" src="https://cdn.corporatefinanceinstitute.com/assets/ensemble-methods.png" alt="Ensemble Methods image">
     <a href="https://corporatefinanceinstitute.com/resources/data-science/ensemble-methods/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1560,20 +1560,20 @@ const descriptions = {  codeSmell: `
   rocCurve: `
     <h2 id="modal-heading">ROC Curve</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">The ROC Curve (Receiver Operating Characteristic Curve) is a graphical representation of a classifier's performance. It plots the true positive rate against the false positive rate at various thresholds.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It helps in assessing how well a model can distinguish between classes.</p>
+    <p class="modal-paragraph">The ROC Curve (Receiver Operating Characteristic Curve) is a graphical representation of a classifier's performance. It plots the true positive rate against the false positive rate at various thresholds.</p>
+    <p class="modal-paragraph">It helps in assessing how well a model can distinguish between classes.</p>
     
-    <br>
+    
     <img class="responsive-image" src="https://media.geeksforgeeks.org/wp-content/uploads/20230410164437/AUC-ROC-Curve.webp" alt="ROC Curve image">
     <a href="https://medium.com/@shaileydash/understanding-the-roc-and-auc-intuitively-31ca96445c02" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   aucCurve: `
     <h2 id="modal-heading">AUC Curve</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">AUC (Area Under the Curve) is a performance measurement for classification problems at various threshold settings. The AUC represents the degree or measure of separability. It tells how much the model is capable of distinguishing between classes.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's like checking how well a doctor can distinguish between patients with and without a disease based on a diagnostic test.</p>
+    <p class="modal-paragraph">AUC (Area Under the Curve) is a performance measurement for classification problems at various threshold settings. The AUC represents the degree or measure of separability. It tells how much the model is capable of distinguishing between classes.</p>
+    <p class="modal-paragraph">It's like checking how well a doctor can distinguish between patients with and without a disease based on a diagnostic test.</p>
     
-    <br>
+    
     <img class="responsive-image" src="https://media.geeksforgeeks.org/wp-content/uploads/20230410164437/AUC-ROC-Curve.webp" alt="AUC Curve image">
     <a href="https://medium.com/@shaileydash/understanding-the-roc-and-auc-intuitively-31ca96445c025" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1581,10 +1581,10 @@ const descriptions = {  codeSmell: `
   precisionRecall: `
     <h2 id="modal-heading">Precision and Recall</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Precision and Recall are metrics used to evaluate the performance of classification models. Precision measures the accuracy of positive predictions, while Recall measures how well the model identifies all positive instances.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">They are especially useful when dealing with imbalanced datasets.</p>
+    <p class="modal-paragraph">Precision and Recall are metrics used to evaluate the performance of classification models. Precision measures the accuracy of positive predictions, while Recall measures how well the model identifies all positive instances.</p>
+    <p class="modal-paragraph">They are especially useful when dealing with imbalanced datasets.</p>
     
-    <br>
+    
     <img src="https://miro.medium.com/v2/resize:fit:824/1*xMl_wkMt42Hy8i84zs2WGg.png" alt="Precision and Recall image">
     <a href="https://www.analyticsvidhya.com/blog/2020/09/precision-recall-machine-learning/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1592,10 +1592,10 @@ const descriptions = {  codeSmell: `
   f1Score: `
     <h2 id="modal-heading">F1 Score</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">The F1 Score is a metric that combines Precision and Recall into a single number. It is the harmonic mean of Precision and Recall, providing a balanced measure of a model's accuracy.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It's useful when you need a single metric to assess the performance of a model.</p>
+    <p class="modal-paragraph">The F1 Score is a metric that combines Precision and Recall into a single number. It is the harmonic mean of Precision and Recall, providing a balanced measure of a model's accuracy.</p>
+    <p class="modal-paragraph">It's useful when you need a single metric to assess the performance of a model.</p>
     
-    <br>
+    
     <img class="responsive-image" src="https://miro.medium.com/v2/resize:fit:898/1*7tC4-fUHtcffvXGcGTJJtg.png" alt="F1 Score image">
     <a href="https://www.v7labs.com/blog/f1-score-guide" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1603,10 +1603,10 @@ const descriptions = {  codeSmell: `
   confusionMatrix: `
     <h2 id="modal-heading">Confusion Matrix</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">A Confusion Matrix is a table used to evaluate the performance of a classification model. It shows the counts of true positive, false positive, true negative, and false negative predictions.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">It helps in understanding the types of errors a model makes.</p>
+    <p class="modal-paragraph">A Confusion Matrix is a table used to evaluate the performance of a classification model. It shows the counts of true positive, false positive, true negative, and false negative predictions.</p>
+    <p class="modal-paragraph">It helps in understanding the types of errors a model makes.</p>
     
-    <br>
+    
     <img class="responsive-image" src="https://cdn.prod.website-files.com/5d7b77b063a9066d83e1209c/63b413d2cdc133446aa23fc5_636b9182cfaef2115e028921_HERO_1_Confusion.png" alt="Confusion Matrix image">
     <a href="https://www.analyticsvidhya.com/blog/2020/04/confusion-matrix-machine-learning/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -1614,8 +1614,8 @@ const descriptions = {  codeSmell: `
   crossEntropy: `
     <h2 id="modal-heading">Cross-Entropy</h2>
     
-    <p style="text-align: left;margin-bottom:30px; padding-bottom:30px;line-height:1.5;">Cross-Entropy is a loss function used to measure the performance of a classification model. It quantifies the difference between the predicted probabilities and the actual class labels.</p>
-    <p style="text-align: left; line-height:1.8;margin:0px; padding:0px;">Lower cross-entropy indicates better model performance.</p>
+    <p class="modal-paragraph">Cross-Entropy is a loss function used to measure the performance of a classification model. It quantifies the difference between the predicted probabilities and the actual class labels.</p>
+    <p class="modal-paragraph">Lower cross-entropy indicates better model performance.</p>
     
     <a href="https://towardsdatascience.com/what-is-cross-entropy-3bdb04c13616" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
@@ -2811,7 +2811,7 @@ const descriptions = {  codeSmell: `
     function showAbout() {
       const modal = document.getElementById('modal');
       const modalBody = document.getElementById('modal-body');
-      modalBody.innerHTML = '<h2>About</h2><strong>IMPORTANT: Bookmarking or Pinning this webpage would help you get a quick overview of anything related to tech in seconds! </strong></p><p>This "Dev Encyclopedia" is a simple project that simplifies things.<p>This website has almost all the commonly used technical terms, concepts and even programming-language specific jargons explained and links provided for furthur reading.</p><br><p>Most importantly, it is ad-free, so basically, the best encyclopedia everr! *excited. too much.*</p><p>Builit with love, by Chenuli J.</p><img src="image/Chenuli Signature.png"></img>';
+      modalBody.innerHTML = '<h2>About</h2><strong>IMPORTANT: Bookmarking or Pinning this webpage would help you get a quick overview of anything related to tech in seconds! </strong></p><p>This "Dev Encyclopedia" is a simple project that simplifies things.<p>This website has almost all the commonly used technical terms, concepts and even programming-language specific jargons explained and links provided for furthur reading.</p><p>Most importantly, it is ad-free, so basically, the best encyclopedia everr! *excited. too much.*</p><p>Builit with love, by Chenuli J.</p><img src="image/Chenuli Signature.png"></img>';
       modal.style.display = 'block';
     }
     function showBuilders() {
