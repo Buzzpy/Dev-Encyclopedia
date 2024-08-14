@@ -5,7 +5,20 @@ use the ./data/cards.json object for inserting new data
 
 import htmlCards from "./data/cards.json" with { type: "json" };
 
+export  function filterCards() {
+  const input = document.getElementById('searchInput');
+  const filter = input.value.toLowerCase();
+  const cards = document.getElementsByClassName('card');
 
+  for (let i = 0; i < cards.length; i++) {
+    const title = cards[i].getElementsByClassName('card-title')[0];
+    if (title.innerText.toLowerCase().indexOf(filter) > -1) {
+      cards[i].style.display = '';
+    } else {
+      cards[i].style.display = 'none';
+    }
+  }
+}
 
 export  function showModal(key) {
   const modal = document.getElementById('modal');
