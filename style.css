@@ -1,3 +1,8 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 body {
     background-color: #fcfcfc;
     color: #000000;
@@ -257,14 +262,3 @@ body {
     color: deeppink;
 }
 
-.responsive-image {
-    width: 602px;
-    height: 318px;
-    object-fit: contain;
-}
-
-.responsive-image-qc {
-    width: 602px;
-
-    object-fit: contain;
-}
