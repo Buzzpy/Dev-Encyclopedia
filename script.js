@@ -2827,17 +2827,14 @@ const descriptions = {  codeSmell: `
       modal.style.display = 'block';
     }
 
-// Function to close the modal
-const modal = document.getElementById('modal');
+   // to close the modal
 function closeModal(event) {
-  event.preventDefault();
-  const learnMoreLink = event.target.getAttribute('href') ?? undefined;
-  if(event.target === modal)
+  const modal = document.getElementById('modal');
+  if (event.target == modal) {
     modal.style.display = 'none';
-  else if(learnMoreLink) 
-    window.open(learnMoreLink, '_blank').focus();
+  }
 }
 
 // Add event listeners for both click and touchstart
-modal.addEventListener('touchstart', closeModal);
-modal.addEventListener('click', closeModal);
+window.addEventListener('click', closeModal);
+window.addEventListener('touchstart', closeModal);
