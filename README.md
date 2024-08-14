@@ -69,6 +69,8 @@ Found some important information missing? Please open a Pull Request and help im
 
 Thank you for contributing to the Dev Encyclopedia!
 
+### Notable Contributors
+_This sections is coming soon..._
 
 ### Sponsoring
 A few dollars toward hosting and domain costs would be appreciated! Also, a sponsor page would be dedicated to the website so it's a win-win.
