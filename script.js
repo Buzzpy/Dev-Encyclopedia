@@ -2777,6 +2777,19 @@ const descriptions = {  codeSmell: `
     
     <a href="https://mlops.community/what-is-mlops/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
+  iteration: `
+  <h2 id="modal-heading">Iteration</h2>
+
+  <p class="modal-paragraph">
+  Iteration is the process of repeating a set of operations or instructions in software development, refining the outcome with each cycle.
+  </p>
+  <p class="modal-paragraph">
+  Think of iteration as a loop where each pass brings you closer to the perfect solution, whether it's fine-tuning code or improving a machine learning model.
+  </p>
+
+<a href="https://goodspeed.studio/glossary/what-is-iteration-iteration-explained" id="modal-link" target="_blank">⌁—— Learn more about Iteration ——⌁</a>
+`
+  
 
   
 };
