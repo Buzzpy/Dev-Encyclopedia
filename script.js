@@ -2781,28 +2781,29 @@ const descriptions = {
   GDPR:
     `
   <h2 id="modal-heading">GDPR</h2>
-    
-    <p class="modal-paragraph">
-    The General Data Protection Regulation is a European Union regulation on information privacy in the European Union and the European Economic Area. The GDPR is an important component of EU privacy law and human rights law, in particular Article 8 of the Charter of Fundamental Rights of the European Union.
-    </p>
-    <p class="modal-paragraph">
 
-    </p>
-    
-    <a href="https://gdpr.eu/" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  <p class="modal-paragraph">
+  The General Data Protection Regulation (GDPR) is a comprehensive data protection law in the European Union designed to enhance individuals' control over their personal information. It sets strict guidelines on how companies collect, store, and manage personal data.
+  </p>
+
+  <img class="responsive-image" src="https://d2z0k1elb7rxgj.cloudfront.net/uploads/2019/12/gdpr-guidelines-1024x531.png" alt="GDPR Guidelines" id="modal-image"/>
+
+  <a href="https://gdpr.eu/what-is-gdpr/" id="modal-link" target="_blank">⌁—— Read more about it ——⌁</a>
+
 
   `,
   SymmetricKey:
     `
-   <h2 id="modal-heading">Symmetric-key</h2>
-    
-    <p class="modal-paragraph">
-    In cryptography, a symmetric key is one that is used both to encrypt and decrypt information. This means that to decrypt information, one must have the same key that was used to encrypt it. The keys, in practice, represent a shared secret between two or more parties that can be used to maintain a private information link. This requirement that both parties have access to the secret key is one of the main drawbacks of symmetric key encryption, in comparison to public-key encryption.
-    </p>
- 
-        <img class="responsive-image" src="https://upload.wikimedia.org/wikipedia/commons/6/61/Simple_symmetric_encryption.png" alt="Dictionary image">
+   <h2 id="modal-heading">Symmetric Key</h2>
 
-    <a href="https://en.wikipedia.org/wiki/Symmetric-key_algorithm" target="_blank"> ⌁—— Read more about it ——⌁</a>
+   <p class="modal-paragraph">
+  In cryptography, a symmetric key is like a shared password that both encrypts and decrypts data. This means the same key locks and unlocks the information, making it crucial that only trusted parties have access to it.
+  </p>
+  <p class="modal-paragraph">
+  Imagine you and a friend have the same key. You use it to lock (encrypt) a message, and your friend uses the same key to unlock (decrypt) it. The catch? You both need to keep that key safe and secret.
+  </p>
+  <img class="responsive-image" src="https://upload.wikimedia.org/wikipedia/commons/6/61/Simple_symmetric_encryption.png" alt="Symmertic-key image">
+  <a href="https://simple.wikipedia.org/wiki/Symmetric-key_algorithm" id="modal-link" target="_blank">⌁—— Read more about it ——⌁</a>
 `
 };
 
