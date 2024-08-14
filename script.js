@@ -1,5 +1,20 @@
- // START FROM THIS  - 07 / 27
- const descriptions = {  codeSmell: `
+/* Sample Structure of a JS item
+ nameOfTerm: `
+    <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Title (Eg: Monolith)</h2>
+    <br>
+    <p style="text-align: left; margin-bottom:30px; padding-bottom:30px; line-height:1.5;">
+      Description, formal and professional
+    </p>
+    <p style="text-align: left; line-height:1.8; margin:0px; padding:0px;">
+      Use a simple, real-life example, even a 15-year-old may understand
+    </p>
+    <br>
+    <img class="responsive-image" src="a-desscriptive-image-link.png">
+    <a href="a-link-to-an-article-on-the-topic-mentioned-for-beginners" class="modal-link" style="text-align: center;" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `
+*/
+ 
+const descriptions = {  codeSmell: `
     <h2 style="align-items: center;font-weight: bolder;font-size: 25px;">Code Smell</h2>
     <br>
     <p style="text-align: left; margin-bottom:30px; padding-bottom:30px; line-height:1.5;">
