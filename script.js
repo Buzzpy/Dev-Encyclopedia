@@ -2795,7 +2795,7 @@ const descriptions = {  codeSmell: `
         }
       }
     }
-    
+
     function showModal(term) {
       const modal = document.getElementById('modal');
       const modalBody = document.getElementById('modal-body');
@@ -2839,5 +2839,5 @@ function closeModal(event) {
 }
 
 // Add event listeners for both click and touchstart
-modal.addEventListener('touchstart', closeModal)
-modal.addEventListener('click', closeModal)
+modal.addEventListener('touchstart', closeModal);
+modal.addEventListener('click', closeModal);
