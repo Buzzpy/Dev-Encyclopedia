@@ -42,6 +42,23 @@ const descriptions = {  codeSmell: `
     <a href="https://cloud.google.com/discover/what-is-serverless-computing" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
+  optimisticLocking: `
+    <h2 id="modal-heading">Optimistic Locking</h2>
+    
+    <p class="modal-paragraph">
+      Optimistic locking is a strategy where you read a record and there is some versioning in it (can be timestamp, version number, etc), and then when you attempt to update the record, the versioning is checked. 
+      The update is only committed when the record version remains the same. If the record version has changed, then the update attempt is aborted. 
+      This is particularly useful to increase throughput, and prevent conflicts when multiple users attempt to update a single record.
+    </p>
+    <p class="modal-paragraph">
+      It's like in an art class where everyone is coloring a big picture together, and each have their own copy to color. You start coloring your tree green, and your friend might color their tree as blue.
+      When you finish, you check in the big picture if anyone has colored the tree. If no one has, you can add your green tree. But if someone has colored the tree, you can't just color over it. You have to decide together what color the tree should be.
+    </p>
+    
+    
+    <a href="https://stackoverflow.com/questions/129329/optimistic-vs-pessimistic-locking" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+
   webFlow: `
     <h2 id="modal-heading">Web Flow</h2>
     
@@ -2437,9 +2454,9 @@ const descriptions = {  codeSmell: `
     </p>
     <p class="modal-paragraph">
       Think of cache invalidation like cleaning out your fridge; you need to remove old food to make room for fresh groceries.
-    </p>
+    </p>a
     
-    <a href="https://www.cloudflare.com/learning/cdn/what-is-caching/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <a href="https://www.cloudflare.com/learning/cdn/what-is-caching/" id="modal-link" target"_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
   immutableDataStructures: `
@@ -2777,6 +2794,42 @@ const descriptions = {  codeSmell: `
     
     <a href="https://mlops.community/what-is-mlops/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
+ GDPR: `
+    
+  <h2 id="modal-heading">GDPR</h2>
+
+  <p class="modal-paragraph">
+  The General Data Protection Regulation (GDPR) is a comprehensive data protection law in the European Union designed to enhance individuals' control over their personal information. It sets strict guidelines on how companies collect, store, and manage personal data.
+  </p>
+
+  <img class="responsive-image" src="https://d2z0k1elb7rxgj.cloudfront.net/uploads/2019/12/gdpr-guidelines-1024x531.png" alt="GDPR Guidelines" id="modal-image"/>
+
+  <a href="https://gdpr.eu/what-is-gdpr/" id="modal-link" target="_blank">⌁—— Read more about it ——⌁</a>
+` ,
+  symmetricCryptography: `
+    
+   <h2 id="modal-heading">Symmetric Cryptography</h2>
+
+   <p class="modal-paragraph">
+  In cryptography, a symmetric key is like a shared password that both encrypts and decrypts data. This means the same key locks and unlocks the information, making it crucial that only trusted parties have access to it.
+  </p>
+  <p class="modal-paragraph">
+  Imagine you and a friend have the same key. You use it to lock (encrypt) a message, and your friend uses the same key to unlock (decrypt) it. The catch? You both need to keep that key safe and secret.
+  </p>
+  <img class="responsive-image" src="https://upload.wikimedia.org/wikipedia/commons/6/61/Simple_symmetric_encryption.png" alt="Symmertic-key image">
+  <a href="https://simple.wikipedia.org/wiki/Symmetric-key_algorithm" id="modal-link" target="_blank">⌁—— Read more about it ——⌁</a>
+`,
+   AsymmetricCryptography: `
+   <h2 id="modal-heading">Asymmetric Cryptography</h2>
+
+   <p class="modal-paragraph">
+   Asymmetric keys are the foundation of Public Key Infrastructure (PKI) a cryptographic scheme requiring two different keys, one to lock or encrypt the plaintext, and one to unlock or decrypt the cyphertext. Neither key will do both functions. One key is published (public key) and the other is kept private (private key). If the lock/encryption key is the one published, the system enables private communication from the public to the unlocking key's owner. If the unlock/decryption key is the one published, then the system serves as a signature verifier of documents locked by the owner of the private key. This system also is called asymmetric key cryptography.
+  </p>
+
+  <img class="responsive-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Public_key_encryption.svg/800px-Public_key_encryption.svg.png" alt="Symmertic-key image">
+  <a href="https://en.wikipedia.org/wiki/Public-key_cryptography" id="modal-link" target="_blank">⌁—— Read more about it ——⌁</a>`
+  ,
+
   iteration: `
   <h2 id="modal-heading">Iteration</h2>
 
@@ -2802,6 +2855,7 @@ const descriptions = {  codeSmell: `
   <a href="https://www.geeksforgeeks.org/spaghetti-code/" id="modal-link" target="_blank">⌁—— Learn more about Spaghetti Code ——⌁</a>
   `,
   
+
 
   
 };
