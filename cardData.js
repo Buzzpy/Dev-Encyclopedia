@@ -29,7 +29,8 @@ const cards = [
       ref: "https://www.sonarsource.com/learn/code-smells/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Indicators that code might need improvement."
   },
   {
     slug: "serverlessComputing",
@@ -53,7 +54,8 @@ const cards = [
       ref: "https://cloud.google.com/discover/what-is-serverless-computing",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Cloud computing without managing servers."
   },
   {
     slug: "optimisticLocking",
@@ -66,13 +68,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "It's like in an art class where everyone is coloring a big picture together, and each have their own copy to color. You start coloring your tree green, and your friend might color their tree as blue. When you finish, you check in the big picture if anyone has colored the tree. If no one has, you can add your green tree. But if someone has colored the tree, you can't just color over it. You have to decide together what color the tree should be."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://stackoverflow.com/questions/129329/optimistic-vs-pessimistic-locking",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Concurrency control method strategy."
   },
   {
     slug: "webFlow",
@@ -86,7 +89,8 @@ const cards = [
         type: modalContentTypes.p,
         content: "Think of it like the steps you take when you follow a recipe to bake a cake."
       }
-    ]
+    ],
+    shortDesc: "The sequence of user steps on a website."
   },
   {
     slug: "webHooks",
@@ -110,7 +114,8 @@ const cards = [
       ref: "https://zapier.com/blog/what-are-webhooks/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Automated messages between apps."
   },
   {
     slug: "llms",
@@ -134,7 +139,8 @@ const cards = [
       ref: "https://aws.amazon.com/what-is/large-language-model/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "AI systems for understanding and generating text."
   },
   {
     slug: "openSource",
@@ -153,7 +159,8 @@ const cards = [
       ref: "https://opensource.com/resources/what-open-source",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Software with publicly accessible source code."
   },
   {
     slug: "webScraping",
@@ -177,7 +184,8 @@ const cards = [
       ref: "https://www.geeksforgeeks.org/what-is-web-scraping-and-how-to-use-it/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Automatically collecting data from websites."
   },
   {
     slug: "frontEnd",
@@ -201,7 +209,8 @@ const cards = [
       ref: "https://flatironschool.com/blog/front-end-vs-back-end-development/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "The visual and interactive parts of a website."
   },
   {
     slug: "fullStack",
@@ -225,7 +234,8 @@ const cards = [
       ref: "https://aws.amazon.com/what-is/full-stack-development/#:~:text=Full%20stack%20development%20is%20the,user%20interactions%20with%20the%20application.",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Development of both front end and back end."
   },
   {
     slug: "functions",
@@ -249,7 +259,8 @@ const cards = [
       ref: "https://www.w3schools.com/js/js_functions.asp",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Reusable blocks of code performing specific tasks."
   },
   {
     slug: "arguments",
@@ -273,7 +284,8 @@ const cards = [
       ref: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#parameters",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Values passed to functions to influence their behavior."
   },
   {
     slug: "dictionary",
@@ -297,7 +309,8 @@ const cards = [
       ref: "https://www.w3schools.com/python/python_dictionaries.asp",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A collection of key-value pairs in programming."
   },
   {
     slug: "tuple",
@@ -316,7 +329,8 @@ const cards = [
       ref: "https://www.w3schools.com/python/python_tuples.asp",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "An ordered, unchangeable collection of items."
   },
   {
     slug: "list",
@@ -335,7 +349,8 @@ const cards = [
       ref: "https://www.w3schools.com/python/python_lists.asp",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "An ordered, changeable collection of items."
   },
   {
     slug: "boolean",
@@ -354,7 +369,8 @@ const cards = [
       ref: "https://www.w3schools.com/js/js_booleans.asp",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A data type with true or false values."
   },
   {
     slug: "string",
@@ -373,7 +389,8 @@ const cards = [
       ref: "https://www.w3schools.com/python/python_strings.asp",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A sequence of characters representing text."
   },
   {
     slug: "floats",
@@ -392,7 +409,8 @@ const cards = [
       ref: "https://www.w3schools.com/python/python_datatypes.asp",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Numbers with decimal points for precision."
   },
   {
     slug: "double",
@@ -411,7 +429,8 @@ const cards = [
       ref: "https://www.w3schools.com/java/java_data_types.asp",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "More precise and larger decimal numbers."
   },
   {
     slug: "dataTypes",
@@ -430,7 +449,8 @@ const cards = [
       ref: "https://www.w3schools.com/python/python_datatypes.asp",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Categories defining the kind of data variables can hold."
   },
   {
     slug: "threads",
@@ -454,7 +474,8 @@ const cards = [
       ref: "https://www.techtarget.com/whatis/definition/thread/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Mini-programs running concurrently within a larger program."
   },
   {
     slug: "classes",
@@ -478,7 +499,8 @@ const cards = [
       ref: "https://brilliant.org/wiki/classes-oop/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Blueprints for creating objects with defined properties and behaviors."
   },
   {
     slug: "objects",
@@ -497,7 +519,8 @@ const cards = [
       ref: "https://www.geeksforgeeks.org/what-are-objects-in-programming/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Instances of classes with specific attributes and methods."
   },
   {
     slug: "inheritance",
@@ -521,7 +544,8 @@ const cards = [
       ref: "https://www.enjoyalgorithms.com/blog/inheritance-in-java",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Creating new classes from existing ones, inheriting their properties and behaviors."
   },
   {
     slug: "syntax",
@@ -540,7 +564,8 @@ const cards = [
       ref: "https://woz-u.com/blog/what-is-syntax-in-computer-programming/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Rules defining the structure and format of code."
   },
   {
     slug: "ide",
@@ -559,7 +584,8 @@ const cards = [
       ref: "https://aws.amazon.com/what-is/ide/#:~:text=An%20integrated%20development%20environment%20(IDE,easy%2Dto%2Duse%20application.",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Integrated Development Environment for coding and debugging."
   },
   {
     slug: "debugger",
@@ -583,7 +609,8 @@ const cards = [
       ref: "https://medium.com/@dwivedi.ankit21/the-debugger-a-behind-the-scenes-look-at-how-it-works-983a65883e97",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Tool for finding and fixing code errors"
   },
   {
     slug: "deployment",
@@ -602,7 +629,8 @@ const cards = [
       ref: "https://www.ibm.com/docs/en/zos/2.4.0?topic=task-deploying-software",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Making applications available for use"
   },
   {
     slug: "continuousDeployment",
@@ -621,7 +649,8 @@ const cards = [
       ref: "https://www.atlassian.com/continuous-delivery/software-testing/continuous-deployment",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Automatic deployment of code changes"
   },
   {
     slug: "deploymentPipeline",
@@ -645,7 +674,8 @@ const cards = [
       ref: "https://www.pagerduty.com/resources/learn/what-is-a-deployment-pipeline/#:~:text=In%20software%20development%2C%20a%20deployment,%2C%20building%2C%20and%20deploying%20code.",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Automated process for software changes"
   },
   {
     slug: "dataValidation",
@@ -669,7 +699,8 @@ const cards = [
       ref: "https://www.tibco.com/glossary/what-is-data-validation#:~:text=Data%20validation%20is%20the%20process,validation%20to%20ensure%20accurate%20results.",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Ensuring data accuracy and completeness"
   },
   {
     slug: "dataSerialization",
@@ -693,7 +724,8 @@ const cards = [
       ref: "https://medium.com/@jdelamettrie/data-serialization-631a0325c38a",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Converting data for storage or transmission"
   },
   {
     slug: "mocking",
@@ -712,7 +744,8 @@ const cards = [
       ref: "https://www.geeksforgeeks.org/software-testing-mock-testing/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Creating fake objects for testing"
   },
   {
     slug: "authentication",
@@ -736,7 +769,8 @@ const cards = [
       ref: "https://medium.com/geekculture/authentication-and-authorization-a5a2eafdde16",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Verifying user identity"
   },
   {
     slug: "authorization",
@@ -760,7 +794,8 @@ const cards = [
       ref: "https://medium.com/geekculture/authentication-and-authorization-a5a2eafdde16",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Determining user permissions"
   },
   {
     slug: "prototypes",
@@ -779,7 +814,8 @@ const cards = [
       ref: "https://www.techtarget.com/searcherp/definition/prototype#:~:text=Prototype%2Dbased%20programming%20generates%20an,code%20and%20how%20it%20executes.",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Early models of software for testing"
   },
   {
     slug: "monolithicArchitecture",
@@ -803,7 +839,8 @@ const cards = [
       ref: "https://tech.tamara.co/monolith-architecture-5f00270f384e",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Integrated large system design"
   },
   {
     slug: "github",
@@ -827,7 +864,8 @@ const cards = [
       ref: "https://medium.com/swlh/an-introduction-to-git-and-github-22ecb4cb1256",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Platform for code hosting and collaboration"
   },
   {
     slug: "orm",
@@ -851,7 +889,8 @@ const cards = [
       ref: "https://medium.com/@grover.vinayak0611/what-is-orm-why-to-use-it-and-brief-introduction-of-orm-frameworks-b61b16d02a3c",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Mapping database tables to objects"
   },
   {
     slug: "caching",
@@ -870,7 +909,8 @@ const cards = [
       ref: "https://hazelcast.com/glossary/caching/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Storing data for quick access"
   },
   {
     slug: "machineLearning",
@@ -894,7 +934,8 @@ const cards = [
       ref: "https://mitsloan.mit.edu/ideas-made-to-matter/machine-learning-explained",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "AI exists thanks to this"
   },
   {
     slug: "deepLearning",
@@ -912,14 +953,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2l6t6kevnd062opmw6ab.png",
         alt: "Deep Learning image"
-
       }
     ],
     readMoreLink: {
       ref: "https://www.ibm.com/topics/deep-learning",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A subset of machine learning"
   },
   {
     slug: "artificialIntelligence",
@@ -937,14 +978,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/iii01cstbhic3xzt9ceu.png",
         alt: "Artificial Intelligence image"
-
       }
     ],
     readMoreLink: {
       ref: "https://www.ibm.com/topics/artificial-intelligence",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A frenemy"
   },
   {
     slug: "cybersecurity",
@@ -962,14 +1003,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://reciprocity.com/wp-content/uploads/2022/10/resources_top-cybersecurity-threats_730x425.jpg",
         alt: "Cybersecurity image"
-
       }
     ],
     readMoreLink: {
       ref: "https://www.ibm.com/topics/cybersecurity",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Staying secured in a a world of hackers"
   },
   {
     slug: "epochs",
@@ -987,14 +1028,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://miro.medium.com/v2/resize:fit:860/1*GXftMdKjyaLYuAIn-nB4zA.png",
         alt: "Epochs image"
-
       }
     ],
     readMoreLink: {
       ref: "https://www.simplilearn.com/tutorials/machine-learning-tutorial/what-is-epoch-in-machine-learning",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Training rounds in Machine Learning"
   },
   {
     slug: "apis",
@@ -1016,14 +1057,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://www.openlegacy.com/hs-fs/hubfs/Picture1-2.webp?width=969&height=509&name=Picture1-2.webp",
         alt: "APIs image"
-
       }
     ],
     readMoreLink: {
       ref: "https://www.postman.com/what-is-an-api/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Application Programming Interfaces"
   },
   {
     slug: "cloudComputing",
@@ -1041,14 +1082,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://images.spiceworks.com/wp-content/uploads/2021/07/02105247/Cloud-Computing.png",
         alt: "Cloud Computing image"
-
       }
     ],
     readMoreLink: {
       ref: "https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "It's always fun on the clouds, until it starts \"leaking\""
   },
   {
     slug: "dataScience",
@@ -1066,14 +1107,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://editor.analyticsvidhya.com/uploads/73194new%202.png",
         alt: "Data Science image from DataScientist.com"
-
       }
     ],
     readMoreLink: {
       ref: "https://www.ibm.com/topics/data-science",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Science of converting information to Data"
   },
   {
     slug: "quantumComputing",
@@ -1091,14 +1132,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/auzqrr27ccgv9ylkloed.png",
         alt: "Quantum Computing image"
-
       }
     ],
     readMoreLink: {
       ref: "https://www.explainthatstuff.com/quantum-computing.html",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Sheldon Cooper's gonna love this"
   },
   {
     slug: "internetOfThings",
@@ -1116,14 +1157,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://www.i-scoop.eu/wp-content/uploads/2016/10/The-Internet-of-Things-from-connecting-devices-to-creating-value-large.jpg",
         alt: "Internet of Things image"
-
       }
     ],
     readMoreLink: {
       ref: "https://www.oracle.com/internet-of-things/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A Network of things"
   },
   {
     slug: "blockchain",
@@ -1141,14 +1182,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://www.investopedia.com/thmb/XrimO6cL95A3j-ts3PknnOXn8EI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/dotdash_Final_Blockchain_Sep_2020-01-60f31a638c4944abbcfde92e1a408a30.jpg",
         alt: "Blockchain image"
-
       }
     ],
     readMoreLink: {
       ref: "https://builtin.com/blockchain",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A chain of transactions"
   },
   {
     slug: "reactJS",
@@ -1166,14 +1207,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://miro.medium.com/v2/resize:fit:1400/1*6l9rCElYlP9EoG0A-iXULg.png",
         alt: "ReactJS image"
-
       }
     ],
     readMoreLink: {
       ref: "https://www.freecodecamp.org/news/react-for-beginners-handbook/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A popular JS library for building user-interfaces"
   },
   {
     slug: "docker",
@@ -1191,14 +1232,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://accesto.com/blog/static/d97eced7f59a885b5ba877366cf21909/3c492/docker-explained-1.png",
         alt: "Docker image"
-
       }
     ],
     readMoreLink: {
       ref: "https://docker-curriculum.com/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "The most popular Container tool"
   },
   {
     slug: "initFunction",
@@ -1216,14 +1257,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://www.boardinfinity.com/blog/content/images/2023/05/init-in-python.png",
         alt: "__init__ Function image"
-
       }
     ],
     readMoreLink: {
       ref: "https://docker-curriculum.com/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A special method in Python Programming Language"
   },
   {
     slug: "python",
@@ -1241,14 +1282,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9fx9gi335wgl2pdt6sjj.png",
         alt: "Python image"
-
       }
     ],
     readMoreLink: {
       ref: "https://example.com",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A programming language known for readability and simplicity"
   },
   {
     slug: "threeSigmaRule",
@@ -1266,14 +1307,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://decodingdatascience.com/wp-content/uploads/2023/05/Screenshot-2023-05-05-101857.jpg",
         alt: "Three-Sigma Rule image"
-
       }
     ],
     readMoreLink: {
       ref: "https://www.investopedia.com/terms/t/three-sigma-limits.asp",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A rule of thumb in data science"
   },
   {
     slug: "recursion",
@@ -1291,14 +1332,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://miro.medium.com/v2/resize:fit:2000/1*QrQ5uFKIhK3jQSFYeRBIRg.png",
         alt: "Recursion image"
-
       }
     ],
     readMoreLink: {
       ref: "https://2533.medium.com/recursion-explained-with-pictures-72578d28058a",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A programming technique"
   },
   {
     slug: "git",
@@ -1317,7 +1358,8 @@ const cards = [
       ref: "https://dev.to/milu_franz/git-explained-the-basics-igc",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "The most popular version control system"
   },
   {
     slug: "versionControl",
@@ -1335,14 +1377,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://www.thatcompany.com/wp-content/uploads/2020/03/art3.jpg",
         alt: "Version Control image"
-
       }
     ],
     readMoreLink: {
       ref: "https://about.gitlab.com/topics/version-control/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Recording every change"
   },
   {
     slug: "microservices",
@@ -1366,7 +1408,8 @@ const cards = [
       ref: "https://aws.amazon.com/microservices/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Independent services working together"
   },
   {
     slug: "restfulAPI",
@@ -1384,14 +1427,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://www.altexsoft.com/media/2021/03/rest_api_works.png",
         alt: "GraphQL image"
-
       }
     ],
     readMoreLink: {
       ref: "https://aws.amazon.com/what-is/restful-api/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "API using standard HTTP methods"
   },
   {
     slug: "graphql",
@@ -1415,7 +1458,8 @@ const cards = [
       ref: "https://www.solo.io/topics/graphql/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Query language for APIs"
   },
   {
     slug: "containerization",
@@ -1434,7 +1478,8 @@ const cards = [
       ref: "https://aws.amazon.com/what-is/containerization/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Packaging applications for consistent deployment"
   },
   {
     slug: "kubernetes",
@@ -1458,7 +1503,8 @@ const cards = [
       ref: "https://kubernetes.io/docs/concepts/overview/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Platform for automating container management"
   },
   {
     slug: "branching",
@@ -1482,7 +1528,8 @@ const cards = [
       ref: "https://medium.com/@jacoblogan98/understanding-git-branching-5d01f3dda541",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Creating separate code versions"
   },
   {
     slug: "merging",
@@ -1501,7 +1548,8 @@ const cards = [
       ref: "https://atlassian.com/git/tutorials/using-branches/git-merge",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Combining changes from branches"
   },
   {
     slug: "pullRequests",
@@ -1520,7 +1568,8 @@ const cards = [
       ref: "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Proposing and reviewing code changes"
   },
   {
     slug: "agile",
@@ -1538,14 +1587,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://miro.medium.com/v2/resize:fit:718/0*7te6LdDJm2DqZIHB.png",
         alt: "Agile image"
-
       }
     ],
     readMoreLink: {
       ref: "https://www.spiceworks.com/tech/devops/articles/what-is-agile-software-development/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A methology in Software Development"
   },
   {
     slug: "scrum",
@@ -1563,14 +1612,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2023-09/scrum-framework-9.29.23.png",
         alt: "Scrum image"
-
       }
     ],
     readMoreLink: {
       ref: "https://www.scrum.org/resources/what-scrum-module",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A framework within the Agile methodology"
   },
   {
     slug: "kanban",
@@ -1588,14 +1637,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://media.geeksforgeeks.org/wp-content/uploads/20231107173425/Kanban-board-2.png",
         alt: "Kanban image"
-
       }
     ],
     readMoreLink: {
       ref: "https://www.atlassian.com/agile/kanban",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A visual workflow management method"
   },
   {
     slug: "sql",
@@ -1613,14 +1662,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://www.spiceworks.com/wp-content/uploads/2022/06/How-Does-SQL-Work.png",
         alt: "SQL image"
-
       }
     ],
     readMoreLink: {
       ref: "https://aws.amazon.com/what-is/sql/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A relational database management system"
   },
   {
     slug: "nosql",
@@ -1633,13 +1682,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "NoSQL databases are often used for applications that require high scalability, performance, and flexibility in handling data."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://radixweb.com/blog/introduction-to-continuous-deployment#Continuous",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A non-relational database management system"
   },
   {
     slug: "html",
@@ -1657,14 +1707,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "assets/images/html.jpg",
         alt: "HTML image"
-
       }
     ],
     readMoreLink: {
       ref: "https://www.hostinger.com/tutorials/what-is-html",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "HyperText Markup Language"
   },
   {
     slug: "css",
@@ -1682,14 +1732,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "assets/images/css.jpg",
         alt: "CSS image"
-
       }
     ],
     readMoreLink: {
       ref: "https://www.hostinger.com/tutorials/what-is-css",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Cascading Style Sheets"
   },
   {
     slug: "java",
@@ -1707,14 +1757,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "assets/images/java.jpg",
         alt: "Java image"
-
       }
     ],
     readMoreLink: {
       ref: "https://www.simplilearn.com/tutorials/java-tutorial/what-is-java",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A high-level programming-language"
   },
   {
     slug: "cSharp",
@@ -1732,14 +1782,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "assets/images/cSharp.jpg",
         alt: "C# image"
-
       }
     ],
     readMoreLink: {
       ref: "https://dotnet.microsoft.com/en-us/languages/csharp",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A modern, OOP language from Microsoft"
   },
   {
     slug: "php",
@@ -1757,14 +1807,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "assets/images/php.jpg",
         alt: "PHP image"
-
       }
     ],
     readMoreLink: {
       ref: "https://www.freecodecamp.org/news/what-is-php-the-php-programming-language-meaning-explained/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Server-side scripting language designed for web development"
   },
   {
     slug: "ruby",
@@ -1783,7 +1833,8 @@ const cards = [
       ref: "https://developer.oracle.com/learn/technical-articles/what-is-ruby",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Another simple, OOP language"
   },
   {
     slug: "swift",
@@ -1801,14 +1852,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "assets/images/swift.jpg",
         alt: "Swift image"
-
       }
     ],
     readMoreLink: {
       ref: "https://developer.apple.com/swift/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A programming language from Apple"
   },
   {
     slug: "typescript",
@@ -1826,14 +1877,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "assets/images/typescript.jpg",
         alt: "TypeScript image"
-
       }
     ],
     readMoreLink: {
       ref: "https://www.typescripttutorial.net/typescript-tutorial/what-is-typescript/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A superset of JavaScript"
   },
   {
     slug: "kotlin",
@@ -1846,13 +1897,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Kotlin offers modern features, concise syntax, and improved safety compared to Java."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://www.techtarget.com/whatis/definition/Kotlin",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A statically-typed programming language by JetBrains"
   },
   {
     slug: "bash",
@@ -1871,7 +1923,8 @@ const cards = [
       ref: "https://opensource.com/resources/what-bash",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A unix shell and command language"
   },
   {
     slug: "rubyOnRails",
@@ -1889,14 +1942,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "assets/images/rubyOnRails.jpg",
         alt: "Ruby on Rails image"
-
       }
     ],
     readMoreLink: {
       ref: "https://www.codecademy.com/resources/blog/what-is-ruby-on-rails/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A web application framework written in Ruby"
   },
   {
     slug: "angular",
@@ -1914,14 +1967,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://www.aalpha.net/wp-content/uploads/2019/07/angularjs-development-india.jpg",
         alt: "Angular image"
-
       }
     ],
     readMoreLink: {
       ref: "https://v17.angular.io/guide/what-is-angular",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A TypeScript-based web application framework"
   },
   {
     slug: "vueJS",
@@ -1939,14 +1992,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://v1.vuejs.org/images/mvvm.png",
         alt: "VueJS image"
-
       }
     ],
     readMoreLink: {
       ref: "https://v1.vuejs.org/guide/overview.html",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A aggressive progressive JavaScript framework"
   },
   {
     slug: "flutter",
@@ -1964,14 +2017,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "assets/images/flutter.jpg",
         alt: "Flutter image"
-
       }
     ],
     readMoreLink: {
       ref: "https://techvify-software.com/wp-content/uploads/2023/07/how-flutter-works.jpg",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "An UI toolkit from Google"
   },
   {
     slug: "swiftUI",
@@ -1990,7 +2043,8 @@ const cards = [
       ref: "https://www.adjust.com/blog/get-started-with-swiftui/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Another framework from Apple"
   },
   {
     slug: "algorithm",
@@ -2008,14 +2062,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://cdn.ttgtmedia.com/rms/onlineimages/types_of_algorithms-f_mobile.png",
         alt: "Algorithm image"
-
       }
     ],
     readMoreLink: {
       ref: "https://www.geeksforgeeks.org/introduction-to-algorithms/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A procedure or formula for solving a problem"
   },
   {
     slug: "dataStructure",
@@ -2033,14 +2087,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://media.geeksforgeeks.org/wp-content/uploads/20220520182504/ClassificationofDataStructure-660x347.jpg",
         alt: "Data Structure image"
-
       }
     ],
     readMoreLink: {
       ref: "https://www.w3schools.com/dsa/dsa_intro.php",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A way of oragnzing and storing data"
   },
   {
     slug: "bigO",
@@ -2063,7 +2117,8 @@ const cards = [
       ref: "https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A term used to explain... algorithms?"
   },
   {
     slug: "recursionDepth",
@@ -2077,7 +2132,8 @@ const cards = [
         type: modalContentTypes.p,
         content: "Understanding recursion depth helps in designing algorithms that use recursion effectively and safely."
       }
-    ]
+    ],
+    shortDesc: "Used to elaborate on recusrion method"
   },
   {
     slug: "debugging",
@@ -2095,14 +2151,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://www.edureka.co/blog/wp-content/uploads/2019/08/debuuging-steps-528x294.png",
         alt: "Debugging image"
-
       }
     ],
     readMoreLink: {
       ref: "https://www.ibm.com/topics/debugging",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "An interesting process that makes programmers yell \"Just Why!?\""
   },
   {
     slug: "testing",
@@ -2115,13 +2171,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Testing can be performed manually or through automated test scripts and is essential for delivering high-quality software."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://www.ibm.com/topics/software-testing",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "The ultimate fear of developers"
   },
   {
     slug: "unitTest",
@@ -2139,14 +2196,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://codenboxautomationlab.com/wp-content/uploads/2022/06/unit-testing-life-cycle-pic.png",
         alt: "Unit Test image"
-
       }
     ],
     readMoreLink: {
       ref: "https://aws.amazon.com/what-is/unit-testing/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A type of testing"
   },
   {
     slug: "integrationTest",
@@ -2164,14 +2221,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://www.simform.com/wp-content/uploads/2022/01/Integration-testing-types.png",
         alt: "Integration Test image"
-
       }
     ],
     readMoreLink: {
       ref: "https://katalon.com/resources-center/blog/integration-testing",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Another type of testing"
   },
   {
     slug: "endToEndTest",
@@ -2189,14 +2246,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://cdn.prod.website-files.com/610bb663a35dd3364ddbf08c/62b594796e28e910d6624e03_end-to-end-testing-metrics.png",
         alt: "End-to-End Test image"
-
       }
     ],
     readMoreLink: {
       ref: "https://smartbear.com/learn/automated-testing/what-is-end-to-end-testing/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Another type of testing"
   },
   {
     slug: "performanceTest",
@@ -2214,14 +2271,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://www.a1qa.com/wp-content/uploads/2019/06/performance-testing.jpg",
         alt: "Performance Test image"
-
       }
     ],
     readMoreLink: {
       ref: "https://en.wikipedia.org/wiki/Software_performance_testing",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A type of testing focusing on applcation performence"
   },
   {
     slug: "loadTest",
@@ -2234,13 +2291,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "It helps determine if the application can handle expected load conditions without degrading performance."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://en.wikipedia.org/wiki/Software_load_testing#:~:text=Load%20testing%20generally%20refers%20to,model%2C%20such%20as%20web%20servers.",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A type of performance testing"
   },
   {
     slug: "stressTest",
@@ -2253,13 +2311,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "It helps identify the application's breaking point and ensure it can recover gracefully from high-stress situations."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://www.geeksforgeeks.org/stress-testing-software-testing/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A type of performance testing under pressure"
   },
   {
     slug: "securityTest",
@@ -2272,13 +2331,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "It involves checking for issues such as unauthorized access, data breaches, and compliance with security standards."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://www.hackerone.com/knowledge-center/what-security-testing",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A test against hacking and whatnot"
   },
   {
     slug: "usabilityTest",
@@ -2291,13 +2351,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Usability tests help ensure that the application is user-friendly and meets the needs of its target audience."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://www.geeksforgeeks.org/usability-testing/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A test that ensures that application is user-friendly"
   },
   {
     slug: "codeReview",
@@ -2321,7 +2382,8 @@ const cards = [
       ref: "https://about.gitlab.com/topics/version-control/what-is-code-review/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Checking code for quality and improvement"
   },
   {
     slug: "refactoring",
@@ -2345,7 +2407,8 @@ const cards = [
       ref: "https://refactoring.guru/refactoring/what-is-refactoring",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Improving code structure without changing behavior"
   },
   {
     slug: "technicalDebt",
@@ -2369,7 +2432,8 @@ const cards = [
       ref: "https://asana.com/resources/technical-debt",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Extra work due to past shortcuts"
   },
   {
     slug: "designPatterns",
@@ -2388,7 +2452,8 @@ const cards = [
       ref: "https://refactoring.guru/design-patterns/what-is-pattern",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Standard solutions to common design problems"
   },
   {
     slug: "solidPrinciples",
@@ -2412,7 +2477,8 @@ const cards = [
       ref: "https://en.wikipedia.org/wiki/SOLID",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Guidelines for better software design"
   },
   {
     slug: "kissPrinciple",
@@ -2436,7 +2502,8 @@ const cards = [
       ref: "https://en.wikipedia.org/wiki/KISS_principle",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Keep it simple to avoid complexity"
   },
   {
     slug: "dryPrinciple",
@@ -2460,7 +2527,8 @@ const cards = [
       ref: "https://thevaluable.dev/dry-principle-cost-benefit-example/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Avoid code repetition"
   },
   {
     slug: "uat",
@@ -2484,7 +2552,8 @@ const cards = [
       ref: "https://www.guru99.com/user-acceptance-testing.html",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Final user testing phase"
   },
   {
     slug: "testDrivenDevelopment",
@@ -2503,7 +2572,8 @@ const cards = [
       ref: "https://testdriven.io/test-driven-development/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Or TDD, a software development approach"
   },
   {
     slug: "continuousIntegration",
@@ -2521,14 +2591,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://www.pagerduty.com/wp-content/uploads/2020/01/continuous-integration-2.png",
         alt: "Continuous Integration image"
-
       }
     ],
     readMoreLink: {
       ref: "https://aws.amazon.com/devops/continuous-integration/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A software development practice"
   },
   {
     slug: "continuousDelivery",
@@ -2546,14 +2616,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://infraascode.com.br/images/ci_cd-CD.png",
         alt: "Continuous Delivery image"
-
       }
     ],
     readMoreLink: {
       ref: "https://aws.amazon.com/devops/continuous-delivery/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A software development practice often implemented with CI"
   },
   {
     slug: "devOps",
@@ -2571,14 +2641,14 @@ const cards = [
         type: modalContentTypes.img,
         src: "https://d1.awsstatic.com/product-marketing/DevOps/DevOps_feedback-diagram.ff668bfc299abada00b2dcbdc9ce2389bd3dce3f.png",
         alt: "DevOps image"
-
       }
     ],
     readMoreLink: {
       ref: "https://aws.amazon.com/devops/what-is-devops/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A set of practices that combine Dev and Ops"
   },
   {
     slug: "logisticRegression",
@@ -2602,7 +2672,8 @@ const cards = [
       ref: "https://towardsdatascience.com/introduction-to-logistic-regression-66248243c148",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Predicts probabilities for binary outcomes."
   },
   {
     slug: "kMeansClustering",
@@ -2626,7 +2697,8 @@ const cards = [
       ref: "https://www.analyticsvidhya.com/blog/2020/10/a-simple-explanation-of-k-means-clustering/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Groups data into clusters based on similarity."
   },
   {
     slug: "decisionTrees",
@@ -2650,7 +2722,8 @@ const cards = [
       ref: "https://chirag-sehra.medium.com/decision-trees-explained-easily-28f23241248",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Uses a tree-like model of decisions and their possible consequences."
   },
   {
     slug: "randomForest",
@@ -2674,7 +2747,8 @@ const cards = [
       ref: "https://medium.com/@denizgunay/random-forest-af5bde5d7e1e",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Combines multiple decision trees to improve accuracy."
   },
   {
     slug: "supportVectorMachines",
@@ -2698,7 +2772,8 @@ const cards = [
       ref: "https://www.kdnuggets.com/2016/07/support-vector-machines-simple-explanation.html",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Finds the best boundary between classes in data."
   },
   {
     slug: "gradientDescent",
@@ -2717,7 +2792,8 @@ const cards = [
       ref: "https://towardsdatascience.com/gradient-descent-explained-9b953fc0d2c",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Optimizes model parameters by minimizing errors."
   },
   {
     slug: "neuralNetworks",
@@ -2741,7 +2817,8 @@ const cards = [
       ref: "https://www.freecodecamp.org/news/deep-learning-neural-networks-explained-in-plain-english/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Mimics the human brain to recognize patterns and make predictions."
   },
   {
     slug: "naturalLanguageProcessing",
@@ -2765,7 +2842,8 @@ const cards = [
       ref: "https://www.freecodecamp.org/news/deep-learning-neural-networks-explained-in-plain-english/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Enables computers to understand and process human language."
   },
   {
     slug: "recurrentNeuralNetworks",
@@ -2789,7 +2867,8 @@ const cards = [
       ref: "https://media.geeksforgeeks.org/wp-content/uploads/20240524132821/nlp-working.webp",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Processes sequences of data, maintaining context over time."
   },
   {
     slug: "convolutionalNeuralNetworks",
@@ -2813,7 +2892,8 @@ const cards = [
       ref: "https://nafizshahriar.medium.com/what-is-convolutional-neural-network-cnn-deep-learning-b3921bdd82d5",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Analyzes grid-like data, such as images, using filters."
   },
   {
     slug: "autoencoders",
@@ -2837,7 +2917,8 @@ const cards = [
       ref: "https://medium.com/@birla.deepak26/autoencoders-76bb49ae6a8f",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Learns efficient data representations through compression and reconstruction."
   },
   {
     slug: "reinforcementLearning",
@@ -2861,7 +2942,8 @@ const cards = [
       ref: "https://www.spiceworks.com/tech/artificial-intelligence/articles/what-is-reinforcement-learning/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Trains agents to make decisions by rewarding or punishing actions."
   },
   {
     slug: "transferLearning",
@@ -2885,7 +2967,8 @@ const cards = [
       ref: "https://www.v7labs.com/blog/transfer-learning-guide",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Adapts pre-trained models for new but related tasks."
   },
   {
     slug: "hyperparameterTuning",
@@ -2898,13 +2981,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "It's like adjusting the knobs on a radio to get the best sound quality."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://www.analyticsvidhya.com/blog/2022/02/a-comprehensive-guide-on-hyperparameter-tuning-and-its-techniques/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Optimizes model settings to improve performance."
   },
   {
     slug: "crossValidation",
@@ -2928,7 +3012,8 @@ const cards = [
       ref: "https://www.geeksforgeeks.org/cross-validation-machine-learning/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Evaluates model performance on multiple data splits."
   },
   {
     slug: "featureEngineering",
@@ -2952,7 +3037,8 @@ const cards = [
       ref: "https://builtin.com/articles/feature-engineering",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Creates or modifies features to enhance model performance."
   },
   {
     slug: "featureScaling",
@@ -2966,7 +3052,8 @@ const cards = [
         type: modalContentTypes.p,
         content: "It's like making sure all the pieces of a puzzle fit together properly."
       }
-    ]
+    ],
+    shortDesc: "Normalizes feature ranges for better model performance."
   },
   {
     slug: "overfitting",
@@ -2990,7 +3077,8 @@ const cards = [
       ref: "https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "When a model learns too much from training data, harming new data performance."
   },
   {
     slug: "underfitting",
@@ -3014,7 +3102,8 @@ const cards = [
       ref: "https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "When a model is too simple to capture the underlying data patterns."
   },
   {
     slug: "regularization",
@@ -3038,7 +3127,8 @@ const cards = [
       ref: "",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Prevents overfitting by adding penalties to model complexity."
   },
   {
     slug: "bagging",
@@ -3057,7 +3147,8 @@ const cards = [
       ref: "https://www.ibm.com/topics/bagging",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Combines predictions from multiple models for improved accuracy."
   },
   {
     slug: "boosting",
@@ -3076,7 +3167,8 @@ const cards = [
       ref: "https://aws.amazon.com/what-is/boosting/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Builds models sequentially, with each correcting errors of the previous one."
   },
   {
     slug: "ensembleMethods",
@@ -3100,7 +3192,8 @@ const cards = [
       ref: "https://corporatefinanceinstitute.com/resources/data-science/ensemble-methods/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Combines multiple models to improve overall performance."
   },
   {
     slug: "rocCurve",
@@ -3124,7 +3217,8 @@ const cards = [
       ref: "https://medium.com/@shaileydash/understanding-the-roc-and-auc-intuitively-31ca96445c02",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Graphical representation of a classifier's performance."
   },
   {
     slug: "aucCurve",
@@ -3148,7 +3242,8 @@ const cards = [
       ref: "https://medium.com/@shaileydash/understanding-the-roc-and-auc-intuitively-31ca96445c025",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "i.e. Area Under the Curve"
   },
   {
     slug: "precisionRecall",
@@ -3172,7 +3267,8 @@ const cards = [
       ref: "https://www.analyticsvidhya.com/blog/2020/09/precision-recall-machine-learning/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Metrics for evaluating classification model accuracy and completeness."
   },
   {
     slug: "f1Score",
@@ -3196,7 +3292,8 @@ const cards = [
       ref: "https://www.v7labs.com/blog/f1-score-guide",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Harmonic mean of Precision and Recall for balanced evaluation."
   },
   {
     slug: "confusionMatrix",
@@ -3220,7 +3317,8 @@ const cards = [
       ref: "https://www.analyticsvidhya.com/blog/2020/04/confusion-matrix-machine-learning/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A table to evaluate classification model performance."
   },
   {
     slug: "crossEntropy",
@@ -3239,9 +3337,9 @@ const cards = [
       ref: "https://towardsdatascience.com/what-is-cross-entropy-3bdb04c13616",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Loss function measuring the difference between predicted and actual class labels."
   },
-  // Start from here - 01/08
   {
     slug: "noSQLDatabases",
     title: "NoSQL Databases",
@@ -3253,13 +3351,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Imagine NoSQL as a big collection of adjustable shelves that fit all kinds of items, not just books."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://www.mongodb.com/nosql-explained",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Flexible, scalable data storage solutions"
   },
   {
     slug: "microservicesArchitecture",
@@ -3272,13 +3371,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Think of microservices as separate apps on your phone that work together to make everything run smoothly."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://microservices.io/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Independent, small service modules in software"
   },
   {
     slug: "serverlessArchitecture",
@@ -3291,13 +3391,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Imagine serverless as a vending machine that automatically refills itself when something runs out."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://serverless.com/learn/what-is-serverless/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Cloud management of server operations"
   },
   {
     slug: "webAssembly",
@@ -3310,13 +3411,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Think of WebAssembly as a superhero suit that gives your web apps amazing speed and power."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://webassembly.org/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "High-performance web applications"
   },
   {
     slug: "edgeComputing",
@@ -3329,13 +3431,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Imagine edge computing as a brain in your devices that helps them think quicker without asking a faraway server."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://www.ibm.com/cloud/what-is-edge-computing",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Data processing closer to data sources"
   },
   {
     slug: "zeroTrustSecurityModel",
@@ -3348,13 +3451,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Think of Zero Trust as always double-checking and verifying everyone before allowing access to important stuff."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://www.csoonline.com/article/3247848/what-is-zero-trust-a-model-for-more-effective-security.html",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Security that trusts no one by default"
   },
   {
     slug: "dockerSwarm",
@@ -3367,13 +3471,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Think of Docker Swarm as the conductor of an orchestra, ensuring all musicians play in harmony."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://docs.docker.com/engine/swarm/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Management of Docker container clusters"
   },
   {
     slug: "oAuth2_0",
@@ -3386,13 +3491,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Imagine OAuth 2.0 as a permission slip that allows access to specific parts of your data."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://oauth.net/2/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Authorization framework for resource access"
   },
   {
     slug: "jwt",
@@ -3405,13 +3511,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Think of JWT as a digital ID card that proves your identity and allows access to certain resources."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://jwt.io/introduction/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Securely transmit information as JSON"
   },
   {
     slug: "eventDrivenArchitecture",
@@ -3424,13 +3531,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Imagine it as a cause-and-effect system where specific events lead to certain actions."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://aws.amazon.com/event-driven-architecture/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Building software with actions triggering responses"
   },
   {
     slug: "cqrs",
@@ -3443,13 +3551,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Think of CQRS as organizing tasks to improve efficiency and clarity in your system."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://martinfowler.com/bliki/CQRS.html",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Separating read and write operations for efficiency"
   },
   {
     slug: "devSecOps",
@@ -3462,13 +3571,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Imagine DevSecOps as building with Legos where every piece is checked for safety."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://www.redhat.com/en/topics/devops/what-is-devsecops",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Integrating security into the DevOps process"
   },
   {
     slug: "dataLake",
@@ -3481,13 +3591,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Think of a Data Lake as a big swimming pool where you can store different types of data."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://aws.amazon.com/big-data/datalakes-and-analytics/what-is-a-data-lake/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Vast storage for raw data in its native format"
   },
   {
     slug: "etl",
@@ -3500,13 +3611,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Imagine ETL as making a recipe where you gather ingredients, prepare them, and then serve the meal."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://www.talend.com/resources/what-is-etl/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Process to collect, change, and store data"
   },
   {
     slug: "monolith",
@@ -3519,13 +3631,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Imagine a monolith as an all-in-one tool that can be harder to fix if something breaks."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://en.wikipedia.org/wiki/Monolithic_application",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A single, large application handling multiple tasks"
   },
   {
     slug: "dataWarehouse",
@@ -3538,13 +3651,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Think of a Data Warehouse as a super-organized bookshelf that makes finding information quick and easy."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://www.oracle.com/data-warehouse/what-is-a-data-warehouse.html",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "System for storing and managing large data for analysis"
   },
   {
     slug: "graphDatabases",
@@ -3557,13 +3671,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Imagine a Graph Database as a map of your friendships, showing who knows who."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://neo4j.com/what-is-a-graph-database/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Databases storing data in nodes and edges to show relationships"
   },
   {
     slug: "apm",
@@ -3576,13 +3691,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Think of APM as a doctor for your apps, keeping them in top shape."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://www.dynatrace.com/news/blog/what-is-apm/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Monitors and manages software application performance"
   },
   {
     slug: "infrastructureAsCode",
@@ -3595,13 +3711,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Imagine IaC as writing instructions for a robot to set up your computer systems."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Managing infrastructure through machine-readable scripts"
   },
   {
     slug: "immutableInfrastructure",
@@ -3614,13 +3731,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Imagine Immutable Infrastructure as using new Lego pieces each time you build something new."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://www.redhat.com/en/topics/automation/what-is-immutable-infrastructure",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Infrastructure that is never modified after deployment"
   },
   {
     slug: "distributedLedgerTechnology",
@@ -3633,13 +3751,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Think of DLT as sharing your diary with friends to ensure everyone has the same stories."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://www.ibm.com/blockchain/what-is-blockchain",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Digital system recording transactions in multiple places simultaneously"
   },
   {
     slug: "chaosEngineering",
@@ -3652,13 +3771,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Imagine Chaos Engineering as stress-testing your structures to ensure they can handle unexpected events."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://principlesofchaos.org/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Practice of testing systems to withstand turbulent conditions"
   },
   {
     slug: "reactiveProgramming",
@@ -3671,13 +3791,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Imagine Reactive Programming as being able to respond quickly to events, just like a reflex."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://www.reactivemanifesto.org/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Handling data streams and changes in real time"
   },
   {
     slug: "dataSharding",
@@ -3696,7 +3817,8 @@ const cards = [
       ref: "https://www.mongodb.com/basics/sharding",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Splitting a database into smaller, faster parts"
   },
   {
     slug: "apiGateway",
@@ -3715,7 +3837,8 @@ const cards = [
       ref: "https://aws.amazon.com/api-gateway/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Manages requests and directs them to the correct services"
   },
   {
     slug: "webRTC",
@@ -3734,7 +3857,8 @@ const cards = [
       ref: "https://webrtc.org/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Enabling real-time communication directly in web browsers"
   },
   {
     slug: "dataGovernance",
@@ -3747,13 +3871,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Think of Data Governance as setting rules and responsibilities for handling data properly."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://www.dataversity.net/what-is-data-governance/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Management of data's availability, usability, integrity, and security"
   },
   {
     slug: "dataAnonymization",
@@ -3772,7 +3897,8 @@ const cards = [
       ref: "https://en.wikipedia.org/wiki/Data_anonymization",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Removing personal identifiers from data to protect privacy"
   },
   {
     slug: "federatedLearning",
@@ -3791,7 +3917,8 @@ const cards = [
       ref: "https://ai.googleblog.com/2017/04/federated-learning-collaborative.html",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Training AI models across multiple devices without sharing data"
   },
   {
     slug: "explainableAI",
@@ -3810,7 +3937,8 @@ const cards = [
       ref: "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Making AI decisions understandable to humans"
   },
   {
     slug: "syntheticData",
@@ -3823,13 +3951,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Imagine Synthetic Data as a practice exam that helps you prepare for the real test without using real questions."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://en.wikipedia.org/wiki/Synthetic_data",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Artificially generated data that mimics real data"
   },
   {
     slug: "quantumCryptography",
@@ -3842,13 +3971,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Imagine Quantum Cryptography as an unbreakable lock that can only be opened with a special quantum key."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://en.wikipedia.org/wiki/Quantum_cryptography",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Using principles of quantum mechanics for secure communication"
   },
   {
     slug: "digitalTwins",
@@ -3861,13 +3991,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Imagine Digital Twins as having a virtual clone to test new ideas without any risk."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://en.wikipedia.org/wiki/Digital_twin",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Virtual replicas of physical objects or systems"
   },
   {
     slug: "edgeAI",
@@ -3880,13 +4011,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Imagine Edge AI as having a mini-brain in your device that makes decisions without waiting for instructions from a central server."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://en.wikipedia.org/wiki/Edge_AI",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Bringing artificial intelligence to edge devices to process data locally"
   },
   {
     slug: "homomorphicEncryption",
@@ -3899,13 +4031,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Imagine Homomorphic Encryption as doing math with secret numbers that only make sense when you finish the calculation."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://en.wikipedia.org/wiki/Homomorphic_encryption",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Performing computations on encrypted data without decryption"
   },
   {
     slug: "fogComputing",
@@ -3918,13 +4051,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Imagine Fog Computing as a network of small clouds that help process information locally."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://en.wikipedia.org/wiki/Fog_computing",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Extending cloud computing to the edge of an enterprise's network"
   },
   {
     slug: "virtualPrivateCloud",
@@ -3937,13 +4071,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Imagine a VPC as a secure area in a public place where only you can go."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://en.wikipedia.org/wiki/Virtual_private_cloud",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Isolated cloud resources for enhanced security within a public cloud"
   },
   {
     slug: "hybridCloud",
@@ -3956,13 +4091,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Imagine Hybrid Cloud as using both your own secure space and a shared area for different needs."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://en.wikipedia.org/wiki/Hybrid_cloud",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Combining public and private cloud environments for flexibility"
   },
   {
     slug: "multiCloudStrategy",
@@ -3975,13 +4111,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Imagine Multi-Cloud as using various suppliers to get the best products for your needs."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://en.wikipedia.org/wiki/Multicloud",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Using multiple cloud computing services to mitigate single-provider risks"
   },
   {
     slug: "dataOps",
@@ -3994,13 +4131,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Imagine DataOps as a factory that processes data quickly and efficiently to produce valuable insights."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://en.wikipedia.org/wiki/DataOps",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "An agile methodology for developing and maintaining data analytics"
   },
   {
     slug: "bioinformatics",
@@ -4013,13 +4151,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Imagine Bioinformatics as a digital detective solving mysteries of living organisms."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://en.wikipedia.org/wiki/Bioinformatics",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Using technology to understand biological data"
   },
   {
     slug: "gRPC",
@@ -4038,7 +4177,8 @@ const cards = [
       ref: "https://grpc.io/docs/what-is-grpc/introduction/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A high-performance framework for service communication"
   },
   {
     slug: "dependencyGraph",
@@ -4057,7 +4197,8 @@ const cards = [
       ref: "https://www.visual-paradigm.com/guide/software-development/what-is-dependency-graph/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Visualize dependencies in systems or projects"
   },
   {
     slug: "clusterComputing",
@@ -4076,7 +4217,8 @@ const cards = [
       ref: "https://www.techtarget.com/searchdatacenter/definition/cluster",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Connecting multiple computers to work as a single system"
   },
   {
     slug: "messageQueues",
@@ -4095,7 +4237,8 @@ const cards = [
       ref: "https://www.ibm.com/cloud/learn/message-queues",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Manage asynchronous communication between processes"
   },
   {
     slug: "rateLimiting",
@@ -4114,7 +4257,8 @@ const cards = [
       ref: "https://www.cloudflare.com/learning/ddos/ddos-rate-limiting/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Control the frequency of resource access to prevent overuse"
   },
   {
     slug: "concurrency",
@@ -4133,7 +4277,8 @@ const cards = [
       ref: "https://www.geeksforgeeks.org/concurrency-in-operating-system/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Run multiple processes simultaneously for efficiency"
   },
   {
     slug: "verticalScaling",
@@ -4152,7 +4297,8 @@ const cards = [
       ref: "https://www.ibm.com/cloud/learn/scaling",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Increase the capacity of a single server"
   },
   {
     slug: "horizontalScaling",
@@ -4171,7 +4317,8 @@ const cards = [
       ref: "https://www.datadoghq.com/blog/horizontal-scaling/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Add more machines to handle increased load"
   },
   {
     slug: "databaseIndexing",
@@ -4190,7 +4337,8 @@ const cards = [
       ref: "https://www.techopedia.com/definition/2788/indexing-database",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Improve data retrieval speed in databases"
   },
   {
     slug: "dataReplication",
@@ -4209,7 +4357,8 @@ const cards = [
       ref: "https://www.techtarget.com/searchdatamanagement/definition/data-replication",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Copy data to ensure consistency and accessibility"
   },
   {
     slug: "acidTransactions",
@@ -4228,7 +4377,8 @@ const cards = [
       ref: "https://www.ibm.com/cloud/learn/acid-properties",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Ensure reliability in database operations"
   },
   {
     slug: "eventuallyConsistentSystems",
@@ -4247,7 +4397,8 @@ const cards = [
       ref: "https://www.allthingsdistributed.com/2008/12/eventually_consistent.html",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Systems that eventually reach consistency over time"
   },
   {
     slug: "memoryLeaks",
@@ -4266,7 +4417,8 @@ const cards = [
       ref: "https://www.pluralsight.com/blog/software-development/understanding-memory-leaks",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Issues in memory management that can cause system crashes"
   },
   {
     slug: "namespace",
@@ -4285,7 +4437,8 @@ const cards = [
       ref: "https://docs.microsoft.com/en-us/cpp/cpp/namespaces-cpp",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Organize code to avoid naming conflicts"
   },
   {
     slug: "serviceDiscovery",
@@ -4304,7 +4457,8 @@ const cards = [
       ref: "https://www.consul.io/discovery.html",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Dynamic directory for services to find each other"
   },
   {
     slug: "throttling",
@@ -4323,7 +4477,8 @@ const cards = [
       ref: "https://www.cloudflare.com/learning/bots/what-is-rate-limiting/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Control network traffic to prevent overloading"
   },
   {
     slug: "functionAsAService",
@@ -4342,7 +4497,8 @@ const cards = [
       ref: "https://aws.amazon.com/lambda/faas/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Execute code without managing infrastructure"
   },
   {
     slug: "dataLakehouse",
@@ -4361,7 +4517,8 @@ const cards = [
       ref: "https://databricks.com/glossary/data-lakehouse",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Combine data lakes and warehouses for comprehensive storage"
   },
   {
     slug: "eventLoop",
@@ -4380,7 +4537,8 @@ const cards = [
       ref: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Programming construct that waits for and dispatches events"
   },
   {
     slug: "tokenization",
@@ -4399,7 +4557,8 @@ const cards = [
       ref: "https://www.pcisecuritystandards.org/pdfs/pci_fs_data_tokenization.pdf",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Convert sensitive data into non-sensitive tokens"
   },
   {
     slug: "serverSentEvents",
@@ -4418,7 +4577,8 @@ const cards = [
       ref: "https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Automatically update web pages with server data"
   },
   {
     slug: "messageBrokers",
@@ -4437,7 +4597,8 @@ const cards = [
       ref: "https://www.rabbitmq.com/tutorials/tutorial-one-python.html",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Intermediaries that manage communication between apps"
   },
   {
     slug: "cacheInvalidation",
@@ -4450,13 +4611,14 @@ const cards = [
       {
         type: modalContentTypes.p,
         content: "Think of cache invalidation like cleaning out your fridge; you need to remove old food to make room for fresh groceries."
-      },
+      }
     ],
     readMoreLink: {
       ref: "https://www.cloudflare.com/learning/cdn/what-is-caching/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Remove outdated data to make room for fresh information"
   },
   {
     slug: "immutableDataStructures",
@@ -4475,7 +4637,8 @@ const cards = [
       ref: "https://immutable-js.github.io/immutable-js/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Data structures that cannot be modified after creation"
   },
   {
     slug: "dataDeduplication",
@@ -4494,7 +4657,8 @@ const cards = [
       ref: "https://searchdatabackup.techtarget.com/definition/data-deduplication",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Eliminate redundant data to increase storage efficiency"
   },
   {
     slug: "statefulVsStatelessSystems",
@@ -4513,7 +4677,8 @@ const cards = [
       ref: "https://www.cloudflare.com/learning/serverless/glossary/stateful-vs-stateless/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Compare systems that maintain state with those that don't"
   },
   {
     slug: "zeroDowntimeDeployment",
@@ -4532,7 +4697,8 @@ const cards = [
       ref: "https://www.digitalocean.com/community/tutorials/what-is-zero-downtime-deployment",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Update software without causing service disruption"
   },
   {
     slug: "dataPartitioning",
@@ -4551,7 +4717,8 @@ const cards = [
       ref: "https://docs.microsoft.com/en-us/sql/relational-databases/partitions/partitioned-tables-and-indexes?view=sql-server-ver15",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Divide a database into distinct, independent parts"
   },
   {
     slug: "featureBranching",
@@ -4570,7 +4737,8 @@ const cards = [
       ref: "https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Isolate development in branches for easier integration"
   },
   {
     slug: "deadlock",
@@ -4589,7 +4757,8 @@ const cards = [
       ref: "https://www.geeksforgeeks.org/deadlock-in-operating-system/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A stand-off where processes block each other's progress"
   },
   {
     slug: "microBatching",
@@ -4608,7 +4777,8 @@ const cards = [
       ref: "https://spark.apache.org/docs/latest/streaming-programming-guide.html#window-operations",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Process small groups of data in short intervals"
   },
   {
     slug: "domainDrivenDesign",
@@ -4627,7 +4797,8 @@ const cards = [
       ref: "https://martinfowler.com/bliki/DomainDrivenDesign.html",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Software development approach focused on core business concepts"
   },
   {
     slug: "apiVersioning",
@@ -4646,7 +4817,8 @@ const cards = [
       ref: "https://www.mulesoft.com/resources/api/api-versioning-guide",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Manage API changes by assigning version numbers"
   },
   {
     slug: "distributedFileSystem",
@@ -4665,7 +4837,8 @@ const cards = [
       ref: "https://www.ibm.com/docs/en/zos/2.1.0?topic=concepts-distributed-file-system",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "A network file system that spans multiple servers"
   },
   {
     slug: "statefulWidget",
@@ -4684,7 +4857,8 @@ const cards = [
       ref: "https://flutter.dev/docs/development/ui/widgets-intro",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "UI component that maintains state across sessions"
   },
   {
     slug: "serverlessFunctions",
@@ -4703,7 +4877,8 @@ const cards = [
       ref: "https://aws.amazon.com/lambda/serverless-architectures-learn-more/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Execute code without the need to manage servers"
   },
   {
     slug: "edgeServices",
@@ -4722,7 +4897,8 @@ const cards = [
       ref: "https://www.cloudflare.com/learning/edge/what-is-edge-computing/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Technologies providing services closer to the user"
   },
   {
     slug: "darkLaunch",
@@ -4741,7 +4917,8 @@ const cards = [
       ref: "https://launchdarkly.com/blog/guide-to-dark-launching/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Release features to a subset of users without their knowledge"
   },
   {
     slug: "cloudSecurity",
@@ -4760,7 +4937,8 @@ const cards = [
       ref: "https://www.cisco.com/c/en/us/solutions/enterprise-networks/cloud-security/index.html",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Procedures and technology to secure cloud environments"
   },
   {
     slug: "scalability",
@@ -4779,7 +4957,8 @@ const cards = [
       ref: "https://azure.microsoft.com/en-us/overview/what-is-scalability/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Capability of a system to handle growth"
   },
   {
     slug: "eventStreamProcessing",
@@ -4798,7 +4977,8 @@ const cards = [
       ref: "https://www.confluent.io/event-stream-processing/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Analyze and process continuous streams of events"
   },
   {
     slug: "multiTenancy",
@@ -4817,7 +4997,8 @@ const cards = [
       ref: "https://www.redhat.com/en/topics/cloud-computing/what-is-multi-tenancy",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Single instance of software serves multiple customers"
   },
   {
     slug: "dataLakesVsDataWarehouses",
@@ -4836,7 +5017,8 @@ const cards = [
       ref: "https://aws.amazon.com/big-data/datalakes-and-analytics/data-lake-vs-data-warehouse/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Unorganized vs Organized"
   },
   {
     slug: "softwareContainers",
@@ -4855,7 +5037,8 @@ const cards = [
       ref: "https://www.docker.com/resources/what-container/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Package an application and its dependencies into a unit"
   },
   {
     slug: "cloudOrchestration",
@@ -4874,7 +5057,8 @@ const cards = [
       ref: "https://www.vmware.com/topics/glossary/content/cloud-orchestration",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Automated arrangement and coordination of cloud services"
   },
   {
     slug: "networkSlicing",
@@ -4893,7 +5077,8 @@ const cards = [
       ref: "https://www.ericsson.com/en/5g/numerology/network-slicing",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Create multiple virtual networks on shared infrastructure"
   },
   {
     slug: "IoTEdgeComputing",
@@ -4912,7 +5097,8 @@ const cards = [
       ref: "https://www.intel.com/content/www/us/en/internet-of-things/solutions/what-is-edge-computing.html",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Process data near its source in IoT devices"
   },
   {
     slug: "dataLakesAndWarehousesIntegration",
@@ -4931,7 +5117,8 @@ const cards = [
       ref: "https://www.dataversity.net/integrating-data-lakes-data-warehouses/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Combine raw and structured data storage for better management"
   },
   {
     slug: "machineLearningOperations",
@@ -4950,28 +5137,29 @@ const cards = [
       ref: "https://mlops.community/what-is-mlops/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "Streamline machine learning processes using DevOps principles"
   },
   {
     slug: "GDPR",
     title: "GDPR",
-    modalContent:
-      [
-        {
-          type: modalContentTypes.p,
-          content: "The General Data Protection Regulation (GDPR) is a comprehensive data protection law in the European Union designed to enhance individuals' control over their personal information. It sets strict guidelines on how companies collect, store, and manage personal data."
-        },
-        {
-          type: modalContentTypes.img,
-          src: "https://d2z0k1elb7rxgj.cloudfront.net/uploads/2019/12/gdpr-guidelines-1024x531.png",
-          alt: "GDPR Guidelines"
-        }
-      ],
+    modalContent: [
+      {
+        type: modalContentTypes.p,
+        content: "The General Data Protection Regulation (GDPR) is a comprehensive data protection law in the European Union designed to enhance individuals' control over their personal information. It sets strict guidelines on how companies collect, store, and manage personal data."
+      },
+      {
+        type: modalContentTypes.img,
+        src: "https://d2z0k1elb7rxgj.cloudfront.net/uploads/2019/12/gdpr-guidelines-1024x531.png",
+        alt: "GDPR Guidelines"
+      }
+    ],
     readMoreLink: {
       ref: "https://gdpr.eu/what-is-gdpr/",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "General Data Protection Regulation"
   },
   {
     slug: "symmetricCryptography",
@@ -4995,7 +5183,8 @@ const cards = [
       ref: "https://simple.wikipedia.org/wiki/Symmetric-key_algorithm",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "algorithms for cryptography that use the same cryptographic keys for both the encryption of plaintext."
   },
   {
     slug: "AsymmetricCryptography",
@@ -5015,7 +5204,8 @@ const cards = [
       ref: "https://en.wikipedia.org/wiki/Public-key_cryptography",
       text: readMoreText
     },
-    keywords: []
+    keywords: [],
+    shortDesc: "cryptographic scheme requiring two different keys, one for encryption and the other for decryption."
   },
   {
     slug: "iteration",
@@ -5033,7 +5223,8 @@ const cards = [
     readMoreLink: {
       ref: "https://goodspeed.studio/glossary/what-is-iteration-iteration-explained",
       text: readMoreText
-    }
+    },
+    shortDesc: "The process of repeating a set of operations or instructions."
   }
 ]
 
