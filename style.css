@@ -10,47 +10,84 @@ body {
     margin: 0;
     padding: 0;
 }
-#sponsor-info {
+#sponsors-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: space-between; 
+}
+
+.sponsor-info {
     display: flex;
     align-items: center;
+    flex: 1 1 auto; 
+    min-width: 250px; 
+    box-sizing: border-box;
     margin-top: 20px;
     padding: 10px;
-    border: 1px solid #000000; /* Optional: Add border to make it stand out */
-    border-radius: 15px; /* Optional: Add rounded corners */
-    background-color: #ffffff; /* Optional: Add background color */
-  }
-  
-  #sponsor-image {
-    width: 50px; /* Adjust size as needed */
-    height: 50px; /* Adjust size as needed */
+    border: 1px solid #000000; 
+    border-radius: 15px; 
+    background-color: #ffffff; 
+}
+
+.sponsor-image {
+    width: 50px; 
+    height: 50px; 
     border-radius: 50%;
     object-fit: cover;
     margin-right: 15px;
-  }
-  
-  #sponsor-name {
+    flex-shrink: 0; 
+}
+
+.sponsor-name {
     font-size: 15px; 
     font-weight: bold;
-    color: #0073b1; 
+    color: #000000; 
     text-decoration: none;
-  }
-  
-  #sponsor-name:hover {
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    flex-grow: 1; }
+
+.sponsor-name:hover {
     text-decoration: underline; 
-  }
-  
-  @media (max-width: 600px) {
-    #sponsor-info {
-      flex-direction: column;
-      align-items: center;
+}
+
+.sponsor-name-no-link {
+    font-size: 15px; 
+    font-weight: bold;
+    color: #000000; 
+    text-decoration: none;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    flex-grow: 1; }
+
+
+
+
+@media (max-width: 900px) {
+    .sponsor-info {
+        flex: 1 1 45%; 
     }
-  
-    #sponsor-image {
-      margin-right: 0;
-      margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    #sponsors-container {
+        flex-direction: column;
     }
-  }
-  
+
+    .sponsor-info {
+        flex: 1 1 100%; 
+        margin-top: 10px;
+    }
+
+    .sponsor-info img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
   
 
 .hero-section {
