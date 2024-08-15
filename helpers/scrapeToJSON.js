@@ -6,6 +6,8 @@ How to USE:
 
     this will give the cards.json object, that can be copied and inserted into cards.json file. This will help to resolve any merge conflicts, or adding a new card that is still in the old format.
 
+    This scraper removes the need for an external application. to convert cards
+
 */
 
 let html_cards_arr = []; 
