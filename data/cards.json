@@ -1,7 +1,7 @@
 {
     "machineLearning": {
         "title": "Machine Learning",
-        "subtext": "AI exists thanks to this",
+        "subtext": "AI exists thanks to this.",
         "content": {
             "heading": "Machine Learning",
             "paragraphs": [
@@ -364,7 +364,7 @@
     },
     "inheritance": {
         "title": "Inheritance",
-        "subtext": "Creating new classes from existing ones, inheriting their properties and behaviors.",
+        "subtext": "Creating new classes from existing ones, inheriting their properties and behaviors.\n      ",
         "content": {
             "heading": "Inheritance",
             "paragraphs": [
@@ -408,7 +408,7 @@
     },
     "debugger": {
         "title": "Debugger",
-        "subtext": "Tool for finding and fixing code errors",
+        "subtext": "Tool for finding and fixing code errors.",
         "content": {
             "heading": "Debugger",
             "paragraphs": [
@@ -426,7 +426,7 @@
     },
     "deployment": {
         "title": "Deployment",
-        "subtext": "Making applications available for use",
+        "subtext": "Making applications available for use.",
         "content": {
             "heading": "Deployment",
             "paragraphs": [
@@ -439,7 +439,7 @@
     },
     "continuousDeployment": {
         "title": "Continuous Deployment",
-        "subtext": "Automatic deployment of code changes",
+        "subtext": "Automatic deployment of code changes.",
         "content": {
             "heading": "Continuous Deployment",
             "paragraphs": [
@@ -452,7 +452,7 @@
     },
     "deploymentPipeline": {
         "title": "Deployment Pipeline",
-        "subtext": "Automated process for software changes",
+        "subtext": "Automated process for software changes.",
         "content": {
             "heading": "Deployment Pipeline",
             "paragraphs": [
@@ -470,7 +470,7 @@
     },
     "dataValidation": {
         "title": "Data Validation",
-        "subtext": "Ensuring data accuracy and completeness",
+        "subtext": "Ensuring data accuracy and completeness.",
         "content": {
             "heading": "Data Validation",
             "paragraphs": [
@@ -488,7 +488,7 @@
     },
     "dataSerialization": {
         "title": "Data Serialization",
-        "subtext": "Converting data for storage or transmission",
+        "subtext": "Converting data for storage or transmission.",
         "content": {
             "heading": "Data Serialization",
             "paragraphs": [
@@ -506,7 +506,7 @@
     },
     "mocking": {
         "title": "Mocking",
-        "subtext": "Creating fake objects for testing",
+        "subtext": "Creating fake objects for testing.",
         "content": {
             "heading": "Mocking",
             "paragraphs": [
@@ -519,7 +519,7 @@
     },
     "authentication": {
         "title": "Authentication",
-        "subtext": "Verifying user identity",
+        "subtext": "Verifying user identity.",
         "content": {
             "heading": "Authentication",
             "paragraphs": [
@@ -537,7 +537,7 @@
     },
     "authorization": {
         "title": "Authorization",
-        "subtext": "Determining user permissions",
+        "subtext": "Determining user permissions.",
         "content": {
             "heading": "Authorization",
             "paragraphs": [
@@ -555,7 +555,7 @@
     },
     "prototypes": {
         "title": "Prototypes (Software Development)",
-        "subtext": "Early models of software for testing",
+        "subtext": "Early models of software for testing.",
         "content": {
             "heading": "Prototypes (Software Development)",
             "paragraphs": [
@@ -568,7 +568,7 @@
     },
     "monolithicArchitecture": {
         "title": "Monolithic Architecture",
-        "subtext": "Integrated large system design",
+        "subtext": "Integrated large system design.",
         "content": {
             "heading": "Monolithic Architecture",
             "paragraphs": [
@@ -586,7 +586,7 @@
     },
     "github": {
         "title": "GitHub",
-        "subtext": "Platform for code hosting and collaboration",
+        "subtext": "Platform for code hosting and collaboration.",
         "content": {
             "heading": "GitHub",
             "paragraphs": [
@@ -604,7 +604,7 @@
     },
     "orm": {
         "title": "ORM (Object-Relational Mapping)",
-        "subtext": "Mapping database tables to objects",
+        "subtext": "Mapping database tables to objects.",
         "content": {
             "heading": "ORM (Object-Relational Mapping)",
             "paragraphs": [
@@ -622,7 +622,7 @@
     },
     "caching": {
         "title": "Caching",
-        "subtext": "Storing data for quick access",
+        "subtext": "Storing data for quick access.",
         "content": {
             "heading": "Caching",
             "paragraphs": [
@@ -635,7 +635,7 @@
     },
     "deepLearning": {
         "title": "Deep Learning",
-        "subtext": "A subset of machine learning",
+        "subtext": "A subset of machine learning.",
         "content": {
             "heading": "Deep Learning",
             "paragraphs": [
@@ -653,7 +653,7 @@
     },
     "artificialIntelligence": {
         "title": "Artificial Intelligence",
-        "subtext": "A frenemy",
+        "subtext": "A frenemy.",
         "content": {
             "heading": "Artificial Intelligence",
             "paragraphs": [
@@ -671,7 +671,7 @@
     },
     "cybersecurity": {
         "title": "Cybersecurity",
-        "subtext": "Staying secured in a a world of hackers",
+        "subtext": "Staying secured in a a world of hackers.",
         "content": {
             "heading": "Cybersecurity",
             "paragraphs": [
@@ -689,7 +689,7 @@
     },
     "epochs": {
         "title": "Epochs",
-        "subtext": "Training rounds in Machine Learning",
+        "subtext": "Training rounds in Machine Learning.",
         "content": {
             "heading": "Epochs",
             "paragraphs": [
@@ -707,7 +707,7 @@
     },
     "apis": {
         "title": "APIs",
-        "subtext": "Application Programming Interfaces",
+        "subtext": "Application Programming Interfaces.",
         "content": {
             "heading": "APIs",
             "paragraphs": [
@@ -725,7 +725,7 @@
     },
     "cloudComputing": {
         "title": "Cloud Computing",
-        "subtext": "It's always fun on the clouds, until it starts \"leaking\"",
+        "subtext": "It's always fun on the clouds, until it starts \"leaking\".",
         "content": {
             "heading": "Cloud Computing",
             "paragraphs": [
@@ -743,7 +743,7 @@
     },
     "dataScience": {
         "title": "Data Science",
-        "subtext": "Science of converting information to Data",
+        "subtext": "Science of converting information to Data.",
         "content": {
             "heading": "Data Science",
             "paragraphs": [
@@ -761,7 +761,7 @@
     },
     "quantumComputing": {
         "title": "Quantum Computing",
-        "subtext": "Sheldon Cooper's gonna love this",
+        "subtext": "Sheldon Cooper's gonna love this.",
         "content": {
             "heading": "Quantum Computing",
             "paragraphs": [
@@ -779,7 +779,7 @@
     },
     "internetOfThings": {
         "title": "Internet of Things",
-        "subtext": "A Network of things",
+        "subtext": "A Network of things.",
         "content": {
             "heading": "Internet of Things",
             "paragraphs": [
@@ -797,7 +797,7 @@
     },
     "blockchain": {
         "title": "Blockchain",
-        "subtext": "A chain of transactions\n        ",
+        "subtext": "A chain of transactions.",
         "content": {
             "heading": "Blockchain",
             "paragraphs": [
@@ -815,7 +815,7 @@
     },
     "reactJS": {
         "title": "ReactJS",
-        "subtext": "A popular JS library for building user-interfaces",
+        "subtext": "A popular JS library for building user-interfaces.",
         "content": {
             "heading": "ReactJS",
             "paragraphs": [
@@ -833,7 +833,7 @@
     },
     "docker": {
         "title": "Docker",
-        "subtext": "The most popular Container tool",
+        "subtext": "The most popular Container tool.",
         "content": {
             "heading": "Docker",
             "paragraphs": [
@@ -851,7 +851,7 @@
     },
     "initFunction": {
         "title": "The __init__ Function",
-        "subtext": "A special method in Python Programming Language",
+        "subtext": "A special method in Python Programming Language.",
         "content": {
             "heading": "__init__ Function",
             "paragraphs": [
@@ -869,7 +869,7 @@
     },
     "threeSigmaRule": {
         "title": "Three-Sigma Rule",
-        "subtext": "A rule of thumb in data science",
+        "subtext": "A rule of thumb in data science.",
         "content": {
             "heading": "Three-Sigma Rule",
             "paragraphs": [
@@ -887,7 +887,7 @@
     },
     "recursion": {
         "title": "Recursion",
-        "subtext": "A programming technique",
+        "subtext": "A programming technique.",
         "content": {
             "heading": "Recursion",
             "paragraphs": [
@@ -905,11 +905,11 @@
     },
     "iteration ": {
         "title": "Iteration",
-        "subtext": "A programming technique"
+        "subtext": "A programming technique."
     },
     "versionControl": {
         "title": "Version Control",
-        "subtext": "Recording every change",
+        "subtext": "Recording every change.",
         "content": {
             "heading": "Version Control",
             "paragraphs": [
@@ -927,7 +927,7 @@
     },
     "git": {
         "title": "Git",
-        "subtext": "The most popular version control system",
+        "subtext": "The most popular version control system.",
         "content": {
             "heading": "Git",
             "paragraphs": [
@@ -940,7 +940,7 @@
     },
     "microservices": {
         "title": "Microservices",
-        "subtext": "Independent services working together",
+        "subtext": "Independent services working together.",
         "content": {
             "heading": "Microservices",
             "paragraphs": [
@@ -958,7 +958,7 @@
     },
     "restfulAPI": {
         "title": "RESTful API",
-        "subtext": "API using standard HTTP methods",
+        "subtext": "API using standard HTTP methods.",
         "content": {
             "heading": "RESTful API",
             "paragraphs": [
@@ -976,7 +976,7 @@
     },
     "graphql": {
         "title": "GraphQL",
-        "subtext": "Query language for APIs",
+        "subtext": "Query language for APIs.",
         "content": {
             "heading": "GraphQL",
             "paragraphs": [
@@ -994,7 +994,7 @@
     },
     "containerization": {
         "title": "Containerization",
-        "subtext": "Packaging applications for consistent deployment",
+        "subtext": "Packaging applications for consistent deployment.",
         "content": {
             "heading": "Containerization",
             "paragraphs": [
@@ -1007,7 +1007,7 @@
     },
     "kubernetes": {
         "title": "Kubernetes",
-        "subtext": "Platform for automating container management",
+        "subtext": "Platform for automating container management.",
         "content": {
             "heading": "Kubernetes",
             "paragraphs": [
@@ -1025,7 +1025,7 @@
     },
     "branching": {
         "title": "Branching",
-        "subtext": "Creating separate code versions",
+        "subtext": "Creating separate code versions.",
         "content": {
             "heading": "Branching",
             "paragraphs": [
@@ -1043,7 +1043,7 @@
     },
     "merging": {
         "title": "Merging",
-        "subtext": "Combining changes from branches",
+        "subtext": "Combining changes from branches.",
         "content": {
             "heading": "Merging",
             "paragraphs": [
@@ -1056,7 +1056,7 @@
     },
     "pullRequests": {
         "title": "Pull Requests (PR)",
-        "subtext": "Proposing and reviewing code changes",
+        "subtext": "Proposing and reviewing code changes.",
         "content": {
             "heading": "Pull Requests (PR)",
             "paragraphs": [
@@ -1069,7 +1069,7 @@
     },
     "codeReview": {
         "title": "Code Review",
-        "subtext": "Checking code for quality and improvement",
+        "subtext": "Checking code for quality and improvement.",
         "content": {
             "heading": "Code Review",
             "paragraphs": [
@@ -1087,7 +1087,7 @@
     },
     "refactoring": {
         "title": "Refactoring",
-        "subtext": "Improving code structure without changing behavior",
+        "subtext": "Improving code structure without changing behavior.",
         "content": {
             "heading": "Refactoring",
             "paragraphs": [
@@ -1105,7 +1105,7 @@
     },
     "technicalDebt": {
         "title": "Technical Debt",
-        "subtext": "Extra work due to past shortcuts",
+        "subtext": "Extra work due to past shortcuts.",
         "content": {
             "heading": "Technical Debt",
             "paragraphs": [
@@ -1123,7 +1123,7 @@
     },
     "designPatterns": {
         "title": "Design Patterns",
-        "subtext": "Standard solutions to common design problems",
+        "subtext": "Standard solutions to common design problems.",
         "content": {
             "heading": "Design Patterns",
             "paragraphs": [
@@ -1136,7 +1136,7 @@
     },
     "solidPrinciples": {
         "title": "SOLID Principles",
-        "subtext": "Guidelines for better software design",
+        "subtext": "Guidelines for better software design.",
         "content": {
             "heading": "SOLID Principles",
             "paragraphs": [
@@ -1154,7 +1154,7 @@
     },
     "kissPrinciple": {
         "title": "KISS Principle",
-        "subtext": "Keep it simple to avoid complexity",
+        "subtext": "Keep it simple to avoid complexity.",
         "content": {
             "heading": "KISS Principle",
             "paragraphs": [
@@ -1172,7 +1172,7 @@
     },
     "dryPrinciple": {
         "title": "DRY Principle",
-        "subtext": "Avoid code repetition",
+        "subtext": "Avoid code repetition.",
         "content": {
             "heading": "DRY Principle",
             "paragraphs": [
@@ -1190,7 +1190,7 @@
     },
     "agile": {
         "title": "Agile",
-        "subtext": "A methology in Software Development",
+        "subtext": "A methodology in Software Development.",
         "content": {
             "heading": "Agile",
             "paragraphs": [
@@ -1208,7 +1208,7 @@
     },
     "scrum": {
         "title": "Scrum",
-        "subtext": "A framework within the Agile methodology",
+        "subtext": "A framework within the Agile methodology.",
         "content": {
             "heading": "Scrum",
             "paragraphs": [
@@ -1226,7 +1226,7 @@
     },
     "kanban": {
         "title": "Kanban",
-        "subtext": "A visual workflow management method",
+        "subtext": "A visual workflow management method.",
         "content": {
             "heading": "Kanban",
             "paragraphs": [
@@ -1244,7 +1244,7 @@
     },
     "html": {
         "title": "HTML",
-        "subtext": "HyperText Markup Language",
+        "subtext": "HyperText Markup Language.",
         "content": {
             "heading": "HTML",
             "paragraphs": [
@@ -1253,7 +1253,7 @@
             ],
             "images": [
                 {
-                    "link": "https://devpedia.pages.dev/assets/images/html.jpg",
+                    "link": "http://127.0.0.1:5500/assets/images/html.jpg",
                     "description": "HTML image"
                 }
             ],
@@ -1262,7 +1262,7 @@
     },
     "css": {
         "title": "CSS",
-        "subtext": "Cascading Style Sheets",
+        "subtext": "Cascading Style Sheets.",
         "content": {
             "heading": "CSS",
             "paragraphs": [
@@ -1271,7 +1271,7 @@
             ],
             "images": [
                 {
-                    "link": "https://devpedia.pages.dev/assets/images/css.jpg",
+                    "link": "http://127.0.0.1:5500/assets/images/css.jpg",
                     "description": "CSS image"
                 }
             ],
@@ -1280,7 +1280,7 @@
     },
     "java": {
         "title": "Java",
-        "subtext": "A high-level programming-language",
+        "subtext": "A high-level programming-language.",
         "content": {
             "heading": "Java",
             "paragraphs": [
@@ -1289,7 +1289,7 @@
             ],
             "images": [
                 {
-                    "link": "https://devpedia.pages.dev/assets/images/java.jpg",
+                    "link": "http://127.0.0.1:5500/assets/images/java.jpg",
                     "description": "Java image"
                 }
             ],
@@ -1298,11 +1298,11 @@
     },
     "C#": {
         "title": "C#",
-        "subtext": "A modern, OOP language from Microsoft"
+        "subtext": "A modern, OOP language from Microsoft."
     },
     "ruby": {
         "title": "Ruby",
-        "subtext": "Another simple, OOP language",
+        "subtext": "Another simple, OOP language.",
         "content": {
             "heading": "Ruby",
             "paragraphs": [
@@ -1315,7 +1315,7 @@
     },
     "swift": {
         "title": "Swift",
-        "subtext": "A programming language from Apple",
+        "subtext": "A programming language from Apple.",
         "content": {
             "heading": "Swift",
             "paragraphs": [
@@ -1324,7 +1324,7 @@
             ],
             "images": [
                 {
-                    "link": "https://devpedia.pages.dev/assets/images/swift.jpg",
+                    "link": "http://127.0.0.1:5500/assets/images/swift.jpg",
                     "description": "Swift image"
                 }
             ],
@@ -1333,7 +1333,7 @@
     },
     "typescript": {
         "title": "Typescript",
-        "subtext": "A superset of JavaScript",
+        "subtext": "A superset of JavaScript.",
         "content": {
             "heading": "TypeScript",
             "paragraphs": [
@@ -1342,7 +1342,7 @@
             ],
             "images": [
                 {
-                    "link": "https://devpedia.pages.dev/assets/images/typescript.jpg",
+                    "link": "http://127.0.0.1:5500/assets/images/typescript.jpg",
                     "description": "TypeScript image"
                 }
             ],
@@ -1351,7 +1351,7 @@
     },
     "kotlin": {
         "title": "Kotlin",
-        "subtext": "A statically-typed programming language by JetBrains",
+        "subtext": "A statically-typed programming language by JetBrains.",
         "content": {
             "heading": "Kotlin",
             "paragraphs": [
@@ -1364,7 +1364,7 @@
     },
     "bash": {
         "title": "Bash",
-        "subtext": "A unix shell and command language",
+        "subtext": "A unix shell and command language.",
         "content": {
             "heading": "Bash",
             "paragraphs": [
@@ -1377,7 +1377,7 @@
     },
     "rubyOnRails": {
         "title": "Ruby on Rails",
-        "subtext": "A web application framework written in Ruby",
+        "subtext": "A web application framework written in Ruby.",
         "content": {
             "heading": "Ruby on Rails",
             "paragraphs": [
@@ -1386,7 +1386,7 @@
             ],
             "images": [
                 {
-                    "link": "https://devpedia.pages.dev/assets/images/rubyOnRails.jpg",
+                    "link": "http://127.0.0.1:5500/assets/images/rubyOnRails.jpg",
                     "description": "Ruby on Rails image"
                 }
             ],
@@ -1395,7 +1395,7 @@
     },
     "angular": {
         "title": "Angular",
-        "subtext": "A TypeScript-based web application framework",
+        "subtext": "A TypeScript-based web application framework.",
         "content": {
             "heading": "Angular",
             "paragraphs": [
@@ -1413,7 +1413,7 @@
     },
     "vueJS": {
         "title": "VueJS",
-        "subtext": "A <s>aggressive</s> progressive JavaScript framework",
+        "subtext": "A <s>aggressive</s> progressive JavaScript framework.",
         "content": {
             "heading": "VueJS",
             "paragraphs": [
@@ -1431,7 +1431,7 @@
     },
     "flutter": {
         "title": "Flutter",
-        "subtext": "An UI toolkit from Google",
+        "subtext": "An UI toolkit from Google.",
         "content": {
             "heading": "Flutter",
             "paragraphs": [
@@ -1440,7 +1440,7 @@
             ],
             "images": [
                 {
-                    "link": "https://devpedia.pages.dev/assets/images/flutter.jpg",
+                    "link": "http://127.0.0.1:5500/assets/images/flutter.jpg",
                     "description": "Flutter image"
                 }
             ],
@@ -1449,7 +1449,7 @@
     },
     "swiftUI": {
         "title": "SwiftUI",
-        "subtext": "Another framework from Apple",
+        "subtext": "Another framework from Apple.",
         "content": {
             "heading": "SwiftUI",
             "paragraphs": [
@@ -1462,7 +1462,7 @@
     },
     "dataStructure": {
         "title": "Data Structure",
-        "subtext": "A way of oragnzing and storing data",
+        "subtext": "A way of organizing and storing data.",
         "content": {
             "heading": "Data Structure",
             "paragraphs": [
@@ -1494,7 +1494,7 @@
     },
     "recursionDepth": {
         "title": "Recursion Depth",
-        "subtext": "Used to elaborate on recusrion method",
+        "subtext": "Used to elaborate on recursion method.",
         "content": {
             "heading": "Recursion Depth",
             "paragraphs": [
@@ -1524,7 +1524,7 @@
     },
     "testing": {
         "title": "Testing",
-        "subtext": "The ultimate fear of developers",
+        "subtext": "The ultimate fear of developers.",
         "content": {
             "heading": "Testing",
             "paragraphs": [
@@ -1537,7 +1537,7 @@
     },
     "unitTest": {
         "title": "Unit test",
-        "subtext": "A type of testing",
+        "subtext": "A type of testing.",
         "content": {
             "heading": "Unit Test",
             "paragraphs": [
@@ -1555,7 +1555,7 @@
     },
     "integrationTest": {
         "title": "Integration Test",
-        "subtext": "Another type of testing",
+        "subtext": "Another type of testing.",
         "content": {
             "heading": "Integration Test",
             "paragraphs": [
@@ -1573,7 +1573,7 @@
     },
     "endToEndTest": {
         "title": "End-to-End Test",
-        "subtext": "Another type of testing",
+        "subtext": "Another type of testing.",
         "content": {
             "heading": "End-to-End Test",
             "paragraphs": [
@@ -1591,7 +1591,7 @@
     },
     "performanceTest": {
         "title": "Performence Test",
-        "subtext": "A type of testing focusing on applcation performence",
+        "subtext": "A type of testing focusing on application performance.",
         "content": {
             "heading": "Performance Test",
             "paragraphs": [
@@ -1609,7 +1609,7 @@
     },
     "loadTest": {
         "title": "Load Test",
-        "subtext": "A type of performance testing",
+        "subtext": "A type of performance testing.",
         "content": {
             "heading": "Load Test",
             "paragraphs": [
@@ -1622,7 +1622,7 @@
     },
     "stressTest": {
         "title": "Stress Test",
-        "subtext": "A type of performance testing under pressure ",
+        "subtext": "A type of performance testing under pressure.",
         "content": {
             "heading": "Stress Test",
             "paragraphs": [
@@ -1635,7 +1635,7 @@
     },
     "securityTest": {
         "title": "Security Test",
-        "subtext": "A test against hacking and whatnot",
+        "subtext": "A test against hacking and whatnot.",
         "content": {
             "heading": "Security Test",
             "paragraphs": [
@@ -1648,7 +1648,7 @@
     },
     "usabilityTest": {
         "title": "Usability Test",
-        "subtext": "A test that ensures that application is user-friendly",
+        "subtext": "A test that ensures that application is user-friendly.",
         "content": {
             "heading": "Usability Test",
             "paragraphs": [
@@ -1661,7 +1661,7 @@
     },
     "uat": {
         "title": "User-Acceptance Test (UAT)",
-        "subtext": "Final user testing phase",
+        "subtext": "Final user testing phase.",
         "content": {
             "heading": "UAT",
             "paragraphs": [
@@ -1679,7 +1679,7 @@
     },
     "testDrivenDevelopment": {
         "title": "Test-Driven Development",
-        "subtext": "Or TDD, a software development approach",
+        "subtext": "Or TDD, a software development approach.",
         "content": {
             "heading": "Test-Driven Development",
             "paragraphs": [
@@ -1692,7 +1692,7 @@
     },
     "continuousIntegration": {
         "title": "Continuous Integration (CI)",
-        "subtext": "A software development practice",
+        "subtext": "A software development practice.",
         "content": {
             "heading": "Continuous Integration",
             "paragraphs": [
@@ -1710,7 +1710,7 @@
     },
     "continuousDelivery": {
         "title": "Continuous Delivery (CD)",
-        "subtext": "A software development practice often implemented with CI",
+        "subtext": "A software development practice often implemented with CI.",
         "content": {
             "heading": "Continuous Delivery",
             "paragraphs": [
@@ -1728,7 +1728,7 @@
     },
     "devOps": {
         "title": "DevOps",
-        "subtext": "A set of practices that combine Dev and Ops",
+        "subtext": "A set of practices that combine Dev and Ops.",
         "content": {
             "heading": "DevOps",
             "paragraphs": [
@@ -1746,7 +1746,7 @@
     },
     "sql": {
         "title": "SQL",
-        "subtext": "A relational database management system",
+        "subtext": "A relational database management system.",
         "content": {
             "heading": "SQL",
             "paragraphs": [
@@ -1764,7 +1764,7 @@
     },
     "nosql": {
         "title": "NoSQL",
-        "subtext": "A non-relational database management system",
+        "subtext": "A non-relational database management system.",
         "content": {
             "heading": "NoSQL",
             "paragraphs": [
@@ -1898,7 +1898,7 @@
     },
     "gRPC": {
         "title": "gRPC",
-        "subtext": "A high-performance framework for service communication",
+        "subtext": "A high-performance framework for service communication.",
         "content": {
             "heading": "gRPC",
             "paragraphs": [
@@ -1911,7 +1911,7 @@
     },
     "dependencyGraph": {
         "title": "Dependency Graph",
-        "subtext": "Visualize dependencies in systems or projects",
+        "subtext": "Visualize dependencies in systems or projects.",
         "content": {
             "heading": "Dependency Graph",
             "paragraphs": [
@@ -1924,7 +1924,7 @@
     },
     "clusterComputing": {
         "title": "Cluster Computing",
-        "subtext": "Connecting multiple computers to work as a single system",
+        "subtext": "Connecting multiple computers to work as a single system.",
         "content": {
             "heading": "Cluster Computing",
             "paragraphs": [
@@ -1937,7 +1937,7 @@
     },
     "messageQueues": {
         "title": "Message Queues",
-        "subtext": "Manage asynchronous communication between processes",
+        "subtext": "Manage asynchronous communication between processes.",
         "content": {
             "heading": "Message Queues",
             "paragraphs": [
@@ -1950,7 +1950,7 @@
     },
     "rateLimiting": {
         "title": "Rate Limiting",
-        "subtext": "Control the frequency of resource access to prevent overuse",
+        "subtext": "Control the frequency of resource access to prevent overuse.",
         "content": {
             "heading": "Rate Limiting",
             "paragraphs": [
@@ -1963,7 +1963,7 @@
     },
     "concurrency": {
         "title": "Concurrency",
-        "subtext": "Run multiple processes simultaneously for efficiency",
+        "subtext": "Run multiple processes simultaneously for efficiency.",
         "content": {
             "heading": "Concurrency",
             "paragraphs": [
@@ -1976,7 +1976,7 @@
     },
     "verticalScaling": {
         "title": "Vertical Scaling",
-        "subtext": "Increase the capacity of a single server",
+        "subtext": "Increase the capacity of a single server.",
         "content": {
             "heading": "Vertical Scaling",
             "paragraphs": [
@@ -1989,7 +1989,7 @@
     },
     "horizontalScaling": {
         "title": "Horizontal Scaling",
-        "subtext": "Add more machines to handle increased load",
+        "subtext": "Add more machines to handle increased load.",
         "content": {
             "heading": "Horizontal Scaling",
             "paragraphs": [
@@ -2002,7 +2002,7 @@
     },
     "databaseIndexing": {
         "title": "Database Indexing",
-        "subtext": "Improve data retrieval speed in databases",
+        "subtext": "Improve data retrieval speed in databases.",
         "content": {
             "heading": "Database Indexing",
             "paragraphs": [
@@ -2015,7 +2015,7 @@
     },
     "dataReplication": {
         "title": "Data Replication",
-        "subtext": "Copy data to ensure consistency and accessibility",
+        "subtext": "Copy data to ensure consistency and accessibility.",
         "content": {
             "heading": "Data Replication",
             "paragraphs": [
@@ -2028,7 +2028,7 @@
     },
     "acidTransactions": {
         "title": "ACID Transactions",
-        "subtext": "Ensure reliability in database operations",
+        "subtext": "Ensure reliability in database operations.",
         "content": {
             "heading": "ACID Transactions",
             "paragraphs": [
@@ -2041,7 +2041,7 @@
     },
     "eventuallyConsistentSystems": {
         "title": "Eventually Consistent Systems",
-        "subtext": "Systems that eventually reach consistency over time",
+        "subtext": "Systems that eventually reach consistency over time.",
         "content": {
             "heading": "Eventually Consistent Systems",
             "paragraphs": [
@@ -2053,7 +2053,7 @@
     },
     "memoryLeaks": {
         "title": "Memory Leaks",
-        "subtext": "Issues in memory management that can cause system crashes",
+        "subtext": "Issues in memory management that can cause system crashes.",
         "content": {
             "heading": "Memory Leaks",
             "paragraphs": [
@@ -2065,7 +2065,7 @@
     },
     "namespace": {
         "title": "Namespace",
-        "subtext": "Organize code to avoid naming conflicts",
+        "subtext": "Organize code to avoid naming conflicts.",
         "content": {
             "heading": "Namespace",
             "paragraphs": [
@@ -2077,7 +2077,7 @@
     },
     "serviceDiscovery": {
         "title": "Service Discovery",
-        "subtext": "Dynamic directory for services to find each other",
+        "subtext": "Dynamic directory for services to find each other.",
         "content": {
             "heading": "Service Discovery",
             "paragraphs": [
@@ -2090,7 +2090,7 @@
     },
     "throttling": {
         "title": "Throttling",
-        "subtext": "Control network traffic to prevent overloading",
+        "subtext": "Control network traffic to prevent overloading.",
         "content": {
             "heading": "Throttling",
             "paragraphs": [
@@ -2103,7 +2103,7 @@
     },
     "functionAsAService": {
         "title": "Function as a Service (FaaS)",
-        "subtext": "Execute code without managing infrastructure",
+        "subtext": "Execute code without managing infrastructure.",
         "content": {
             "heading": "Function as a Service (FaaS)",
             "paragraphs": [
@@ -2116,7 +2116,7 @@
     },
     "dataLakehouse": {
         "title": "Data Lakehouse",
-        "subtext": "Combine data lakes and warehouses for comprehensive storage",
+        "subtext": "Combine data lakes and warehouses for comprehensive storage.",
         "content": {
             "heading": "Data Lakehouse",
             "paragraphs": [
@@ -2129,7 +2129,7 @@
     },
     "eventLoop": {
         "title": "Event Loop",
-        "subtext": "Programming construct that waits for and dispatches events",
+        "subtext": "Programming construct that waits for and dispatches events.",
         "content": {
             "heading": "Event Loop",
             "paragraphs": [
@@ -2142,7 +2142,7 @@
     },
     "tokenization": {
         "title": "Tokenization",
-        "subtext": "Convert sensitive data into non-sensitive tokens",
+        "subtext": "Convert sensitive data into non-sensitive tokens.",
         "content": {
             "heading": "Tokenization",
             "paragraphs": [
@@ -2155,7 +2155,7 @@
     },
     "serverSentEvents": {
         "title": "Server Sent Events (SSE)",
-        "subtext": "Automatically update web pages with server data",
+        "subtext": "Automatically update web pages with server data.",
         "content": {
             "heading": "Server Sent Events (SSE)",
             "paragraphs": [
@@ -2168,7 +2168,7 @@
     },
     "messageBrokers": {
         "title": "Message Brokers",
-        "subtext": "Intermediaries that manage communication between apps",
+        "subtext": "Intermediaries that manage communication between apps.",
         "content": {
             "heading": "Message Brokers",
             "paragraphs": [
@@ -2181,7 +2181,7 @@
     },
     "cacheInvalidation": {
         "title": "Cache Invalidation",
-        "subtext": "Remove outdated data to make room for fresh information",
+        "subtext": "Remove outdated data to make room for fresh information.",
         "content": {
             "heading": "Cache Invalidation",
             "paragraphs": [
@@ -2194,7 +2194,7 @@
     },
     "immutableDataStructures": {
         "title": "Immutable Data Structures",
-        "subtext": "Data structures that cannot be modified after creation",
+        "subtext": "Data structures that cannot be modified after creation.",
         "content": {
             "heading": "Immutable Data Structures",
             "paragraphs": [
@@ -2207,7 +2207,7 @@
     },
     "dataDeduplication": {
         "title": "Data Deduplication",
-        "subtext": "Eliminate redundant data to increase storage efficiency",
+        "subtext": "Eliminate redundant data to increase storage efficiency.",
         "content": {
             "heading": "Data Deduplication",
             "paragraphs": [
@@ -2220,7 +2220,7 @@
     },
     "statefulVsStatelessSystems": {
         "title": "Stateful vs Stateless Systems",
-        "subtext": "Compare systems that maintain state with those that don't",
+        "subtext": "Compare systems that maintain state with those that don't.",
         "content": {
             "heading": "Stateful vs Stateless Systems",
             "paragraphs": [
@@ -2233,7 +2233,7 @@
     },
     "zeroDowntimeDeployment": {
         "title": "Zero Downtime Deployment",
-        "subtext": "Update software without causing service disruption",
+        "subtext": "Update software without causing service disruption.",
         "content": {
             "heading": "Zero Downtime Deployment",
             "paragraphs": [
@@ -2246,7 +2246,7 @@
     },
     "dataPartitioning": {
         "title": "Data Partitioning",
-        "subtext": "Divide a database into distinct, independent parts",
+        "subtext": "Divide a database into distinct, independent parts.",
         "content": {
             "heading": "Data Partitioning",
             "paragraphs": [
@@ -2259,7 +2259,7 @@
     },
     "featureBranching": {
         "title": "Feature Branching",
-        "subtext": "Isolate development in branches for easier integration",
+        "subtext": "Isolate development in branches for easier integration.",
         "content": {
             "heading": "Feature Branching",
             "paragraphs": [
@@ -2272,7 +2272,7 @@
     },
     "deadlock": {
         "title": "Deadlock",
-        "subtext": "A stand-off where processes block each other's progress",
+        "subtext": "A stand-off where processes block each other's progress.",
         "content": {
             "heading": "Deadlock",
             "paragraphs": [
@@ -2285,7 +2285,7 @@
     },
     "microBatching": {
         "title": "Micro-batching",
-        "subtext": "Process small groups of data in short intervals",
+        "subtext": "Process small groups of data in short intervals.",
         "content": {
             "heading": "Micro-batching",
             "paragraphs": [
@@ -2298,7 +2298,7 @@
     },
     "domainDrivenDesign": {
         "title": "Domain-Driven Design",
-        "subtext": "Software development approach focused on core business concepts",
+        "subtext": "Software development approach focused on core business concepts.",
         "content": {
             "heading": "Domain-Driven Design",
             "paragraphs": [
@@ -2311,7 +2311,7 @@
     },
     "apiVersioning": {
         "title": "API Versioning",
-        "subtext": "Manage API changes by assigning version numbers",
+        "subtext": "Manage API changes by assigning version numbers.",
         "content": {
             "heading": "API Versioning",
             "paragraphs": [
@@ -2324,7 +2324,7 @@
     },
     "distributedFileSystem": {
         "title": "Distributed File System (DFS)",
-        "subtext": "A network file system that spans multiple servers",
+        "subtext": "A network file system that spans multiple servers.",
         "content": {
             "heading": "Distributed File System (DFS)",
             "paragraphs": [
@@ -2337,7 +2337,7 @@
     },
     "statefulWidget": {
         "title": "Stateful Widget",
-        "subtext": "UI component that maintains state across sessions",
+        "subtext": "UI component that maintains state across sessions.",
         "content": {
             "heading": "Stateful Widget",
             "paragraphs": [
@@ -2350,7 +2350,7 @@
     },
     "serverlessFunctions": {
         "title": "Serverless Functions",
-        "subtext": "Execute code without the need to manage servers",
+        "subtext": "Execute code without the need to manage servers.",
         "content": {
             "heading": "Serverless Functions",
             "paragraphs": [
@@ -2363,7 +2363,7 @@
     },
     "edgeServices": {
         "title": "Edge Services",
-        "subtext": "Technologies providing services closer to the user",
+        "subtext": "Technologies providing services closer to the user.",
         "content": {
             "heading": "Edge Services",
             "paragraphs": [
@@ -2376,7 +2376,7 @@
     },
     "darkLaunch": {
         "title": "Dark Launch",
-        "subtext": "Release features to a subset of users without their knowledge",
+        "subtext": "Release features to a subset of users without their knowledge.",
         "content": {
             "heading": "Dark Launch",
             "paragraphs": [
@@ -2384,12 +2384,12 @@
                 "\n      Think of a dark launch as a soft opening for a restaurant, where new dishes are tested discreetly before the official menu launch.\n    "
             ],
             "images": [],
-            "link": "https://launchdarkly.com/blog/guide-to-dark-launching/"
+            "link": "https://launchdarkly.com/blog/what-is-a-dark-launch/"
         }
     },
     "cloudSecurity": {
         "title": "Cloud Security",
-        "subtext": "Procedures and technology to secure cloud environments",
+        "subtext": "Procedures and technology to secure cloud environments.",
         "content": {
             "heading": "Cloud Security",
             "paragraphs": [
@@ -2402,7 +2402,7 @@
     },
     "scalability": {
         "title": "Scalability",
-        "subtext": "Capability of a system to handle growth",
+        "subtext": "Capability of a system to handle growth.",
         "content": {
             "heading": "Scalability",
             "paragraphs": [
@@ -2415,7 +2415,7 @@
     },
     "eventStreamProcessing": {
         "title": "Event Stream Processing",
-        "subtext": "Analyze and process continuous streams of events",
+        "subtext": "Analyze and process continuous streams of events.",
         "content": {
             "heading": "Event Stream Processing",
             "paragraphs": [
@@ -2428,7 +2428,7 @@
     },
     "multiTenancy": {
         "title": "Multi-Tenancy",
-        "subtext": "Single instance of software serves multiple customers",
+        "subtext": "Single instance of software serves multiple customers.",
         "content": {
             "heading": "Multi-Tenancy",
             "paragraphs": [
@@ -2441,7 +2441,7 @@
     },
     "softwareContainers": {
         "title": "Software Containers",
-        "subtext": "Package an application and its dependencies into a unit",
+        "subtext": "Package an application and its dependencies into a unit.",
         "content": {
             "heading": "Software Containers",
             "paragraphs": [
@@ -2454,7 +2454,7 @@
     },
     "cloudOrchestration": {
         "title": "Cloud Orchestration",
-        "subtext": "Automated arrangement and coordination of cloud services",
+        "subtext": "Automated arrangement and coordination of cloud services.",
         "content": {
             "heading": "Cloud Orchestration",
             "paragraphs": [
@@ -2467,7 +2467,7 @@
     },
     "networkSlicing": {
         "title": "Network Slicing",
-        "subtext": "Create multiple virtual networks on shared infrastructure",
+        "subtext": "Create multiple virtual networks on shared infrastructure.",
         "content": {
             "heading": "Network Slicing",
             "paragraphs": [
@@ -2480,7 +2480,7 @@
     },
     "IoTEdgeComputing": {
         "title": "IoT Edge Computing",
-        "subtext": "Process data near its source in IoT devices",
+        "subtext": "Process data near its source in IoT devices.",
         "content": {
             "heading": "IoT Edge Computing",
             "paragraphs": [
@@ -2493,7 +2493,7 @@
     },
     "dataLakesAndWarehousesIntegration": {
         "title": "Data Lakes and Warehouses Integration",
-        "subtext": "Combine raw and structured data storage for better management",
+        "subtext": "Combine raw and structured data storage for better management.",
         "content": {
             "heading": "Data Lakes and Warehouses Integration",
             "paragraphs": [
@@ -2506,7 +2506,7 @@
     },
     "machineLearningOperations": {
         "title": "Machine Learning Operations (MLOps)",
-        "subtext": "Streamline machine learning processes using DevOps principles",
+        "subtext": "Streamline machine learning processes using DevOps principles.",
         "content": {
             "heading": "Machine Learning Operations (MLOps)",
             "paragraphs": [
@@ -2737,7 +2737,7 @@
                     "description": "Regularization image"
                 }
             ],
-            "link": "https://devpedia.pages.dev/"
+            "link": "http://127.0.0.1:5500/index.html"
         }
     },
     "bagging": {
@@ -2804,7 +2804,7 @@
     },
     "aucCurve": {
         "title": "AUC Curve",
-        "subtext": "i.e. Area Under the Curve",
+        "subtext": "i.e. Area Under the Curve.",
         "content": {
             "heading": "AUC Curve",
             "paragraphs": [
@@ -2889,7 +2889,7 @@
     },
     "noSQLDatabases": {
         "title": "NoSQL Databases",
-        "subtext": "Flexible, scalable data storage solutions",
+        "subtext": "Flexible, scalable data storage solutions.",
         "content": {
             "heading": "NoSQL Databases",
             "paragraphs": [
@@ -2902,7 +2902,7 @@
     },
     "microservicesArchitecture": {
         "title": "Microservices Architecture",
-        "subtext": "Independent, small service modules in software",
+        "subtext": "Independent, small service modules in software.",
         "content": {
             "heading": "Microservices Architecture",
             "paragraphs": [
@@ -2915,7 +2915,7 @@
     },
     "serverlessArchitecture": {
         "title": "Serverless Architecture",
-        "subtext": "Cloud management of server operations",
+        "subtext": "Cloud management of server operations.",
         "content": {
             "heading": "Serverless Architecture",
             "paragraphs": [
@@ -2928,7 +2928,7 @@
     },
     "webAssembly": {
         "title": "WebAssembly (Wasm)",
-        "subtext": "High-performance web applications",
+        "subtext": "High-performance web applications.",
         "content": {
             "heading": "WebAssembly (Wasm)",
             "paragraphs": [
@@ -2941,7 +2941,7 @@
     },
     "edgeComputing": {
         "title": "Edge Computing",
-        "subtext": "Data processing closer to data sources",
+        "subtext": "Data processing closer to data sources.",
         "content": {
             "heading": "Edge Computing",
             "paragraphs": [
@@ -2954,7 +2954,7 @@
     },
     "zeroTrustSecurityModel": {
         "title": "Zero Trust Security Model",
-        "subtext": "Security that trusts no one by default",
+        "subtext": "Security that trusts no one by default.",
         "content": {
             "heading": "Zero Trust Security Model",
             "paragraphs": [
@@ -2967,7 +2967,7 @@
     },
     "dockerSwarm": {
         "title": "Docker Swarm",
-        "subtext": "Management of Docker container clusters",
+        "subtext": "Management of Docker container clusters.",
         "content": {
             "heading": "Docker Swarm",
             "paragraphs": [
@@ -2980,7 +2980,7 @@
     },
     "oAuth2_0": {
         "title": "OAuth 2.0",
-        "subtext": "Authorization framework for resource access",
+        "subtext": "Authorization framework for resource access.",
         "content": {
             "heading": "OAuth 2.0",
             "paragraphs": [
@@ -2993,7 +2993,7 @@
     },
     "jwt": {
         "title": "JWT (JSON Web Tokens)",
-        "subtext": "Securely transmit information as JSON",
+        "subtext": "Securely transmit information as JSON.",
         "content": {
             "heading": "JWT (JSON Web Tokens)",
             "paragraphs": [
@@ -3006,7 +3006,7 @@
     },
     "eventDrivenArchitecture": {
         "title": "Event-Driven Architecture",
-        "subtext": "Building software with actions triggering responses",
+        "subtext": "Building software with actions triggering responses.",
         "content": {
             "heading": "Event-Driven Architecture",
             "paragraphs": [
@@ -3019,7 +3019,7 @@
     },
     "cqrs": {
         "title": "CQRS (Command Query Responsibility Segregation)",
-        "subtext": "Separating read and write operations for efficiency",
+        "subtext": "Separating read and write operations for efficiency.",
         "content": {
             "heading": "CQRS (Command Query Responsibility Segregation)",
             "paragraphs": [
@@ -3032,7 +3032,7 @@
     },
     "devSecOps": {
         "title": "DevSecOps",
-        "subtext": "Integrating security into the DevOps process",
+        "subtext": "Integrating security into the DevOps process.",
         "content": {
             "heading": "DevSecOps",
             "paragraphs": [
@@ -3045,7 +3045,7 @@
     },
     "dataLake": {
         "title": "Data Lake",
-        "subtext": "Vast storage for raw data in its native format",
+        "subtext": "Vast storage for raw data in its native format.",
         "content": {
             "heading": "Data Lake",
             "paragraphs": [
@@ -3058,7 +3058,7 @@
     },
     "etl": {
         "title": "ETL (Extract, Transform, Load)",
-        "subtext": "Process to collect, change, and store data",
+        "subtext": "Process to collect, change, and store data.",
         "content": {
             "heading": "ETL (Extract, Transform, Load)",
             "paragraphs": [
@@ -3071,7 +3071,7 @@
     },
     "monolith": {
         "title": "Monolith",
-        "subtext": "A single, large application handling multiple tasks",
+        "subtext": "A single, large application handling multiple tasks.",
         "content": {
             "heading": "Monolith",
             "paragraphs": [
@@ -3084,7 +3084,7 @@
     },
     "dataWarehouse": {
         "title": "Data Warehouse",
-        "subtext": "System for storing and managing large data for analysis",
+        "subtext": "System for storing and managing large data for analysis.",
         "content": {
             "heading": "Data Warehouse",
             "paragraphs": [
@@ -3097,7 +3097,7 @@
     },
     "graphDatabases": {
         "title": "Graph Databases",
-        "subtext": "Databases storing data in nodes and edges to show relationships",
+        "subtext": "Databases storing data in nodes and edges to show relationships.",
         "content": {
             "heading": "Graph Databases (e.g., Neo4j)",
             "paragraphs": [
@@ -3110,7 +3110,7 @@
     },
     "apm": {
         "title": "APM (Application Performance Management)",
-        "subtext": "Monitors and manages software application performance",
+        "subtext": "Monitors and manages software application performance.",
         "content": {
             "heading": "APM (Application Performance Management)",
             "paragraphs": [
@@ -3123,7 +3123,7 @@
     },
     "infrastructureAsCode": {
         "title": "Infrastructure as Code (IaC)",
-        "subtext": "Managing infrastructure through machine-readable scripts",
+        "subtext": "Managing infrastructure through machine-readable scripts.",
         "content": {
             "heading": "Infrastructure as Code (IaC)",
             "paragraphs": [
@@ -3136,7 +3136,7 @@
     },
     "immutableInfrastructure": {
         "title": "Immutable Infrastructure",
-        "subtext": "Infrastructure that is never modified after deployment",
+        "subtext": "Infrastructure that is never modified after deployment.",
         "content": {
             "heading": "Immutable Infrastructure",
             "paragraphs": [
@@ -3149,7 +3149,7 @@
     },
     "distributedLedgerTechnology": {
         "title": "Distributed Ledger Technology",
-        "subtext": "Digital system recording transactions in multiple places simultaneously",
+        "subtext": "Digital system recording transactions in multiple places simultaneously.",
         "content": {
             "heading": "Distributed Ledger Technology",
             "paragraphs": [
@@ -3162,7 +3162,7 @@
     },
     "chaosEngineering": {
         "title": "Chaos Engineering",
-        "subtext": "Practice of testing systems to withstand turbulent conditions",
+        "subtext": "Practice of testing systems to withstand turbulent conditions.",
         "content": {
             "heading": "Chaos Engineering",
             "paragraphs": [
@@ -3175,7 +3175,7 @@
     },
     "reactiveProgramming": {
         "title": "Reactive Programming",
-        "subtext": "Handling data streams and changes in real time",
+        "subtext": "Handling data streams and changes in real time.",
         "content": {
             "heading": "Reactive Programming",
             "paragraphs": [
@@ -3188,7 +3188,7 @@
     },
     "dataSharding": {
         "title": "Data Sharding",
-        "subtext": "Splitting a database into smaller, faster parts",
+        "subtext": "Splitting a database into smaller, faster parts.",
         "content": {
             "heading": "Data Sharding",
             "paragraphs": [
@@ -3201,7 +3201,7 @@
     },
     "apiGateway": {
         "title": "API Gateway",
-        "subtext": "Manages requests and directs them to the correct services",
+        "subtext": "Manages requests and directs them to the correct services.",
         "content": {
             "heading": "API Gateway",
             "paragraphs": [
@@ -3214,7 +3214,7 @@
     },
     "webRTC": {
         "title": "WebRTC (Web Real-Time Communication)",
-        "subtext": "Enabling real-time communication directly in web browsers",
+        "subtext": "Enabling real-time communication directly in web browsers.",
         "content": {
             "heading": "WebRTC (Web Real-Time Communication)",
             "paragraphs": [
@@ -3227,7 +3227,7 @@
     },
     "dataGovernance": {
         "title": "Data Governance",
-        "subtext": "Management of data's availability, usability, integrity, and security",
+        "subtext": "Management of data's availability, usability, integrity, and security.",
         "content": {
             "heading": "Data Governance",
             "paragraphs": [
@@ -3240,7 +3240,7 @@
     },
     "dataAnonymization": {
         "title": "Data Anonymization",
-        "subtext": "Removing personal identifiers from data to protect privacy",
+        "subtext": "Removing personal identifiers from data to protect privacy.",
         "content": {
             "heading": "Data Anonymization",
             "paragraphs": [
@@ -3253,7 +3253,7 @@
     },
     "federatedLearning": {
         "title": "Federated Learning",
-        "subtext": "Training AI models across multiple devices without sharing data",
+        "subtext": "Training AI models across multiple devices without sharing data.",
         "content": {
             "heading": "Federated Learning",
             "paragraphs": [
@@ -3266,7 +3266,7 @@
     },
     "explainableAI": {
         "title": "Explainable AI (XAI)",
-        "subtext": "Making AI decisions understandable to humans",
+        "subtext": "Making AI decisions understandable to humans.",
         "content": {
             "heading": "Explainable AI (XAI)",
             "paragraphs": [
@@ -3279,7 +3279,7 @@
     },
     "syntheticData": {
         "title": "Synthetic Data",
-        "subtext": "Artificially generated data that mimics real data",
+        "subtext": "Artificially generated data that mimics real data.",
         "content": {
             "heading": "Synthetic Data",
             "paragraphs": [
@@ -3292,7 +3292,7 @@
     },
     "quantumCryptography": {
         "title": "Quantum Cryptography",
-        "subtext": "Using principles of quantum mechanics for secure communication",
+        "subtext": "Using principles of quantum mechanics for secure communication.",
         "content": {
             "heading": "Quantum Cryptography",
             "paragraphs": [
@@ -3305,7 +3305,7 @@
     },
     "digitalTwins": {
         "title": "Digital Twins",
-        "subtext": "Virtual replicas of physical objects or systems",
+        "subtext": "Virtual replicas of physical objects or systems.",
         "content": {
             "heading": "Digital Twins",
             "paragraphs": [
@@ -3318,7 +3318,7 @@
     },
     "edgeAI": {
         "title": "Edge AI",
-        "subtext": "Bringing artificial intelligence to edge devices to process data locally",
+        "subtext": "Bringing artificial intelligence to edge devices to process data locally.",
         "content": {
             "heading": "Edge AI",
             "paragraphs": [
@@ -3331,7 +3331,7 @@
     },
     "homomorphicEncryption": {
         "title": "Homomorphic Encryption",
-        "subtext": "Performing computations on encrypted data without decryption",
+        "subtext": "Performing computations on encrypted data without decryption.",
         "content": {
             "heading": "Homomorphic Encryption",
             "paragraphs": [
@@ -3344,7 +3344,7 @@
     },
     "fogComputing": {
         "title": "Fog Computing",
-        "subtext": "Extending cloud computing to the edge of an enterprise's network",
+        "subtext": "Extending cloud computing to the edge of an enterprise's network.",
         "content": {
             "heading": "Fog Computing",
             "paragraphs": [
@@ -3357,7 +3357,7 @@
     },
     "virtualPrivateCloud": {
         "title": "Virtual Private Cloud (VPC)",
-        "subtext": "Isolated cloud resources for enhanced security within a public cloud",
+        "subtext": "Isolated cloud resources for enhanced security within a public cloud.",
         "content": {
             "heading": "Virtual Private Cloud (VPC)",
             "paragraphs": [
@@ -3370,7 +3370,7 @@
     },
     "hybridCloud": {
         "title": "Hybrid Cloud",
-        "subtext": "Combining public and private cloud environments for flexibility",
+        "subtext": "Combining public and private cloud environments for flexibility.",
         "content": {
             "heading": "Hybrid Cloud",
             "paragraphs": [
@@ -3383,7 +3383,7 @@
     },
     "multiCloudStrategy": {
         "title": "Multi-Cloud Strategy",
-        "subtext": "Using multiple cloud computing services to mitigate single-provider risks",
+        "subtext": "Using multiple cloud computing services to mitigate single-provider risks.",
         "content": {
             "heading": "Multi-Cloud Strategy",
             "paragraphs": [
@@ -3396,7 +3396,7 @@
     },
     "dataOps": {
         "title": "DataOps",
-        "subtext": "An agile methodology for developing and maintaining data analytics",
+        "subtext": "An agile methodology for developing and maintaining data analytics.",
         "content": {
             "heading": "DataOps",
             "paragraphs": [
@@ -3409,7 +3409,7 @@
     },
     "bioinformatics": {
         "title": "Bioinformatics",
-        "subtext": "Using technology to understand biological data",
+        "subtext": "Using technology to understand biological data.",
         "content": {
             "heading": "Bioinformatics",
             "paragraphs": [
