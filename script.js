@@ -64,6 +64,7 @@ export  function showModal(key) {
   modal.style.display = 'block';
 }
 
+
 export function readMore() {
   // Redirect to detailed explanation page (e.g., a blog or documentation)
   window.open('https://example.com/detailed-explanation', '_blank');
@@ -76,13 +77,13 @@ export function showAbout() {
   modal.style.display = 'block';
 }
 
+
 export function showBuilders() {
   const modal = document.getElementById('modal');
   const modalBody = document.getElementById('modal-body');
   modalBody.innerHTML = '<h3>A Note from the Builder</h3><p>If you find a flaw, love to sponsor or need help with learning something, my inbox is open : <a href="mailto:buzzpy123@gmail.com">buzzpy123@gmail.com<a></p><p>-><p><p>- I am a Python Developer especilizing in backend so my <strong> web design skills </strong> are <strong>terrible.</strong></p><p>- This project was built in a month, unlike Rome which took years to build. Which means this is on early stages of development, so why not to <strong>fork, star and contribute? </strong> </p>';
   modal.style.display = 'block';
 }
-
 
 export function showSponsors() {
   const modal = document.getElementById('modal');
@@ -97,6 +98,9 @@ export function closeModal(event) {
   const modal = document.getElementById('modal');
   if (event.target == modal) {
     modal.style.display = 'none';
+    setTimeout(() => {
+      cardContainer.style.pointerEvents = 'all';
+    },500)
   }
 }
 
