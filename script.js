@@ -13,8 +13,9 @@
     <a href="a-link-to-an-article-on-the-topic-mentioned-for-beginners" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `
 */
- 
-const descriptions = {  codeSmell: `
+
+const descriptions = {
+  codeSmell: `
     <h2 id="modal-heading">Code Smell</h2>
     
     <p class="modal-paragraph">
@@ -139,6 +140,19 @@ const descriptions = {  codeSmell: `
     
     <img  src="https://www.extwebtech.com/wp-content/uploads/2023/03/frontend-vs-bancend.webp" alt="Front End image">
     <a href="https://flatironschool.com/blog/front-end-vs-back-end-development/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+  microFrontEnd: `
+    <h2 id="modal-heading">Micro Front End</h2>
+    
+    <p class="modal-paragraph">
+      Micro frontends is an architectural approach where a web application is composed of multiple independent, independently deployable frontend applications.
+    </p>
+    <p class="modal-paragraph">
+      Each micro frontend is responsible for a specific feature or business capability, and they work together to form a cohesive user experience.
+    </p>
+    
+    <img  src="https://leanylabs.com/static/a34b593e250daf5edd2302455e46941c/88503/featured.webp" alt="Micro Front End image">
+    <a href="https://medium.com/simform-engineering/understanding-micro-frontends-a-comprehensive-guide-da41c57946ac" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   fullStack: `
     <h2 id="modal-heading">Full Stack</h2>
@@ -677,6 +691,36 @@ const descriptions = {  codeSmell: `
     
     <a href="https://www.freecodecamp.org/news/react-for-beginners-handbook/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
+  nodeJS: `
+    <h2 id="modal-heading">NodeJS</h2>
+    
+    <p class="modal-paragraph">Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to build server-side web applications.</p>
+    <p class="modal-paragraph">It employs an event-driven, non-blocking architecture, making it highly efficient for handling multiple concurrent connections, ideal for real-time applications and data-intensive workloads.</p>
+    
+    <img  src="https://d2i2xyh28mr8fx.cloudfront.net/wp-content/uploads/2023/03/13154403/WHY-USE-NODE.JS_.png" alt="NodeJS image">
+    
+    <a href="https://www.freecodecamp.org/news/the-definitive-node-js-handbook-6912378afc6e/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+  nextJS: `
+    <h2 id="modal-heading">NextJS</h2>
+    
+    <p class="modal-paragraph">Next.js is a React framework that simplifies building high-performance web applications. </p>
+    <p class="modal-paragraph">t offers features like server-side rendering, static site generation, and image optimization out of the box, improving website speed and SEO.</p>
+    
+    <img  src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*kUKiJUFeCs4rKjjGNUtvUQ.png" alt="NextJS image">
+    
+    <a href="https://www.freecodecamp.org/news/the-next-js-handbook/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+  npm: `
+    <h2 id="modal-heading">NextJS</h2>
+    
+    <p class="modal-paragraph">Next.js is a React framework that simplifies building high-performance web applications. </p>
+    <p class="modal-paragraph">t offers features like server-side rendering, static site generation, and image optimization out of the box, improving website speed and SEO.</p>
+    
+    <img  src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*kUKiJUFeCs4rKjjGNUtvUQ.png" alt="NextJS image">
+    
+    <a href="https://www.freecodecamp.org/news/the-next-js-handbook/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
   docker: `
     <h2 id="modal-heading">Docker</h2>
     
@@ -857,7 +901,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  
+
   agile: `
     <h2 id="modal-heading">Agile</h2>
     
@@ -926,6 +970,16 @@ const descriptions = {  codeSmell: `
     <img  src="assets/images/css.jpg" alt="CSS image">
     
     <a href="https://www.hostinger.com/tutorials/what-is-css" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+  sass: `
+    <h2 id="modal-heading">Sass</h2>
+    
+    <p class="modal-paragraph">Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets.</p>
+    <p class="modal-paragraph">SassScript is the scripting language itself. Sass consists of two syntaxes. The original syntax, called "the indented syntax," uses a syntax similar to Haml</p>
+    
+    <img  src="https://d1le3ohiuslpz1.cloudfront.net/skillcrush/wp-content/uploads/2023/07/how-sass-works.png" alt="Sass image">
+    
+    <a href="https://dev.to/swastikyadav/sass-the-css-preprocessor-handbook-and-how-does-it-work-58dn" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   java: `
     <h2 id="modal-heading">Java</h2>
@@ -2471,7 +2525,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://immutable-js.github.io/immutable-js/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  
+
   dataDeduplication: `
     <h2 id="modal-heading">Data Deduplication</h2>
     
@@ -2794,7 +2848,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://mlops.community/what-is-mlops/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
- GDPR: `
+  GDPR: `
     
   <h2 id="modal-heading">GDPR</h2>
 
@@ -2805,7 +2859,7 @@ const descriptions = {  codeSmell: `
   <img class="responsive-image" src="https://d2z0k1elb7rxgj.cloudfront.net/uploads/2019/12/gdpr-guidelines-1024x531.png" alt="GDPR Guidelines" id="modal-image"/>
 
   <a href="https://gdpr.eu/what-is-gdpr/" id="modal-link" target="_blank">⌁—— Read more about it ——⌁</a>
-` ,
+`,
   symmetricCryptography: `
     
    <h2 id="modal-heading">Symmetric Cryptography</h2>
@@ -2819,7 +2873,7 @@ const descriptions = {  codeSmell: `
   <img class="responsive-image" src="https://upload.wikimedia.org/wikipedia/commons/6/61/Simple_symmetric_encryption.png" alt="Symmertic-key image">
   <a href="https://simple.wikipedia.org/wiki/Symmetric-key_algorithm" id="modal-link" target="_blank">⌁—— Read more about it ——⌁</a>
 `,
-   AsymmetricCryptography: `
+  AsymmetricCryptography: `
    <h2 id="modal-heading">Asymmetric Cryptography</h2>
 
    <p class="modal-paragraph">
@@ -2827,9 +2881,7 @@ const descriptions = {  codeSmell: `
   </p>
 
   <img class="responsive-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Public_key_encryption.svg/800px-Public_key_encryption.svg.png" alt="Symmertic-key image">
-  <a href="https://en.wikipedia.org/wiki/Public-key_cryptography" id="modal-link" target="_blank">⌁—— Read more about it ——⌁</a>`
-  ,
-
+  <a href="https://en.wikipedia.org/wiki/Public-key_cryptography" id="modal-link" target="_blank">⌁—— Read more about it ——⌁</a>`,
   iteration: `
   <h2 id="modal-heading">Iteration</h2>
 
@@ -2841,58 +2893,56 @@ const descriptions = {  codeSmell: `
   </p>
 
 <a href="https://goodspeed.studio/glossary/what-is-iteration-iteration-explained" id="modal-link" target="_blank">⌁—— Learn more about Iteration ——⌁</a>
-`
-  
-
-
-  
+`,
 };
 
-    function filterCards() {
-      const input = document.getElementById('searchInput');
-      const filter = input.value.toLowerCase();
-      const cards = document.getElementsByClassName('card');
+function filterCards() {
+  const input = document.getElementById("searchInput");
+  const filter = input.value.toLowerCase();
+  const cards = document.getElementsByClassName("card");
 
-      for (let i = 0; i < cards.length; i++) {
-        const title = cards[i].getElementsByClassName('card-title')[0];
-        if (title.innerText.toLowerCase().indexOf(filter) > -1) {
-          cards[i].style.display = '';
-        } else {
-          cards[i].style.display = 'none';
-        }
-      }
+  for (let i = 0; i < cards.length; i++) {
+    const title = cards[i].getElementsByClassName("card-title")[0];
+    if (title.innerText.toLowerCase().indexOf(filter) > -1) {
+      cards[i].style.display = "";
+    } else {
+      cards[i].style.display = "none";
     }
-    const cardContainer = document.getElementById('cardContainer');
-    function showModal(term) {
-      const modal = document.getElementById('modal');
-      const modalBody = document.getElementById('modal-body');
-      modalBody.innerHTML = descriptions[term];
-      modal.style.display = 'block';
-      cardContainer.style.pointerEvents = 'none';
-    }
+  }
+}
+const cardContainer = document.getElementById("cardContainer");
+function showModal(term) {
+  const modal = document.getElementById("modal");
+  const modalBody = document.getElementById("modal-body");
+  modalBody.innerHTML = descriptions[term];
+  modal.style.display = "block";
+  cardContainer.style.pointerEvents = "none";
+}
 
-    function readMore() {
-      // Redirect to detailed explanation page (e.g., a blog or documentation)
-      window.open('https://example.com/detailed-explanation', '_blank');
-    }
+function readMore() {
+  // Redirect to detailed explanation page (e.g., a blog or documentation)
+  window.open("https://example.com/detailed-explanation", "_blank");
+}
 
-    function showAbout() {
-      const modal = document.getElementById('modal');
-      const modalBody = document.getElementById('modal-body');
-      modalBody.innerHTML = '<h2>About</h2><strong>IMPORTANT: Bookmarking or Pinning this webpage would help you get a quick overview of anything related to tech in seconds! </strong><p>This "Dev Encyclopedia" is a simple project that simplifies things.</p><p>This website has almost all the commonly used technical terms, concepts and even programming-language specific jargons explained and links provided for further reading.</p><p>Most importantly, it is ad-free, so basically, the best encyclopedia everr! *excited. too much.*</p><p>Built with love, by Chenuli J.</p><img src="image/Chenuli Signature.png" />';
-      modal.style.display = 'block';
-    }
-    function showBuilders() {
-      const modal = document.getElementById('modal');
-      const modalBody = document.getElementById('modal-body');
-      modalBody.innerHTML = '<h3>A Note from the Builder</h3><p>If you find a flaw, love to sponsor or need help with learning something, my inbox is open: <span>-></span> <a href="mailto:buzzpy123@gmail.com">buzzpy123@gmail.com</a></p><p>- I am a Python Developer especilizing in backend so my <strong> web design skills </strong> are <strong>terrible.</strong></p><p>- This project was built in a month, unlike Rome which took years to build. Which means this is on early stages of development, so why not to <strong>fork, star and contribute? </strong> </p>';
-      modal.style.display = 'block';
-    }
-    function showSponsors() {
-      const modal = document.getElementById('modal');
-      const modalBody = document.getElementById('modal-body');
-    
-      modalBody.innerHTML = `
+function showAbout() {
+  const modal = document.getElementById("modal");
+  const modalBody = document.getElementById("modal-body");
+  modalBody.innerHTML =
+    '<h2>About</h2><strong>IMPORTANT: Bookmarking or Pinning this webpage would help you get a quick overview of anything related to tech in seconds! </strong><p>This "Dev Encyclopedia" is a simple project that simplifies things.</p><p>This website has almost all the commonly used technical terms, concepts and even programming-language specific jargons explained and links provided for further reading.</p><p>Most importantly, it is ad-free, so basically, the best encyclopedia everr! *excited. too much.*</p><p>Built with love, by Chenuli J.</p><img src="image/Chenuli Signature.png" />';
+  modal.style.display = "block";
+}
+function showBuilders() {
+  const modal = document.getElementById("modal");
+  const modalBody = document.getElementById("modal-body");
+  modalBody.innerHTML =
+    '<h3>A Note from the Builder</h3><p>If you find a flaw, love to sponsor or need help with learning something, my inbox is open: <span>-></span> <a href="mailto:buzzpy123@gmail.com">buzzpy123@gmail.com</a></p><p>- I am a Python Developer especilizing in backend so my <strong> web design skills </strong> are <strong>terrible.</strong></p><p>- This project was built in a month, unlike Rome which took years to build. Which means this is on early stages of development, so why not to <strong>fork, star and contribute? </strong> </p>';
+  modal.style.display = "block";
+}
+function showSponsors() {
+  const modal = document.getElementById("modal");
+  const modalBody = document.getElementById("modal-body");
+
+  modalBody.innerHTML = `
         <h3>Sponsors</h3>
         <p>You can sponsor this project via my Ko-Fi profile: <a href="https://ko-fi.com/buzzpy">ko-fi.com/buzzpy</a></p>
         <p>Once you make any donation, I will get in touch with you and make sure you get a place on this "Sponsors" page!</p>
@@ -2901,22 +2951,20 @@ const descriptions = {  codeSmell: `
           <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Flk.linkedin.com%2Fin%2Fmalith-jayasinghe-484509180&psig=AOvVaw3pVLfvt056d-wG57Gc361x&ust=1723739678386000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCOijn-v09IcDFQAAAAAdAAAAABAK" id="sponsor-name">Malith J. Don</a>
         </div>
       `;
-      modal.style.display = 'block';
-    }
-    
-    
+  modal.style.display = "block";
+}
 
-   // to close the modal
+// to close the modal
 function closeModal(event) {
-  const modal = document.getElementById('modal');
+  const modal = document.getElementById("modal");
   if (event.target == modal) {
-    modal.style.display = 'none';
+    modal.style.display = "none";
     setTimeout(() => {
-      cardContainer.style.pointerEvents = 'all';
-    },500)
+      cardContainer.style.pointerEvents = "all";
+    }, 500);
   }
 }
 
 // Add event listeners for both click and touchstart
-window.addEventListener('click', closeModal);
-window.addEventListener('touchstart', closeModal);
+window.addEventListener("click", closeModal);
+window.addEventListener("touchstart", closeModal);
