@@ -2454,9 +2454,9 @@ const descriptions = {  codeSmell: `
     </p>
     <p class="modal-paragraph">
       Think of cache invalidation like cleaning out your fridge; you need to remove old food to make room for fresh groceries.
-    </p>
+    </p>a
     
-    <a href="https://www.cloudflare.com/learning/cdn/what-is-caching/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <a href="https://www.cloudflare.com/learning/cdn/what-is-caching/" id="modal-link" target"_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
   immutableDataStructures: `
@@ -2794,6 +2794,42 @@ const descriptions = {  codeSmell: `
     
     <a href="https://mlops.community/what-is-mlops/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
+ GDPR: `
+    
+  <h2 id="modal-heading">GDPR</h2>
+
+  <p class="modal-paragraph">
+  The General Data Protection Regulation (GDPR) is a comprehensive data protection law in the European Union designed to enhance individuals' control over their personal information. It sets strict guidelines on how companies collect, store, and manage personal data.
+  </p>
+
+  <img class="responsive-image" src="https://d2z0k1elb7rxgj.cloudfront.net/uploads/2019/12/gdpr-guidelines-1024x531.png" alt="GDPR Guidelines" id="modal-image"/>
+
+  <a href="https://gdpr.eu/what-is-gdpr/" id="modal-link" target="_blank">⌁—— Read more about it ——⌁</a>
+` ,
+  symmetricCryptography: `
+    
+   <h2 id="modal-heading">Symmetric Cryptography</h2>
+
+   <p class="modal-paragraph">
+  In cryptography, a symmetric key is like a shared password that both encrypts and decrypts data. This means the same key locks and unlocks the information, making it crucial that only trusted parties have access to it.
+  </p>
+  <p class="modal-paragraph">
+  Imagine you and a friend have the same key. You use it to lock (encrypt) a message, and your friend uses the same key to unlock (decrypt) it. The catch? You both need to keep that key safe and secret.
+  </p>
+  <img class="responsive-image" src="https://upload.wikimedia.org/wikipedia/commons/6/61/Simple_symmetric_encryption.png" alt="Symmertic-key image">
+  <a href="https://simple.wikipedia.org/wiki/Symmetric-key_algorithm" id="modal-link" target="_blank">⌁—— Read more about it ——⌁</a>
+`,
+   AsymmetricCryptography: `
+   <h2 id="modal-heading">Asymmetric Cryptography</h2>
+
+   <p class="modal-paragraph">
+   Asymmetric keys are the foundation of Public Key Infrastructure (PKI) a cryptographic scheme requiring two different keys, one to lock or encrypt the plaintext, and one to unlock or decrypt the cyphertext. Neither key will do both functions. One key is published (public key) and the other is kept private (private key). If the lock/encryption key is the one published, the system enables private communication from the public to the unlocking key's owner. If the unlock/decryption key is the one published, then the system serves as a signature verifier of documents locked by the owner of the private key. This system also is called asymmetric key cryptography.
+  </p>
+
+  <img class="responsive-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Public_key_encryption.svg/800px-Public_key_encryption.svg.png" alt="Symmertic-key image">
+  <a href="https://en.wikipedia.org/wiki/Public-key_cryptography" id="modal-link" target="_blank">⌁—— Read more about it ——⌁</a>`
+  ,
+
   iteration: `
   <h2 id="modal-heading">Iteration</h2>
 
@@ -2807,6 +2843,7 @@ const descriptions = {  codeSmell: `
 <a href="https://goodspeed.studio/glossary/what-is-iteration-iteration-explained" id="modal-link" target="_blank">⌁—— Learn more about Iteration ——⌁</a>
 `
   
+
 
   
 };
