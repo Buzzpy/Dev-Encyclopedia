@@ -711,16 +711,6 @@ const descriptions = {
     
     <a href="https://www.freecodecamp.org/news/the-next-js-handbook/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  npm: `
-    <h2 id="modal-heading">NextJS</h2>
-    
-    <p class="modal-paragraph">Next.js is a React framework that simplifies building high-performance web applications. </p>
-    <p class="modal-paragraph">t offers features like server-side rendering, static site generation, and image optimization out of the box, improving website speed and SEO.</p>
-    
-    <img  src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*kUKiJUFeCs4rKjjGNUtvUQ.png" alt="NextJS image">
-    
-    <a href="https://www.freecodecamp.org/news/the-next-js-handbook/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
-  `,
   docker: `
     <h2 id="modal-heading">Docker</h2>
     
