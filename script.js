@@ -2787,8 +2787,20 @@ const descriptions = {  codeSmell: `
   Think of iteration as a loop where each pass brings you closer to the perfect solution, whether it's fine-tuning code or improving a machine learning model.
   </p>
 
-<a href="https://goodspeed.studio/glossary/what-is-iteration-iteration-explained" id="modal-link" target="_blank">⌁—— Learn more about Iteration ——⌁</a>
-`
+  <a href="https://goodspeed.studio/glossary/what-is-iteration-iteration-explained" id="modal-link" target="_blank">⌁—— Learn more about Iteration ——⌁</a>
+  `,
+  spaghettiCode: `
+  <h2 id="modal-heading">Spaghetti Code</h2>
+
+  <p class="modal-paragraph">
+  Spaghetti code is a messy and confusing type of software code that comes from writing without a clear plan or organization. The term is like a metaphor, comparing the code to tangled spaghetti noodles, because it’s hard to follow and figure out. 
+  </p>
+  <p class="modal-paragraph">
+  This kind of code can be tricky to read, understand, and keep in good shape.
+  </p>
+
+  <a href="https://www.geeksforgeeks.org/spaghetti-code/" id="modal-link" target="_blank">⌁—— Learn more about Spaghetti Code ——⌁</a>
+  `,
   
 
   
