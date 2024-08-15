@@ -395,7 +395,7 @@ const keys = [
         "description": "A high-level programming-language"
     },
     {
-        "key": "C",
+        "key": "cSharp",
         "title": "C#",
         "description": "A modern, OOP language from Microsoft"
     },
