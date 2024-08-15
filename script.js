@@ -13,8 +13,9 @@
     <a href="a-link-to-an-article-on-the-topic-mentioned-for-beginners" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `
 */
- 
-const descriptions = {  codeSmell: `
+
+const descriptions = {
+    codeSmell: `
     <h2 id="modal-heading">Code Smell</h2>
     
     <p class="modal-paragraph">
@@ -28,7 +29,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.sonarsource.com/learn/code-smells/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  serverlessComputing: `
+    serverlessComputing: `
     <h2 id="modal-heading">Serverless Computing</h2>
     
     <p class="modal-paragraph">
@@ -42,7 +43,7 @@ const descriptions = {  codeSmell: `
     <a href="https://cloud.google.com/discover/what-is-serverless-computing" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  webFlow: `
+    webFlow: `
     <h2 id="modal-heading">Web Flow</h2>
     
     <p class="modal-paragraph">
@@ -55,7 +56,7 @@ const descriptions = {  codeSmell: `
    
   `,
 
-  webHooks: `
+    webHooks: `
     <h2 id="modal-heading">Web Hooks</h2>
     
     <p class="modal-paragraph">
@@ -69,7 +70,7 @@ const descriptions = {  codeSmell: `
     <a href="https://zapier.com/blog/what-are-webhooks/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  llms: `
+    llms: `
     <h2 id="modal-heading">LLMs</h2>
     
     <p class="modal-paragraph">
@@ -83,7 +84,7 @@ const descriptions = {  codeSmell: `
     <a href="https://aws.amazon.com/what-is/large-language-model/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  openSource: `
+    openSource: `
     <h2 id="modal-heading">Open Source</h2>
     
     <p class="modal-paragraph">
@@ -96,7 +97,7 @@ const descriptions = {  codeSmell: `
     <a href="https://opensource.com/resources/what-open-source" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  webScraping: `
+    webScraping: `
     <h2 id="modal-heading">Web Scraping</h2>
     
     <p class="modal-paragraph">
@@ -110,7 +111,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.geeksforgeeks.org/what-is-web-scraping-and-how-to-use-it/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  frontEnd: `
+    frontEnd: `
     <h2 id="modal-heading">Front End</h2>
     
     <p class="modal-paragraph">
@@ -123,7 +124,7 @@ const descriptions = {  codeSmell: `
     <img  src="https://www.extwebtech.com/wp-content/uploads/2023/03/frontend-vs-bancend.webp" alt="Front End image">
     <a href="https://flatironschool.com/blog/front-end-vs-back-end-development/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  fullStack: `
+    fullStack: `
     <h2 id="modal-heading">Full Stack</h2>
     
     <p class="modal-paragraph">
@@ -137,7 +138,7 @@ const descriptions = {  codeSmell: `
     <a href="https://aws.amazon.com/what-is/full-stack-development/#:~:text=Full%20stack%20development%20is%20the,user%20interactions%20with%20the%20application." id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  functions: `
+    functions: `
     <h2 id="modal-heading">Functions</h2>
     
     <p class="modal-paragraph">
@@ -151,7 +152,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.w3schools.com/js/js_functions.asp" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  arguments: `
+    arguments: `
     <h2 id="modal-heading">Arguments</h2>
     
     <p class="modal-paragraph">
@@ -165,7 +166,7 @@ const descriptions = {  codeSmell: `
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#parameters" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  dictionary: `
+    dictionary: `
     <h2 id="modal-heading">Dictionary</h2>
     
     <p class="modal-paragraph">
@@ -179,7 +180,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.w3schools.com/python/python_dictionaries.asp" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  tuple: `
+    tuple: `
     <h2 id="modal-heading">Tuple</h2>
     
     <p class="modal-paragraph">
@@ -192,7 +193,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.w3schools.com/python/python_tuples.asp" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  list: `
+    list: `
     <h2 id="modal-heading">List</h2>
     
     <p class="modal-paragraph">
@@ -205,7 +206,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.w3schools.com/python/python_lists.asp" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  boolean: `
+    boolean: `
     <h2 id="modal-heading">Boolean</h2>
     
     <p class="modal-paragraph">
@@ -218,7 +219,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.w3schools.com/js/js_booleans.asp" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  string: `
+    string: `
     <h2 id="modal-heading">String</h2>
     
     <p class="modal-paragraph">
@@ -230,7 +231,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://www.w3schools.com/python/python_strings.asp" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  floats: `
+    floats: `
     <h2 id="modal-heading">Floats</h2>
     
     <p class="modal-paragraph">
@@ -242,7 +243,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.w3schools.com/python/python_datatypes.asp" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  double: `
+    double: `
     <h2 id="modal-heading">Double</h2>
     
     <p class="modal-paragraph">
@@ -254,7 +255,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.w3schools.com/java/java_data_types.asp" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  dataTypes: `
+    dataTypes: `
     <h2 id="modal-heading">Data Types</h2>
     
     <p class="modal-paragraph">
@@ -266,7 +267,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.w3schools.com/python/python_datatypes.asp" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  threads: `
+    threads: `
     <h2 id="modal-heading">Threads</h2>
     
     <p class="modal-paragraph">
@@ -280,7 +281,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.techtarget.com/whatis/definition/thread/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  classes: `
+    classes: `
     <h2 id="modal-heading">Classes</h2>
     
     <p class="modal-paragraph">
@@ -294,7 +295,7 @@ const descriptions = {  codeSmell: `
     <a href="https://brilliant.org/wiki/classes-oop/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  objects: `
+    objects: `
     <h2 id="modal-heading">Objects</h2>
     
     <p class="modal-paragraph">
@@ -307,7 +308,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.geeksforgeeks.org/what-are-objects-in-programming/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  inheritance: `
+    inheritance: `
     <h2 id="modal-heading">Inheritance</h2>
     
     <p class="modal-paragraph">
@@ -321,7 +322,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.enjoyalgorithms.com/blog/inheritance-in-java" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  syntax: `
+    syntax: `
     <h2 id="modal-heading">Syntax</h2>
     
     <p class="modal-paragraph">
@@ -333,7 +334,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://woz-u.com/blog/what-is-syntax-in-computer-programming/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  ide: `
+    ide: `
     <h2 id="modal-heading">IDE (Integrated Development Environment)</h2>
     
     <p class="modal-paragraph">
@@ -345,7 +346,7 @@ const descriptions = {  codeSmell: `
     <a href="https://aws.amazon.com/what-is/ide/#:~:text=An%20integrated%20development%20environment%20(IDE,easy%2Dto%2Duse%20application." id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  debugger: `
+    debugger: `
     <h2 id="modal-heading">Debugger</h2>
     
     <p class="modal-paragraph">
@@ -359,7 +360,7 @@ const descriptions = {  codeSmell: `
     <a href="https://medium.com/@dwivedi.ankit21/the-debugger-a-behind-the-scenes-look-at-how-it-works-983a65883e97" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  deployment: `
+    deployment: `
     <h2 id="modal-heading">Deployment</h2>
     
     <p class="modal-paragraph">
@@ -372,7 +373,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.ibm.com/docs/en/zos/2.4.0?topic=task-deploying-software" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  continuousDeployment: `
+    continuousDeployment: `
     <h2 id="modal-heading">Continuous Deployment</h2>
     
     <p class="modal-paragraph">
@@ -385,7 +386,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.atlassian.com/continuous-delivery/software-testing/continuous-deployment" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  deploymentPipeline: `
+    deploymentPipeline: `
     <h2 id="modal-heading">Deployment Pipeline</h2>
     
     <p class="modal-paragraph">
@@ -399,7 +400,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.pagerduty.com/resources/learn/what-is-a-deployment-pipeline/#:~:text=In%20software%20development%2C%20a%20deployment,%2C%20building%2C%20and%20deploying%20code." id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  dataValidation: `
+    dataValidation: `
     <h2 id="modal-heading">Data Validation</h2>
     
     <p class="modal-paragraph">
@@ -413,7 +414,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.tibco.com/glossary/what-is-data-validation#:~:text=Data%20validation%20is%20the%20process,validation%20to%20ensure%20accurate%20results." id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  dataSerialization: `
+    dataSerialization: `
     <h2 id="modal-heading">Data Serialization</h2>
     
     <p class="modal-paragraph">
@@ -427,7 +428,7 @@ const descriptions = {  codeSmell: `
     <a href="https://medium.com/@jdelamettrie/data-serialization-631a0325c38a" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  mocking: `
+    mocking: `
     <h2 id="modal-heading">Mocking</h2>
     
     <p class="modal-paragraph">
@@ -439,7 +440,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://www.geeksforgeeks.org/software-testing-mock-testing/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  authentication: `
+    authentication: `
     <h2 id="modal-heading">Authentication</h2>
     
     <p class="modal-paragraph">
@@ -453,7 +454,7 @@ const descriptions = {  codeSmell: `
     <a href="https://medium.com/geekculture/authentication-and-authorization-a5a2eafdde16" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  authorization: `
+    authorization: `
     <h2 id="modal-heading">Authorization</h2>
     
     <p class="modal-paragraph">
@@ -467,7 +468,7 @@ const descriptions = {  codeSmell: `
     <a href="https://medium.com/geekculture/authentication-and-authorization-a5a2eafdde16" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  prototypes: `
+    prototypes: `
     <h2 id="modal-heading">Prototypes (Software Development)</h2>
     
     <p class="modal-paragraph">
@@ -479,7 +480,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.techtarget.com/searcherp/definition/prototype#:~:text=Prototype%2Dbased%20programming%20generates%20an,code%20and%20how%20it%20executes." id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  monolithicArchitecture: `
+    monolithicArchitecture: `
     <h2 id="modal-heading">Monolithic Architecture</h2>
     
     <p class="modal-paragraph">
@@ -493,7 +494,7 @@ const descriptions = {  codeSmell: `
     <a href="https://tech.tamara.co/monolith-architecture-5f00270f384e" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  github: `
+    github: `
     <h2 id="modal-heading">GitHub</h2>
     
     <p class="modal-paragraph">
@@ -507,7 +508,7 @@ const descriptions = {  codeSmell: `
     <a href="https://medium.com/swlh/an-introduction-to-git-and-github-22ecb4cb1256" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  orm: `
+    orm: `
     <h2 id="modal-heading">ORM (Object-Relational Mapping)</h2>
     
     <p class="modal-paragraph">
@@ -521,7 +522,7 @@ const descriptions = {  codeSmell: `
     <a href="https://medium.com/@grover.vinayak0611/what-is-orm-why-to-use-it-and-brief-introduction-of-orm-frameworks-b61b16d02a3c" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  caching: `
+    caching: `
     <h2 id="modal-heading">Caching</h2>
     
     <p class="modal-paragraph">
@@ -533,8 +534,8 @@ const descriptions = {  codeSmell: `
     
     <a href="https://hazelcast.com/glossary/caching/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  // ENDS HERE, 07/27
-  machineLearning: `
+    // ENDS HERE, 07/27
+    machineLearning: `
     <h2 id="modal-heading">Machine Learning</h2>
     
     <p class="modal-paragraph">Machine learning is a type of artificial intelligence that allows software applications to become more accurate at predicting outcomes without being explicitly programmed to do so. Machine learning algorithms use historical data as input to predict new output values.</p>
@@ -545,7 +546,7 @@ const descriptions = {  codeSmell: `
     <a href="https://mitsloan.mit.edu/ideas-made-to-matter/machine-learning-explained" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   
   `,
-  deepLearning: `
+    deepLearning: `
     <h2 id="modal-heading">Deep Learning</h2>
     
     <p class="modal-paragraph">Deep learning is a subset of machine learning where artificial neural networks, algorithms inspired by the human brain, learn from large amounts of data. It's a key technology behind driverless cars, enabling them to recognize a stop sign, or to distinguish a pedestrian from a lamppost.</p>
@@ -556,7 +557,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://www.ibm.com/topics/deep-learning" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  artificialIntelligence: `
+    artificialIntelligence: `
     <h2 id="modal-heading">Artificial Intelligence</h2>
     
     <p class="modal-paragraph">Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions. The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving.</p>
@@ -566,7 +567,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://www.ibm.com/topics/artificial-intelligence" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  cybersecurity: `
+    cybersecurity: `
     <h2 id="modal-heading">Cybersecurity</h2>
     
     <p class="modal-paragraph">Cybersecurity involves protecting computer systems and networks from digital attacks, theft, and damage. It includes various practices and technologies to safeguard data and maintain privacy.</p>
@@ -576,7 +577,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://www.ibm.com/topics/cybersecurity" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  epochs: `
+    epochs: `
     <h2 id="modal-heading">Epochs</h2>
     
     <p class="modal-paragraph">In machine learning, an epoch is one complete pass through the entire training dataset. During each epoch, the model's parameters are updated to improve accuracy.</p>
@@ -586,7 +587,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://www.simplilearn.com/tutorials/machine-learning-tutorial/what-is-epoch-in-machine-learning" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  apis: `
+    apis: `
     <h2 id="modal-heading">APIs</h2>
     
     <p class="modal-paragraph">An API (Application Programming Interface) is a set of rules that allows different software programs to communicate with each other. It defines how requests and responses should be formatted so that different systems can interact seamlessly.</p>
@@ -598,7 +599,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://www.postman.com/what-is-an-api/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  cloudComputing: `
+    cloudComputing: `
     <h2 id="modal-heading">Cloud Computing</h2>
     
     <p class="modal-paragraph">Cloud computing is the delivery of computing services—such as servers, storage, databases, and software—over the internet (the cloud). It allows users to access and use these services without having to manage physical servers or infrastructure.</p>
@@ -609,7 +610,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  dataScience: `
+    dataScience: `
     <h2 id="modal-heading">Data Science</h2>
     
     <p class="modal-paragraph">Data science involves using scientific methods, processes, and systems to extract insights and knowledge from data. It combines various fields such as statistics, data analysis, and machine learning to understand and interpret complex data.</p>
@@ -619,7 +620,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://www.ibm.com/topics/data-science" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  quantumComputing: `
+    quantumComputing: `
     <h2 id="modal-heading">Quantum Computing</h2>
     
     <p class="modal-paragraph">Quantum computing is an area of computing that uses principles of quantum mechanics to perform calculations. It leverages quantum bits (qubits) to process information in ways that classical computers cannot.</p>
@@ -629,7 +630,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://www.explainthatstuff.com/quantum-computing.html" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  internetOfThings: `
+    internetOfThings: `
     <h2 id="modal-heading">Internet of Things</h2>
     
     <p class="modal-paragraph">The Internet of Things (IoT) refers to the network of physical objects embedded with sensors and software that can connect and exchange data with other devices over the internet.</p>
@@ -640,7 +641,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://www.oracle.com/internet-of-things/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a> 
   `,
-  blockchain: `
+    blockchain: `
     <h2 id="modal-heading">Blockchain</h2>
     
     <p class="modal-paragraph">Blockchain is a digital ledger technology that records transactions across many computers in a way that ensures the security and transparency of the data.</p>
@@ -650,7 +651,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://builtin.com/blockchain" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  reactJS: `
+    reactJS: `
     <h2 id="modal-heading">ReactJS</h2>
     
     <p class="modal-paragraph">ReactJS is a JavaScript library used for building user interfaces. It allows developers to create reusable UI components and manage the state of their applications efficiently.</p>
@@ -660,7 +661,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://www.freecodecamp.org/news/react-for-beginners-handbook/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  docker: `
+    docker: `
     <h2 id="modal-heading">Docker</h2>
     
     <p class="modal-paragraph">Docker is a platform that allows developers to package applications and their dependencies into containers. Containers are lightweight, portable, and can run on any system with Docker installed.</p>
@@ -670,7 +671,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://docker-curriculum.com/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  initFunction: `
+    initFunction: `
     <h2 id="modal-heading">__init__ Function</h2>
     
     <p class="modal-paragraph">The __init__ function is a special method in Python that is called when an object is instantiated. It initializes the object's attributes and sets up the initial state of the object.</p>
@@ -681,7 +682,7 @@ const descriptions = {  codeSmell: `
     <a href="https://docker-curriculum.com/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  python: `
+    python: `
     <h2 id="modal-heading">Python</h2>
     
     <p class="modal-paragraph">Python is a high-level programming language known for its readability and simplicity. It is widely used in web development, data science, automation, and more.</p>
@@ -691,7 +692,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://example.com" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  threeSigmaRule: `
+    threeSigmaRule: `
     <h2 id="modal-heading">Three-Sigma Rule</h2>
     
     <p class="modal-paragraph">The Three-Sigma Rule, also known as <strong> the 68-95-99.7 rule and  </strong>  <strong>Empirical Rule </strong>, states that for a normal distribution, nearly all data points will fall within three standard deviations of the mean.</p>
@@ -702,7 +703,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://www.investopedia.com/terms/t/three-sigma-limits.asp" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  recursion: `
+    recursion: `
     <h2 id="modal-heading">Recursion</h2>
     
     <p class="modal-paragraph">Recursion is a programming technique where a function calls itself in order to solve a problem. It is often used to break down complex problems into simpler sub-problems.</p>
@@ -712,7 +713,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://2533.medium.com/recursion-explained-with-pictures-72578d28058a" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  git: `
+    git: `
     <h2 id="modal-heading">Git</h2>
     
     <p class="modal-paragraph">Git is a version control system that tracks changes to files and allows multiple people to collaborate on a project. It helps manage code changes, track history, and resolve conflicts.</p>
@@ -722,7 +723,7 @@ const descriptions = {  codeSmell: `
     
     
   `,
-  versionControl: `
+    versionControl: `
     <h2 id="modal-heading">Version Control</h2>
     
     <p class="modal-paragraph">Version control is a system that records changes to files over time so that you can recall specific versions later. It is essential for managing software development and tracking changes to code.</p>
@@ -732,7 +733,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://about.gitlab.com/topics/version-control/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  microservices: `
+    microservices: `
     <h2 id="modal-heading">Microservices</h2>
     
     <p class="modal-paragraph">
@@ -746,7 +747,7 @@ const descriptions = {  codeSmell: `
     <a href="https://aws.amazon.com/microservices/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  restfulAPI: `
+    restfulAPI: `
     <h2 id="modal-heading">RESTful API</h2>
     
     <p class="modal-paragraph">
@@ -761,7 +762,7 @@ const descriptions = {  codeSmell: `
     <a href="https://aws.amazon.com/what-is/restful-api/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  graphql: `
+    graphql: `
     <h2 id="modal-heading">GraphQL</h2>
     
     <p class="modal-paragraph">
@@ -775,7 +776,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.solo.io/topics/graphql/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  containerization: `
+    containerization: `
     <h2 id="modal-heading">Containerization</h2>
     
     <p class="modal-paragraph">
@@ -787,7 +788,7 @@ const descriptions = {  codeSmell: `
     <a href="https://aws.amazon.com/what-is/containerization/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  kubernetes: `
+    kubernetes: `
     <h2 id="modal-heading">Kubernetes</h2>
     
     <p class="modal-paragraph">
@@ -801,7 +802,7 @@ const descriptions = {  codeSmell: `
     <a href="https://kubernetes.io/docs/concepts/overview/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  branching: `
+    branching: `
     <h2 id="modal-heading">Branching</h2>
     
     <p class="modal-paragraph">
@@ -815,7 +816,7 @@ const descriptions = {  codeSmell: `
     <a href="https://medium.com/@jacoblogan98/understanding-git-branching-5d01f3dda541" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  merging: `
+    merging: `
     <h2 id="modal-heading">Merging</h2>
     
     <p class="modal-paragraph">
@@ -828,7 +829,7 @@ const descriptions = {  codeSmell: `
     <a href="https://atlassian.com/git/tutorials/using-branches/git-merge" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  pullRequests: `
+    pullRequests: `
     <h2 id="modal-heading">Pull Requests (PR)</h2>
     
     <p class="modal-paragraph">
@@ -840,8 +841,8 @@ const descriptions = {  codeSmell: `
     
     <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  
-  agile: `
+
+    agile: `
     <h2 id="modal-heading">Agile</h2>
     
     <p class="modal-paragraph">Agile is a methodology for software development that emphasizes flexibility, collaboration, and customer feedback. It focuses on delivering small, incremental improvements to a project.</p>
@@ -851,7 +852,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://www.spiceworks.com/tech/devops/articles/what-is-agile-software-development/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  scrum: `
+    scrum: `
     <h2 id="modal-heading">Scrum</h2>
     
     <p class="modal-paragraph">Scrum is a framework within the Agile methodology used for managing and completing complex projects. It involves iterative development and regular feedback from stakeholders.</p>
@@ -861,7 +862,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://www.scrum.org/resources/what-scrum-module" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  kanban: `
+    kanban: `
     <h2 id="modal-heading">Kanban</h2>
     
     <p class="modal-paragraph">Kanban is a visual workflow management method that helps teams visualize and manage work. It uses a board with columns to represent different stages of the work process.</p>
@@ -871,7 +872,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://www.atlassian.com/agile/kanban" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  sql: `
+    sql: `
     <h2 id="modal-heading">SQL</h2>
     
     <p class="modal-paragraph">SQL (Structured Query Language) is a language used for managing and querying relational databases. It allows users to perform operations such as retrieving, inserting, updating, and deleting data.</p>
@@ -881,7 +882,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://aws.amazon.com/what-is/sql/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  nosql: `
+    nosql: `
     <h2 id="modal-heading">NoSQL</h2>
     
     <p class="modal-paragraph">NoSQL is a type of database that provides a mechanism for data storage and retrieval that is different from traditional relational databases. It is designed to handle large volumes of unstructured or semi-structured data.</p>
@@ -890,7 +891,7 @@ const descriptions = {  codeSmell: `
   
     <a href="https://radixweb.com/blog/introduction-to-continuous-deployment#Continuous" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  html: `
+    html: `
     <h2 id="modal-heading">HTML</h2>
     
     <p class="modal-paragraph">HTML (HyperText Markup Language) is the standard language used to create and design web pages. It structures content on the web by using tags and elements to define headings, paragraphs, links, images, and other components.</p>
@@ -900,7 +901,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://www.hostinger.com/tutorials/what-is-html" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  css: `
+    css: `
     <h2 id="modal-heading">CSS</h2>
     
     <p class="modal-paragraph">CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in HTML. It controls the layout, colors, fonts, and overall design of web pages.</p>
@@ -910,7 +911,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://www.hostinger.com/tutorials/what-is-css" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  java: `
+    java: `
     <h2 id="modal-heading">Java</h2>
     
     <p class="modal-paragraph">Java is a high-level programming language known for its portability, scalability, and performance. It is widely used for building enterprise-level applications, mobile apps, and web services.</p>
@@ -920,7 +921,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://www.simplilearn.com/tutorials/java-tutorial/what-is-java" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  cSharp: `
+    cSharp: `
     <h2 id="modal-heading">C#</h2>
     
     <p class="modal-paragraph">C# (C-Sharp) is a modern, object-oriented programming language developed by Microsoft. It is used primarily for developing applications on the .NET framework, including web, desktop, and mobile apps.</p>
@@ -930,7 +931,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://dotnet.microsoft.com/en-us/languages/csharp" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  php: `
+    php: `
     <h2 id="modal-heading">PHP</h2>
     
     <p class="modal-paragraph">PHP (Hypertext Preprocessor) is a server-side scripting language designed for web development. It is commonly used to create dynamic web pages and interact with databases.</p>
@@ -940,7 +941,7 @@ const descriptions = {  codeSmell: `
     
      <a href="https://www.freecodecamp.org/news/what-is-php-the-php-programming-language-meaning-explained/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  ruby: `
+    ruby: `
     <h2 id="modal-heading">Ruby</h2>
     
     <p class="modal-paragraph">Ruby is an object-oriented programming language known for its simplicity and productivity. It is often used for web development, particularly with the Ruby on Rails framework.</p>
@@ -948,7 +949,7 @@ const descriptions = {  codeSmell: `
     
      <a href="https://developer.oracle.com/learn/technical-articles/what-is-ruby" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  swift: `
+    swift: `
     <h2 id="modal-heading">Swift</h2>
     
     <p class="modal-paragraph">Swift is a programming language developed by Apple for iOS and macOS development. It is known for its speed, safety, and ease of use.</p>
@@ -958,7 +959,7 @@ const descriptions = {  codeSmell: `
     
      <a href="https://developer.apple.com/swift/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  typescript: `
+    typescript: `
     <h2 id="modal-heading">TypeScript</h2>
     
     <p class="modal-paragraph">TypeScript is a superset of JavaScript that adds static typing to the language. It helps developers catch errors early and improve code quality by providing type-checking and advanced features.</p>
@@ -969,7 +970,7 @@ const descriptions = {  codeSmell: `
      <a href="https://www.typescripttutorial.net/typescript-tutorial/what-is-typescript/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
 
   `,
-  kotlin: `
+    kotlin: `
     <h2 id="modal-heading">Kotlin</h2>
     
     <p class="modal-paragraph">Kotlin is a statically-typed programming language developed by JetBrains. It is used for Android development and is fully interoperable with Java.</p>
@@ -978,7 +979,7 @@ const descriptions = {  codeSmell: `
    
      <a href="https://www.techtarget.com/whatis/definition/Kotlin" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  bash: `
+    bash: `
     <h2 id="modal-heading">Bash</h2>
     
     <p class="modal-paragraph">Bash is a Unix shell and command language used for writing shell scripts. It allows users to automate tasks, manage files, and interact with the operating system through commands.</p>
@@ -986,7 +987,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://opensource.com/resources/what-bash" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  rubyOnRails: `
+    rubyOnRails: `
     <h2 id="modal-heading">Ruby on Rails</h2>
     
     <p class="modal-paragraph">Ruby on Rails is a web application framework written in Ruby. It follows the Model-View-Controller (MVC) architecture and emphasizes convention over configuration.</p>
@@ -996,7 +997,7 @@ const descriptions = {  codeSmell: `
      
      <a href="https://www.codecademy.com/resources/blog/what-is-ruby-on-rails/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  angular: `
+    angular: `
     <h2 id="modal-heading">Angular</h2>
     
     <p class="modal-paragraph">Angular is a TypeScript-based open-source web application framework developed by Google. It provides a comprehensive solution for building dynamic and responsive web applications.</p>
@@ -1006,7 +1007,7 @@ const descriptions = {  codeSmell: `
      
      <a href="https://v17.angular.io/guide/what-is-angular" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  vueJS: `
+    vueJS: `
     <h2 id="modal-heading">VueJS</h2>
     
     <p class="modal-paragraph">VueJS is a progressive JavaScript framework used for building user interfaces. It is designed to be incrementally adoptable and can be integrated into existing projects.</p>
@@ -1016,7 +1017,7 @@ const descriptions = {  codeSmell: `
      
      <a href="https://v1.vuejs.org/guide/overview.html" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  flutter: `
+    flutter: `
     <h2 id="modal-heading">Flutter</h2>
     
     <p class="modal-paragraph">Flutter is an open-source UI toolkit developed by Google for building natively compiled applications for mobile, web, and desktop from a single codebase.</p>
@@ -1026,7 +1027,7 @@ const descriptions = {  codeSmell: `
      
      <a href="https://techvify-software.com/wp-content/uploads/2023/07/how-flutter-works.jpg" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  swiftUI: `
+    swiftUI: `
     <h2 id="modal-heading">SwiftUI</h2>
     
     <p class="modal-paragraph">SwiftUI is a framework by Apple for building user interfaces across all Apple platforms using a declarative Swift syntax. It simplifies the process of creating complex UI elements and animations.</p>
@@ -1034,7 +1035,7 @@ const descriptions = {  codeSmell: `
     
      <a href="https://www.adjust.com/blog/get-started-with-swiftui/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  algorithm: `
+    algorithm: `
     <h2 id="modal-heading">Algorithm</h2>
     
     <p class="modal-paragraph">An algorithm is a step-by-step procedure or formula for solving a problem. It is a fundamental concept in computer science and programming used to perform tasks, calculations, and data processing.</p>
@@ -1044,7 +1045,7 @@ const descriptions = {  codeSmell: `
      
      <a href="https://www.geeksforgeeks.org/introduction-to-algorithms/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  dataStructure: `
+    dataStructure: `
     <h2 id="modal-heading">Data Structure</h2>
     
     <p class="modal-paragraph">A data structure is a way of organizing and storing data so that it can be accessed and modified efficiently. Common data structures include arrays, linked lists, stacks, queues, and trees.</p>
@@ -1054,7 +1055,7 @@ const descriptions = {  codeSmell: `
      
      <a href="https://www.w3schools.com/dsa/dsa_intro.php" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  bigO: `
+    bigO: `
     <h2 id="modal-heading">Big O Notation</h2>
     
     <p class="modal-paragraph">Big O notation is used to describe the performance or complexity of an algorithm in terms of time and space. It provides an upper bound on the growth rate of an algorithm's running time or space usage.</p>
@@ -1063,14 +1064,14 @@ const descriptions = {  codeSmell: `
     
      <a href="https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  recursionDepth: `
+    recursionDepth: `
     <h2 id="modal-heading">Recursion Depth</h2>
     
     <p class="modal-paragraph">Recursion depth refers to the number of times a recursive function calls itself before reaching the base case. It is important to manage recursion depth to avoid stack overflow errors and ensure efficient execution.</p>
     <p class="modal-paragraph">Understanding recursion depth helps in designing algorithms that use recursion effectively and safely.</p>
     
   `,
-  debugging: `
+    debugging: `
     <h2 id="modal-heading">Debugging</h2>
     
     <p class="modal-paragraph">Debugging is the process of identifying and fixing errors or bugs in software code. It involves testing, analyzing, and modifying code to ensure that it functions correctly.</p>
@@ -1080,7 +1081,7 @@ const descriptions = {  codeSmell: `
      
      <a href="https://www.ibm.com/topics/debugging" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  testing: `
+    testing: `
     <h2 id="modal-heading">Testing</h2>
     
     <p class="modal-paragraph">Testing is the process of evaluating software to ensure it behaves as expected. It involves executing code with various inputs to verify correctness, performance, and reliability.</p>
@@ -1089,7 +1090,7 @@ const descriptions = {  codeSmell: `
 
      <a href="https://www.ibm.com/topics/software-testing" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  unitTest: `
+    unitTest: `
     <h2 id="modal-heading">Unit Test</h2>
     
     <p class="modal-paragraph">A unit test is a type of testing that focuses on verifying individual components or functions of a software application. It ensures that each unit of code performs as intended.</p>
@@ -1099,7 +1100,7 @@ const descriptions = {  codeSmell: `
      
      <a href="https://aws.amazon.com/what-is/unit-testing/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  integrationTest: `
+    integrationTest: `
     <h2 id="modal-heading">Integration Test</h2>
     
     <p class="modal-paragraph">Integration testing focuses on verifying the interactions between different components or systems to ensure they work together as expected.</p>
@@ -1109,7 +1110,7 @@ const descriptions = {  codeSmell: `
      
      <a href="https://katalon.com/resources-center/blog/integration-testing" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  endToEndTest: `
+    endToEndTest: `
     <h2 id="modal-heading">End-to-End Test</h2>
     
     <p class="modal-paragraph">End-to-end testing evaluates the entire software application from start to finish to ensure that it works as intended in a real-world scenario.</p>
@@ -1119,7 +1120,7 @@ const descriptions = {  codeSmell: `
      
      <a href="https://smartbear.com/learn/automated-testing/what-is-end-to-end-testing/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  performanceTest: `
+    performanceTest: `
     <h2 id="modal-heading">Performance Test</h2>
     
     <p class="modal-paragraph">Performance testing evaluates how well a software application performs under various conditions, including load, stress, and scalability.</p>
@@ -1129,7 +1130,7 @@ const descriptions = {  codeSmell: `
      
      <a href="https://en.wikipedia.org/wiki/Software_performance_testing" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  loadTest: `
+    loadTest: `
     <h2 id="modal-heading">Load Test</h2>
     
     <p class="modal-paragraph">Load testing is a type of performance testing that evaluates how a software application handles a specific volume of users or transactions.</p>
@@ -1138,7 +1139,7 @@ const descriptions = {  codeSmell: `
    
      <a href="https://en.wikipedia.org/wiki/Software_load_testing#:~:text=Load%20testing%20generally%20refers%20to,model%2C%20such%20as%20web%20servers." id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  stressTest: `
+    stressTest: `
     <h2 id="modal-heading">Stress Test</h2>
     
     <p class="modal-paragraph">Stress testing assesses how a software application performs under extreme conditions, such as a sudden spike in user activity or data volume.</p>
@@ -1147,7 +1148,7 @@ const descriptions = {  codeSmell: `
    
      <a href="https://www.geeksforgeeks.org/stress-testing-software-testing/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  securityTest: `
+    securityTest: `
     <h2 id="modal-heading">Security Test</h2>
     
     <p class="modal-paragraph">Security testing identifies vulnerabilities and weaknesses in a software application to ensure it is protected against potential threats and attacks.</p>
@@ -1156,7 +1157,7 @@ const descriptions = {  codeSmell: `
 
      <a href="https://www.hackerone.com/knowledge-center/what-security-testing" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  usabilityTest: `
+    usabilityTest: `
     <h2 id="modal-heading">Usability Test</h2>
     
     <p class="modal-paragraph">Usability testing evaluates how easy and intuitive a software application is for users. It focuses on user experience, including ease of navigation, accessibility, and overall satisfaction.</p>
@@ -1165,7 +1166,7 @@ const descriptions = {  codeSmell: `
   
      <a href="https://www.geeksforgeeks.org/usability-testing/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  codeReview: `
+    codeReview: `
     <h2 id="modal-heading">Code Review</h2>
     
     <p class="modal-paragraph">
@@ -1179,7 +1180,7 @@ const descriptions = {  codeSmell: `
     <a href="https://about.gitlab.com/topics/version-control/what-is-code-review/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  refactoring: `
+    refactoring: `
     <h2 id="modal-heading">Refactoring</h2>
     
     <p class="modal-paragraph">
@@ -1193,7 +1194,7 @@ const descriptions = {  codeSmell: `
     <a href="https://refactoring.guru/refactoring/what-is-refactoring" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  technicalDebt: `
+    technicalDebt: `
     <h2 id="modal-heading">Technical Debt</h2>
     
     <p class="modal-paragraph">
@@ -1207,7 +1208,7 @@ const descriptions = {  codeSmell: `
     <a href="https://asana.com/resources/technical-debt" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  designPatterns: `
+    designPatterns: `
     <h2 id="modal-heading">Design Patterns</h2>
     
     <p class="modal-paragraph">
@@ -1220,7 +1221,7 @@ const descriptions = {  codeSmell: `
     <a href="https://refactoring.guru/design-patterns/what-is-pattern" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  solidPrinciples: `
+    solidPrinciples: `
     <h2 id="modal-heading">SOLID Principles</h2>
     
     <p class="modal-paragraph">
@@ -1234,7 +1235,7 @@ const descriptions = {  codeSmell: `
     <a href="https://en.wikipedia.org/wiki/SOLID" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  kissPrinciple: `
+    kissPrinciple: `
     <h2 id="modal-heading">KISS Principle</h2>
     
     <p class="modal-paragraph">
@@ -1248,7 +1249,7 @@ const descriptions = {  codeSmell: `
     <a href="https://en.wikipedia.org/wiki/KISS_principle" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  dryPrinciple: `
+    dryPrinciple: `
     <h2 id="modal-heading">DRY Principle</h2>
     
     <p class="modal-paragraph">
@@ -1262,7 +1263,7 @@ const descriptions = {  codeSmell: `
     <a href="https://thevaluable.dev/dry-principle-cost-benefit-example/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  uat: `
+    uat: `
     <h2 id="modal-heading">UAT</h2>
     
     <p class="modal-paragraph">
@@ -1275,7 +1276,7 @@ const descriptions = {  codeSmell: `
     <img  src="https://images.spiceworks.com/wp-content/uploads/2022/10/14110825/UAT-Testing-Process.png" alt="UAT image">
     <a href="https://www.guru99.com/user-acceptance-testing.html" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  testDrivenDevelopment: `
+    testDrivenDevelopment: `
     <h2 id="modal-heading">Test-Driven Development</h2>
     
     <p class="modal-paragraph">Test-Driven Development (TDD) is a software development approach where tests are written before the actual code. It involves creating tests to define desired functionality and then writing code to pass those tests.</p>
@@ -1283,7 +1284,7 @@ const descriptions = {  codeSmell: `
     
      <a href="https://testdriven.io/test-driven-development/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  continuousIntegration: `
+    continuousIntegration: `
     <h2 id="modal-heading">Continuous Integration</h2>
     
     <p class="modal-paragraph">Continuous Integration (CI) is a practice where code changes are automatically tested and integrated into a shared repository multiple times a day. It aims to detect and fix errors early in the development process.</p>
@@ -1293,7 +1294,7 @@ const descriptions = {  codeSmell: `
      
      <a href="https://aws.amazon.com/devops/continuous-integration/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  continuousDelivery: `
+    continuousDelivery: `
     <h2 id="modal-heading">Continuous Delivery</h2>
     
     <p class="modal-paragraph">Continuous Delivery (CD) is a practice where code changes are automatically built, tested, and prepared for release to production. It ensures that software can be deployed at any time with minimal manual intervention.</p>
@@ -1303,7 +1304,7 @@ const descriptions = {  codeSmell: `
      
      <a href="https://aws.amazon.com/devops/continuous-delivery/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  devOps: `
+    devOps: `
     <h2 id="modal-heading">DevOps</h2>
     
     <p class="modal-paragraph">DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to improve collaboration, automation, and efficiency throughout the software development lifecycle.</p>
@@ -1314,7 +1315,7 @@ const descriptions = {  codeSmell: `
      <a href="https://aws.amazon.com/devops/what-is-devops/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  logisticRegression: `
+    logisticRegression: `
     <h2 id="modal-heading">Logistic Regression</h2>
     
     <p class="modal-paragraph">Logistic regression is a statistical method used for binary classification. It helps predict the probability of an outcome that can be one of two possible categories. For example, it might predict whether an email is spam or not spam based on its content.</p>
@@ -1325,7 +1326,7 @@ const descriptions = {  codeSmell: `
     <a href="https://towardsdatascience.com/introduction-to-logistic-regression-66248243c148" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  kMeansClustering: `
+    kMeansClustering: `
     <h2 id="modal-heading">K-Means Clustering</h2>
     
     <p class="modal-paragraph">K-Means Clustering is an unsupervised learning algorithm used to divide data into groups (clusters) where each data point belongs to the cluster with the nearest mean. It's useful for discovering patterns in data.</p>
@@ -1336,7 +1337,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.analyticsvidhya.com/blog/2020/10/a-simple-explanation-of-k-means-clustering/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  decisionTrees: `
+    decisionTrees: `
     <h2 id="modal-heading">Decision Trees</h2>
     
     <p class="modal-paragraph">Decision Trees are a type of algorithm used for classification and regression tasks. They split data into branches to make decisions based on various features, much like a flowchart.</p>
@@ -1347,7 +1348,7 @@ const descriptions = {  codeSmell: `
     <a href="https://chirag-sehra.medium.com/decision-trees-explained-easily-28f23241248" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  randomForest: `
+    randomForest: `
     <h2 id="modal-heading">Random Forest</h2>
     
     <p class="modal-paragraph">Random Forest is an ensemble learning technique that combines multiple decision trees to improve prediction accuracy. Each tree makes a decision, and the majority vote determines the final outcome.</p>
@@ -1358,7 +1359,7 @@ const descriptions = {  codeSmell: `
     <a href="https://medium.com/@denizgunay/random-forest-af5bde5d7e1e" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  supportVectorMachines: `
+    supportVectorMachines: `
     <h2 id="modal-heading">Support Vector Machines</h2>
     
     <p class="modal-paragraph">Support Vector Machines (SVM) are a type of supervised learning algorithm used for classification and regression. They work by finding the best boundary that separates different classes of data points.</p>
@@ -1369,7 +1370,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.kdnuggets.com/2016/07/support-vector-machines-simple-explanation.html" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  gradientDescent: `
+    gradientDescent: `
     <h2 id="modal-heading">Gradient Descent</h2>
     
     <p class="modal-paragraph">Gradient Descent is an optimization algorithm used to minimize the error of a model. It works by iteratively adjusting the model's parameters to find the lowest error value.</p>
@@ -1378,7 +1379,7 @@ const descriptions = {  codeSmell: `
     <a href="https://towardsdatascience.com/gradient-descent-explained-9b953fc0d2c" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  neuralNetworks: `
+    neuralNetworks: `
     <h2 id="modal-heading">Neural Networks</h2>
     
     <p class="modal-paragraph">Neural Networks are a set of algorithms modeled after the human brain. They consist of interconnected nodes (neurons) that work together to solve complex problems, like image recognition.</p>
@@ -1389,7 +1390,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.freecodecamp.org/news/deep-learning-neural-networks-explained-in-plain-english/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  naturalLanguageProcessing: `
+    naturalLanguageProcessing: `
     <h2 id="modal-heading">Natural Language Processing</h2>
     
     <p class="modal-paragraph">Natural Language Processing (NLP) is a field of artificial intelligence that helps computers understand and interact with human language. It's used in applications like chatbots and translation services.</p>
@@ -1400,7 +1401,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.freecodecamp.org/news/deep-learning-neural-networks-explained-in-plain-english/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  recurrentNeuralNetworks: `
+    recurrentNeuralNetworks: `
     <h2 id="modal-heading">Recurrent Neural Networks</h2>
     
     <p class="modal-paragraph">Recurrent Neural Networks (RNNs) are a type of neural network designed for processing sequences of data, like time series or sentences. They have loops that allow information to persist across time steps.</p>
@@ -1411,7 +1412,7 @@ const descriptions = {  codeSmell: `
     <a href="https://media.geeksforgeeks.org/wp-content/uploads/20240524132821/nlp-working.webp" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  convolutionalNeuralNetworks: `
+    convolutionalNeuralNetworks: `
     <h2 id="modal-heading">Convolutional Neural Networks</h2>
     
     <p class="modal-paragraph">Convolutional Neural Networks (CNNs) are designed to process grid-like data, such as images. They use filters to detect patterns in different parts of an image, which helps in tasks like image classification.</p>
@@ -1422,7 +1423,7 @@ const descriptions = {  codeSmell: `
     <a href="https://nafizshahriar.medium.com/what-is-convolutional-neural-network-cnn-deep-learning-b3921bdd82d5" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  autoencoders: `
+    autoencoders: `
     <h2 id="modal-heading">Autoencoders</h2>
     
     <p class="modal-paragraph">Autoencoders are a type of neural network used for learning efficient representations of data. They work by compressing the input into a smaller representation and then reconstructing it to match the original input.</p>
@@ -1433,7 +1434,7 @@ const descriptions = {  codeSmell: `
     <a href="https://medium.com/@birla.deepak26/autoencoders-76bb49ae6a8f" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  reinforcementLearning: `
+    reinforcementLearning: `
     <h2 id="modal-heading">Reinforcement Learning</h2>
     
     <p class="modal-paragraph">Reinforcement Learning is a type of machine learning where an agent learns to make decisions by receiving rewards or penalties. The goal is to maximize the total reward over time.</p>
@@ -1444,7 +1445,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.spiceworks.com/tech/artificial-intelligence/articles/what-is-reinforcement-learning/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  transferLearning: `
+    transferLearning: `
     <h2 id="modal-heading">Transfer Learning</h2>
     
     <p class="modal-paragraph">Transfer Learning is a technique where a pre-trained model is adapted to perform a different but related task. This approach helps save time and computational resources.</p>
@@ -1454,7 +1455,7 @@ const descriptions = {  codeSmell: `
     <img  src="https://cdn.prod.website-files.com/5d7b77b063a9066d83e1209c/627d125248f5fa07e1faf0c6_61f54fb4bbd0e14dfe068c8f_transfer-learned-knowledge.png" alt="Transfer Learning image">
     <a href="https://www.v7labs.com/blog/transfer-learning-guide" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  hyperparameterTuning: `
+    hyperparameterTuning: `
     <h2 id="modal-heading">Hyperparameter Tuning</h2>
     
     <p class="modal-paragraph">Hyperparameter Tuning is the process of optimizing the settings of a machine learning model to improve its performance. These settings, called hyperparameters, control the learning process and the structure of the model.</p>
@@ -1464,7 +1465,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.analyticsvidhya.com/blog/2022/02/a-comprehensive-guide-on-hyperparameter-tuning-and-its-techniques/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  crossValidation: `
+    crossValidation: `
     <h2 id="modal-heading">Cross-Validation</h2>
     
     <p class="modal-paragraph">Cross-Validation is a technique used to assess how well a machine learning model performs on unseen data. It involves splitting the data into multiple subsets, training the model on some subsets, and testing it on the remaining ones.</p>
@@ -1475,7 +1476,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.geeksforgeeks.org/cross-validation-machine-learning/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  featureEngineering: `
+    featureEngineering: `
     <h2 id="modal-heading">Feature Engineering</h2>
     
     <p class="modal-paragraph">Feature Engineering involves creating new features or modifying existing ones to improve the performance of a machine learning model. It's like adding more details to a drawing to make it clearer.</p>
@@ -1486,7 +1487,7 @@ const descriptions = {  codeSmell: `
     <a href="https://builtin.com/articles/feature-engineering" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  featureScaling: `
+    featureScaling: `
     <h2 id="modal-heading">Feature Scaling</h2>
     
     <p class="modal-paragraph">Feature Scaling is the process of normalizing the range of features in your data. This helps improve the performance and convergence speed of machine learning algorithms.</p>
@@ -1495,7 +1496,7 @@ const descriptions = {  codeSmell: `
   
   `,
 
-  overfitting: `
+    overfitting: `
     <h2 id="modal-heading">Overfitting</h2>
     
     <p class="modal-paragraph">Overfitting occurs when a machine learning model learns the details and noise in the training data to the extent that it negatively impacts its performance on new data.</p>
@@ -1506,7 +1507,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  underfitting: `
+    underfitting: `
     <h2 id="modal-heading">Underfitting</h2>
     
     <p class="modal-paragraph">Underfitting happens when a machine learning model is too simple to capture the underlying pattern in the data. It performs poorly on both training and new data.</p>
@@ -1517,7 +1518,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  regularization: `
+    regularization: `
     <h2 id="modal-heading">Regularization</h2>
     
     <p class="modal-paragraph">Regularization is a technique used to prevent overfitting by adding a penalty to the complexity of the model. It helps in keeping the model simpler and more generalizable.</p>
@@ -1528,7 +1529,7 @@ const descriptions = {  codeSmell: `
     <a href="" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  bagging: `
+    bagging: `
     <h2 id="modal-heading">Bagging</h2>
     
     <p class="modal-paragraph">Bagging, or Bootstrap Aggregating, is an ensemble technique that improves model performance by training multiple models on different subsets of the data and combining their predictions.</p>
@@ -1537,7 +1538,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.ibm.com/topics/bagging" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  boosting: `
+    boosting: `
     <h2 id="modal-heading">Boosting</h2>
     
     <p class="modal-paragraph">Boosting is an ensemble technique that builds multiple models sequentially, where each model tries to correct the errors of the previous one. The final prediction is a weighted sum of the predictions from all models.</p>
@@ -1546,7 +1547,7 @@ const descriptions = {  codeSmell: `
     <a href="https://aws.amazon.com/what-is/boosting/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  ensembleMethods: `
+    ensembleMethods: `
     <h2 id="modal-heading">Ensemble Methods</h2>
     
     <p class="modal-paragraph">Ensemble Methods combine the predictions from multiple models to improve overall performance. Techniques like bagging, boosting, and stacking are common ensemble methods.</p>
@@ -1557,7 +1558,7 @@ const descriptions = {  codeSmell: `
     <a href="https://corporatefinanceinstitute.com/resources/data-science/ensemble-methods/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  rocCurve: `
+    rocCurve: `
     <h2 id="modal-heading">ROC Curve</h2>
     
     <p class="modal-paragraph">The ROC Curve (Receiver Operating Characteristic Curve) is a graphical representation of a classifier's performance. It plots the true positive rate against the false positive rate at various thresholds.</p>
@@ -1567,7 +1568,7 @@ const descriptions = {  codeSmell: `
     <img  src="https://media.geeksforgeeks.org/wp-content/uploads/20230410164437/AUC-ROC-Curve.webp" alt="ROC Curve image">
     <a href="https://medium.com/@shaileydash/understanding-the-roc-and-auc-intuitively-31ca96445c02" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  aucCurve: `
+    aucCurve: `
     <h2 id="modal-heading">AUC Curve</h2>
     
     <p class="modal-paragraph">AUC (Area Under the Curve) is a performance measurement for classification problems at various threshold settings. The AUC represents the degree or measure of separability. It tells how much the model is capable of distinguishing between classes.</p>
@@ -1578,7 +1579,7 @@ const descriptions = {  codeSmell: `
     <a href="https://medium.com/@shaileydash/understanding-the-roc-and-auc-intuitively-31ca96445c025" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  precisionRecall: `
+    precisionRecall: `
     <h2 id="modal-heading">Precision and Recall</h2>
     
     <p class="modal-paragraph">Precision and Recall are metrics used to evaluate the performance of classification models. Precision measures the accuracy of positive predictions, while Recall measures how well the model identifies all positive instances.</p>
@@ -1589,7 +1590,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.analyticsvidhya.com/blog/2020/09/precision-recall-machine-learning/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  f1Score: `
+    f1Score: `
     <h2 id="modal-heading">F1 Score</h2>
     
     <p class="modal-paragraph">The F1 Score is a metric that combines Precision and Recall into a single number. It is the harmonic mean of Precision and Recall, providing a balanced measure of a model's accuracy.</p>
@@ -1600,7 +1601,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.v7labs.com/blog/f1-score-guide" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  confusionMatrix: `
+    confusionMatrix: `
     <h2 id="modal-heading">Confusion Matrix</h2>
     
     <p class="modal-paragraph">A Confusion Matrix is a table used to evaluate the performance of a classification model. It shows the counts of true positive, false positive, true negative, and false negative predictions.</p>
@@ -1611,7 +1612,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.analyticsvidhya.com/blog/2020/04/confusion-matrix-machine-learning/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  crossEntropy: `
+    crossEntropy: `
     <h2 id="modal-heading">Cross-Entropy</h2>
     
     <p class="modal-paragraph">Cross-Entropy is a loss function used to measure the performance of a classification model. It quantifies the difference between the predicted probabilities and the actual class labels.</p>
@@ -1619,8 +1620,8 @@ const descriptions = {  codeSmell: `
     
     <a href="https://towardsdatascience.com/what-is-cross-entropy-3bdb04c13616" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  // Start from here - 01/08
-  noSQLDatabases: `
+    // Start from here - 01/08
+    noSQLDatabases: `
     <h2 id="modal-heading">NoSQL Databases</h2>
     
     <p class="modal-paragraph">
@@ -1633,7 +1634,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://www.mongodb.com/nosql-explained" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  microservicesArchitecture: `
+    microservicesArchitecture: `
     <h2 id="modal-heading">Microservices Architecture</h2>
     
     <p class="modal-paragraph">
@@ -1646,7 +1647,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://microservices.io/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  serverlessArchitecture: `
+    serverlessArchitecture: `
     <h2 id="modal-heading">Serverless Architecture</h2>
     
     <p class="modal-paragraph">
@@ -1659,7 +1660,7 @@ const descriptions = {  codeSmell: `
    
     <a href="https://serverless.com/learn/what-is-serverless/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  webAssembly: `
+    webAssembly: `
     <h2 id="modal-heading">WebAssembly (Wasm)</h2>
     
     <p class="modal-paragraph">
@@ -1672,7 +1673,7 @@ const descriptions = {  codeSmell: `
    
     <a href="https://webassembly.org/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  edgeComputing: `
+    edgeComputing: `
     <h2 id="modal-heading">Edge Computing</h2>
     
     <p class="modal-paragraph">
@@ -1685,7 +1686,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://www.ibm.com/cloud/what-is-edge-computing" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  zeroTrustSecurityModel: `
+    zeroTrustSecurityModel: `
     <h2 id="modal-heading">Zero Trust Security Model</h2>
     
     <p class="modal-paragraph">
@@ -1698,7 +1699,7 @@ const descriptions = {  codeSmell: `
    
     <a href="https://www.csoonline.com/article/3247848/what-is-zero-trust-a-model-for-more-effective-security.html" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  dockerSwarm: `
+    dockerSwarm: `
     <h2 id="modal-heading">Docker Swarm</h2>
     
     <p class="modal-paragraph">
@@ -1711,7 +1712,7 @@ const descriptions = {  codeSmell: `
    
     <a href="https://docs.docker.com/engine/swarm/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  oAuth2_0: `
+    oAuth2_0: `
     <h2 id="modal-heading">OAuth 2.0</h2>
     
     <p class="modal-paragraph">
@@ -1724,7 +1725,7 @@ const descriptions = {  codeSmell: `
    
     <a href="https://oauth.net/2/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  jwt: `
+    jwt: `
     <h2 id="modal-heading">JWT (JSON Web Tokens)</h2>
     
     <p class="modal-paragraph">
@@ -1737,7 +1738,7 @@ const descriptions = {  codeSmell: `
    
     <a href="https://jwt.io/introduction/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  eventDrivenArchitecture: `
+    eventDrivenArchitecture: `
     <h2 id="modal-heading">Event-Driven Architecture</h2>
     
     <p class="modal-paragraph">
@@ -1750,7 +1751,7 @@ const descriptions = {  codeSmell: `
   
     <a href="https://aws.amazon.com/event-driven-architecture/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  cqrs: `
+    cqrs: `
     <h2 id="modal-heading">CQRS (Command Query Responsibility Segregation)</h2>
     
     <p class="modal-paragraph">
@@ -1763,7 +1764,7 @@ const descriptions = {  codeSmell: `
    
     <a href="https://martinfowler.com/bliki/CQRS.html" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  devSecOps: `
+    devSecOps: `
     <h2 id="modal-heading">DevSecOps</h2>
     
     <p class="modal-paragraph">
@@ -1776,7 +1777,7 @@ const descriptions = {  codeSmell: `
   
     <a href="https://www.redhat.com/en/topics/devops/what-is-devsecops" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  dataLake: `
+    dataLake: `
     <h2 id="modal-heading">Data Lake</h2>
     
     <p class="modal-paragraph">
@@ -1789,7 +1790,7 @@ const descriptions = {  codeSmell: `
    
     <a href="https://aws.amazon.com/big-data/datalakes-and-analytics/what-is-a-data-lake/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  etl: `
+    etl: `
     <h2 id="modal-heading">ETL (Extract, Transform, Load)</h2>
     
     <p class="modal-paragraph">
@@ -1802,7 +1803,7 @@ const descriptions = {  codeSmell: `
    
     <a href="https://www.talend.com/resources/what-is-etl/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  monolith: `
+    monolith: `
     <h2 id="modal-heading">Monolith</h2>
     
     <p class="modal-paragraph">
@@ -1815,7 +1816,7 @@ const descriptions = {  codeSmell: `
    
     <a href="https://en.wikipedia.org/wiki/Monolithic_application" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  dataWarehouse: `
+    dataWarehouse: `
     <h2 id="modal-heading">Data Warehouse</h2>
     
     <p class="modal-paragraph">
@@ -1828,7 +1829,7 @@ const descriptions = {  codeSmell: `
    
     <a href="https://www.oracle.com/data-warehouse/what-is-a-data-warehouse.html" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  graphDatabases: `
+    graphDatabases: `
     <h2 id="modal-heading">Graph Databases (e.g., Neo4j)</h2>
     
     <p class="modal-paragraph">
@@ -1841,7 +1842,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://neo4j.com/what-is-a-graph-database/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  apm: `
+    apm: `
     <h2 id="modal-heading">APM (Application Performance Management)</h2>
     
     <p class="modal-paragraph">
@@ -1854,7 +1855,7 @@ const descriptions = {  codeSmell: `
   
     <a href="https://www.dynatrace.com/news/blog/what-is-apm/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  infrastructureAsCode: `
+    infrastructureAsCode: `
     <h2 id="modal-heading">Infrastructure as Code (IaC)</h2>
     
     <p class="modal-paragraph">
@@ -1867,7 +1868,7 @@ const descriptions = {  codeSmell: `
    
     <a href="https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code-iac" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  immutableInfrastructure: `
+    immutableInfrastructure: `
     <h2 id="modal-heading">Immutable Infrastructure</h2>
     
     <p class="modal-paragraph">
@@ -1880,7 +1881,7 @@ const descriptions = {  codeSmell: `
    
     <a href="https://www.redhat.com/en/topics/automation/what-is-immutable-infrastructure" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  distributedLedgerTechnology: `
+    distributedLedgerTechnology: `
     <h2 id="modal-heading">Distributed Ledger Technology</h2>
     
     <p class="modal-paragraph">
@@ -1893,7 +1894,7 @@ const descriptions = {  codeSmell: `
    
     <a href="https://www.ibm.com/blockchain/what-is-blockchain" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  chaosEngineering: `
+    chaosEngineering: `
     <h2 id="modal-heading">Chaos Engineering</h2>
     
     <p class="modal-paragraph">
@@ -1906,7 +1907,7 @@ const descriptions = {  codeSmell: `
  
     <a href="https://principlesofchaos.org/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  reactiveProgramming: `
+    reactiveProgramming: `
     <h2 id="modal-heading">Reactive Programming</h2>
     
     <p class="modal-paragraph">
@@ -1919,7 +1920,7 @@ const descriptions = {  codeSmell: `
   
     <a href="https://www.reactivemanifesto.org/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  dataSharding: `
+    dataSharding: `
     <h2 id="modal-heading">Data Sharding</h2>
     
     <p class="modal-paragraph">
@@ -1931,7 +1932,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://www.mongodb.com/basics/sharding" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  apiGateway: `
+    apiGateway: `
     <h2 id="modal-heading">API Gateway</h2>
     
     <p class="modal-paragraph">
@@ -1943,7 +1944,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://aws.amazon.com/api-gateway/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  webRTC: `
+    webRTC: `
     <h2 id="modal-heading">WebRTC (Web Real-Time Communication)</h2>
     
     <p class="modal-paragraph">
@@ -1955,7 +1956,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://webrtc.org/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  dataGovernance: `
+    dataGovernance: `
     <h2 id="modal-heading">Data Governance</h2>
     
     <p class="modal-paragraph">
@@ -1968,7 +1969,7 @@ const descriptions = {  codeSmell: `
 
     <a href="https://www.dataversity.net/what-is-data-governance/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  dataAnonymization: `
+    dataAnonymization: `
     <h2 id="modal-heading">Data Anonymization</h2>
     
     <p class="modal-paragraph">
@@ -1980,7 +1981,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://en.wikipedia.org/wiki/Data_anonymization" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  federatedLearning: `
+    federatedLearning: `
     <h2 id="modal-heading">Federated Learning</h2>
     
     <p class="modal-paragraph">
@@ -1992,7 +1993,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://ai.googleblog.com/2017/04/federated-learning-collaborative.html" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  explainableAI: `
+    explainableAI: `
     <h2 id="modal-heading">Explainable AI (XAI)</h2>
     
     <p class="modal-paragraph">
@@ -2004,7 +2005,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://en.wikipedia.org/wiki/Explainable_artificial_intelligence" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  syntheticData: `
+    syntheticData: `
     <h2 id="modal-heading">Synthetic Data</h2>
     
     <p class="modal-paragraph">
@@ -2017,7 +2018,7 @@ const descriptions = {  codeSmell: `
 
     <a href="https://en.wikipedia.org/wiki/Synthetic_data" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  quantumCryptography: `
+    quantumCryptography: `
     <h2 id="modal-heading">Quantum Cryptography</h2>
     
     <p class="modal-paragraph">
@@ -2030,7 +2031,7 @@ const descriptions = {  codeSmell: `
 
     <a href="https://en.wikipedia.org/wiki/Quantum_cryptography" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  digitalTwins: `
+    digitalTwins: `
     <h2 id="modal-heading">Digital Twins</h2>
     
     <p class="modal-paragraph">
@@ -2043,7 +2044,7 @@ const descriptions = {  codeSmell: `
   
     <a href="https://en.wikipedia.org/wiki/Digital_twin" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  edgeAI: `
+    edgeAI: `
     <h2 id="modal-heading">Edge AI</h2>
     
     <p class="modal-paragraph">
@@ -2056,7 +2057,7 @@ const descriptions = {  codeSmell: `
    
     <a href="https://en.wikipedia.org/wiki/Edge_AI" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  homomorphicEncryption: `
+    homomorphicEncryption: `
     <h2 id="modal-heading">Homomorphic Encryption</h2>
     
     <p class="modal-paragraph">
@@ -2069,7 +2070,7 @@ const descriptions = {  codeSmell: `
 
     <a href="https://en.wikipedia.org/wiki/Homomorphic_encryption" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  fogComputing: `
+    fogComputing: `
     <h2 id="modal-heading">Fog Computing</h2>
     
     <p class="modal-paragraph">
@@ -2082,7 +2083,7 @@ const descriptions = {  codeSmell: `
   
     <a href="https://en.wikipedia.org/wiki/Fog_computing" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  virtualPrivateCloud: `
+    virtualPrivateCloud: `
     <h2 id="modal-heading">Virtual Private Cloud (VPC)</h2>
     
     <p class="modal-paragraph">
@@ -2095,7 +2096,7 @@ const descriptions = {  codeSmell: `
 
     <a href="https://en.wikipedia.org/wiki/Virtual_private_cloud" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  hybridCloud: `
+    hybridCloud: `
     <h2 id="modal-heading">Hybrid Cloud</h2>
     
     <p class="modal-paragraph">
@@ -2108,7 +2109,7 @@ const descriptions = {  codeSmell: `
   
     <a href="https://en.wikipedia.org/wiki/Hybrid_cloud" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  multiCloudStrategy: `
+    multiCloudStrategy: `
     <h2 id="modal-heading">Multi-Cloud Strategy</h2>
     
     <p class="modal-paragraph">
@@ -2121,7 +2122,7 @@ const descriptions = {  codeSmell: `
 
     <a href="https://en.wikipedia.org/wiki/Multicloud" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  dataOps: `
+    dataOps: `
     <h2 id="modal-heading">DataOps</h2>
     
     <p class="modal-paragraph">
@@ -2134,7 +2135,7 @@ const descriptions = {  codeSmell: `
   
     <a href="https://en.wikipedia.org/wiki/DataOps" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  bioinformatics: `
+    bioinformatics: `
     <h2 id="modal-heading">Bioinformatics</h2>
     
     <p class="modal-paragraph">
@@ -2147,7 +2148,7 @@ const descriptions = {  codeSmell: `
 
     <a href="https://en.wikipedia.org/wiki/Bioinformatics" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  gRPC: `
+    gRPC: `
     <h2 id="modal-heading">gRPC</h2>
     
     <p class="modal-paragraph">
@@ -2160,7 +2161,7 @@ const descriptions = {  codeSmell: `
     <a href="https://grpc.io/docs/what-is-grpc/introduction/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  dependencyGraph: `
+    dependencyGraph: `
     <h2 id="modal-heading">Dependency Graph</h2>
     
     <p class="modal-paragraph">
@@ -2173,7 +2174,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.visual-paradigm.com/guide/software-development/what-is-dependency-graph/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  clusterComputing: `
+    clusterComputing: `
     <h2 id="modal-heading">Cluster Computing</h2>
     
     <p class="modal-paragraph">
@@ -2186,7 +2187,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.techtarget.com/searchdatacenter/definition/cluster" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  messageQueues: `
+    messageQueues: `
     <h2 id="modal-heading">Message Queues</h2>
     
     <p class="modal-paragraph">
@@ -2198,7 +2199,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://www.ibm.com/cloud/learn/message-queues" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  rateLimiting: `
+    rateLimiting: `
     <h2 id="modal-heading">Rate Limiting</h2>
     
     <p class="modal-paragraph">
@@ -2211,7 +2212,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.cloudflare.com/learning/ddos/ddos-rate-limiting/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  concurrency: `
+    concurrency: `
     <h2 id="modal-heading">Concurrency</h2>
     
     <p class="modal-paragraph">
@@ -2224,7 +2225,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.geeksforgeeks.org/concurrency-in-operating-system/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  verticalScaling: `
+    verticalScaling: `
     <h2 id="modal-heading">Vertical Scaling</h2>
     
     <p class="modal-paragraph">
@@ -2237,7 +2238,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.ibm.com/cloud/learn/scaling" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  horizontalScaling: `
+    horizontalScaling: `
     <h2 id="modal-heading">Horizontal Scaling</h2>
     
     <p class="modal-paragraph">
@@ -2250,7 +2251,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.datadoghq.com/blog/horizontal-scaling/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  databaseIndexing: `
+    databaseIndexing: `
     <h2 id="modal-heading">Database Indexing</h2>
     
     <p class="modal-paragraph">
@@ -2262,7 +2263,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://www.techopedia.com/definition/2788/indexing-database" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  dataReplication: `
+    dataReplication: `
     <h2 id="modal-heading">Data Replication</h2>
     
     <p class="modal-paragraph">
@@ -2275,7 +2276,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.techtarget.com/searchdatamanagement/definition/data-replication" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  acidTransactions: `
+    acidTransactions: `
     <h2 id="modal-heading">ACID Transactions</h2>
     
     <p class="modal-paragraph">
@@ -2288,7 +2289,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.ibm.com/cloud/learn/acid-properties" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  eventuallyConsistentSystems: `
+    eventuallyConsistentSystems: `
     <h2 id="modal-heading">Eventually Consistent Systems</h2>
     
     <p class="modal-paragraph">
@@ -2301,7 +2302,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.allthingsdistributed.com/2008/12/eventually_consistent.html" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  memoryLeaks: `
+    memoryLeaks: `
     <h2 id="modal-heading">Memory Leaks</h2>
     
     <p class="modal-paragraph">
@@ -2314,7 +2315,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.pluralsight.com/blog/software-development/understanding-memory-leaks" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  namespace: `
+    namespace: `
     <h2 id="modal-heading">Namespace</h2>
     
     <p class="modal-paragraph">
@@ -2326,7 +2327,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://docs.microsoft.com/en-us/cpp/cpp/namespaces-cpp" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  serviceDiscovery: `
+    serviceDiscovery: `
     <h2 id="modal-heading">Service Discovery</h2>
     
     <p class="modal-paragraph">
@@ -2339,7 +2340,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.consul.io/discovery.html" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  throttling: `
+    throttling: `
     <h2 id="modal-heading">Throttling</h2>
     
     <p class="modal-paragraph">
@@ -2352,7 +2353,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.cloudflare.com/learning/bots/what-is-rate-limiting/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  functionAsAService: `
+    functionAsAService: `
     <h2 id="modal-heading">Function as a Service (FaaS)</h2>
     
     <p class="modal-paragraph">
@@ -2365,7 +2366,7 @@ const descriptions = {  codeSmell: `
     <a href="https://aws.amazon.com/lambda/faas/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  dataLakehouse: `
+    dataLakehouse: `
     <h2 id="modal-heading">Data Lakehouse</h2>
     
     <p class="modal-paragraph">
@@ -2378,7 +2379,7 @@ const descriptions = {  codeSmell: `
     <a href="https://databricks.com/glossary/data-lakehouse" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  eventLoop: `
+    eventLoop: `
     <h2 id="modal-heading">Event Loop</h2>
     
     <p class="modal-paragraph">
@@ -2390,7 +2391,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  tokenization: `
+    tokenization: `
     <h2 id="modal-heading">Tokenization</h2>
     
     <p class="modal-paragraph">
@@ -2403,7 +2404,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.pcisecuritystandards.org/pdfs/pci_fs_data_tokenization.pdf" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  serverSentEvents: `
+    serverSentEvents: `
     <h2 id="modal-heading">Server Sent Events (SSE)</h2>
     
     <p class="modal-paragraph">
@@ -2416,7 +2417,7 @@ const descriptions = {  codeSmell: `
     <a href="https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  messageBrokers: `
+    messageBrokers: `
     <h2 id="modal-heading">Message Brokers</h2>
     
     <p class="modal-paragraph">
@@ -2429,7 +2430,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.rabbitmq.com/tutorials/tutorial-one-python.html" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  cacheInvalidation: `
+    cacheInvalidation: `
     <h2 id="modal-heading">Cache Invalidation</h2>
     
     <p class="modal-paragraph">
@@ -2442,7 +2443,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.cloudflare.com/learning/cdn/what-is-caching/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  immutableDataStructures: `
+    immutableDataStructures: `
     <h2 id="modal-heading">Immutable Data Structures</h2>
     
     <p class="modal-paragraph">
@@ -2454,8 +2455,8 @@ const descriptions = {  codeSmell: `
     
     <a href="https://immutable-js.github.io/immutable-js/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  
-  dataDeduplication: `
+
+    dataDeduplication: `
     <h2 id="modal-heading">Data Deduplication</h2>
     
     <p class="modal-paragraph">
@@ -2468,7 +2469,7 @@ const descriptions = {  codeSmell: `
     <a href="https://searchdatabackup.techtarget.com/definition/data-deduplication" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  statefulVsStatelessSystems: `
+    statefulVsStatelessSystems: `
     <h2 id="modal-heading">Stateful vs Stateless Systems</h2>
     
     <p class="modal-paragraph">
@@ -2481,7 +2482,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.cloudflare.com/learning/serverless/glossary/stateful-vs-stateless/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  zeroDowntimeDeployment: `
+    zeroDowntimeDeployment: `
     <h2 id="modal-heading">Zero Downtime Deployment</h2>
     
     <p class="modal-paragraph">
@@ -2494,7 +2495,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.digitalocean.com/community/tutorials/what-is-zero-downtime-deployment" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  dataPartitioning: `
+    dataPartitioning: `
     <h2 id="modal-heading">Data Partitioning</h2>
     
     <p class="modal-paragraph">
@@ -2507,7 +2508,7 @@ const descriptions = {  codeSmell: `
     <a href="https://docs.microsoft.com/en-us/sql/relational-databases/partitions/partitioned-tables-and-indexes?view=sql-server-ver15" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  featureBranching: `
+    featureBranching: `
     <h2 id="modal-heading">Feature Branching</h2>
     
     <p class="modal-paragraph">
@@ -2520,7 +2521,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  deadlock: `
+    deadlock: `
     <h2 id="modal-heading">Deadlock</h2>
     
     <p class="modal-paragraph">
@@ -2533,7 +2534,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.geeksforgeeks.org/deadlock-in-operating-system/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  microBatching: `
+    microBatching: `
     <h2 id="modal-heading">Micro-batching</h2>
     
     <p class="modal-paragraph">
@@ -2546,7 +2547,7 @@ const descriptions = {  codeSmell: `
     <a href="https://spark.apache.org/docs/latest/streaming-programming-guide.html#window-operations" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  domainDrivenDesign: `
+    domainDrivenDesign: `
     <h2 id="modal-heading">Domain-Driven Design</h2>
     
     <p class="modal-paragraph">
@@ -2558,7 +2559,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://martinfowler.com/bliki/DomainDrivenDesign.html" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  apiVersioning: `
+    apiVersioning: `
     <h2 id="modal-heading">API Versioning</h2>
     
     <p class="modal-paragraph">
@@ -2571,7 +2572,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.mulesoft.com/resources/api/api-versioning-guide" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  distributedFileSystem: `
+    distributedFileSystem: `
     <h2 id="modal-heading">Distributed File System (DFS)</h2>
     
     <p class="modal-paragraph">
@@ -2584,7 +2585,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.ibm.com/docs/en/zos/2.1.0?topic=concepts-distributed-file-system" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  statefulWidget: `
+    statefulWidget: `
     <h2 id="modal-heading">Stateful Widget</h2>
     
     <p class="modal-paragraph">
@@ -2597,7 +2598,7 @@ const descriptions = {  codeSmell: `
     <a href="https://flutter.dev/docs/development/ui/widgets-intro" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  serverlessFunctions: `
+    serverlessFunctions: `
     <h2 id="modal-heading">Serverless Functions</h2>
     
     <p class="modal-paragraph">
@@ -2610,7 +2611,7 @@ const descriptions = {  codeSmell: `
     <a href="https://aws.amazon.com/lambda/serverless-architectures-learn-more/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  edgeServices: `
+    edgeServices: `
     <h2 id="modal-heading">Edge Services</h2>
     
     <p class="modal-paragraph">
@@ -2623,7 +2624,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.cloudflare.com/learning/edge/what-is-edge-computing/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  darkLaunch: `
+    darkLaunch: `
     <h2 id="modal-heading">Dark Launch</h2>
     
     <p class="modal-paragraph">
@@ -2636,7 +2637,7 @@ const descriptions = {  codeSmell: `
     <a href="https://launchdarkly.com/blog/guide-to-dark-launching/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  cloudSecurity: `
+    cloudSecurity: `
     <h2 id="modal-heading">Cloud Security</h2>
     
     <p class="modal-paragraph">
@@ -2649,7 +2650,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.cisco.com/c/en/us/solutions/enterprise-networks/cloud-security/index.html" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  scalability: `
+    scalability: `
     <h2 id="modal-heading">Scalability</h2>
     
     <p class="modal-paragraph">
@@ -2661,7 +2662,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://azure.microsoft.com/en-us/overview/what-is-scalability/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  eventStreamProcessing: `
+    eventStreamProcessing: `
     <h2 id="modal-heading">Event Stream Processing</h2>
     
     <p class="modal-paragraph">
@@ -2674,7 +2675,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.confluent.io/event-stream-processing/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  multiTenancy: `
+    multiTenancy: `
     <h2 id="modal-heading">Multi-Tenancy</h2>
     
     <p class="modal-paragraph">
@@ -2687,7 +2688,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.redhat.com/en/topics/cloud-computing/what-is-multi-tenancy" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  dataLakesVsDataWarehouses: `
+    dataLakesVsDataWarehouses: `
     <h2 id="modal-heading">Data Lakes vs Data Warehouses</h2>
     
     <p class="modal-paragraph">
@@ -2700,7 +2701,7 @@ const descriptions = {  codeSmell: `
     <a href="https://aws.amazon.com/big-data/datalakes-and-analytics/data-lake-vs-data-warehouse/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  softwareContainers: `
+    softwareContainers: `
     <h2 id="modal-heading">Software Containers</h2>
     
     <p class="modal-paragraph">
@@ -2713,7 +2714,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.docker.com/resources/what-container/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  cloudOrchestration: `
+    cloudOrchestration: `
     <h2 id="modal-heading">Cloud Orchestration</h2>
     
     <p class="modal-paragraph">
@@ -2726,7 +2727,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.vmware.com/topics/glossary/content/cloud-orchestration" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  networkSlicing: `
+    networkSlicing: `
     <h2 id="modal-heading">Network Slicing</h2>
     
     <p class="modal-paragraph">
@@ -2739,7 +2740,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.ericsson.com/en/5g/numerology/network-slicing" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  IoTEdgeComputing: `
+    IoTEdgeComputing: `
     <h2 id="modal-heading">IoT Edge Computing</h2>
     
     <p class="modal-paragraph">
@@ -2752,7 +2753,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.intel.com/content/www/us/en/internet-of-things/solutions/what-is-edge-computing.html" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  dataLakesAndWarehousesIntegration: `
+    dataLakesAndWarehousesIntegration: `
     <h2 id="modal-heading">Data Lakes and Warehouses Integration</h2>
     
     <p class="modal-paragraph">
@@ -2765,7 +2766,7 @@ const descriptions = {  codeSmell: `
     <a href="https://www.dataversity.net/integrating-data-lakes-data-warehouses/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-  machineLearningOperations: `
+    machineLearningOperations: `
     <h2 id="modal-heading">Machine Learning Operations (MLOps)</h2>
     
     <p class="modal-paragraph">
@@ -2777,7 +2778,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://mlops.community/what-is-mlops/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  iteration: `
+    iteration: `
   <h2 id="modal-heading">Iteration</h2>
 
   <p class="modal-paragraph">
@@ -2789,56 +2790,56 @@ const descriptions = {  codeSmell: `
 
 <a href="https://goodspeed.studio/glossary/what-is-iteration-iteration-explained" id="modal-link" target="_blank">⌁—— Learn more about Iteration ——⌁</a>
 `
-  
 
-  
+
+
 };
 
-    function filterCards() {
-      const input = document.getElementById('searchInput');
-      const filter = input.value.toLowerCase();
-      const cards = document.getElementsByClassName('card');
+function filterCards() {
+    const input = document.getElementById('searchInput');
+    const filter = input.value.toLowerCase();
+    const cards = document.getElementsByClassName('card');
 
-      for (let i = 0; i < cards.length; i++) {
+    for (let i = 0; i < cards.length; i++) {
         const title = cards[i].getElementsByClassName('card-title')[0];
         if (title.innerText.toLowerCase().indexOf(filter) > -1) {
-          cards[i].style.display = '';
+            cards[i].style.display = '';
         } else {
-          cards[i].style.display = 'none';
+            cards[i].style.display = 'none';
         }
-      }
     }
-    const cardContainer = document.getElementById('cardContainer');
-    function showModal(term) {
-      const modal = document.getElementById('modal');
-      const modalBody = document.getElementById('modal-body');
-      modalBody.innerHTML = descriptions[term];
-      modal.style.display = 'block';
-      cardContainer.style.pointerEvents = 'none';
-    }
+}
+const cardContainer = document.getElementById('cardContainer');
+function showModal(term) {
+    const modal = document.getElementById('modal');
+    const modalBody = document.getElementById('modal-body');
+    modalBody.innerHTML = descriptions[term];
+    modal.style.display = 'block';
+    cardContainer.style.pointerEvents = 'none';
+}
 
-    function readMore() {
-      // Redirect to detailed explanation page (e.g., a blog or documentation)
-      window.open('https://example.com/detailed-explanation', '_blank');
-    }
+function readMore() {
+    // Redirect to detailed explanation page (e.g., a blog or documentation)
+    window.open('https://example.com/detailed-explanation', '_blank');
+}
 
-    function showAbout() {
-      const modal = document.getElementById('modal');
-      const modalBody = document.getElementById('modal-body');
-      modalBody.innerHTML = '<h2>About</h2><strong>IMPORTANT: Bookmarking or Pinning this webpage would help you get a quick overview of anything related to tech in seconds! </strong><p>This "Dev Encyclopedia" is a simple project that simplifies things.</p><p>This website has almost all the commonly used technical terms, concepts and even programming-language specific jargons explained and links provided for further reading.</p><p>Most importantly, it is ad-free, so basically, the best encyclopedia everr! *excited. too much.*</p><p>Built with love, by Chenuli J.</p><img src="image/Chenuli Signature.png" />';
-      modal.style.display = 'block';
-    }
-    function showBuilders() {
-      const modal = document.getElementById('modal');
-      const modalBody = document.getElementById('modal-body');
-      modalBody.innerHTML = '<h3>A Note from the Builder</h3><p>If you find a flaw, love to sponsor or need help with learning something, my inbox is open: <span>-></span> <a href="mailto:buzzpy123@gmail.com">buzzpy123@gmail.com</a></p><p>- I am a Python Developer especilizing in backend so my <strong> web design skills </strong> are <strong>terrible.</strong></p><p>- This project was built in a month, unlike Rome which took years to build. Which means this is on early stages of development, so why not to <strong>fork, star and contribute? </strong> </p>';
-      modal.style.display = 'block';
-    }
-    function showSponsors() {
-      const modal = document.getElementById('modal');
-      const modalBody = document.getElementById('modal-body');
-    
-      modalBody.innerHTML = `
+function showAbout() {
+    const modal = document.getElementById('modal');
+    const modalBody = document.getElementById('modal-body');
+    modalBody.innerHTML = '<h2>About</h2><strong>IMPORTANT: Bookmarking or Pinning this webpage would help you get a quick overview of anything related to tech in seconds! </strong><p>This "Dev Encyclopedia" is a simple project that simplifies things.</p><p>This website has almost all the commonly used technical terms, concepts and even programming-language specific jargons explained and links provided for further reading.</p><p>Most importantly, it is ad-free, so basically, the best encyclopedia everr! *excited. too much.*</p><p>Built with love, by Chenuli J.</p><img src="image/Chenuli Signature.png" />';
+    modal.style.display = 'block';
+}
+function showBuilders() {
+    const modal = document.getElementById('modal');
+    const modalBody = document.getElementById('modal-body');
+    modalBody.innerHTML = '<h3>A Note from the Builder</h3><p>If you find a flaw, love to sponsor or need help with learning something, my inbox is open: <span>-></span> <a href="mailto:buzzpy123@gmail.com">buzzpy123@gmail.com</a></p><p>- I am a Python Developer especilizing in backend so my <strong> web design skills </strong> are <strong>terrible.</strong></p><p>- This project was built in a month, unlike Rome which took years to build. Which means this is on early stages of development, so why not to <strong>fork, star and contribute? </strong> </p>';
+    modal.style.display = 'block';
+}
+function showSponsors() {
+    const modal = document.getElementById('modal');
+    const modalBody = document.getElementById('modal-body');
+
+    modalBody.innerHTML = `
         <h3>Sponsors</h3>
         <p>You can sponsor this project via my Ko-Fi profile: <a href="https://ko-fi.com/buzzpy">ko-fi.com/buzzpy</a></p>
         <p>Once you make any donation, I will get in touch with you and make sure you get a place on this "Sponsors" page!</p>
@@ -2847,20 +2848,30 @@ const descriptions = {  codeSmell: `
           <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Flk.linkedin.com%2Fin%2Fmalith-jayasinghe-484509180&psig=AOvVaw3pVLfvt056d-wG57Gc361x&ust=1723739678386000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCOijn-v09IcDFQAAAAAdAAAAABAK" id="sponsor-name">Malith J. Don</a>
         </div>
       `;
-      modal.style.display = 'block';
-    }
-    
-    
+    modal.style.display = 'block';
+}
 
-   // to close the modal
+
+
+// to close the modal
 function closeModal(event) {
-  const modal = document.getElementById('modal');
-  if (event.target == modal) {
-    modal.style.display = 'none';
-    setTimeout(() => {
-      cardContainer.style.pointerEvents = 'all';
-    },500)
-  }
+    const modal = document.getElementById('modal');
+    if (event.target == modal) {
+        modal.style.display = 'none';
+        setTimeout(() => {
+            cardContainer.style.pointerEvents = 'all';
+        }, 500)
+    }
+}
+
+function switchStyles() {
+    let stylesheet = document.getElementById('themeStylesheet');
+
+    if (stylesheet.getAttribute('href') === 'dark-mode.css') {
+        stylesheet.setAttribute('href', 'style.css');
+    } else {
+        stylesheet.setAttribute('href', 'dark-mode.css');
+    }
 }
 
 // Add event listeners for both click and touchstart
