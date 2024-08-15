@@ -2908,10 +2908,27 @@ const descriptions = {  codeSmell: `
         <h3>Sponsors</h3>
         <p>You can sponsor this project via my Ko-Fi profile: <a href="https://ko-fi.com/buzzpy">ko-fi.com/buzzpy</a></p>
         <p>Once you make any donation, I will get in touch with you and make sure you get a place on this "Sponsors" page!</p>
-        <div id="sponsor-info">
-          <img src="https://media.licdn.com/dms/image/D5603AQHJyX4hVmqjpQ/profile-displayphoto-shrink_200_200/0/1715316807453?e=2147483647&v=beta&t=7_xJ7ANI71x0vnvp1_2vj86V0kVvNDQGGflUzLfQBBk" alt="Malith J. Don" id="sponsor-image" />
-          <a href="https://www.linkedin.com/in/malith-jayasinghe-484509180/" id="sponsor-name">Malith J. Don</a>
-        </div>
+        <div id="sponsors-container">
+    <div class="sponsor-info">
+        <img src="https://media.licdn.com/dms/image/D5603AQHJyX4hVmqjpQ/profile-displayphoto-shrink_200_200/0/1715316807453?e=2147483647&v=beta&t=7_xJ7ANI71x0vnvp1_2vj86V0kVvNDQGGflUzLfQBBk" alt="Malith J. Don" class="sponsor-image" />
+        <a href="https://www.linkedin.com/in/malith-jayasinghe-484509180/" target="_blank" class="sponsor-name">Malith J. Don</a>
+    </div>
+    <div class="sponsor-info">
+        <img src="https://cdn-icons-png.flaticon.com/512/6596/6596121.png" alt="Nethmi Dulanga Avatar" class="sponsor-image" />
+        <a href="https://www.linkedin.com/in/nethmi-jayasinghe/" target="_blank" class="sponsor-name">Nethmi Dulanga</a>
+    </div>
+     <div class="sponsor-info">
+        <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yzdevx4ebtzka0nz1wyt.png" alt="C. Pathirana Avatar" class="sponsor-image" />
+        <span style="font-weight: bold;font-size: 15px;">C. Pathirana</span>
+    </div>
+        <div class="sponsor-info">
+        <img src="https://cdn.prod.website-files.com/5c14e387dab576fe667689cf/64f1a9ddd0246590df69e9f4_ko-fi_logo_01.png" alt="Sponsor Us" class="sponsor-image" />
+        <a href="https://ko-fi.com/buzzpy" target="_blank" class="sponsor-name">Sponsor Us</a>
+    </div>
+
+
+    </div>
+
       `;
       modal.style.display = 'block';
     }
