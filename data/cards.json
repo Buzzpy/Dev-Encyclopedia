@@ -903,18 +903,9 @@
             "link": "https://2533.medium.com/recursion-explained-with-pictures-72578d28058a"
         }
     },
-    "iteration": {
+    "iteration ": {
         "title": "Iteration",
-        "subtext": "A programming technique",
-        "content":{
-            "heading": "Iteration",
-            "paragraphs": [
-                "\n  Iteration is the process of repeating a set of operations or instructions in software development, refining the outcome with each cycle.\n  ",
-                "\n  Think of iteration as a loop where each pass brings you closer to the perfect solution, whether it's fine-tuning code or improving a machine learning model.\n  "
-            ],
-            "images": [],
-            "link": "https://goodspeed.studio/glossary/what-is-iteration-iteration-explained"
-        }
+        "subtext": "A programming technique"
     },
     "versionControl": {
         "title": "Version Control",
@@ -1262,7 +1253,7 @@
             ],
             "images": [
                 {
-                    "link": "assets/images/html.jpg",
+                    "link": "https://devpedia.pages.dev/assets/images/html.jpg",
                     "description": "HTML image"
                 }
             ],
@@ -1280,7 +1271,7 @@
             ],
             "images": [
                 {
-                    "link": "assets/images/css.jpg",
+                    "link": "https://devpedia.pages.dev/assets/images/css.jpg",
                     "description": "CSS image"
                 }
             ],
@@ -1298,7 +1289,7 @@
             ],
             "images": [
                 {
-                    "link": "assets/images/java.jpg",
+                    "link": "https://devpedia.pages.dev/assets/images/java.jpg",
                     "description": "Java image"
                 }
             ],
@@ -1307,21 +1298,7 @@
     },
     "C#": {
         "title": "C#",
-        "subtext": "A modern, OOP language from Microsoft",
-        "content":{
-            "heading": "C#",
-            "paragraphs": [
-                "C# (C-Sharp) is a modern, object-oriented programming language developed by Microsoft. It is used primarily for developing applications on the .NET framework, including web, desktop, and mobile apps.",
-                "C# is known for its simplicity, versatility, and strong integration with Microsoft technologies."
-            ],
-            "images": [
-                {
-                    "link": "assets/images/cSharp.jpg",
-                    "description": "C# image"
-                }
-            ],
-            "link": "https://dotnet.microsoft.com/en-us/languages/csharp"
-        }
+        "subtext": "A modern, OOP language from Microsoft"
     },
     "ruby": {
         "title": "Ruby",
@@ -1347,7 +1324,7 @@
             ],
             "images": [
                 {
-                    "link": "assets/images/swift.jpg",
+                    "link": "https://devpedia.pages.dev/assets/images/swift.jpg",
                     "description": "Swift image"
                 }
             ],
@@ -1365,7 +1342,7 @@
             ],
             "images": [
                 {
-                    "link": "assets/images/typescript.jpg",
+                    "link": "https://devpedia.pages.dev/assets/images/typescript.jpg",
                     "description": "TypeScript image"
                 }
             ],
@@ -1409,7 +1386,7 @@
             ],
             "images": [
                 {
-                    "link": "assets/images/rubyOnRails.jpg",
+                    "link": "https://devpedia.pages.dev/assets/images/rubyOnRails.jpg",
                     "description": "Ruby on Rails image"
                 }
             ],
@@ -1463,7 +1440,7 @@
             ],
             "images": [
                 {
-                    "link": "assets/images/flutter.jpg",
+                    "link": "https://devpedia.pages.dev/assets/images/flutter.jpg",
                     "description": "Flutter image"
                 }
             ],
@@ -2407,7 +2384,7 @@
                 "\n      Think of a dark launch as a soft opening for a restaurant, where new dishes are tested discreetly before the official menu launch.\n    "
             ],
             "images": [],
-            "link": "https://launchdarkly.com/blog/what-is-a-dark-launch/"
+            "link": "https://launchdarkly.com/blog/guide-to-dark-launching/"
         }
     },
     "cloudSecurity": {
@@ -2760,7 +2737,7 @@
                     "description": "Regularization image"
                 }
             ],
-            "link": "/"
+            "link": "https://devpedia.pages.dev/"
         }
     },
     "bagging": {
