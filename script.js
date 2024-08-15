@@ -118,6 +118,9 @@ function closeModal(event) {
   const modal = document.getElementById('modal');
   if (event.target == modal) {
     modal.style.display = 'none';
+    setTimeout(() => {
+      cardContainer.style.pointerEvents = 'all';
+    },500)
   }
 }
 
