@@ -3419,5 +3419,53 @@
             "images": [],
             "link": "https://en.wikipedia.org/wiki/Bioinformatics"
         }
+    },
+    "optimisticLocking": {
+        "title": "Optimistic Locking",
+        "subtext": "Concurrency control method strategy.",
+        "content": {
+            "heading": "Optimistic Locking",
+            "paragraphs": [
+                "\n      Optimistic locking is a strategy where you read a record and there is some versioning in it (can be timestamp, version number, etc), and then when you attempt to update the record, the versioning is checked. \n      The update is only committed when the record version remains the same. If the record version has changed, then the update attempt is aborted. \n      This is particularly useful to increase throughput, and prevent conflicts when multiple users attempt to update a single record.\n    ",
+                "\n      It's like in an art class where everyone is coloring a big picture together, and each have their own copy to color. You start coloring your tree green, and your friend might color their tree as blue.\n      When you finish, you check in the big picture if anyone has colored the tree. If no one has, you can add your green tree. But if someone has colored the tree, you can't just color over it. You have to decide together what color the tree should be.\n    "
+            ],
+            "images": [],
+            "link": "https://stackoverflow.com/questions/129329/optimistic-vs-pessimistic-locking"
+        }
+    },
+    "GDPR": {
+        "title": "GDPR",
+        "subtext": "\nGeneral Data Protection Regulation\n",
+        "content": {
+            "heading": "GDPR",
+            "paragraphs": [
+                "\n  The General Data Protection Regulation (GDPR) is a comprehensive data protection law in the European Union designed to enhance individuals' control over their personal information. It sets strict guidelines on how companies collect, store, and manage personal data.\n  "
+            ],
+            "images": [
+                {
+                    "link": "https://d2z0k1elb7rxgj.cloudfront.net/uploads/2019/12/gdpr-guidelines-1024x531.png",
+                    "description": "GDPR Guidelines"
+                }
+            ],
+            "link": "https://gdpr.eu/what-is-gdpr/"
+        }
+    },
+    "symmetricCryptography": {
+        "title": "Symmetric-Cryptography",
+        "subtext": "\n            Algorithms for cryptography that use the same cryptographic keys for both the encryption of plaintext.\n            ",
+        "content": {
+            "heading": "Symmetric Cryptography",
+            "paragraphs": [
+                "\n  In cryptography, a symmetric key is like a shared password that both encrypts and decrypts data. This means the same key locks and unlocks the information, making it crucial that only trusted parties have access to it.\n  ",
+                "\n  Imagine you and a friend have the same key. You use it to lock (encrypt) a message, and your friend uses the same key to unlock (decrypt) it. The catch? You both need to keep that key safe and secret.\n  "
+            ],
+            "images": [
+                {
+                    "link": "https://upload.wikimedia.org/wikipedia/commons/6/61/Simple_symmetric_encryption.png",
+                    "description": "Symmertic-key image"
+                }
+            ],
+            "link": "https://simple.wikipedia.org/wiki/Symmetric-key_algorithm"
+        }
     }
 }
