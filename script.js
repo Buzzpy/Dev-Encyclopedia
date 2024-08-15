@@ -2808,12 +2808,13 @@ const descriptions = {  codeSmell: `
         }
       }
     }
-
+    const cardContainer = document.getElementById('cardContainer');
     function showModal(term) {
       const modal = document.getElementById('modal');
       const modalBody = document.getElementById('modal-body');
       modalBody.innerHTML = descriptions[term];
       modal.style.display = 'block';
+      cardContainer.style.pointerEvents = 'none';
     }
 
     function readMore() {
@@ -2856,6 +2857,9 @@ function closeModal(event) {
   const modal = document.getElementById('modal');
   if (event.target == modal) {
     modal.style.display = 'none';
+    setTimeout(() => {
+      cardContainer.style.pointerEvents = 'all';
+    },500)
   }
 }
 
