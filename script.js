@@ -42,6 +42,23 @@ const descriptions = {  codeSmell: `
     <a href="https://cloud.google.com/discover/what-is-serverless-computing" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
+  optimisticLocking: `
+    <h2 id="modal-heading">Optimistic Locking</h2>
+    
+    <p class="modal-paragraph">
+      Optimistic locking is a strategy where you read a record and there is some versioning in it (can be timestamp, version number, etc), and then when you attempt to update the record, the versioning is checked. 
+      The update is only committed when the record version remains the same. If the record version has changed, then the update attempt is aborted. 
+      This is particularly useful to increase throughput, and prevent conflicts when multiple users attempt to update a single record.
+    </p>
+    <p class="modal-paragraph">
+      It's like in an art class where everyone is coloring a big picture together, and each have their own copy to color. You start coloring your tree green, and your friend might color their tree as blue.
+      When you finish, you check in the big picture if anyone has colored the tree. If no one has, you can add your green tree. But if someone has colored the tree, you can't just color over it. You have to decide together what color the tree should be.
+    </p>
+    
+    
+    <a href="https://stackoverflow.com/questions/129329/optimistic-vs-pessimistic-locking" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+
   webFlow: `
     <h2 id="modal-heading">Web Flow</h2>
     
