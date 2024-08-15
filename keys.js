@@ -1138,5 +1138,25 @@ const keys = [
         "key": "bioinformatics",
         "title": "Bioinformatics",
         "description": "Using technology to understand biological data"
+    },
+    {
+        "key": "symmetricCryptography",
+        "title": "Symmetric Cryptography",
+        "description": "Algorithms for cryptography that use the same cryptographic keys for both the encryption of plaintext."
+    },
+    {
+        "key": "AsymmetricCryptography",
+        "title": "Asymmetric Cryptography",
+        "description": "Cryptographic scheme requiring two different keys, one for encryption and the other for decryption."
+    },
+    {
+        "key": "GDPR",
+        "title": "GDPR",
+        "description": "General Data Protection Regulation"
+    },
+    {
+        "key": "optimisticLocking",
+        "title": "Optimistic Locking",
+        "description": "Concurrency control method strategy."
     }
 ]

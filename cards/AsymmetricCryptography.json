@@ -1,0 +1,12 @@
+{
+    "title": "Asymmetric Cryptography",
+    "tags": [],
+    "paragraphs": [
+        "Asymmetric keys are the foundation of Public Key Infrastructure (PKI) a cryptographic scheme requiring two different keys, one to lock or encrypt the plaintext, and one to unlock or decrypt the cyphertext. Neither key will do both functions. One key is published (public key) and the other is kept private (private key). If the lock/encryption key is the one published, the system enables private communication from the public to the unlocking key's owner. If the unlock/decryption key is the one published, then the system serves as a signature verifier of documents locked by the owner of the private key. This system also is called asymmetric key cryptography.",
+        "<img class=\"responsive-image\" src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Public_key_encryption.svg/800px-Public_key_encryption.svg.png\" alt=\"Symmertic-key image\">"
+    ],
+    "link": {
+        "href": "https://en.wikipedia.org/wiki/Public-key_cryptography",
+        "text": "⌁—— Read more about it ——⌁"
+    }
+}
