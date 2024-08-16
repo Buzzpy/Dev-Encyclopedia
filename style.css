@@ -262,3 +262,21 @@ body {
     color: deeppink;
 }
 
+.ShowMoreContainer{
+    justify-self: center; /* Centers horizontally */
+  align-self: center;
+  grid-column: 2; /* Span the second column */
+
+}
+
+.ShowMore{
+    width: 27vw;
+    font-family: 'JetBrains Mono';
+    font-size: 0.8rem;
+    background-color: #000000ed;
+    color: white;
+}
+
+
+
+

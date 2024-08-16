@@ -2792,36 +2792,57 @@ const descriptions = {
 `,
 };
 
-function filterCards() {
-  const input = document.getElementById("searchInput");
-  const filter = input.value.toLowerCase();
-  const cards = document.getElementsByClassName("card");
-  let displayed_Cards = [];
+const cards = document.getElementsByClassName("card");
+const input = document.getElementById("searchInput");
+const showMore = document.querySelector(".ShowMore");
+let displayed_cards = [];
+let currentIndex = 0;
+const cardsPerPage = 9; //change if you wanna modify the amount of cards you want to see :)
 
-  const totalCards = cards.length;
-  const cardsPerPage = 10;
-  let currentPage = 1;
-  const startIndex = (currentPage - 1) * cardsPerPage;
-  const endIndex = Math.min(startIndex + cardsPerPage, totalCards);
-  const totalPages = Math.ceil(totalCards / cardsPerPage);
+function updateCards(startIndex, count) {
+  const endIndex = Math.min(startIndex + count, displayed_cards.length);
+  console.log("This is end indezx", endIndex);
+  for (let i = startIndex; i < endIndex; i++) {
+    displayed_cards[i].style.display = "";
+  }
+  currentIndex = endIndex;
+  if (currentIndex >= displayed_cards.length) {
+    showMore.style.display = "none";
+  } else {
+    showMore.style.display = "";
+  }
+}
+
+input.addEventListener("input", (e) => {
+  if (e.target.value == "") {
+    for (let index = 0; index <= cards.length; index++) {
+      cards[index].style.display = "";
+      if (index === cards.length) {
+        break;
+      }
+    }
+  }
+
+  const filter = input.value.toLowerCase();
+  displayed_cards = [];
+  currentIndex = 0;
 
   for (let i = 0; i < cards.length; i++) {
     const title = cards[i].getElementsByClassName("card-title")[0];
     if (title.innerText.toLowerCase().indexOf(filter) > -1) {
-      displayed_Cards.push(cards[i]);
+      displayed_cards.push(cards[i]);
+      cards[i].style.display = "none";
     } else {
       cards[i].style.display = "none";
     }
   }
 
-  for (let index = 0; index < displayed_Cards.length; index++) {
-    if (index >= startIndex && index < endIndex) {
-      displayed_Cards[index].style.display = "";
-    } else {
-      displayed_Cards[index].style.display = "none";
-    }
-  }
-}
+  updateCards(currentIndex, cardsPerPage);
+});
+
+showMore.addEventListener("click", () => {
+  updateCards(currentIndex, cardsPerPage);
+});
 
 function showModal(term) {
   const modal = document.getElementById("modal");
