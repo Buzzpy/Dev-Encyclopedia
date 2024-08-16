@@ -1,4 +1,4 @@
-import { GET, useEffect, useState } from './z-js-framework/index.js';
+import { GET, useEffect, useState } from './z-js-framework/dist/z.js';
 
 const [filteredData, setFilteredData] = useState([]);
 const [orignalData, setOrignalData] = useState([]);

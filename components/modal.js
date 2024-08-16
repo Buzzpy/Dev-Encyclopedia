@@ -1,4 +1,4 @@
-import { getRef, html, List, useEffect } from '../z-js-framework/index.js';
+import { getRef, html, useEffect } from '../z-js-framework/dist/z.js';
 
 export const Modal = (item) => {
   const closeModal = (e) => {

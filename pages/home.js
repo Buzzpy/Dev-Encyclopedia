@@ -1,7 +1,7 @@
 import { Card } from '../components/card.js';
 import { Modal } from '../components/modal.js';
 import { useDataStore } from '../store.js';
-import { getRef, html, useEffect, useState } from '../z-js-framework/index.js';
+import { getRef, html, useEffect, useState } from '../z-js-framework/dist/z.js';
 
 const [modalItem, setModalItem] = useState(null);
 

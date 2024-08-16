@@ -5,7 +5,7 @@ import About from './pages/about.js';
 import BuildersNote from './pages/builders-note.js';
 import Home from './pages/home.js';
 import Sponsor from './pages/sponsor.js';
-import { render } from './z-js-framework/index.js';
+import { render } from './z-js-framework/dist/z.js';
 
 const routes = [
   {

@@ -1,7 +1,7 @@
 import Home from '../pages/home.js';
 import { useDataStore } from '../store.js';
 import { searchItems } from '../utils/search.js';
-import { html } from '../z-js-framework/index.js';
+import { html } from '../z-js-framework/dist/z.js';
 import { HeroSection } from './hero.js';
 
 export const Layout = () => {

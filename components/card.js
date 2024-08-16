@@ -1,4 +1,4 @@
-import { html } from '../z-js-framework/index.js';
+import { html } from '../z-js-framework/dist/z.js';
 
 export const Card = (item, showModal) => {
   let UI = html` <div class="card">

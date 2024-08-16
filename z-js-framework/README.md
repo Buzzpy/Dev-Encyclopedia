@@ -72,6 +72,7 @@ More Features coming, see the [Roadmap](./sidenotes.md#roadmap-and-features-if-y
 - [Z-chat](https://github.com/Hussseinkizz/z-chat) -- demo chat app made using z js framework and socket io
 - [Z-Tailwind-Demo](https://github.com/BakungaBronson/Z-Tailwind-Demo) -- demo app showing how to use tailwindcss with z js framework
 - [z-js-short-wave](https://github.com/KimmyDavis/z-js-short-wave) -- audio player app made using z js framework, enjoy the live demo [🎶 here](https://z-shot-wave.netlify.app/)
+- [Z Whack A Mole](https://github.com/Hussseinkizz/mini-game) -- 🎮 A just for fun little mini game made with z js, [live demo](https://z-mini-game.netlify.app/)
 
 We will be providing more examples, you can also submit your own examples in the [issues](https://github.com/Z-Js-Framework/z-js/issues) section. Am excited to see what you build for sure!
 
