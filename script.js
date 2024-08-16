@@ -707,7 +707,7 @@ const descriptions = {
     
     <img  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9fx9gi335wgl2pdt6sjj.png" alt="Python image">
     
-    <a href="https://example.com" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <a href="https://www.python.org/doc/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
   threeSigmaRule: `
     <h2 id="modal-heading">Three-Sigma Rule</h2>
@@ -815,7 +815,7 @@ const descriptions = {
       Think of it as the conductor of an orchestra, ensuring all the musicians (containers) play in harmony.
     </p>
     
-    <img  src="https://example.com/kubernetes-image.png" alt="Kubernetes image">
+    <img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/247px-Kubernetes_logo_without_workmark.svg.png" alt="Kubernetes image">
     <a href="https://kubernetes.io/docs/concepts/overview/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
@@ -2872,7 +2872,18 @@ const descriptions = {
   <p class="modal-paragraph">
   The N+1 query problem happens when retrieving a list of records (N queries) causes additional queries (1 per record). For example, fetching 10 users and then separately querying each user's orders results in 1 query for users and 10 more for orders, leading to 11 queries instead of an optimized 2.
   </p>
-  <a href="https://planetscale.com/blog/what-is-n-1-query-problem-and-how-to-solve-it" id="modal-link" target="_blank">⌁—— Learn more about Spaghetti Code ——⌁</a>
+  <a href="https://planetscale.com/blog/what-is-n-1-query-problem-and-how-to-solve-it" id="modal-link" target="_blank">⌁—— Learn more about N+1 Query Problem ——⌁</a>
+  `,
+  raceCondition: `
+  <h2 id="modal-heading">Race condition</h2>
+
+  <p class="modal-paragraph">
+  A situation in which multiple threads or processes read and write a shared data item, and the final result depends on the relative timing of their execution. Avoiding race conditions is a critical requirement for multi-threaded operating systems and servers as it may lead to data inconsistency and system crashes.
+  </p>
+  <p class="modal-paragraph">
+  For example, assume two processes P1 and P2 share the global variable x. At some point in its execution, P1 updates x to the value 1, and at some point in its execution, P2 updates x to the value 2. Thus, the two tasks are in a 'race' to rewrite variable x, with the value of x being determined by the process performing the latest write operation.
+  </p>
+  <a href="https://www.techtarget.com/searchstorage/definition/race-condition" id="modal-link" target="_blank">⌁—— Learn more about Race condition ——⌁</a>
   `,
 
 
