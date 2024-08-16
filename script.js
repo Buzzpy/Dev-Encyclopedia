@@ -2866,12 +2866,20 @@ function closeModal(event) {
 
 // to switch between dark mode and light mode
 function switchStyles() {
-    let stylesheet = document.getElementById('themeStylesheet');
+    let stylesheet = document.getElementById('style-sheet');
+
+    const icon = document.getElementById('style-icon')
 
     if (stylesheet.getAttribute('href') === 'dark-mode.css') {
-        stylesheet.setAttribute('href', 'style.css');
+        stylesheet.setAttribute('href', 'style.css'); // to light mode
+        icon.classList.remove('fa-sun')
+        icon.classList.add('fa-moon')
+
     } else {
-        stylesheet.setAttribute('href', 'dark-mode.css');
+        stylesheet.setAttribute('href', 'dark-mode.css'); // to dark mode
+        icon.classList.remove('fa-moon')
+        icon.classList.add('fa-sun')
+
     }
 }
 
