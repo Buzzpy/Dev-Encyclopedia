@@ -40,39 +40,43 @@
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-  <link id="themeStylesheet" href="dark-mode.css" rel="stylesheet">
+  <link rel="stylesheet" id="style-sheet" href="dark-mode.css">
 
-<style>
+ <style>
         .dark-mode-button {
         background-size: 60%;
         background-repeat: no-repeat;
         background-position: center;
-        border-radius: 15px;
+        border-radius: 30px;
         cursor: pointer;
         height: 100px;
         width: 100px;
         position: absolute;
-        top: 0.8vh;
-        left: 0.8vw;
-        transform: scale(0.4);
+        top: 0.1vh;
+        right: 0.1vw;
+        transform: scale(0.3);
         transition: transform 0.12s ease;
         }
+</style> 
 
-        .dark-mode-button:hover {
-        transform: scale(0.5)
-        } 
-</style>
 </head>
 
 <body>
-<button class="dark-mode-button style-button" role="button" onclick="switchStyles()"></button>
 
   <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "3e38e6267d1c4dd6b010941f73e71841"}'></script><!-- End Cloudflare Web Analytics -->
     <div class="hero-section">
-        <div class="search-bar" style="padding-bottom: 30px;">
-            <i class="fas fa-search"></i>
-            <input type="text" id="searchInput" onkeyup="filterCards()" placeholder="Search for keywords...">
-          </div>
+
+        <div class="bar" style="padding-bottom: 30px;">
+            <button class="square-button" onclick="switchStyles()">
+                <i class = "fas fa-sun" id="style-icon"></i>
+            </button>
+            <div class="search-bar">
+                <input type="text" id="searchInput" onkeyup="filterCards()" placeholder="Search for keywords...">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+
+        <!-- top buttons -->
         <div class="buttons">
             <button class="button" onclick="showAbout()">
               <i class="fas fa-user" style="padding-right: 10px;"></i> About;
@@ -81,15 +85,15 @@
               <i class="fab fa-github" style="padding-right: 10px;"></i> Contribute;
             </button>
    
-          <button class="button" onclick="showBuilders()">
-            <i class="fas fa-hammer" style="padding-right: 10px;"></i> Builder's Note;
-          </button>
-          <button class="button" onclick="showSponsors()">
-            <i class="fa-solid fa-dollar-sign" style="padding-right: 10px;"></i> Sponsor;
-          </button>
-        
+            <button class="button" onclick="showBuilders()">
+                <i class="fas fa-hammer" style="padding-right: 10px;"></i> Builder's Note;
+            </button>
+            <button class="button" onclick="showSponsors()">
+                <i class="fa-solid fa-dollar-sign" style="padding-right: 10px;"></i> Sponsor;
+            </button>
         </div>
-        
+
+        <!-- TITLE -->
         <div class="hero-title" style="padding-top: 50px;">Dev Encyclopedia;</div>
         <div class="hero-paragraph">Find out what that Sr. Developer is talking about</div>
       
