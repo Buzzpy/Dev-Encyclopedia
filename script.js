@@ -819,6 +819,17 @@ const descriptions = {
     <a href="https://kubernetes.io/docs/concepts/overview/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
+  gitops: `
+  <h2 id="modal-heading">GitOps</h2>
+  
+  <p class="modal-paragraph">GitOps is a way of implementing Continuous Deployment for cloud native or on-premise applications.</p>
+  <p class="modal-paragraph">GitOps organizes the deployment process around code repositories as the central element.</p>
+  
+  <img  src="https://s7280.pcdn.co/wp-content/uploads/2021/08/GitOps-Principles.png" alt="GitOps image">
+  
+  <a href="https://www.gitops.tech/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
+`,
+
   branching: `
     <h2 id="modal-heading">Branching</h2>
     
