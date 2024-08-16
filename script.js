@@ -13,8 +13,9 @@
     <a href="a-link-to-an-article-on-the-topic-mentioned-for-beginners" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `
 */
- 
-const descriptions = {  codeSmell: `
+
+const descriptions = {
+  codeSmell: `
     <h2 id="modal-heading">Code Smell</h2>
     
     <p class="modal-paragraph">
@@ -597,7 +598,7 @@ const descriptions = {  codeSmell: `
     <h2 id="modal-heading">Epochs</h2>
     
     <p class="modal-paragraph">In machine learning, an epoch is one complete pass through the entire training dataset. During each epoch, the model's parameters are updated to improve accuracy.</p>
-    <p class="modal-paragraph">Multiple epochs are often needed for a model to learn effectively and reach high performance on the task it is trained for. However, its' crucial to determine the number of epochs carefully, as explaned in the image below.</p>
+    <p class="modal-paragraph">Multiple epochs are often needed for a model to learn effectively and reach high performance on the task it is trained for. However, its' crucial to determine the number of epochs carefully, as explained in the image below.</p>
     
     <img  src="https://miro.medium.com/v2/resize:fit:860/1*GXftMdKjyaLYuAIn-nB4zA.png" alt="Epochs image">
     
@@ -857,7 +858,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  
+
   agile: `
     <h2 id="modal-heading">Agile</h2>
     
@@ -2471,7 +2472,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://immutable-js.github.io/immutable-js/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-  
+
   dataDeduplication: `
     <h2 id="modal-heading">Data Deduplication</h2>
     
@@ -2794,7 +2795,7 @@ const descriptions = {  codeSmell: `
     
     <a href="https://mlops.community/what-is-mlops/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
- GDPR: `
+  GDPR: `
     
   <h2 id="modal-heading">GDPR</h2>
 
@@ -2819,7 +2820,7 @@ const descriptions = {  codeSmell: `
   <img class="responsive-image" src="https://upload.wikimedia.org/wikipedia/commons/6/61/Simple_symmetric_encryption.png" alt="Symmertic-key image">
   <a href="https://simple.wikipedia.org/wiki/Symmetric-key_algorithm" id="modal-link" target="_blank">⌁—— Read more about it ——⌁</a>
 `,
-   AsymmetricCryptography: `
+  AsymmetricCryptography: `
    <h2 id="modal-heading">Asymmetric Cryptography</h2>
 
    <p class="modal-paragraph">
@@ -2854,57 +2855,57 @@ const descriptions = {  codeSmell: `
 
   <a href="https://www.geeksforgeeks.org/spaghetti-code/" id="modal-link" target="_blank">⌁—— Learn more about Spaghetti Code ——⌁</a>
   `,
-  
 
 
-  
+
+
 };
 
-    function filterCards() {
-      const input = document.getElementById('searchInput');
-      const filter = input.value.toLowerCase();
-      const cards = document.getElementsByClassName('card');
+function filterCards() {
+  const input = document.getElementById('searchInput');
+  const filter = input.value.toLowerCase();
+  const cards = document.getElementsByClassName('card');
 
-      for (let i = 0; i < cards.length; i++) {
-        const title = cards[i].getElementsByClassName('card-title')[0];
-        if (title.innerText.toLowerCase().indexOf(filter) > -1) {
-          cards[i].style.display = '';
-        } else {
-          cards[i].style.display = 'none';
-        }
-      }
+  for (let i = 0; i < cards.length; i++) {
+    const title = cards[i].getElementsByClassName('card-title')[0];
+    if (title.innerText.toLowerCase().indexOf(filter) > -1) {
+      cards[i].style.display = '';
+    } else {
+      cards[i].style.display = 'none';
     }
-    const cardContainer = document.getElementById('cardContainer');
-    function showModal(term) {
-      const modal = document.getElementById('modal');
-      const modalBody = document.getElementById('modal-body');
-      modalBody.innerHTML = descriptions[term];
-      modal.style.display = 'block';
-      cardContainer.style.pointerEvents = 'none';
-    }
+  }
+}
+const cardContainer = document.getElementById('cardContainer');
+function showModal(term) {
+  const modal = document.getElementById('modal');
+  const modalBody = document.getElementById('modal-body');
+  modalBody.innerHTML = descriptions[term];
+  modal.style.display = 'block';
+  cardContainer.style.pointerEvents = 'none';
+}
 
-    function readMore() {
-      // Redirect to detailed explanation page (e.g., a blog or documentation)
-      window.open('https://example.com/detailed-explanation', '_blank');
-    }
+function readMore() {
+  // Redirect to detailed explanation page (e.g., a blog or documentation)
+  window.open('https://example.com/detailed-explanation', '_blank');
+}
 
-    function showAbout() {
-      const modal = document.getElementById('modal');
-      const modalBody = document.getElementById('modal-body');
-      modalBody.innerHTML = '<h2>About</h2><strong>IMPORTANT: Bookmarking or Pinning this webpage would help you get a quick overview of anything related to tech in seconds! </strong><p>This "Dev Encyclopedia" is a simple project that simplifies things.</p><p>This website has almost all the commonly used technical terms, concepts and even programming-language specific jargons explained and links provided for further reading.</p><p>Most importantly, it is ad-free, so basically, the best encyclopedia everr! *excited. too much.*</p><p>Built with love, by Chenuli J.</p><img src="image/Chenuli Signature.png" />';
-      modal.style.display = 'block';
-    }
-    function showBuilders() {
-      const modal = document.getElementById('modal');
-      const modalBody = document.getElementById('modal-body');
-      modalBody.innerHTML = '<h3>A Note from the Builder</h3><p>If you find a flaw, love to sponsor or need help with learning something, my inbox is open: <span>-></span> <a href="mailto:buzzpy123@gmail.com">buzzpy123@gmail.com</a></p><p>- I am a Python Developer especilizing in backend so my <strong> web design skills </strong> are <strong>terrible.</strong></p><p>- This project was built in a month, unlike Rome which took years to build. Which means this is on early stages of development, so why not to <strong>fork, star and contribute? </strong> </p>';
-      modal.style.display = 'block';
-    }
-    function showSponsors() {
-      const modal = document.getElementById('modal');
-      const modalBody = document.getElementById('modal-body');
-    
-      modalBody.innerHTML = `
+function showAbout() {
+  const modal = document.getElementById('modal');
+  const modalBody = document.getElementById('modal-body');
+  modalBody.innerHTML = '<h2>About</h2><strong>IMPORTANT: Bookmarking or Pinning this webpage would help you get a quick overview of anything related to tech in seconds! </strong><p>This "Dev Encyclopedia" is a simple project that simplifies things.</p><p>This website has almost all the commonly used technical terms, concepts and even programming-language specific jargons explained and links provided for further reading.</p><p>Most importantly, it is ad-free, so basically, the best encyclopedia everr! *excited. too much.*</p><p>Built with love, by Chenuli J.</p><img src="image/Chenuli Signature.png" />';
+  modal.style.display = 'block';
+}
+function showBuilders() {
+  const modal = document.getElementById('modal');
+  const modalBody = document.getElementById('modal-body');
+  modalBody.innerHTML = '<h3>A Note from the Builder</h3><p>If you find a flaw, love to sponsor or need help with learning something, my inbox is open: <span>-></span> <a href="mailto:buzzpy123@gmail.com">buzzpy123@gmail.com</a></p><p>- I am a Python Developer specializing in backend so my <strong> web design skills </strong> are <strong>terrible.</strong></p><p>- This project was built in a month, unlike Rome which took years to build. Which means this is on early stages of development, so why not to <strong>fork, star and contribute? </strong> </p>';
+  modal.style.display = 'block';
+}
+function showSponsors() {
+  const modal = document.getElementById('modal');
+  const modalBody = document.getElementById('modal-body');
+
+  modalBody.innerHTML = `
         <h3>Sponsors</h3>
         <p>You can sponsor this project via my Ko-Fi profile: <a href="https://ko-fi.com/buzzpy">ko-fi.com/buzzpy</a></p>
         <p>Once you make any donation, I will get in touch with you and make sure you get a place on this "Sponsors" page!</p>
@@ -2930,19 +2931,19 @@ const descriptions = {  codeSmell: `
     </div>
 
       `;
-      modal.style.display = 'block';
-    }
-    
-    
+  modal.style.display = 'block';
+}
 
-   // to close the modal
+
+
+// to close the modal
 function closeModal(event) {
   const modal = document.getElementById('modal');
   if (event.target == modal) {
     modal.style.display = 'none';
     setTimeout(() => {
       cardContainer.style.pointerEvents = 'all';
-    },500)
+    }, 500)
   }
 }
 
