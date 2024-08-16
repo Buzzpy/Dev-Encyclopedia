@@ -262,3 +262,22 @@ body {
     color: deeppink;
 }
 
+
+.style-button {
+    background-image: url('image/moon.jpg');
+    background-color: black; /* move to modes */
+}
+
+.style-button:hover {    
+    animation: move-shadow 1s ease forwards; /* Animate shadow movement */
+    box-shadow: -10px 0 10px -5px rgba(255, 255, 255, 0.7); /* Glowing effect */
+}
+
+@keyframes move-shadow {
+    0% {
+        box-shadow: inset -10px 0 20px -5px rgba(255, 255, 255, 0.5); /* Initial inner shadow */
+    }
+    100% {
+        box-shadow: 10px 0 20px -5px rgba(255, 255, 255, 0.5); /* Final outer shadow */
+    }
+}
