@@ -1,6 +1,6 @@
 <!--Sample Card Structure-->
 <!--Make sure you update script.js as well-->
-<!-- 
+<!--
 <div class="card-container" id="cardContainer">
     <div class="card">
       <div class="card-title">Title</div>
@@ -22,7 +22,7 @@
   <meta name="robots" content="index,follow">
   <meta name="language" content="en">
   <meta name="author" content="Chenuli Jayasinghe">
-  
+
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-E51GWY7QV4"></script>
 <script>
@@ -65,13 +65,12 @@
 
   <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "3e38e6267d1c4dd6b010941f73e71841"}'></script><!-- End Cloudflare Web Analytics -->
     <div class="hero-section">
-
         <div class="bar" style="padding-bottom: 30px;">
             <button class="square-button" onclick="switchStyles()">
                 <i class = "fas fa-sun" id="style-icon"></i>
             </button>
             <div class="search-bar">
-                <input type="text" id="searchInput" onkeyup="filterCards()" placeholder="Search for keywords...">
+                <input type="text" id="searchInput" onkeyup="filterCards()" placeholder="Search for keywords..." aria-label="Search for keywords...">
                 <i class="fas fa-search"></i>
             </div>
         </div>
@@ -84,7 +83,6 @@
             <button class="button" onclick="window.open('https://github.com/Buzzpy/Programming-Simplified', '_blank')">
               <i class="fab fa-github" style="padding-right: 10px;"></i> Contribute;
             </button>
-   
             <button class="button" onclick="showBuilders()">
                 <i class="fas fa-hammer" style="padding-right: 10px;"></i> Builder's Note;
             </button>
@@ -96,27 +94,32 @@
         <!-- TITLE -->
         <div class="hero-title" style="padding-top: 50px;">Dev Encyclopedia;</div>
         <div class="hero-paragraph">Find out what that Sr. Developer is talking about</div>
-      
-          
-      </div>
 
+
+      </div>
   <div class="card-container" id="cardContainer">
     <div class="card">
       <div class="card-title">Machine Learning</div>
       <div class="card-subtext">AI exists thanks to this</div>
       <button class="explain-button" onclick="showModal('machineLearning')">Explain</button>
     </div>
-   
+
     <div class="card">
       <div class="card-title">Code Smell</div>
       <div class="card-subtext">Indicators that code might need improvement.</div>
       <button class="explain-button" onclick="showModal('codeSmell')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Serverless Computing</div>
       <div class="card-subtext">Cloud computing without managing servers.</div>
       <button class="explain-button" onclick="showModal('serverlessComputing')">Explain</button>
+    </div>
+
+    <div class="card">
+      <div class="card-title">Optimistic Locking</div>
+      <div class="card-subtext">Concurrency control method strategy.</div>
+      <button class="explain-button" onclick="showModal('optimisticLocking')">Explain</button>
     </div>
     
     <div class="card">
@@ -124,133 +127,133 @@
       <div class="card-subtext">The sequence of user steps on a website.</div>
       <button class="explain-button" onclick="showModal('webFlow')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Web Hooks</div>
       <div class="card-subtext">Automated messages between apps.</div>
       <button class="explain-button" onclick="showModal('webHooks')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">LLMs</div>
       <div class="card-subtext">AI systems for understanding and generating text.</div>
       <button class="explain-button" onclick="showModal('llms')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Open Source</div>
       <div class="card-subtext">Software with publicly accessible source code.</div>
       <button class="explain-button" onclick="showModal('openSource')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Web Scraping</div>
       <div class="card-subtext">Automatically collecting data from websites.</div>
       <button class="explain-button" onclick="showModal('webScraping')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Front End</div>
       <div class="card-subtext">The visual and interactive parts of a website.</div>
       <button class="explain-button" onclick="showModal('frontEnd')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Full Stack</div>
       <div class="card-subtext">Development of both front end and back end.</div>
       <button class="explain-button" onclick="showModal('fullStack')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Functions</div>
       <div class="card-subtext">Reusable blocks of code performing specific tasks.</div>
       <button class="explain-button" onclick="showModal('functions')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Arguments</div>
       <div class="card-subtext">Values passed to functions to influence their behavior.</div>
       <button class="explain-button" onclick="showModal('arguments')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Dictionary</div>
       <div class="card-subtext">A collection of key-value pairs in programming.</div>
       <button class="explain-button" onclick="showModal('dictionary')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Tuple</div>
       <div class="card-subtext">An ordered, unchangeable collection of items.</div>
       <button class="explain-button" onclick="showModal('tuple')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">List</div>
       <div class="card-subtext">An ordered, changeable collection of items.</div>
       <button class="explain-button" onclick="showModal('list')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Boolean</div>
       <div class="card-subtext">A data type with true or false values.</div>
       <button class="explain-button" onclick="showModal('boolean')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">String</div>
       <div class="card-subtext">A sequence of characters representing text.</div>
       <button class="explain-button" onclick="showModal('string')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Floats</div>
       <div class="card-subtext">Numbers with decimal points for precision.</div>
       <button class="explain-button" onclick="showModal('floats')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Double</div>
       <div class="card-subtext">More precise and larger decimal numbers.</div>
       <button class="explain-button" onclick="showModal('double')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Data Types</div>
       <div class="card-subtext">Categories defining the kind of data variables can hold.</div>
       <button class="explain-button" onclick="showModal('dataTypes')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Threads</div>
       <div class="card-subtext">Mini-programs running concurrently within a larger program.</div>
       <button class="explain-button" onclick="showModal('threads')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Classes</div>
       <div class="card-subtext">Blueprints for creating objects with defined properties and behaviors.</div>
       <button class="explain-button" onclick="showModal('classes')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Objects</div>
       <div class="card-subtext">Instances of classes with specific attributes and methods.</div>
       <button class="explain-button" onclick="showModal('objects')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Inheritance</div>
       <div class="card-subtext">Creating new classes from existing ones, inheriting their properties and behaviors.</div>
       <button class="explain-button" onclick="showModal('inheritance')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Syntax</div>
       <div class="card-subtext">Rules defining the structure and format of code.</div>
       <button class="explain-button" onclick="showModal('syntax')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">IDE</div>
       <div class="card-subtext">Integrated Development Environment for coding and debugging.</div>
@@ -261,85 +264,85 @@
       <div class="card-subtext">Tool for finding and fixing code errors</div>
       <button class="explain-button" onclick="showModal('debugger')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Deployment</div>
       <div class="card-subtext">Making applications available for use</div>
       <button class="explain-button" onclick="showModal('deployment')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Continuous Deployment</div>
       <div class="card-subtext">Automatic deployment of code changes</div>
       <button class="explain-button" onclick="showModal('continuousDeployment')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Deployment Pipeline</div>
       <div class="card-subtext">Automated process for software changes</div>
       <button class="explain-button" onclick="showModal('deploymentPipeline')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Data Validation</div>
       <div class="card-subtext">Ensuring data accuracy and completeness</div>
       <button class="explain-button" onclick="showModal('dataValidation')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Data Serialization</div>
       <div class="card-subtext">Converting data for storage or transmission</div>
       <button class="explain-button" onclick="showModal('dataSerialization')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Mocking</div>
       <div class="card-subtext">Creating fake objects for testing</div>
       <button class="explain-button" onclick="showModal('mocking')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Authentication</div>
       <div class="card-subtext">Verifying user identity</div>
       <button class="explain-button" onclick="showModal('authentication')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Authorization</div>
       <div class="card-subtext">Determining user permissions</div>
       <button class="explain-button" onclick="showModal('authorization')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Prototypes (Software Development)</div>
       <div class="card-subtext">Early models of software for testing</div>
       <button class="explain-button" onclick="showModal('prototypes')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Monolithic Architecture</div>
       <div class="card-subtext">Integrated large system design</div>
       <button class="explain-button" onclick="showModal('monolithicArchitecture')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">GitHub</div>
       <div class="card-subtext">Platform for code hosting and collaboration</div>
       <button class="explain-button" onclick="showModal('github')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">ORM (Object-Relational Mapping)</div>
       <div class="card-subtext">Mapping database tables to objects</div>
       <button class="explain-button" onclick="showModal('orm')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Caching</div>
       <div class="card-subtext">Storing data for quick access</div>
       <button class="explain-button" onclick="showModal('caching')">Explain</button>
     </div>
-    
+
     <div class="card">
       <div class="card-title">Deep Learning</div>
       <div class="card-subtext">A subset of machine learning</div>
@@ -352,7 +355,7 @@
     </div>
     <div class="card">
         <div class="card-title">Cybersecurity</div>
-        <div class="card-subtext">Staying secured in a a world of hackers</div>
+        <div class="card-subtext">Staying secured in a world of hackers</div>
         <button class="explain-button" onclick="showModal('cybersecurity')">Explain</button>
       </div>
       <div class="card">
@@ -419,7 +422,7 @@
       <div class="card">
         <div class="card-title">Iteration</div>
         <div class="card-subtext">A programming technique</div>
-        <button class="explain-button" onclick="showModal('iteration ')">Explain</button>
+        <button class="explain-button" onclick="showModal('iteration')">Explain</button>
       </div>
       <div class="card">
         <div class="card-title">Version Control</div>
@@ -464,6 +467,13 @@
   <div class="card-title">Kubernetes</div>
   <div class="card-subtext">Platform for automating container management</div>
   <button class="explain-button" onclick="showModal('kubernetes')">Explain</button>
+</div>
+
+<!-- GitOps -->
+<div class="card">
+  <div class="card-title">GitOps</div>
+  <div class="card-subtext">Infrastructure automation framework</div>
+  <button class="explain-button" onclick="showModal('gitops')">Explain</button>
 </div>
 
 <!-- Branching -->
@@ -537,7 +547,7 @@
 </div>
 <div class="card">
     <div class="card-title">Agile</div>
-    <div class="card-subtext">A methology in Software Development</div>
+    <div class="card-subtext">A methodology in Software Development</div>
     <button class="explain-button" onclick="showModal('agile')">Explain</button>
   </div>
   <div class="card">
@@ -622,7 +632,7 @@
   </div>
   <div class="card">
     <div class="card-title">Data Structure</div>
-    <div class="card-subtext">A way of oragnzing and storing data</div>
+    <div class="card-subtext">A way of organizing and storing data</div>
     <button class="explain-button" onclick="showModal('dataStructure')">Explain</button>
   </div>
   <div class="card">
@@ -632,7 +642,7 @@
   </div>
   <div class="card">
     <div class="card-title">Recursion Depth</div>
-    <div class="card-subtext">Used to elaborate on recusrion method</div>
+    <div class="card-subtext">Used to elaborate on recursion method</div>
     <button class="explain-button" onclick="showModal('recursionDepth')">Explain</button>
   </div>
   <div class="card">
@@ -661,8 +671,8 @@
     <button class="explain-button" onclick="showModal('endToEndTest')">Explain</button>
   </div>
   <div class="card">
-    <div class="card-title">Performence Test</div>
-    <div class="card-subtext">A type of testing focusing on applcation performence</div>
+    <div class="card-title">Performance Test</div>
+    <div class="card-subtext">A type of testing focusing on application performance</div>
     <button class="explain-button" onclick="showModal('performanceTest')">Explain</button>
   </div>
   <div class="card">
@@ -881,7 +891,7 @@
 
 <div class="card">
   <div class="card-title">Tokenization</div>
-  <div class="card-subtext">Convert sensitive data into non-sensitive tokens</div>
+  <div class="card-subtext">Breaking down data to smaller units</div>
   <button class="explain-button" onclick="showModal('tokenization')">Explain</button>
 </div>
 
@@ -1429,7 +1439,56 @@
   <button class="explain-button" onclick="showModal('bioinformatics')">Explain</button>
 </div>
 
+<div class="card">
+  <div class="card-title">GDPR</div>
+  <div class="card-subtext">
+    General Data Protection Regulation 
   </div>
+  <button class="explain-button" onclick="showModal('GDPR')">
+    Explain
+  </button>
+</div>
+
+<div class="card">
+  <div class="card-title">symmetric-cryptography</div>
+  <div class="card-subtext">
+    algorithms for cryptography that use the same cryptographic keys for both the encryption of plaintext.
+  </div>
+  <button class="explain-button" onclick="showModal('symmetricCryptography')">
+    Explain
+  </button>
+</div>
+
+<div class="card">
+  <div class="card-title">Asymmetric-cryptography</div>
+  <div class="card-subtext">
+    cryptographic scheme requiring two different keys, one for encryption and the other for decryption.
+  </div>
+  <button class="explain-button" onclick="showModal('AsymmetricCryptography')">
+    Explain
+  </button>
+</div>
+  
+<div class="card">
+  <div class="card-title">Spaghetti Code</div>
+  <div class="card-subtext">Unstructured, messy code that’s hard to maintain.</div>
+  <button class="explain-button" onclick="showModal('spaghettiCode')">Explain</button>
+</div>
+
+<div class="card">
+  <div class="card-title">N+1 Query Problem</div>
+  <div class="card-subtext">inefficient data retrieval when querying data.</div>
+  <button class="explain-button" onclick="showModal('nPlusOneProblem')">Explain</button>
+</div>
+
+<!-- Race condition -->
+<div class="card">
+  <div class="card-title">Race condition</div>
+  <div class="card-subtext">Occurs when multiple threads read and write the same data item, causing inconsistency.</div>
+  <button class="explain-button" onclick="showModal('raceCondition')">Explain</button>
+</div>
+
+</div>
 
   <!-- Modal Structure -->
   <div id="modal">
@@ -1438,7 +1497,7 @@
     </div>
   </div>
 
- 
+
    <script src="script.js"></script>
 </body>
 </html>

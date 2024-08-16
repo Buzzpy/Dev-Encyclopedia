@@ -15,7 +15,7 @@
 */
 
 const descriptions = {
-    codeSmell: `
+  codeSmell: `
     <h2 id="modal-heading">Code Smell</h2>
     
     <p class="modal-paragraph">
@@ -43,7 +43,24 @@ const descriptions = {
     <a href="https://cloud.google.com/discover/what-is-serverless-computing" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
-    webFlow: `
+  optimisticLocking: `
+    <h2 id="modal-heading">Optimistic Locking</h2>
+    
+    <p class="modal-paragraph">
+      Optimistic locking is a strategy where you read a record and there is some versioning in it (can be timestamp, version number, etc), and then when you attempt to update the record, the versioning is checked. 
+      The update is only committed when the record version remains the same. If the record version has changed, then the update attempt is aborted. 
+      This is particularly useful to increase throughput, and prevent conflicts when multiple users attempt to update a single record.
+    </p>
+    <p class="modal-paragraph">
+      It's like in an art class where everyone is coloring a big picture together, and each have their own copy to color. You start coloring your tree green, and your friend might color their tree as blue.
+      When you finish, you check in the big picture if anyone has colored the tree. If no one has, you can add your green tree. But if someone has colored the tree, you can't just color over it. You have to decide together what color the tree should be.
+    </p>
+    
+    
+    <a href="https://stackoverflow.com/questions/129329/optimistic-vs-pessimistic-locking" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
+  `,
+
+  webFlow: `
     <h2 id="modal-heading">Web Flow</h2>
     
     <p class="modal-paragraph">
@@ -581,7 +598,7 @@ const descriptions = {
     <h2 id="modal-heading">Epochs</h2>
     
     <p class="modal-paragraph">In machine learning, an epoch is one complete pass through the entire training dataset. During each epoch, the model's parameters are updated to improve accuracy.</p>
-    <p class="modal-paragraph">Multiple epochs are often needed for a model to learn effectively and reach high performance on the task it is trained for. However, its' crucial to determine the number of epochs carefully, as explaned in the image below.</p>
+    <p class="modal-paragraph">Multiple epochs are often needed for a model to learn effectively and reach high performance on the task it is trained for. However, its' crucial to determine the number of epochs carefully, as explained in the image below.</p>
     
     <img  src="https://miro.medium.com/v2/resize:fit:860/1*GXftMdKjyaLYuAIn-nB4zA.png" alt="Epochs image">
     
@@ -679,7 +696,7 @@ const descriptions = {
     
     <img  src="https://www.boardinfinity.com/blog/content/images/2023/05/init-in-python.png" alt="__init__ Function image">
     
-    <a href="https://docker-curriculum.com/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <a href="https://www.geeksforgeeks.org/__init__-in-python/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
     python: `
@@ -690,7 +707,7 @@ const descriptions = {
     
     <img  src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9fx9gi335wgl2pdt6sjj.png" alt="Python image">
     
-    <a href="https://example.com" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <a href="https://www.python.org/doc/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
     threeSigmaRule: `
     <h2 id="modal-heading">Three-Sigma Rule</h2>
@@ -798,11 +815,20 @@ const descriptions = {
       Think of it as the conductor of an orchestra, ensuring all the musicians (containers) play in harmony.
     </p>
     
-    <img  src="https://example.com/kubernetes-image.png" alt="Kubernetes image">
+    <img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/247px-Kubernetes_logo_without_workmark.svg.png" alt="Kubernetes image">
     <a href="https://kubernetes.io/docs/concepts/overview/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-
-    branching: `
+  gitops: `
+  <h2 id="modal-heading">GitOps</h2>
+  
+  <p class="modal-paragraph">GitOps is a way of implementing Continuous Deployment for cloud native or on-premise applications.</p>
+  <p class="modal-paragraph">GitOps organizes the deployment process around code repositories as the central element.</p>
+  
+  <img  src="https://s7280.pcdn.co/wp-content/uploads/2021/08/GitOps-Principles.png" alt="GitOps image">
+  
+  <a href="https://www.gitops.tech/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
+`,
+  branching: `
     <h2 id="modal-heading">Branching</h2>
     
     <p class="modal-paragraph">
@@ -2395,13 +2421,13 @@ const descriptions = {
     <h2 id="modal-heading">Tokenization</h2>
     
     <p class="modal-paragraph">
-      Tokenization is the process of converting sensitive data into non-sensitive data called tokens, which can be used in a database or internal system without exposing sensitive information.
+     Tokenization in programming is the process of breaking down a stream of text into smaller, meaningful units called "tokens." These tokens can represent various elements such as keywords, operators, identifiers, literals, and other symbols within the text. Tokenization is a fundamental step in the process of parsing or analyzing text, particularly in the context of programming languages, natural language processing (NLP), and data processing.
     </p>
     <p class="modal-paragraph">
-      Think of tokenization as swapping out your real, valuable diamonds for costume jewelry when traveling to secure the real assets.
+      Tokenization in programming is the process of breaking down a string of text, like a math expression or a line of code, into smaller parts called "tokens" (like numbers, operators, or keywords) so that the computer can understand and process each part individually.
     </p>
     
-    <a href="https://www.pcisecuritystandards.org/pdfs/pci_fs_data_tokenization.pdf" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <a href="https://www.datacamp.com/blog/what-is-tokenization" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
     serverSentEvents: `
@@ -2438,9 +2464,9 @@ const descriptions = {
     </p>
     <p class="modal-paragraph">
       Think of cache invalidation like cleaning out your fridge; you need to remove old food to make room for fresh groceries.
-    </p>
+    </p>a
     
-    <a href="https://www.cloudflare.com/learning/cdn/what-is-caching/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <a href="https://www.cloudflare.com/learning/cdn/what-is-caching/" id="modal-link" target"_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
     immutableDataStructures: `
@@ -2778,7 +2804,43 @@ const descriptions = {
     
     <a href="https://mlops.community/what-is-mlops/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
-    iteration: `
+  GDPR: `
+    
+  <h2 id="modal-heading">GDPR</h2>
+
+  <p class="modal-paragraph">
+  The General Data Protection Regulation (GDPR) is a comprehensive data protection law in the European Union designed to enhance individuals' control over their personal information. It sets strict guidelines on how companies collect, store, and manage personal data.
+  </p>
+
+  <img class="responsive-image" src="https://d2z0k1elb7rxgj.cloudfront.net/uploads/2019/12/gdpr-guidelines-1024x531.png" alt="GDPR Guidelines" id="modal-image"/>
+
+  <a href="https://gdpr.eu/what-is-gdpr/" id="modal-link" target="_blank">⌁—— Read more about it ——⌁</a>
+` ,
+  symmetricCryptography: `
+    
+   <h2 id="modal-heading">Symmetric Cryptography</h2>
+
+   <p class="modal-paragraph">
+  In cryptography, a symmetric key is like a shared password that both encrypts and decrypts data. This means the same key locks and unlocks the information, making it crucial that only trusted parties have access to it.
+  </p>
+  <p class="modal-paragraph">
+  Imagine you and a friend have the same key. You use it to lock (encrypt) a message, and your friend uses the same key to unlock (decrypt) it. The catch? You both need to keep that key safe and secret.
+  </p>
+  <img class="responsive-image" src="https://upload.wikimedia.org/wikipedia/commons/6/61/Simple_symmetric_encryption.png" alt="Symmertic-key image">
+  <a href="https://simple.wikipedia.org/wiki/Symmetric-key_algorithm" id="modal-link" target="_blank">⌁—— Read more about it ——⌁</a>
+`,
+  AsymmetricCryptography: `
+   <h2 id="modal-heading">Asymmetric Cryptography</h2>
+
+   <p class="modal-paragraph">
+   Asymmetric keys are the foundation of Public Key Infrastructure (PKI) a cryptographic scheme requiring two different keys, one to lock or encrypt the plaintext, and one to unlock or decrypt the cyphertext. Neither key will do both functions. One key is published (public key) and the other is kept private (private key). If the lock/encryption key is the one published, the system enables private communication from the public to the unlocking key's owner. If the unlock/decryption key is the one published, then the system serves as a signature verifier of documents locked by the owner of the private key. This system also is called asymmetric key cryptography.
+  </p>
+
+  <img class="responsive-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Public_key_encryption.svg/800px-Public_key_encryption.svg.png" alt="Symmertic-key image">
+  <a href="https://en.wikipedia.org/wiki/Public-key_cryptography" id="modal-link" target="_blank">⌁—— Read more about it ——⌁</a>`
+  ,
+
+  iteration: `
   <h2 id="modal-heading">Iteration</h2>
 
   <p class="modal-paragraph">
@@ -2787,66 +2849,115 @@ const descriptions = {
   <p class="modal-paragraph">
   Think of iteration as a loop where each pass brings you closer to the perfect solution, whether it's fine-tuning code or improving a machine learning model.
   </p>
+  
+  <a href="https://goodspeed.studio/glossary/what-is-iteration-iteration-explained" id="modal-link" target="_blank">⌁—— Learn more about Iteration ——⌁</a>
+  `,
+  spaghettiCode: `
+  <h2 id="modal-heading">Spaghetti Code</h2>
 
-<a href="https://goodspeed.studio/glossary/what-is-iteration-iteration-explained" id="modal-link" target="_blank">⌁—— Learn more about Iteration ——⌁</a>
-`
+  <p class="modal-paragraph">
+  Spaghetti code is a messy and confusing type of software code that comes from writing without a clear plan or organization. The term is like a metaphor, comparing the code to tangled spaghetti noodles, because it’s hard to follow and figure out. 
+  </p>
+  <p class="modal-paragraph">
+  This kind of code can be tricky to read, understand, and keep in good shape.
+  </p>
+
+  <a href="https://www.geeksforgeeks.org/spaghetti-code/" id="modal-link" target="_blank">⌁—— Learn more about Spaghetti Code ——⌁</a>
+  `,
+  nPlusOneProblem: `
+  <h2 id="modal-heading">N+1 Query Problem</h2>
+
+  <p class="modal-paragraph">
+  The N+1 query problem happens when retrieving a list of records (N queries) causes additional queries (1 per record). For example, fetching 10 users and then separately querying each user's orders results in 1 query for users and 10 more for orders, leading to 11 queries instead of an optimized 2.
+  </p>
+  <a href="https://planetscale.com/blog/what-is-n-1-query-problem-and-how-to-solve-it" id="modal-link" target="_blank">⌁—— Learn more about N+1 Query Problem ——⌁</a>
+  `,
+  raceCondition: `
+  <h2 id="modal-heading">Race condition</h2>
+
+  <p class="modal-paragraph">
+  A situation in which multiple threads or processes read and write a shared data item, and the final result depends on the relative timing of their execution. Avoiding race conditions is a critical requirement for multi-threaded operating systems and servers as it may lead to data inconsistency and system crashes.
+  </p>
+  <p class="modal-paragraph">
+  For example, assume two processes P1 and P2 share the global variable x. At some point in its execution, P1 updates x to the value 1, and at some point in its execution, P2 updates x to the value 2. Thus, the two tasks are in a 'race' to rewrite variable x, with the value of x being determined by the process performing the latest write operation.
+  </p>
+  <a href="https://www.techtarget.com/searchstorage/definition/race-condition" id="modal-link" target="_blank">⌁—— Learn more about Race condition ——⌁</a>
+  `,
+
 
 
 
 };
 
 function filterCards() {
-    const input = document.getElementById('searchInput');
-    const filter = input.value.toLowerCase();
-    const cards = document.getElementsByClassName('card');
+  const input = document.getElementById('searchInput');
+  const filter = input.value.toLowerCase();
+  const cards = document.getElementsByClassName('card');
 
-    for (let i = 0; i < cards.length; i++) {
-        const title = cards[i].getElementsByClassName('card-title')[0];
-        if (title.innerText.toLowerCase().indexOf(filter) > -1) {
-            cards[i].style.display = '';
-        } else {
-            cards[i].style.display = 'none';
-        }
+  for (let i = 0; i < cards.length; i++) {
+    const title = cards[i].getElementsByClassName('card-title')[0];
+    if (title.innerText.toLowerCase().indexOf(filter) > -1) {
+      cards[i].style.display = '';
+    } else {
+      cards[i].style.display = 'none';
     }
+  }
 }
 const cardContainer = document.getElementById('cardContainer');
 function showModal(term) {
-    const modal = document.getElementById('modal');
-    const modalBody = document.getElementById('modal-body');
-    modalBody.innerHTML = descriptions[term];
-    modal.style.display = 'block';
-    cardContainer.style.pointerEvents = 'none';
+  const modal = document.getElementById('modal');
+  const modalBody = document.getElementById('modal-body');
+  modalBody.innerHTML = descriptions[term];
+  modal.style.display = 'block';
+  cardContainer.style.pointerEvents = 'none';
 }
 
 function readMore() {
-    // Redirect to detailed explanation page (e.g., a blog or documentation)
-    window.open('https://example.com/detailed-explanation', '_blank');
+  // Redirect to detailed explanation page (e.g., a blog or documentation)
+  window.open('https://example.com/detailed-explanation', '_blank');
 }
 
 function showAbout() {
-    const modal = document.getElementById('modal');
-    const modalBody = document.getElementById('modal-body');
-    modalBody.innerHTML = '<h2>About</h2><strong>IMPORTANT: Bookmarking or Pinning this webpage would help you get a quick overview of anything related to tech in seconds! </strong><p>This "Dev Encyclopedia" is a simple project that simplifies things.</p><p>This website has almost all the commonly used technical terms, concepts and even programming-language specific jargons explained and links provided for further reading.</p><p>Most importantly, it is ad-free, so basically, the best encyclopedia everr! *excited. too much.*</p><p>Built with love, by Chenuli J.</p><img src="image/Chenuli Signature.png" />';
-    modal.style.display = 'block';
+  const modal = document.getElementById('modal');
+  const modalBody = document.getElementById('modal-body');
+  modalBody.innerHTML = '<h2>About</h2><strong>IMPORTANT: Bookmarking or Pinning this webpage would help you get a quick overview of anything related to tech in seconds! </strong><p>This "Dev Encyclopedia" is a simple project that simplifies things.</p><p>This website has almost all the commonly used technical terms, concepts and even programming-language specific jargons explained and links provided for further reading.</p><p>Most importantly, it is ad-free, so basically, the best encyclopedia everr! *excited. too much.*</p><p>Built with love, by Chenuli J.</p><img src="image/Chenuli Signature.png" />';
+  modal.style.display = 'block';
 }
 function showBuilders() {
-    const modal = document.getElementById('modal');
-    const modalBody = document.getElementById('modal-body');
-    modalBody.innerHTML = '<h3>A Note from the Builder</h3><p>If you find a flaw, love to sponsor or need help with learning something, my inbox is open: <span>-></span> <a href="mailto:buzzpy123@gmail.com">buzzpy123@gmail.com</a></p><p>- I am a Python Developer especilizing in backend so my <strong> web design skills </strong> are <strong>terrible.</strong></p><p>- This project was built in a month, unlike Rome which took years to build. Which means this is on early stages of development, so why not to <strong>fork, star and contribute? </strong> </p>';
-    modal.style.display = 'block';
+  const modal = document.getElementById('modal');
+  const modalBody = document.getElementById('modal-body');
+  modalBody.innerHTML = '<h3>A Note from the Builder</h3><p>If you find a flaw, love to sponsor or need help with learning something, my inbox is open: <span>-></span> <a href="mailto:buzzpy123@gmail.com">buzzpy123@gmail.com</a></p><p>- I am a Python Developer specializing in backend so my <strong> web design skills </strong> are <strong>terrible.</strong></p><p>- This project was built in a month, unlike Rome which took years to build. Which means this is on early stages of development, so why not to <strong>fork, star and contribute? </strong> </p>';
+  modal.style.display = 'block';
 }
 function showSponsors() {
-    const modal = document.getElementById('modal');
-    const modalBody = document.getElementById('modal-body');
+  const modal = document.getElementById('modal');
+  const modalBody = document.getElementById('modal-body');
 
-    modalBody.innerHTML = `
+  modalBody.innerHTML = `
         <h3>Sponsors</h3>
         <p>You can sponsor this project via my Ko-Fi profile: <a href="https://ko-fi.com/buzzpy">ko-fi.com/buzzpy</a></p>
         <p>Once you make any donation, I will get in touch with you and make sure you get a place on this "Sponsors" page!</p>
-        <div id="sponsor-info">
-          <img src="https://media.licdn.com/dms/image/D5603AQHJyX4hVmqjpQ/profile-displayphoto-shrink_200_200/0/1715316807453?e=2147483647&v=beta&t=7_xJ7ANI71x0vnvp1_2vj86V0kVvNDQGGflUzLfQBBk" alt="Malith J. Don" id="sponsor-image" />
-          <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Flk.linkedin.com%2Fin%2Fmalith-jayasinghe-484509180&psig=AOvVaw3pVLfvt056d-wG57Gc361x&ust=1723739678386000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCOijn-v09IcDFQAAAAAdAAAAABAK" id="sponsor-name">Malith J. Don</a>
-        </div>
+        <div id="sponsors-container">
+    <div class="sponsor-info">
+        <img src="https://media.licdn.com/dms/image/D5603AQHJyX4hVmqjpQ/profile-displayphoto-shrink_200_200/0/1715316807453?e=2147483647&v=beta&t=7_xJ7ANI71x0vnvp1_2vj86V0kVvNDQGGflUzLfQBBk" alt="Malith J. Don" class="sponsor-image" />
+        <a href="https://www.linkedin.com/in/malith-jayasinghe-484509180/" target="_blank" class="sponsor-name">Malith J. Don</a>
+    </div>
+    <div class="sponsor-info">
+        <img src="https://cdn-icons-png.flaticon.com/512/6596/6596121.png" alt="Nethmi Dulanga Avatar" class="sponsor-image" />
+        <a href="https://www.linkedin.com/in/nethmi-jayasinghe/" target="_blank" class="sponsor-name">Nethmi Dulanga</a>
+    </div>
+     <div class="sponsor-info">
+        <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yzdevx4ebtzka0nz1wyt.png" alt="C. Pathirana Avatar" class="sponsor-image" />
+        <span style="font-weight: bold;font-size: 15px;">C. Pathirana</span>
+    </div>
+        <div class="sponsor-info">
+        <img src="https://cdn.prod.website-files.com/5c14e387dab576fe667689cf/64f1a9ddd0246590df69e9f4_ko-fi_logo_01.png" alt="Sponsor Us" class="sponsor-image" />
+        <a href="https://ko-fi.com/buzzpy" target="_blank" class="sponsor-name">Sponsor Us</a>
+    </div>
+
+
+    </div>
+
       `;
     modal.style.display = 'block';
 }
