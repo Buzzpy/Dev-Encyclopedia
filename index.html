@@ -40,9 +40,32 @@
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-  <link id="themeStylesheet" href="style.css" rel="stylesheet">
+  <link id="themeStylesheet" href="dark-mode.css" rel="stylesheet">
+
+<style>
+        .dark-mode-button {
+        background-size: 60%;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 15px;
+        cursor: pointer;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: 0.8vh;
+        left: 0.8vw;
+        transform: scale(0.4);
+        transition: transform 0.12s ease;
+        }
+
+        .dark-mode-button:hover {
+        transform: scale(0.5)
+        } 
+</style>
 </head>
+
 <body>
+<button class="dark-mode-button style-button" role="button" onclick="switchStyles()"></button>
 
   <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "3e38e6267d1c4dd6b010941f73e71841"}'></script><!-- End Cloudflare Web Analytics -->
     <div class="hero-section">
@@ -73,9 +96,6 @@
           
       </div>
 
-    <button onclick="switchStyles()">Switch Style</button>
-    <script src="switchStyles.js"></script>
-      
   <div class="card-container" id="cardContainer">
     <div class="card">
       <div class="card-title">Machine Learning</div>
@@ -1416,6 +1436,5 @@
 
  
    <script src="script.js"></script>
-
 </body>
 </html>
