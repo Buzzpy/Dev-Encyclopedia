@@ -2885,7 +2885,15 @@ const descriptions = {
   </p>
   <a href="https://www.techtarget.com/searchstorage/definition/race-condition" id="modal-link" target="_blank">⌁—— Learn more about Race condition ——⌁</a>
   `,
+  conditionalStatement: `
+  <h2 id="modal-heading">Conditional Statement</h2>
 
+  <p class="modal-paragraph">
+  A statement that performs different actions based on whether a specified condition is true or false. Common conditional statements include if, else, and switch.
+  </p>
+  <img class="responsive-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/If-Then-Else-diagram.svg/330px-If-Then-Else-diagram.svg.png" alt="If-then-else flow diagram">
+  <a href="https://www.geeksforgeeks.org/conditional-statements-in-programming/" id="modal-link" target="_blank">⌁—— Learn more about Race condition ——⌁</a>
+  `,
 
 
 
