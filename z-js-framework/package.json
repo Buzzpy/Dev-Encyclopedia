@@ -1,0 +1,51 @@
+{
+  "name": "z-js-framework",
+  "version": "0.0.8",
+  "description": "The literally low mental overhead js framework!",
+  "main": "index.js",
+  "type": "module",
+  "module": "index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "index.js"
+  ],
+  "directories": {
+    "doc": "docs",
+    "example": "example"
+  },
+  "scripts": {
+    "build": "vite build",
+    "docs": "jsdoc -d ./docs index.js",
+    "publish": "npm publish --access public"
+  },
+  "devDependencies": {
+    "jsdoc": "^4.0.3",
+    "rollup-plugin-brotli": "^3.1.0",
+    "terser": "^5.26.0",
+    "vite": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Z-Js-Framework/z-js.git"
+  },
+  "keywords": [
+    "Js",
+    "Framework",
+    "vanilla",
+    "js",
+    "framework",
+    "htmx",
+    "html"
+  ],
+  "author": "Hussein Kizz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Z-Js-Framework/z-js/issues"
+  },
+  "homepage": "https://github.com/Z-Js-Framework/z-js#readme",
+  "dependencies": {
+    "morphdom": "^2.7.3"
+  }
+}

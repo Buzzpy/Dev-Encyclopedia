@@ -1,0 +1,49 @@
+{
+  "name": "@z-js-framework/z-fetch",
+  "version": "0.0.3",
+  "description": "The native fetch api wrapper made to enhance fetching in z js framework!",
+  "main": "index.js",
+  "type": "module",
+  "module": "index.js",
+  "types": "@types/index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "index.js"
+  ],
+  "directories": {
+    "doc": "docs",
+    "examples": "examples",
+    "types": "types"
+  },
+  "scripts": {
+    "build": "vite build",
+    "docs": "jsdoc -d ./docs index.js",
+    "publish": "npm publish --access public"
+  },
+  "devDependencies": {
+    "jsdoc": "^4.0.3",
+    "rollup-plugin-brotli": "^3.1.0",
+    "terser": "^5.26.0",
+    "vite": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Z-Js-Framework/z-fetch.git"
+  },
+  "keywords": [
+    "Js",
+    "Framework",
+    "vanilla",
+    "axios",
+    "z-js-framework",
+    "fetch",
+    "html"
+  ],
+  "author": "Hussein Kizz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Z-Js-Framework/z-fetch/issues"
+  },
+  "homepage": "https://github.com/Z-Js-Framework/z-fetch#readme"
+}
