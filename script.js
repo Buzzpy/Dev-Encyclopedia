@@ -2864,6 +2864,7 @@ function closeModal(event) {
     }
 }
 
+// to switch between dark mode and light mode
 function switchStyles() {
     let stylesheet = document.getElementById('themeStylesheet');
 
@@ -2873,6 +2874,7 @@ function switchStyles() {
         stylesheet.setAttribute('href', 'dark-mode.css');
     }
 }
+
 
 // Add event listeners for both click and touchstart
 window.addEventListener('click', closeModal);
