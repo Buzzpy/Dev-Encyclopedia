@@ -696,7 +696,7 @@ const descriptions = {
     
     <img  src="https://www.boardinfinity.com/blog/content/images/2023/05/init-in-python.png" alt="__init__ Function image">
     
-    <a href="https://docker-curriculum.com/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <a href="https://www.geeksforgeeks.org/__init__-in-python/" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
   python: `
