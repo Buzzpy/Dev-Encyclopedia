@@ -5,7 +5,7 @@ img {
 
 body {
     background-color: #fcfcfc;
-    color: #000000;
+    color: #1a1a1a;
     font-family: 'JetBrains Mono', monospace;
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@ body {
     align-items: center;
     margin-top: 20px;
     padding: 10px;
-    border: 1px solid #000000; /* Optional: Add border to make it stand out */
+    border: 1px solid #1a1a1a; /* Optional: Add border to make it stand out */
     border-radius: 15px; /* Optional: Add rounded corners */
     background-color: #ffffff; /* Optional: Add background color */
   }
@@ -78,8 +78,8 @@ body {
 .button {
     background-color: #ffffff;
     border-width: 2px;
-    border-color: black;
-    color: #000000;
+    border-color: #1a1a1a;
+    color: #1a1a1a;
     padding: 15px 30px;
 
     font-family: 'JetBrains Mono', monospace;
@@ -89,34 +89,54 @@ body {
 }
 
 .button:hover {
-    background-color: #000000;
+    background-color: #1a1a1a;
     color: #ffffff;
 
-    border-color: black;
+    border-color: #1a1a1a;
 }
 
-.search-bar {
+.square-button {
     position: relative;
-    display: inline-block;
+    background-color: #1a1a1a;
+    border-color: white;
+    color: #ffffff;
+    right: 20px;
+
+    height: 40px;
+    width: 40px;
+
+    font-family: 'JetBrains Mono', monospace;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.square-button:hover {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    border-color: white;
+}
+
+.bar {
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
     font-family: 'JetBrains Mono', monospace;
 }
 
-.search-bar input {
+.bar input {
     padding: 15px 60px;
-    padding-left: 40px;
     /* Space for the icon */
     font-size: 1em;
-    border: 1px solid #000000;
+    border: 1px solid #1a1a1a;
     border-radius: 35px;
     font-family: 'JetBrains Mono', monospace;
 }
 
 .search-bar i {
-    position: absolute;
-    right: 20px;
-
-    top: 31%;
-    transform: translateY(-50%);
+    position: relative;
+    right: 45px;
     color: #555;
     /* Adjust color as needed */
 }
@@ -187,7 +207,7 @@ body {
     color: #fff;
     padding: 18px;
     border: 2px;
-    border-color: black;
+    border-color: #1a1a1a;
     border-radius: 5px;
     font-family: 'JetBrains Mono', monospace;
     cursor: pointer;
@@ -197,6 +217,27 @@ body {
 .explain-button:hover {
     background-color: #474747;
     color: #ffffff;
+}
+
+.square-button {
+    background-color: #ffffff;
+    border-color: #1a1a1a;
+    color: #1a1a1a;
+
+    height: 40px;
+    width: 40px;
+
+    font-family: 'JetBrains Mono', monospace;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.square-button:hover {
+    background-color: #1a1a1a;
+    color: #ffffff;
+
+    border-color: #1a1a1a;
 }
 
 /* Modal Styles */
@@ -214,7 +255,7 @@ body {
 
 #modal-content {
     background-color: #ffffff;
-    color: black;
+    color: #1a1a1a;
     margin: 10% auto;
     padding: 20px;
     border: 2px solid #000;
@@ -254,15 +295,9 @@ body {
     border-radius: 5px;
     font-size: 15px;
     text-align: center;
-    font-family: 'JetBrains Mono', monospace;
     cursor: pointer;
 }
 
 #modal-link:hover {
     color: deeppink;
-}
-
-.style-button {
-    background-image: url('image/sun.jpg');
-    background-color: white; /* move to modes */
 }
