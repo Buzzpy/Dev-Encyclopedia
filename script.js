@@ -2412,13 +2412,13 @@ const descriptions = {
     <h2 id="modal-heading">Tokenization</h2>
     
     <p class="modal-paragraph">
-      Tokenization is the process of converting sensitive data into non-sensitive data called tokens, which can be used in a database or internal system without exposing sensitive information.
+     Tokenization in programming is the process of breaking down a stream of text into smaller, meaningful units called "tokens." These tokens can represent various elements such as keywords, operators, identifiers, literals, and other symbols within the text. Tokenization is a fundamental step in the process of parsing or analyzing text, particularly in the context of programming languages, natural language processing (NLP), and data processing.
     </p>
     <p class="modal-paragraph">
-      Think of tokenization as swapping out your real, valuable diamonds for costume jewelry when traveling to secure the real assets.
+      Tokenization in programming is the process of breaking down a string of text, like a math expression or a line of code, into smaller parts called "tokens" (like numbers, operators, or keywords) so that the computer can understand and process each part individually.
     </p>
     
-    <a href="https://www.pcisecuritystandards.org/pdfs/pci_fs_data_tokenization.pdf" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
+    <a href="https://www.datacamp.com/blog/what-is-tokenization" id="modal-link" target="_blank"> ⌁—— Read more about it ——⌁</a>
   `,
 
   serverSentEvents: `
