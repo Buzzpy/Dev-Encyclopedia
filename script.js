@@ -2855,6 +2855,14 @@ const descriptions = {
 
   <a href="https://www.geeksforgeeks.org/spaghetti-code/" id="modal-link" target="_blank">⌁—— Learn more about Spaghetti Code ——⌁</a>
   `,
+  nPlusOneProblem: `
+  <h2 id="modal-heading">N+1 Query Problem</h2>
+
+  <p class="modal-paragraph">
+  The N+1 query problem happens when retrieving a list of records (N queries) causes additional queries (1 per record). For example, fetching 10 users and then separately querying each user's orders results in 1 query for users and 10 more for orders, leading to 11 queries instead of an optimized 2.
+  </p>
+  <a href="https://planetscale.com/blog/what-is-n-1-query-problem-and-how-to-solve-it" id="modal-link" target="_blank">⌁—— Learn more about Spaghetti Code ——⌁</a>
+  `,
 
 
 
