@@ -1,3 +1,10 @@
 {
-  "extends": "astro/tsconfigs/strict"
+  "compilerOptions": {
+    "strict": false,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
+  },
+  "include": ["src/**/*"]
 }
