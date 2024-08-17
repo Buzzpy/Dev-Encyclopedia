@@ -5,9 +5,8 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "npx astro check && npx astro build", 
-    "preview": "astro preview",
-    "astro": "astro"
+    "build": "npx astro check && npx astro build",
+    "preview": "astro preview"
   },
   "dependencies": {
     "astro": "^4.13.4",
