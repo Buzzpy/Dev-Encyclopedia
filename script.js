@@ -2899,6 +2899,7 @@ const descriptions = {
 
 };
 
+
 function filterCards() {
   const input = document.getElementById('searchInput');
   const filter = input.value.toLowerCase();
