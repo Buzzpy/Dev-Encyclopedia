@@ -1,0 +1,24 @@
+---
+export interface CardProps {
+  title: string;
+  subtext: string;
+  description: string;
+  imageUrl: string;
+  resourceUrl: string;
+}
+
+const { title, subtext, description, imageUrl, resourceUrl } = Astro.props as CardProps;
+
+function handleClick() {
+  const event = new CustomEvent('explain', {
+    detail: { title, description, imageUrl, resourceUrl },
+  });
+  window.dispatchEvent(event);
+}
+---
+
+<div class="card">
+  <div class="card-title">{title}</div>
+  <div class="card-subtext">{subtext}</div>
+  <button class="explain-button" onClick={handleClick}>Explain</button>
+</div>
