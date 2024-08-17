@@ -31,10 +31,12 @@ export function resolve(specifier, parent) {
   try {
     return defaultResolve(specifier, {parentURL: parent}).url
   } catch (error) {
+    // See: <https://github.com/nodejs/node/blob/45f5c9b/lib/internal/modules/esm/initialize_import_meta.js#L34>
     const exception = /** @type {ErrnoException} */ (error)
 
     if (
-      exception.code === 'ERR_UNSUPPORTED_DIR_IMPORT' &&
+      (exception.code === 'ERR_UNSUPPORTED_DIR_IMPORT' ||
+        exception.code === 'ERR_MODULE_NOT_FOUND') &&
       typeof exception.url === 'string'
     ) {
       return exception.url

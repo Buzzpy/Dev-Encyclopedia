@@ -1,17 +1,16 @@
 {
 	"name": "locate-path",
-	"version": "6.0.0",
+	"version": "5.0.0",
 	"description": "Get the first path that exists on disk of multiple paths",
 	"license": "MIT",
 	"repository": "sindresorhus/locate-path",
-	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
-		"url": "https://sindresorhus.com"
+		"url": "sindresorhus.com"
 	},
 	"engines": {
-		"node": ">=10"
+		"node": ">=8"
 	},
 	"scripts": {
 		"test": "xo && ava && tsd"
@@ -36,11 +35,11 @@
 		"iterator"
 	],
 	"dependencies": {
-		"p-locate": "^5.0.0"
+		"p-locate": "^4.1.0"
 	},
 	"devDependencies": {
-		"ava": "^2.4.0",
-		"tsd": "^0.13.1",
-		"xo": "^0.32.1"
+		"ava": "^1.4.1",
+		"tsd": "^0.7.2",
+		"xo": "^0.24.0"
 	}
 }

@@ -29,16 +29,14 @@ module.exports = async (paths, options) => {
 		allowSymlinks: true,
 		...options
 	};
-
 	checkType(options);
-
 	const statFn = options.allowSymlinks ? fsStat : fsLStat;
 
 	return pLocate(paths, async path_ => {
 		try {
 			const stat = await statFn(path.resolve(options.cwd, path_));
 			return matchType(options.type, stat);
-		} catch {
+		} catch (_) {
 			return false;
 		}
 	}, options);
@@ -51,9 +49,7 @@ module.exports.sync = (paths, options) => {
 		type: 'file',
 		...options
 	};
-
 	checkType(options);
-
 	const statFn = options.allowSymlinks ? fs.statSync : fs.lstatSync;
 
 	for (const path_ of paths) {
@@ -63,6 +59,7 @@ module.exports.sync = (paths, options) => {
 			if (matchType(options.type, stat)) {
 				return path_;
 			}
-		} catch {}
+		} catch (_) {
+		}
 	}
 };

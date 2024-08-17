@@ -3,6 +3,7 @@
 
 #include <cmath>
 #include <string>
+#include <cstdio>
 
 #include <napi.h>
 #include <vips/vips8>
@@ -70,8 +71,8 @@ Napi::Value concurrency(const Napi::CallbackInfo& info) {
 */
 Napi::Value counters(const Napi::CallbackInfo& info) {
   Napi::Object counters = Napi::Object::New(info.Env());
-  counters.Set("queue", sharp::counterQueue);
-  counters.Set("process", sharp::counterProcess);
+  counters.Set("queue", static_cast<int>(sharp::counterQueue));
+  counters.Set("process", static_cast<int>(sharp::counterProcess));
   return counters;
 }
 
@@ -91,9 +92,23 @@ Napi::Value simd(const Napi::CallbackInfo& info) {
   Get libvips version
 */
 Napi::Value libvipsVersion(const Napi::CallbackInfo& info) {
-  char version[9];
-  g_snprintf(version, sizeof(version), "%d.%d.%d", vips_version(0), vips_version(1), vips_version(2));
-  return Napi::String::New(info.Env(), version);
+  Napi::Env env = info.Env();
+  Napi::Object version = Napi::Object::New(env);
+
+  char semver[9];
+  std::snprintf(semver, sizeof(semver), "%d.%d.%d", vips_version(0), vips_version(1), vips_version(2));
+  version.Set("semver", Napi::String::New(env, semver));
+#ifdef SHARP_USE_GLOBAL_LIBVIPS
+  version.Set("isGlobal", Napi::Boolean::New(env, true));
+#else
+  version.Set("isGlobal", Napi::Boolean::New(env, false));
+#endif
+#ifdef __EMSCRIPTEN__
+  version.Set("isWasm", Napi::Boolean::New(env, true));
+#else
+  version.Set("isWasm", Napi::Boolean::New(env, false));
+#endif
+  return version;
 }
 
 /*

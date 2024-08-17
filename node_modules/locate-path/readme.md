@@ -1,12 +1,14 @@
-# locate-path [![Build Status](https://travis-ci.com/sindresorhus/locate-path.svg?branch=master)](https://travis-ci.com/github/sindresorhus/locate-path)
+# locate-path [![Build Status](https://travis-ci.org/sindresorhus/locate-path.svg?branch=master)](https://travis-ci.org/sindresorhus/locate-path)
 
 > Get the first path that exists on disk of multiple paths
+
 
 ## Install
 
 ```
 $ npm install locate-path
 ```
+
 
 ## Usage
 
@@ -27,9 +29,10 @@ const files = [
 })();
 ```
 
+
 ## API
 
-### locatePath(paths, options?)
+### locatePath(paths, [options])
 
 Returns a `Promise<string>` for the first path that exists or `undefined` if none exists.
 
@@ -41,19 +44,19 @@ Paths to check.
 
 #### options
 
-Type: `object`
+Type: `Object`
 
 ##### concurrency
 
-Type: `number`\
-Default: `Infinity`\
+Type: `number`<br>
+Default: `Infinity`<br>
 Minimum: `1`
 
 Number of concurrently pending promises.
 
 ##### preserveOrder
 
-Type: `boolean`\
+Type: `boolean`<br>
 Default: `true`
 
 Preserve `paths` order when searching.
@@ -62,27 +65,27 @@ Disable this to improve performance if you don't care about the order.
 
 ##### cwd
 
-Type: `string`\
+Type: `string`<br>
 Default: `process.cwd()`
 
 Current working directory.
 
 ##### type
 
-Type: `string`\
-Default: `'file'`\
-Values: `'file' | 'directory'`
+Type: `string`<br>
+Default: `file`<br>
+Values: `file` `directory`
 
 The type of paths that can match.
 
 ##### allowSymlinks
 
-Type: `boolean`\
+Type: `boolean`<br>
 Default: `true`
 
 Allow symbolic links to match if they point to the chosen path type.
 
-### locatePath.sync(paths, options?)
+### locatePath.sync(paths, [options])
 
 Returns the first path that exists or `undefined` if none exists.
 
@@ -94,7 +97,7 @@ Paths to check.
 
 #### options
 
-Type: `object`
+Type: `Object`
 
 ##### cwd
 
@@ -108,18 +111,12 @@ Same as above.
 
 Same as above.
 
+
 ## Related
 
 - [path-exists](https://github.com/sindresorhus/path-exists) - Check if a path exists
 
----
 
-<div align="center">
-	<b>
-		<a href="https://tidelift.com/subscription/pkg/npm-locate-path?utm_source=npm-locate-path&utm_medium=referral&utm_campaign=readme">Get professional support for this package with a Tidelift subscription</a>
-	</b>
-	<br>
-	<sub>
-		Tidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.
-	</sub>
-</div>
+## License
+
+MIT © [Sindre Sorhus](https://sindresorhus.com)

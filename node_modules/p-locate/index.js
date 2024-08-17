@@ -48,3 +48,5 @@ const pLocate = async (iterable, tester, options) => {
 };
 
 module.exports = pLocate;
+// TODO: Remove this for the next major release
+module.exports.default = pLocate;

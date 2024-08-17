@@ -8,8 +8,6 @@ This has no effect on Windows as there is no good way to implement discarding st
 
 This package is used by [`ora`](https://github.com/sindresorhus/ora) for its [`discardStdin`](https://github.com/sindresorhus/ora#discardstdin) option.
 
-**Work in progress**
-
 ## Install
 
 ```sh
