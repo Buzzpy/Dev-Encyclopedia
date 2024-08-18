@@ -186,6 +186,7 @@ img {
     body.dark-mode .button {
     background-color: #1a1a1a;
     color: #ffffff;
+    border-width: 1px;
     border-color: #ffffff;
     }
     
@@ -211,8 +212,9 @@ img {
     
     body.dark-mode .explain-button:hover {
     background-color: #464343;
+    border-color: white;
     color: #ffffff;
-    box-shadow: 5px 5px rgb(96, 96, 96);
+    box-shadow: 5px 5px rgb(237, 237, 237);
     }
     
     body.dark-mode .search-bar input {
