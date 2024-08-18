@@ -1,21 +1,7 @@
-let fs;
-let path;
-
-if (typeof window === 'undefined') {
-  fs = require('fs');
-  path = require('path');
-}
+import fs from 'fs';
+import path from 'path';
 
 export async function GET() {
-    if (!fs || !path) {
-        return new Response(JSON.stringify({ error: 'This operation is not supported in the browser.' }), {
-            status: 500,
-            headers: {
-                'Content-Type': 'application/json'
-            }
-        });
-    }
-
     try {
         const jsonDirectory = path.join(process.cwd(), 'src/content/terms'); // Adjust the path as necessary
         const files = fs.readdirSync(jsonDirectory);
