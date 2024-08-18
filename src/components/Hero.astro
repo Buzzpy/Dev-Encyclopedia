@@ -40,18 +40,25 @@
       searchInput.addEventListener('keyup', filterCards);
   
       function filterCards() {
-        const filter = searchInput.value.toLowerCase();
-        const cards = document.getElementsByClassName('card');
-  
-        for (let i = 0; i < cards.length; i++) {
-          const title = cards[i].getElementsByClassName('card-title')[0];
-          if (title.innerText.toLowerCase().indexOf(filter) > -1) {
-            cards[i].style.display = '';
-          } else {
-            cards[i].style.display = 'none';
-          }
-        }
-      }
+  const filter = searchInput.value.toLowerCase();
+  const cards = document.getElementsByClassName('card');
+
+  for (let i = 0; i < cards.length; i++) {
+    const title = cards[i].getElementsByClassName('card-title')[0].innerText.toLowerCase();
+    const keywords = cards[i].getAttribute('data-keywords').toLowerCase().split(',');
+
+    // Check if the filter matches the title or any of the keywords
+    if (title.indexOf(filter) > -1 || keywords.some(keyword => keyword.includes(filter))) {
+      cards[i].style.display = '';
+    } else {
+      cards[i].style.display = 'none';
+    }
+
+    searchInput.addEventListener('keyup', filterCards);
+
+  }
+}
+
   
   
       // Function to close the modal

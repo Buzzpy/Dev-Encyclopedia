@@ -15,7 +15,12 @@ const cards = await Promise.all(
 
 <div class="card-container" id="cardContainer">
   {cards.map(card => (
-    <div class="card" data-title={card.title} data-description={card.description.texts.join('\n\n')} data-image-url={card.description.image} data-resource-url={card.description.references[0]}>
+    <div class="card" 
+         data-title={card.title} 
+         data-description={card.description.texts.join('\n\n')} 
+         data-image-url={card.description.image} 
+         data-resource-url={card.description.references[0]}
+         data-keywords={(card.keywords || []).join(', ')}>
       <div class="card-title">{card.title}</div>
       <div class="card-subtext">{card.subtext}</div>
       <button class="explain-button">Explain</button>
