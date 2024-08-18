@@ -6,17 +6,17 @@ document.addEventListener('DOMContentLoaded', async function() {
 
     // Fetch JSON file names from the API
     async function fetchJsonFileNames() {
-      try {
-          const response = await fetch('/api/json-files');
-          if (!response.ok) {
-              throw new Error('Network response was not ok');
-          }
-          const data = await response.json();
-          return data;
-      } catch (error) {
-          console.error('Error fetching JSON files:', error);
-          return []; // Return an empty array in case of error
-      }
+        try {
+            const response = await fetch('/api/json-files');
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            const data = await response.json();
+            return data;
+        } catch (error) {
+            console.error('Error fetching JSON files:', error);
+            return [];
+        }
     }
 
     // Fetch the keywords for the autocomplete
@@ -26,8 +26,6 @@ document.addEventListener('DOMContentLoaded', async function() {
     const searchInput = document.getElementById('searchInput');
     const autocompleteList = document.getElementById('autocomplete-list');
     const maxItems = 5;
-
-    
 
     searchInput.addEventListener('input', function() {
         const input = this.value;
@@ -45,7 +43,7 @@ document.addEventListener('DOMContentLoaded', async function() {
             }
 
             const displayKeyword = keyword.replace(/_/g, ' ');
-            const regex = new RegExp(`(${input})`, 'gi'); 
+            const regex = new RegExp(`(${input})`, 'gi');
             const highlightedKeyword = displayKeyword.replace(regex, `<span class="highlight">$1</span>`);
 
             if (displayKeyword.toLowerCase().includes(input.toLowerCase())) {
@@ -55,9 +53,10 @@ document.addEventListener('DOMContentLoaded', async function() {
                 item.addEventListener('click', function() {
                     searchInput.value = displayKeyword;
                     autocompleteList.innerHTML = '';
+                    filterCards();
                 });
                 autocompleteList.appendChild(item);
-                itemCount++; // Increment the item count
+                itemCount++;
             }
         });
 
@@ -72,12 +71,81 @@ document.addEventListener('DOMContentLoaded', async function() {
             autocompleteList.style.overflowY = '';
         }
     });
-  
+
     document.addEventListener('click', function(e) {
         if (e.target !== searchInput) {
             autocompleteList.innerHTML = '';
         }
     });
+
+    // Search Functionality
+    searchInput.addEventListener('keyup', filterCards);
+
+    function filterCards() {
+        const filter = searchInput.value.toLowerCase();
+        const cards = document.getElementsByClassName('card');
+
+        for (let i = 0; i < cards.length; i++) {
+            const title = cards[i].getElementsByClassName('card-title')[0].innerText.toLowerCase();
+            const keywords = cards[i].getAttribute('data-keywords').toLowerCase().split(',');
+
+            // Check if the filter matches the title or any of the keywords
+            if (title.indexOf(filter) > -1 || keywords.some(keyword => keyword.includes(filter))) {
+                cards[i].style.display = '';
+            } else {
+                cards[i].style.display = 'none';
+            }
+        }
+    }
+
+    // Function to load and display the card for the selected keyword
+    async function loadCardForKeyword(keyword) {
+        try {
+            const response = await fetch(`/content/terms/${keyword}.json`); // Adjust the path as needed
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            const data = await response.json();
+
+            displayCard(data);
+        } catch (error) {
+            console.error('Error fetching JSON data:', error);
+        }
+    }
+
+    // Function to display the card
+    function displayCard(data) {
+        const cardContainer = document.getElementById('cardContainer');
+        
+        let descriptionContent = '';
+        
+        if (typeof data.description === 'object') {
+            for (const [key, value] of Object.entries(data.description)) {
+                if (key === 'texts') {
+                    descriptionContent += value.map(text => `<p>${text}</p>`).join('');
+                } else if (key === 'image') {
+                    descriptionContent += `<img src="${value}" alt="${data.title}" class="img-fluid mb-3">`;
+                } else if (key === 'references') {
+                    descriptionContent += `<h6>References:</h6><ul>` +
+                        value.map(ref => `<li><a href="${ref}" target="_blank">${ref}</a></li>`).join('') +
+                        `</ul>`;
+                } else {
+                    descriptionContent += `<p><strong>${key}:</strong> ${value}</p>`;
+                }
+            }
+        } else {
+            descriptionContent = data.description || 'No Description';
+        }
+
+        cardContainer.innerHTML = `
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">${data.title || 'No Title'}</h5>
+                    <div class="card-text">${descriptionContent}</div>
+                </div>
+            </div>
+        `;
+    }
 
     // Function to close the modal
     function closeModal(event) {
