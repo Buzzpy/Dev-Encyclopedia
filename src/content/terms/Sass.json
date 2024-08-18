@@ -1,0 +1,17 @@
+{
+  "title": "Sass",
+  "subtext": "Syntactically Awesome Style Sheets",
+  "category": "all",
+  "author": "Stark-Akshay",
+  "description": {
+    "title": "Sass",
+    "texts": [
+      "Sass is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets.",
+      "SassScript is the scripting language itself. Sass consists of two syntaxes. The original syntax, called 'the indented syntax,' uses a syntax similar to Haml."
+    ],
+    "image": "https://d1le3ohiuslpz1.cloudfront.net/skillcrush/wp-content/uploads/2023/07/how-sass-works.png",
+    "references": [
+      "https://dev.to/swastikyadav/sass-the-css-preprocessor-handbook-and-how-does-it-work-58dn"
+    ]
+  }
+}
