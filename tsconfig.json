@@ -4,7 +4,8 @@
     "noImplicitAny": false,
     "skipLibCheck": true,
     "noUnusedLocals": false,
-    "noUnusedParameters": false
+    "noUnusedParameters": false,
+    "allowJs": true
   },
   "include": ["src/**/*", "public/card-actions.js"]
 }
