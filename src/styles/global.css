@@ -219,7 +219,7 @@ img {
     
     body.dark-mode .search-bar input {
     background-color: #444444;
-    color: #ffffff;
+    color: #ffffff !important;
     border-color: #d2d2d2;
     }
     
