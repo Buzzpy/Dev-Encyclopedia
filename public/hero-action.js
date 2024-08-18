@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <p>This website has almost all the commonly used technical terms, concepts and even programming-language specific jargons explained and links provided for further reading.</p>
         <p>Most importantly, it is ad-free, so basically, the best encyclopedia everr! *excited. too much.*</p>
         <p>Built with love, by Chenuli J.</p>
-        <img src="../src/image/Chenuli_Signature.png" alt="Chenuli Signature"/>
+        <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nkgm404nnkmjqvhjvl61.png" alt="Chenuli Signature"/>
       `;
         modal.style.display = 'block';
     }
@@ -107,10 +107,10 @@ document.addEventListener('DOMContentLoaded', () => {
       
       if (body.classList.contains('dark-mode')) {
           localStorage.setItem('darkMode', 'enabled');
-          toggleButton.innerHTML = '<i class="fas fa-sun" style="padding-right: 10px;"></i><span id="darkModeText"> Light Mode</span>';
+          toggleButton.innerHTML = '<i class="fas fa-sun" style="padding-right: 10px;"></i><span id="darkModeText"> Light Mode;</span>';
       } else {
           localStorage.setItem('darkMode', 'disabled');
-          toggleButton.innerHTML = '<i class="fas fa-moon" style="padding-right: 10px;"></i><span id="darkModeText"> Dark Mode</span>';
+          toggleButton.innerHTML = '<i class="fas fa-moon" style="padding-right: 10px;"></i><span id="darkModeText"> Dark Mode;</span>';
       }
     }
     
@@ -120,9 +120,9 @@ document.addEventListener('DOMContentLoaded', () => {
       
       if (darkMode === 'enabled') {
           document.body.classList.add('dark-mode');
-          toggleButton.innerHTML = '<i class="fas fa-sun" style="padding-right: 10px;"></i><span id="darkModeText"> Light Mode</span>';
+          toggleButton.innerHTML = '<i class="fas fa-sun" style="padding-right: 10px;"></i><span id="darkModeText"> Light Mode;</span>';
       } else {
-          toggleButton.innerHTML = '<i class="fas fa-moon" style="padding-right: 10px;"></i><span id="darkModeText"> Dark Mode</span>';
+          toggleButton.innerHTML = '<i class="fas fa-moon" style="padding-right: 10px;"></i><span id="darkModeText"> Dark Mode;</span>';
       }
     };
 });
