@@ -870,6 +870,11 @@ declare module 'astro:content' {
   collection: "terms";
   data: any
 };
+"Micro_FrontEnd": {
+	id: "Micro_FrontEnd";
+  collection: "terms";
+  data: any
+};
 "Microservices": {
 	id: "Microservices";
   collection: "terms";
@@ -925,6 +930,11 @@ declare module 'astro:content' {
   collection: "terms";
   data: any
 };
+"NextJS": {
+	id: "NextJS";
+  collection: "terms";
+  data: any
+};
 "NoSQL": {
 	id: "NoSQL";
   collection: "terms";
@@ -932,6 +942,11 @@ declare module 'astro:content' {
 };
 "NoSQL_Databases": {
 	id: "NoSQL_Databases";
+  collection: "terms";
+  data: any
+};
+"NodeJS": {
+	id: "NodeJS";
   collection: "terms";
   data: any
 };
@@ -1072,6 +1087,11 @@ declare module 'astro:content' {
 };
 "SQL": {
 	id: "SQL";
+  collection: "terms";
+  data: any
+};
+"Sass": {
+	id: "Sass";
   collection: "terms";
   data: any
 };
