@@ -1,24 +1,19 @@
 ---
-// Dynamically import all JSON files from the terms directory
-const termsContext = import.meta.glob('/src/content/terms/*.json');
-const cards = await Promise.all(
-  Object.values(termsContext).map(async (importFn) => {
-    const module = await importFn();
-    return module.default;
-  })
-);
+import { getCollection } from "astro:content"
+
+const cards = await getCollection("terms");
 ---
 
 <div class="card-container" id="cardContainer">
   {cards.map(card => (
     <div class="card" 
-         data-title={card.title} 
-         data-description={card.description.texts.join('\n\n')} 
-         data-image-url={card.description.image} 
-         data-resource-url={card.description.references[0]}
-         data-keywords={(card.keywords || []).join(', ')}>
-      <div class="card-title">{card.title}</div>
-      <div class="card-subtext">{card.subtext}</div>
+         data-title={card.data.title} 
+         data-description={card.data.description.texts.join('\n\n')} 
+         data-image-url={card.data.description.image} 
+         data-resource-url={card.data.description.references[0]}
+         data-keywords={(card.data.keywords || []).join(', ')}>
+      <div class="card-title">{card.data.title}</div>
+      <div class="card-subtext">{card.data.subtext}</div>
       <button class="explain-button">Explain</button>
     </div>
   ))}

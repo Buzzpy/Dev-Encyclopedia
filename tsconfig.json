@@ -5,7 +5,9 @@
     "skipLibCheck": true,
     "noUnusedLocals": false,
     "noUnusedParameters": false,
-    "allowJs": true
+    "allowJs": true,
+    "strictNullChecks": true
   },
-  "include": ["src/**/*", "public/card-actions.js"]
+  "include": ["src/**/*", "public/card-actions.js"],
+  "extends": ["astro/tsconfigs/strictest"]
 }
