@@ -243,9 +243,7 @@ img {
     color: #ff5252;
     }
      
-    input[type="text"] {
-    color: rgb(0, 0, 0);
-    }
+
 
 
   body.dark-mode input[type="text"]::placeholder {
@@ -258,6 +256,7 @@ img {
     position: relative;
     display: inline-block;
     font-family: 'JetBrains Mono', monospace;
+  
   }
   
   .search-bar input {
@@ -273,7 +272,7 @@ img {
   .search-bar i {
     position: absolute;
     right: 20px;
-  
+    
     top: 31%;
     transform: translateY(-50%);
     color: #555;
