@@ -129,41 +129,44 @@ img {
   }
 
   body.dark-mode {
-    background-color: #000000;
+    background-color:#191919;
     color: #e0e0e0;
     }
     
     body.dark-mode .hero-section {
-    background-color: #000000;
+    background-color:  #191919;
     }
     
     body.dark-mode .button {
-    background-color: #070707;
+    background-color: #1a1a1a;
     color: #ffffff;
     border-color: #ffffff;
     }
     
     body.dark-mode .button:hover {
     background-color: #464343;
-    color: #ffffff;
+    color: #ffffff; 
     }
+    
     
     body.dark-mode .card {
     background-color: #1a1a1a;
     color: #e0e0e0;
     border-color: #bbbbbb;
+
     }
-    
+
     body.dark-mode .explain-button {
-    background-color: #e0e0e0;
+    background-color: #d6d6d6e6;
     color: #000000;
-    border-color: #e4e4e4;
+    border-color: #ffffff00;
     border-style: solid;
     }
     
     body.dark-mode .explain-button:hover {
     background-color: #464343;
     color: #ffffff;
+    box-shadow: 5px 5px rgb(96, 96, 96);
     }
     
     body.dark-mode .search-bar input {
