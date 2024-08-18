@@ -9,7 +9,7 @@
       "ACID (Atomicity, Consistency, Isolation, Durability) transactions ensure that database operations are processed reliably.",
       "Think of ACID transactions as a checklist that guarantees every financial transaction is processed completely and accurately."
     ],
-    "image": "",
+    "image": "https://miro.medium.com/v2/resize:fit:700/1*7VBEi3uuVgGlTDn5GmOxDA.png",
     "references": [
       "https://www.ibm.com/cloud/learn/acid-properties"
     ]

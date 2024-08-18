@@ -9,7 +9,7 @@
       "Bash is a Unix shell and command language used for writing shell scripts. It allows users to automate tasks, manage files, and interact with the operating system through commands.",
       "Bash scripts are commonly used for system administration and software deployment tasks."
     ],
-    "image": "",
+    "image": "https://bashlogo.com/img/logo/png/monochrome_dark.png",
     "references": [
       "https://opensource.com/resources/what-bash"
     ]

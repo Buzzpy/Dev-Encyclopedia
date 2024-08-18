@@ -9,9 +9,9 @@
       "Bagging, or Bootstrap Aggregating, is an ensemble technique that improves model performance by training multiple models on different subsets of the data and combining their predictions.",
       "It's like asking several people for their opinions and then averaging them to make a decision."
     ],
-    "image": "",
+    "image": "https://miro.medium.com/v2/resize:fit:1000/0*fXQq704fHO18BImx.png",
     "references": [
-      "https://www.ibm.com/topics/bagging"
+      "Bootstrap Aggregating"
     ]
   }
 }

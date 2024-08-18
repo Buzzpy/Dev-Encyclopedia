@@ -1,12 +1,18 @@
 {
-  "title": "Asymmetric-cryptography",
-  "subtext": "cryptographic scheme requiring two different keys, one for encryption and the other for decryption.",
+  "title": "Asymmetric Cryptography",
+  "subtext": "Cryptographic scheme with two keys.",
   "category": "all",
   "author": "Buzzpy",
   "description": {
-    "title": "",
-    "texts": [],
-    "image": "",
-    "references": []
+    "title": "Asymmetric Cryptography",
+    "texts": [
+      "Asymmetric cryptography, also known as public-key cryptography, is a cryptographic system that uses a pair of keys—a public key and a private key. The public key is used to encrypt data, while the private key is used to decrypt it.",
+      "This type of cryptography is fundamental in securing communications over the internet, enabling technologies like SSL/TLS, which protect sensitive data transmitted between a user and a website.",
+      "Asymmetric cryptography provides a higher level of security than symmetric cryptography, as the private key, which is kept secret, cannot be derived from the public key."
+    ],
+    "image": "https://www.appviewx.com/wp-content/uploads/2022/02/Asymmetric-Encryption-Works.png",
+    "references": [
+      "https://www.appviewx.com/education-center/asymmetric-encryption/"
+    ]
   }
 }

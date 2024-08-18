@@ -9,9 +9,9 @@
       "An API Gateway is like a front door that handles all requests from clients, ensuring they get directed to the right services. It's like a receptionist who directs calls to the correct department.",
       "Imagine an API Gateway as a helpful guide that makes sure everyone gets to where they need to go."
     ],
-    "image": "",
+    "image": "https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/643fd2fde829634fa4f769a0_6178d93647ddf9f443e800f4_API%20Gateway%20example.png",
     "references": [
-      "https://aws.amazon.com/api-gateway/"
+      "https://www.wallarm.com/what/the-concept-of-an-api-gateway"
     ]
   }
 }
