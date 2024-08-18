@@ -1,0 +1,18 @@
+{
+    "title": "GitOps",
+    "subtext": "Infrastructure automation framework",
+    "category": "all",
+    "author": "Mede",
+    "description": {
+      "title": "GitOps",
+      "texts": [
+        "GitOps is a way of implementing Continuous Deployment for cloud native or on-premise applications.",
+        "GitOps organizes the deployment process around code repositories as the central element."
+      ],
+      "image": "https://s7280.pcdn.co/wp-content/uploads/2021/08/GitOps-Principles.png",
+      "references": [
+        "https://www.gitops.tech/"
+      ]
+    }
+  }
+  

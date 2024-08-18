@@ -1,0 +1,17 @@
+{
+    "title": "Conditional Statement",
+    "subtext": "Decision-making in code",
+    "category": "all",
+    "author": "Cătălin Grigoriev",
+    "description": {
+      "title": "Conditional Statement",
+      "texts": [
+        "A statement that performs different actions based on whether a specified condition is true or false. Common conditional statements include if, else, and switch."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/If-Then-Else-diagram.svg/330px-If-Then-Else-diagram.svg.png",
+      "references": [
+        "https://www.geeksforgeeks.org/conditional-statements-in-programming/"
+      ]
+    }
+  }
+  

@@ -695,6 +695,11 @@ declare module 'astro:content' {
   collection: "terms";
   data: any
 };
+"GitOps": {
+	id: "GitOps";
+  collection: "terms";
+  data: any
+};
 "Gradient_Descent": {
 	id: "Gradient_Descent";
   collection: "terms";
@@ -1315,8 +1320,28 @@ declare module 'astro:content' {
   collection: "terms";
   data: any
 };
+"conditional_statement": {
+	id: "conditional_statement";
+  collection: "terms";
+  data: any
+};
 "gRPC": {
 	id: "gRPC";
+  collection: "terms";
+  data: any
+};
+"n+1_query_problem": {
+	id: "n+1_query_problem";
+  collection: "terms";
+  data: any
+};
+"race_condition": {
+	id: "race_condition";
+  collection: "terms";
+  data: any
+};
+"spaghatti_code": {
+	id: "spaghatti_code";
   collection: "terms";
   data: any
 };
