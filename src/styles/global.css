@@ -64,7 +64,53 @@ img {
     text-overflow: ellipsis;
     flex-grow: 1;
   }
+
+  .autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: #fff;
+  }
   
+  .autocomplete-item {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+  }
+  
+  .autocomplete-item:hover {
+    background-color: #a0a6ad;
+  }
+
+  #autocomplete-list {
+    max-height: 200px; /* Ensure there's a maximum height */
+    overflow-y: auto;  /* Enable vertical scrolling */
+    /* Optional: Styling the scrollbar */
+    scrollbar-width: thin; /* Firefox */
+  }
+
+  #autocomplete-list::-webkit-scrollbar {
+    width: 8px; /* Chrome, Safari, and Opera */
+  }
+
+  #autocomplete-list::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); /* Thumb color */
+    border-radius: 4px;
+  }
+
+  .highlight {
+    color: rgb(0, 0, 255); /* Change this to any color you prefer */
+    font-weight: bold; /* Optional: make the text bold */
+}
+
   @media (max-width: 900px) {
     .sponsor-info {
       flex: 1 1 45%;

@@ -1,29 +1,32 @@
 <div class="hero-section">
-    <div class="search-bar" style="padding-bottom: 30px;">
-      <i class="fas fa-search"></i>
-      <input type="text" id="searchInput" placeholder="Search for keywords..." />
-    </div>
-    <div class="buttons">
-      <button class="button" id="aboutButton">
-        <i class="fas fa-user" style="padding-right: 10px;"></i> About;
-      </button>
-      <button class="button" onclick="window.open('https://github.com/Buzzpy/Programming-Simplified', '_blank')">
-        <i class="fab fa-github" style="padding-right: 10px;"></i> Contribute;
-      </button>
+  <div class="search-bar position-relative" style="padding-bottom: 30px;">
+    <i class="fas fa-search"></i>
+    <input type="text" id="searchInput" class="form-control" placeholder="Search for keywords..." />
+    <div id="autocomplete-list"></div> 
+  </div>
 
-      <button class="button" id="darkModeToggle">
-        <i class="fas fa-moon" style="padding-right: 10px;"></i><span id="darkModeText"> Dark Mode;</span>
-      </button>
-      
-      <button class="button" id="builderButton">
-        <i class="fas fa-hammer" style="padding-right: 10px;"></i> Builder's Note;
-      </button>
-      <button class="button" id="sponsorButton">
-        <i class="fa-solid fa-dollar-sign" style="padding-right: 10px;"></i> Sponsor;
-      </button>
-    </div>
+  <div class="buttons">
+    <button class="button" id="aboutButton">
+      <i class="fas fa-user" style="padding-right: 10px;"></i> About;
+    </button>
+    <button class="button" onclick="window.open('https://github.com/Buzzpy/Programming-Simplified', '_blank')">
+      <i class="fab fa-github" style="padding-right: 10px;"></i> Contribute;
+    </button>
+
+    <button class="button" id="darkModeToggle">
+      <i class="fas fa-moon" style="padding-right: 10px;"></i><span id="darkModeText"> Dark Mode</span>
+    </button>
+    
+    <button class="button" id="builderButton">
+      <i class="fas fa-hammer" style="padding-right: 10px;"></i> Builder's Note;
+    </button>
+    
+    <button class="button" id="sponsorButton">
+      <i class="fa-solid fa-dollar-sign" style="padding-right: 10px;"></i> Sponsor;
+    </button>
+  </div>
   
-    <div class="hero-title" style="padding-top: 50px;">Dev Encyclopedia;</div>
+  <div class="hero-title" style="padding-top: 50px;">Dev Encyclopedia;</div>
     <div class="hero-paragraph">Find out what that Sr. Developer is talking about.</div>
   </div>
   

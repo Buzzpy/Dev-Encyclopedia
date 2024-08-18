@@ -1,11 +1,84 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async function() {
     document.getElementById('aboutButton').addEventListener('click', showAbout);
     document.getElementById('builderButton').addEventListener('click', showBuilders);
     document.getElementById('sponsorButton').addEventListener('click', showSponsors);
     document.getElementById('darkModeToggle').addEventListener('click', toggleDarkMode)
 
-    // Search Functionality
+    // Fetch JSON file names from the API
+    async function fetchJsonFileNames() {
+        try {
+            const response = await fetch('/api/json-files');
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            const data = await response.json();
+            return data;
+        } catch (error) {
+            console.error('Error fetching JSON files:', error);
+            return [];
+        }
+    }
+
+    // Fetch the keywords for the autocomplete
+    const keywords = await fetchJsonFileNames();
+    console.log('Keywords for autocomplete:', keywords);
+
     const searchInput = document.getElementById('searchInput');
+    const autocompleteList = document.getElementById('autocomplete-list');
+    const maxItems = 5;
+
+    searchInput.addEventListener('input', function() {
+        const input = this.value;
+        autocompleteList.innerHTML = '';
+
+        if (!input) {
+            return false;
+        }
+
+        let itemCount = 0;
+
+        keywords.forEach(keyword => {
+            if (itemCount >= maxItems) {
+                return;
+            }
+
+            const displayKeyword = keyword.replace(/_/g, ' ');
+            const regex = new RegExp(`(${input})`, 'gi');
+            const highlightedKeyword = displayKeyword.replace(regex, `<span class="highlight">$1</span>`);
+
+            if (displayKeyword.toLowerCase().includes(input.toLowerCase())) {
+                const item = document.createElement('div');
+                item.classList.add('autocomplete-item', 'list-group-item', 'list-group-item-action');
+                item.innerHTML = highlightedKeyword;
+                item.addEventListener('click', function() {
+                    searchInput.value = displayKeyword;
+                    autocompleteList.innerHTML = '';
+                    filterCards();
+                });
+                autocompleteList.appendChild(item);
+                itemCount++;
+            }
+        });
+
+        autocompleteList.classList.add('list-group', 'shadow', 'position-absolute', 'w-100', 'mt-1');
+
+        // Add a scroll bar if the number of items exceeds the maxItems limit
+        if (itemCount > maxItems) {
+            autocompleteList.style.maxHeight = `${maxItems * 38}px`;
+            autocompleteList.style.overflowY = 'auto';
+        } else {
+            autocompleteList.style.maxHeight = '';
+            autocompleteList.style.overflowY = '';
+        }
+    });
+
+    document.addEventListener('click', function(e) {
+        if (e.target !== searchInput) {
+            autocompleteList.innerHTML = '';
+        }
+    });
+
+    // Search Functionality
     searchInput.addEventListener('keyup', filterCards);
 
     function filterCards() {
@@ -22,12 +95,57 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 cards[i].style.display = 'none';
             }
-
-            searchInput.addEventListener('keyup', filterCards);
         }
     }
 
+    // Function to load and display the card for the selected keyword
+    async function loadCardForKeyword(keyword) {
+        try {
+            const response = await fetch(`/content/terms/${keyword}.json`); // Adjust the path as needed
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            const data = await response.json();
 
+            displayCard(data);
+        } catch (error) {
+            console.error('Error fetching JSON data:', error);
+        }
+    }
+
+    // Function to display the card
+    function displayCard(data) {
+        const cardContainer = document.getElementById('cardContainer');
+        
+        let descriptionContent = '';
+        
+        if (typeof data.description === 'object') {
+            for (const [key, value] of Object.entries(data.description)) {
+                if (key === 'texts') {
+                    descriptionContent += value.map(text => `<p>${text}</p>`).join('');
+                } else if (key === 'image') {
+                    descriptionContent += `<img src="${value}" alt="${data.title}" class="img-fluid mb-3">`;
+                } else if (key === 'references') {
+                    descriptionContent += `<h6>References:</h6><ul>` +
+                        value.map(ref => `<li><a href="${ref}" target="_blank">${ref}</a></li>`).join('') +
+                        `</ul>`;
+                } else {
+                    descriptionContent += `<p><strong>${key}:</strong> ${value}</p>`;
+                }
+            }
+        } else {
+            descriptionContent = data.description || 'No Description';
+        }
+
+        cardContainer.innerHTML = `
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">${data.title || 'No Title'}</h5>
+                    <div class="card-text">${descriptionContent}</div>
+                </div>
+            </div>
+        `;
+    }
 
     // Function to close the modal
     function closeModal(event) {
@@ -107,10 +225,10 @@ document.addEventListener('DOMContentLoaded', () => {
       
       if (body.classList.contains('dark-mode')) {
           localStorage.setItem('darkMode', 'enabled');
-          toggleButton.innerHTML = '<i class="fas fa-sun" style="padding-right: 10px;"></i><span id="darkModeText"> Light Mode;</span>';
+          toggleButton.innerHTML = '<i class="fas fa-sun" style="padding-right: 10px;"></i><span id="darkModeText"> Light Mode</span>';
       } else {
           localStorage.setItem('darkMode', 'disabled');
-          toggleButton.innerHTML = '<i class="fas fa-moon" style="padding-right: 10px;"></i><span id="darkModeText"> Dark Mode;</span>';
+          toggleButton.innerHTML = '<i class="fas fa-moon" style="padding-right: 10px;"></i><span id="darkModeText"> Dark Mode</span>';
       }
     }
     
@@ -120,9 +238,9 @@ document.addEventListener('DOMContentLoaded', () => {
       
       if (darkMode === 'enabled') {
           document.body.classList.add('dark-mode');
-          toggleButton.innerHTML = '<i class="fas fa-sun" style="padding-right: 10px;"></i><span id="darkModeText"> Light Mode;</span>';
+          toggleButton.innerHTML = '<i class="fas fa-sun" style="padding-right: 10px;"></i><span id="darkModeText"> Light Mode</span>';
       } else {
-          toggleButton.innerHTML = '<i class="fas fa-moon" style="padding-right: 10px;"></i><span id="darkModeText"> Dark Mode;</span>';
+          toggleButton.innerHTML = '<i class="fas fa-moon" style="padding-right: 10px;"></i><span id="darkModeText"> Dark Mode</span>';
       }
     };
 });
