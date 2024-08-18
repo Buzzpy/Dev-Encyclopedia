@@ -119,6 +119,7 @@ img {
     text-align: center;
     border-radius: 5px;
     transition: all 0.3s linear;
+    border-style: solid;
   }
   
   .button:hover {
@@ -137,7 +138,7 @@ img {
     }
     
     body.dark-mode .button {
-    background-color: #2a2a2a;
+    background-color: #070707;
     color: #ffffff;
     border-color: #ffffff;
     }
@@ -148,15 +149,16 @@ img {
     }
     
     body.dark-mode .card {
-    background-color: #2a2a2a;
-    color: #ffffff;
-    border-color: #666666;
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    border-color: #bbbbbb;
     }
     
     body.dark-mode .explain-button {
-    background-color: #3d3c3c;
-    color: #ffffff;
-    border-color: #777777;
+    background-color: #e0e0e0;
+    color: #000000;
+    border-color: #e4e4e4;
+    border-style: solid;
     }
     
     body.dark-mode .explain-button:hover {
@@ -167,7 +169,7 @@ img {
     body.dark-mode .search-bar input {
     background-color: #444444;
     color: #ffffff;
-    border-color: #666666;
+    border-color: #d2d2d2;
     }
     
     body.dark-mode .search-bar i {
@@ -175,12 +177,12 @@ img {
     }
     
     body.dark-mode #modal-content {
-    background-color: #444444;
+    background-color: #1a1a1a;
     color: #ffffff;
     }
     
     body.dark-mode #modal-link {
-    background-color: #555555;
+    background-color: #55555500;
     color: #ff8a80;
     }
     
