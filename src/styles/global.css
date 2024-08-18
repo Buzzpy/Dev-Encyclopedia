@@ -126,6 +126,67 @@ img {
     color: #ffffff;
     border-color: black;
   }
+
+  body.dark-mode {
+    background-color: #000000;
+    color: #e0e0e0;
+    }
+    
+    body.dark-mode .hero-section {
+    background-color: #000000;
+    }
+    
+    body.dark-mode .button {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border-color: #ffffff;
+    }
+    
+    body.dark-mode .button:hover {
+    background-color: #464343;
+    color: #ffffff;
+    }
+    
+    body.dark-mode .card {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    border-color: #666666;
+    }
+    
+    body.dark-mode .explain-button {
+    background-color: #3d3c3c;
+    color: #ffffff;
+    border-color: #777777;
+    }
+    
+    body.dark-mode .explain-button:hover {
+    background-color: #464343;
+    color: #ffffff;
+    }
+    
+    body.dark-mode .search-bar input {
+    background-color: #444444;
+    color: #ffffff;
+    border-color: #666666;
+    }
+    
+    body.dark-mode .search-bar i {
+    color: #cccccc;
+    }
+    
+    body.dark-mode #modal-content {
+    background-color: #444444;
+    color: #ffffff;
+    }
+    
+    body.dark-mode #modal-link {
+    background-color: #555555;
+    color: #ff8a80;
+    }
+    
+    body.dark-mode #modal-link:hover {
+    color: #ff5252;
+    }
   
   .search-bar {
     position: relative;

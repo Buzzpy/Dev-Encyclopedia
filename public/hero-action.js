@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('aboutButton').addEventListener('click', showAbout);
     document.getElementById('builderButton').addEventListener('click', showBuilders);
     document.getElementById('sponsorButton').addEventListener('click', showSponsors);
+    document.getElementById('darkModeToggle').addEventListener('click', toggleDarkMode)
 
     // Search Functionality
     const searchInput = document.getElementById('searchInput');
@@ -96,4 +97,32 @@ document.addEventListener('DOMContentLoaded', () => {
       `;
         modal.style.display = 'block';
     }
+
+    function toggleDarkMode() {
+      const body = document.body;
+      const toggleButton = document.getElementById('darkModeToggle');
+      const darkModeText = document.getElementById('darkModeText');
+      
+      body.classList.toggle('dark-mode');
+      
+      if (body.classList.contains('dark-mode')) {
+          localStorage.setItem('darkMode', 'enabled');
+          toggleButton.innerHTML = '<i class="fas fa-sun" style="padding-right: 10px;"></i><span id="darkModeText"> Light Mode</span>';
+      } else {
+          localStorage.setItem('darkMode', 'disabled');
+          toggleButton.innerHTML = '<i class="fas fa-moon" style="padding-right: 10px;"></i><span id="darkModeText"> Dark Mode</span>';
+      }
+    }
+    
+    window.onload = function() {
+      const darkMode = localStorage.getItem('darkMode');
+      const toggleButton = document.getElementById('darkModeToggle');
+      
+      if (darkMode === 'enabled') {
+          document.body.classList.add('dark-mode');
+          toggleButton.innerHTML = '<i class="fas fa-sun" style="padding-right: 10px;"></i><span id="darkModeText"> Light Mode</span>';
+      } else {
+          toggleButton.innerHTML = '<i class="fas fa-moon" style="padding-right: 10px;"></i><span id="darkModeText"> Dark Mode</span>';
+      }
+    };
 });
