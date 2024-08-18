@@ -6,5 +6,5 @@
     "noUnusedLocals": false,
     "noUnusedParameters": false
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*", "public/card-actions.js"]
 }
