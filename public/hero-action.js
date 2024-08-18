@@ -27,6 +27,8 @@ document.addEventListener('DOMContentLoaded', async function() {
     const autocompleteList = document.getElementById('autocomplete-list');
     const maxItems = 5;
 
+    
+
     searchInput.addEventListener('input', function() {
         const input = this.value;
         autocompleteList.innerHTML = '';
