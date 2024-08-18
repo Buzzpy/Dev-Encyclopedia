@@ -1,0 +1,17 @@
+{
+  "title": "Immutable Data Structures",
+  "subtext": "Data structures that cannot be modified after creation",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Immutable Data Structures",
+    "texts": [
+      "Immutable data structures are data structures that cannot be modified after they are created.",
+      "Imagine immutable data structures as a written contract; once it's signed, it cannot be changed, only replaced with a new version."
+    ],
+    "image": "",
+    "references": [
+      "https://immutable-js.github.io/immutable-js/"
+    ]
+  }
+}

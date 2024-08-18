@@ -1,0 +1,17 @@
+{
+  "title": "NoSQL",
+  "subtext": "A non-relational database management system",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "NoSQL",
+    "texts": [
+      "NoSQL is a type of database that provides a mechanism for data storage and retrieval that is different from traditional relational databases. It is designed to handle large volumes of unstructured or semi-structured data.",
+      "NoSQL databases are often used for applications that require high scalability, performance, and flexibility in handling data."
+    ],
+    "image": "",
+    "references": [
+      "https://radixweb.com/blog/introduction-to-continuous-deployment#Continuous"
+    ]
+  }
+}

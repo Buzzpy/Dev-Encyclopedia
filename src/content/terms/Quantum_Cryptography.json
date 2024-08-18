@@ -1,0 +1,17 @@
+{
+  "title": "Quantum Cryptography",
+  "subtext": "Using principles of quantum mechanics for secure communication",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Quantum Cryptography",
+    "texts": [
+      "Quantum Cryptography uses the principles of quantum mechanics to secure data. It's like using a secret code that only works with the laws of physics.",
+      "Imagine Quantum Cryptography as an unbreakable lock that can only be opened with a special quantum key."
+    ],
+    "image": "",
+    "references": [
+      "https://en.wikipedia.org/wiki/Quantum_cryptography"
+    ]
+  }
+}

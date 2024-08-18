@@ -1,0 +1,17 @@
+{
+  "title": "Testing",
+  "subtext": "The ultimate fear of developers",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Testing",
+    "texts": [
+      "Testing is the process of evaluating software to ensure it behaves as expected. It involves executing code with various inputs to verify correctness, performance, and reliability.",
+      "Testing can be performed manually or through automated test scripts and is essential for delivering high-quality software."
+    ],
+    "image": "",
+    "references": [
+      "https://www.ibm.com/topics/software-testing"
+    ]
+  }
+}

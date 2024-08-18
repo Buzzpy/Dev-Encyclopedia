@@ -1,0 +1,17 @@
+{
+  "title": "Reactive Programming",
+  "subtext": "Handling data streams and changes in real time",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Reactive Programming",
+    "texts": [
+      "Reactive Programming is a way to handle data streams and changes in real time. It's like making sure your app can react instantly to user inputs, like a game that updates immediately when you press a button.",
+      "Imagine Reactive Programming as being able to respond quickly to events, just like a reflex."
+    ],
+    "image": "",
+    "references": [
+      "https://www.reactivemanifesto.org/"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Microservices",
+  "subtext": "Independent services working together",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Microservices",
+    "texts": [
+      "Microservices is a way of designing software systems where the application is divided into small, independent services that work together. Each service performs a specific function and can be developed, deployed, and scaled independently.",
+      "Think of microservices like a team of specialists. Each specialist is very good at one thing. They work independently, but they all come together to complete a big project."
+    ],
+    "image": "https://d1.awsstatic.com/Developer%20Marketing/containers/monolith_1-monolith-microservices.70b547e30e30b013051d58a93a6e35e77408a2a8.png",
+    "references": [
+      "https://aws.amazon.com/microservices/"
+    ]
+  }
+}

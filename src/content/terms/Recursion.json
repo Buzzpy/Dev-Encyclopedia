@@ -1,0 +1,17 @@
+{
+  "title": "Recursion",
+  "subtext": "A programming technique",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Recursion",
+    "texts": [
+      "Recursion is a programming technique where a function calls itself in order to solve a problem. It is often used to break down complex problems into simpler sub-problems.",
+      "Recursion is useful in tasks such as tree traversal, sorting algorithms, and solving mathematical problems."
+    ],
+    "image": "https://miro.medium.com/v2/resize:fit:2000/1*QrQ5uFKIhK3jQSFYeRBIRg.png",
+    "references": [
+      "https://2533.medium.com/recursion-explained-with-pictures-72578d28058a"
+    ]
+  }
+}

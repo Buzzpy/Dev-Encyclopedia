@@ -1,0 +1,17 @@
+{
+  "title": "Serverless Architecture",
+  "subtext": "Cloud management of server operations",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Serverless Architecture",
+    "texts": [
+      "Serverless architecture means you don't have to manage servers yourself. The cloud provider takes care of it for you. It's like having a magic kitchen that cooks your food without you needing to know how.",
+      "Imagine serverless as a vending machine that automatically refills itself when something runs out."
+    ],
+    "image": "",
+    "references": [
+      "https://serverless.com/learn/what-is-serverless/"
+    ]
+  }
+}

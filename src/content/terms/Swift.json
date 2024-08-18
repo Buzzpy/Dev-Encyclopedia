@@ -1,0 +1,17 @@
+{
+  "title": "Swift",
+  "subtext": "A programming language from Apple",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Swift",
+    "texts": [
+      "Swift is a programming language developed by Apple for iOS and macOS development. It is known for its speed, safety, and ease of use.",
+      "Swift allows developers to build high-performance applications with modern features and a clean syntax."
+    ],
+    "image": "assets/images/swift.jpg",
+    "references": [
+      "https://developer.apple.com/swift/"
+    ]
+  }
+}

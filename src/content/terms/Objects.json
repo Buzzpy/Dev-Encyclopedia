@@ -1,0 +1,17 @@
+{
+  "title": "Objects",
+  "subtext": "Instances of classes with specific attributes and methods.",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Objects",
+    "texts": [
+      "Objects are instances of classes. They have the properties and behaviors defined by their class.",
+      "Imagine an object as a specific cookie made from a cookie cutter. It has the same shape but can be decorated differently."
+    ],
+    "image": "",
+    "references": [
+      "https://www.geeksforgeeks.org/what-are-objects-in-programming/"
+    ]
+  }
+}

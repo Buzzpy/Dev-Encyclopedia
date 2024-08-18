@@ -1,0 +1,17 @@
+{
+  "title": "Data Anonymization",
+  "subtext": "Removing personal identifiers from data to protect privacy",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Data Anonymization",
+    "texts": [
+      "Data Anonymization removes personal information from data sets so that individuals can't be identified. It's like blurring faces in a photo to protect people's privacy.",
+      "Imagine Data Anonymization as making sure no one can recognize the people in your photos."
+    ],
+    "image": "",
+    "references": [
+      "https://en.wikipedia.org/wiki/Data_anonymization"
+    ]
+  }
+}

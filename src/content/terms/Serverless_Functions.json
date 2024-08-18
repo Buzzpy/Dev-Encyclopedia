@@ -1,0 +1,17 @@
+{
+  "title": "Serverless Functions",
+  "subtext": "Execute code without the need to manage servers",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Serverless Functions",
+    "texts": [
+      "Serverless functions are pieces of code that are executed by a cloud provider without requiring the developer to manage a server or runtime environment.",
+      "Imagine serverless functions as a catering service that delivers food directly to your event, without you needing to cook or clean."
+    ],
+    "image": "",
+    "references": [
+      "https://aws.amazon.com/lambda/serverless-architectures-learn-more/"
+    ]
+  }
+}

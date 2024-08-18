@@ -1,0 +1,17 @@
+{
+  "title": "Distributed Ledger Technology",
+  "subtext": "Digital system recording transactions in multiple places simultaneously",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Distributed Ledger Technology",
+    "texts": [
+      "Distributed Ledger Technology (DLT) is a digital system for recording transactions where details are recorded in multiple places at the same time. It's like having multiple copies of a book to prevent losing any information.",
+      "Think of DLT as sharing your diary with friends to ensure everyone has the same stories."
+    ],
+    "image": "",
+    "references": [
+      "https://www.ibm.com/blockchain/what-is-blockchain"
+    ]
+  }
+}

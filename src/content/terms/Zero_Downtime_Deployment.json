@@ -1,0 +1,17 @@
+{
+  "title": "Zero Downtime Deployment",
+  "subtext": "Update software without causing service disruption",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Zero Downtime Deployment",
+    "texts": [
+      "Zero downtime deployment refers to the process of updating software without causing any service disruption or downtime.",
+      "Think of it as renovating a bridge while keeping it open to traffic."
+    ],
+    "image": "",
+    "references": [
+      "https://www.digitalocean.com/community/tutorials/what-is-zero-downtime-deployment"
+    ]
+  }
+}

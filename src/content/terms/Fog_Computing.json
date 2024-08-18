@@ -1,0 +1,17 @@
+{
+  "title": "Fog Computing",
+  "subtext": "Extending cloud computing to the edge of an enterprise's network",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Fog Computing",
+    "texts": [
+      "Fog Computing extends cloud computing to the edge of the network, processing data closer to where it's generated. It's like having mini-clouds that work together with the big cloud.",
+      "Imagine Fog Computing as a network of small clouds that help process information locally."
+    ],
+    "image": "",
+    "references": [
+      "https://en.wikipedia.org/wiki/Fog_computing"
+    ]
+  }
+}

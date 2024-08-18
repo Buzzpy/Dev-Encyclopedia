@@ -1,0 +1,17 @@
+{
+  "title": "DRY Principle",
+  "subtext": "Avoid code repetition",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "DRY Principle",
+    "texts": [
+      "The DRY principle stands for \"Don't Repeat Yourself.\" It means that every piece of knowledge or logic should be written once and reused throughout the code.",
+      "Think of it like using the same recipe card for your favorite dish instead of writing a new one each time."
+    ],
+    "image": "https://miro.medium.com/v2/resize:fit:1400/1*lQlLv4AJZysvATx1AEIpUQ.png",
+    "references": [
+      "https://thevaluable.dev/dry-principle-cost-benefit-example/"
+    ]
+  }
+}

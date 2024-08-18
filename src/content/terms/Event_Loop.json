@@ -1,0 +1,17 @@
+{
+  "title": "Event Loop",
+  "subtext": "Programming construct that waits for and dispatches events",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Event Loop",
+    "texts": [
+      "The event loop is a programming construct that waits for and dispatches events or messages in a program.",
+      "Imagine the event loop as a postal worker sorting and delivering mail as it arrives, ensuring that each message reaches its destination promptly."
+    ],
+    "image": "",
+    "references": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop"
+    ]
+  }
+}

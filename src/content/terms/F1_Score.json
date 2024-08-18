@@ -1,0 +1,17 @@
+{
+  "title": "F1 Score",
+  "subtext": "Harmonic mean of Precision and Recall for balanced evaluation.",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "F1 Score",
+    "texts": [
+      "The F1 Score is a metric that combines Precision and Recall into a single number. It is the harmonic mean of Precision and Recall, providing a balanced measure of a model's accuracy.",
+      "It's useful when you need a single metric to assess the performance of a model."
+    ],
+    "image": "https://miro.medium.com/v2/resize:fit:898/1*7tC4-fUHtcffvXGcGTJJtg.png",
+    "references": [
+      "https://www.v7labs.com/blog/f1-score-guide"
+    ]
+  }
+}

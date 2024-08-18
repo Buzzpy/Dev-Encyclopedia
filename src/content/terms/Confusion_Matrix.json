@@ -1,0 +1,17 @@
+{
+  "title": "Confusion Matrix",
+  "subtext": "A table to evaluate classification model performance.",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Confusion Matrix",
+    "texts": [
+      "A Confusion Matrix is a table used to evaluate the performance of a classification model. It shows the counts of true positive, false positive, true negative, and false negative predictions.",
+      "It helps in understanding the types of errors a model makes."
+    ],
+    "image": "https://cdn.prod.website-files.com/5d7b77b063a9066d83e1209c/63b413d2cdc133446aa23fc5_636b9182cfaef2115e028921_HERO_1_Confusion.png",
+    "references": [
+      "https://www.analyticsvidhya.com/blog/2020/04/confusion-matrix-machine-learning/"
+    ]
+  }
+}

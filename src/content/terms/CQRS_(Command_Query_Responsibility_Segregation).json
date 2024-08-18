@@ -1,0 +1,12 @@
+{
+  "title": "CQRS (Command Query Responsibility Segregation)",
+  "subtext": "Separating read and write operations for efficiency",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "",
+    "texts": [],
+    "image": "",
+    "references": []
+  }
+}

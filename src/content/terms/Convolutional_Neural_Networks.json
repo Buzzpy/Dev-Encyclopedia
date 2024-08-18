@@ -1,0 +1,17 @@
+{
+  "title": "Convolutional Neural Networks",
+  "subtext": "Analyzes grid-like data, such as images, using filters.",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Convolutional Neural Networks",
+    "texts": [
+      "Convolutional Neural Networks (CNNs) are designed to process grid-like data, such as images. They use filters to detect patterns in different parts of an image, which helps in tasks like image classification.",
+      "CNNs are used for recognizing objects in photos or videos."
+    ],
+    "image": "https://miro.medium.com/v2/resize:fit:1400/1*7_BCJFzekmPXmJQVRdDgwg.png",
+    "references": [
+      "https://nafizshahriar.medium.com/what-is-convolutional-neural-network-cnn-deep-learning-b3921bdd82d5"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "API Gateway",
+  "subtext": "Manages requests and directs them to the correct services",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "API Gateway",
+    "texts": [
+      "An API Gateway is like a front door that handles all requests from clients, ensuring they get directed to the right services. It's like a receptionist who directs calls to the correct department.",
+      "Imagine an API Gateway as a helpful guide that makes sure everyone gets to where they need to go."
+    ],
+    "image": "",
+    "references": [
+      "https://aws.amazon.com/api-gateway/"
+    ]
+  }
+}

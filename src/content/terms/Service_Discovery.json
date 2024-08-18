@@ -1,0 +1,17 @@
+{
+  "title": "Service Discovery",
+  "subtext": "Dynamic directory for services to find each other",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Service Discovery",
+    "texts": [
+      "Service discovery is a dynamic directory that helps services find and communicate with each other in cloud environments.",
+      "Think of service discovery as the phonebook for services, allowing them to look up how to connect with other services dynamically."
+    ],
+    "image": "",
+    "references": [
+      "https://www.consul.io/discovery.html"
+    ]
+  }
+}

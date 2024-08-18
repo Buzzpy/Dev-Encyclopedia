@@ -1,0 +1,17 @@
+{
+  "title": "Usability Test",
+  "subtext": "A test that ensures that application is user-friendly",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Usability Test",
+    "texts": [
+      "Usability testing evaluates how easy and intuitive a software application is for users. It focuses on user experience, including ease of navigation, accessibility, and overall satisfaction.",
+      "Usability tests help ensure that the application is user-friendly and meets the needs of its target audience."
+    ],
+    "image": "",
+    "references": [
+      "https://www.geeksforgeeks.org/usability-testing/"
+    ]
+  }
+}

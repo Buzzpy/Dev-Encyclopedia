@@ -1,0 +1,17 @@
+{
+  "title": "Dark Launch",
+  "subtext": "Release features to a subset of users without their knowledge",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Dark Launch",
+    "texts": [
+      "Dark launching is a technique where new features are released to a subset of users under real conditions without their knowledge.",
+      "Think of a dark launch as a soft opening for a restaurant, where new dishes are tested discreetly before the official menu launch."
+    ],
+    "image": "",
+    "references": [
+      "https://launchdarkly.com/blog/guide-to-dark-launching/"
+    ]
+  }
+}

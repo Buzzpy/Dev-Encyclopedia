@@ -1,0 +1,17 @@
+{
+  "title": "Flutter",
+  "subtext": "An UI toolkit from Google",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Flutter",
+    "texts": [
+      "Flutter is an open-source UI toolkit developed by Google for building natively compiled applications for mobile, web, and desktop from a single codebase.",
+      "Flutter uses the Dart programming language and provides a rich set of pre-designed widgets and tools for creating beautiful and responsive user interfaces."
+    ],
+    "image": "assets/images/flutter.jpg",
+    "references": [
+      "https://techvify-software.com/wp-content/uploads/2023/07/how-flutter-works.jpg"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "API Versioning",
+  "subtext": "Manage API changes by assigning version numbers",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "API Versioning",
+    "texts": [
+      "API Versioning is the process of assigning version numbers to different stages of API development to manage changes and ensure backward compatibility.",
+      "Imagine API versioning as a way of keeping a diary of changes to a recipe, allowing you to refer back to any version at any time."
+    ],
+    "image": "",
+    "references": [
+      "https://www.mulesoft.com/resources/api/api-versioning-guide"
+    ]
+  }
+}

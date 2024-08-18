@@ -1,0 +1,17 @@
+{
+  "title": "Data Structure",
+  "subtext": "A way of oragnzing and storing data",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Data Structure",
+    "texts": [
+      "A data structure is a way of organizing and storing data so that it can be accessed and modified efficiently. Common data structures include arrays, linked lists, stacks, queues, and trees.",
+      "Choosing the right data structure is crucial for optimizing performance and managing data effectively in software applications."
+    ],
+    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20220520182504/ClassificationofDataStructure-660x347.jpg",
+    "references": [
+      "https://www.w3schools.com/dsa/dsa_intro.php"
+    ]
+  }
+}

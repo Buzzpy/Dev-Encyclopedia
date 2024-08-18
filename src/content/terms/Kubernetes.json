@@ -1,0 +1,17 @@
+{
+  "title": "Kubernetes",
+  "subtext": "Platform for automating container management",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Kubernetes",
+    "texts": [
+      "Kubernetes is an open-source platform designed to automate the deployment, scaling, and operation of containerized applications. It helps manage clusters of containers.",
+      "Think of it as the conductor of an orchestra, ensuring all the musicians (containers) play in harmony."
+    ],
+    "image": "https://example.com/kubernetes-image.png",
+    "references": [
+      "https://kubernetes.io/docs/concepts/overview/"
+    ]
+  }
+}

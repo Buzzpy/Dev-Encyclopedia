@@ -1,0 +1,17 @@
+{
+  "title": "Syntax",
+  "subtext": "Rules defining the structure and format of code.",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Syntax",
+    "texts": [
+      "Syntax in programming refers to the rules that define the structure of a program. It\u2019s like grammar in a language, ensuring that code is written correctly so the computer can understand it.",
+      "Imagine syntax as the rules of writing sentences in English, like using proper punctuation and word order."
+    ],
+    "image": "",
+    "references": [
+      "https://woz-u.com/blog/what-is-syntax-in-computer-programming/"
+    ]
+  }
+}

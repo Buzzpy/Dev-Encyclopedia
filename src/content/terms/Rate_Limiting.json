@@ -1,0 +1,17 @@
+{
+  "title": "Rate Limiting",
+  "subtext": "Control the frequency of resource access to prevent overuse",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Rate Limiting",
+    "texts": [
+      "Rate limiting controls how often a user or system can access a resource or perform an action, preventing overuse and ensuring fair usage.",
+      "Think of rate limiting as traffic lights on the internet, controlling the flow to prevent congestion."
+    ],
+    "image": "",
+    "references": [
+      "https://www.cloudflare.com/learning/ddos/ddos-rate-limiting/"
+    ]
+  }
+}

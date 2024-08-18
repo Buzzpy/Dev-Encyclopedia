@@ -1,0 +1,17 @@
+{
+  "title": "Data Deduplication",
+  "subtext": "Eliminate redundant data to increase storage efficiency",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Data Deduplication",
+    "texts": [
+      "Data deduplication is a technique used to eliminate redundant copies of data, increasing storage efficiency.",
+      "Think of data deduplication as decluttering your digital storage by removing unnecessary duplicates of your files."
+    ],
+    "image": "",
+    "references": [
+      "https://searchdatabackup.techtarget.com/definition/data-deduplication"
+    ]
+  }
+}

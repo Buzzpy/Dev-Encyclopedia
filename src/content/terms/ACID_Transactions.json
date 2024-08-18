@@ -1,0 +1,17 @@
+{
+  "title": "ACID Transactions",
+  "subtext": "Ensure reliability in database operations",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "ACID Transactions",
+    "texts": [
+      "ACID (Atomicity, Consistency, Isolation, Durability) transactions ensure that database operations are processed reliably.",
+      "Think of ACID transactions as a checklist that guarantees every financial transaction is processed completely and accurately."
+    ],
+    "image": "",
+    "references": [
+      "https://www.ibm.com/cloud/learn/acid-properties"
+    ]
+  }
+}

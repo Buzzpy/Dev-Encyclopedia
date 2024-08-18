@@ -1,0 +1,17 @@
+{
+  "title": "Tokenization",
+  "subtext": "Convert sensitive data into non-sensitive tokens",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Tokenization",
+    "texts": [
+      "Tokenization is the process of converting sensitive data into non-sensitive data called tokens, which can be used in a database or internal system without exposing sensitive information.",
+      "Think of tokenization as swapping out your real, valuable diamonds for costume jewelry when traveling to secure the real assets."
+    ],
+    "image": "",
+    "references": [
+      "https://www.pcisecuritystandards.org/pdfs/pci_fs_data_tokenization.pdf"
+    ]
+  }
+}

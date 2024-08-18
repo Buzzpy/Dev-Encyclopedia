@@ -1,0 +1,17 @@
+{
+  "title": "Agile",
+  "subtext": "A methology in Software Development",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Agile",
+    "texts": [
+      "Agile is a methodology for software development that emphasizes flexibility, collaboration, and customer feedback. It focuses on delivering small, incremental improvements to a project.",
+      "Agile methodologies include frameworks such as Scrum and Kanban, which help teams adapt to changes and continuously improve their processes."
+    ],
+    "image": "https://miro.medium.com/v2/resize:fit:718/0*7te6LdDJm2DqZIHB.png",
+    "references": [
+      "https://www.spiceworks.com/tech/devops/articles/what-is-agile-software-development/"
+    ]
+  }
+}

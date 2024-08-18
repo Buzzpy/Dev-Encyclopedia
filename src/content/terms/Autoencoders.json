@@ -1,0 +1,17 @@
+{
+  "title": "Autoencoders",
+  "subtext": "Learns efficient data representations through compression and reconstruction.",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Autoencoders",
+    "texts": [
+      "Autoencoders are a type of neural network used for learning efficient representations of data. They work by compressing the input into a smaller representation and then reconstructing it to match the original input.",
+      "They are useful for tasks like noise reduction and dimensionality reduction."
+    ],
+    "image": "https://miro.medium.com/v2/resize:fit:600/1*nqzWupxC60iAH2dYrFT78Q.png",
+    "references": [
+      "https://medium.com/@birla.deepak26/autoencoders-76bb49ae6a8f"
+    ]
+  }
+}

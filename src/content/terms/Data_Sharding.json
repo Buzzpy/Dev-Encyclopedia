@@ -1,0 +1,17 @@
+{
+  "title": "Data Sharding",
+  "subtext": "Splitting a database into smaller, faster parts",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Data Sharding",
+    "texts": [
+      "Data Sharding splits a large database into smaller, faster, more manageable parts. It's like cutting a big pizza into slices so everyone can have a piece.",
+      "Imagine data sharding as dividing your work among friends to get it done faster."
+    ],
+    "image": "",
+    "references": [
+      "https://www.mongodb.com/basics/sharding"
+    ]
+  }
+}

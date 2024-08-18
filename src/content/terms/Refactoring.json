@@ -1,0 +1,17 @@
+{
+  "title": "Refactoring",
+  "subtext": "Improving code structure without changing behavior",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Refactoring",
+    "texts": [
+      "Refactoring is the process of improving the structure and readability of code without changing its behavior. It's like cleaning and organizing your room to make it more efficient and pleasant to use.",
+      "Imagine rewriting a messy essay to make it clearer and easier to understand."
+    ],
+    "image": "https://lvivity.com/wp-content/uploads/2020/09/refactoring-process.png",
+    "references": [
+      "https://refactoring.guru/refactoring/what-is-refactoring"
+    ]
+  }
+}

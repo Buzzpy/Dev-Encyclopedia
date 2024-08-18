@@ -1,0 +1,17 @@
+{
+  "title": "Cloud Security",
+  "subtext": "Procedures and technology to secure cloud environments",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Cloud Security",
+    "texts": [
+      "Cloud security involves the procedures and technology that secure cloud computing environments against both external and internal cybersecurity threats.",
+      "Think of cloud security as the security measures at an airport, ensuring the safety of passengers and the integrity of flights."
+    ],
+    "image": "",
+    "references": [
+      "https://www.cisco.com/c/en/us/solutions/enterprise-networks/cloud-security/index.html"
+    ]
+  }
+}

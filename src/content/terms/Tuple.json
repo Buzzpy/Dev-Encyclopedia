@@ -1,0 +1,17 @@
+{
+  "title": "Tuple",
+  "subtext": "An ordered, unchangeable collection of items.",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Tuple",
+    "texts": [
+      "A tuple is a collection of items that are ordered and unchangeable. It's like a list, but once you create it, you can't change it.",
+      "Think of it like a grocery list written in pen. You can't erase or change the items once they're written down."
+    ],
+    "image": "",
+    "references": [
+      "https://www.w3schools.com/python/python_tuples.asp"
+    ]
+  }
+}

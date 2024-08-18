@@ -1,0 +1,17 @@
+{
+  "title": "Dependency Graph",
+  "subtext": "Visualize dependencies in systems or projects",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Dependency Graph",
+    "texts": [
+      "A dependency graph is a tool that helps visualize dependencies in systems or projects, showing how different elements are interconnected.",
+      "Imagine a dependency graph as a map that shows which city roads are connected to which, helping you plan your travel efficiently."
+    ],
+    "image": "",
+    "references": [
+      "https://www.visual-paradigm.com/guide/software-development/what-is-dependency-graph/"
+    ]
+  }
+}

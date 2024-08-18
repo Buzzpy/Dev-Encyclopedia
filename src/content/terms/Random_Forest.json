@@ -1,0 +1,17 @@
+{
+  "title": "Random Forest",
+  "subtext": "Combines multiple decision trees to improve accuracy.",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Random Forest",
+    "texts": [
+      "Random Forest is an ensemble learning technique that combines multiple decision trees to improve prediction accuracy. Each tree makes a decision, and the majority vote determines the final outcome.",
+      "It's like having a group of experts where the decision is based on the consensus of all experts."
+    ],
+    "image": "https://miro.medium.com/v2/resize:fit:1010/1*R3oJiyaQwyLUyLZL-scDpw.png",
+    "references": [
+      "https://medium.com/@denizgunay/random-forest-af5bde5d7e1e"
+    ]
+  }
+}

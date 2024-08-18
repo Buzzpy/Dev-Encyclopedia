@@ -1,0 +1,17 @@
+{
+  "title": "Network Slicing",
+  "subtext": "Create multiple virtual networks on shared infrastructure",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Network Slicing",
+    "texts": [
+      "Network Slicing allows multiple virtual networks to be created on top of a shared physical infrastructure, each tailored for specific use cases.",
+      "Think of network slicing as dividing a highway into dedicated lanes for different types of vehicles."
+    ],
+    "image": "",
+    "references": [
+      "https://www.ericsson.com/en/5g/numerology/network-slicing"
+    ]
+  }
+}

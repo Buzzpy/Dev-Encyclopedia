@@ -1,0 +1,17 @@
+{
+  "title": "Gradient Descent",
+  "subtext": "Optimizes model parameters by minimizing errors.",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Gradient Descent",
+    "texts": [
+      "Gradient Descent is an optimization algorithm used to minimize the error of a model. It works by iteratively adjusting the model's parameters to find the lowest error value.",
+      "Think of it as climbing down a hill to reach the lowest point, which represents the smallest error."
+    ],
+    "image": "",
+    "references": [
+      "https://towardsdatascience.com/gradient-descent-explained-9b953fc0d2c"
+    ]
+  }
+}

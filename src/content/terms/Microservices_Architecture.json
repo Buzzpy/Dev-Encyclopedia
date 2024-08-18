@@ -1,0 +1,17 @@
+{
+  "title": "Microservices Architecture",
+  "subtext": "Independent, small service modules in software",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Microservices Architecture",
+    "texts": [
+      "Microservices architecture is a way of building software where each part is a small, independent piece. It's like building a Lego structure with different blocks that can be replaced without breaking the whole thing.",
+      "Think of microservices as separate apps on your phone that work together to make everything run smoothly."
+    ],
+    "image": "",
+    "references": [
+      "https://microservices.io/"
+    ]
+  }
+}

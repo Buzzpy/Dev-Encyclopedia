@@ -1,0 +1,17 @@
+{
+  "title": "Vertical Scaling",
+  "subtext": "Increase the capacity of a single server",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Vertical Scaling",
+    "texts": [
+      "Vertical scaling, or scaling up, involves increasing the capacity of a single server or resource without adding more physical units.",
+      "Think of vertical scaling like upgrading a car's engine to increase speed and performance instead of adding more cars."
+    ],
+    "image": "",
+    "references": [
+      "https://www.ibm.com/cloud/learn/scaling"
+    ]
+  }
+}

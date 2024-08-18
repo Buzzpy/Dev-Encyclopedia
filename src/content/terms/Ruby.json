@@ -1,0 +1,17 @@
+{
+  "title": "Ruby",
+  "subtext": "Another simple, OOP language",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Ruby",
+    "texts": [
+      "Ruby is an object-oriented programming language known for its simplicity and productivity. It is often used for web development, particularly with the Ruby on Rails framework.",
+      "Ruby's elegant syntax makes it easy to read and write, helping developers create robust applications quickly."
+    ],
+    "image": "",
+    "references": [
+      "https://developer.oracle.com/learn/technical-articles/what-is-ruby"
+    ]
+  }
+}

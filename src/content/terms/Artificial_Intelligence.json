@@ -1,0 +1,17 @@
+{
+  "title": "Artificial Intelligence",
+  "subtext": "A frenemy",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Artificial Intelligence",
+    "texts": [
+      "Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions. The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving.",
+      "AI is used in many areas such as robotics, autonomous vehicles, and natural language processing."
+    ],
+    "image": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/iii01cstbhic3xzt9ceu.png",
+    "references": [
+      "https://www.ibm.com/topics/artificial-intelligence"
+    ]
+  }
+}

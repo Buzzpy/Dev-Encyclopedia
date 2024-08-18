@@ -1,0 +1,17 @@
+{
+  "title": "Data Replication",
+  "subtext": "Copy data to ensure consistency and accessibility",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Data Replication",
+    "texts": [
+      "Data replication involves copying data from one location to another to ensure consistency and support data recovery and accessibility.",
+      "Think of data replication like having multiple copies of a document in different locations, so if one is lost, others are still available."
+    ],
+    "image": "",
+    "references": [
+      "https://www.techtarget.com/searchdatamanagement/definition/data-replication"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Load Test",
+  "subtext": "A type of performance testing",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Load Test",
+    "texts": [
+      "Load testing is a type of performance testing that evaluates how a software application handles a specific volume of users or transactions.",
+      "It helps determine if the application can handle expected load conditions without degrading performance."
+    ],
+    "image": "",
+    "references": [
+      "https://en.wikipedia.org/wiki/Software_load_testing#:~:text=Load%20testing%20generally%20refers%20to,model%2C%20such%20as%20web%20servers."
+    ]
+  }
+}

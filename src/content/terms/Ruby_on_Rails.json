@@ -1,0 +1,17 @@
+{
+  "title": "Ruby on Rails",
+  "subtext": "A web application framework written in Ruby",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Ruby on Rails",
+    "texts": [
+      "Ruby on Rails is a web application framework written in Ruby. It follows the Model-View-Controller (MVC) architecture and emphasizes convention over configuration.",
+      "Rails helps developers build robust and scalable web applications quickly by providing built-in tools and best practices."
+    ],
+    "image": "assets/images/rubyOnRails.jpg",
+    "references": [
+      "https://www.codecademy.com/resources/blog/what-is-ruby-on-rails/"
+    ]
+  }
+}

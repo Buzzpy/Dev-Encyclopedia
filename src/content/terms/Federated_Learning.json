@@ -1,0 +1,17 @@
+{
+  "title": "Federated Learning",
+  "subtext": "Training AI models across multiple devices without sharing data",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Federated Learning",
+    "texts": [
+      "Federated Learning is a way to train AI models across multiple devices without sharing raw data. It's like learning from everyone's notebooks without taking them away.",
+      "Imagine Federated Learning as combining knowledge from many sources while keeping the original notes private."
+    ],
+    "image": "",
+    "references": [
+      "https://ai.googleblog.com/2017/04/federated-learning-collaborative.html"
+    ]
+  }
+}

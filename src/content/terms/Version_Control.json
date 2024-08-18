@@ -1,0 +1,17 @@
+{
+  "title": "Version Control",
+  "subtext": "Recording every change",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Version Control",
+    "texts": [
+      "Version control is a system that records changes to files over time so that you can recall specific versions later. It is essential for managing software development and tracking changes to code.",
+      "Version control helps coordinate work among multiple developers and track the history of changes. Mainly, there are two types of version control systems as \"Centralized\" and \"Distributed\" Version Control Systems, as explained in the image below."
+    ],
+    "image": "https://www.thatcompany.com/wp-content/uploads/2020/03/art3.jpg",
+    "references": [
+      "https://about.gitlab.com/topics/version-control/"
+    ]
+  }
+}

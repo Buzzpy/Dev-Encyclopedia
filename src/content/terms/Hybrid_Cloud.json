@@ -1,0 +1,17 @@
+{
+  "title": "Hybrid Cloud",
+  "subtext": "Combining public and private cloud environments for flexibility",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Hybrid Cloud",
+    "texts": [
+      "Hybrid Cloud combines private and public clouds to provide greater flexibility. It's like having both a private garden and access to a public park.",
+      "Imagine Hybrid Cloud as using both your own secure space and a shared area for different needs."
+    ],
+    "image": "",
+    "references": [
+      "https://en.wikipedia.org/wiki/Hybrid_cloud"
+    ]
+  }
+}

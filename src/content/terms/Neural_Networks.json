@@ -1,0 +1,17 @@
+{
+  "title": "Neural Networks",
+  "subtext": "Mimics the human brain to recognize patterns and make predictions.",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Neural Networks",
+    "texts": [
+      "Neural Networks are a set of algorithms modeled after the human brain. They consist of interconnected nodes (neurons) that work together to solve complex problems, like image recognition.",
+      "They can learn from data and make predictions, just like how our brains learn from experience."
+    ],
+    "image": "https://miro.medium.com/v2/resize:fit:667/1*SqsP6IcQoCLy9eMU8te3Vw.png",
+    "references": [
+      "https://www.freecodecamp.org/news/deep-learning-neural-networks-explained-in-plain-english/"
+    ]
+  }
+}

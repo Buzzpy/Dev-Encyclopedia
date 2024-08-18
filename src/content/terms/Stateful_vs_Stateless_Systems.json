@@ -1,0 +1,17 @@
+{
+  "title": "Stateful vs Stateless Systems",
+  "subtext": "Compare systems that maintain state with those that don't",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Stateful vs Stateless Systems",
+    "texts": [
+      "In stateful systems, the server stores information about the client's session. Stateless systems do not store this data, treating each request as independent.",
+      "Imagine stateful systems as having a memory of past interactions, whereas stateless systems have no recollection of previous encounters."
+    ],
+    "image": "",
+    "references": [
+      "https://www.cloudflare.com/learning/serverless/glossary/stateful-vs-stateless/"
+    ]
+  }
+}

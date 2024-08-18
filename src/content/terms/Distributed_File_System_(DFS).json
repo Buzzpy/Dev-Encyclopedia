@@ -1,0 +1,12 @@
+{
+  "title": "Distributed File System (DFS)",
+  "subtext": "A network file system that spans multiple servers",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "",
+    "texts": [],
+    "image": "",
+    "references": []
+  }
+}

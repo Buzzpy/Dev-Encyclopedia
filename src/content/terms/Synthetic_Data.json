@@ -1,0 +1,17 @@
+{
+  "title": "Synthetic Data",
+  "subtext": "Artificially generated data that mimics real data",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Synthetic Data",
+    "texts": [
+      "Synthetic Data is artificially generated data that mimics real data. It's like creating a fake ID that looks real but isn't linked to a real person.",
+      "Imagine Synthetic Data as a practice exam that helps you prepare for the real test without using real questions."
+    ],
+    "image": "",
+    "references": [
+      "https://en.wikipedia.org/wiki/Synthetic_data"
+    ]
+  }
+}

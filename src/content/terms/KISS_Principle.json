@@ -1,0 +1,17 @@
+{
+  "title": "KISS Principle",
+  "subtext": "Keep it simple to avoid complexity",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "KISS Principle",
+    "texts": [
+      "The KISS principle stands for \"Keep It Simple, Stupid.\" It means that systems should be as simple as possible to avoid unnecessary complexity.",
+      "Think of it like writing an essay in clear, straightforward language so everyone can understand it easily."
+    ],
+    "image": "https://miro.medium.com/v2/resize:fit:1400/1*yN1zFlkN7bKVo1lld0Vm1A.png",
+    "references": [
+      "https://en.wikipedia.org/wiki/KISS_principle"
+    ]
+  }
+}

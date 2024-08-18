@@ -1,0 +1,17 @@
+{
+  "title": "Deep Learning",
+  "subtext": "A subset of machine learning",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Deep Learning",
+    "texts": [
+      "Deep learning is a subset of machine learning where artificial neural networks, algorithms inspired by the human brain, learn from large amounts of data. It's a key technology behind driverless cars, enabling them to recognize a stop sign, or to distinguish a pedestrian from a lamppost.",
+      "Deep learning is used in many applications such as voice assistants, translation services, and image recognition."
+    ],
+    "image": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2l6t6kevnd062opmw6ab.png",
+    "references": [
+      "https://www.ibm.com/topics/deep-learning"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Memory Leaks",
+  "subtext": "Issues in memory management that can cause system crashes",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Memory Leaks",
+    "texts": [
+      "Memory leaks occur when a computer program incorrectly manages memory allocations, resulting in reduced performance or system crashes."
+    ],
+    "image": "",
+    "references": [
+      "https://www.pluralsight.com/blog/software-development/understanding-memory-leaks"
+    ]
+  }
+}

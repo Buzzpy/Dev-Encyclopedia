@@ -1,0 +1,17 @@
+{
+  "title": "Design Patterns",
+  "subtext": "Standard solutions to common design problems",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Design Patterns",
+    "texts": [
+      "Design patterns are standard solutions to common problems in software design. They provide a reusable template for solving recurring issues in coding.",
+      "It's like having a recipe for your favorite dish that you can use over and over again."
+    ],
+    "image": "",
+    "references": [
+      "https://refactoring.guru/design-patterns/what-is-pattern"
+    ]
+  }
+}

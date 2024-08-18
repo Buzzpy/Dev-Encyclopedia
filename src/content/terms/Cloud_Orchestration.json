@@ -1,0 +1,17 @@
+{
+  "title": "Cloud Orchestration",
+  "subtext": "Automated arrangement and coordination of cloud services",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Cloud Orchestration",
+    "texts": [
+      "Cloud Orchestration is the automated arrangement, coordination, and management of complex cloud services and processes.",
+      "Imagine cloud orchestration as a conductor directing an orchestra, ensuring each service plays its part in harmony."
+    ],
+    "image": "",
+    "references": [
+      "https://www.vmware.com/topics/glossary/content/cloud-orchestration"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Horizontal Scaling",
+  "subtext": "Add more machines to handle increased load",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Horizontal Scaling",
+    "texts": [
+      "Horizontal scaling, or scaling out, involves adding more machines or resources to a pool to handle increased load.",
+      "Imagine horizontal scaling as adding more lanes to a highway to accommodate more traffic."
+    ],
+    "image": "",
+    "references": [
+      "https://www.datadoghq.com/blog/horizontal-scaling/"
+    ]
+  }
+}

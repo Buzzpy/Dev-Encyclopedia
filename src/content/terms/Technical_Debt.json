@@ -1,0 +1,17 @@
+{
+  "title": "Technical Debt",
+  "subtext": "Extra work due to past shortcuts",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Technical Debt",
+    "texts": [
+      "Technical debt refers to the extra work required in the future because of shortcuts or suboptimal solutions made in the past. It's like doing your homework quickly and poorly, knowing you'll have to redo it later.",
+      "Think of it as borrowing time now but paying back with interest later."
+    ],
+    "image": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2vdqiy2rlvcg00nw230f.png",
+    "references": [
+      "https://asana.com/resources/technical-debt"
+    ]
+  }
+}

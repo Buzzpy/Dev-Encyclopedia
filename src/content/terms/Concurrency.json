@@ -1,0 +1,17 @@
+{
+  "title": "Concurrency",
+  "subtext": "Run multiple processes simultaneously for efficiency",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Concurrency",
+    "texts": [
+      "Concurrency in computing allows multiple processes to run simultaneously within the same application, enhancing efficiency.",
+      "Imagine concurrency as a kitchen where several chefs prepare different parts of a meal at the same time."
+    ],
+    "image": "",
+    "references": [
+      "https://www.geeksforgeeks.org/concurrency-in-operating-system/"
+    ]
+  }
+}

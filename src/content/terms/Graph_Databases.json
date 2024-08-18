@@ -1,0 +1,17 @@
+{
+  "title": "Graph Databases",
+  "subtext": "Databases storing data in nodes and edges to show relationships",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Graph Databases (e.g., Neo4j)",
+    "texts": [
+      "Graph Databases store data in nodes and edges, which show relationships. It's like a web of connections, like a social network map.",
+      "Imagine a Graph Database as a map of your friendships, showing who knows who."
+    ],
+    "image": "",
+    "references": [
+      "https://neo4j.com/what-is-a-graph-database/"
+    ]
+  }
+}

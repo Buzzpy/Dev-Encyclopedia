@@ -1,0 +1,17 @@
+{
+  "title": "Java",
+  "subtext": "A high-level programming-language",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Java",
+    "texts": [
+      "Java is a high-level programming language known for its portability, scalability, and performance. It is widely used for building enterprise-level applications, mobile apps, and web services.",
+      "Java's \"write once, run anywhere\" philosophy makes it a popular choice for cross-platform development."
+    ],
+    "image": "assets/images/java.jpg",
+    "references": [
+      "https://www.simplilearn.com/tutorials/java-tutorial/what-is-java"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Feature Scaling",
+  "subtext": "Normalizes feature ranges for better model performance.",
+  "category": "all",
+  "author": "Buzzpy",
+  "description": {
+    "title": "Feature Scaling",
+    "texts": [
+      "Feature Scaling is the process of normalizing the range of features in your data. This helps improve the performance and convergence speed of machine learning algorithms.",
+      "It's like making sure all the pieces of a puzzle fit together properly."
+    ],
+    "image": "",
+    "references": []
+  }
+}
