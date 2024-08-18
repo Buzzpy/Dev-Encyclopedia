@@ -225,10 +225,10 @@ document.addEventListener('DOMContentLoaded', async function() {
       
       if (body.classList.contains('dark-mode')) {
           localStorage.setItem('darkMode', 'enabled');
-          toggleButton.innerHTML = '<i class="fas fa-sun" style="padding-right: 10px;"></i><span id="darkModeText"> Light Mode</span>';
+          toggleButton.innerHTML = '<i class="fas fa-sun" style="padding-right: 10px;"></i><span id="darkModeText"> Light Mode;</span>';
       } else {
           localStorage.setItem('darkMode', 'disabled');
-          toggleButton.innerHTML = '<i class="fas fa-moon" style="padding-right: 10px;"></i><span id="darkModeText"> Dark Mode</span>';
+          toggleButton.innerHTML = '<i class="fas fa-moon" style="padding-right: 10px;"></i><span id="darkModeText"> Dark Mode;</span>';
       }
     }
     
@@ -238,9 +238,9 @@ document.addEventListener('DOMContentLoaded', async function() {
       
       if (darkMode === 'enabled') {
           document.body.classList.add('dark-mode');
-          toggleButton.innerHTML = '<i class="fas fa-sun" style="padding-right: 10px;"></i><span id="darkModeText"> Light Mode</span>';
+          toggleButton.innerHTML = '<i class="fas fa-sun" style="padding-right: 10px;"></i><span id="darkModeText"> Light Mode;</span>';
       } else {
-          toggleButton.innerHTML = '<i class="fas fa-moon" style="padding-right: 10px;"></i><span id="darkModeText"> Dark Mode</span>';
+          toggleButton.innerHTML = '<i class="fas fa-moon" style="padding-right: 10px;"></i><span id="darkModeText"> Dark Mode;</span>';
       }
     };
 });

@@ -82,12 +82,14 @@ img {
   .autocomplete-item {
     padding: 10px;
     cursor: pointer;
-    background-color: #fff;
+    background-color: #232323;
     border-bottom: 1px solid #d4d4d4;
+    color: white;
   }
   
   .autocomplete-item:hover {
-    background-color: #a0a6ad;
+    background-color: #0f0f0f;
+    color: white;
   }
 
   #autocomplete-list {
@@ -107,7 +109,7 @@ img {
   }
 
   .highlight {
-    color: rgb(0, 0, 255); /* Change this to any color you prefer */
+    color:  #ff8a80; /* Change this to any color you prefer */
     font-weight: bold; /* Optional: make the text bold */
 }
 
@@ -204,7 +206,7 @@ img {
     }
 
     body.dark-mode .explain-button {
-    background-color: #d6d6d6e6;
+    background-color: #ffffffe6;
     color: #000000;
     border-color: #ffffff00;
     border-style: solid;
@@ -240,7 +242,18 @@ img {
     body.dark-mode #modal-link:hover {
     color: #ff5252;
     }
-  
+     
+    input[type="text"] {
+    color: rgb(0, 0, 0);
+    }
+
+
+  body.dark-mode input[type="text"]::placeholder {
+  color: white;
+  opacity: 1; /* Ensures the placeholder is fully visible */
+  }
+
+
   .search-bar {
     position: relative;
     display: inline-block;
