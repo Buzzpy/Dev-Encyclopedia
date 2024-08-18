@@ -9,6 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const description = card.getAttribute('data-description');
         const imageUrl = card.getAttribute('data-image-url');
         const resourceUrl = card.getAttribute('data-resource-url');
+        
+        // Show the modal with the collected data
         showModal(title, description, imageUrl, resourceUrl);
       }
     });
@@ -21,27 +23,29 @@ document.addEventListener('DOMContentLoaded', () => {
       closeModal();
     }
   });
+
+  // Function to display the modal
+  function showModal(title, description, imageUrl, resourceUrl) {
+    const modalBody = document.getElementById('modal-body');
+
+    // Replace any newline characters (\n) with HTML line breaks (<br/>)
+    const formattedDescription = description.replace(/\n/g, '<br/>');
+
+    // Conditionally include the image if the URL is not empty
+    const imageElement = imageUrl && imageUrl.trim() !== '' ? `<img src="${imageUrl}" alt="${title}" style="max-width: 100%; height: auto;">` : '';
+
+    modalBody.innerHTML = `
+      <h2 id="modal-heading">${title}</h2>
+      <p class="modal-paragraph">${formattedDescription}</p>
+      ${imageElement} <!-- Only include the image if imageUrl is not empty -->
+      <a href="${resourceUrl}" id="modal-link" target="_blank">⌁—— Learn more about ${title} ——⌁</a>
+    `;
+    document.getElementById('modal').style.display = 'block';
+  }
+
+  // Function to close the modal
+  function closeModal() {
+    const modal = document.getElementById('modal');
+    modal.style.display = 'none';
+  }
 });
-
-// Function to display the modal
-function showModal(title, description, imageUrl, resourceUrl) {
-  const modalBody = document.getElementById('modal-body');
-
-  // Replace any newline characters (\n) with HTML line breaks (<br/>)
-  const formattedDescription = description.replace(/\n/g, '<br/>');
-
-  modalBody.innerHTML = `
-    <h2 id="modal-heading">${title}</h2>
-    <p class="modal-paragraph">${formattedDescription}</p>
-    <img src="${imageUrl}" alt="${title}" style="max-width: 100%; height: auto;">
-    <a href="${resourceUrl}" id="modal-link" target="_blank">⌁—— Learn more about ${title} ——⌁</a>
-  `;
-  document.getElementById('modal').style.display = 'block';
-}
-
-
-// Function to close the modal
-function closeModal() {
-  const modal = document.getElementById('modal');
-  modal.style.display = 'none';
-}
