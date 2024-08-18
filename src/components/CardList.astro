@@ -57,17 +57,22 @@ const cards = await Promise.all(
     });
   });
 
-  // Function to display the modal
-  function showModal(title, description, imageUrl, resourceUrl) {
-    const modalBody = document.getElementById('modal-body');
-    modalBody.innerHTML = `
-      <h2 id="modal-heading">${title}</h2>
-      <p class="modal-paragraph">${description}</p>
-      <img src="${imageUrl}" alt="${title}" style="max-width: 100%; height: auto;">
-      <a href="${resourceUrl}" id="modal-link" target="_blank">⌁—— Learn more about ${title} ——⌁</a>
-    `;
-    document.getElementById('modal').style.display = 'block';
-  }
+ // Function to display the modal
+function showModal(title, description, imageUrl, resourceUrl) {
+  const modalBody = document.getElementById('modal-body');
+
+  // Replace any newline characters (\n) with HTML line breaks (<br/>)
+  const formattedDescription = description.replace(/\n/g, '<br/>');
+
+  modalBody.innerHTML = `
+    <h2 id="modal-heading">${title}</h2>
+    <p class="modal-paragraph">${formattedDescription}</p>
+    <img src="${imageUrl}" alt="${title}" style="max-width: 100%; height: auto;">
+    <a href="${resourceUrl}" id="modal-link" target="_blank">⌁—— Learn more about ${title} ——⌁</a>
+  `;
+  document.getElementById('modal').style.display = 'block';
+}
+
 
   // Function to close the modal
   function closeModal() {
