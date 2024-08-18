@@ -9,9 +9,9 @@
       "Data deduplication is a technique used to eliminate redundant copies of data, increasing storage efficiency.",
       "Think of data deduplication as decluttering your digital storage by removing unnecessary duplicates of your files."
     ],
-    "image": "",
+    "image": "https://www.datastorageasean.com/sites/default/files/images/DataDeduplicationExplainedDiagram.jpg",
     "references": [
-      "https://searchdatabackup.techtarget.com/definition/data-deduplication"
+      "https://it-explained.com/words/data-deduplication-explained-explained"
     ]
   }
 }

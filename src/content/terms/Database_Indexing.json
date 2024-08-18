@@ -9,9 +9,9 @@
       "Database indexing improves the speed of data retrieval operations by efficiently locating and accessing the data within a database.",
       "Think of database indexing like an index in a book, helping you find information quickly without scanning every page."
     ],
-    "image": "",
+    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20230620131119/Structure-of-an-Index-in-Database_1-(1).webp",
     "references": [
-      "https://www.techopedia.com/definition/2788/indexing-database"
+      "https://www.geeksforgeeks.org/indexing-in-databases-set-1/"
     ]
   }
 }

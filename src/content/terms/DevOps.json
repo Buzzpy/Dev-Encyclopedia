@@ -1,12 +1,17 @@
 {
   "title": "DevOps",
-  "subtext": "A set of practices that combine Dev and Ops",
+  "subtext": "Bridging the gap between development and operations",
   "category": "all",
   "author": "Buzzpy",
   "description": {
-    "title": "",
-    "texts": [],
-    "image": "",
-    "references": []
+    "title": "DevOps",
+    "texts": [
+      "DevOps is a set of practices that combines software development (Dev) and IT operations (Ops). It aims to shorten the systems development life cycle and provide continuous delivery with high software quality.",
+      "DevOps is about fostering a culture of collaboration between teams that traditionally worked in silos, particularly development and operations teams. By using automation tools and continuous integration/continuous deployment (CI/CD) pipelines, DevOps enables faster, more reliable software delivery."
+    ],
+    "image": "https://d1.awsstatic.com/product-marketing/DevOps/DevOps_feedback-diagram.ff668bfc299abada00b2dcbdc9ce2389bd3dce3f.png",
+    "references": [
+      "https://aws.amazon.com/devops/what-is-devops/"
+    ]
   }
 }

@@ -4,9 +4,10 @@
   "category": "all",
   "author": "Buzzpy",
   "description": {
-    "title": "",
-    "texts": [],
-    "image": "",
-    "references": []
+    "title": "Contrinuous Integration (CI)",
+    "texts": ["Continuous Integration (CI) is a practice where code changes are automatically tested and integrated into a shared repository multiple times a day. It aims to detect and fix errors early in the development process.",
+  "CI helps improve software quality and reduce integration issues by ensuring that code changes are tested and validated frequently."],
+    "image": "https://www.pagerduty.com/wp-content/uploads/2020/01/continuous-integration-2.png",
+    "references": ["https://aws.amazon.com/devops/continuous-integration/"]
   }
 }

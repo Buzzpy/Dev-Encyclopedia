@@ -4,9 +4,14 @@
   "category": "all",
   "author": "Buzzpy",
   "description": {
-    "title": "",
-    "texts": [],
-    "image": "",
-    "references": []
+    "title": "DevSecOps",
+    "texts": [
+      "DevSecOps is the practice of integrating security at every phase of the software development lifecycle, from initial design through integration, testing, deployment, and software delivery.",
+      "This approach helps in identifying and addressing security issues early in the development process, thereby reducing risks and improving overall productivity."
+    ],
+    "image": "https://images.prismic.io/guardrails-01/MjZmYWZiNTQtNTA2Yi00YmRiLWEzYWQtNmZhODYyMzQyNDU5_secdevops-1-1024x600.jpg?auto=compress,format&rect=0,0,1024,600&w=1024&h=600",
+    "references": [
+      "https://www.dynatrace.com/news/blog/what-is-devsecops/"
+    ]
   }
 }
