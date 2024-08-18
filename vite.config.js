@@ -1,9 +1,14 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+  build: {
+    rollupOptions: {
+      external: ['fs', 'path'],
+    },
+  },
   resolve: {
     alias: {
-      fs: false, // prevent Vite from trying to bundle 'fs'
+      fs: 'empty-module',
     },
   },
 });
