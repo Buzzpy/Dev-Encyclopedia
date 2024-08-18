@@ -1,0 +1,17 @@
+{
+  "title": "Regression Testing",
+  "subtext": "A type of testing to check if recent changes adversely affected existing features",
+  "category": "all",
+  "author": "RayMathew",
+  "description": {
+    "title": "Regression Testing",
+    "texts": [
+      "Regression testing is defined as a type of software testing to confirm that a recent program or code change has not adversely affected existing features.", 
+      "It is nothing but a full or partial selection of already executed test cases which are re-executed to ensure existing functionalities work fine. This testing is done to make sure that new code changes should not have side effects on the existing functionalities. It ensures that the old code still works once the latest code changes are done."
+    ],
+    "image": "https://browserstack.wpenginepowered.com/wp-content/uploads/2019/09/Regression-testing-tutorual.png",
+    "references": [
+      "https://www.browserstack.com/guide/regression-testing"
+    ]
+  }
+}
