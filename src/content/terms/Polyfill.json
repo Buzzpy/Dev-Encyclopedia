@@ -1,0 +1,16 @@
+{
+  "title": "Polyfill",
+  "subtext": "Providing modern functionality on older browsers",
+  "category": "all",
+  "author": "RayMathew",
+  "description": {
+    "title": "Polyfill",
+    "texts": [
+      "A polyfill is a piece of code (usually JavaScript on the Web) used to provide modern functionality on older browsers that do not natively support it."
+    ],
+    "image": "",
+    "references": [
+      "https://medium.com/@Bharat2044/what-is-a-polyfill-in-javascript-3dcbcb57b526"
+    ]
+  }
+}

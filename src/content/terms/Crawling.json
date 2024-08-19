@@ -1,0 +1,18 @@
+{
+    "title": "Crawling",
+    "subtext": "Web content discovery",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "Crawling",
+      "texts": [
+        "Crawling is the process by which search engines discover new and updated content on the web by following links from one page to another.",
+        "Crawlers, also known as spiders or bots, systematically browse the web to index pages for search engines."
+      ],
+      "image": "https://sanjayshenoy.com/wp-content/uploads/2022/12/What-is-crawling-in-SEO.png",
+      "references": [
+        "https://sanjayshenoy.com/what-is-crawling-in-seo/"
+      ]
+    }
+  }
+  

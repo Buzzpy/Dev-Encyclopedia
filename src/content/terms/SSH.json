@@ -1,0 +1,16 @@
+{
+  "title": "SSH",
+  "subtext": "Secure Shell protocol",
+  "category": "all",
+  "author": "RayMathew",
+  "description": {
+    "title": "SSH",
+    "texts": [
+      "Secure Shell Protocol (SSH) is a cryptographic network protocol for operating network services securely over an unsecured network. Its most notable applications are remote login and command-line execution."
+    ],
+    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240109110839/1-660.png",
+    "references": [
+      "https://www.cloudflare.com/learning/access-management/what-is-ssh/"
+    ]
+  }
+}
