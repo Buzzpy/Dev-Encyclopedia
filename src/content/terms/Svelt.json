@@ -1,10 +1,10 @@
 {
-    "title": "Svelt",
+    "title": "Svelte",
     "subtext": "",
     "category": "Front-end",
     "author": "Eddocode",
     "description": {
-      "title": "Svelt",
+      "title": "Svelte",
       "texts": [
         "A modern JavaScript framework for building user interfaces. Unlike traditional frameworks like React or Vue, Svelte shifts much of the work to compile time, converting components into highly efficient imperative code.",
         "Svelte apps don't require a virtual DOM, resulting in faster performance and smaller bundle sizes, components are written using HTML, CSS, and JavaScript.",
