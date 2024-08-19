@@ -1,0 +1,17 @@
+{
+  "title": "GRASP Principles",
+  "subtext": "General Responsibility Assignment Software Patterns",
+  "category": "all",
+  "author": "bellodamilola",
+  "description": {
+    "title": "GRASP Principles",
+    "texts": [
+      "GRASP (General Responsibility Assignment Software Patterns) is a set of guidelines  that guide the allocation of responsibilities in object-oriented design.",
+      "They list the responsibilities of classes and objects and were created to make the code more flexible and extensible, making it easier to maintain."
+    ],
+    "image": "",
+    "references": [
+      "https://en.wikipedia.org/wiki/GRASP_(object-oriented_design)"
+    ]
+  }
+}
