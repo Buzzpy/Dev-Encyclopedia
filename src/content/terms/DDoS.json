@@ -1,0 +1,18 @@
+{
+    "title": "DDoS",
+    "subtext": "Distributed Denial of Service",
+    "category": "cybersecurity",
+    "author": "Eddocode",
+    "description": {
+      "title": "DDoS",
+      "texts": [
+        "Distributed Denial of Service (DDoS) is a type of DOS attack where multiple systems, which are trojan infected, target a particular system which causes a DoS attack.",
+         "A DDoS attack uses multiple servers and Internet connections to flood the targeted resource. ",
+        "This means that the hackers have attacked your website or PC by imposing heavy traffic. Thus, crashing the website or computer due to overloading. "
+      ],
+      "image": "https://cf-assets.www.cloudflare.com/slt3lc6tev37/7xwaGxGINeyxavVbrXO6M1/24f139faac6094044adaa84c82394962/ddos_attack_traffic_metaphor.png",
+      "references": [
+        "https://www.geeksforgeeks.org/what-is-ddosdistributed-denial-of-service/"
+      ]
+    }
+  }
