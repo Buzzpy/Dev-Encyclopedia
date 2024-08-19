@@ -1,0 +1,18 @@
+{
+    "title": "Server-side rendering (SSR)",
+    "subtext": "Rendering web pages on the server",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "Server-side rendering (SSR)",
+      "texts": [
+        "Server-side rendering (SSR) is a method of rendering web pages on the server rather than in the client’s browser, improving performance and SEO.",
+        "SSR is often used in modern web development frameworks like Next.js to deliver faster page load times and better user experiences."
+      ],
+      "image": "https://images.prismic.io/prismic-main/ZfuQggmzsfHOGJkR_ssr.png?auto=format%2Ccompress&fit=max&w=3840",
+      "references": [
+        "https://prismic.io/blog/what-is-ssr"
+      ]
+    }
+  }
+  

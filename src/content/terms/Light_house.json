@@ -1,0 +1,18 @@
+{
+    "title": "Light House",
+    "subtext": "Website performance audit tool",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "Light House",
+      "texts": [
+        "Lighthouse is an open-source tool from Google that helps developers improve the quality of web pages. It provides audits for performance, accessibility, SEO, and more.",
+        "Lighthouse can be run on any web page, public or requiring authentication, and helps identify areas for improvement."
+      ],
+      "image": "https://i0.wp.com/blog.nashtechglobal.com/wp-content/uploads/2024/03/Google-Lighthouse-featured-image.png?fit=1024%2C574&ssl=1",
+      "references": [
+        "https://developers.google.com/web/tools/lighthouse"
+      ]
+    }
+  }
+  

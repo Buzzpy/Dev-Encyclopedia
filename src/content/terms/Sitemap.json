@@ -1,0 +1,18 @@
+{
+    "title": "Sitemap",
+    "subtext": "Website structure guide for search engines",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "Sitemap",
+      "texts": [
+        "A sitemap is a file where you provide information about the pages, videos, and other files on your site, and the relationships between them.",
+        "Search engines like Google read this file to more intelligently crawl your site, helping improve its visibility and indexing."
+      ],
+      "image": "",
+      "references": [
+        "https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview"
+      ]
+    }
+  }
+  

@@ -1,0 +1,18 @@
+{
+    "title": "NPM",
+    "subtext": "Node Package Manager",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "NPM",
+      "texts": [
+        "NPM is the default package manager for Node.js, enabling developers to share and reuse code across projects. It is also a command-line utility for interacting with this online repository.",
+        "NPM allows developers to install, manage, and share code packages, making it easier to handle dependencies in Node.js projects."
+      ],
+      "image": "",
+      "references": [
+        "https://www.npmjs.com/"
+      ]
+    }
+  }
+  

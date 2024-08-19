@@ -1,0 +1,18 @@
+{
+    "title": "Numpy",
+    "subtext": "Numerical computing library",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "Numpy",
+      "texts": [
+        "Numpy is a fundamental package for scientific computing with Python, providing support for arrays, matrices, and a collection of mathematical functions to operate on these data structures.",
+        "It is widely used in data science and machine learning for tasks involving numerical data manipulation."
+      ],
+      "image": "https://numpy.org/doc/stable/_static/numpylogo.svg",
+      "references": [
+        "https://numpy.org/"
+      ]
+    }
+  }
+  

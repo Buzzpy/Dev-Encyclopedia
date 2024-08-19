@@ -103,31 +103,23 @@ body {
 }
 
 #autocomplete-list {
-  max-height: 200px;
-  /* Ensure there's a maximum height */
-  overflow-y: auto;
-  /* Enable vertical scrolling */
-  /* Optional: Styling the scrollbar */
-  scrollbar-width: thin;
-  /* Firefox */
+  max-height: 200px; /* Ensure there's a maximum height */
+  overflow-y: auto;  /* Enable vertical scrolling */
+  scrollbar-width: thin; /* Firefox */
 }
 
 #autocomplete-list::-webkit-scrollbar {
-  width: 8px;
-  /* Chrome, Safari, and Opera */
+  width: 8px; /* Chrome, Safari, and Opera */
 }
 
 #autocomplete-list::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 0.2);
-  /* Thumb color */
+  background-color: rgba(0, 0, 0, 0.2); /* Thumb color */
   border-radius: 4px;
 }
 
 .highlight {
-  color: #ff8a80;
-  /* Change this to any color you prefer */
-  font-weight: bold;
-  /* Optional: make the text bold */
+  color: #ff8a80; /* Change this to any color you prefer */
+  font-weight: bold; /* Optional: make the text bold */
 }
 
 @media (max-width: 900px) {
@@ -215,12 +207,10 @@ body.dark-mode .button:hover {
   color: #ffffff;
 }
 
-
 body.dark-mode .card {
   background-color: #1a1a1a;
   color: #e0e0e0;
   border-color: #bbbbbb;
-
 }
 
 body.dark-mode .explain-button {
@@ -261,21 +251,15 @@ body.dark-mode #modal-link:hover {
   color: #ff5252;
 }
 
-
-
-
 body.dark-mode input[type="text"]::placeholder {
   color: white;
-  opacity: 1;
-  /* Ensures the placeholder is fully visible */
+  opacity: 1; /* Ensures the placeholder is fully visible */
 }
-
 
 .search-bar {
   position: relative;
   display: inline-block;
   font-family: 'JetBrains Mono', monospace;
-
 }
 
 .search-bar input {
@@ -291,7 +275,6 @@ body.dark-mode input[type="text"]::placeholder {
 .search-bar i {
   position: absolute;
   right: 20px;
-
   top: 31%;
   transform: translateY(-50%);
   color: #555;
@@ -308,26 +291,6 @@ body.dark-mode input[type="text"]::placeholder {
 @media (min-width: 900px) {
   .card-container {
     grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .buttons {
-    flex-wrap: wrap;
-  }
-
-  .button {
-    flex: 1;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .buttons {
-    flex-wrap: wrap;
-  }
-
-  .button {
-    flex: 1;
   }
 }
 
@@ -366,8 +329,6 @@ body.dark-mode input[type="text"]::placeholder {
   transition: all 0.3s linear;
   font-size: 13px;
 }
-
-
 
 .explain-button:hover {
   color: #000;
@@ -413,6 +374,7 @@ body.dark-mode input[type="text"]::placeholder {
   text-align: center;
   font-weight: bolder;
   font-size: 25px;
+  padding-top: 25px;
 }
 
 .modal-paragraph {

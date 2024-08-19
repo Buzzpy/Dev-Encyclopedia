@@ -1,0 +1,18 @@
+{
+    "title": "Meta Tag",
+    "subtext": "HTML metadata element",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "Meta Tag",
+      "texts": [
+        "Meta tags are snippets of text that describe a page's content; they don't appear on the page itself but only in the page's code.",
+        "Meta tags are used by search engines to understand the content of a page, influencing its appearance in search results."
+      ],
+      "image": "https://miro.medium.com/v2/resize:fit:1030/1*Kx-Imo7ODdyBajkXHLvARg.png",
+      "references": [
+        "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta"
+      ]
+    }
+  }
+  

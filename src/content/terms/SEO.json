@@ -1,0 +1,18 @@
+{
+    "title": "Search Engine Optimization (SEO)",
+    "subtext": "Improving website visibility",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "Search Engine Optimization (SEO)",
+      "texts": [
+        "SEO (Search Engine Optimization) refers to the process of optimizing a website to improve its visibility in search engine results pages (SERPs).",
+        "It involves various techniques like keyword optimization, meta tag usage, and improving page load speed to increase the chances of ranking higher in search results."
+      ],
+      "image": "",
+      "references": [
+        "https://moz.com/learn/seo/what-is-seo"
+      ]
+    }
+  }
+  
