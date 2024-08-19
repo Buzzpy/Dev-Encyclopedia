@@ -1,0 +1,19 @@
+{
+    "title": "Svelt",
+    "subtext": "",
+    "category": "Front-end",
+    "author": "Eddocode",
+    "description": {
+      "title": "Svelt",
+      "texts": [
+        "A modern JavaScript framework for building user interfaces. Unlike traditional frameworks like React or Vue, Svelte shifts much of the work to compile time, converting components into highly efficient imperative code.",
+        "Svelte apps don't require a virtual DOM, resulting in faster performance and smaller bundle sizes, components are written using HTML, CSS, and JavaScript.",
+        "State changes automatically update the DOM without complex state management."
+   
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Svelte_Logo.svg",
+      "references": [
+        "https://svelte.dev/docs/component-directives"
+      ]
+    }
+  }
