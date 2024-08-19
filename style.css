@@ -13,7 +13,7 @@ body {
   color: var(--text-color);
   font-family: 'JetBrains Mono', monospace;
   margin: 0;
-  padding: 0 2rem;
+  padding: 0 1rem;
   transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
 }
 
@@ -115,6 +115,8 @@ img {
 .buttons {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
