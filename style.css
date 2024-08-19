@@ -156,7 +156,7 @@ img {
   color: #555;
 }
 
-.card-container {
+.cards-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
@@ -164,7 +164,7 @@ img {
 }
 
 @media (min-width: 900px) {
-  .card-container {
+  .cards-container {
     grid-template-columns: repeat(3, 1fr);
   }
 }
@@ -179,7 +179,13 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  transition: box-shadow .1s linear
+  transition: box-shadow .1s linear;
+  background: #FFF;
+  cursor: pointer;
+}
+
+.card img {
+  border-radius: 8px;
 }
 
 .card:hover {
@@ -190,26 +196,13 @@ img {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 
 .card-subtext {
   font-size: 18px;
   margin-bottom: 20px;
-}
-
-.explain-button {
-  background-color: var(--primary-color);
-  color: #ffffff;
-  padding: 18px;
-  border-radius: var(--border-radius);
-  font-family: 'JetBrains Mono', monospace;
   cursor: pointer;
-  width: 80%;
-  transition: all 0.3s linear;
-}
-
-.explain-button:hover {
-  box-shadow: 0 0 0 4px var(--hover-ring-color);
 }
 
 /* Modal Styles */
@@ -239,6 +232,16 @@ img {
   max-height: 70vh;
   background: #f8f8f8;
   box-shadow: 0px 0px 20px rgba(0,0,0,.1);
+  position: relative
+}
+
+#modal-content span.close {
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 #modal-body {
@@ -259,7 +262,7 @@ img {
   line-height: 1.5;
 }
 
-#modal-link {
+.modal-link {
   display: inline-block;
   margin-top: 20px;
   background-color: var(--secondary-color);
