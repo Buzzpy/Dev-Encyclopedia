@@ -1,15 +1,27 @@
+:root {
+  --primary-color: #1e1e1e; /* Darker color for buttons */
+  --secondary-color: #f8f8f8;
+  --text-color: #1e1e1e;
+  --shadow-color: rgba(0, 0, 0, 0.1); /* Transparent shadow */
+  --border-color: #cccccc;
+  --border-radius: 5px;
+  --hover-ring-color: rgba(30, 30, 30, 0.2);
+}
+
+body {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  font-family: 'JetBrains Mono', monospace;
+  margin: 0;
+  padding: 0 2rem;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+}
+
 img {
   max-width: 100%;
   height: auto;
 }
 
-body {
-  background-color: #fcfcfc;
-  color: #000000;
-  font-family: 'JetBrains Mono', monospace;
-  margin: 0;
-  padding: 0;
-}
 #sponsors-container {
   display: flex;
   flex-wrap: wrap;
@@ -22,12 +34,10 @@ body {
   align-items: center;
   flex: 1 1 auto;
   min-width: 250px;
-  box-sizing: border-box;
   margin-top: 20px;
   padding: 10px;
-  border: 1px solid #000000;
-  border-radius: 15px;
-  background-color: #ffffff;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
 }
 
 .sponsor-image {
@@ -42,7 +52,7 @@ body {
 .sponsor-name {
   font-size: 15px;
   font-weight: bold;
-  color: #000000;
+  color: var(--text-color);
   text-decoration: none;
   white-space: nowrap;
   overflow: hidden;
@@ -57,7 +67,7 @@ body {
 .sponsor-name-no-link {
   font-size: 15px;
   font-weight: bold;
-  color: #000000;
+  color: var(--text-color);
   text-decoration: none;
   white-space: nowrap;
   overflow: hidden;
@@ -109,48 +119,41 @@ body {
 }
 
 .button {
-  background-color: #ffffff;
-  border-width: 2px;
-  border-color: black;
-  color: #000000;
+  background-color: var(--primary-color);
+  color: #ffffff;
   padding: 15px 30px;
   font-family: 'JetBrains Mono', monospace;
   cursor: pointer;
   text-align: center;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   transition: all 0.3s linear;
 }
 
 .button:hover {
-  background-color: #000000;
-  color: #ffffff;
-  border-color: black;
+  box-shadow: 0 0 0 4px var(--hover-ring-color);
 }
 
 .search-bar {
   position: relative;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'JetBrains Mono', monospace;
 }
 
 .search-bar input {
-  padding: 15px 60px;
-  padding-left: 40px;
-  /* Space for the icon */
+  padding: 15px 40px 15px 20px;
   font-size: 1em;
-  border: 1px solid #000000;
+  border: 1px solid var(--border-color);
   border-radius: 35px;
   font-family: 'JetBrains Mono', monospace;
+  width: 80%;
+  max-width: 640px;
 }
 
 .search-bar i {
-  position: absolute;
-  right: 20px;
-
-  top: 31%;
-  transform: translateY(-50%);
+  transform: translateX(-32px);
   color: #555;
-  /* Adjust color as needed */
 }
 
 .card-container {
@@ -166,37 +169,21 @@ body {
   }
 }
 
-@media screen and (max-width: 600px) {
-  .buttons {
-    flex-wrap: wrap;
-  }
-
-  .button {
-    flex: 1;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .buttons {
-    flex-wrap: wrap;
-  }
-
-  .button {
-    flex: 1;
-  }
-}
-
 .card {
-  background-color: #fff;
-  color: #000;
-  border: 2px solid #000;
-  border-radius: 10px;
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
   padding: 20px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  transition: box-shadow .1s linear
+}
+
+.card:hover {
+  box-shadow: 0px 0px 24px #cccccc60
 }
 
 .card-title {
@@ -211,49 +198,47 @@ body {
 }
 
 .explain-button {
-  background-color: #000;
-  color: #fff;
+  background-color: var(--primary-color);
+  color: #ffffff;
   padding: 18px;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   font-family: 'JetBrains Mono', monospace;
   cursor: pointer;
   width: 80%;
   transition: all 0.3s linear;
 }
 
-
-
 .explain-button:hover {
-  color: #000;
-  background-color: #ffffff;
-  border: 2px solid black;
+  box-shadow: 0 0 0 4px var(--hover-ring-color);
 }
 
 /* Modal Styles */
 #modal {
+  box-sizing: border-box;
   display: none;
   position: fixed;
   z-index: 1;
   left: 0;
   top: 0;
-  width: 100%;
-  height: 100%;
+  bottom: 0;
+  right: 0;
   overflow: auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 #modal-content {
-  background-color: #ffffff;
-  color: black;
-  margin: 10% auto;
+  color: var(--text-color);
+  margin: 6rem auto 0rem;
   padding: 20px;
-  border: 2px solid #000;
-  border-radius: 10px;
+  border: 1px solid var(--border-color);
+  border-radius: var(--border-radius);
   width: 80%;
   max-width: 600px;
   font-family: 'JetBrains Mono', monospace;
   overflow-y: auto;
   max-height: 70vh;
+  background: #f8f8f8;
+  box-shadow: 0px 0px 20px rgba(0,0,0,.1);
 }
 
 #modal-body {
@@ -277,10 +262,10 @@ body {
 #modal-link {
   display: inline-block;
   margin-top: 20px;
-  background-color: #ffffff;
+  background-color: var(--secondary-color);
   color: indianred;
   border: none;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   font-size: 15px;
   text-align: center;
   font-family: 'JetBrains Mono', monospace;

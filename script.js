@@ -2989,3 +2989,9 @@ function closeModal(event) {
 // Add event listeners for both click and touchstart
 window.addEventListener('click', closeModal);
 window.addEventListener('touchstart', closeModal);
+window.addEventListener('keyup', (e) => {
+  if (e.key === '/') {
+    const input = document.querySelector('input').focus()
+    input.value = ''
+  }
+})
