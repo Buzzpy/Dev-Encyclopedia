@@ -168,6 +168,7 @@ img {
     border-radius: 5px;
     transition: all 0.3s linear;
     border-style: solid;
+    font-size: 13px;
   }
   
   .button:hover {
@@ -343,8 +344,9 @@ img {
     border-radius: 5px;
     font-family: 'JetBrains Mono', monospace;
     cursor: pointer;
-    width: 80%;
+    width: 85%;
     transition: all 0.3s linear;
+    font-size: 13px;
   }
   
   

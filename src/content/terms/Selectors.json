@@ -1,0 +1,18 @@
+{
+    "title": "Selectors",
+    "subtext": "Targeting HTML elements",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "Selectors",
+      "texts": [
+        "Selectors in CSS are patterns used to select the elements you want to style. They are one of the key components of CSS and are used to match the elements in the DOM.",
+        "Selectors can be as simple as targeting a specific tag or as complex as using pseudo-classes and pseudo-elements."
+      ],
+      "image": "https://web.dev/static/learn/css/selectors/image/an-image-a-css-rule-the-ced38545b4bec.svg",
+      "references": [
+        "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors"
+      ]
+    }
+  }
+  

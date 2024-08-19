@@ -1,0 +1,18 @@
+{
+    "title": "Cache",
+    "subtext": "Temporary storage for fast access",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "Cache",
+      "texts": [
+        "A cache is a hardware or software component that stores data so that future requests for that data can be served faster.",
+        "Caches are used to speed up retrieval by storing frequently accessed or recently accessed data."
+      ],
+      "image": "https://d1.awsstatic.com/diagrams/product-page-diagrams/diagram_cachingmicrosite.bed642d676814a94f1a77d56fe1c252861198fbe.png",
+      "references": [
+        "https://aws.amazon.com/caching/"
+      ]
+    }
+  }
+  

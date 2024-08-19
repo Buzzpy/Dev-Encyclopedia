@@ -1,0 +1,19 @@
+
+{
+    "title": "UX (User Experience)",
+    "subtext": "Overall experience with a product",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "UX (User Experience)",
+      "texts": [
+        "UX is about the overall experience a user has when interacting with a product or service, especially in terms of how easy and pleasant it is to use.",
+        "It encompasses all aspects of the end-user's interaction with the company, its services, and its products."
+      ],
+      "image": "https://blog.whooshpro.com/wp-content/uploads/2021/05/the-differences-between-ui-and-ux.png",
+      "references": [
+        "https://www.nngroup.com/articles/definition-user-experience/"
+      ]
+    }
+  }
+  

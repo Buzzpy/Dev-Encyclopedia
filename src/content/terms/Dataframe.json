@@ -1,0 +1,18 @@
+{
+    "title": "Dataframe",
+    "subtext": "Tabular data structure",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "Dataframe",
+      "texts": [
+        "A dataframe is a two-dimensional, size-mutable, and potentially heterogeneous tabular data structure commonly used in data manipulation and analysis.",
+        "Think of a dataframe as a spreadsheet with rows and columns, where each column can contain different types of data."
+      ],
+      "image": "https://pandas.pydata.org/docs/_images/01_table_dataframe.svg",
+      "references": [
+        "https://pandas.pydata.org/docs/getting_started/intro_tutorials/01_table_oriented.html"
+      ]
+    }
+  }
+  
