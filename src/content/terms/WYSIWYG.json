@@ -1,0 +1,18 @@
+{
+    "title": "WYSIWYG",
+    "subtext": "What You See Is What You Get editor",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "WYSIWYG",
+      "texts": [
+        "WYSIWYG (What You See Is What You Get) editors are a type of content editor that allows users to see what the final output will look like while the document is being created.",
+        "They are commonly used in content management systems to provide an easy-to-use interface for non-technical users."
+      ],
+      "image": "https://www.sketchappsources.com/resources/source-image/WYSIWYG-Editor.png",
+      "references": [
+        "https://en.wikipedia.org/wiki/WYSIWYG#:~:text=In%20computing%2C%20WYSIWYG%20(%2F%CB%88,web%20page%2C%20or%20slide%20presentation."
+      ]
+    }
+  }
+  

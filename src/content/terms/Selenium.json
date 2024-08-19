@@ -1,0 +1,18 @@
+{
+    "title": "Selenium",
+    "subtext": "Web browser automation tool",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "Selenium",
+      "texts": [
+        "Selenium is a tool for automating web browsers. It is primarily used for testing web applications, though it can be used for automating any web-based task.",
+        "Selenium supports multiple programming languages and can control major web browsers, making it a popular choice for web automation tasks."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Selenium_Logo.png",
+      "references": [
+        "https://www.selenium.dev/"
+      ]
+    }
+  }
+  

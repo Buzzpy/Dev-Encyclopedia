@@ -1,0 +1,18 @@
+{
+    "title": "RSS feed",
+    "subtext": "Web feed for updates",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "RSS feed",
+      "texts": [
+        "RSS (Really Simple Syndication) feed is a type of web feed that allows users to access updates to websites in a standardized, computer-readable format.",
+        "RSS feeds are commonly used by news sites, blogs, and other content distributors to notify readers of new content."
+      ],
+      "image": "https://images.ctfassets.net/lzny33ho1g45/1M3ZeUX3Y002aMRN6EGzlb/231459741e1ced7c42ad306098572f9d/rss_hero_image.png?w=1520&fm=jpg&q=30&fit=thumb&h=760",
+      "references": [
+        "https://www.lifewire.com/what-is-an-rss-feed-4684568"
+      ]
+    }
+  }
+  

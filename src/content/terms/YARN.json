@@ -1,0 +1,18 @@
+{
+    "title": "Yarn",
+    "subtext": "JavaScript package manager",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "Yarn",
+      "texts": [
+        "Yarn is a fast, reliable, and secure JavaScript package manager that provides an alternative to npm (Node Package Manager). It manages project dependencies and automates the installation, updating, and removal of packages.",
+        "Yarn focuses on speed, security, and consistency, ensuring that every developer’s project has the same setup."
+      ],
+      "image": "",
+      "references": [
+        "https://yarnpkg.com/"
+      ]
+    }
+  }
+  
