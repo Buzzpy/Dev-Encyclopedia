@@ -2,7 +2,8 @@ document.addEventListener('DOMContentLoaded', async function() {
     document.getElementById('aboutButton').addEventListener('click', showAbout);
     document.getElementById('builderButton').addEventListener('click', showBuilders);
     document.getElementById('sponsorButton').addEventListener('click', showSponsors);
-    document.getElementById('darkModeToggle').addEventListener('click', toggleDarkMode)
+    document.getElementById('darkModeToggle').addEventListener('click', toggleDarkMode);
+    document.getElementById('homeButton').addEventListener('click', goHome);
 
     // Fetch JSON file names from the API
     async function fetchJsonFileNames() {
@@ -25,6 +26,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
     const searchInput = document.getElementById('searchInput');
     const autocompleteList = document.getElementById('autocomplete-list');
+    const cardContainer = document.getElementById('cardContainer');
     const maxItems = 5;
 
     searchInput.addEventListener('input', function() {
@@ -32,7 +34,8 @@ document.addEventListener('DOMContentLoaded', async function() {
         autocompleteList.innerHTML = '';
 
         if (!input) {
-            return false;
+            // If the input is empty, do nothing (do not return to homepage view)
+            return; // Exit the function
         }
 
         let itemCount = 0;
@@ -50,10 +53,12 @@ document.addEventListener('DOMContentLoaded', async function() {
                 const item = document.createElement('div');
                 item.classList.add('autocomplete-item', 'list-group-item', 'list-group-item-action');
                 item.innerHTML = highlightedKeyword;
-                item.addEventListener('click', function() {
+                item.addEventListener('click', async function() {
                     searchInput.value = displayKeyword;
                     autocompleteList.innerHTML = '';
-                    filterCards();
+
+                    // Load and display the selected card
+                    await loadCardForKeyword(keyword);
                 });
                 autocompleteList.appendChild(item);
                 itemCount++;
@@ -72,36 +77,34 @@ document.addEventListener('DOMContentLoaded', async function() {
         }
     });
 
-    document.addEventListener('click', function(e) {
-        if (e.target !== searchInput) {
-            autocompleteList.innerHTML = '';
-        }
+    item.addEventListener('mousedown', async function(event) {
+        event.preventDefault(); // Prevent losing focus
+        searchInput.value = displayKeyword;
+        autocompleteList.innerHTML = '';
+    
+        // Load and display the selected card
+        await loadCardForKeyword(keyword);
+    
+        // Refocus the input box so the user can keep typing
+        searchInput.focus();
     });
 
-    // Search Functionality
-    searchInput.addEventListener('keyup', filterCards);
-
-    function filterCards() {
-        const filter = searchInput.value.toLowerCase();
-        const cards = document.getElementsByClassName('card');
-
-        for (let i = 0; i < cards.length; i++) {
-            const title = cards[i].getElementsByClassName('card-title')[0].innerText.toLowerCase();
-            const keywords = cards[i].getAttribute('data-keywords').toLowerCase().split(',');
-
-            // Check if the filter matches the title or any of the keywords
-            if (title.indexOf(filter) > -1 || keywords.some(keyword => keyword.includes(filter))) {
-                cards[i].style.display = '';
-            } else {
-                cards[i].style.display = 'none';
-            }
+    // Use event delegation to handle clicks on "Explain" buttons
+    cardContainer.addEventListener('click', function(event) {
+        if (event.target.classList.contains('explain-button')) {
+            const card = event.target.closest('.card');
+            const title = card.querySelector('.card-title').innerText;
+            const subtext = card.querySelector('.card-subtext').innerText;
+            // Handle the explanation display (e.g., show a modal, log to console, etc.)
+            console.log(`Explain button clicked for: ${title} - ${subtext}`);
+            // Or show your modal here with `title` and `subtext`
         }
-    }
+    });
 
     // Function to load and display the card for the selected keyword
     async function loadCardForKeyword(keyword) {
         try {
-            const response = await fetch(`/content/terms/${keyword}.json`); // Adjust the path as needed
+            const response = await fetch(`src/content/terms/${keyword}.json`); // Adjust the path as needed
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
@@ -113,12 +116,10 @@ document.addEventListener('DOMContentLoaded', async function() {
         }
     }
 
-    // Function to display the card
+    // Function to display the card centered on the screen
     function displayCard(data) {
-        const cardContainer = document.getElementById('cardContainer');
-        
         let descriptionContent = '';
-        
+
         if (typeof data.description === 'object') {
             for (const [key, value] of Object.entries(data.description)) {
                 if (key === 'texts') {
@@ -138,22 +139,41 @@ document.addEventListener('DOMContentLoaded', async function() {
         }
 
         cardContainer.innerHTML = `
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">${data.title || 'No Title'}</h5>
-                    <div class="card-text">${descriptionContent}</div>
+            <div class="card-centered">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">${data.title || 'No Title'}</h5>
+                        <div class="card-text">${descriptionContent}</div>
+                    </div>
                 </div>
             </div>
         `;
+
+        // Set the height to 'auto' so it adjusts to the content and screen size
+        cardContainer.style.height = 'auto';
+        cardContainer.style.maxWidth = '100%';
+        cardContainer.style.padding = '10px';
+        cardContainer.style.boxSizing = 'border-box';
+        // Adjust the styles as needed
+        cardContainer.style.display = 'flex';
+        cardContainer.style.justifyContent = 'center';
+        cardContainer.style.alignItems = 'center';
+        cardContainer.style.marginTop = '20px';
     }
 
     // Function to close the modal
     function closeModal(event) {
-        const modal = document.getElementById('modal');
-        if (event.target == modal) {
-            modal.style.display = 'none';
-            const cardContainer = document.getElementById('cardContainer');
-            cardContainer.style.pointerEvents = 'all';
+        if (event.target === cardContainer) {
+            cardContainer.style.display = 'none'; // Hide the card container
+        }
+    }
+
+    window.addEventListener('click', closeModal);
+
+    // Function to close the modal
+    function closeModal(event) {
+        if (event.target === cardContainer) {
+            cardContainer.style.display = 'none'; // Hide the card container
         }
     }
 
@@ -173,6 +193,10 @@ document.addEventListener('DOMContentLoaded', async function() {
         <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nkgm404nnkmjqvhjvl61.png" alt="Chenuli Signature"/>
       `;
         modal.style.display = 'block';
+    }
+
+    function goHome() {
+        window.location.href='/'
     }
 
     function showBuilders() {
