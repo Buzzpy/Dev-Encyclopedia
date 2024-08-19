@@ -1,0 +1,17 @@
+{
+  "title": "SSL",
+  "subtext": "Secure Sockets Layer",
+  "category": "all",
+  "author": "RayMathew",
+  "description": {
+    "title": "SSL",
+    "texts": [
+      "SSL, or Secure Sockets Layer, is an encryption-based Internet security protocol.",
+      "SSL is primarily used to secure communications between a client and a server, such as a web browser and a website, or a mail server and a mail client. It can also secure email, VoIP, and other communications over unsecured networks. SSL prevents hackers from seeing or stealing information transferred, including personal or financial data."
+    ],
+    "image": "https://www.cloudflare.com/img/learning/security/glossary/what-is-ssl/http-vs-https.svg",
+    "references": [
+      "https://www.cloudflare.com/learning/ssl/what-is-ssl"
+    ]
+  }
+}
