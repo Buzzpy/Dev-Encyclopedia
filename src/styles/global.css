@@ -159,6 +159,11 @@ body {
   margin: 20px 0;
 }
 
+.autocomplete-item.active {
+  background-color: #444d46; /* Green background */
+  color: white; /* White text color */
+}
+
 .buttons {
   display: flex;
   justify-content: center;
