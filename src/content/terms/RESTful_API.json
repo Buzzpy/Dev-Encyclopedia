@@ -1,17 +1,17 @@
 {
-  "title": "REST API",
-  "subtext": "Representational State Transfer Application Programming Interface",
+  "title": "RESTful API",
+  "subtext": "An API that follows REST principles",
   "category": "all",
   "author": "Buzzpy",
   "description": {
-    "title": "REST API",
+    "title": "RESTful API",
     "texts": [
-      "REST API (Representational State Transfer Application Programming Interface) is a set of rules and conventions for building and interacting with web services. It uses HTTP requests to perform CRUD (Create, Read, Update, Delete) operations between a client and a server.",
-      "REST APIs are stateless, meaning each request from a client to the server must contain all the information needed to understand and process the request. This makes them highly scalable and suitable for distributed environments."
+      "A RESTful API is an API that adheres to the principles of REST (Representational State Transfer). It uses HTTP requests to perform CRUD (Create, Read, Update, Delete) operations on resources, and responses are typically in JSON or XML format.",
+      "RESTful APIs are stateless, meaning each request from the client to the server must contain all the information the server needs to fulfill the request. They use standard HTTP methods like GET, POST, PUT, DELETE to interact with resources."
     ],
     "image": "https://miro.medium.com/v2/resize:fit:1358/1*O5cUaAZp9blbN9RuSeglLQ.png",
     "references": [
-      "https://restfulapi.net/"
+      "https://aws.amazon.com/what-is/restful-api/"
     ]
   }
 }
