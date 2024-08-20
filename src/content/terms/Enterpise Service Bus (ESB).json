@@ -6,8 +6,7 @@
     "description": {
       "title": "Enterprise Service Bus (ESB)",
       "texts": [
-        "An Enterprise Service Bus (ESB) is a software product that provides a platform for integrating various applications in a service-oriented architecture (SOA) environment, managing web services, and message brokering between them.",
-        "SSR is often used in modern web development frameworks like Next.js to deliver faster page load times and better user experiences."
+        "An Enterprise Service Bus (ESB) is a software product that provides a platform for integrating various applications in a service-oriented architecture (SOA) environment, managing web services, and message brokering between them."
       ],
       "image": "https://it.ucla.edu/sites/default/files/media/images/esb_diagrams_1b.jpg",
       "references": [
