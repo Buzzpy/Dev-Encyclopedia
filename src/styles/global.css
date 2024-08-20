@@ -166,6 +166,7 @@ body {
 
 .buttons {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
 }
@@ -183,12 +184,19 @@ body {
   transition: all 0.3s linear;
   border-style: solid;
   font-size: 13px;
+  flex: 0 1 auto; /* Only shrink, do not grow */
 }
 
 .button:hover {
   background-color: #000000;
   color: #ffffff;
   border-color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .button {
+    flex: 1 1 auto; /* Allow buttons to wrap without taking full width */
+  }
 }
 
 body.dark-mode {
