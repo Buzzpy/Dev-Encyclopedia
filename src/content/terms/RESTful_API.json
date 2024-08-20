@@ -1,12 +1,17 @@
 {
-  "title": "RESTful API",
-  "subtext": "API using standard HTTP methods",
+  "title": "REST API",
+  "subtext": "Representational State Transfer Application Programming Interface",
   "category": "all",
   "author": "Buzzpy",
   "description": {
-    "title": "",
-    "texts": [],
-    "image": "",
-    "references": []
+    "title": "REST API",
+    "texts": [
+      "REST API (Representational State Transfer Application Programming Interface) is a set of rules and conventions for building and interacting with web services. It uses HTTP requests to perform CRUD (Create, Read, Update, Delete) operations between a client and a server.",
+      "REST APIs are stateless, meaning each request from a client to the server must contain all the information needed to understand and process the request. This makes them highly scalable and suitable for distributed environments."
+    ],
+    "image": "https://miro.medium.com/v2/resize:fit:1358/1*O5cUaAZp9blbN9RuSeglLQ.png",
+    "references": [
+      "https://restfulapi.net/"
+    ]
   }
 }
