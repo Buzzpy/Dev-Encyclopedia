@@ -1,0 +1,17 @@
+{
+  "title": "Static Code Analysis",
+  "subtext": "Examining vulnerabilities in source code",
+  "category": "all",
+  "author": "RayMathew",
+  "description": {
+    "title": "Static Code Analysis",
+    "texts": [
+      "Static Code Analysis commonly refers to the running of Static Code Analysis tools that attempt to highlight possible vulnerabilities within 'static' (non-running) source code.",
+      "It can help identify potential problems, code smells, and violations of coding standards by analyzing the code's structure, syntax, and dependencies. It can also help developers adhere to security and compliance standards."
+    ],
+    "image": "",
+    "references": [
+      "https://owasp.org/www-community/controls/Static_Code_Analysis"
+    ]
+  }
+}
