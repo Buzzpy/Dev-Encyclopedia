@@ -69,8 +69,16 @@ Found some important information missing? Please open a Pull Request and help im
 
 Thank you for contributing to the Dev Encyclopedia!
 
-### Notable Contributors
-_This sections is coming soon..._
+### 🎖️ Notable Contributors
+
+We are grateful to our outstanding contributors who have significantly impacted this project. Check out their profiles below!
+
+| Contributor Name | LinkedIn | GitHub |
+|:------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:|
+| **Ray Mathew (@RayMathew)**                                  | [![LinkedIn](https://img.shields.io/badge/-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/ray-mathew7/) | [![GitHub](https://img.shields.io/badge/-Profile-black?style=flat&logo=github)](https://github.com/RayMathew) |
+| **Amine Naqi (@Rodelph)**                              | [![LinkedIn](https://img.shields.io/badge/-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/amine-naqi-aa898724b/) | [![GitHub](https://img.shields.io/badge/-Profile-black?style=flat&logo=github)](https://github.com/Rodelph) |
+
+
 
 ### Sponsoring
 A few dollars toward hosting and domain costs would be appreciated! Also, a sponsor page would be dedicated to the website so it's a win-win.
