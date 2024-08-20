@@ -1,0 +1,17 @@
+{
+  "title": "CORS",
+  "subtext": "Cross Origin Resource Sharing",
+  "category": "all",
+  "author": "RayMathew",
+  "description": {
+    "title": "CORS",
+    "texts": [
+      "Cross-origin resource sharing (CORS) is a security mechanism that allows web browsers to access resources from domains other than the one serving the application.",
+      "For example, your application may use your browser to pull videos from a video platform API, use fonts from a public font library, or display weather data from a national weather database. CORS allows the client browser to check with the third-party servers if the request is authorized before any data transfers."
+    ],
+    "image": "",
+    "references": [
+      "https://aws.amazon.com/what-is/cross-origin-resource-sharing"
+    ]
+  }
+}
