@@ -8,20 +8,28 @@ document.addEventListener('DOMContentLoaded', async function() {
     const heroTitle = document.getElementById('heroTitle');
     const heroParagraph = document.getElementById('heroParagraph');
     const heroButtons = document.getElementById('heroButtons');
+    const cardContainer = document.getElementById('cardContainer');
 
     // Add event listener to the search input
     searchInput.addEventListener('input', function() {
-        if (searchInput.value.trim() === '') {
+        const inputValue = searchInput.value.trim();
+
+        if (inputValue === '') {
             // Show elements when search input is empty
             heroTitle.style.display = 'block';
             heroParagraph.style.display = 'block';
             heroButtons.style.display = 'flex';
+            cardContainer.style.marginTop = '50px'; // Adjust margin when search is empty
         } else {
             // Hide elements when search input has text
             heroTitle.style.display = 'none';
             heroParagraph.style.display = 'none';
             heroButtons.style.display = 'none';
+            cardContainer.style.marginTop = '0px'; // Reset margin when search is active
         }
+
+        // Ensure the autocomplete list is on top
+        autocompleteList.style.zIndex = '9999';
     });
 
     let currentFocus = -1; // Track the currently focused item in the autocomplete list
@@ -53,6 +61,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         currentFocus = -1;
 
         if (!input) {
+            cardContainer.style.marginTop = '50px'; // Adjust margin when no input
             return false;
         }
 
@@ -75,13 +84,19 @@ document.addEventListener('DOMContentLoaded', async function() {
                     searchInput.value = displayKeyword;
                     autocompleteList.innerHTML = '';
                     filterCards();
+                    cardContainer.style.marginTop = '50px'; // Adjust margin when an item is selected
                 });
                 autocompleteList.appendChild(item);
                 itemCount++;
             }
         });
 
-        autocompleteList.classList.add('list-group', 'shadow', 'position-absolute', 'w-100', 'mt-1');
+        if (itemCount > 0) {
+            autocompleteList.classList.add('list-group', 'shadow', 'position-absolute', 'w-100', 'mt-1');
+            cardContainer.style.marginTop = `${(itemCount + 1) * 38}px`; // Adjust margin based on number of items
+        } else {
+            cardContainer.style.marginTop = '50px'; // Reset margin if no items
+        }
 
         if (itemCount > maxItems) {
             autocompleteList.style.maxHeight = `${maxItems * 38}px`;
@@ -126,6 +141,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     document.addEventListener('click', function(e) {
         if (e.target !== searchInput) {
             autocompleteList.innerHTML = '';
+            cardContainer.style.marginTop = '50px'; // Adjust margin when clicking outside
         }
     });
 
