@@ -1,0 +1,16 @@
+{
+  "title": "FTP",
+  "subtext": "File Transfer Protocol",
+  "category": "all",
+  "author": "RayMathew",
+  "description": {
+    "title": "FTP",
+    "texts": [
+      "FTP (File Transfer Protocol) is a standard network protocol used for the transfer of files from one host to another over a TCP-based network, such as the Internet."
+    ],
+    "image": "https://images.ctfassets.net/bg6mjhdcqk2h/3kFoQpGfA7LNgm6kG5lq2W/b93b67522195335aec9c5b172d2e6500/Raysync_FTP_Server.png",
+    "references": [
+      "https://www.fortinet.com/resources/cyberglossary/file-transfer-protocol-ftp-meaning"
+    ]
+  }
+}
