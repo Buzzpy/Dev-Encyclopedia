@@ -57,6 +57,7 @@ document.addEventListener('DOMContentLoaded', async function() {
                     searchInput.value = displayKeyword;
                     autocompleteList.innerHTML = '';
                     filterCards();
+                    searchInput.focus();
                 });
                 autocompleteList.appendChild(item);
                 itemCount++;
