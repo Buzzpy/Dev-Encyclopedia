@@ -5,51 +5,25 @@ document.addEventListener('DOMContentLoaded', async function() {
     document.getElementById('darkModeToggle').addEventListener('click', toggleDarkMode);
 
     const searchInput = document.getElementById('searchInput');
-    const heroTitle = document.getElementById('heroTitle');
-    const heroParagraph = document.getElementById('heroParagraph');
-    const heroButtons = document.getElementById('heroButtons');
-    const cardContainer = document.getElementById('cardContainer');
-
-    // Add event listener to the search input
-    searchInput.addEventListener('input', function() {
-        const inputValue = searchInput.value.trim();
-
-        if (inputValue === '') {
-            // Show elements when search input is empty
-            heroTitle.style.display = 'block';
-            heroParagraph.style.display = 'block';
-            heroButtons.style.display = 'flex';
-            cardContainer.style.marginTop = '50px'; // Adjust margin when search is empty
-        } else {
-            // Hide elements when search input has text
-            heroTitle.style.display = 'none';
-            heroParagraph.style.display = 'none';
-            heroButtons.style.display = 'none';
-            cardContainer.style.marginTop = '0px'; // Reset margin when search is active
-        }
-
-        // Ensure the autocomplete list is on top
-        autocompleteList.style.zIndex = '9999';
-    });
 
     let currentFocus = -1; // Track the currently focused item in the autocomplete list
 
     // Fetch JSON file names from the API
-    async function fetchJsonFileNames() {
+    async function fetchJsonTitles() {
         try {
-            const response = await fetch('/api/json-files');
+            const response = await fetch('/api/json-files'); // Adjust the path if necessary
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
-            const data = await response.json();
-            return data;
+            const titles = await response.json();
+            return titles;
         } catch (error) {
-            console.error('Error fetching JSON files:', error);
+            console.error('Error fetching JSON titles:', error);
             return [];
         }
     }
 
-    const keywords = await fetchJsonFileNames();
+    const keywords = await fetchJsonTitles();
     console.log('Keywords for autocomplete:', keywords);
 
     const autocompleteList = document.getElementById('autocomplete-list');
@@ -61,7 +35,6 @@ document.addEventListener('DOMContentLoaded', async function() {
         currentFocus = -1;
 
         if (!input) {
-            cardContainer.style.marginTop = '50px'; // Adjust margin when no input
             return false;
         }
 
@@ -84,19 +57,13 @@ document.addEventListener('DOMContentLoaded', async function() {
                     searchInput.value = displayKeyword;
                     autocompleteList.innerHTML = '';
                     filterCards();
-                    cardContainer.style.marginTop = '50px'; // Adjust margin when an item is selected
                 });
                 autocompleteList.appendChild(item);
                 itemCount++;
             }
         });
 
-        if (itemCount > 0) {
-            autocompleteList.classList.add('list-group', 'shadow', 'position-absolute', 'w-100', 'mt-1');
-            cardContainer.style.marginTop = `${(itemCount + 1) * 38}px`; // Adjust margin based on number of items
-        } else {
-            cardContainer.style.marginTop = '50px'; // Reset margin if no items
-        }
+        autocompleteList.classList.add('list-group', 'shadow', 'position-absolute', 'w-100', 'mt-1');
 
         if (itemCount > maxItems) {
             autocompleteList.style.maxHeight = `${maxItems * 38}px`;
@@ -141,7 +108,6 @@ document.addEventListener('DOMContentLoaded', async function() {
     document.addEventListener('click', function(e) {
         if (e.target !== searchInput) {
             autocompleteList.innerHTML = '';
-            cardContainer.style.marginTop = '50px'; // Adjust margin when clicking outside
         }
     });
 
@@ -161,52 +127,6 @@ document.addEventListener('DOMContentLoaded', async function() {
                 cards[i].style.display = 'none';
             }
         }
-    }
-
-    async function loadCardForKeyword(keyword) {
-        try {
-            const response = await fetch(`/content/terms/${keyword}.json`);
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            const data = await response.json();
-            displayCard(data);
-        } catch (error) {
-            console.error('Error fetching JSON data:', error);
-        }
-    }
-
-    function displayCard(data) {
-        const cardContainer = document.getElementById('cardContainer');
-
-        let descriptionContent = '';
-
-        if (typeof data.description === 'object') {
-            for (const [key, value] of Object.entries(data.description)) {
-                if (key === 'texts') {
-                    descriptionContent += value.map(text => `<p>${text}</p>`).join('');
-                } else if (key === 'image') {
-                    descriptionContent += `<img src="${value}" alt="${data.title}" class="img-fluid mb-3">`;
-                } else if (key === 'references') {
-                    descriptionContent += `<h6>References:</h6><ul>` +
-                        value.map(ref => `<li><a href="${ref}" target="_blank">${ref}</a></li>`).join('') +
-                        `</ul>`;
-                } else {
-                    descriptionContent += `<p><strong>${key}:</strong> ${value}</p>`;
-                }
-            }
-        } else {
-            descriptionContent = data.description || 'No Description';
-        }
-
-        cardContainer.innerHTML = `
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">${data.title || 'No Title'}</h5>
-                    <div class="card-text">${descriptionContent}</div>
-                </div>
-            </div>
-        `;
     }
 
     function closeModal(event) {
@@ -280,7 +200,6 @@ document.addEventListener('DOMContentLoaded', async function() {
     function toggleDarkMode() {
       const body = document.body;
       const toggleButton = document.getElementById('darkModeToggle');
-      const darkModeText = document.getElementById('darkModeText');
       
       body.classList.toggle('dark-mode');
       
