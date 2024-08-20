@@ -1,0 +1,16 @@
+{
+  "title": "Memoization",
+  "subtext": "A method of speeding up programs",
+  "category": "all",
+  "author": "RayMathew",
+  "description": {
+    "title": "Memoization",
+    "texts": [
+      "Memoization or memoisation is an optimization technique used primarily to speed up computer programs by storing the results of expensive function calls to pure functions and returning the cached result when the same inputs occur again."
+    ],
+    "image": "",
+    "references": [
+      "https://en.wikipedia.org/wiki/Memoization"
+    ]
+  }
+}

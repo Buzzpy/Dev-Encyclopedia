@@ -1,0 +1,17 @@
+{
+  "title": "Consistent Hashing",
+  "subtext": "A hashing algorithm for distributed systems",
+  "category": "all",
+  "author": "RayMathew",
+  "description": {
+    "title": "Consistent Hashing",
+    "texts": [
+      "Consistent Hashing is a distributed hashing scheme that operates independently of the number of servers or objects in a distributed hash table by assigning them a position on an abstract circle, or hash ring.",
+      "The goal of the algorithm to minimize the number of keys that need to be moved when nodes are added or removed from the cluster, thus reducing the impact of these changes on the overall system."
+    ],
+    "image": "https://media.licdn.com/dms/image/D5612AQF7xNod2WiFqQ/article-cover_image-shrink_720_1280/0/1666715227884?e=2147483647&v=beta&t=nXMvPMd-4DNoEg7YWI8nT0WMTD-SSuZdsE2Pla04Uj0",
+    "references": [
+      "https://highscalability.com/consistent-hashing-algorithm/"
+    ]
+  }
+}

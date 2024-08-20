@@ -1,0 +1,16 @@
+{
+  "title": "Network Latency",
+  "subtext": "A delay in network communication",
+  "category": "all",
+  "author": "RayMathew",
+  "description": {
+    "title": "Network Latency",
+    "texts": [
+      "Network latency is the delay in network communication. It shows the time that data takes to transfer across the network. Networks with a longer delay or lag have high latency, while those with fast response times have low latency."
+    ],
+    "image": "https://www.keycdn.com/img/support/network-latency-lg@2x.webp",
+    "references": [
+      "https://aws.amazon.com/what-is/latency"
+    ]
+  }
+}
