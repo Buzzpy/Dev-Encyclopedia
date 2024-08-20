@@ -2,7 +2,27 @@ document.addEventListener('DOMContentLoaded', async function() {
     document.getElementById('aboutButton').addEventListener('click', showAbout);
     document.getElementById('builderButton').addEventListener('click', showBuilders);
     document.getElementById('sponsorButton').addEventListener('click', showSponsors);
-    document.getElementById('darkModeToggle').addEventListener('click', toggleDarkMode)
+    document.getElementById('darkModeToggle').addEventListener('click', toggleDarkMode);
+
+    const searchInput = document.getElementById('searchInput');
+    const heroTitle = document.getElementById('heroTitle');
+    const heroParagraph = document.getElementById('heroParagraph');
+    const heroButtons = document.getElementById('heroButtons');
+
+    // Add event listener to the search input
+    searchInput.addEventListener('input', function() {
+        if (searchInput.value.trim() === '') {
+            // Show elements when search input is empty
+            heroTitle.style.display = 'block';
+            heroParagraph.style.display = 'block';
+            heroButtons.style.display = 'flex';
+        } else {
+            // Hide elements when search input has text
+            heroTitle.style.display = 'none';
+            heroParagraph.style.display = 'none';
+            heroButtons.style.display = 'none';
+        }
+    });
 
     let currentFocus = -1; // Track the currently focused item in the autocomplete list
 
@@ -24,7 +44,6 @@ document.addEventListener('DOMContentLoaded', async function() {
     const keywords = await fetchJsonFileNames();
     console.log('Keywords for autocomplete:', keywords);
 
-    const searchInput = document.getElementById('searchInput');
     const autocompleteList = document.getElementById('autocomplete-list');
     const maxItems = 5;
 

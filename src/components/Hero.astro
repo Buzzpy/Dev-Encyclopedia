@@ -6,7 +6,7 @@
     <div id="autocomplete-list"></div> 
   </div>
 
-  <div class="buttons">
+  <div class="buttons" id="heroButtons">
     <button class="button" id="aboutButton">
       <i class="fas fa-user" style="padding-right: 10px;"></i> About;
     </button>
@@ -27,16 +27,15 @@
     </button>
   </div>
   
-  <div class="hero-title" style="padding-top: 50px;">Dev Encyclopedia;</div>
-    <div class="hero-paragraph">Find out what that Sr. Developer is talking about.</div>
-  </div>
+  <div class="hero-title" id="heroTitle" style="padding-top: 50px;">Dev Encyclopedia;</div>
+  <div class="hero-paragraph" id="heroParagraph">Find out what that Sr. Developer is talking about.</div>
+</div>
   
-  <!-- Modal Structure (should be present in your main layout or index.astro) -->
-  <div id="modal">
-    <div id="modal-content">
-      <div id="modal-body"></div>
-    </div>
+<!-- Modal Structure (should be present in your main layout or index.astro) -->
+<div id="modal">
+  <div id="modal-content">
+    <div id="modal-body"></div>
   </div>
-  
+</div>
+
 <script is:inline src="/hero-action.js"></script>
-  
