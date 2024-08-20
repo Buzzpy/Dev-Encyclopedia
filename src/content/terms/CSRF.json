@@ -1,0 +1,16 @@
+{
+  "title": "CSRF",
+  "subtext": "Cross-Site Request Forgery",
+  "category": "all",
+  "author": "RayMathew",
+  "description": {
+    "title": "CSRF",
+    "texts": [
+      "Cross-site request forgery (CSRF) is a type of web application exploit that involves tricking a trusted user into performing unwanted actions. CSRF is also known as XSRF, one-click attack, or session riding."
+    ],
+    "image": "https://images.ctfassets.net/4un77bcsnjzw/1kzDKGcv6RLKG8nxaqmyW9/f15d8c2142ce542cbfc9348326969071/DiagramExport__1_.svg",
+    "references": [
+      "https://owasp.org/www-community/attacks/csrf"
+    ]
+  }
+}
