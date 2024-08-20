@@ -5,43 +5,25 @@ document.addEventListener('DOMContentLoaded', async function() {
     document.getElementById('darkModeToggle').addEventListener('click', toggleDarkMode);
 
     const searchInput = document.getElementById('searchInput');
-    const heroTitle = document.getElementById('heroTitle');
-    const heroParagraph = document.getElementById('heroParagraph');
-    const heroButtons = document.getElementById('heroButtons');
-
-    // Add event listener to the search input
-    searchInput.addEventListener('input', function() {
-        if (searchInput.value.trim() === '') {
-            // Show elements when search input is empty
-            heroTitle.style.display = 'block';
-            heroParagraph.style.display = 'block';
-            heroButtons.style.display = 'flex';
-        } else {
-            // Hide elements when search input has text
-            heroTitle.style.display = 'none';
-            heroParagraph.style.display = 'none';
-            heroButtons.style.display = 'none';
-        }
-    });
 
     let currentFocus = -1; // Track the currently focused item in the autocomplete list
 
     // Fetch JSON file names from the API
-    async function fetchJsonFileNames() {
+    async function fetchJsonTitles() {
         try {
-            const response = await fetch('/api/json-files');
+            const response = await fetch('/api/json-files'); // Adjust the path if necessary
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
-            const data = await response.json();
-            return data;
+            const titles = await response.json();
+            return titles;
         } catch (error) {
-            console.error('Error fetching JSON files:', error);
+            console.error('Error fetching JSON titles:', error);
             return [];
         }
     }
 
-    const keywords = await fetchJsonFileNames();
+    const keywords = await fetchJsonTitles();
     console.log('Keywords for autocomplete:', keywords);
 
     const autocompleteList = document.getElementById('autocomplete-list');
@@ -147,52 +129,6 @@ document.addEventListener('DOMContentLoaded', async function() {
         }
     }
 
-    async function loadCardForKeyword(keyword) {
-        try {
-            const response = await fetch(`/content/terms/${keyword}.json`);
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            const data = await response.json();
-            displayCard(data);
-        } catch (error) {
-            console.error('Error fetching JSON data:', error);
-        }
-    }
-
-    function displayCard(data) {
-        const cardContainer = document.getElementById('cardContainer');
-
-        let descriptionContent = '';
-
-        if (typeof data.description === 'object') {
-            for (const [key, value] of Object.entries(data.description)) {
-                if (key === 'texts') {
-                    descriptionContent += value.map(text => `<p>${text}</p>`).join('');
-                } else if (key === 'image') {
-                    descriptionContent += `<img src="${value}" alt="${data.title}" class="img-fluid mb-3">`;
-                } else if (key === 'references') {
-                    descriptionContent += `<h6>References:</h6><ul>` +
-                        value.map(ref => `<li><a href="${ref}" target="_blank">${ref}</a></li>`).join('') +
-                        `</ul>`;
-                } else {
-                    descriptionContent += `<p><strong>${key}:</strong> ${value}</p>`;
-                }
-            }
-        } else {
-            descriptionContent = data.description || 'No Description';
-        }
-
-        cardContainer.innerHTML = `
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">${data.title || 'No Title'}</h5>
-                    <div class="card-text">${descriptionContent}</div>
-                </div>
-            </div>
-        `;
-    }
-
     function closeModal(event) {
         const modal = document.getElementById('modal');
         if (event.target == modal) {
@@ -264,7 +200,6 @@ document.addEventListener('DOMContentLoaded', async function() {
     function toggleDarkMode() {
       const body = document.body;
       const toggleButton = document.getElementById('darkModeToggle');
-      const darkModeText = document.getElementById('darkModeText');
       
       body.classList.toggle('dark-mode');
       
