@@ -37,7 +37,7 @@ Found some important information missing? Please open a Pull Request and help im
    - Replace `your-username` with your GitHub username.
 
 3. **Create a New Branch (Optional but Recommended):**
-   - While it’s not required, we recommend creating a new branch for your changes to keep your `main` branch clean.
+   - While it’s not required, we recommend creating a new branch for your changes to keep your `master` branch clean.
    - Use the following command:
      ```bash
      git checkout -b feature-branch
@@ -65,7 +65,7 @@ Found some important information missing? Please open a Pull Request and help im
    - Make sure to describe the changes you’ve made and why they’re beneficial to the project.
 
 8. **Get Your PR Merged:**
-   - Once your PR is reviewed and approved, it will be merged into the `main` branch, which is automatically deployed.
+   - Once your PR is reviewed and approved, it will be merged into the `master` branch, which is automatically deployed.
 
 Thank you for contributing to the Dev Encyclopedia!
 
