@@ -1,0 +1,18 @@
+{
+    "title": "JavaScript",
+    "subtext": "Dynamic scripting language for web development",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "JavaScript",
+      "texts": [
+        "JavaScript is a versatile, high-level programming language that enables interactive web pages. It is one of the core technologies of the World Wide Web, alongside HTML and CSS.",
+        "JavaScript is widely used for front-end development, enabling dynamic content, form validation, and interactivity in web applications."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/1024px-JavaScript-logo.png",
+      "references": [
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      ]
+    }
+  }
+  

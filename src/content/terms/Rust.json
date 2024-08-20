@@ -1,0 +1,18 @@
+{
+    "title": "Rust",
+    "subtext": "A programming language",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "Rust",
+      "texts": [
+        "Rust is a systems programming language focused on safety, speed, and concurrency. It is designed to prevent common programming errors such as null pointer dereferencing and data races.",
+        "Rust is often used for developing high-performance applications, including web browsers, operating systems, and game engines."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/1024px-Rust_programming_language_black_logo.svg.png",
+      "references": [
+        "https://www.rust-lang.org/"
+      ]
+    }
+  }
+  

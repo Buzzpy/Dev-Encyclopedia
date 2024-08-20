@@ -1,0 +1,18 @@
+{
+    "title": "Jupyter Notebook",
+    "subtext": "Interactive computing environment",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "Jupyter Notebook",
+      "texts": [
+        "Jupyter Notebook is an open-source web application that allows users to create and share documents that contain live code, equations, visualizations, and narrative text.",
+        "It is widely used in data science, machine learning, and research for its ability to support interactive data analysis and visualization with languages like Python, R, and Julia."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1024px-Jupyter_logo.svg.png",
+      "references": [
+        "https://jupyter.org/"
+      ]
+    }
+  }
+  

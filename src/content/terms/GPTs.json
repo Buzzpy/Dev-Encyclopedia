@@ -1,0 +1,18 @@
+{
+    "title": "GPTs",
+    "subtext": "Generative Pre-trained Transformers",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "GPTs",
+      "texts": [
+        "GPTs (Generative Pre-trained Transformers) are advanced AI models developed by OpenAI that can generate human-like text based on a given prompt.",
+        "They are used in various applications, including chatbots, content creation, and language translation, leveraging deep learning techniques to produce coherent and contextually relevant text."
+      ],
+      "image": "",
+      "references": [
+        "https://writesonic.com/blog/what-are-gpts"
+      ]
+    }
+  }
+  

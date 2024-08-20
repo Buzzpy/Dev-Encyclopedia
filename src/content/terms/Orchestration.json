@@ -1,0 +1,18 @@
+{
+    "title": "Orchestration",
+    "subtext": "Automated management of containers",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "Orchestration",
+      "texts": [
+        "Orchestration refers to the automated configuration, management, and coordination of computer systems, applications, and services, particularly in cloud environments.",
+        "In containerized environments, tools like Kubernetes are used for orchestration, managing the deployment, scaling, and operations of containers across clusters."
+      ],
+      "image": "https://pliant.io/wp-content/uploads/2022/10/orchestration-vs-automation.png",
+      "references": [
+        "https://en.wikipedia.org/wiki/Orchestration_(computing)"
+      ]
+    }
+  }
+  

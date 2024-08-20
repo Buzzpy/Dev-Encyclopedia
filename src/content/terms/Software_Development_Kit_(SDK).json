@@ -1,0 +1,18 @@
+{
+    "title": "SDK",
+    "subtext": "Software Development Kit",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "SDK",
+      "texts": [
+        "A Software Development Kit (SDK) is a collection of tools, libraries, documentation, and sample code that developers use to build applications for a specific platform or environment.",
+        "SDKs often include APIs, debuggers, emulators, and other utilities that streamline the development process and help ensure compatibility with the target platform."
+      ],
+      "image": "",
+      "references": [
+        "https://en.wikipedia.org/wiki/Software_development_kit"
+      ]
+    }
+  }
+  
