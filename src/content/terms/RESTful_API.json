@@ -1,12 +1,17 @@
 {
   "title": "RESTful API",
-  "subtext": "API using standard HTTP methods",
+  "subtext": "An API that follows REST principles",
   "category": "all",
   "author": "Buzzpy",
   "description": {
-    "title": "",
-    "texts": [],
-    "image": "",
-    "references": []
+    "title": "RESTful API",
+    "texts": [
+      "A RESTful API is an API that adheres to the principles of REST (Representational State Transfer). It uses HTTP requests to perform CRUD (Create, Read, Update, Delete) operations on resources, and responses are typically in JSON or XML format.",
+      "RESTful APIs are stateless, meaning each request from the client to the server must contain all the information the server needs to fulfill the request. They use standard HTTP methods like GET, POST, PUT, DELETE to interact with resources."
+    ],
+    "image": "https://miro.medium.com/v2/resize:fit:1358/1*O5cUaAZp9blbN9RuSeglLQ.png",
+    "references": [
+      "https://aws.amazon.com/what-is/restful-api/"
+    ]
   }
 }
