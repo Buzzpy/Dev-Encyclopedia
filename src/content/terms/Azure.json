@@ -1,0 +1,18 @@
+{
+    "title": "Azure",
+    "subtext": "Microsoft's cloud computing platform",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "Azure",
+      "texts": [
+        "Microsoft Azure is a cloud computing platform offering a wide range of services, including virtual machines, databases, AI, and IoT.",
+        "Azure provides scalable cloud solutions for businesses of all sizes, enabling them to build, deploy, and manage applications across global networks."
+      ],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJSTev-8E_M3AWbKLhUMY4WL7HbRaZxUWnoA&s",
+      "references": [
+        "https://summ-it.eu/offer/azure/"
+      ]
+    }
+  }
+  

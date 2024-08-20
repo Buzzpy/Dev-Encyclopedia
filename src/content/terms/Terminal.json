@@ -1,0 +1,18 @@
+{
+    "title": "Terminal",
+    "subtext": "Text-based user interface for CLIs",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "Terminal",
+      "texts": [
+        "A terminal is a text-based interface that allows users to interact with the operating system using a command-line interface (CLI).",
+        "It is commonly used to run commands, scripts, and manage files on a computer, providing direct control over the system."
+      ],
+      "image": "",
+      "references": [
+        "https://neuraldatascience.io/2-nds/terminal.html"
+      ]
+    }
+  }
+  

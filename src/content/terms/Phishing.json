@@ -1,0 +1,18 @@
+{
+    "title": "Phishing",
+    "subtext": "Deceptive email fraud",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "Phishing",
+      "texts": [
+        "Phishing is a type of cyber attack where attackers impersonate legitimate organizations through email, SMS, or websites to trick individuals into providing sensitive information.",
+        "Common targets include login credentials, credit card numbers, and other personal information. Phishing attacks can lead to identity theft and financial loss."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Phishing_Lure.jpg/1024px-Phishing_Lure.jpg",
+      "references": [
+        "https://www.phishing.org/what-is-phishing"
+      ]
+    }
+  }
+  

@@ -1,0 +1,18 @@
+{
+    "title": "Leetcode",
+    "subtext": "Coding platform for practice and interviews",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "Leetcode",
+      "texts": [
+        "Leetcode is an online platform that provides coding practice for various technical interviews. It offers a wide range of problems across different domains like algorithms, data structures, databases, and more.",
+        "Leetcode is widely used by developers to prepare for coding interviews and improve their problem-solving skills."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/LeetCode_logo_black.png/1024px-LeetCode_logo_black.png",
+      "references": [
+        "https://leetcode.com/"
+      ]
+    }
+  }
+  

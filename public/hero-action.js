@@ -195,8 +195,8 @@ document.addEventListener('DOMContentLoaded', async function() {
         <p>This "Dev Encyclopedia" is a simple project that simplifies things.</p>
         <p>This website has almost all the commonly used technical terms, concepts and even programming-language specific jargons explained and links provided for further reading.</p>
         <p>Most importantly, it is ad-free, so basically, the best encyclopedia everr! *excited. too much.*</p>
-        <p>Built with love, by Chenuli J.</p>
-        <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nkgm404nnkmjqvhjvl61.png" alt="Chenuli Signature"/>
+        <p><a href="https://www.linkedin.com/in/chenuli-j" target="_blank" style="color:#ff8a80;">Built with Love, Chenuli Jayasinghe</a></p>
+        <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/86k6rn7mzxza6s9lc3i5.png" style="border-radius:10px"alt="Chenuli Signature"/>
       `;
         modal.style.display = 'block';
     }

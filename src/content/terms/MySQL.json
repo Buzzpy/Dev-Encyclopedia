@@ -1,0 +1,18 @@
+{
+    "title": "MySQL",
+    "subtext": "Popular open-source relational database",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "MySQL",
+      "texts": [
+        "MySQL is an open-source relational database management system (RDBMS) based on SQL. It is widely used for web applications and is a core component of the LAMP stack.",
+        "MySQL is known for its speed, reliability, and ease of use, making it a popular choice for a wide range of applications."
+      ],
+      "image": "https://d1.awsstatic.com/asset-repository/products/amazon-rds/1024px-MySQL.ff87215b43fd7292af172e2a5d9b844217262571.png",
+      "references": [
+        "https://www.mysql.com/"
+      ]
+    }
+  }
+  

@@ -1,0 +1,18 @@
+{
+    "title": "PostgreSQL",
+    "subtext": "Advanced open-source relational database",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "PostgreSQL",
+      "texts": [
+        "PostgreSQL is a powerful, open-source object-relational database system that uses and extends the SQL language combined with many features.",
+        "It is known for its robustness, scalability, and support for advanced data types and indexing techniques."
+      ],
+      "image": "https://miro.medium.com/v2/resize:fit:486/1*8HI-weN-e5R6T7YEj921pw.png",
+      "references": [
+        "https://www.postgresql.org/"
+      ]
+    }
+  }
+  

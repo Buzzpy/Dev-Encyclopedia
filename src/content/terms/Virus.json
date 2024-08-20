@@ -1,0 +1,18 @@
+{
+    "title": "Virus",
+    "subtext": "Self-replicating malicious software",
+    "category": "all",
+    "author": "Buzzpy",
+    "description": {
+      "title": "Virus",
+      "texts": [
+        "A computer virus is a type of malware that attaches itself to legitimate programs and replicates itself when the host program is executed.",
+        "Viruses can cause significant harm by corrupting or deleting data, spreading to other programs, and infecting other systems."
+      ],
+      "image": "",
+      "references": [
+        "https://us.norton.com/internetsecurity-malware-what-is-a-computer-virus.html"
+      ]
+    }
+  }
+  
