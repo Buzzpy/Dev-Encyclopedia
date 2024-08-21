@@ -1,10 +1,10 @@
 {
-    "title": "Breakpoint",
+    "title": "CSS Breakpoint",
     "subtext": "Responsive design threshold",
     "category": "all",
     "author": "Buzzpy",
     "description": {
-      "title": "Breakpoint",
+      "title": "CSS Breakpoint",
       "texts": [
         "A breakpoint in responsive web design refers to the specific screen size or device width at which the layout of the website changes to ensure optimal viewing across devices.",
         "It helps create a fluid and adaptive web experience by defining how the content should respond to different screen sizes."
