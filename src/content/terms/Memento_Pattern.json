@@ -1,0 +1,16 @@
+{
+    "title": "Memento Pattern",
+    "subtext": "Behavioral design pattern",
+    "category": "design",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Memento Pattern",
+        "texts": [
+            "The Memento Pattern is a behavioral design pattern that allows an object's state to be saved and restored without exposing its internal structure. It provides a way to capture and externalize an object's state, enabling rollback to a previous state without compromising encapsulation."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Memento_pattern"
+        ]
+    }
+}

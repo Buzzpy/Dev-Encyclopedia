@@ -6,7 +6,7 @@
     "description": {
         "title": "Idempotency",
         "texts": [
-            "Idempotency means that a function or operation can be performed multiple times without changing the result beyond the initial application."
+            "Idempotency is a property of an operation where multiple executions produce the same result as a single execution. This is crucial for ensuring consistency in systems, especially in distributed environments where operations may be retried due to failures."
         ],
         "image": "",
         "references": [

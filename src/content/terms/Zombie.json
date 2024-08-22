@@ -6,7 +6,7 @@
     "description": {
         "title": "Zombie",
         "texts": [
-            "A zombie is a compromised computer controlled by an attacker, often used in botnets for malicious purposes."
+            "In cybersecurity, a 'Zombie' refers to a computer that has been compromised by an attacker and is controlled remotely without the owner's knowledge. Such machines are often utilized in botnets to execute various malicious activities, including distributed denial-of-service (DDoS) attacks."
         ],
         "image": "",
         "references": [

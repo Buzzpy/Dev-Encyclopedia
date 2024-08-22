@@ -1,12 +1,12 @@
 {
     "title": "Pivoting",
     "subtext": "Moving within a compromised network",
-    "category": "security",
+    "category": "cybersecurity",
     "author": "AnshumanMishra",
     "description": {
         "title": "Pivoting",
         "texts": [
-            "Pivoting involves moving from one compromised system to others within the same network to expand access."
+            "Pivoting is a technique used by attackers after compromising a single system, allowing them to move laterally within a network. By exploiting trust relationships, they expand their access to other systems and resources, deepening the breach and potentially reaching critical assets."
         ],
         "image": "",
         "references": [

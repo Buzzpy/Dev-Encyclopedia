@@ -6,7 +6,7 @@
     "description": {
         "title": "Poka-Yoke",
         "texts": [
-            "Poka-Yoke is a technique used to prevent errors by designing systems to prevent incorrect operations."
+            "Poka-Yoke is a Japanese term for 'mistake-proofing' or 'error prevention.' It involves designing systems or processes to prevent errors or incorrect operations from occurring, thus enhancing quality and reliability by avoiding human mistakes."
         ],
         "image": "",
         "references": [

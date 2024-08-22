@@ -1,12 +1,12 @@
 {
     "title": "Shellcode",
     "subtext": "Executable code in exploits",
-    "category": "security",
+    "category": "cybersecurity",
     "author": "AnshumanMishra",
     "description": {
         "title": "Shellcode",
         "texts": [
-            "Shellcode is a small piece of code used as a payload in exploits to gain control over a system."
+            "Shellcode is a small, executable code segment often used in cyberattacks as part of an exploit. When successfully injected into a system, shellcode typically grants attackers control over the targeted machine, allowing them to execute arbitrary commands or launch further attacks."
         ],
         "image": "",
         "references": [

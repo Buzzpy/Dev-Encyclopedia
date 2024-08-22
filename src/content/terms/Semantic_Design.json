@@ -1,0 +1,16 @@
+{
+    "title": "Semantic Design",
+    "subtext": "Meaningful code and markup",
+    "category": "design",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Semantic Design",
+        "texts": [
+            "Semantic Design refers to the practice of using code or markup in a way that clearly conveys its intended meaning. This approach enhances readability and accessibility by ensuring that elements and attributes are used in a manner that reflects their purpose and meaning in the context of the application."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Semantics"
+        ]
+    }
+}

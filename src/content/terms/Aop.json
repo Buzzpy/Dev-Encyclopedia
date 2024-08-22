@@ -1,16 +1,14 @@
 {
+  "title": "AOP",
+  "subtext": "Aspect-Oriented Programming",
+  "category": "programming",
+  "author": "AnshumanMishra",
+  "description": {
     "title": "AOP",
-    "subtext": "Aspect-Oriented Programming",
-    "category": "programming",
-    "author": "AnshumanMishra",
-    "description": {
-        "title": "AOP",
-        "texts": [
-            "Aspect-Oriented Programming (AOP) is a programming paradigm that isolates cross-cutting concerns into separate modules called aspects."
-        ],
-        "image": "",
-        "references": [
-            "https://en.wikipedia.org/wiki/Aspect-oriented_programming"
-        ]
-    }
+    "texts": [
+      "AOP is a programming paradigm that aims to increase modularity by separating cross-cutting concerns into distinct modules called aspects. This approach enhances code maintainability and reusability by isolating aspects such as logging, security, and error handling."
+    ],
+    "image": "",
+    "references": ["https://en.wikipedia.org/wiki/Aspect-oriented_programming"]
+  }
 }

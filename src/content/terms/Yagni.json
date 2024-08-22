@@ -6,7 +6,7 @@
     "description": {
         "title": "YAGNI",
         "texts": [
-            "YAGNI is a principle in software development that states you should not add functionality until it is necessary."
+            "YAGNI, which stands for 'You Aren't Gonna Need It,' is a principle in software development emphasizing that you should not add functionality until it is necessary. This approach helps avoid unnecessary complexity and maintains focus on current requirements."
         ],
         "image": "",
         "references": [

@@ -1,12 +1,12 @@
 {
     "title": "Blue-Team",
     "subtext": "Defensive security team",
-    "category": "security",
+    "category": "cybersecurity",
     "author": "AnshumanMishra",
     "description": {
         "title": "Blue-Team",
         "texts": [
-            "A Blue-Team defends against security threats, monitors systems, and responds to attacks."
+            "A Blue-Team is responsible for defending an organization against cyber threats. They monitor systems, detect suspicious activities, and respond to security incidents. Their proactive approach includes regular security assessments and the implementation of protective measures to safeguard the network."
         ],
         "image": "",
         "references": [

@@ -1,12 +1,12 @@
 {
     "title": "Red-Team",
     "subtext": "Offensive security team",
-    "category": "security",
+    "category": "cybersecurity",
     "author": "AnshumanMishra",
     "description": {
         "title": "Red-Team",
         "texts": [
-            "A Red-Team simulates attacks to test the effectiveness of security defenses and identify vulnerabilities."
+            "A Red-Team is a group of security professionals who simulate real-world attacks on an organization's systems. Their goal is to rigorously test the effectiveness of security defenses, identify weaknesses, and provide actionable insights to strengthen the overall security posture."
         ],
         "image": "",
         "references": [

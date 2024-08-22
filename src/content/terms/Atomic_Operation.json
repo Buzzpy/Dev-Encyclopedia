@@ -1,0 +1,16 @@
+{
+    "title": "Atomic Operation",
+    "subtext": "Indivisible operations",
+    "category": "programming",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Atomic Operation",
+        "texts": [
+            "An Atomic Operation is an indivisible operation that completes in a single step relative to other threads or processes. This ensures that the operation is executed fully without interruption, which is critical for maintaining data integrity in concurrent programming and database transactions."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Atomicity_(database_systems)"
+        ]
+    }
+}

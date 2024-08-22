@@ -6,7 +6,7 @@
     "description": {
         "title": "Futures",
         "texts": [
-            "Futures represent a value that may become available in the future, often used for asynchronous programming."
+            "In asynchronous programming, Futures represent a value that will be available at some point in the future. They are used to handle results of asynchronous operations, allowing programs to perform other tasks while waiting for the operation to complete."
         ],
         "image": "",
         "references": [

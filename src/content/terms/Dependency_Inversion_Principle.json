@@ -1,0 +1,16 @@
+{
+    "title": "Dependency Inversion Principle",
+    "subtext": "Dependency inversion principle",
+    "category": "design",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Dependency Inversion Principle",
+        "texts": [
+            "The Dependency Inversion Principle is a design principle that states high-level modules should not depend on low-level modules. Instead, both should depend on abstractions. This principle promotes decoupling and enhances code flexibility by ensuring that both high-level and low-level modules interact through abstract interfaces."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Dependency_inversion_principle"
+        ]
+    }
+}
