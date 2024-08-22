@@ -1,0 +1,18 @@
+{
+    "title": "Blazor",
+    "subtext": ".NET frontend web framework based on HTML, CSS, and C#",
+    "category": "all",
+    "author": "patrickpiedad",
+    "description": {
+      "title": "Blazor",
+      "texts": [
+        "Blazor is a .NET frontend web framework based on HTML, CSS, and C#. This framework allows the user to share server-side and client-side app logic. It is part of the .NET environment and can utilize all .NET libraries.",
+        "Blazor is offered in many forms, to include BlazorWebApp (newest version), Standalone WebAssembly, and Blazor Hybrid / .NET MAUI (allows for native application creation)"
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Blazor.png",
+      "references": [
+        "https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor"
+      ]
+    }
+  }
+  
