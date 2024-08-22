@@ -1,10 +1,10 @@
 {
-  "title": "Epochs",
+  "title": "Epochs (ML)",
   "subtext": "Training rounds in Machine Learning",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
-    "title": "Epochs",
+    "title": "Epochs (ML)",
     "texts": [
       "In machine learning, an epoch is one complete pass through the entire training dataset. During each epoch, the model's parameters are updated to improve accuracy.",
       "Multiple epochs are often needed for a model to learn effectively and reach high performance on the task it is trained for. However, its' crucial to determine the number of epochs carefully, as explaned in the image below."

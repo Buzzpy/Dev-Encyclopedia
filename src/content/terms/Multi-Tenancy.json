@@ -1,7 +1,7 @@
 {
   "title": "Multi-Tenancy",
   "subtext": "Single instance of software serves multiple customers",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "",

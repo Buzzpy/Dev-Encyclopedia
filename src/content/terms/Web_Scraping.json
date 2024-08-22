@@ -1,7 +1,7 @@
 {
   "title": "Web Scraping",
   "subtext": "Automatically collecting data from websites.",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Web Scraping",

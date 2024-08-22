@@ -1,7 +1,7 @@
 {
     "title": "CSS Breakpoint",
     "subtext": "Responsive design threshold",
-    "category": "all",
+    "categories": ["all"],
     "author": "Buzzpy",
     "description": {
       "title": "CSS Breakpoint",

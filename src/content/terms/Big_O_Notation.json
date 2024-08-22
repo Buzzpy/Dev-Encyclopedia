@@ -2,7 +2,7 @@
 {
   "title": "Big O Notation",
   "subtext": "A term used to explain... algorithms?",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "keywords": ["algorithm", "efficiency", "concept", "performance"],
   "description": {

@@ -1,7 +1,7 @@
 {
   "title": "Neural Networks",
   "subtext": "Mimics the human brain to recognize patterns and make predictions.",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Neural Networks",

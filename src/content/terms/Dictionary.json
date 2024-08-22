@@ -1,7 +1,7 @@
 {
   "title": "Dictionary",
   "subtext": "A collection of key-value pairs in programming.",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Dictionary",

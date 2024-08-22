@@ -1,7 +1,7 @@
 {
   "title": "Serverless Functions",
   "subtext": "Execute code without the need to manage servers",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Serverless Functions",

@@ -1,0 +1,18 @@
+{
+    "title": "HTML Attribute",
+    "subtext": "HTML element properties",
+    "categories": ["all"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "HTML Attribute",
+      "texts": [
+        "An attribute in HTML is a property added to an HTML element to define its behavior or provide additional information.",
+        "Attributes usually appear as name/value pairs and can be used to specify characteristics like ID, class, style, and source."
+      ],
+      "image": "https://web.dev/static/learn/html/attributes/image/the-opening-tag-attribut-d49075bfc3ce2.png",
+      "references": [
+        "https://www.w3schools.com/html/html_attributes.asp"
+      ]
+    }
+  }
+  

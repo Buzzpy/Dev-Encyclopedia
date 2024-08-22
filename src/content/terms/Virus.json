@@ -1,7 +1,7 @@
 {
     "title": "Virus",
     "subtext": "Self-replicating malicious software",
-    "category": "all",
+    "categories": ["all"],
     "author": "Buzzpy",
     "description": {
       "title": "Virus",

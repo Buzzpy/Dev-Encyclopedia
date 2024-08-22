@@ -1,7 +1,7 @@
 {
   "title": "Contract Testing",
   "subtext": "Process of defining and verifying a contract between two services",
-  "category": "all",
+  "categories": ["all"],
   "author": "RayMathew",
   "description": {
     "title": "Contract Testing",

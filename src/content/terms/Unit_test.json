@@ -1,7 +1,7 @@
 {
   "title": "Unit test",
   "subtext": "A type of testing",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Unit Test",

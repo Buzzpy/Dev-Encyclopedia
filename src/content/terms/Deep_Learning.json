@@ -1,7 +1,7 @@
 {
   "title": "Deep Learning",
   "subtext": "A subset of machine learning",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Deep Learning",

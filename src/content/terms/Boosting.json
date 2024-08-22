@@ -1,7 +1,7 @@
 {
   "title": "Boosting",
   "subtext": "Builds models sequentially, with each correcting errors of the previous one.",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Boosting",

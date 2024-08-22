@@ -1,7 +1,7 @@
 {
   "title": "Horizontal Scaling",
   "subtext": "Add more machines to handle increased load",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Horizontal Scaling",

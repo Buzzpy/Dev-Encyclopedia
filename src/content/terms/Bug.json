@@ -1,7 +1,7 @@
 {
     "title": "Bug",
     "subtext": "Programmers' Nightmare",
-    "category": "all",
+    "categories": ["all"],
     "author": "Buzzpy",
     "description": {
       "title": "Bug",

@@ -1,7 +1,7 @@
 {
     "title": "JavaScript",
     "subtext": "Dynamic scripting language for web development",
-    "category": "all",
+    "categories": ["all"],
     "author": "Buzzpy",
     "description": {
       "title": "JavaScript",

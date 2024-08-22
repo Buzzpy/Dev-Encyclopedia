@@ -1,7 +1,7 @@
 {
   "title": "Three-Sigma Rule",
   "subtext": "A rule of thumb in data science",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "",
