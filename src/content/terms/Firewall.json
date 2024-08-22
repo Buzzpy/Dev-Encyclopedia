@@ -1,0 +1,16 @@
+{
+    "title": "Firewall",
+    "subtext": "Network security device",
+    "category": "security",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Firewall",
+        "texts": [
+            "A firewall monitors and controls incoming and outgoing network traffic based on predetermined security rules."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Firewall_(networking)"
+        ]
+    }
+}

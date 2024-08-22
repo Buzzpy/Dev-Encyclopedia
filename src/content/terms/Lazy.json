@@ -1,0 +1,16 @@
+{
+    "title": "Lazy",
+    "subtext": "Deferred computation technique",
+    "category": "programming",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Lazy",
+        "texts": [
+            "Lazy evaluation defers computation until its result is required, optimizing performance and resource usage."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Lazy_evaluation"
+        ]
+    }
+}

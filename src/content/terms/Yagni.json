@@ -1,0 +1,16 @@
+{
+    "title": "YAGNI",
+    "subtext": "You Aren't Gonna Need It",
+    "category": "programming",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "YAGNI",
+        "texts": [
+            "YAGNI is a principle in software development that states you should not add functionality until it is necessary."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it"
+        ]
+    }
+}

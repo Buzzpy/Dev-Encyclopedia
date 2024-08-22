@@ -1,0 +1,16 @@
+{
+    "title": "Obfuscation",
+    "subtext": "Code disguise technique",
+    "category": "security",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Obfuscation",
+        "texts": [
+            "Obfuscation is the practice of making code difficult to understand to protect against reverse engineering."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Obfuscation"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "title": "Shellcode",
+    "subtext": "Executable code in exploits",
+    "category": "security",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Shellcode",
+        "texts": [
+            "Shellcode is a small piece of code used as a payload in exploits to gain control over a system."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Shellcode"
+        ]
+    }
+}

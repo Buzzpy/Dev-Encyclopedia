@@ -1,0 +1,16 @@
+{
+    "title": "Memento",
+    "subtext": "Behavioral design pattern",
+    "category": "design",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Memento",
+        "texts": [
+            "The Memento pattern allows an object's state to be saved and restored without exposing its implementation details."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Memento_pattern"
+        ]
+    }
+}

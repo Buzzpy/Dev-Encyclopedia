@@ -1,0 +1,16 @@
+{
+    "title": "Honeypot",
+    "subtext": "Decoy system to detect attacks",
+    "category": "security",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Honeypot",
+        "texts": [
+            "A honeypot is a decoy system designed to attract and monitor attackers to analyze their methods."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Honeypot_(computing)"
+        ]
+    }
+}

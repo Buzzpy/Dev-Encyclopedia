@@ -1,0 +1,16 @@
+{
+    "title": "Blue-Team",
+    "subtext": "Defensive security team",
+    "category": "security",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Blue-Team",
+        "texts": [
+            "A Blue-Team defends against security threats, monitors systems, and responds to attacks."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Blue_team"
+        ]
+    }
+}

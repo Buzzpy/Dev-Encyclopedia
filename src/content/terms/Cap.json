@@ -1,0 +1,16 @@
+{
+    "title": "CAP",
+    "subtext": "Consistency, Availability, Partition Tolerance",
+    "category": "databases",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "CAP",
+        "texts": [
+            "CAP theorem states that a distributed system can only guarantee two of the three following properties: Consistency, Availability, or Partition Tolerance."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/CAP_theorem"
+        ]
+    }
+}

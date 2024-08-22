@@ -1,0 +1,16 @@
+{
+    "title": "Steganography",
+    "subtext": "Hiding data within other data",
+    "category": "security",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Steganography",
+        "texts": [
+            "Steganography hides information within other data, such as images, to make the data appear inconspicuous."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Steganography"
+        ]
+    }
+}

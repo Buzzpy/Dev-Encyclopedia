@@ -1,0 +1,16 @@
+{
+    "title": "Blue-Green",
+    "subtext": "Deployment strategy",
+    "category": "deployment",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Blue-Green",
+        "texts": [
+            "Blue-Green deployment involves running two identical production environments, only one of which serves live traffic at a time."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Blue%E2%80%93green_deployment"
+        ]
+    }
+}

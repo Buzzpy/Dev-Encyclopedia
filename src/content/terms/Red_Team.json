@@ -1,0 +1,16 @@
+{
+    "title": "Red-Team",
+    "subtext": "Offensive security team",
+    "category": "security",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Red-Team",
+        "texts": [
+            "A Red-Team simulates attacks to test the effectiveness of security defenses and identify vulnerabilities."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Red_team"
+        ]
+    }
+}

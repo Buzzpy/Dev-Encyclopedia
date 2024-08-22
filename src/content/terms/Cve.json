@@ -1,0 +1,16 @@
+{
+    "title": "CVE",
+    "subtext": "Common Vulnerabilities and Exposures",
+    "category": "security",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "CVE",
+        "texts": [
+            "CVE is a list of publicly disclosed cybersecurity vulnerabilities and exposures."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures"
+        ]
+    }
+}

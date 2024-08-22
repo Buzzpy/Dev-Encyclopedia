@@ -1,0 +1,16 @@
+{
+    "title": "Pivoting",
+    "subtext": "Moving within a compromised network",
+    "category": "security",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Pivoting",
+        "texts": [
+            "Pivoting involves moving from one compromised system to others within the same network to expand access."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Pivot_(computer_security)"
+        ]
+    }
+}

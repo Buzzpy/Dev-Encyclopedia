@@ -1,0 +1,16 @@
+{
+    "title": "Zombie Process",
+    "subtext": "Defunct process",
+    "category": "systems",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Zombie Process",
+        "texts": [
+            "A Zombie Process is a defunct process that has completed execution but still has an entry in the process table, waiting for its parent to read its exit status."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Zombie_process"
+        ]
+    }
+}

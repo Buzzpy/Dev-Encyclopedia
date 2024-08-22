@@ -1,0 +1,16 @@
+{
+    "title": "Sharding",
+    "subtext": "Database partitioning technique",
+    "category": "databases",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Sharding",
+        "texts": [
+            "Sharding involves dividing a database into smaller, more manageable pieces called shards to improve performance and scalability."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Sharding"
+        ]
+    }
+}

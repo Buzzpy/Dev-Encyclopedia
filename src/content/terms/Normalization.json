@@ -1,0 +1,16 @@
+{
+    "title": "Normalization",
+    "subtext": "Database design process",
+    "category": "databases",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Normalization",
+        "texts": [
+            "Normalization is the process of organizing database fields and tables to minimize redundancy and improve data integrity."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Database_normalization"
+        ]
+    }
+}

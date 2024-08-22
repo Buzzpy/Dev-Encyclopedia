@@ -1,0 +1,16 @@
+{
+    "title": "Payload",
+    "subtext": "Data delivered by an exploit",
+    "category": "security",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Payload",
+        "texts": [
+            "A payload is the part of an exploit that executes a specific action, such as delivering malware."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Payload_(computer_security)"
+        ]
+    }
+}

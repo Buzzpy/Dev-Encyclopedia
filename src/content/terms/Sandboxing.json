@@ -1,0 +1,16 @@
+{
+    "title": "Sandboxing",
+    "subtext": "Isolated testing environment",
+    "category": "security",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Sandboxing",
+        "texts": [
+            "Sandboxing isolates programs to prevent them from affecting the rest of the system, enhancing security."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Sandbox_(computer_security)"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "title": "Shadow",
+    "subtext": "Hidden system process",
+    "category": "security",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Shadow",
+        "texts": [
+            "Shadow processes are unauthorized or hidden processes running on a system, often used to evade detection."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Shadow_(computing)"
+        ]
+    }
+}

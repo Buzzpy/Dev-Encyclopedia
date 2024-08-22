@@ -1,0 +1,16 @@
+{
+    "title": "Hotfix",
+    "subtext": "Emergency software fix",
+    "category": "development",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Hotfix",
+        "texts": [
+            "A hotfix is a quick, targeted update to fix critical bugs or vulnerabilities in software."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Hotfix"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "title": "Sticky",
+    "subtext": "Persistent UI element",
+    "category": "design",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Sticky",
+        "texts": [
+            "Sticky elements remain visible on the screen while scrolling, providing constant access to important features or information."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Sticky_(web_design)"
+        ]
+    }
+}

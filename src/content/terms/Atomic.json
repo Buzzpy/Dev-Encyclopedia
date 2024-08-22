@@ -1,0 +1,16 @@
+{
+    "title": "Atomic",
+    "subtext": "Indivisible operations",
+    "category": "programming",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Atomic",
+        "texts": [
+            "Atomic operations are indivisible and ensure that a series of actions are completed fully without interference."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Atomicity_(database_systems)"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "title": "Idempotence",
+    "subtext": "Operation consistency",
+    "category": "programming",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Idempotence",
+        "texts": [
+            "Idempotence means that a function or operation can be performed multiple times without changing the result beyond the initial application."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Idempotence"
+        ]
+    }
+}

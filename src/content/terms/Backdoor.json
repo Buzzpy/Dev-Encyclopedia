@@ -1,0 +1,16 @@
+{
+    "title": "Backdoor",
+    "subtext": "Hidden access point in software",
+    "category": "security",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Backdoor",
+        "texts": [
+            "A backdoor is a hidden method allowing unauthorized access to a system, bypassing normal security measures."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Backdoor_(computing)"
+        ]
+    }
+}

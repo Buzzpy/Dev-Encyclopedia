@@ -1,0 +1,16 @@
+{
+    "title": "Zombie",
+    "subtext": "Compromised and controlled machine",
+    "category": "security",
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Zombie",
+        "texts": [
+            "A zombie is a compromised computer controlled by an attacker, often used in botnets for malicious purposes."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Zombie_(computer_science)"
+        ]
+    }
+}
