@@ -19,7 +19,7 @@ This simple project simplifies technical terms, concepts, jargon, and whatnot.
 
 Found some important information missing? Please open a Pull Request and help improve this project. We welcome contributions of all kinds, whether it's adding new content, fixing typos, or suggesting new features.
 
-`IMPORTANT: This project uses the main branch for both development and deployment. All changes are made directly in the main branch, so please ensure that your contributions are tested and ready to be deployed when you submit them.`
+> `IMPORTANT`: This project uses the `main` branch for **deployment** and the `develop` branch for **active development**. All contributions should be made to the `develop` branch, which will be tested and reviewed before being merged into the main branch for deployment.
 
 ![Copy of assets (2)](https://github.com/user-attachments/assets/43d3e163-e279-4f0e-8d70-2a49fcef1632)
 
@@ -37,7 +37,7 @@ Found some important information missing? Please open a Pull Request and help im
    - Replace `your-username` with your GitHub username.
 
 3. **Create a New Branch (Optional but Recommended):**
-   - While it’s not required, we recommend creating a new branch for your changes to keep your `master` branch clean.
+   - We recommend creating a new branch for your changes to keep your `develop` branch clean and to isolate your work.
    - Use the following command:
      ```bash
      git checkout -b feature-branch
@@ -61,13 +61,14 @@ Found some important information missing? Please open a Pull Request and help im
      ```
 
 7. **Open a Pull Request:**
-   - Go to the original repository on GitHub and open a Pull Request (PR) from your branch.
+   - Go to the original repository on GitHub and open a Pull Request (PR) from your branch to the `develop` branch.
    - Make sure to describe the changes you’ve made and why they’re beneficial to the project.
 
 8. **Get Your PR Merged:**
-   - Once your PR is reviewed and approved, it will be merged into the `master` branch, which is automatically deployed.
+   - Once your PR is reviewed and approved, it will be merged into the `develop` branch. After thorough testing, the `develop` branch will be merged into the `main` branch for deployment (please note that this may take 2-3 days).
 
 Thank you for contributing to the Dev Encyclopedia!
+
 
 ### 🎖️ Notable Contributors
 
