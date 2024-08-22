@@ -1,7 +1,7 @@
 {
   "title": "Immutable Infrastructure",
   "subtext": "Infrastructure that is never modified after deployment",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Immutable Infrastructure",

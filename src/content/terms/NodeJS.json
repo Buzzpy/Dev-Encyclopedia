@@ -1,7 +1,7 @@
 {
   "title": "Node.js",
   "subtext": "JavaScript runtime environment to build network applications using JS",
-  "category": "all",
+  "categories": ["all"],
   "author": "Stark-Akshay",
   "description": {
     "title": "Node.js",

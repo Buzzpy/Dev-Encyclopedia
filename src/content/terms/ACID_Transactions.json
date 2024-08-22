@@ -1,7 +1,7 @@
 {
   "title": "ACID Transactions",
   "subtext": "Ensure reliability in database operations",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "ACID Transactions",

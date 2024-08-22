@@ -1,7 +1,7 @@
 {
   "title": "DOM",
   "subtext": "Document Object Model (DOM)",
-  "category": "all",
+  "categories": ["all"],
   "author": "bellodamilola",
   "description": {
     "title": "DOM",

@@ -1,7 +1,7 @@
 {
   "title": "Git",
   "subtext": "The most popular version control system",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Git",

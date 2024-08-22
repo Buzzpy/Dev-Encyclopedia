@@ -1,7 +1,7 @@
 {
   "title": "Full Stack",
   "subtext": "Development of both front end and back end.",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Full Stack",

@@ -1,7 +1,7 @@
 {
   "title": "Edge AI",
   "subtext": "Bringing artificial intelligence to edge devices to process data locally",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "",

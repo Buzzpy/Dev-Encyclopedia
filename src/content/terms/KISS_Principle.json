@@ -1,7 +1,7 @@
 {
   "title": "KISS Principle",
   "subtext": "Keep it simple to avoid complexity",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "KISS Principle",

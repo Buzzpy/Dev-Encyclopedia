@@ -1,7 +1,7 @@
 {
   "title": "Quantum Cryptography",
   "subtext": "Using principles of quantum mechanics for secure communication",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Quantum Cryptography",

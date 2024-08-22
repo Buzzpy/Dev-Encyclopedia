@@ -1,7 +1,7 @@
 {
     "title": "Blazor",
     "subtext": ".NET frontend web framework based on HTML, CSS, and C#",
-    "category": "all",
+    "categories": ["all"],
     "author": "patrickpiedad",
     "description": {
       "title": "Blazor",

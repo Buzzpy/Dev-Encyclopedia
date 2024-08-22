@@ -1,7 +1,7 @@
 {
   "title": "Ruby",
   "subtext": "Another simple, OOP language",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Ruby",

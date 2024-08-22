@@ -1,7 +1,7 @@
 {
   "title": "Consistent Hashing",
   "subtext": "A hashing algorithm for distributed systems",
-  "category": "all",
+  "categories": ["all"],
   "author": "RayMathew",
   "description": {
     "title": "Consistent Hashing",

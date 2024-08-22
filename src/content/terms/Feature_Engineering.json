@@ -1,7 +1,7 @@
 {
   "title": "Feature Engineering",
   "subtext": "Creates or modifies features to enhance model performance.",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Feature Engineering",

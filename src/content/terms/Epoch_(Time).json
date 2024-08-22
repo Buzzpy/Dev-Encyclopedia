@@ -1,7 +1,7 @@
 {
   "title": "Epoch (Time)",
   "subtext": "Date and time used by computers",
-  "category": "all",
+  "categories": ["all"],
   "author": "RayMathew",
   "description": {
     "title": "Epochs (Time)",

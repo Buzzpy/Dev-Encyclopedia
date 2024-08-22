@@ -1,7 +1,7 @@
 {
     "title": "Conditional Statement",
     "subtext": "Decision-making in code",
-    "category": "all",
+    "categories": ["all"],
     "author": "Cătălin Grigoriev",
     "description": {
       "title": "Conditional Statement",

@@ -1,7 +1,7 @@
 {
   "title": "Optimistic Locking",
   "subtext": "Concurrency control method strategy.",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Optimistic Locking",

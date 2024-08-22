@@ -1,7 +1,7 @@
 {
   "title": "Open Source",
   "subtext": "Software with publicly accessible source code.",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Open Source",

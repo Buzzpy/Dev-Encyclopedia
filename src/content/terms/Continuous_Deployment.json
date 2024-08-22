@@ -1,7 +1,7 @@
 {
   "title": "Continuous Deployment",
   "subtext": "Automatic deployment of code changes",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Continuous Deployment",

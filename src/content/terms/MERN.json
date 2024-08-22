@@ -1,7 +1,7 @@
 {
     "title": "MERN",
     "subtext": "JavaScript stack for web development",
-    "category": "all",
+    "categories": ["all"],
     "author": "Buzzpy",
     "description": {
       "title": "MERN",

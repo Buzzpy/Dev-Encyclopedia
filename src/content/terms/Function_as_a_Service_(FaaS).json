@@ -1,7 +1,7 @@
 {
   "title": "Function as a Service (FaaS)",
   "subtext": "Execute code without managing infrastructure",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "",

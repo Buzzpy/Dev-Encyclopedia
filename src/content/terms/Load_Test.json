@@ -1,7 +1,7 @@
 {
   "title": "Load Test",
   "subtext": "A type of performance testing",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Load Test",

@@ -1,7 +1,7 @@
 {
   "title": "Service Discovery",
   "subtext": "Dynamic directory for services to find each other",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Service Discovery",

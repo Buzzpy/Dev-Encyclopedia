@@ -1,7 +1,7 @@
 {
     "title": "OpenCV",
     "subtext": "Computer vision library",
-    "category": "all",
+    "categories": ["all"],
     "author": "Buzzpy",
     "description": {
       "title": "OpenCV",

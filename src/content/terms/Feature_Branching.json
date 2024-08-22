@@ -1,7 +1,7 @@
 {
   "title": "Feature Branching",
   "subtext": "Isolate development in branches for easier integration",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Feature Branching",

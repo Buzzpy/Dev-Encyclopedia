@@ -1,7 +1,7 @@
 {
   "title": "FTP",
   "subtext": "File Transfer Protocol",
-  "category": "all",
+  "categories": ["all"],
   "author": "RayMathew",
   "description": {
     "title": "FTP",

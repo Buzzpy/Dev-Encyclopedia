@@ -1,7 +1,7 @@
 {
   "title": "Reactive Programming",
   "subtext": "Handling data streams and changes in real time",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Reactive Programming",

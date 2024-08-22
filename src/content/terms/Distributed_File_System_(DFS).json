@@ -1,7 +1,7 @@
 {
   "title": "Distributed File System (DFS)",
   "subtext": "A system that allows access to files from multiple locations",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Distributed File System (DFS)",

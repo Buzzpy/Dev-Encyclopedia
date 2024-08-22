@@ -1,7 +1,7 @@
 {
   "title": "Event Stream Processing",
   "subtext": "Analyze and process continuous streams of events",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Event Stream Processing",

@@ -1,7 +1,7 @@
 {
     "title": "Phishing",
     "subtext": "Deceptive email fraud",
-    "category": "all",
+    "categories": ["all"],
     "author": "Buzzpy",
     "description": {
       "title": "Phishing",

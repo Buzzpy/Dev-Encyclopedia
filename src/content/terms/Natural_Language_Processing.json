@@ -1,7 +1,7 @@
 {
   "title": "Natural Language Processing",
   "subtext": "Enables computers to understand and process human language.",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Natural Language Processing",

@@ -1,7 +1,7 @@
 {
     "title": "Attribute",
     "subtext": "Properties that can be assigned to elements like variables, objects, or classes",
-    "category": "all",
+    "categories": ["all"],
     "author": "RayMathew",
     "description": {
       "title": "Attribute",

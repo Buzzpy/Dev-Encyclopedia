@@ -1,7 +1,7 @@
 {
   "title": "Reinforcement Learning",
   "subtext": "Trains agents to make decisions by rewarding or punishing actions.",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Reinforcement Learning",

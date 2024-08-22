@@ -1,7 +1,7 @@
 {
   "title": "Micro FrontEnd",
   "subtext": "Independently deployable Front End units",
-  "category": "all",
+  "categories": ["all"],
   "author": "Stark-Akshay",
   "description": {
     "title": "Micro FrontEnd",

@@ -1,7 +1,7 @@
 {
     "title": "Crawling",
     "subtext": "Web content discovery",
-    "category": "all",
+    "categories": ["all"],
     "author": "Buzzpy",
     "description": {
       "title": "Crawling",

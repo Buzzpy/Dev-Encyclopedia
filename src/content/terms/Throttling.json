@@ -1,7 +1,7 @@
 {
   "title": "Throttling",
   "subtext": "Control network traffic to prevent overloading",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Throttling",

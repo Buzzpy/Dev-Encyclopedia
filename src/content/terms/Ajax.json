@@ -1,7 +1,7 @@
 {
     "title": "Ajax",
     "subtext": "Asynchronous JavaScript and XML",
-    "category": "all",
+    "categories": ["all"],
     "author": "Buzzpy",
     "description": {
       "title": "Ajax",

@@ -1,7 +1,7 @@
 {
   "title": "Synthetic Data",
   "subtext": "Artificially generated data that mimics real data",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Synthetic Data",
