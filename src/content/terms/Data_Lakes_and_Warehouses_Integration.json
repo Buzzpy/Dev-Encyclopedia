@@ -1,7 +1,7 @@
 {
   "title": "Data Lakes and Warehouses Integration",
   "subtext": "Combine raw and structured data storage for better management",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Data Lakes and Warehouses Integration",

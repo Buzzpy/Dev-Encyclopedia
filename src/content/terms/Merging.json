@@ -1,7 +1,7 @@
 {
   "title": "Merging",
   "subtext": "Combining changes from branches",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Merging",

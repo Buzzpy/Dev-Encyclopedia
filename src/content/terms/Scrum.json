@@ -1,7 +1,7 @@
 {
   "title": "Scrum",
   "subtext": "A framework within the Agile methodology",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Scrum",

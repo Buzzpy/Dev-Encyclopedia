@@ -1,7 +1,7 @@
 {
   "title": "symmetric-cryptography",
   "subtext": "algorithms for cryptography that use the same cryptographic keys for both the encryption of plaintext.",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "",

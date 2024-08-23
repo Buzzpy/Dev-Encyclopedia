@@ -1,7 +1,7 @@
 {
   "title": "Flutter",
   "subtext": "An UI toolkit from Google",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Flutter",

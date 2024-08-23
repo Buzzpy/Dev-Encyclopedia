@@ -1,7 +1,7 @@
 {
   "title": "Front End",
   "subtext": "The visual and interactive parts of a website.",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Front End",

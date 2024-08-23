@@ -1,7 +1,7 @@
 {
   "title": "Monolith",
   "subtext": "A single, large application handling multiple tasks",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Monolith",

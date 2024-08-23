@@ -1,7 +1,7 @@
 {
   "title": "Gradient Descent",
   "subtext": "Optimizes model parameters by minimizing errors.",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Gradient Descent",

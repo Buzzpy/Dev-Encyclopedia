@@ -1,7 +1,7 @@
 {
   "title": "Deployment",
   "subtext": "Making applications available for use",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Deployment",

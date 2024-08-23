@@ -1,7 +1,7 @@
 {
   "title": "Scalability",
   "subtext": "Capability of a system to handle growth",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Scalability",

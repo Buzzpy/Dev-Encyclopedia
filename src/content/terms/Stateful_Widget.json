@@ -1,7 +1,7 @@
 {
   "title": "Stateful Widget",
   "subtext": "UI component that maintains state across sessions",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Stateful Widget",

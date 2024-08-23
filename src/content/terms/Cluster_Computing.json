@@ -1,7 +1,7 @@
 {
   "title": "Cluster Computing",
   "subtext": "Connecting multiple computers to work as a single system",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Cluster Computing",
@@ -11,7 +11,7 @@
     ],
     "image": "",
     "references": [
-      "https://www.techtarget.com/searchdatacenter/definition/cluster"
+      "https://www.ibm.com/think/topics/cluster-computing"
     ]
   }
 }

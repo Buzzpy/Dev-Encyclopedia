@@ -1,7 +1,7 @@
 {
   "title": "Quantum Computing",
   "subtext": "Sheldon Cooper's gonna love this",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Quantum Computing",

@@ -1,7 +1,7 @@
 {
   "title": "Debugger",
   "subtext": "Tool for finding and fixing code errors",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Debugger",

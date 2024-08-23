@@ -1,7 +1,7 @@
 {
   "title": "Multi-Cloud Strategy",
   "subtext": "Using multiple cloud computing services to mitigate single-provider risks",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "",

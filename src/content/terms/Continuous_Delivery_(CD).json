@@ -1,7 +1,7 @@
 {
   "title": "Continuous Delivery (CD)",
   "subtext": "A software development practice often implemented with CI",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Continuous Delivery (CD)",

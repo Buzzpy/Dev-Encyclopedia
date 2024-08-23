@@ -1,7 +1,7 @@
 {
     "title": "SVG",
     "subtext": "Scalable Vector Graphics",
-    "category": "all",
+    "categories": ["all"],
     "author": "Buzzpy",
     "description": {
       "title": "SVG",

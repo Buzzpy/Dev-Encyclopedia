@@ -1,7 +1,7 @@
 {
     "title": "Hex code",
     "subtext": "Color representation in web design",
-    "category": "all",
+    "categories": ["all"],
     "author": "Buzzpy",
     "description": {
       "title": "Hex code",

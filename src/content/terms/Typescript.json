@@ -1,7 +1,7 @@
 {
   "title": "Typescript",
   "subtext": "A superset of JavaScript",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "TypeScript",

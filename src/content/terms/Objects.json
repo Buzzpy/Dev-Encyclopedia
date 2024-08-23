@@ -1,7 +1,7 @@
 {
   "title": "Objects",
   "subtext": "Instances of classes with specific attributes and methods.",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Objects",

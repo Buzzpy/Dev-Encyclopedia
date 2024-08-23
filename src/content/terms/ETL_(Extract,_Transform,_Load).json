@@ -1,7 +1,7 @@
 {
   "title": "ETL (Extract, Transform, Load)",
   "subtext": "Process to collect, change, and store data",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "",

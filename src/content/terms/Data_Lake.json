@@ -1,7 +1,7 @@
 {
   "title": "Data Lake",
   "subtext": "Vast storage for raw data in its native format",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Data Lake",

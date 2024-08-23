@@ -1,7 +1,7 @@
 {
     "title": "Server side rendering (SSR)",
     "subtext": "Rendering web pages on the server",
-    "category": "all",
+    "categories": ["all"],
     "author": "Buzzpy",
     "description": {
       "title": "Server-side rendering (SSR)",

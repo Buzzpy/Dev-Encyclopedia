@@ -1,7 +1,7 @@
 {
     "title": "Forks",
     "subtext": "Copying a repository for development",
-    "category": "all",
+    "categories": ["all"],
     "author": "Buzzpy",
     "description": {
       "title": "Forks",

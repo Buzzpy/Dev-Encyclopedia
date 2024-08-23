@@ -1,7 +1,7 @@
 {
   "title": "Data Types",
   "subtext": "Categories defining the kind of data variables can hold.",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Data Types",
@@ -11,7 +11,7 @@
     ],
     "image": "",
     "references": [
-      "https://www.w3schools.com/python/python_datatypes.asp"
+      "https://www.geeksforgeeks.org/data-types-in-programming/"
     ]
   }
 }

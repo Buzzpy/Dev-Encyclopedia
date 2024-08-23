@@ -1,7 +1,7 @@
 {
   "title": "Caching",
   "subtext": "Storing data for quick access",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Caching",

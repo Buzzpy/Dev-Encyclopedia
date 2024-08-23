@@ -1,7 +1,7 @@
 {
   "title": "gRPC",
   "subtext": "A high-performance framework for service communication",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "",

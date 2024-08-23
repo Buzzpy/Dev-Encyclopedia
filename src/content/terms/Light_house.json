@@ -1,7 +1,7 @@
 {
     "title": "Light House",
     "subtext": "Website performance audit tool",
-    "category": "all",
+    "categories": ["all"],
     "author": "Buzzpy",
     "description": {
       "title": "Light House",

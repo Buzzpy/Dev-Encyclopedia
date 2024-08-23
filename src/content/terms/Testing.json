@@ -1,7 +1,7 @@
 {
   "title": "Testing",
   "subtext": "The ultimate fear of developers",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Testing",

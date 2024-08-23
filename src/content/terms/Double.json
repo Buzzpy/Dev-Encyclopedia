@@ -1,7 +1,7 @@
 {
   "title": "Double",
   "subtext": "More precise and larger decimal numbers.",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Double",

@@ -1,7 +1,7 @@
 {
   "title": "Dependency Graph",
   "subtext": "Visualize dependencies in systems or projects",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Dependency Graph",
@@ -11,7 +11,7 @@
     ],
     "image": "",
     "references": [
-      "https://www.visual-paradigm.com/guide/software-development/what-is-dependency-graph/"
+      "https://deepsource.com/glossary/dependency-graph#:~:text=A%20dependency%20graph%20is%20a,node%20on%20which%20it%20depends."
     ]
   }
 }

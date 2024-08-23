@@ -1,7 +1,7 @@
 {
     "title": "Pygame",
     "subtext": "Python library for game development",
-    "category": "all",
+    "categories": ["all"],
     "author": "Buzzpy",
     "description": {
       "title": "Pygame",

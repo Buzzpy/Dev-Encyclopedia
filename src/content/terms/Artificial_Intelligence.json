@@ -1,7 +1,7 @@
 {
   "title": "Artificial Intelligence",
   "subtext": "A frenemy",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Artificial Intelligence",

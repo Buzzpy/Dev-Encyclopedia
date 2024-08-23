@@ -1,7 +1,7 @@
 {
   "title": "Stateful vs Stateless Systems",
   "subtext": "Compare systems that maintain state with those that don't",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Stateful vs Stateless Systems",

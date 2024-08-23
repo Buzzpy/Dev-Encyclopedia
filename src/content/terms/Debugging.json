@@ -1,7 +1,7 @@
 {
   "title": "Debugging",
   "subtext": "An interesting process that makes programmers yell \"Just Why!?\"",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Debugging",

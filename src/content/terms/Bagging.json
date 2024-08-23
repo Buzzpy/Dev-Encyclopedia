@@ -1,7 +1,7 @@
 {
   "title": "Bagging",
   "subtext": "Combines predictions from multiple models for improved accuracy.",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Bagging",
@@ -11,7 +11,7 @@
     ],
     "image": "https://miro.medium.com/v2/resize:fit:1000/0*fXQq704fHO18BImx.png",
     "references": [
-      "Bootstrap Aggregating"
+      "https://www.ibm.com/topics/bagging"
     ]
   }
 }

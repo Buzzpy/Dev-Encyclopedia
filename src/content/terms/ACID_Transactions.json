@@ -1,7 +1,7 @@
 {
   "title": "ACID Transactions",
   "subtext": "Ensure reliability in database operations",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "ACID Transactions",
@@ -11,7 +11,7 @@
     ],
     "image": "https://miro.medium.com/v2/resize:fit:700/1*7VBEi3uuVgGlTDn5GmOxDA.png",
     "references": [
-      "https://www.ibm.com/cloud/learn/acid-properties"
+      "https://www.databricks.com/glossary/acid-transactions#:~:text=ACID%20is%20an%20acronym%20that,operations%20are%20called%20transactional%20systems."
     ]
   }
 }

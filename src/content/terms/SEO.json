@@ -1,7 +1,7 @@
 {
     "title": "Search Engine Optimization (SEO)",
     "subtext": "Improving website visibility",
-    "category": "all",
+    "categories": ["all"],
     "author": "Buzzpy",
     "description": {
       "title": "Search Engine Optimization (SEO)",

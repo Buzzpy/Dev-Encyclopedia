@@ -1,7 +1,7 @@
 {
   "title": "AUC Curve",
   "subtext": "i.e. Area Under the Curve",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "AUC Curve",
@@ -11,7 +11,7 @@
     ],
     "image": "https://media.geeksforgeeks.org/wp-content/uploads/20230410164437/AUC-ROC-Curve.webp",
     "references": [
-      "https://medium.com/@shaileydash/understanding-the-roc-and-auc-intuitively-31ca96445c025"
+      "https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc#:~:text=hypothetical%20perfect%20model.-,Area%20under%20the%20curve%20(AUC),-The%20area%20under"
     ]
   }
 }

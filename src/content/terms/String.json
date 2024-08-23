@@ -1,7 +1,7 @@
 {
   "title": "String",
   "subtext": "A sequence of characters representing text.",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "String",

@@ -1,7 +1,7 @@
 {
   "title": "Inheritance",
   "subtext": "Creating new classes from existing ones, inheriting their properties and behaviors.",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Inheritance",

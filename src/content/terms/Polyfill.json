@@ -1,7 +1,7 @@
 {
   "title": "Polyfill",
   "subtext": "Providing modern functionality on older browsers",
-  "category": "all",
+  "categories": ["all"],
   "author": "RayMathew",
   "description": {
     "title": "Polyfill",
