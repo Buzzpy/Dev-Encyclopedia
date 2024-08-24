@@ -1,7 +1,9 @@
 {
     "title": "Polymorphic Code",
     "subtext": "Self-altering code",
-    "category": "cybersecurity",
+    "category": [
+        "cybersecurity"
+    ],
     "author": "AnshumanMishra",
     "description": {
         "title": "Polymorphic Code",

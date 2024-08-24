@@ -1,7 +1,9 @@
 {
     "title": "Steganography",
     "subtext": "Hiding data within other data",
-    "category": "cybersecurity",
+    "category": [
+        "cybersecurity"
+    ],
     "author": "AnshumanMishra",
     "description": {
         "title": "Steganography",

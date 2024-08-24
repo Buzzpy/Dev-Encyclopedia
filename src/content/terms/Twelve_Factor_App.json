@@ -1,7 +1,9 @@
 {
     "title": "Twelve-Factor App",
     "subtext": "Application development methodology",
-    "category": "development",
+    "category": [
+        "development"
+    ],
     "author": "AnshumanMishra",
     "description": {
         "title": "Twelve-Factor App",

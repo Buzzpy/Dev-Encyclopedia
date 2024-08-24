@@ -1,7 +1,9 @@
 {
     "title": "Payload",
     "subtext": "Data delivered by an exploit",
-    "category": "cybersecurity",
+    "category": [
+        "cybersecurity"
+    ],
     "author": "AnshumanMishra",
     "description": {
         "title": "Payload",

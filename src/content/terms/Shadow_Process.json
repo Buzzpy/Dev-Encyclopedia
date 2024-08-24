@@ -1,7 +1,9 @@
 {
     "title": "Shadow Process",
     "subtext": "Hidden system process",
-    "category": "security",
+    "category": [
+        "cyber security"
+    ],
     "author": "AnshumanMishra",
     "description": {
         "title": "Shadow Process",

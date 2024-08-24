@@ -1,7 +1,9 @@
 {
     "title": "Futures",
     "subtext": "Asynchronous programming construct",
-    "category": "programming",
+    "category": [
+        "programming"
+    ],
     "author": "AnshumanMishra",
     "description": {
         "title": "Futures",

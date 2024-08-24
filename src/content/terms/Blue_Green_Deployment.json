@@ -1,7 +1,9 @@
 {
     "title": "Blue-Green Deployment",
     "subtext": "Deployment strategy",
-    "category": "deployment",
+    "category": [
+        "deployment"
+    ],
     "author": "AnshumanMishra",
     "description": {
         "title": "Blue-Green Deployment",

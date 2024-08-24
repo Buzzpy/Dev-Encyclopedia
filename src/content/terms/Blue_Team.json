@@ -1,7 +1,9 @@
 {
     "title": "Blue-Team",
     "subtext": "Defensive security team",
-    "category": "cybersecurity",
+    "category": [
+        "cybersecurity"
+    ],
     "author": "AnshumanMishra",
     "description": {
         "title": "Blue-Team",

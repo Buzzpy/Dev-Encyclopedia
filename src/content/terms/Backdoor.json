@@ -1,7 +1,9 @@
 {
     "title": "Backdoor",
     "subtext": "Hidden access point in software",
-    "category": "cybersecurity",
+    "category": [
+        "cybersecurity"
+    ],
     "author": "AnshumanMishra",
     "description": {
         "title": "Backdoor",

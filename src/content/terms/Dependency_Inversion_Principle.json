@@ -1,7 +1,9 @@
 {
     "title": "Dependency Inversion Principle",
     "subtext": "Dependency inversion principle",
-    "category": "design",
+    "category": [
+        "design"
+    ],
     "author": "AnshumanMishra",
     "description": {
         "title": "Dependency Inversion Principle",

@@ -1,7 +1,9 @@
 {
     "title": "Singleton Pattern",
     "subtext": "Single instance design pattern",
-    "category": "design",
+    "category": [
+        "design"
+    ],
     "author": "AnshumanMishra",
     "description": {
         "title": "Singleton Pattern",

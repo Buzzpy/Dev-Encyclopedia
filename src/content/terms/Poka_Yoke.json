@@ -1,7 +1,9 @@
 {
     "title": "Poka-Yoke",
     "subtext": "Error prevention technique",
-    "category": "design",
+    "category": [
+        "design"
+    ],
     "author": "AnshumanMishra",
     "description": {
         "title": "Poka-Yoke",

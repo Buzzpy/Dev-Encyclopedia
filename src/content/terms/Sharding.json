@@ -1,7 +1,9 @@
 {
     "title": "Sharding",
     "subtext": "Database partitioning technique",
-    "category": "databases",
+    "category": [
+        "databases"
+    ],
     "author": "AnshumanMishra",
     "description": {
         "title": "Sharding",

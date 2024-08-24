@@ -1,7 +1,9 @@
 {
     "title": "Zombie Process",
     "subtext": "Defunct process",
-    "category": "systems",
+    "category": [
+        "systems"
+    ],
     "author": "AnshumanMishra",
     "description": {
         "title": "Zombie Process",

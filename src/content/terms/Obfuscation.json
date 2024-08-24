@@ -1,7 +1,9 @@
 {
     "title": "Obfuscation",
     "subtext": "Code disguise technique",
-    "category": "cybersecurity",
+    "category": [
+        "cybersecurity"
+    ],
     "author": "AnshumanMishra",
     "description": {
         "title": "Obfuscation",

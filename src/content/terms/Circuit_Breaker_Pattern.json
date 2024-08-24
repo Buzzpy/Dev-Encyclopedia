@@ -1,7 +1,9 @@
 {
     "title": "Circuit Breaker Pattern",
     "subtext": "Software design pattern",
-    "category": "software design",
+    "category": [
+        "software design"
+    ],
     "author": "AnshumanMishra",
     "description": {
         "title": "Circuit Breaker Pattern",

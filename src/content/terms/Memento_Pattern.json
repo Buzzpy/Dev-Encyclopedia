@@ -1,7 +1,9 @@
 {
     "title": "Memento Pattern",
     "subtext": "Behavioral design pattern",
-    "category": "design",
+    "category": [
+        "design"
+    ],
     "author": "AnshumanMishra",
     "description": {
         "title": "Memento Pattern",

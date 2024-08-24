@@ -1,7 +1,9 @@
 {
     "title": "Pivoting",
     "subtext": "Moving within a compromised network",
-    "category": "cybersecurity",
+    "category": [
+        "cybersecurity"
+    ],
     "author": "AnshumanMishra",
     "description": {
         "title": "Pivoting",

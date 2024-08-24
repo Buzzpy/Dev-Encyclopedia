@@ -1,7 +1,9 @@
 {
     "title": "YAGNI",
     "subtext": "You Aren't Gonna Need It",
-    "category": "programming",
+    "category": [
+        "programming"
+    ],
     "author": "AnshumanMishra",
     "description": {
         "title": "YAGNI",

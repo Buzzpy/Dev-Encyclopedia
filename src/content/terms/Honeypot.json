@@ -1,7 +1,9 @@
 {
     "title": "Honeypot",
     "subtext": "Decoy system to detect attacks",
-    "category": "cybersecurity",
+    "category": [
+        "cybersecurity"
+    ],
     "author": "AnshumanMishra",
     "description": {
         "title": "Honeypot",

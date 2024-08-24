@@ -1,7 +1,9 @@
 {
     "title": "Semantic Design",
     "subtext": "Meaningful code and markup",
-    "category": "design",
+    "category": [
+        "design"
+    ],
     "author": "AnshumanMishra",
     "description": {
         "title": "Semantic Design",

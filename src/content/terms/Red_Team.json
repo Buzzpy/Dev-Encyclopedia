@@ -1,7 +1,9 @@
 {
     "title": "Red-Team",
     "subtext": "Offensive security team",
-    "category": "cybersecurity",
+    "category": [
+        "cybersecurity"
+    ],
     "author": "AnshumanMishra",
     "description": {
         "title": "Red-Team",

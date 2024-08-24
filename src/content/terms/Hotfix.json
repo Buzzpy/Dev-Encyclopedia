@@ -1,7 +1,9 @@
 {
     "title": "Hotfix",
     "subtext": "Emergency software fix",
-    "category": "development",
+    "category": [
+        "development"
+    ],
     "author": "AnshumanMishra",
     "description": {
         "title": "Hotfix",
