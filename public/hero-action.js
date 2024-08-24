@@ -162,8 +162,8 @@ document.addEventListener('DOMContentLoaded', async function() {
         const modalBody = document.getElementById('modal-body');
         modalBody.innerHTML = `
         <h3>A Note from the Builder</h3>
-        <p>If you find a flaw, love to sponsor or need help with learning something, my inbox is open: <span>-></span> <a href="mailto:buzzpy123@gmail.com">buzzpy123@gmail.com</a></p>
-        <p>- I am a Python Developer specializing in backend so my <strong>web design skills</strong> are <strong>terrible.</strong></p>
+        <p>If you find a flaw, love to sponsor or need help with learning something, my inbox is open: <span>-></span> <a href="mailto:chenuli@devpedia.dev">chenuli@devpedia.dev</a></p>
+        <p>- I am a Python Developer specializing in backend so my <strong>web design skills</strong> can be <strong>terrible.</strong></p>
         <p>- This project was built in a month, unlike Rome which took years to build. Which means this is in the early stages of development, so why not <strong>fork, star, and contribute?</strong></p>
       `;
         modal.style.display = 'block';

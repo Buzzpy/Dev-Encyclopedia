@@ -1,17 +1,17 @@
 {
-  "title": "Tokenization",
-  "subtext": "Convert sensitive data into non-sensitive tokens",
-  "categories": ["all"],
+  "title": "Tokenization (NLP)",
+  "subtext": "Breaking down text into smaller components.",
+  "categories": ["AI/ML"],
   "author": "Buzzpy",
   "description": {
-    "title": "Tokenization",
+    "title": "Tokenization in Programming",
     "texts": [
-      "Tokenization is the process of converting sensitive data into non-sensitive data called tokens, which can be used in a database or internal system without exposing sensitive information.",
-      "Think of tokenization as swapping out your real, valuable diamonds for costume jewelry when traveling to secure the real assets."
+      "Tokenization is the process of breaking down a string of text into smaller pieces called tokens. These tokens can be words, phrases, or even characters, depending on the level of granularity required.",
+      "In programming, tokenization is commonly used in natural language processing (NLP) to prepare text for analysis, or in compilers and interpreters to break down source code into manageable elements for parsing and execution."
     ],
-    "image": "",
+    "image": "https://miro.medium.com/v2/resize:fit:1400/1*PZYP2nL6Zc_jpkaHLRxLQQ.png",
     "references": [
-      "https://www.pcisecuritystandards.org/pdfs/pci_fs_data_tokenization.pdf"
+      "https://www.datacamp.com/blog/what-is-tokenization"
     ]
   }
 }
