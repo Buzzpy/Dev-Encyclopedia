@@ -1,7 +1,7 @@
 {
   "title": "Code Review",
   "subtext": "Checking code for quality and improvement",
-  "categories": ["all"],
+  "categories": ["SDLC", "Quality Assurance"],
   "author": "Buzzpy",
   "description": {
     "title": "Code Review",

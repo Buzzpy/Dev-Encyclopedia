@@ -1,7 +1,7 @@
 {
   "title": "Boosting",
   "subtext": "Builds models sequentially, with each correcting errors of the previous one.",
-  "categories": ["all"],
+  "categories": ["Machine Learning", "AI"],
   "author": "Buzzpy",
   "description": {
     "title": "Boosting",

@@ -1,7 +1,7 @@
 {
   "title": "Data Partitioning",
   "subtext": "Divide a database into distinct, independent parts",
-  "categories": ["all"],
+  "categories": ["Database", "Big Data"],
   "author": "Buzzpy",
   "description": {
     "title": "Data Partitioning",

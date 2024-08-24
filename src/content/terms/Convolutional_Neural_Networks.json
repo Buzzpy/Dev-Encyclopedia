@@ -1,7 +1,7 @@
 {
   "title": "Convolutional Neural Networks",
   "subtext": "Analyzes grid-like data, such as images, using filters.",
-  "categories": ["all"],
+  "categories": ["Machine Learning", "AI"],
   "author": "Buzzpy",
   "description": {
     "title": "Convolutional Neural Networks",

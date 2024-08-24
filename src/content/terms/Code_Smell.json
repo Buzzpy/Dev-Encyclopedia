@@ -1,7 +1,7 @@
 {
   "title": "Code Smell",
   "subtext": "Indicators that code might need improvement.",
-  "categories": ["all"],
+  "categories": ["SDLC", "Quality Assurance"],
   "author": "Buzzpy",
   "description": {
     "title": "Code Smell",

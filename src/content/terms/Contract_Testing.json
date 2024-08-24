@@ -1,7 +1,7 @@
 {
   "title": "Contract Testing",
   "subtext": "Process of defining and verifying a contract between two services",
-  "categories": ["all"],
+  "categories": ["SDLC", "Testing"],
   "author": "RayMathew",
   "description": {
     "title": "Contract Testing",

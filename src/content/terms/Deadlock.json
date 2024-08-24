@@ -1,7 +1,7 @@
 {
   "title": "Deadlock",
   "subtext": "A stand-off where processes block each other's progress",
-  "categories": ["all"],
+  "categories": ["Database", "Programming Concepts"],
   "author": "Buzzpy",
   "description": {
     "title": "Deadlock",

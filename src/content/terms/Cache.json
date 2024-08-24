@@ -1,7 +1,7 @@
 {
     "title": "Cache",
     "subtext": "Temporary storage for fast access",
-    "categories": ["all"],
+    "categories": ["Caching", "Optimization"],
     "author": "Buzzpy",
     "description": {
       "title": "Cache",

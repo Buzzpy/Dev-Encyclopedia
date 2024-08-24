@@ -1,7 +1,7 @@
 {
   "title": "Data Replication",
   "subtext": "Copy data to ensure consistency and accessibility",
-  "categories": ["all"],
+  "categories": ["Database", "Big Data", "Cloud Computing"],
   "author": "Buzzpy",
   "description": {
     "title": "Data Replication",
