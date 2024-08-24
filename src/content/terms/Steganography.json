@@ -1,0 +1,18 @@
+{
+    "title": "Steganography",
+    "subtext": "Hiding data within other data",
+    "category": [
+        "cybersecurity"
+    ],
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Steganography",
+        "texts": [
+            "Steganography is the technique of concealing information within another seemingly innocuous file, such as an image or audio file. This hidden data remains undetected by casual observers, making it a discreet method of transmitting sensitive information or executing covert operations."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Steganography"
+        ]
+    }
+}

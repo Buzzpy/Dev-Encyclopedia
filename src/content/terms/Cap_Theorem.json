@@ -1,0 +1,18 @@
+{
+    "title": "CAP Theorem",
+    "subtext": "Consistency, Availability, Partition Tolerance",
+    "category": [
+        "databases"
+    ],
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "CAP Theorem",
+        "texts": [
+            "The CAP Theorem, also known as Brewer's Theorem, states that a distributed system can only guarantee two out of three properties: Consistency, Availability, and Partition Tolerance. It highlights the trade-offs between these attributes in distributed database systems."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/CAP_theorem"
+        ]
+    }
+}

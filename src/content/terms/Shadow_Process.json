@@ -1,0 +1,18 @@
+{
+    "title": "Shadow Process",
+    "subtext": "Hidden system process",
+    "category": [
+        "cybersecurity"
+    ],
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Shadow Process",
+        "texts": [
+            "A Shadow Process is an unauthorized or hidden process running on a system, often created to evade detection by security software. These processes can be used for malicious purposes, such as maintaining persistent access or exfiltrating data."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Shadow_(computing)"
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "title": "Singleton Pattern",
+    "subtext": "Single instance design pattern",
+    "category": [
+        "design"
+    ],
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Singleton Pattern",
+        "texts": [
+            "The Singleton Pattern is a design pattern that restricts the instantiation of a class to a single object. This ensures that a class has only one instance and provides a global point of access to it, which is useful for managing shared resources."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Singleton_pattern"
+        ]
+    }
+}

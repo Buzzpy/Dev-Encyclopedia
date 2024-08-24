@@ -1,0 +1,18 @@
+{
+    "title": "Zombie",
+    "subtext": "Compromised and controlled machine",
+    "category": [
+        "cybersecurity"
+    ],
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Zombie",
+        "texts": [
+            "In cybersecurity, a 'Zombie' refers to a computer that has been compromised by an attacker and is controlled remotely without the owner's knowledge. Such machines are often utilized in botnets to execute various malicious activities, including distributed denial-of-service (DDoS) attacks."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Zombie_(computer_science)"
+        ]
+    }
+}
