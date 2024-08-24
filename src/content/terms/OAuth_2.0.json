@@ -1,7 +1,7 @@
 {
   "title": "OAuth 2.0",
   "subtext": "Authorization framework for resource access",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "",

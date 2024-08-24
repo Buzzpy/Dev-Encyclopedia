@@ -1,7 +1,7 @@
 {
   "title": "Integration Test",
   "subtext": "Another type of testing",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Integration Test",

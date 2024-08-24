@@ -1,7 +1,7 @@
 {
   "title": "Classes",
   "subtext": "Blueprints for creating objects with defined properties and behaviors.",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Classes",

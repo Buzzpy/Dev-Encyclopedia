@@ -1,7 +1,7 @@
 {
   "title": "Software Containers",
   "subtext": "Package an application and its dependencies into a unit",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Software Containers",

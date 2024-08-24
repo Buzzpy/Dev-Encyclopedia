@@ -1,7 +1,7 @@
 {
   "title": "Technical Debt",
   "subtext": "Extra work due to past shortcuts",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Technical Debt",

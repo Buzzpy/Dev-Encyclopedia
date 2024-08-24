@@ -1,7 +1,7 @@
 {
   "title": "GraphQL",
   "subtext": "Query language for APIs",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "GraphQL",

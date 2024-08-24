@@ -1,7 +1,7 @@
 {
   "title": "Cache Invalidation",
   "subtext": "Remove outdated data to make room for fresh information",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Cache Invalidation",

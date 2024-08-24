@@ -1,7 +1,7 @@
 {
   "title": "Data Replication",
   "subtext": "Copy data to ensure consistency and accessibility",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Data Replication",

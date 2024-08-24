@@ -1,7 +1,7 @@
 {
   "title": "GitHub",
   "subtext": "Platform for code hosting and collaboration",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "GitHub",

@@ -2,7 +2,7 @@
 {
     "title": "UX (User Experience)",
     "subtext": "Overall experience with a product",
-    "category": "all",
+    "categories": ["all"],
     "author": "Buzzpy",
     "description": {
       "title": "UX (User Experience)",

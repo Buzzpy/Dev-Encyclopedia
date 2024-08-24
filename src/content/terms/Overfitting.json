@@ -1,7 +1,7 @@
 {
   "title": "Overfitting",
   "subtext": "When a model learns too much from training data, harming new data performance.",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Overfitting",

@@ -1,7 +1,7 @@
 {
   "title": "Network Latency",
   "subtext": "A delay in network communication",
-  "category": "all",
+  "categories": ["all"],
   "author": "RayMathew",
   "description": {
     "title": "Network Latency",

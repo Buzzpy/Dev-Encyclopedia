@@ -1,7 +1,7 @@
 {
   "title": "ReactJS",
   "subtext": "A popular JS library for building user-interfaces",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "",

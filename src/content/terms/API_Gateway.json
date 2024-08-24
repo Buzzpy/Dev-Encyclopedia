@@ -1,7 +1,7 @@
 {
   "title": "API Gateway",
   "subtext": "Manages requests and directs them to the correct services",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "API Gateway",

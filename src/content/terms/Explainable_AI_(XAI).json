@@ -1,7 +1,7 @@
 {
   "title": "Explainable AI (XAI)",
   "subtext": "Making AI decisions understandable to humans",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "",

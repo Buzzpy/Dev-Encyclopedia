@@ -1,7 +1,7 @@
 {
   "title": "Dependency Graph",
   "subtext": "Visualize dependencies in systems or projects",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Dependency Graph",

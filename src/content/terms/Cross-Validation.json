@@ -1,7 +1,7 @@
 {
   "title": "Cross-Validation",
   "subtext": "Evaluates model performance on multiple data splits.",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "",

@@ -1,7 +1,7 @@
 {
   "title": "Edge Computing",
   "subtext": "Data processing closer to data sources",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Edge Computing",

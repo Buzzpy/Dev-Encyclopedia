@@ -1,7 +1,7 @@
 {
   "title": "Domain-Driven Design (DDD)",
   "subtext": "Align software design with business needs",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Domain-Driven Design (DDD)",

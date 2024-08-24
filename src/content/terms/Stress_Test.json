@@ -1,7 +1,7 @@
 {
   "title": "Stress Test",
   "subtext": "A type of performance testing under pressure",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Stress Test",

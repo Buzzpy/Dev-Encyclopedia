@@ -1,7 +1,7 @@
 {
     "title": "XPATH",
     "subtext": "XML Path Language",
-    "category": "all",
+    "categories": ["all"],
     "author": "Buzzpy",
     "description": {
       "title": "XPATH",

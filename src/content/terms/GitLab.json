@@ -1,7 +1,7 @@
 {
     "title": "GitLab",
     "subtext": "DevOps lifecycle tool",
-    "category": "all",
+    "categories": ["all"],
     "author": "Buzzpy",
     "description": {
       "title": "GitLab",

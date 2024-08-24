@@ -1,7 +1,7 @@
 {
   "title": "List",
   "subtext": "An ordered, changeable collection of items.",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "List",

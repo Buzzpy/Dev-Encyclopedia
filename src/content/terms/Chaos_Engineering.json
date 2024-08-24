@@ -1,7 +1,7 @@
 {
   "title": "Chaos Engineering",
   "subtext": "Practice of testing systems to withstand turbulent conditions",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Chaos Engineering",

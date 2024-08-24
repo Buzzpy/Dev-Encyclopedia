@@ -1,7 +1,7 @@
 {
   "title": "Regularization",
   "subtext": "Prevents overfitting by adding penalties to model complexity.",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Regularization",

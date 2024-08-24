@@ -1,17 +1,16 @@
 {
     "title": "Attribute",
-    "subtext": "HTML element properties",
-    "category": "all",
-    "author": "Buzzpy",
+    "subtext": "Properties that can be assigned to elements like variables, objects, or classes",
+    "categories": ["all"],
+    "author": "RayMathew",
     "description": {
       "title": "Attribute",
       "texts": [
-        "An attribute in HTML is a property added to an HTML element to define its behavior or provide additional information.",
-        "Attributes usually appear as name/value pairs and can be used to specify characteristics like ID, class, style, and source."
+        "An attribute is a specification that can be assigned to elements like variables, objects, or classes. It may also refer to or set the specific value for a given instance of such. They provide additional information or behavior to these elements, helping you define their specific traits."
       ],
-      "image": "https://web.dev/static/learn/html/attributes/image/the-opening-tag-attribut-d49075bfc3ce2.png",
+      "image": "https://en.wikipedia.org/wiki/Attribute_(computing)#/media/File:CPT-OOP-objects_and_classes_-_attmeth.svg",
       "references": [
-        "https://www.w3schools.com/html/html_attributes.asp"
+        "https://en.wikipedia.org/wiki/Attribute_(computing)"
       ]
     }
   }

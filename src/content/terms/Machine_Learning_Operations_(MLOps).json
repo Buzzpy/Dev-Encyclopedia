@@ -1,7 +1,7 @@
 {
   "title": "Machine Learning Operations (MLOps)",
   "subtext": "Streamline machine learning processes using DevOps principles",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "",

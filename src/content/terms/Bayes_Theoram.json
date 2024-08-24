@@ -1,7 +1,7 @@
 {
     "title": "Bayes Theorem",
     "subtext": "Principle of probability theory",
-    "category": "all",
+    "categories": ["all"],
     "author": "Buzzpy",
     "description": {
       "title": "Bayes Theorem",

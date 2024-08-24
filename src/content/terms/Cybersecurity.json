@@ -1,7 +1,7 @@
 {
   "title": "Cybersecurity",
   "subtext": "Staying secured in a a world of hackers",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Cybersecurity",

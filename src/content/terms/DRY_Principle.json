@@ -1,7 +1,7 @@
 {
   "title": "DRY Principle",
   "subtext": "Avoid code repetition",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "DRY Principle",

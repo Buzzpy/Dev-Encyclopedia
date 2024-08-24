@@ -1,7 +1,7 @@
 {
     "title": "Numpy",
     "subtext": "Numerical computing library",
-    "category": "all",
+    "categories": ["all"],
     "author": "Buzzpy",
     "description": {
       "title": "Numpy",

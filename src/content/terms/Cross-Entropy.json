@@ -1,7 +1,7 @@
 {
   "title": "Cross-Entropy",
   "subtext": "Loss function measuring the difference between predicted and actual class labels.",
-  "category": "all",
+  "categories": ["all"],
   "author": "Buzzpy",
   "description": {
     "title": "Cross-Entropy",
