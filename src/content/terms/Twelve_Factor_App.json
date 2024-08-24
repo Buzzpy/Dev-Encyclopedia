@@ -1,0 +1,18 @@
+{
+    "title": "Twelve-Factor App",
+    "subtext": "Application development methodology",
+    "category": [
+        "development"
+    ],
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Twelve-Factor App",
+        "texts": [
+            "The Twelve-Factor App methodology provides best practices for building scalable and maintainable applications, particularly for cloud environments. It covers aspects such as configuration, dependencies, and backing services to ensure applications are portable and robust."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Twelve-Factor_App"
+        ]
+    }
+}

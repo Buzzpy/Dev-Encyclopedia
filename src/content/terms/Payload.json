@@ -1,0 +1,18 @@
+{
+    "title": "Payload",
+    "subtext": "Data delivered by an exploit",
+    "category": [
+        "cybersecurity"
+    ],
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Payload",
+        "texts": [
+            "A payload in cybersecurity refers to the part of an exploit that performs the intended malicious action. This could include delivering malware, opening a backdoor, or executing a command. Payloads are typically delivered through vulnerabilities and are the core element of many cyberattacks."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Payload_(computer_security)"
+        ]
+    }
+}

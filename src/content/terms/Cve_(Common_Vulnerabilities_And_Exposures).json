@@ -1,0 +1,18 @@
+{
+    "title": "CVE (Common Vulnerabilities and Exposures)",
+    "subtext": "Publicly disclosed cybersecurity vulnerabilities",
+    "category": [
+        "cybersecurity"
+    ],
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "CVE (Common Vulnerabilities and Exposures)",
+        "texts": [
+            "CVE (Common Vulnerabilities and Exposures) is a comprehensive list of publicly disclosed cybersecurity vulnerabilities. Each entry includes a unique identifier and a brief description of the vulnerability, helping organizations prioritize their patching efforts and improve security."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures"
+        ]
+    }
+}

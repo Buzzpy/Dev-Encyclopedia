@@ -1,0 +1,18 @@
+{
+    "title": "Sidecar Pattern",
+    "subtext": "Companion service architecture",
+    "category": [
+        "architecture"
+    ],
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Sidecar Pattern",
+        "texts": [
+            "The Sidecar Pattern involves deploying a secondary service alongside a primary application to extend its functionality without altering the main service. This pattern is often used in microservices architectures to provide additional capabilities, such as logging or security features, in a modular and scalable manner."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Sidecar_pattern"
+        ]
+    }
+}
