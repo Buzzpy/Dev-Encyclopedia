@@ -1,7 +1,7 @@
 {
     "title": "Proxy",
     "subtext": "Intermediate server for network requests",
-    "categories": ["all"],
+    "categories": ["Networking", "Software Architecture"],
     "author": "Buzzpy",
     "description": {
       "title": "Proxy",

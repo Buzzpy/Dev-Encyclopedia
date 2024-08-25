@@ -1,7 +1,7 @@
 {
     "title": "N+1 Query Problem",
     "subtext": "Inefficient data retrieval when querying data.",
-    "categories": ["all"],
+    "categories": ["Database", "Optimization"],
     "author": "Muhammad Azis Husein",
     "description": {
       "title": "N+1 Query Problem",

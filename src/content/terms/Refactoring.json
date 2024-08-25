@@ -1,7 +1,7 @@
 {
   "title": "Refactoring",
   "subtext": "Improving code structure without changing behavior",
-  "categories": ["all"],
+  "categories": ["Programming Concepts", "SDLC"],
   "author": "Buzzpy",
   "description": {
     "title": "Refactoring",

@@ -1,7 +1,7 @@
 {
   "title": "Random Forest",
   "subtext": "Combines multiple decision trees to improve accuracy.",
-  "categories": ["all"],
+  "categories": ["Machine Learning"],
   "author": "Buzzpy",
   "description": {
     "title": "Random Forest",

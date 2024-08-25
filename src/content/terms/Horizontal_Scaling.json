@@ -1,7 +1,7 @@
 {
   "title": "Horizontal Scaling",
   "subtext": "Add more machines to handle increased load",
-  "categories": ["all"],
+  "categories": ["Scalability", "Cloud Computing", "Distributed Systems"],
   "author": "Buzzpy",
   "description": {
     "title": "Horizontal Scaling",

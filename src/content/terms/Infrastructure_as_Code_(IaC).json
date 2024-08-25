@@ -1,7 +1,7 @@
 {
   "title": "Infrastructure as Code (IaC)",
   "subtext": "Managing infrastructure through machine-readable scripts",
-  "categories": ["all"],
+  "categories": ["DevOps", "Automation", "Cloud Computing"],
   "author": "Buzzpy",
   "description": {
     "title": "",

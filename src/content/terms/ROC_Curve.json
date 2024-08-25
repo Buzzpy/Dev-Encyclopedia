@@ -1,7 +1,7 @@
 {
   "title": "ROC Curve",
   "subtext": "Graphical representation of a classifier's performance.",
-  "categories": ["all"],
+  "categories": ["Machine Learning"],
   "author": "Buzzpy",
   "description": {
     "title": "ROC Curve",

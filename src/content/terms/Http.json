@@ -1,7 +1,7 @@
 {
     "title": "HTTP",
     "subtext": "Hypertext Transfer Protocol",
-    "categories": ["all"],
+    "categories": ["Networking", "Web Development"],
     "author": "Eddocode",
     "description": {
       "title": "HTTP",

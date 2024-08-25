@@ -1,7 +1,7 @@
 {
   "title": "Support Vector Machines",
   "subtext": "Finds the best boundary between classes in data.",
-  "categories": ["all"],
+  "categories": ["Machine Learning"],
   "author": "Buzzpy",
   "description": {
     "title": "Support Vector Machines",

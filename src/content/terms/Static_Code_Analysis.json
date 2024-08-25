@@ -1,7 +1,7 @@
 {
   "title": "Static Code Analysis",
   "subtext": "Examining vulnerabilities in source code",
-  "categories": ["all"],
+  "categories": ["Quality Assurnace"],
   "author": "RayMathew",
   "description": {
     "title": "Static Code Analysis",
