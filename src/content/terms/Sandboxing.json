@@ -1,0 +1,18 @@
+{
+    "title": "Sandboxing",
+    "subtext": "Isolated testing environment",
+    "category": [
+        "cybersecurity"
+    ],
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Sandboxing",
+        "texts": [
+            "Sandboxing is a security technique that runs software in a controlled, isolated environment. This containment prevents potentially harmful applications from affecting the rest of the system, providing a safe space to test and analyze code without risking broader security."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Sandbox_(computer_security)"
+        ]
+    }
+}

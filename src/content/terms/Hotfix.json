@@ -1,0 +1,18 @@
+{
+    "title": "Hotfix",
+    "subtext": "Emergency software fix",
+    "category": [
+        "development"
+    ],
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Hotfix",
+        "texts": [
+            "A Hotfix is a quick and targeted software update designed to address critical bugs or vulnerabilities that have been discovered after the initial release. Unlike regular updates or patches, hotfixes are intended to be deployed immediately to resolve urgent issues."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Hotfix"
+        ]
+    }
+}

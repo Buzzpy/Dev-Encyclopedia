@@ -9,9 +9,9 @@
       "CRON jobs are scheduled tasks that run automatically at specified intervals on Unix-like operating systems. They are managed by the cron daemon.",
       "CRON is commonly used for tasks like backups, system maintenance, and running scripts on a regular schedule."
     ],
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Cron_digital_clock_icon.svg/1024px-Cron_digital_clock_icon.svg.png",
+    "image": "https://stevenmortimer.com/blog/automating-r-scripts-with-cron/cronjob.png",
     "references": [
-      "https://opensource.com/article/17/11/how-use-cron-linux"
+      "https://cronitor.io/guides/cron-jobs"
     ]
   }
 }

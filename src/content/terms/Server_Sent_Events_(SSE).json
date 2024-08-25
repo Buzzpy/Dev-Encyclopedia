@@ -4,9 +4,14 @@
   "categories": ["Software Architecture", "Web Development"],
   "author": "Buzzpy",
   "description": {
-    "title": "",
-    "texts": [],
+    "title": "Server Sent Events (SSE)",
+    "texts": [
+      "Server-Sent Events (SSE) is a standard for pushing updates from a server to a client over a single HTTP connection. Unlike traditional request-response models where the client must repeatedly request data, SSE allows the server to send updates automatically as soon as new data is available.",
+      "This technology is particularly useful for applications that require real-time updates, such as news feeds, stock price updates, or live chat systems. SSE is supported in most modern browsers and provides a simple, lightweight alternative to WebSockets for certain use cases."
+    ],
     "image": "",
-    "references": []
+    "references": [
+      "https://en.wikipedia.org/wiki/Server-sent_events"
+    ]
   }
 }

@@ -1,0 +1,18 @@
+{
+    "title": "Polymorphic Code",
+    "subtext": "Self-altering code",
+    "category": [
+        "cybersecurity"
+    ],
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Polymorphic Code",
+        "texts": [
+            "Polymorphic code is a type of malicious software that constantly alters its structure to evade detection by security systems. Despite these changes, its core functionality remains intact, making it a formidable challenge for traditional antivirus solutions to identify and neutralize."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Polymorphic_code"
+        ]
+    }
+}

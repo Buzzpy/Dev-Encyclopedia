@@ -4,9 +4,14 @@
   "categories": ["Web Development"],
   "author": "Buzzpy",
   "description": {
-    "title": "",
-    "texts": [],
-    "image": "",
-    "references": []
+    "title": "WebRTC (Web Real-Time Communication)",
+    "texts": [
+      "WebRTC (Web Real-Time Communication) is an open-source project that enables real-time communication between web browsers and mobile applications through simple APIs. It allows for direct peer-to-peer audio, video, and data sharing without the need for plugins or intermediary servers.",
+      "WebRTC is widely used in applications like video conferencing, file sharing, and live streaming, providing high-quality communication while minimizing latency. Its integration into all major browsers makes it a powerful tool for developers looking to build real-time communication features into web applications."
+    ],
+    "image": "https://www.apizee.com/scripts/files/6699225a7e89c0.81949080/websockets-vs-webrtc-768x403.webp",
+    "references": [
+      "https://www.apizee.com/what-is-webrtc.php"
+    ]
   }
 }

@@ -4,9 +4,14 @@
   "categories": ["Cybersecurity"],
   "author": "Buzzpy",
   "description": {
-    "title": "",
-    "texts": [],
+    "title": "OAuth 2.0",
+    "texts": [
+      "OAuth 2.0 is an authorization framework that enables third-party applications to access a user's resources without exposing their credentials. It provides a secure way to grant limited access to resources on behalf of the user, typically using tokens instead of passwords.",
+      "This framework is widely used for enabling secure API access, allowing users to log in to applications using their existing accounts from platforms like Google, Facebook, or GitHub, without sharing their password with the third-party application."
+    ],
     "image": "",
-    "references": []
+    "references": [
+      "https://oauth.net/2/"
+    ]
   }
 }

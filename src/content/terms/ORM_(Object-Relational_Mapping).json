@@ -4,9 +4,14 @@
   "categories": ["Database"],
   "author": "Buzzpy",
   "description": {
-    "title": "",
-    "texts": [],
-    "image": "",
-    "references": []
+    "title": "ORM (Object-Relational Mapping)",
+    "texts": [
+      "Object-Relational Mapping (ORM) is a programming technique used to convert data between incompatible systems. It allows developers to interact with a database using object-oriented programming languages by mapping database tables to classes and records to objects.",
+      "ORM tools help to simplify database interactions by abstracting complex SQL queries into code, making database operations more intuitive and reducing the amount of boilerplate code needed. Popular ORM frameworks include Hibernate for Java, Django ORM for Python, and Entity Framework for .NET."
+    ],
+    "image": "https://www.sixt.tech/assets/object-relational-mapping/ORM.png",
+    "references": [
+      "https://en.wikipedia.org/wiki/Object-relational_mapping"
+    ]
   }
 }

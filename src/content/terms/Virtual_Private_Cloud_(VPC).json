@@ -4,9 +4,14 @@
   "categories": ["Cloud Computing", "Networking"],
   "author": "Buzzpy",
   "description": {
-    "title": "",
-    "texts": [],
+    "title": "Virtual Private Cloud (VPC)",
+    "texts": [
+      "A Virtual Private Cloud (VPC) is a secure, isolated section of a public cloud where you can launch resources such as virtual machines, databases, and storage with enhanced security measures. VPCs provide the flexibility of cloud computing with the added control and security features of a private network.",
+      "In a VPC, you have complete control over your virtual networking environment, including selection of your IP address range, creation of subnets, and configuration of route tables and network gateways. This makes VPCs ideal for businesses that require a secure and scalable cloud environment while maintaining stringent security standards."
+    ],
     "image": "",
-    "references": []
+    "references": [
+      "https://www.ibm.com/cloud/learn/vpc"
+    ]
   }
 }

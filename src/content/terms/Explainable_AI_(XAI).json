@@ -4,9 +4,14 @@
   "categories": ["AI"],
   "author": "Buzzpy",
   "description": {
-    "title": "",
-    "texts": [],
-    "image": "",
-    "references": []
+    "title": "Explainable AI (XAI)",
+    "texts": [
+      "Explainable AI (XAI) refers to methods and techniques that make the outcomes of AI models more understandable to humans. In traditional AI systems, the decision-making process can often be a 'black box'—difficult to interpret or explain.",
+      "XAI seeks to provide transparency by offering insights into how AI models arrive at their conclusions. This is crucial for building trust, especially in fields like healthcare, finance, and law, where understanding the rationale behind decisions is essential."
+    ],
+    "image": "https://www.birlasoft.com/sites/default/files/common/explainable-ai.jpg",
+    "references": [
+         "https://www.ibm.com/topics/explainable-ai"
+    ]
   }
 }
