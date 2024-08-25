@@ -1,7 +1,7 @@
 {
   "title": "Symbolic Link (Symlink)",
   "subtext": "A file pointing to another file or directory",
-  "categories": ["all"],
+  "categories": ["OS"],
   "author": "RayMathew",
   "description": {
     "title": "Symbolic Link (Symlink)",

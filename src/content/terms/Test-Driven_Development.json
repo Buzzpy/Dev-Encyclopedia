@@ -1,7 +1,7 @@
 {
   "title": "Test-Driven Development",
   "subtext": "Or TDD, a software development approach",
-  "categories": ["all"],
+  "categories": ["Testing", "SDLC", "Quality Assurance"],
   "author": "Buzzpy",
   "description": {
     "title": "",

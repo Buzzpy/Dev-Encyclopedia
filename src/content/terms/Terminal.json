@@ -1,7 +1,7 @@
 {
     "title": "Terminal",
     "subtext": "Text-based user interface for CLIs",
-    "categories": ["all"],
+    "categories": ["OS"],
     "author": "Buzzpy",
     "description": {
       "title": "Terminal",

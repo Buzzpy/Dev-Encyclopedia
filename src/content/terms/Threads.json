@@ -1,7 +1,7 @@
 {
   "title": "Threads",
   "subtext": "Mini-programs running concurrently within a larger program.",
-  "categories": ["all"],
+  "categories": ["OS"],
   "author": "Buzzpy",
   "description": {
     "title": "Threads",

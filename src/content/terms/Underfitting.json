@@ -1,7 +1,7 @@
 {
   "title": "Underfitting",
   "subtext": "When a model is too simple to capture the underlying data patterns.",
-  "categories": ["all"],
+  "categories": ["Machine Learning"],
   "author": "Buzzpy",
   "description": {
     "title": "Underfitting",
