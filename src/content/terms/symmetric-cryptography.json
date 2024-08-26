@@ -1,7 +1,7 @@
 {
   "title": "Symmetric Cryptography",
   "subtext": "Encryption using the same key for both encryption and decryption.",
-  "categories": ["all"],
+  "categories": ["Cryptography"],
   "author": "",
   "description": {
     "title": "Symmetric Cryptography",

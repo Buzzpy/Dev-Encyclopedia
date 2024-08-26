@@ -1,7 +1,7 @@
 {
   "title": "Namespace",
   "subtext": "Organize code to avoid naming conflicts",
-  "categories": ["all"],
+  "categories": ["Software Architecture", "Programming Concepts"],
   "author": "Buzzpy",
   "description": {
     "title": "Namespace",

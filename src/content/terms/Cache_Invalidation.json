@@ -1,7 +1,7 @@
 {
   "title": "Cache Invalidation",
   "subtext": "Remove outdated data to make room for fresh information",
-  "categories": ["all"],
+  "categories": ["Web Development", "Optimization", "Caching"],
   "author": "Buzzpy",
   "description": {
     "title": "Cache Invalidation",

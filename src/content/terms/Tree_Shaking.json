@@ -1,7 +1,7 @@
 {
   "title": "Tree Shaking",
   "subtext": "A dead code elimination technique",
-  "categories": ["all"],
+  "categories": ["Optimization", "Frontend Development"],
   "author": "RayMathew",
   "description": {
     "title": "Tree Shaking",

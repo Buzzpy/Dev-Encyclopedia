@@ -1,7 +1,7 @@
 {
   "title": "Canary Testing",
   "subtext": "Testing new software by releasing to a small group of users",
-  "categories": ["all"],
+  "categories": ["Quality Assurance", "SDLC", "DevOps"],
   "author": "RayMathew",
   "description": {
     "title": "Canary Testing",

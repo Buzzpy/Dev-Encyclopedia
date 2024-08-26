@@ -1,7 +1,7 @@
 {
   "title": "Memory Leaks",
   "subtext": "Issues in memory management that can cause system crashes",
-  "categories": ["all"],
+  "categories": ["Quality Assurance", "Optimization"],
   "author": "Buzzpy",
   "description": {
     "title": "Memory Leaks",

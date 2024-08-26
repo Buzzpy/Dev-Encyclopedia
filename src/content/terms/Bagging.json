@@ -1,7 +1,7 @@
 {
   "title": "Bagging",
   "subtext": "Combines predictions from multiple models for improved accuracy.",
-  "categories": ["all"],
+  "categories": ["AI", "Machine Learning"],
   "author": "Buzzpy",
   "description": {
     "title": "Bagging",

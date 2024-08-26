@@ -1,7 +1,7 @@
 {
   "title": "User-Acceptance Test (UAT)",
-  "subtext": "Final user testing phase.",
-  "categories": ["Testing"],
+  "subtext": "Final user testing phase",
+  "categories": ["Testing", "Quality Assurance"],
   "author": "Buzzpy",
   "description": {
     "title": "User-Acceptance Test (UAT)",

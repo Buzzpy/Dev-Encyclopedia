@@ -1,7 +1,7 @@
 {
   "title": "Virtual Private Cloud (VPC)",
-  "subtext": "Isolated cloud resources for enhanced security within a public cloud.",
-  "categories": ["all"],
+  "subtext": "Isolated cloud resources for enhanced security within a public cloud",
+  "categories": ["Cloud Computing", "Networking"],
   "author": "Buzzpy",
   "description": {
     "title": "Virtual Private Cloud (VPC)",

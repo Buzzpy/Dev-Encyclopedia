@@ -1,7 +1,7 @@
 {
   "title": "Immutable Data Structures",
   "subtext": "Data structures that cannot be modified after creation",
-  "categories": ["all"],
+  "categories": ["Programming Concepts"],
   "author": "Buzzpy",
   "description": {
     "title": "Immutable Data Structures",

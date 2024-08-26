@@ -1,7 +1,7 @@
 {
   "title": "Event Loop",
   "subtext": "Programming construct that waits for and dispatches events",
-  "categories": ["all"],
+  "categories": ["Programming Concepts"],
   "author": "Buzzpy",
   "description": {
     "title": "Event Loop",

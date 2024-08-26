@@ -1,7 +1,7 @@
 {
   "title": "Serverless Functions",
   "subtext": "Execute code without the need to manage servers",
-  "categories": ["all"],
+  "categories": ["Software Architecture", "Cloud Computing"],
   "author": "Buzzpy",
   "description": {
     "title": "Serverless Functions",

@@ -1,7 +1,7 @@
 {
     "title": "Spaghetti Code",
     "subtext": "Unstructured, messy code that’s hard to maintain.",
-    "categories": ["all"],
+    "categories": ["Programming Concepts"],
     "author": "Richard Woessner",
     "description": {
       "title": "Spaghetti Code",
