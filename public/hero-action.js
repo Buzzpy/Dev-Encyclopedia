@@ -204,28 +204,36 @@ document.addEventListener('DOMContentLoaded', async function() {
 
     function toggleDarkMode() {
       const body = document.body;
-      const toggleButton = document.getElementById('darkModeToggle');
-      
-      body.classList.toggle('dark-mode');
       
       if (body.classList.contains('dark-mode')) {
-          localStorage.setItem('darkMode', 'enabled');
-          toggleButton.innerHTML = lightModeHTML;
+        handleSetTheme('light');
       } else {
-          localStorage.setItem('darkMode', 'disabled');
-          toggleButton.innerHTML = darkModeHTML;
+        handleSetTheme('dark');
       }
     }
+
+    function handleSetTheme(theme) {
+        const body = document.body;
+        const toggleButton = document.getElementById('darkModeToggle');
+
+        if (theme === 'dark') {
+          localStorage.setItem('theme', 'dark');
+          body.classList.add('dark-mode');
+          toggleButton.innerHTML = darkModeHTML;
+        } else {
+          localStorage.setItem('theme', 'light');
+          body.classList.remove('dark-mode');
+          toggleButton.innerHTML = lightModeHTML;
+        }
+      }
     
     function setTheme() {
-      const darkMode = localStorage.getItem('darkMode');
-      const toggleButton = document.getElementById('darkModeToggle');
+      const theme = localStorage.getItem('theme');
       
-      if (darkMode === 'enabled') {
-          document.body.classList.add('dark-mode');
-          toggleButton.innerHTML = lightModeHTML;
+      if (theme === 'dark') {
+        handleSetTheme('dark')
       } else {
-          toggleButton.innerHTML = darkModeHTML;
+        handleSetTheme('light');
       }
     }
 });
