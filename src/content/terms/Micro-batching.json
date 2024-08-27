@@ -4,9 +4,14 @@
   "categories": ["Optimization"],
   "author": "Buzzpy",
   "description": {
-    "title": "",
-    "texts": [],
+    "title": "Micro-batching",
+    "texts": [
+      "Micro-batching is an optimization technique where small groups of data are processed in short intervals. It is commonly used in data streaming and real-time processing systems to balance the efficiency of batch processing with the responsiveness of real-time systems.",
+      "By using micro-batching, systems can reduce latency and improve throughput, making it an effective approach in environments where data needs to be processed quickly and efficiently."
+    ],
     "image": "",
-    "references": []
+    "references": [
+      "https://www.upsolver.com/blog/batch-stream-a-cheat-sheet#:~:text=It%20breaks%20up%20large%20datasets,available%20in%20near%20real%2Dtime."
+    ]
   }
 }

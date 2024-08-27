@@ -11,7 +11,7 @@
     ],
     "image": "",
     "references": [
-      "https://www.cloudflare.com/learning/ddos/ddos-rate-limiting/"
+      "https://geekpaul.medium.com/understanding-rate-limiting-an-essential-tool-for-system-stability-80b344056504"
     ]
   }
 }
