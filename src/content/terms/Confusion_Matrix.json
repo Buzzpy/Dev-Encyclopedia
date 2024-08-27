@@ -1,7 +1,7 @@
 {
   "title": "Confusion Matrix",
   "subtext": "A table to evaluate classification model performance.",
-  "categories": ["all"],
+  "categories": ["Machine Learning"],
   "author": "Buzzpy",
   "description": {
     "title": "Confusion Matrix",

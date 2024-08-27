@@ -1,7 +1,7 @@
 {
   "title": "Transfer Learning",
   "subtext": "Adapts pre-trained models for new but related tasks.",
-  "categories": ["all"],
+  "categories": ["Machine Learning"],
   "author": "Buzzpy",
   "description": {
     "title": "Transfer Learning",

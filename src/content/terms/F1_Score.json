@@ -1,7 +1,7 @@
 {
   "title": "F1 Score",
   "subtext": "Harmonic mean of Precision and Recall for balanced evaluation.",
-  "categories": ["all"],
+  "categories": ["Machine Learning", "AI"],
   "author": "Buzzpy",
   "description": {
     "title": "F1 Score",

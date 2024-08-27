@@ -1,7 +1,7 @@
 {
     "title": "Hadoop",
     "subtext": "Big data processing framework",
-    "categories": ["all"],
+    "categories": ["Distributed Systems", "Big Data"],
     "author": "Buzzpy",
     "description": {
       "title": "Hadoop",

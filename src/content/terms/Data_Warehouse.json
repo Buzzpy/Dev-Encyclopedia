@@ -1,7 +1,7 @@
 {
   "title": "Data Warehouse",
   "subtext": "System for storing and managing large data for analysis",
-  "categories": ["all"],
+  "categories": ["Big Data", "Cloud Computing"],
   "author": "Buzzpy",
   "description": {
     "title": "Data Warehouse",

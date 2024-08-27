@@ -1,7 +1,7 @@
 {
     "title": "AWS",
     "subtext": "Amazon Web Services",
-    "categories": ["all"],
+    "categories": ["Cloud Computing", "DevOps"],
     "author": "Buzzpy",
     "description": {
       "title": "AWS",

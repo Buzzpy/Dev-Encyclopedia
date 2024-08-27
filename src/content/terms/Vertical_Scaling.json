@@ -1,7 +1,7 @@
 {
   "title": "Vertical Scaling",
   "subtext": "Increase the capacity of a single server",
-  "categories": ["all"],
+  "categories": ["Distributed Systems", "Software Architecture"],
   "author": "Buzzpy",
   "description": {
     "title": "Vertical Scaling",

@@ -1,7 +1,7 @@
 {
   "title": "Graph Databases",
   "subtext": "Databases storing data in nodes and edges to show relationships",
-  "categories": ["all"],
+  "categories": ["Database"],
   "author": "Buzzpy",
   "description": {
     "title": "Graph Databases (e.g., Neo4j)",

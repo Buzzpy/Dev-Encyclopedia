@@ -1,7 +1,7 @@
 {
   "title": "Cloud Security",
   "subtext": "Procedures and technology to secure cloud environments",
-  "categories": ["all"],
+  "categories": ["Cloud Computing", "DevOps", "Cybersecurity"],
   "author": "Buzzpy",
   "description": {
     "title": "Cloud Security",

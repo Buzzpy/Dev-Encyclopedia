@@ -1,7 +1,7 @@
 {
   "title": "Domain Name System (DNS)",
   "subtext": "Phonebook of the Internet",
-  "categories": ["all"],
+  "categories": ["Web Development", "Networking"],
   "author": "RayMathew",
   "description": {
     "title": "DNS",

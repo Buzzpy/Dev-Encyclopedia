@@ -1,7 +1,7 @@
 {
   "title": "Security Test",
   "subtext": "A test against hacking and whatnot",
-  "categories": ["all"],
+  "categories": ["Testing", "Cybersecurity"],
   "author": "Buzzpy",
   "description": {
     "title": "Security Test",

@@ -1,7 +1,7 @@
 {
   "title": "Cluster Computing",
   "subtext": "Connecting multiple computers to work as a single system",
-  "categories": ["all"],
+  "categories": ["Distributed Systems", "Cloud Computing"],
   "author": "Buzzpy",
   "description": {
     "title": "Cluster Computing",

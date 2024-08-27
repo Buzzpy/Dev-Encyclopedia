@@ -1,7 +1,7 @@
 {
   "title": "Monolith",
   "subtext": "A single, large application handling multiple tasks",
-  "categories": ["all"],
+  "categories": ["Software Architecture"],
   "author": "Buzzpy",
   "description": {
     "title": "Monolith",

@@ -1,7 +1,7 @@
 {
   "title": "Recurrent Neural Networks",
   "subtext": "Processes sequences of data, maintaining context over time.",
-  "categories": ["all"],
+  "categories": ["Machine Learning", "AI"],
   "author": "Buzzpy",
   "description": {
     "title": "Recurrent Neural Networks",

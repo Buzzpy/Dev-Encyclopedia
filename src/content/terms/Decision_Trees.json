@@ -1,7 +1,7 @@
 {
   "title": "Decision Trees",
   "subtext": "Uses a tree-like model of decisions and their possible consequences.",
-  "categories": ["all"],
+  "categories": ["Machine Learning", "AI"],
   "author": "Buzzpy",
   "description": {
     "title": "Decision Trees",

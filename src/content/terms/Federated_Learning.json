@@ -1,7 +1,7 @@
 {
   "title": "Federated Learning",
   "subtext": "Training AI models across multiple devices without sharing data",
-  "categories": ["all"],
+  "categories": ["Machine Learning", "AI"],
   "author": "Buzzpy",
   "description": {
     "title": "Federated Learning",

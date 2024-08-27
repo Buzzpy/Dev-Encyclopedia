@@ -1,7 +1,7 @@
 {
   "title": "Zero Downtime Deployment",
   "subtext": "Update software without causing service disruption",
-  "categories": ["all"],
+  "categories": ["Automation", "DevOps"],
   "author": "Buzzpy",
   "description": {
     "title": "Zero Downtime Deployment",
@@ -11,7 +11,7 @@
     ],
     "image": "",
     "references": [
-      "https://www.digitalocean.com/community/tutorials/what-is-zero-downtime-deployment"
+      "https://www.statsig.com/perspectives/how-to-achieve-a-zero-downtime-deployment"
     ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "title": "Data Deduplication",
   "subtext": "Eliminate redundant data to increase storage efficiency",
-  "categories": ["all"],
+  "categories": ["Big Data", "Optimization"],
   "author": "Buzzpy",
   "description": {
     "title": "Data Deduplication",

@@ -1,7 +1,7 @@
 {
     "title": "Race Condition",
     "subtext": "Occurs when multiple threads read and write the same data item, causing inconsistency.",
-    "categories": ["all"],
+    "categories": ["Programming Concepts"],
     "author": "Arnav Dandekar",
     "description": {
       "title": "Race Condition",

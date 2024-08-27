@@ -1,7 +1,7 @@
 {
     "title": "PostgreSQL",
     "subtext": "Advanced open-source relational database",
-    "categories": ["all"],
+    "categories": ["Database"],
     "author": "Buzzpy",
     "description": {
       "title": "PostgreSQL",

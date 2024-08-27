@@ -1,7 +1,7 @@
 {
   "title": "Eventually Consistent Systems",
   "subtext": "Systems that eventually reach consistency over time",
-  "categories": ["all"],
+  "categories": ["Distributed Systems"],
   "author": "Buzzpy",
   "description": {
     "title": "Eventually Consistent Systems",

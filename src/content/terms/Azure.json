@@ -1,7 +1,7 @@
 {
     "title": "Azure",
     "subtext": "Microsoft's cloud computing platform",
-    "categories": ["all"],
+    "categories": ["Cloud Computing", "DevOps"],
     "author": "Buzzpy",
     "description": {
       "title": "Azure",

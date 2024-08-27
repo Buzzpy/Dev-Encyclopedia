@@ -1,7 +1,7 @@
 {
   "title": "JWT (JSON Web Tokens)",
   "subtext": "Securely transmit information as JSON",
-  "categories": ["all"],
+  "categories": ["Web Development", "Cybersecurity"],
   "author": "Buzzpy",
   "description": {
     "title": "",

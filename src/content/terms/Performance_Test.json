@@ -1,7 +1,7 @@
 {
   "title": "Performance Test",
   "subtext": "A type of testing focusing on applcation performence",
-  "categories": ["all"],
+  "categories": ["Testing", "SDLC", "Quality Assurance"],
   "author": "Buzzpy",
   "description": {
     "title": "",

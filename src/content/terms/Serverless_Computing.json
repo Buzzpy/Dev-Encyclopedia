@@ -1,7 +1,7 @@
 {
   "title": "Serverless Computing",
   "subtext": "Cloud computing without managing servers.",
-  "categories": ["all"],
+  "categories": ["Software Architecture", "Cloud Computing"],
   "author": "Buzzpy",
   "description": {
     "title": "Serverless Computing",
