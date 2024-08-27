@@ -1,9 +1,7 @@
 {
     "title": "Lazy Evaluation",
     "subtext": "Deferred computation technique",
-    "category": [
-        "programming"
-    ],
+    "category": ["Optimization"],
     "author": "AnshumanMishra",
     "description": {
         "title": "Lazy Evaluation",

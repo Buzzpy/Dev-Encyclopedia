@@ -1,9 +1,7 @@
 {
     "title": "Twelve-Factor App",
     "subtext": "Application development methodology",
-    "category": [
-        "development"
-    ],
+    "category": ["SDLC"],
     "author": "AnshumanMishra",
     "description": {
         "title": "Twelve-Factor App",
