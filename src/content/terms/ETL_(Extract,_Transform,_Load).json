@@ -4,9 +4,14 @@
   "categories": ["Big Data"],
   "author": "Buzzpy",
   "description": {
-    "title": "",
-    "texts": [],
-    "image": "",
-    "references": []
+    "title": "ETL (Extract, Transform, Load)",
+    "texts": [
+      "ETL is a data integration process that involves extracting data from various sources, transforming it into a suitable format, and loading it into a destination system, such as a database or data warehouse.",
+      "This process is essential in data warehousing, where large volumes of data are consolidated, transformed, and made available for analysis and reporting."
+    ],
+    "image": "https://cdn.prod.website-files.com/64ccd6239abfeec743815b28/652f053f5fcfef305c77b390_m4zuKqOZajudTrWLTvFl7jXTGCBc-4sJj9MOrBNBKpQ53azRc5qLciYwQc7fHEOd34YoLKUdLckTLHLKP5sUqjbxO_Hrx27Qy1jwgm6EI0WGoWkUqZ1iJXsuQf3A8OrJFqWUddCxAoFo3XoXXmzAJnc.png",
+    "references": [
+      "https://www.ibm.com/topics/etl"
+    ]
   }
 }

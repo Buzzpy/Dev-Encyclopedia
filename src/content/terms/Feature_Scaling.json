@@ -9,7 +9,7 @@
       "Feature Scaling is the process of normalizing the range of features in your data. This helps improve the performance and convergence speed of machine learning algorithms.",
       "It's like making sure all the pieces of a puzzle fit together properly."
     ],
-    "image": "",
-    "references": []
+    "image": "https://media.licdn.com/dms/image/D4D12AQEH73noDhOZjg/article-cover_image-shrink_720_1280/0/1712368990761?e=2147483647&v=beta&t=lAVTD2P0oxnTqsB76LI0-0QP24hmsK7YOTtMUADb5vA",
+    "references": ["https://towardsdatascience.com/all-about-feature-scaling-bcc0ad75cb35"]
   }
 }
