@@ -1,9 +1,7 @@
 {
     "title": "Zombie",
     "subtext": "Compromised and controlled machine",
-    "category": [
-        "cybersecurity"
-    ],
+    "category": ["Cybersecurity"],
     "author": "AnshumanMishra",
     "description": {
         "title": "Zombie",
