@@ -358,7 +358,7 @@ body.dark-mode input[type="text"]::placeholder {
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: auto;
+  overflow-y: hidden;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -374,6 +374,10 @@ body.dark-mode input[type="text"]::placeholder {
   font-family: 'JetBrains Mono', monospace;
   overflow-y: auto;
   max-height: 70vh;
+}
+
+body.modal-open {
+  overflow: hidden;
 }
 
 #modal-body {

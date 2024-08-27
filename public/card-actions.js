@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
   const buttons = document.querySelectorAll('.explain-button');
-
+  const modal = document.getElementById("modal");
+  const body = document.body;
+  
   buttons.forEach((button) => {
     button.addEventListener('click', (event) => {
       const card = event.target.closest('.card');
@@ -17,9 +19,15 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // Close the modal when clicking outside of it
-  const modal = document.getElementById('modal');
   modal.addEventListener('click', (event) => {
     if (event.target === modal) {
+      closeModal();
+    }
+  });
+
+  // Close the modal when pressing the Escape key
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && modal.style.display === 'block') {
       closeModal();
     }
   });
@@ -40,12 +48,13 @@ document.addEventListener('DOMContentLoaded', () => {
       ${imageElement} <!-- Only include the image if imageUrl is not empty -->
       <a href="${resourceUrl}" id="modal-link" target="_blank">⌁—— Learn more about ${title} ——⌁</a>
     `;
-    document.getElementById('modal').style.display = 'block';
+    modal.style.display = 'block';
+    body.classList.add("modal-open");
   }
 
   // Function to close the modal
   function closeModal() {
-    const modal = document.getElementById('modal');
     modal.style.display = 'none';
+    body.classList.remove("modal-open");
   }
 });
