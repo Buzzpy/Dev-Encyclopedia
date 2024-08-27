@@ -1,15 +1,15 @@
-document.addEventListener('DOMContentLoaded', async function () {
+document.addEventListener('DOMContentLoaded', async function() {
     document.getElementById('aboutButton').addEventListener('click', showAbout);
     document.getElementById('builderButton').addEventListener('click', showBuilders);
     document.getElementById('sponsorButton').addEventListener('click', showSponsors);
     document.getElementById('darkModeToggle').addEventListener('click', toggleDarkMode);
-
     const darkModeHTML = `<i class="fas fa-moon" style="padding-right: 10px;"></i><span id="darkModeText"> Dark Mode;</span>`;
     const lightModeHTML = `<i class="fas fa-sun" style="padding-right: 10px;"></i><span id="darkModeText"> Light Mode;</span>`;
 
-    setTheme(); // Initialize theme based on stored preferences
+    setTheme();
 
     const searchInput = document.getElementById('searchInput');
+
     let currentFocus = -1; // Track the currently focused item in the autocomplete list
 
     // Fetch JSON file names from the API
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     const autocompleteList = document.getElementById('autocomplete-list');
     const maxItems = 5;
 
-    searchInput.addEventListener('input', function () {
+    searchInput.addEventListener('input', function() {
         const input = this.value;
         autocompleteList.innerHTML = '';
         currentFocus = -1;
@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', async function () {
                 const item = document.createElement('div');
                 item.classList.add('autocomplete-item', 'list-group-item', 'list-group-item-action');
                 item.innerHTML = highlightedKeyword;
-                item.addEventListener('click', function () {
+                item.addEventListener('click', function() {
                     searchInput.value = displayKeyword;
                     autocompleteList.innerHTML = '';
                     filterCards();
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     });
 
     // Add keyboard navigation for the autocomplete
-    searchInput.addEventListener('keydown', function (e) {
+    searchInput.addEventListener('keydown', function(e) {
         const items = autocompleteList.getElementsByClassName('autocomplete-item');
         if (e.key === 'ArrowDown') {
             currentFocus++;
@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         }
     }
 
-    document.addEventListener('click', function (e) {
+    document.addEventListener('click', function(e) {
         if (e.target !== searchInput) {
             autocompleteList.innerHTML = '';
         }
@@ -156,7 +156,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         <p>This website has almost all the commonly used technical terms, concepts and even programming-language specific jargons explained and links provided for further reading.</p>
         <p>Most importantly, it is ad-free, so basically, the best encyclopedia everr! *excited. too much.*</p>
         <p><a href="https://www.linkedin.com/in/chenuli-j" target="_blank" style="color:#ff8a80;">Built with Love, Chenuli Jayasinghe</a></p>
-        <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/86k6rn7mzxza6s9lc3i5.png" style="border-radius:10px" alt="Chenuli Signature"/>
+        <img src="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/86k6rn7mzxza6s9lc3i5.png" style="border-radius:10px"alt="Chenuli Signature"/>
       `;
         modal.style.display = 'block';
     }
@@ -203,12 +203,13 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
 
     function toggleDarkMode() {
-        const theme = localStorage.getItem('theme');
-        if (theme === 'dark') {
-            handleSetTheme('light');
-        } else {
-            handleSetTheme('dark');
-        }
+      const body = document.body;
+      
+      if (body.classList.contains('dark-mode')) {
+        handleSetTheme('light');
+      } else {
+        handleSetTheme('dark');
+      }
     }
 
     function handleSetTheme(theme) {
@@ -216,22 +217,23 @@ document.addEventListener('DOMContentLoaded', async function () {
         const toggleButton = document.getElementById('darkModeToggle');
 
         if (theme === 'dark') {
-            localStorage.setItem('theme', 'dark');
-            body.classList.add('dark-mode');
-            toggleButton.innerHTML = darkModeHTML;
+          localStorage.setItem('theme', 'dark');
+          body.classList.add('dark-mode');
+          toggleButton.innerHTML = darkModeHTML;
         } else {
-            localStorage.setItem('theme', 'light');
-            body.classList.remove('dark-mode');
-            toggleButton.innerHTML = lightModeHTML;
+          localStorage.setItem('theme', 'light');
+          body.classList.remove('dark-mode');
+          toggleButton.innerHTML = lightModeHTML;
         }
-    }
-
+      }
+    
     function setTheme() {
-        const theme = localStorage.getItem('theme');
-        if (theme === 'dark') {
-            handleSetTheme('dark');
-        } else {
-            handleSetTheme('light');
-        }
+      const theme = localStorage.getItem('theme');
+      
+      if (theme === 'dark') {
+        handleSetTheme('dark')
+      } else {
+        handleSetTheme('light');
+      }
     }
 });
