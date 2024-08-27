@@ -4,9 +4,14 @@
   "categories": ["Software Architecture"],
   "author": "Buzzpy",
   "description": {
-    "title": "",
-    "texts": [],
-    "image": "",
-    "references": []
+    "title": "Function as a Service (FaaS)",
+    "texts": [
+      "Function as a Service (FaaS) is a cloud computing model that allows developers to execute code in response to events without the complexity of building and maintaining the underlying infrastructure.",
+      "FaaS is a type of serverless architecture where the cloud provider handles the server management, scaling, and resource allocation automatically, allowing developers to focus solely on writing code."
+    ],
+    "image": "https://kinsta.com/wp-content/uploads/2022/04/Untitled-21.png",
+    "references": [
+      "https://www.cloudflare.com/learning/serverless/glossary/function-as-a-service-faas/"
+    ]
   }
 }
