@@ -1,9 +1,7 @@
 {
     "title": "Idempotence",
     "subtext": "Operation consistency",
-    "category": [
-        "programming"
-    ],
+    "category": ["Programming Concepts"],
     "author": "AnshumanMishra",
     "description": {
         "title": "Idempotence",

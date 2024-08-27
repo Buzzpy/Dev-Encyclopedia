@@ -1,7 +1,7 @@
 {
     "title": "MongoDB",
     "subtext": "A NoSQL DataBase",
-    "categories": ["all"],
+    "categories": ["Database"],
     "author": "Vignesh025",
     "description": {
       "title": "MongoDB",

@@ -1,9 +1,7 @@
 {
     "title": "Sticky",
     "subtext": "Persistent UI element",
-    "category": [
-        "design"
-    ],
+    "category": ["Frontend Development"],
     "author": "AnshumanMishra",
     "description": {
         "title": "Sticky",
