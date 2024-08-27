@@ -10,6 +10,6 @@
       "Understanding recursion depth helps in designing algorithms that use recursion effectively and safely."
     ],
     "image": "",
-    "references": []
+    "references": ["https://javascript.info/recursion"]
   }
 }
