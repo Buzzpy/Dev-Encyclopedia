@@ -11,7 +11,7 @@
     ],
     "image": "",
     "references": [
-      "https://www.hashicorp.com/resources/what-is-mutable-vs-immutable-infrastructure"
+      "https://medium.com/@livajorge7/immutable-data-structure-enhancing-performance-and-data-integrity-97cf07e1cb1#:~:text=An%20immutable%20data%20structure%20is,structure%20with%20the%20updated%20information."
     ]
   }
 }
