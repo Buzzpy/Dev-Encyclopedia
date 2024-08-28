@@ -1,24 +1,12 @@
 ---
-import DevEncyclopedia from '../components/DevEncyclopedia.astro';
-import '../styles/global.css';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import CardList from '../components/CardList.astro';
+import Modal from '../components/Modal.astro';
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="title" content="Dev Encyclopedia">
-    <meta name="description" content="Discover concise explanations and samples for tech terms and concepts in the Dev Encyclopedia. Find everything you need for development, all in one place.">
-    <meta name="keywords" content="devpedia,dev encyclopedia,developer encyclopedia,developer dictionary,dev resources,devpedia,developer tools,software resources,programming resources,programming terms,tech terms,developer wiki, dev wiki">
-    <meta name="robots" content="index,follow">
-    <meta name="language" content="en">
-    <meta name="author" content="Chenuli Jayasinghe">
-    <title>Dev Encyclopedia | Encyclopedia for Developers</title>
-    <link rel="icon" type="image/x-icon" href="https://dev-to-uploads.s3.amazonaws.com/uploads/articles/51zm0ycmnkx7ox4flhjs.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  </head>
-  <body>
-    <DevEncyclopedia />
-  </body>
-</html>
+<BaseLayout>
+  <Hero />
+  <CardList />
+  <Modal />
+</BaseLayout>
