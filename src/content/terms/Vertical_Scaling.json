@@ -9,9 +9,9 @@
       "Vertical scaling, or scaling up, involves increasing the capacity of a single server or resource without adding more physical units.",
       "Think of vertical scaling like upgrading a car's engine to increase speed and performance instead of adding more cars."
     ],
-    "image": "",
+    "image": "https://d1tcczg8b21j1t.cloudfront.net/strapi-assets/23_Horizontal_vs_vertical_scaling_2_bf6d292ef7.png",
     "references": [
-      "https://www.ibm.com/cloud/learn/scaling"
+      "https://www.dremio.com/wiki/vertical-scaling/#:~:text=Vertical%20Scaling%2C%20also%20known%20as,machine%20to%20handle%20more%20workload."
     ]
   }
 }

@@ -1,12 +1,17 @@
 {
   "title": "Three-Sigma Rule",
-  "subtext": "A rule of thumb in data science",
-  "categories": ["all"],
+  "subtext": "A rule of thumb in data science related to normal distributions.",
+  "categories": ["Statistics", "Data Science"],
   "author": "Buzzpy",
   "description": {
-    "title": "",
-    "texts": [],
-    "image": "",
-    "references": []
+    "title": "Three-Sigma Rule",
+    "texts": [
+      "The Three-Sigma Rule, also known as the Empirical Rule, states that for a normal distribution, almost all data points (about 99.7%) lie within three standard deviations of the mean. This rule is helpful for understanding the spread and variability of data.",
+      "In practical terms, this means if you plot data on a graph with the mean and standard deviations marked, most of the data will fall within the range of three standard deviations from the mean."
+    ],
+    "image": "https://decodingdatascience.com/wp-content/uploads/2023/05/Screenshot-2023-05-05-101857-300x276.jpg",
+    "references": [
+      "https://decodingdatascience.com/empirical-rule-understanding-the-three-sigma-rule-in-statistics/"
+    ]
   }
 }
