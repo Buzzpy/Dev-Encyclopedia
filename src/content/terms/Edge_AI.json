@@ -4,9 +4,14 @@
   "categories": ["AI", "IoT"],
   "author": "Buzzpy",
   "description": {
-    "title": "",
-    "texts": [],
-    "image": "",
-    "references": []
+    "title": "Edge AI",
+    "texts": [
+      "Edge AI refers to the deployment of artificial intelligence on edge devices, enabling data processing to occur locally rather than relying on cloud computing.",
+      "This approach reduces latency, enhances data privacy, and allows for real-time decision-making, making it ideal for applications such as autonomous vehicles, smart cameras, and IoT devices."
+    ],
+    "image": "https://cdn.prod.website-files.com/614c82ed388d53640613982e/635b9f28e7bb31df86ef172d_63207863d4027431231b763d_information-processing-with-cloud-computing.png",
+    "references": [
+      "https://www.superannotate.com/blog/what-is-edge-ai"
+    ]
   }
 }

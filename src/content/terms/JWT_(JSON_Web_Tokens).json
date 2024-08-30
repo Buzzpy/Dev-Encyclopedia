@@ -4,9 +4,14 @@
   "categories": ["Web Development", "Cybersecurity"],
   "author": "Buzzpy",
   "description": {
-    "title": "",
-    "texts": [],
+    "title": "JWT (JSON Web Tokens)",
+    "texts": [
+      "JWT, or JSON Web Tokens, is a compact and self-contained way to securely transmit information between parties as a JSON object. JWTs are often used for authentication and information exchange in web applications.",
+      "JWTs are signed using a cryptographic algorithm to ensure that the claims contained within the token cannot be altered after the token is issued."
+    ],
     "image": "",
-    "references": []
+    "references": [
+      "https://auth0.com/docs/secure/tokens/json-web-tokens"
+    ]
   }
 }

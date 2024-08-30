@@ -1,9 +1,7 @@
 {
     "title": "Normalization",
     "subtext": "Database design process",
-    "category": [
-        "databases"
-    ],
+    "category": ["Database"],
     "author": "AnshumanMishra",
     "description": {
         "title": "Normalization",

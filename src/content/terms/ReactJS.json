@@ -4,9 +4,14 @@
   "categories": ["Frontend Development"],
   "author": "Buzzpy",
   "description": {
-    "title": "",
-    "texts": [],
-    "image": "",
-    "references": []
+    "title": "ReactJS",
+    "texts": [
+      "ReactJS is a widely-used JavaScript library developed by Facebook, aimed at building user interfaces, particularly single-page applications.",
+      "React allows developers to create large web applications that can update and render efficiently in response to data changes.",
+      "One of the core features of React is its component-based architecture, enabling developers to build encapsulated components that manage their own state, and then compose them to create complex UIs.",
+      "React's use of a virtual DOM enhances performance by minimizing direct manipulation of the actual DOM, resulting in faster updates."
+    ],
+    "image": "https://miro.medium.com/v2/resize:fit:1000/1*Yafu7ihc1LFuP4azerAa4w.png",
+    "references": ["https://www.credencys.com/blog/what-is-react-js/"]
   }
 }

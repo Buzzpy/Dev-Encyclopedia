@@ -1,0 +1,17 @@
+{
+  "title": "Test-Driven Development (TDD)",
+  "subtext": "A software development approach where tests are written before code.",
+  "categories": ["Testing", "SDLC", "Quality Assurance"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Test-Driven Development (TDD)",
+    "texts": [
+      "Test-Driven Development (TDD) is a methodology where tests are created before the actual code. The process involves writing a test, running it to ensure it fails, then writing the minimum code required to pass the test, and finally refactoring the code while keeping the test passing.",
+      "This approach ensures that the codebase remains flexible and that new features do not break existing functionality. It emphasizes writing test cases that are small and focused."
+    ],
+    "image": "https://marsner.com/wp-content/uploads/test-driven-development-TDD.png",
+    "references": [
+      "https://marsner.com/blog/why-test-driven-development-tdd/"
+    ]
+  }
+}

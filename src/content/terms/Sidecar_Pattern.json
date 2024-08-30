@@ -1,9 +1,7 @@
 {
     "title": "Sidecar Pattern",
     "subtext": "Companion service architecture",
-    "category": [
-        "architecture"
-    ],
+    "category": ["Software Architecture"],
     "author": "AnshumanMishra",
     "description": {
         "title": "Sidecar Pattern",

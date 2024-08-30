@@ -4,9 +4,16 @@
   "categories": ["all"],
   "author": "Buzzpy",
   "description": {
-    "title": "",
-    "texts": [],
-    "image": "",
-    "references": []
+    "title": "Pull Requests (PR)",
+    "texts": [
+      "A Pull Request (PR) is a feature in version control systems, such as Git, that allows developers to propose changes to a codebase.",
+      "When a developer completes a feature or bug fix, they create a pull request to notify others that their code is ready for review.",
+      "Pull Requests facilitate collaboration by enabling discussions, comments, and suggestions on the proposed changes before they are merged into the main codebase.",
+      "Reviewers can approve the PR, request changes, or reject it, ensuring that only quality code is merged into the project."
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhrqL5pf-2l4OgxvGni5GhpG5pKhe8P7jMSQ&s",
+    "references": [
+      "https://docs.github.com/en/pull-requests/collaborating-with-pull-requests"
+    ]
   }
 }
