@@ -1,8 +1,7 @@
 <div class="hero-section">
-  
   <div class="search-bar position-relative" style="padding-bottom: 30px;">
     <i class="fas fa-search"></i>
-    <input  autocomplete="off" type="text" id="searchInput" class="form-control" placeholder="Search for keywords..." />
+    <input autocomplete="off" type="text" id="searchInput" class="form-control" placeholder="Search for keywords..." />
     <div id="autocomplete-list"></div> 
   </div>
 
@@ -29,8 +28,18 @@
   
   <div class="hero-title" id="heroTitle" style="padding-top: 50px;">Dev Encyclopedia;</div>
   <div class="hero-paragraph" id="heroParagraph">Find out what that Sr. Developer is talking about.</div>
-</div>
   
+  <!-- No results message -->
+  <div id="no-results-message" style="display: none; color: red; padding-top: 20px;">
+    The term you were looking for was not found.
+    <br>
+    Try contributing it to improve the encyclopedia:
+    <button class="button" onclick="window.open('https://github.com/Buzzpy/Programming-Simplified', '_blank')">
+      <i class="fab fa-github" style="padding-right: 10px;"></i> Contribute;
+    </button>
+  </div>
+</div>
+
 <!-- Modal Structure (should be present in your main layout or index.astro) -->
 <div id="modal">
   <div id="modal-content">
@@ -39,4 +48,3 @@
 </div>
 
 <script is:inline src="/hero-action.js"></script>
- 
