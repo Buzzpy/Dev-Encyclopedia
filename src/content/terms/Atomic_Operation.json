@@ -1,7 +1,7 @@
 {
     "title": "Atomic Operation",
     "subtext": "Indivisible operations",
-    "category": ["Programming Concepts"],
+    "categories": ["Programming Concepts"],
     "author": "AnshumanMishra",
     "description": {
         "title": "Atomic Operation",
