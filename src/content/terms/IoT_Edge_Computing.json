@@ -4,9 +4,13 @@
   "categories": ["IoT"],
   "author": "Buzzpy",
   "description": {
-    "title": "",
-    "texts": [],
+    "title": "IoT Edge Computing",
+    "texts": [
+      "(TODO)"
+    ],
     "image": "",
-    "references": []
+    "references": [
+      "(TODO)"
+    ]
   }
 }

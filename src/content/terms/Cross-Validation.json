@@ -4,7 +4,7 @@
   "categories": ["Machine Learning"],
   "author": "Buzzpy",
   "description": {
-    "title": "",
+    "title": "Cross-Validation",
     "texts": ["Cross-Validation is a technique used to assess how well a machine learning model performs on unseen data. It involves splitting the data into multiple subsets, training the model on some subsets, and testing it on the remaining ones.",
               "It's like taking a practice test to see how well you'll do on the real exam."],
     "image": "https://www.sharpsightlabs.com/wp-content/uploads/2024/02/cross-validation-explained_FEATURED-IMAGE.png",
