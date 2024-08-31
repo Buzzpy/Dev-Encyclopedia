@@ -10,8 +10,8 @@ const termsCollection = defineCollection({
     description: z.object({
       title: z.string().min(1),
       texts: z.array(z.string()).nonempty(),
-      image: z.string().optional(),
-      references: z.array(z.string()).nonempty()
+      image: z.union([z.string().url().nullish(), z.literal("")]),
+      references: z.array(z.union([z.string().url().nullish(), z.literal("")])).nonempty()
     })
   })
 });
