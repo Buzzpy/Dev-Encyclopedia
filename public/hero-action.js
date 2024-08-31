@@ -124,9 +124,8 @@ document.addEventListener('DOMContentLoaded', async function() {
 
         for (let i = 0; i < cards.length; i++) {
             const title = cards[i].getElementsByClassName('card-title')[0].innerText.toLowerCase();
-            const keywords = cards[i].getAttribute('data-keywords').toLowerCase().split(',');
 
-            if (title.indexOf(filter) > -1 || keywords.some(keyword => keyword.includes(filter))) {
+            if (title.indexOf(filter) > -1) {
                 cards[i].style.display = '';
             } else {
                 cards[i].style.display = 'none';
