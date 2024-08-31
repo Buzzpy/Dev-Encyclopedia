@@ -1,9 +1,7 @@
 {
     "title": "Shellcode",
     "subtext": "Executable code in exploits",
-    "category": [
-        "cybersecurity"
-    ],
+    "category": ["Cybersecurity"],
     "author": "AnshumanMishra",
     "description": {
         "title": "Shellcode",

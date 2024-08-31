@@ -1,9 +1,7 @@
 {
     "title": "Hotfix",
     "subtext": "Emergency software fix",
-    "category": [
-        "development"
-    ],
+    "category": ["SDLC"],
     "author": "AnshumanMishra",
     "description": {
         "title": "Hotfix",

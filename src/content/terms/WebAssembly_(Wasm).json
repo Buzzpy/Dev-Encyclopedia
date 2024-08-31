@@ -1,12 +1,17 @@
 {
   "title": "WebAssembly (Wasm)",
-  "subtext": "High-performance web applications",
+  "subtext": "A binary instruction format for high-performance web applications.",
   "categories": ["Web Development"],
   "author": "Buzzpy",
   "description": {
-    "title": "",
-    "texts": [],
-    "image": "",
-    "references": []
+    "title": "WebAssembly (Wasm)",
+    "texts": [
+      "WebAssembly (Wasm) is a binary instruction format designed to provide a safe, portable, and efficient compilation target for high-performance web applications. It allows code written in languages like C, C++, and Rust to run in the browser at near-native speed.",
+      "Wasm is intended to complement JavaScript, enabling web applications to execute code faster and more securely. It is supported by modern browsers and provides a low-level virtual machine that executes bytecode in a sandboxed environment."
+    ],
+    "image": "https://uno-website-assets.s3.amazonaws.com/wp-content/uploads/2019/10/01091008/webassembly-pic.png",
+    "references": [
+      "https://en.wikipedia.org/wiki/WebAssembly"
+    ]
   }
 }

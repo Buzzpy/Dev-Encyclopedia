@@ -1,0 +1,17 @@
+{
+  "title": "User Flow",
+  "subtext": "The path users take to complete a task or achieve a goal.",
+  "categories": ["UX Design", "Product Design"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "User Flow",
+    "texts": [
+      "User flow refers to the sequence of steps a user takes to complete a task or reach a goal within a system or application. It visualizes the path from entry point through various interactions until the user completes their objective.",
+      "Creating clear user flows helps designers and developers understand and optimize the user experience by identifying potential friction points and improving the efficiency of task completion."
+    ],
+    "image": "https://www.optimizely.com/contentassets/01ea01f4138b4b6cab3dfd3938bba300/keyword-user-flow-blog-visuals_1png/",
+    "references": [
+      "https://www.optimizely.com/optimization-glossary/user-flow/"
+    ]
+  }
+}

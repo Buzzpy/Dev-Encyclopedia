@@ -2,11 +2,14 @@
   "title": "GDPR",
   "subtext": "General Data Protection Regulation",
   "categories": ["all"],
-  "author": "Buzzpy",
+  "author": "",
   "description": {
-    "title": "",
-    "texts": [],
-    "image": "",
-    "references": []
+    "title": "GDPR (General Data Protection Regulation)",
+    "texts": [
+      "The General Data Protection Regulation (GDPR) is a legal framework that sets guidelines for the collection and processing of personal information from individuals who live in the European Union (EU).",
+      "GDPR aims to give control to individuals over their personal data and to simplify the regulatory environment for international business by unifying the regulation within the EU."
+    ],
+    "image": "https://www.snel.com/wp-content/uploads/GDPR-graphic.jpg",
+    "references": ["https://velocityglobal.com/resources/blog/what-is-gdpr-compliance/"]
   }
 }
