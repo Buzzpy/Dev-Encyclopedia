@@ -1,7 +1,7 @@
 {
     "title": "Sandboxing",
     "subtext": "Isolated testing environment",
-    "category": ["Cybersecurity", "Testing"],
+    "categories": ["Cybersecurity", "Testing"],
     "author": "AnshumanMishra",
     "description": {
         "title": "Sandboxing",

@@ -1,7 +1,7 @@
 {
     "title": "Poka-Yoke",
     "subtext": "Error prevention technique",
-    "category": ["Quality Assurance"],
+    "categories": ["Quality Assurance"],
     "author": "AnshumanMishra",
     "description": {
         "title": "Poka-Yoke",
