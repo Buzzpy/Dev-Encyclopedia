@@ -11,7 +11,7 @@ const termsCollection = defineCollection({
       title: z.string().min(1),
       texts: z.array(z.string()).nonempty(),
       image: z.union([z.string().url().nullish(), z.literal("")]),
-      references: z.array(z.union([z.string().url().nullish(), z.literal("")])).nonempty()
+      references: z.array(z.string().url()).nonempty()
     })
   })
 });
