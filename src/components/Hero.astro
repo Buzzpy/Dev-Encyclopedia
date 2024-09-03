@@ -112,7 +112,7 @@ terms.forEach((term: any) => {
 
       searchInput.addEventListener('input', function() {
           const input = this.value;
-          const selectedCategory = select.value;
+          const selectedCategory = (select as HTMLSelectElement).value;
           autocompleteList.innerHTML = '';
           currentFocus = -1;
 
@@ -159,7 +159,7 @@ terms.forEach((term: any) => {
 
       // Add keyboard navigation for the autocomplete
       searchInput.addEventListener('keydown', function(e) {
-          const items = autocompleteList.getElementsByClassName('autocomplete-item');
+          const items = autocompleteList.getElementsByClassName('autocomplete-item') as HTMLCollectionOf<HTMLElement>;
           if (e.key === 'ArrowDown') {
               currentFocus++;
               addActive(items);
@@ -169,22 +169,22 @@ terms.forEach((term: any) => {
           } else if (e.key === 'Enter') {
               e.preventDefault();
               if (currentFocus > -1 && items[currentFocus]) {
-                  items[currentFocus].click();
+                  (items[currentFocus] as HTMLElement).click();
               }
           }
       });
 
-      function addActive(items) {
+      function addActive(items: HTMLCollectionOf<HTMLElement>) {
           if (!items) return false;
           removeActive(items);
           if (currentFocus >= items.length) currentFocus = 0;
           if (currentFocus < 0) currentFocus = items.length - 1;
-          items[currentFocus].classList.add('active');
+          (items[currentFocus] as HTMLElement).classList.add('active');
       }
 
-      function removeActive(items) {
+      function removeActive(items: HTMLCollectionOf<HTMLElement>) {
           for (let i = 0; i < items.length; i++) {
-              items[i].classList.remove('active');
+              (items[i] as HTMLElement).classList.remove('active');
           }
       }
 
@@ -197,8 +197,8 @@ terms.forEach((term: any) => {
       searchInput.addEventListener('keyup', filterCards);
 
       function filterCards() {
-          const filter = searchInput.value.toLowerCase();
-          const selectedCategory = select.value;
+          const filter = searchInput!.value.toLowerCase();
+          const selectedCategory = (select as HTMLSelectElement).value;
 
 
           for (let i = 0; i < cards.length; i++) {
@@ -206,9 +206,9 @@ terms.forEach((term: any) => {
             const cardCategories = cards[i]!.getAttribute('data-categories')!.split(", ");
 
               if (cardTitle.indexOf(filter) > -1 && filterByCategory(selectedCategory, cardCategories)) {
-                  cards[i].style.display = '';
+                  (cards[i] as HTMLElement).style.display = '';
               } else {
-                  cards[i].style.display = 'none';
+                  (cards[i] as HTMLElement).style.display = 'none';
               }
           }
       }
