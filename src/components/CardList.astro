@@ -1,7 +1,5 @@
 ---
-import { getCollection } from "astro:content"
-
-const cards = await getCollection("terms");
+const { terms: cards } = Astro.props;
 ---
 
 <div class="card-container" id="cardContainer">
@@ -11,7 +9,7 @@ const cards = await getCollection("terms");
          data-description={card.data.description.texts.join('\n\n')} 
          data-image-url={card.data.description.image} 
          data-resource-url={card.data.description.references[0]}
-         data-keywords={(card.data.keywords || []).join(', ')}>
+         data-categories={(card.data.categories || []).join(', ')}>
       <div class="card-title">{card.data.title}</div>
       <div class="card-subtext">{card.data.subtext}</div>
       <button class="explain-button">Explain</button>
