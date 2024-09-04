@@ -4,9 +4,13 @@
   "categories": ["IoT"],
   "author": "Buzzpy",
   "description": {
-    "title": "",
-    "texts": [],
+    "title": "IoT Edge Computing",
+    "texts": [
+      "(TODO)"
+    ],
     "image": "",
-    "references": []
+    "references": [
+      "https://www.redhat.com/en/topics/edge-computing/iot-edge-computing-need-to-work-together"
+    ]
   }
 }

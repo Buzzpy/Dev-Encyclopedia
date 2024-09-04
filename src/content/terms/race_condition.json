@@ -9,7 +9,7 @@
         "A situation in which multiple threads or processes read and write a shared data item, and the final result depends on the relative timing of their execution. Avoiding race conditions is a critical requirement for multi-threaded operating systems and servers as it may lead to data inconsistency and system crashes.",
         "For example, assume two processes P1 and P2 share the global variable x. At some point in its execution, P1 updates x to the value 1, and at some point in its execution, P2 updates x to the value 2. Thus, the two tasks are in a 'race' to rewrite variable x, with the value of x being determined by the process performing the latest write operation."
       ],
-      "image": null,
+      "image": "",
       "references": [
         "https://www.techtarget.com/searchstorage/definition/race-condition"
       ]

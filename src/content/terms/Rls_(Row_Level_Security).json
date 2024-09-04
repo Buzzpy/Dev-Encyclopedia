@@ -1,7 +1,7 @@
 {
     "title": "RLS (Row-Level Security)",
     "subtext": "Granular access control",
-    "category": ["Database"],
+    "categories": ["Database"],
     "author": "AnshumanMishra",
     "description": {
         "title": "RLS (Row-Level Security)",
