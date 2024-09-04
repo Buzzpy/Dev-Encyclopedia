@@ -7,6 +7,11 @@ terms.forEach((term: any) => {
   term.data.categories.forEach((category: string) => categories.add(category))
 });
 
+
+
+
+
+
 ---
 <hero-com data> 
 <div class="hero-section">
@@ -16,12 +21,14 @@ terms.forEach((term: any) => {
       <input  autocomplete="off" type="text" id="searchInput" class="form-control" placeholder="Search for keywords..." />
       <div id="autocomplete-list"></div> 
     </div>
+
     <div class="category-filter">
+
       <select class="select" id="category-select">
         <option value="" disabled selected hidden>Category</option>
         <option value="">(None)</option>
         {
-          Array.from(categories).map(category => (
+          Array.from(sortedCategories).map(category => (
             <option value={category}>{category}</option>
           ))
         }

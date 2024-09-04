@@ -15,7 +15,7 @@
 select {
   /* A reset of styles, including removing the default dropdown arrow */
   appearance: none;
-   /* Additional resets for further consistency */
+  /* Additional resets for further consistency */
   background-color: transparent;
   border: none;
   padding: 0 1em 0 0;
@@ -36,7 +36,7 @@ select {
 }
 
 .select::after {
-  content: "";
+  content: '';
   width: 0.8em;
   height: 0.5em;
   background-color: var(--select-arrow);
@@ -157,7 +157,7 @@ body {
 
 #autocomplete-list {
   max-height: 200px; /* Ensure there's a maximum height */
-  overflow-y: auto;  /* Enable vertical scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
   scrollbar-width: thin; /* Firefox */
   position: absolute;
 }
@@ -294,7 +294,8 @@ body.dark-mode .explain-button:hover {
   box-shadow: 5px 5px rgb(237, 237, 237);
 }
 
-body.dark-mode .search-bar input, body.dark-mode #category-select {
+body.dark-mode .search-bar input,
+body.dark-mode #category-select {
   background-color: #444444;
   color: #ffffff !important;
   border-color: #d2d2d2;
@@ -305,10 +306,11 @@ body.dark-mode .search-bar i {
 }
 
 body.dark-mode #category-select {
-  background: url("data:image/svg+xml,<svg height='10px' width='10px' viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'><path d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/></svg>") no-repeat;
+  background: url("data:image/svg+xml,<svg height='10px' width='10px' viewBox='0 0 16 16' fill='white' xmlns='http://www.w3.org/2000/svg'><path d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/></svg>")
+    no-repeat;
   background-position: calc(100% - 1.2rem) center !important;
-  -moz-appearance:none !important;
-  -webkit-appearance: none !important; 
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important;
   appearance: none !important;
   padding-right: 2rem !important;
 }
@@ -327,7 +329,7 @@ body.dark-mode #modal-link:hover {
   color: #ff5252;
 }
 
-body.dark-mode input[type="text"]::placeholder {
+body.dark-mode input[type='text']::placeholder {
   color: white;
   opacity: 1; /* Ensures the placeholder is fully visible */
 }
@@ -340,13 +342,15 @@ body.dark-mode input[type="text"]::placeholder {
   gap: 20px;
 }
 
-.search-bar, .category-filter {
+.search-bar,
+.category-filter {
   position: relative;
   display: inline-block;
   font-family: 'JetBrains Mono', monospace;
 }
 
-.search-bar input, #category-select {
+.search-bar input,
+#category-select {
   font-size: 1em;
   border: 1px solid #000000;
   border-radius: 35px;
@@ -372,12 +376,18 @@ body.dark-mode input[type="text"]::placeholder {
   text-align: center;
   color: #555;
 
-  background: url("data:image/svg+xml,<svg height='10px' width='10px' viewBox='0 0 16 16' fill='%23000000' xmlns='http://www.w3.org/2000/svg'><path d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/></svg>") no-repeat;
+  background: url("data:image/svg+xml,<svg height='10px' width='10px' viewBox='0 0 16 16' fill='%23000000' xmlns='http://www.w3.org/2000/svg'><path d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/></svg>")
+    no-repeat;
   background-position: calc(100% - 1.2rem) center !important;
-  -moz-appearance:none !important;
-  -webkit-appearance: none !important; 
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important;
   appearance: none !important;
   padding-right: 2rem !important;
+}
+
+body.dark-mode select option {
+  background-color: rgb(212, 204, 204);
+  color: black;
 }
 
 .card-container {
