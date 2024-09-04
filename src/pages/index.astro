@@ -3,14 +3,18 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from '../components/Hero.astro';
 import CardList from '../components/CardList.astro';
 import Modal from '../components/Modal.astro';
+
+import { getCollection } from 'astro:content';
+
+const terms = await getCollection("terms");
 ---
 
 <BaseLayout>
-  <Hero />
-  <CardList />
+  <Hero terms={terms} />
+  <CardList terms={terms} />
   <Modal />
 </BaseLayout>
 
 <script src="../scripts/cards.ts"></script>
 <script src="../scripts/modal.ts"></script>
-<script src="../scripts/hero-action.js"></script>
+<script src="../scripts/hero-action.ts"></script>
