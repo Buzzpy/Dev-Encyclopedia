@@ -380,6 +380,11 @@ body.dark-mode input[type="text"]::placeholder {
   padding-right: 2rem !important;
 }
 
+body.dark-mode select option {
+  background-color: rgb(212, 204, 204);
+  color: black;
+}
+
 .card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
