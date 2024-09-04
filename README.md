@@ -4,17 +4,18 @@
 ![featured-on-dev-community](https://github.com/user-attachments/assets/b7d701ae-643c-4a24-b274-d6c46dd63351)
 ![featured-on-hackernoon](https://github.com/user-attachments/assets/7c3c9037-d46a-4fd8-938a-26f905d8331a)
 
-> This project is launched but much space for improvement is left. Help me build this project by contributing to this repository
+
 # Dev Encyclopedia; 
+
 ### [devpedia.pages.dev](https://devpedia.pages.dev/) | [devpedia.dev](https://devpedia.dev/)
 
 
 
-
-This simple project simplifies technical terms, concepts, jargon, and whatnot.
+A simple project simplifies technical terms, concepts, jargon, and whatnot.
 
 
 ![Copy of Github Banner (1)](https://github.com/user-attachments/assets/b5bb0925-f173-479f-99ba-4b044ae78339)
+> This project is launched but much space for improvement is left. Help me build this project by contributing to this repository
 
 ## Contributing
 
