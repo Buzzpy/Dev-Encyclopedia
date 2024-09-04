@@ -1,16 +1,10 @@
 
 [![dev-encyclopedia-devpedia dev](https://github.com/user-attachments/assets/f34e6739-dc82-4338-bb7f-06562068088b)](https://devpedia.dev)
 
+![featured-on-dev-community](https://github.com/user-attachments/assets/b7d701ae-643c-4a24-b274-d6c46dd63351)
+![featured-on-hackernoon](https://github.com/user-attachments/assets/7c3c9037-d46a-4fd8-938a-26f905d8331a)
 
-
-
-### It's live on Product Hunt!
-Please upvote and give it a share, so the word will spread, helping hundreds of developers!
-
-<a href="https://www.producthunt.com/posts/dev-encyclopedia?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-dev&#0045;encyclopedia" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=479151&theme=light" alt="Dev&#0032;Encyclopedia&#0059; - An&#0032;Encyclopedia&#0032;for&#0032;Developers | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-
-
-> This project is currently under development and a lot of space for improvement is left. Help me build this project by contributing to this repository
+> This project is launched but much space for improvement is left. Help me build this project by contributing to this repository
 # Dev Encyclopedia; 
 ### [devpedia.pages.dev](https://devpedia.pages.dev/) | [devpedia.dev](https://devpedia.dev/)
 
