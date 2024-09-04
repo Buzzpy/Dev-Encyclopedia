@@ -1,5 +1,14 @@
 ![ad-free-♡](https://github.com/user-attachments/assets/0ad0b6ca-399f-45c4-8e54-b795c9e66149)
 ![open-source-♡](https://github.com/user-attachments/assets/1248ec52-aa22-4e29-9550-ffaee07225dd)
+### 🎖️ Notable Contributors
+
+Contributors who have worked hard to improve this project, with their outstanding contributions!
+
+| Contributor Name | LinkedIn | GitHub |
+|:------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------:|
+| **Ray Mathew (@RayMathew)**                                  | [![LinkedIn](https://img.shields.io/badge/-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/ray-mathew7/) | [![GitHub](https://img.shields.io/badge/-Profile-black?style=flat&logo=github)](https://github.com/RayMathew) |
+| **Amine Naqi (@Rodelph)**                              | [![LinkedIn](https://img.shields.io/badge/-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/amine-naqi-aa898724b/) | [![GitHub](https://img.shields.io/badge/-Profile-black?style=flat&logo=github)](https://github.com/Rodelph) |
+| **Sudharshaun Mugundan (@Sudharshaun)**                              | [![LinkedIn](https://img.shields.io/badge/-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/sudharshaun/) | [![GitHub](https://img.shields.io/badge/-Profile-black?style=flat&logo=github)](https://github.com/Sudharshaun) |
 
 
 # Contributing to Dev Encyclopedia!
@@ -8,6 +17,8 @@ Found some important information missing? Please contribute and help improve thi
 
 
 `Note: This repository is maintained by a single backend developer, therefore, mistakes can happen. I try my best to provide feedback, review your commits, and do everything on time. Wish me luck!`
+
+
 
 ### Branch Workflow
 
