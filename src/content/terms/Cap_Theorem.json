@@ -1,7 +1,7 @@
 {
     "title": "CAP Theorem",
     "subtext": "Consistency, Availability, Partition Tolerance",
-    "categories": ["Database"],
+    "category": ["Database"],
     "author": "AnshumanMishra",
     "description": {
         "title": "CAP Theorem",

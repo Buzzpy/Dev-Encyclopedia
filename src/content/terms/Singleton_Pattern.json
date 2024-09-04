@@ -1,7 +1,7 @@
 {
     "title": "Singleton Pattern",
     "subtext": "Single instance design pattern",
-    "categories": ["Software Architecture"],
+    "category": ["Software Architecture"],
     "author": "AnshumanMishra",
     "description": {
         "title": "Singleton Pattern",

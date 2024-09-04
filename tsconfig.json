@@ -6,8 +6,7 @@
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "allowJs": true,
-    "strictNullChecks": true,
-    "noImplicitReturns": false
+    "strictNullChecks": true
   },
   "include": ["src/**/*", "public/card-actions.js"],
   "extends": ["astro/tsconfigs/strictest"]

@@ -13,7 +13,7 @@ export async function GET() {
             const filePath = path.join(jsonDirectory, file);
             const fileContent = fs.readFileSync(filePath, 'utf8');
             const jsonData = JSON.parse(fileContent);
-            return jsonData.title;
+            return jsonData.title || file.replace('.json', ''); // Fallback to filename if title is not present
         });
 
         const responseBody = JSON.stringify(titles);

@@ -9,7 +9,7 @@
         "The N+1 query problem happens when retrieving a list of records (N queries) causes additional queries (1 per record).", 
         "For example, fetching 10 users and then separately querying each user's orders results in 1 query for users and 10 more for orders, leading to 11 queries instead of an optimized 2."
       ],
-      "image": "",
+      "image": null,
       "references": [
         "https://planetscale.com/blog/what-is-n-1-query-problem-and-how-to-solve-it"
       ]

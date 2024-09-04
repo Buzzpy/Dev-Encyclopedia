@@ -9,7 +9,7 @@
         "Spaghetti code is a messy and confusing type of software code that comes from writing without a clear plan or organization. The term is like a metaphor, comparing the code to tangled spaghetti noodles, because it’s hard to follow and figure out.",
         "This kind of code can be tricky to read, understand, and keep in good shape."
       ],
-      "image": "",
+      "image": null,
       "references": [
         "https://www.geeksforgeeks.org/spaghetti-code/"
       ]

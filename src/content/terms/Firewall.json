@@ -1,7 +1,7 @@
 {
     "title": "Firewall",
     "subtext": "Network security device",
-    "categories": ["Cybersecurity", "Networking"],
+    "category": ["Cybersecurity", "Networking"],
     "author": "AnshumanMishra",
     "description": {
         "title": "Firewall",

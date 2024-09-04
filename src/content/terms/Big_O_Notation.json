@@ -4,6 +4,7 @@
   "subtext": "A term used to explain... algorithms?",
   "categories": ["Programming Concepts"],
   "author": "Buzzpy",
+  "keywords": ["algorithm", "efficiency", "concept", "performance"],
   "description": {
     "title": "Big O Notation",
     "texts": [
