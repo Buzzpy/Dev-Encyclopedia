@@ -3,7 +3,7 @@
 
 ![featured-on-dev-community](https://github.com/user-attachments/assets/b7d701ae-643c-4a24-b274-d6c46dd63351)
 ![featured-on-hackernoon](https://github.com/user-attachments/assets/7c3c9037-d46a-4fd8-938a-26f905d8331a)
-
+![featured-on-fountn design](https://github.com/user-attachments/assets/a1c8531d-c554-4265-822a-e8b33001e9ec)
 
 # Dev Encyclopedia; 
 
