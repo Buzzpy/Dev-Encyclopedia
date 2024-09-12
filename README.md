@@ -3,7 +3,12 @@
 
 [![featured-on-dev-community](https://github.com/user-attachments/assets/b7d701ae-643c-4a24-b274-d6c46dd63351)](https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-k9b#:~:text=%40buzzpy%20introduces%20Dev%20Encyclopedia)
 [![featured-on-hackernoon](https://github.com/user-attachments/assets/7c3c9037-d46a-4fd8-938a-26f905d8331a)](https://hackernoon.com/9-1-2024-techbeat#:~:text=Introducing%20Dev%20Encyclopedia%3A%20A%20Wikipedia%20Specifically%20for%20Developers)
+
+
 [![featured-on-fountn design](https://github.com/user-attachments/assets/a1c8531d-c554-4265-822a-e8b33001e9ec)](https://fountn.design/resource/dev-encyclopedia-encyclopedia-for-developers/)
+___________________________
+
+<a href="https://www.producthunt.com/products/dev-encyclopedia/reviews?utm_source=badge-product_review&utm_medium=badge&utm_souce=badge-dev&#0045;encyclopedia" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/product_review.svg?product_id=599062&theme=dark" alt="Dev&#0032;Encyclopedia&#0059; - Encyclopedia&#0032;for&#0032;Developers | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
 # Dev Encyclopedia; 
 
