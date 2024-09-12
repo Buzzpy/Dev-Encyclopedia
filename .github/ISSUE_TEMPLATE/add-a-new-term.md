@@ -1,6 +1,7 @@
 ---
 name: Add a new term
 about: Issue template for suggesting/adding a new term to Dev Encyclopedia
+title: New Term - 
 ---
 
 
