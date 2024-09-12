@@ -1,9 +1,9 @@
 
 [![dev-encyclopedia-devpedia dev](https://github.com/user-attachments/assets/f34e6739-dc82-4338-bb7f-06562068088b)](https://devpedia.dev)
 
-![featured-on-dev-community](https://github.com/user-attachments/assets/b7d701ae-643c-4a24-b274-d6c46dd63351)
-![featured-on-hackernoon](https://github.com/user-attachments/assets/7c3c9037-d46a-4fd8-938a-26f905d8331a)
-![featured-on-fountn design](https://github.com/user-attachments/assets/a1c8531d-c554-4265-822a-e8b33001e9ec)
+[![featured-on-dev-community](https://github.com/user-attachments/assets/b7d701ae-643c-4a24-b274-d6c46dd63351)](https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-k9b#:~:text=%40buzzpy%20introduces%20Dev%20Encyclopedia)
+[![featured-on-hackernoon](https://github.com/user-attachments/assets/7c3c9037-d46a-4fd8-938a-26f905d8331a)](https://hackernoon.com/9-1-2024-techbeat#:~:text=Introducing%20Dev%20Encyclopedia%3A%20A%20Wikipedia%20Specifically%20for%20Developers)
+[![featured-on-fountn design](https://github.com/user-attachments/assets/a1c8531d-c554-4265-822a-e8b33001e9ec)](https://fountn.design/resource/dev-encyclopedia-encyclopedia-for-developers/)
 
 # Dev Encyclopedia; 
 
