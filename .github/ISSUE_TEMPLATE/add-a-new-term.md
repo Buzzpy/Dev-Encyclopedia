@@ -1,7 +1,9 @@
+<!-- 
 ---
 name: Add a new term
 about: Issue template for suggesting/adding a new term to Dev Encyclopedia
 ---
+-->
 
 ![Issue Banner Image](https://github.com/user-attachments/assets/272cd422-01a7-41d3-a09f-b13e2ad004ae)
 
