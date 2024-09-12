@@ -1,9 +1,8 @@
-<!-- 
 ---
 name: Add a new term
 about: Issue template for suggesting/adding a new term to Dev Encyclopedia
 ---
--->
+
 
 ![Issue Banner Image](https://github.com/user-attachments/assets/272cd422-01a7-41d3-a09f-b13e2ad004ae)
 
@@ -32,4 +31,3 @@ Following is/are the terms I'd like to add:
 - Resource URL: https://www.wallarm.com/what/the-concept-of-an-api-gateway
 - Image URL (Optional, but recommended): https://cdn.prod.API%20Gateway%20example.png
 -->
-
