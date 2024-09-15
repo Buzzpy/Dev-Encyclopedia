@@ -8,8 +8,10 @@ labels: New-Term
 
 ![Issue Banner Image](https://github.com/user-attachments/assets/272cd422-01a7-41d3-a09f-b13e2ad004ae)
 
-<!-- Thanks for your interest in contributing to Dev Encyclopedia! -->
-<!-- Please fill out the following fields to suggest/add a new term to the dev encyclopedia -->
+<!-- Thanks for your interest in contributing to Dev Encyclopedia!
+
+Please fill out the following fields to suggest/add a new term to the dev encyclopedia -->
+
 Following is/are the terms I'd like to add: 
 - Term: Your Suggested Term 
 - Subtext: Subtext to be shown in the display card
@@ -22,8 +24,14 @@ Following is/are the terms I'd like to add:
 - [ ] I'll create the PR for this **myself**
 - [ ] I won't create the PR, **assign someone else** for this
 
+<!-- 
+Adding multiple terms? Please repeat the above 5 inputs for each term
 
-<!-- Adding multiple terms? Please repeat the above for each term-->
+IMPORTANT: If you are adding a number of terms (more than 3, that is), and you need help with it, please include a note for help.
+
+Eg: I'd need help adding these terms
+
+-->
 
 <!-- Following is an example of how to fill these -->
 <!-- 
