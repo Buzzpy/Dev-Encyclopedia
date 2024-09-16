@@ -1,9 +1,9 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import Hero from '../../components/Hero.astro';
-import CardList from '../../components/CardList.astro';
-import Modal from '../../components/Modal.astro';
-import PageNavigator from '../../components/PageNavigator.astro';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import CardList from '@/components/CardList.astro';
+import Modal from '@/components/Modal.astro';
+import PageNavigator from '@/components/PageNavigator.astro';
 
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
@@ -19,16 +19,16 @@ export async function getStaticPaths({ paginate }: GetStaticPathsOptions): Promi
   return paginate(terms, { pageSize: 20 });
 }
 
-const { page: { data: terms, currentPage, lastPage, url, ...page } } = Astro.props;
+const { page: { data: terms, ...page } } = Astro.props;
 ---
 
 <BaseLayout>
   <Hero {terms} />
   <CardList {terms} />
   <Modal />
-  <PageNavigator currentPage={currentPage} lastPage={lastPage} url={url} />
+  <PageNavigator {...page} />
 </BaseLayout>
 
-<script src="../../scripts/cards.ts"></script>
-<script src="../../scripts/modal.ts"></script>
-<script src="../../scripts/hero-action.ts"></script>
+<script src="@/scripts/cards.ts"></script>
+<script src="@/scripts/modal.ts"></script>
+<script src="@/scripts/hero-action.ts"></script>
