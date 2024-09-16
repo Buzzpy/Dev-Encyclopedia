@@ -1,20 +1,14 @@
-
 [![dev-encyclopedia-devpedia dev](https://github.com/user-attachments/assets/f34e6739-dc82-4338-bb7f-06562068088b)](https://devpedia.dev)
 
 [![featured-on-dev-community](https://github.com/user-attachments/assets/b7d701ae-643c-4a24-b274-d6c46dd63351)](https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-k9b#:~:text=%40buzzpy%20introduces%20Dev%20Encyclopedia)
 [![featured-on-hackernoon](https://github.com/user-attachments/assets/7c3c9037-d46a-4fd8-938a-26f905d8331a)](https://hackernoon.com/9-1-2024-techbeat#:~:text=Introducing%20Dev%20Encyclopedia%3A%20A%20Wikipedia%20Specifically%20for%20Developers)
-
-
 [![featured-on-fountn design](https://github.com/user-attachments/assets/a1c8531d-c554-4265-822a-e8b33001e9ec)](https://fountn.design/resource/dev-encyclopedia-encyclopedia-for-developers/)
-___________________________
 
-<a href="https://www.producthunt.com/products/dev-encyclopedia/reviews?utm_source=badge-product_review&utm_medium=badge&utm_souce=badge-dev&#0045;encyclopedia" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/product_review.svg?product_id=599062&theme=dark" alt="Dev&#0032;Encyclopedia&#0059; - Encyclopedia&#0032;for&#0032;Developers | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
 
 # Dev Encyclopedia; 
 
 ### [devpedia.pages.dev](https://devpedia.pages.dev/) | [devpedia.dev](https://devpedia.dev/)
-
-
 
 A simple project simplifies technical terms, concepts, jargon, and whatnot.
 
@@ -64,13 +58,15 @@ The [preview](https://docs.astro.build/en/reference/cli-reference/#astro-preview
 
 ## Contributing
 
-Found some important information missing? Please open a Pull Request and help improve this project. We welcome contributions of all kinds, whether it's adding new content, fixing typos, or suggesting new features.
+Found some important information missing? Please open a Pull Request and help improve this project. We welcome contributions of all kinds, whether it's adding new terms, fixing typos, or suggesting new features.
 
-> `IMPORTANT`: This project uses the `main` branch for **deployment** and the `develop` branch for **active development**. All contributions should be made to the `develop` branch, which will be tested and reviewed before being merged into the main branch for deployment.
+### Issue Templates
+- To add new terms: [View Template](https://github.com/Buzzpy/Dev-Encyclopedia/issues/new?assignees=&labels=&projects=&template=add-a-new-term.md&title=New+Term+-)
+- To report a bug: [View Template](https://github.com/Buzzpy/Dev-Encyclopedia/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=Bug+-)
+- Feature requests or anything else: Create your own issue 🐳
 
-![Copy of assets (2)](https://github.com/user-attachments/assets/43d3e163-e279-4f0e-8d70-2a49fcef1632)
 
-### How to Contribute
+### How to Contribute (PRs)
 
 1. **Fork the Repository:**
    - Start by forking this repository to your own GitHub account. This creates a copy of the repository under your GitHub account where you have full control.
@@ -113,6 +109,10 @@ Found some important information missing? Please open a Pull Request and help im
 
 8. **Get Your PR Merged:**
    - Once your PR is reviewed and approved, it will be merged into the `develop` branch. After thorough testing, the `develop` branch will be merged into the `main` branch for deployment (please note that this may take 2-3 days).
+
+> `IMPORTANT`: This project uses the `main` branch for **deployment** and the `develop` branch for **active development**. All contributions should be made to the `develop` branch, which will be tested and reviewed before being merged into the main branch for deployment.
+
+![Copy of assets (2)](https://github.com/user-attachments/assets/43d3e163-e279-4f0e-8d70-2a49fcef1632)
 
 Thank you for contributing to the Dev Encyclopedia!
 
