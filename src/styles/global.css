@@ -506,3 +506,24 @@ body.modal-open {
 #modal-link:hover {
   color: deeppink;
 }
+
+/* ======= Pagination ======= */
+.container__pagination {
+  gap: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1rem;
+  padding-inline: 1rem;
+}
+
+/* Simulates the `disabled` attribute on `a` tags as they do not support `disabled` */
+.container__pagination > a:not([href]) {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.5;
+}
+
+.no-decoration {
+  text-decoration: none;
+}

@@ -1,0 +1,13 @@
+---
+import type { Page } from 'astro';
+
+type Props = Pick<Page, "currentPage" | "lastPage" | "url">
+
+const { currentPage, lastPage, url: { prev, next } } = Astro.props;
+---
+
+<div class="container__pagination">
+    <a href={prev} class="button no-decoration">Prev</a>
+    <span class="">{currentPage} of {lastPage}</span>
+    <a href={next} class="button no-decoration">Next</a>
+</div>
