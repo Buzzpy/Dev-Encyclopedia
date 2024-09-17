@@ -24,7 +24,7 @@ _________
 _______
 
 ### Quick Links
-[License](#license-cc-by-nc-sa-40) | [Sponsoring](#sponsoring) | [How to Contribute (PRs)](#how-to-contribute-prs) | [Notable Contributors](https://github.com/Buzzpy/Dev-Encyclopedia/tree/master#%EF%B8%8F-notable-contributors) | [Contributing](#-notable-contributors) | [Installation and Deployment]()
+[License](#license-cc-by-nc-sa-40) | [Sponsoring](#sponsoring) | [How to Contribute](#contributing) | [Notable Contributors](https://github.com/Buzzpy/Dev-Encyclopedia/tree/master#%EF%B8%8F-notable-contributors) | [Installation and Deployment](#installation-and-deployment)
 
 _________
 
