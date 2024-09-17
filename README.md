@@ -1,49 +1,43 @@
-[![dev-encyclopedia-devpedia dev](https://github.com/user-attachments/assets/f34e6739-dc82-4338-bb7f-06562068088b)](https://devpedia.dev)
-
-[![featured-on-dev-community](https://github.com/user-attachments/assets/b7d701ae-643c-4a24-b274-d6c46dd63351)](https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-k9b#:~:text=%40buzzpy%20introduces%20Dev%20Encyclopedia)
-[![featured-on-hackernoon](https://github.com/user-attachments/assets/7c3c9037-d46a-4fd8-938a-26f905d8331a)](https://hackernoon.com/9-1-2024-techbeat#:~:text=Introducing%20Dev%20Encyclopedia%3A%20A%20Wikipedia%20Specifically%20for%20Developers)
-[![featured-on-fountn design](https://github.com/user-attachments/assets/a1c8531d-c554-4265-822a-e8b33001e9ec)](https://fountn.design/resource/dev-encyclopedia-encyclopedia-for-developers/)
-
-
-
 # Dev Encyclopedia; 
 
 ### [devpedia.pages.dev](https://devpedia.pages.dev/) | [devpedia.dev](https://devpedia.dev/)
 
 A simple project simplifies technical terms, concepts, jargon, and whatnot.
 
+[![featured-on-dev-community](https://github.com/user-attachments/assets/b7d701ae-643c-4a24-b274-d6c46dd63351)](https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-k9b#:~:text=%40buzzpy%20introduces%20Dev%20Encyclopedia)
+[![featured-on-hackernoon](https://github.com/user-attachments/assets/7c3c9037-d46a-4fd8-938a-26f905d8331a)](https://hackernoon.com/9-1-2024-techbeat#:~:text=Introducing%20Dev%20Encyclopedia%3A%20A%20Wikipedia%20Specifically%20for%20Developers)
+[![featured-on-fountn design](https://github.com/user-attachments/assets/a1c8531d-c554-4265-822a-e8b33001e9ec)](https://fountn.design/resource/dev-encyclopedia-encyclopedia-for-developers/)
+
 
 ![Copy of Github Banner (1)](https://github.com/user-attachments/assets/b5bb0925-f173-479f-99ba-4b044ae78339)
 > This project is launched but much space for improvement is left. Help me build this project by contributing to this repository
 
+## Quick Links
+[License](#license-cc-by-nc-sa-40) | [Sponsoring](#sponsoring) | [How to Contribute (PRs)](#how-to-contribute-prs) | [Notable Contributors](#-notable-contributors) | [Contributing](#-notable-contributors) | [Installation and Deployment]()
+
+
 ## Tech Stack
 
-**Client:** 
-  - [Astro](https://astro.build/)
-  - [Boostrap CSS](https://getbootstrap.com/) 
-  - [Prettier](https://prettier.io/)
-  - [TypeScript](https://www.typescriptlang.org/)
+[![Astro](https://img.shields.io/badge/Astro-%23644098.svg?style=for-the-badge&logo=astro&logoColor=white)](https://astro.build/)
+[![Bootstrap CSS](https://img.shields.io/badge/Bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+[![Prettier](https://img.shields.io/badge/Prettier-%23F7B93E.svg?style=for-the-badge&logo=prettier&logoColor=black)](https://prettier.io/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-%23339933.svg?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en)
 
-**Server:** 
- - [Node](https://nodejs.org/en)
 
-## Installation
+## Installation and Deployment
 
-Install all the requirements with **npm install** after forking and cloning the repository
+Install all the requirements with **npm install** after forking and cloning the repository:
 
 ```bash
   npm install
 ```
-
-## Deployment
-
-To deploy this project in a local environment, run the following 
-
+To deploy this project in a local environment, run the following:
 ```bash
   npm run dev
 ```
 
-To build your site for deployment. run the following. By default, this will generate static files and place them in a dist/ directory. If SSR is enabled, this will generate the necessary server files to serve your site.
+To build your site for deployment, run the following. By default, this will generate static files and place them in a dist/ directory. If SSR is enabled, this will generate the necessary server files to serve your site.
 
 ```bash
   npm run build
