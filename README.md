@@ -2,7 +2,8 @@
 
 ### [devpedia.pages.dev](https://devpedia.pages.dev/) | [devpedia.dev](https://devpedia.dev/)
 
-A simple project simplifies technical terms, concepts, jargon, and whatnot.
+A simple project simplifies technical terms, concepts, jargon, and whatnot: Open-source and ad-free. It is fueled by contributions and donations (and coffee, of course).
+
 
 [![featured-on-dev-community](https://github.com/user-attachments/assets/b7d701ae-643c-4a24-b274-d6c46dd63351)](https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-k9b#:~:text=%40buzzpy%20introduces%20Dev%20Encyclopedia)
 [![featured-on-hackernoon](https://github.com/user-attachments/assets/7c3c9037-d46a-4fd8-938a-26f905d8331a)](https://hackernoon.com/9-1-2024-techbeat#:~:text=Introducing%20Dev%20Encyclopedia%3A%20A%20Wikipedia%20Specifically%20for%20Developers)
