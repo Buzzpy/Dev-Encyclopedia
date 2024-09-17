@@ -16,6 +16,46 @@ A simple project simplifies technical terms, concepts, jargon, and whatnot.
 ![Copy of Github Banner (1)](https://github.com/user-attachments/assets/b5bb0925-f173-479f-99ba-4b044ae78339)
 > This project is launched but much space for improvement is left. Help me build this project by contributing to this repository
 
+## Tech Stack
+
+**Client:** 
+  - [Astro](https://astro.build/)
+  - [Boostrap CSS](https://getbootstrap.com/) 
+  - [Prettier](https://prettier.io/)
+  - [TypeScript](https://www.typescriptlang.org/)
+
+**Server:** 
+ - [Node](https://nodejs.org/en)
+
+## Installation
+
+Install all the requirements with **npm install** after forking and cloning the repository
+
+```bash
+  npm install
+```
+
+## Deployment
+
+To deploy this project in a local environment, run the following 
+
+```bash
+  npm run dev
+```
+
+To build your site for deployment. run the following. By default, this will generate static files and place them in a dist/ directory. If SSR is enabled, this will generate the necessary server files to serve your site.
+
+```bash
+  npm run build
+```
+
+The [preview](https://docs.astro.build/en/reference/cli-reference/#astro-preview) command allows you to preview your site locally after building to catch any errors in your build output before deploying it by starting a local server to serve the contents of your static directory (*dist/* by default) created by running *astro build*. 
+**_The command is not designed to be run in production._**
+
+```bash
+  npm run preview
+```
+
 ## Contributing
 
 Found some important information missing? Please open a Pull Request and help improve this project. We welcome contributions of all kinds, whether it's adding new terms, fixing typos, or suggesting new features.
