@@ -12,18 +12,20 @@ A simple project simplifies technical terms, concepts, jargon, and whatnot.
 ![Copy of Github Banner (1)](https://github.com/user-attachments/assets/b5bb0925-f173-479f-99ba-4b044ae78339)
 > This project is launched but much space for improvement is left. Help me build this project by contributing to this repository
 
-## Quick Links
-[License](#license-cc-by-nc-sa-40) | [Sponsoring](#sponsoring) | [How to Contribute (PRs)](#how-to-contribute-prs) | [Notable Contributors](#-notable-contributors) | [Contributing](#-notable-contributors) | [Installation and Deployment]()
-
-
-## Tech Stack
+_________
+### Tech Stack
 
 [![Astro](https://img.shields.io/badge/Astro-%23644098.svg?style=for-the-badge&logo=astro&logoColor=white)](https://astro.build/)
 [![Bootstrap CSS](https://img.shields.io/badge/Bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 [![Prettier](https://img.shields.io/badge/Prettier-%23F7B93E.svg?style=for-the-badge&logo=prettier&logoColor=black)](https://prettier.io/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-%23339933.svg?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en)
+_______
 
+### Quick Links
+[License](#license-cc-by-nc-sa-40) | [Sponsoring](#sponsoring) | [How to Contribute (PRs)](#how-to-contribute-prs) | [Notable Contributors](https://github.com/Buzzpy/Dev-Encyclopedia/tree/master#%EF%B8%8F-notable-contributors) | [Contributing](#-notable-contributors) | [Installation and Deployment]()
+
+_________
 
 ## Installation and Deployment
 
