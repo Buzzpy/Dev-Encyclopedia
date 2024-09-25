@@ -123,6 +123,7 @@ We are grateful to our outstanding contributors who have significantly impacted 
 | **Ray Mathew (@RayMathew)**                                  | [![LinkedIn](https://img.shields.io/badge/-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/ray-mathew7/) | [![GitHub](https://img.shields.io/badge/-Profile-black?style=flat&logo=github)](https://github.com/RayMathew) |
 | **Amine Naqi (@Rodelph)**                              | [![LinkedIn](https://img.shields.io/badge/-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/amine-naqi-aa898724b/) | [![GitHub](https://img.shields.io/badge/-Profile-black?style=flat&logo=github)](https://github.com/Rodelph) |
 | **Sudharshaun Mugundan (@Sudharshaun)**                              | [![LinkedIn](https://img.shields.io/badge/-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/sudharshaun/) | [![GitHub](https://img.shields.io/badge/-Profile-black?style=flat&logo=github)](https://github.com/Sudharshaun) |
+| **Kwong Cheong N. (@KC900201)**                              | [![LinkedIn](https://img.shields.io/badge/-Connect-blue?style=flat&logo=linkedin)]([https://www.linkedin.com/in/sudharshaun/](https://www.linkedin.com/in/kwongcheongng)) | [![GitHub](https://img.shields.io/badge/-Profile-black?style=flat&logo=github)]([https://github.com/Sudharshaun](https://github.com/KC900201)) |
 
 
 
