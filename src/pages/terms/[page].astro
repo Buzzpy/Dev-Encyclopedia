@@ -1,0 +1,34 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import CardList from '@/components/CardList.astro';
+import Modal from '@/components/Modal.astro';
+import PageNavigator from '@/components/PageNavigator.astro';
+
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import type { GetStaticPathsOptions, GetStaticPathsResult, Page } from 'astro';
+
+// This type is automatically picked up by astro for Astro.props
+type Props = {
+  page: Page<CollectionEntry<"terms">>;
+}
+
+export async function getStaticPaths({ paginate }: GetStaticPathsOptions): Promise<GetStaticPathsResult> {
+  const terms = await getCollection("terms");
+  return paginate(terms, { pageSize: 20 });
+}
+
+const { page: { data: terms, ...page } } = Astro.props;
+---
+
+<BaseLayout>
+  <Hero {terms} />
+  <CardList {terms} />
+  <Modal />
+  <PageNavigator {...page} />
+</BaseLayout>
+
+<script src="@/scripts/cards.ts"></script>
+<script src="@/scripts/modal.ts"></script>
+<script src="@/scripts/hero-action.ts"></script>
