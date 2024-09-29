@@ -1,18 +1,25 @@
 {
-  "name": "dev encyclopedia",
-  "type": "module",
-  "version": "0.0.1",
-  "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "tsc --noEmit || true && npx astro build",
-    "preview": "astro preview"
-  },
-  "dependencies": {
-    "@astrojs/check": "^0.9.2",
-    "astro": "^4.14.2",
-    "bootstrap": "^5.3.3",
-    "prettier": "^2.8.7",
-    "typescript": "^5.5.4"
-  }
+	"name": "dev encyclopedia",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "tsc --noEmit || true && npx astro build",
+		"preview": "astro preview",
+		"prepare": "husky",
+		"test": "echo no tests specified"
+	},
+	"dependencies": {
+		"@astrojs/check": "^0.9.2",
+		"astro": "^4.14.2",
+		"bootstrap": "^5.3.3",
+		"prettier": "^2.8.7",
+		"typescript": "^5.5.4"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^19.5.0",
+		"@commitlint/config-conventional": "^19.5.0",
+		"husky": "^9.1.6"
+	}
 }
