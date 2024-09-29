@@ -1,0 +1,15 @@
+{
+  "title": "Continue Integration / Continuous Delivery (CI/CD)",
+  "subtext": "Continuous integration and continuous delivery",
+  "categories": ["DevOps", "Automation"],
+  "author": "Ng Kwong Cheong (KC900201)",
+  "description": {
+    "title": "Continue Integration / Continuous Delivery (CI/CD)",
+    "texts": [
+      "CI/CD, or continuous integration and continuous delivery, is a software development practice that automates the process of integrating and delivering code.",
+      "CI/CD is a key part of DevOps, a methodology that encourages collaboration between development and operations teams."
+    ],
+    "image": "https://testrigor.com/wp-content/uploads/2023/11/What-is-the-CICD-Pipeline.png",
+    "references": ["https://about.gitlab.com/topics/ci-cd/"]
+  }
+}
