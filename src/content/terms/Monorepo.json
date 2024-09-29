@@ -1,0 +1,15 @@
+{
+    "title": "Monorepo",
+    "subtext": "A single repository containing multiple distinct projects",
+    "categories": ["Software Development"],
+    "author": "TahaHameed23",
+    "description": {
+        "title": "Monolith",
+        "texts": [
+            "A monorepo is a version-controlled repository that holds the code for multiple, often independent, projects within the same repository. Despite being housed together, these projects are developed and deployed separately.",
+            "Imagine a monorepo as a giant toolbox where all your tools are stored together in one place."
+        ],
+        "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*Kge64Jiv46lefzeQ.png",
+        "references": ["https://en.wikipedia.org/wiki/Monorepo"]
+    }
+}
