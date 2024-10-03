@@ -1,14 +1,14 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vite'
 
 export default defineConfig({
   build: {
     rollupOptions: {
-      external: ['fs', 'path'],
-    },
+      external: ['fs', 'path']
+    }
   },
   resolve: {
     alias: {
-      fs: 'empty-module',
-    },
-  },
-});
+      fs: 'empty-module'
+    }
+  }
+})
