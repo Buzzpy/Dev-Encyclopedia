@@ -9,7 +9,7 @@
     "preview": "astro preview",
     "prepare": "husky",
     "test": "echo no tests specified",
-    "lint": "prettier --write  \"**/*.{js,jsx,ts,tsx,md,mdx,astro}\" && eslint --fix \"src/**/*.{js,ts,jsx,tsx,astro}\""
+    "lint": "prettier --write  \"**/*.{js,jsx,ts,tsx,astro}\" && eslint --fix \"src/**/*.{js,ts,jsx,tsx,astro}\""
   },
   "dependencies": {
     "@astrojs/check": "^0.9.2",
