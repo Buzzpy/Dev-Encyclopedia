@@ -1,0 +1,17 @@
+{
+  "title": "API Versioning",
+  "subtext": "Manage API changes by assigning version numbers",
+  "categories": ["Web Development"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "API Versioning",
+    "texts": [
+      "API Versioning is the process of assigning version numbers to different stages of API development to manage changes and ensure backward compatibility.",
+      "Imagine API versioning as a way of keeping a diary of changes to a recipe, allowing you to refer back to any version at any time."
+    ],
+    "image": "https://voyager.postman.com/illustration/how-do-you-version-an-api-postman-illustration.svg",
+    "references": [
+      "https://www.postman.com/api-platform/api-versioning/"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "title": "SVG",
+    "subtext": "Scalable Vector Graphics",
+    "categories": ["Frontend Development"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "SVG",
+      "texts": [
+        "SVG (Scalable Vector Graphics) is an XML-based markup language for describing two-dimensional vector graphics.",
+        "SVG images can be scaled to any size without losing quality, making them ideal for responsive web design."
+      ],
+      "image": "",
+      "references": [
+        "https://developer.mozilla.org/en-US/docs/Web/SVG"
+      ]
+    }
+  }
+  

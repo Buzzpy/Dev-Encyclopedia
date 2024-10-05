@@ -1,0 +1,17 @@
+{
+  "title": "Domain-Driven Design (DDD)",
+  "subtext": "Align software design with business needs",
+  "categories": ["Programming Concepts", "Software Architecture"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Domain-Driven Design (DDD)",
+    "texts": [
+      "DDD is a software design approach focused on modeling software closely to the business domain. It emphasizes understanding and aligning the software with business needs.",
+      "Key concepts include entities, value objects, and aggregates, ensuring that software reflects real-world business structures."
+    ],
+    "image": "",
+    "references": [
+      "https://medium.com/geekculture/domain-driven-design-deep-dive-into-context-mapping-f9cd8acddd7e"
+    ]
+  }
+}

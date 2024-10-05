@@ -1,0 +1,17 @@
+{
+  "title": "Regularization",
+  "subtext": "Prevents overfitting by adding penalties to model complexity.",
+  "categories": ["Machine Learning"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Regularization",
+    "texts": [
+      "Regularization is a technique used to prevent overfitting by adding a penalty to the complexity of the model. It helps in keeping the model simpler and more generalizable.",
+      "It's like adding rules to limit how much a model can change to avoid fitting too closely to the training data."
+    ],
+    "image": "https://editor.analyticsvidhya.com/uploads/71199regularization.jpg",
+    "references": [
+      "https://www.analyticsvidhya.com/blog/2022/08/regularization-in-machine-learning/"
+    ]
+  }
+}

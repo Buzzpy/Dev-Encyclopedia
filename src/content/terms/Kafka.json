@@ -1,0 +1,17 @@
+{
+  "title": "Kafka",
+  "subtext": "Apache Kafka",
+  "categories": ["Distributed Systems"],
+  "author": "RayMathew",
+  "description": {
+    "title": "Kafka",
+    "texts": [
+      "Apache Kafka is an open-source distributed streaming system used for stream processing, real-time data pipelines, and data integration at scale.",
+      "Originally created to handle real-time data feeds at LinkedIn in 2011, Kafka quickly evolved from a messaging queue to a full-fledged event streaming platform, capable of handling over one million messages per second, or trillions of messages per day."
+    ],
+    "image": "https://media.licdn.com/dms/image/v2/D5612AQGr8IpsMekKfQ/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1687242848800?e=1729728000&v=beta&t=31iTSsSb_9EzRoBZcjT6JNASN485mQH7Ul78CSpdS88",
+    "references": [
+      "https://kafka.apache.org/"
+    ]
+  }
+}

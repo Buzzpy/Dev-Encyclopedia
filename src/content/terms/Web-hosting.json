@@ -1,0 +1,18 @@
+{
+    "title": "Web Hosting",
+    "subtext": "Service for hosting websites on the internet",
+    "categories": ["Web Development"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Web Hosting",
+      "texts": [
+        "Web hosting is a service that allows individuals and organizations to publish a website or web application on the internet. Hosting providers allocate space on a server for a website's files and make them accessible online.",
+        "Web hosting services vary in complexity, from simple shared hosting to complex cloud hosting solutions like AWS and Azure."
+      ],
+      "image": "",
+      "references": [
+        "https://www.hostgator.com/blog/what-is-web-hosting/"
+      ]
+    }
+  }
+  

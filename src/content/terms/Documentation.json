@@ -1,0 +1,18 @@
+{
+    "title": "Documentation",
+    "subtext": "Guides and references for software usage",
+    "categories": ["SDLC", "Quality Assurance"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Documentation",
+      "texts": [
+        "Documentation refers to the written text or illustrated information that accompanies software, providing instructions on how to install, use, and troubleshoot the software.",
+        "Good documentation is essential for helping users and developers understand how to interact with software, whether through APIs, libraries, or complete applications."
+      ],
+      "image": "",
+      "references": [
+        "https://en.wikipedia.org/wiki/Software_documentation"
+      ]
+    }
+  }
+  

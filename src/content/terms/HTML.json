@@ -1,0 +1,17 @@
+{
+  "title": "HTML",
+  "subtext": "HyperText Markup Language",
+  "categories": ["Frontend Development"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "HTML",
+    "texts": [
+      "HTML (HyperText Markup Language) is the standard language used to create and design web pages. It structures content on the web by using tags and elements to define headings, paragraphs, links, images, and other components.",
+      "HTML forms the backbone of web content and is used in conjunction with CSS and JavaScript to build complete web pages."
+    ],
+    "image": "",
+    "references": [
+      "https://www.hostinger.com/tutorials/what-is-html"
+    ]
+  }
+}

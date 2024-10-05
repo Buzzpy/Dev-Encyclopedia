@@ -1,0 +1,17 @@
+{
+  "title": "Monolith",
+  "subtext": "A single, large application handling multiple tasks",
+  "categories": ["Software Architecture"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Monolith",
+    "texts": [
+      "A monolith is a large, single software application that handles multiple tasks. It's like having one big machine that does everything, from washing clothes to making coffee.",
+      "Imagine a monolith as an all-in-one tool that can be harder to fix if something breaks."
+    ],
+    "image": "",
+    "references": [
+      "https://en.wikipedia.org/wiki/Monolithic_application"
+    ]
+  }
+}

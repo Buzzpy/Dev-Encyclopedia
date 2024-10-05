@@ -1,0 +1,18 @@
+{
+    "title": "AWS",
+    "subtext": "Amazon Web Services",
+    "categories": ["Cloud Computing", "DevOps"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "AWS",
+      "texts": [
+        "Amazon Web Services (AWS) is a comprehensive and widely adopted cloud platform, offering over 200 fully-featured services from data centers globally.",
+        "AWS services include computing power, storage, databases, and machine learning, providing scalable and cost-effective solutions for businesses of all sizes."
+      ],
+      "image": "https://images.spiceworks.com/wp-content/uploads/2022/04/26162218/AWS.png",
+      "references": [
+        "https://aws.amazon.com/"
+      ]
+    }
+  }
+  

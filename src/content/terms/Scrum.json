@@ -1,0 +1,17 @@
+{
+  "title": "Scrum",
+  "subtext": "A framework within the Agile methodology",
+  "categories": ["SDLC"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Scrum",
+    "texts": [
+      "Scrum is a framework within the Agile methodology used for managing and completing complex projects. It involves iterative development and regular feedback from stakeholders.",
+      "Scrum emphasizes teamwork, accountability, and continuous improvement through practices such as sprints, daily stand-ups, and retrospectives."
+    ],
+    "image": "https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2023-09/scrum-framework-9.29.23.png",
+    "references": [
+      "https://www.scrum.org/resources/what-scrum-module"
+    ]
+  }
+}

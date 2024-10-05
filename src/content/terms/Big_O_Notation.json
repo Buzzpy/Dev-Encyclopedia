@@ -1,0 +1,19 @@
+
+{
+  "title": "Big O Notation",
+  "subtext": "A term used to explain... algorithms?",
+  "categories": ["Programming Concepts"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Big O Notation",
+    "texts": [
+      "Big O Notation is a mathematical concept used to describe the efficiency of algorithms, particularly in terms of time and space complexity. It provides a high-level understanding of how an algorithm's runtime or the amount of memory it uses grows relative to the input size.",
+      "In practical terms, Big O helps developers evaluate and compare the performance of algorithms, especially when dealing with large data sets. Common Big O notations include O(1) for constant time, O(n) for linear time, and O(log n) for logarithmic time.",
+      "Understanding Big O is essential for optimizing code and ensuring that software can scale efficiently as the amount of data or the number of users increases."
+    ],
+    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240329121436/big-o-analysis-banner.webp",
+    "references": [
+      "https://www.geeksforgeeks.org/analysis-algorithms-big-o-analysis/"
+    ]
+  }
+}

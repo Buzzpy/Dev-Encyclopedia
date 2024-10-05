@@ -1,0 +1,18 @@
+{
+  "title": "APM (Application Performance Management)",
+  "subtext": "Monitors and manages software application performance",
+  "categories": ["Monitoring"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "APM (Application Performance Management)",
+    "texts": [
+      "Application Performance Management (APM) is a discipline within systems management that focuses on monitoring and managing the performance and availability of software applications.",
+      "APM tools help ensure that applications meet performance expectations, providing visibility into the health and performance of applications in real-time.",
+      "By using APM, organizations can quickly identify and resolve issues before they impact end-users, thus maintaining a high level of service."
+    ],
+    "image": "https://www.parkplacetechnologies.com/wp-content/uploads/2021/10/what-is-application-performance-monitoring-1000x690.png",
+    "references": [
+      "https://www.parkplacetechnologies.com/blog/what-is-apm-application-performance-monitoring/"
+    ]
+  }
+}

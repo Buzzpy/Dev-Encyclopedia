@@ -1,0 +1,17 @@
+{
+  "title": "Cybersecurity",
+  "subtext": "Staying secured in a a world of hackers",
+  "categories": ["Cybersecurity"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Cybersecurity",
+    "texts": [
+      "Cybersecurity involves protecting computer systems and networks from digital attacks, theft, and damage. It includes various practices and technologies to safeguard data and maintain privacy.",
+      "Cybersecurity is crucial for protecting sensitive information and ensuring the safe operation of systems in both personal and professional environments."
+    ],
+    "image": "https://reciprocity.com/wp-content/uploads/2022/10/resources_top-cybersecurity-threats_730x425.jpg",
+    "references": [
+      "https://www.ibm.com/topics/cybersecurity"
+    ]
+  }
+}

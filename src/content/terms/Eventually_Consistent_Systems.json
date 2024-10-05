@@ -1,0 +1,16 @@
+{
+  "title": "Eventually Consistent Systems",
+  "subtext": "Systems that eventually reach consistency over time",
+  "categories": ["Distributed Systems"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Eventually Consistent Systems",
+    "texts": [
+      "Eventually consistent systems are a model of consistency in distributed computing where the system eventually reaches consistency but does not guarantee immediate consistency."
+    ],
+    "image": "",
+    "references": [
+      "https://www.allthingsdistributed.com/2008/12/eventually_consistent.html"
+    ]
+  }
+}

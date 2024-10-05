@@ -1,0 +1,17 @@
+{
+  "title": "Micro FrontEnd",
+  "subtext": "Independently deployable Front End units",
+  "categories": ["Frontend Development", "Software Architecture"],
+  "author": "Stark-Akshay",
+  "description": {
+    "title": "Micro FrontEnd",
+    "texts": [
+      "Micro frontends is an architectural approach where a web application is composed of multiple independent, independently deployable frontend applications.",
+      "Each micro frontend is responsible for a specific feature or business capability, and they work together to form a cohesive user experience."
+    ],
+    "image": "https://leanylabs.com/static/a34b593e250daf5edd2302455e46941c/88503/featured.webp",
+    "references": [
+      "https://medium.com/simform-engineering/understanding-micro-frontends-a-comprehensive-guide-da41c57946ac"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "title": "Idempotence",
+    "subtext": "Operation consistency",
+    "categories": ["Programming Concepts"],
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Idempotence",
+        "texts": [
+            "In programming, idempotence refers to the property of an operation that can be performed multiple times without changing the outcome beyond its initial application. For example, making the same HTTP request multiple times will result in the same effect as making it once. This principle is crucial for building reliable and fault-tolerant systems, especially in distributed computing and APIs."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Idempotence"
+        ]
+    }
+}

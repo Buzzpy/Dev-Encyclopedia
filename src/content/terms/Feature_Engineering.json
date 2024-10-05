@@ -1,0 +1,17 @@
+{
+  "title": "Feature Engineering",
+  "subtext": "Creates or modifies features to enhance model performance.",
+  "categories": ["Machine Learning", "AI"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Feature Engineering",
+    "texts": [
+      "Feature Engineering involves creating new features or modifying existing ones to improve the performance of a machine learning model. It's like adding more details to a drawing to make it clearer.",
+      "Effective feature engineering can make a significant difference in how well a model performs."
+    ],
+    "image": "https://blog.minitab.com/hubfs/FeatureEngineering-blog-img1-hubspot.jpg",
+    "references": [
+      "https://builtin.com/articles/feature-engineering"
+    ]
+  }
+}

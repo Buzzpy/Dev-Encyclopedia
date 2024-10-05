@@ -1,0 +1,17 @@
+{
+  "title": "Horizontal Scaling",
+  "subtext": "Add more machines to handle increased load",
+  "categories": ["Scalability", "Cloud Computing", "Distributed Systems"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Horizontal Scaling",
+    "texts": [
+      "Horizontal scaling, or scaling out, involves adding more machines or resources to a pool to handle increased load.",
+      "Imagine horizontal scaling as adding more lanes to a highway to accommodate more traffic."
+    ],
+    "image": "",
+    "references": [
+      "https://www.virtana.com/glossary/what-is-horizontal-scaling/#:~:text=Horizontal%20scaling%20is%20the%20ability,RAM)%20to%20an%20existing%20machine."
+    ]
+  }
+}

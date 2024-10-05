@@ -1,0 +1,17 @@
+{
+  "title": "Authorization",
+  "subtext": "Determining user permissions",
+  "categories": ["Cybersecurity"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Authorization",
+    "texts": [
+      "Authorization is the process of determining what someone is allowed to do. It happens after authentication.",
+      "Think of authorization like a security guard checking if you have access to a VIP area after you\u2019ve shown your ID."
+    ],
+    "image": "https://miro.medium.com/v2/resize:fit:960/1*FhdNVsZV5cPvrBKsE0OVvw.png",
+    "references": [
+      "https://medium.com/geekculture/authentication-and-authorization-a5a2eafdde16"
+    ]
+  }
+}

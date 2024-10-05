@@ -1,0 +1,17 @@
+{
+  "title": "Deadlock",
+  "subtext": "A stand-off where processes block each other's progress",
+  "categories": ["Database", "Programming Concepts"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Deadlock",
+    "texts": [
+      "Deadlock is a situation in computing where two or more processes are each waiting for the other to release a resource, causing all of them to remain blocked.",
+      "Imagine deadlock as a stand-off in a narrow hallway where two people block each other's way and neither can move forward until one steps aside."
+    ],
+    "image": "https://www.sqlshack.com/wp-content/uploads/2020/04/illustration-of-the-deadlock-definition.png",
+    "references": [
+      "https://www.sqlshack.com/understanding-the-deadlock-definition-in-sql-server/"
+    ]
+  }
+}

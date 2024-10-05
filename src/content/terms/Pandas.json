@@ -1,0 +1,18 @@
+{
+    "title": "Pandas",
+    "subtext": "Data manipulation library",
+    "categories": ["Tools"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Pandas",
+      "texts": [
+        "Pandas is a powerful data manipulation and analysis library for Python, offering data structures and functions needed to work with structured data easily.",
+        "It is particularly useful for data analysis, data cleaning, and data transformation tasks in data science and machine learning."
+      ],
+      "image": "https://pandas.pydata.org/static/img/pandas.svg",
+      "references": [
+        "https://pandas.pydata.org/"
+      ]
+    }
+  }
+  

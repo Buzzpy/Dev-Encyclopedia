@@ -1,0 +1,18 @@
+{
+    "title": "Favicon",
+    "subtext": "Website's tiny icon",
+    "categories": ["Frontend Development"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Favicon",
+      "texts": [
+        "A favicon is a small icon associated with a website, typically displayed in the browser's address bar or next to the site name in a bookmark list.",
+        "Favicons help in branding and make it easier for users to recognize and locate a website quickly."
+      ],
+      "image": "https://www.w3schools.com/html/img_favicon.png",
+      "references": [
+        "https://www.w3schools.com/html/html_favicon.asp"
+      ]
+    }
+  }
+  

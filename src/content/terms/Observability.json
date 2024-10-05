@@ -1,0 +1,17 @@
+{
+  "title": "Observability",
+  "subtext": "Ability to collect metrics about programs' execution",
+  "categories": ["DevOps", "Monitoring"],
+  "author": "RayMathew",
+  "description": {
+    "title": "Observability",
+    "texts": [
+      "Observability is the ability to measure the internal states of a system by examining its outputs.",
+      "The goal of observability is to understand what’s happening across environments and among the technologies, so you can detect and resolve issues to keep your systems efficient and reliable and your customers happy."
+    ],
+    "image": "",
+    "references": [
+      "https://en.wikipedia.org/wiki/Observability_(software)"
+    ]
+  }
+}

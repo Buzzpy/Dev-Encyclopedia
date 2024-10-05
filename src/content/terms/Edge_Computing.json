@@ -1,0 +1,17 @@
+{
+  "title": "Edge Computing",
+  "subtext": "Data processing closer to data sources",
+  "categories": ["AI", "IoT"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Edge Computing",
+    "texts": [
+      "Edge computing brings data processing closer to where it's needed, reducing delays. It's like having a mini-computer in your smart devices to make things faster.",
+      "Imagine edge computing as a brain in your devices that helps them think quicker without asking a faraway server."
+    ],
+    "image": "",
+    "references": [
+      "https://www.ibm.com/cloud/what-is-edge-computing"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "C#",
+  "subtext": "A modern, OOP language from Microsoft",
+  "categories": ["Language"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "C#",
+    "texts": [
+      "C# is a modern, object-oriented programming language developed by Microsoft. It is designed to be simple, powerful, and versatile, making it a popular choice for developing a wide range of applications, including web, mobile, desktop, and games.",
+      "C# is part of the .NET framework and offers features like strong typing, garbage collection, and support for both imperative and declarative programming paradigms. It is widely used in enterprise environments for building robust and scalable applications."
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png",
+    "references": [
+      "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/"
+    ]
+  }
+}

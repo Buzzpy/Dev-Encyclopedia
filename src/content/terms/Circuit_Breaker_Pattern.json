@@ -1,0 +1,16 @@
+{
+    "title": "Circuit Breaker Pattern",
+    "subtext": "Software design pattern",
+    "categories": ["Software Architecture"],
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Circuit Breaker Pattern",
+        "texts": [
+            "The Circuit Breaker Pattern is a software design pattern used to detect and prevent failures in a system. It acts as a switch that opens when operations are likely to fail, preventing continuous retries and helping maintain system stability by cutting off requests to failing components."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Circuit_breaker_pattern"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Dictionary",
+  "subtext": "A collection of key-value pairs in programming.",
+  "categories": ["Programming Concepts", "Data Structures"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Dictionary",
+    "texts": [
+      "A dictionary in programming is a collection of key-value pairs. It's like a real dictionary where you look up a word (key) to find its definition (value).",
+      "Imagine having a box with labels (keys) and items (values) inside. You can quickly find what you need by looking at the labels."
+    ],
+    "image": "https://cdn-wordpress-info.futurelearn.com/info/wp-content/uploads/FL-Prog103-2.3-Dictionary-768x317.png",
+    "references": [
+      "https://www.w3schools.com/python/python_dictionaries.asp"
+    ]
+  }
+}

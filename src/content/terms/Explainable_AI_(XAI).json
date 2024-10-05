@@ -1,0 +1,17 @@
+{
+  "title": "Explainable AI (XAI)",
+  "subtext": "Making AI decisions understandable to humans",
+  "categories": ["AI"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Explainable AI (XAI)",
+    "texts": [
+      "Explainable AI (XAI) refers to methods and techniques that make the outcomes of AI models more understandable to humans. In traditional AI systems, the decision-making process can often be a 'black box'—difficult to interpret or explain.",
+      "XAI seeks to provide transparency by offering insights into how AI models arrive at their conclusions. This is crucial for building trust, especially in fields like healthcare, finance, and law, where understanding the rationale behind decisions is essential."
+    ],
+    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20231201153509/Explainable-AI-Concept-1-660.png",
+    "references": [
+         "https://www.ibm.com/topics/explainable-ai"
+    ]
+  }
+}

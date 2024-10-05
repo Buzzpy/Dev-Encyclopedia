@@ -1,0 +1,18 @@
+{
+    "title": "Pygame",
+    "subtext": "Python library for game development",
+    "categories": ["Tools"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Pygame",
+      "texts": [
+        "Pygame is a cross-platform set of Python modules designed for writing video games. It includes computer graphics and sound libraries built on top of the SDL library.",
+        "Pygame is popular among developers for creating simple 2D games and multimedia applications."
+      ],
+      "image": "https://datascientest.com/en/files/2023/12/pygame-datascientest.webp",
+      "references": [
+        "https://www.codeadvantage.org/coding-for-kids-blog/what-is-pygame"
+      ]
+    }
+  }
+  

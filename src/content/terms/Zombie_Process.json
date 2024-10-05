@@ -1,0 +1,16 @@
+{
+    "title": "Zombie Process",
+    "subtext": "Defunct process",
+    "categories": ["OS"],
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Zombie Process",
+        "texts": [
+            "A Zombie Process is a defunct process in a computer system that has completed execution but still has an entry in the process table. This occurs because its parent process has not yet read its exit status. Zombie processes can accumulate and waste system resources if not properly cleaned up."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Zombie_process"
+        ]
+    }
+}

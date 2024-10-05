@@ -1,0 +1,17 @@
+{
+  "title": "Immutable Data Structures",
+  "subtext": "Data structures that cannot be modified after creation",
+  "categories": ["Programming Concepts"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Immutable Data Structures",
+    "texts": [
+      "Immutable data structures are data structures that cannot be modified after they are created.",
+      "Imagine immutable data structures as a written contract; once it's signed, it cannot be changed, only replaced with a new version."
+    ],
+    "image": "",
+    "references": [
+      "https://medium.com/@livajorge7/immutable-data-structure-enhancing-performance-and-data-integrity-97cf07e1cb1#:~:text=An%20immutable%20data%20structure%20is,structure%20with%20the%20updated%20information."
+    ]
+  }
+}

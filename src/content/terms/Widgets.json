@@ -1,0 +1,18 @@
+{
+    "title": "Widgets",
+    "subtext": "Reusable UI components",
+    "categories": ["Frontend Development"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Widgets",
+      "texts": [
+        "Widgets are reusable UI components that can be integrated into applications to provide specific functionality, like buttons, forms, or sliders.",
+        "They help streamline development by allowing developers to reuse code and maintain consistency across different parts of an application."
+      ],
+      "image": "https://think360studio-media.s3.ap-south-1.amazonaws.com/photo/plugin/article/2023/widget-11012023.png",
+      "references": [
+        "https://www.techtarget.com/whatis/definition/widget"
+      ]
+    }
+  }
+  

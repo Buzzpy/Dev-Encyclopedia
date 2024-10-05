@@ -1,0 +1,18 @@
+{
+    "title": "MERN",
+    "subtext": "JavaScript stack for web development",
+    "categories": ["Web Development"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "MERN",
+      "texts": [
+        "MERN is a popular JavaScript stack used for building full-stack web applications, consisting of MongoDB, Express.js, React, and Node.js.",
+        "The MERN stack enables developers to build applications using only JavaScript, from client-side to server-side and database."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/MERN-logo.png/1024px-MERN-logo.png",
+      "references": [
+        "https://www.mongodb.com/mern-stack"
+      ]
+    }
+  }
+  

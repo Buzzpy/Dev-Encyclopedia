@@ -1,0 +1,17 @@
+{
+  "title": "Scalability",
+  "subtext": "Capability of a system to handle growth",
+  "categories": ["Software Architecture"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Scalability",
+    "texts": [
+      "Scalability is the capability of a system, network, or process to handle a growing amount of work, or its potential to accommodate growth.",
+      "Think of scalability as the ability of a bridge to handle more traffic as the city grows."
+    ],
+    "image": "",
+    "references": [
+      "https://azure.microsoft.com/en-us/overview/what-is-scalability/"
+    ]
+  }
+}

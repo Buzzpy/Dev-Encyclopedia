@@ -1,0 +1,17 @@
+{
+  "title": "User-Acceptance Test (UAT)",
+  "subtext": "Final user testing phase",
+  "categories": ["Testing", "Quality Assurance"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "User-Acceptance Test (UAT)",
+    "texts": [
+      "User-Acceptance Testing (UAT) is the final phase of the software testing process, where the end-users or clients test the software in a real-world scenario to ensure it meets their requirements and works as expected.",
+      "During UAT, users verify that the software performs its intended functions correctly and that it is ready for production. This phase is crucial for identifying any remaining issues that could impact the user experience before the software is officially released."
+    ],
+    "image": "",
+    "references": [
+      "https://www.guru99.com/user-acceptance-testing.html"
+    ]
+  }
+}

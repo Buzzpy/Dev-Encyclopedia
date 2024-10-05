@@ -1,0 +1,17 @@
+{
+  "title": "Optimistic Locking",
+  "subtext": "Concurrency control method strategy.",
+  "categories": ["Database"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Optimistic Locking",
+    "texts": [
+      "Optimistic locking is a strategy where you read a record and there is some versioning in it (can be timestamp, version number, etc), and then when you attempt to update the record, the versioning is checked. \n      The update is only committed when the record version remains the same. If the record version has changed, then the update attempt is aborted. \n      This is particularly useful to increase throughput, and prevent conflicts when multiple users attempt to update a single record.",
+      "It's like in an art class where everyone is coloring a big picture together, and each have their own copy to color. You start coloring your tree green, and your friend might color their tree as blue.\n      When you finish, you check in the big picture if anyone has colored the tree. If no one has, you can add your green tree. But if someone has colored the tree, you can't just color over it. You have to decide together what color the tree should be."
+    ],
+    "image": "",
+    "references": [
+      "https://stackoverflow.com/questions/129329/optimistic-vs-pessimistic-locking"
+    ]
+  }
+}

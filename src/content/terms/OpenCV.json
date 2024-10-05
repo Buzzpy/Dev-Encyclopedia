@@ -1,0 +1,18 @@
+{
+    "title": "OpenCV",
+    "subtext": "Computer vision library",
+    "categories": ["Tools", "Machine Learning"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "OpenCV",
+      "texts": [
+        "OpenCV (Open Source Computer Vision Library) is an open-source computer vision and machine learning software library.",
+        "It contains more than 2500 optimized algorithms for tasks like image recognition, object detection, and face recognition, making it popular in research and industrial applications."
+      ],
+      "image": "https://www.devopsschool.com/blog/wp-content/uploads/2022/03/openCV.png",
+      "references": [
+        "https://opencv.org/"
+      ]
+    }
+  }
+  

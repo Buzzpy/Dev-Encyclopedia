@@ -1,0 +1,17 @@
+{
+  "title": "Symbolic Link (Symlink)",
+  "subtext": "A file pointing to another file or directory",
+  "categories": ["OS"],
+  "author": "RayMathew",
+  "description": {
+    "title": "Symbolic Link (Symlink)",
+    "texts": [
+      "A symbolic link (also symlink or soft link) is a file whose purpose is to point to a file or directory (called the 'target') by specifying a path thereto.",
+      "Symlinks in Linux are similar to shortcuts in Windows."
+    ],
+    "image": "",
+    "references": [
+      "https://en.wikipedia.org/wiki/Symbolic_link"
+    ]
+  }
+}

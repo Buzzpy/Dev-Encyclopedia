@@ -1,0 +1,16 @@
+{
+  "title": "Tree Shaking",
+  "subtext": "A dead code elimination technique",
+  "categories": ["Optimization", "Frontend Development"],
+  "author": "RayMathew",
+  "description": {
+    "title": "Tree Shaking",
+    "texts": [
+      "Tree shaking is a dead code elimination technique that is applied when optimizing code. It is also known as dead code removal. The term comes from the idea of shaking a tree to remove dead leaves."
+    ],
+    "image": "",
+    "references": [
+      "https://en.wikipedia.org/wiki/Tree_shaking"
+    ]
+  }
+}

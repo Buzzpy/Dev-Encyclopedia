@@ -1,0 +1,18 @@
+{
+    "title": "Web Apps",
+    "subtext": "Software applications accessed through a web browser",
+    "categories": ["Web Development"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Web Apps",
+      "texts": [
+        "Web applications, or web apps, are software programs that run on a web server and are accessed through a web browser. They can perform a wide range of tasks, from simple forms and content management to complex business processes.",
+        "Web apps are popular for their accessibility, as they can be used on any device with an internet connection and a browser, without needing to install the application locally."
+      ],
+      "image": "",
+      "references": [
+        "https://www.javatpoint.com/web-application"
+      ]
+    }
+  }
+  

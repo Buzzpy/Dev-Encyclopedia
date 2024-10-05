@@ -1,0 +1,17 @@
+{
+  "title": "Quantum Computing",
+  "subtext": "Sheldon Cooper's gonna love this",
+  "categories": ["Quantum Computing"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Quantum Computing",
+    "texts": [
+      "Quantum computing is an area of computing that uses principles of quantum mechanics to perform calculations. It leverages quantum bits (qubits) to process information in ways that classical computers cannot.",
+      "Quantum computing has the potential to solve complex problems more efficiently than traditional computers."
+    ],
+    "image": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/auzqrr27ccgv9ylkloed.png",
+    "references": [
+      "https://www.explainthatstuff.com/quantum-computing.html"
+    ]
+  }
+}

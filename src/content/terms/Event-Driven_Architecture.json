@@ -1,0 +1,17 @@
+{
+  "title": "Event-Driven Architecture",
+  "subtext": "Building software with actions triggering responses",
+  "categories": ["Software Architecture"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Event-Driven Architecture",
+    "texts": [
+      "Event-Driven Architecture (EDA) is a software design pattern where the flow of the program is driven by events. These events can be anything from user actions, sensor outputs, or messages from other systems.",
+      "Imagine it like a series of dominos—when one domino falls (the event), it triggers a chain reaction (the response). This architecture allows for highly responsive and scalable systems, ideal for real-time applications."
+    ],
+    "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*k9vCsZDxVn27YWV0.jpg",
+    "references": [
+      "https://medium.com/@seetharamugn/the-complete-guide-to-event-driven-architecture-b25226594227"
+    ]
+  }
+}

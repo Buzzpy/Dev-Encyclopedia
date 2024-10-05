@@ -1,0 +1,16 @@
+{
+    "title": "Lazy Evaluation",
+    "subtext": "Deferred computation technique",
+    "categories": ["Optimization"],
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Lazy Evaluation",
+        "texts": [
+            "Lazy Evaluation is a programming technique where computation is deferred until the result is actually needed. This technique optimizes performance and resource usage by avoiding unnecessary calculations and reducing the amount of intermediate data."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Lazy_evaluation"
+        ]
+    }
+}

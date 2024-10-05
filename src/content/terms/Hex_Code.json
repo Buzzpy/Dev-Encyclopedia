@@ -1,0 +1,18 @@
+{
+    "title": "Hex code",
+    "subtext": "Color representation in web design",
+    "categories": ["Frontend Development"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Hex code",
+      "texts": [
+        "Hex code is a six-digit code used in HTML, CSS, and design software to represent colors. The code consists of a hash symbol (#) followed by six hex digits.",
+        "Each pair of digits represents the intensity of red, green, and blue, allowing for a wide range of colors to be displayed on the web."
+      ],
+      "image": "https://d3ui957tjb5bqd.cloudfront.net/uploads/2021/10/28052326/hex-rgb-breakdown-1024x718.jpg",
+      "references": [
+        "https://www.w3schools.com/colors/colors_hex.asp"
+      ]
+    }
+  }
+  

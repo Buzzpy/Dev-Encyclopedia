@@ -1,0 +1,17 @@
+{
+  "title": "CSS",
+  "subtext": "Cascading Style Sheets",
+  "categories": ["Frontend Development", "Responsive Design"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "CSS",
+    "texts": [
+      "CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of a document written in HTML. It controls the layout, colors, fonts, and overall design of web pages.",
+      "CSS allows for the separation of content and design, making web pages more flexible and easier to maintain."
+    ],
+    "image": "",
+    "references": [
+      "https://www.hostinger.com/tutorials/what-is-css"
+    ]
+  }
+}

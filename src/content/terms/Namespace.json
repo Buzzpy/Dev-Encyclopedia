@@ -1,0 +1,16 @@
+{
+  "title": "Namespace",
+  "subtext": "Organize code to avoid naming conflicts",
+  "categories": ["Software Architecture", "Programming Concepts"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Namespace",
+    "texts": [
+      "A namespace is a declarative region that provides a scope to the identifiers (the names of types, functions, variables, etc) inside it."
+    ],
+    "image": "",
+    "references": [
+      "https://docs.microsoft.com/en-us/cpp/cpp/namespaces-cpp"
+    ]
+  }
+}

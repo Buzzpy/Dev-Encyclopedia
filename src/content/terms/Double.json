@@ -1,0 +1,17 @@
+{
+  "title": "Double",
+  "subtext": "More precise and larger decimal numbers.",
+  "categories": ["Programming Concepts"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Double",
+    "texts": [
+      "A double is similar to a float, but it can store much larger and more precise decimal numbers.",
+      "Imagine a double as a super accurate float, used when you need extra precision, like in scientific calculations."
+    ],
+    "image": "",
+    "references": [
+      "https://www.w3schools.com/java/java_data_types.asp"
+    ]
+  }
+}

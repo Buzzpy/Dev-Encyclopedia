@@ -1,0 +1,19 @@
+{
+  "title": "Prototypes (Software Development)",
+  "subtext": "Early models of software for testing",
+  "categories": ["SDLC", "Programming Concepts"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Prototypes in Software Development",
+    "texts": [
+      "In software development, a prototype is an early model of a system or software, created to test concepts and gather feedback before the final product is developed.",
+      "Prototypes help in exploring ideas, identifying potential issues, and ensuring that the design aligns with the user's needs and expectations.",
+      "They can vary in fidelity, from simple sketches or wireframes to interactive models that closely resemble the final product.",
+      "Prototyping is a key part of the Software Development Life Cycle (SDLC) and is often used in iterative and Agile development methodologies."
+    ],
+    "image": "https://sparkbusinessworks.com/wp-content/uploads/2024/06/what-is-a-prototyping-in-software-development.png.webp",
+    "references": [
+      "https://sparkbusinessworks.com/blog/prototyping-in-software-development/"
+    ]
+  }
+}

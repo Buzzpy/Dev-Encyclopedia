@@ -1,0 +1,17 @@
+{
+  "title": "Contract Testing",
+  "subtext": "Process of defining and verifying a contract between two services",
+  "categories": ["SDLC", "Testing"],
+  "author": "RayMathew",
+  "description": {
+    "title": "Contract Testing",
+    "texts": [
+      "Contract testing is a software testing method that assesses how different components or microservices in a distributed system interact with each other.",
+      "Contract testing is useful when multiple services or components are developed and maintained by different teams, and it's important to ensure that they work together correctly."
+    ],
+    "image": "https://microsoft.github.io/code-with-engineering-playbook/automated-testing/cdc-testing/images/cdc-testing.png",
+    "references": [
+      "https://www.blazemeter.com/blog/contract-testing"
+    ]
+  }
+}

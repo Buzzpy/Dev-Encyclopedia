@@ -1,0 +1,17 @@
+{
+  "title": "Monolithic Architecture",
+  "subtext": "Integrated large system design",
+  "categories": ["Software Architecture"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Monolithic Architecture",
+    "texts": [
+      "Monolithic architecture is a software design where all the components of the application are integrated into a single, large system.",
+      "Imagine monolithic architecture like a giant block of Legos all stuck together, where changing one part affects the entire structure."
+    ],
+    "image": "https://miro.medium.com/v2/resize:fit:755/1*Tiizur0VlvZlJSIgADsp4w.png",
+    "references": [
+      "https://tech.tamara.co/monolith-architecture-5f00270f384e"
+    ]
+  }
+}

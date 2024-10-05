@@ -1,0 +1,16 @@
+{
+    "title": "Honeypot",
+    "subtext": "Decoy system to detect attacks",
+    "categories": ["Cybersecurity"],
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Honeypot",
+        "texts": [
+            "A honeypot is a decoy system strategically deployed to lure cyber attackers. By mimicking vulnerable assets, it draws in malicious users, enabling security experts to study attack methods, gather intelligence, and improve defensive measures without risking critical assets."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Honeypot_(computing)"
+        ]
+    }
+}

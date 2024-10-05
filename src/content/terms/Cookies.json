@@ -1,0 +1,18 @@
+{
+    "title": "Cookies",
+    "subtext": "Website's, not Grandma's",
+    "categories": ["Web Development", "Cybersecurity"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Cookies",
+      "texts": [
+        "Cookies are small pieces of data stored by a web browser that retain information about the user's interaction with a website.",
+        "They are used for various purposes like session management, personalization, and tracking user behavior."
+      ],
+      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220206224410/Servlet-Cookies.jpg",
+      "references": [
+        "https://www.allaboutcookies.org/"
+      ]
+    }
+  }
+  

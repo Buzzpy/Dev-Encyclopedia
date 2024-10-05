@@ -1,0 +1,18 @@
+{
+    "title": "iFrame",
+    "subtext": "Embedding external content",
+    "categories": ["Frontend Development"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "iFrame",
+      "texts": [
+        "An iFrame (Inline Frame) is an HTML element used to embed another document within the current HTML document.",
+        "iFrames are commonly used to embed videos, maps, and other interactive content from external sources into a web page."
+      ],
+      "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*NS0XkEoNzjasgslR.jpg",
+      "references": [
+        "https://medium.com/@dotnettec/what-is-an-iframe-and-how-it-works-b76ecd60769"
+      ]
+    }
+  }
+  

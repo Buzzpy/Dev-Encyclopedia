@@ -1,0 +1,17 @@
+{
+  "title": "Unit test",
+  "subtext": "A type of testing",
+  "categories": ["Testing", "SDLC"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Unit Test",
+    "texts": [
+      "A unit test is a type of testing that focuses on verifying individual components or functions of a software application. It ensures that each unit of code performs as intended.",
+      "Unit tests are typically automated and help identify bugs early in the development process."
+    ],
+    "image": "https://codenboxautomationlab.com/wp-content/uploads/2022/06/unit-testing-life-cycle-pic.png",
+    "references": [
+      "https://aws.amazon.com/what-is/unit-testing/"
+    ]
+  }
+}

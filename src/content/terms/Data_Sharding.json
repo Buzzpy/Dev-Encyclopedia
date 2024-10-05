@@ -1,0 +1,17 @@
+{
+  "title": "Data Sharding",
+  "subtext": "Splitting a database into smaller, faster parts",
+  "categories": ["Database"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Data Sharding",
+    "texts": [
+      "Data Sharding splits a large database into smaller, faster, more manageable parts. It's like cutting a big pizza into slices so everyone can have a piece.",
+      "Imagine data sharding as dividing your work among friends to get it done faster."
+    ],
+    "image": "https://kinsta.com/wp-content/uploads/2022/11/database-sharding-example.png",
+    "references": [
+      "https://kinsta.com/blog/database-sharding/"
+    ]
+  }
+}

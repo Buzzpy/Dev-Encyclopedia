@@ -1,0 +1,17 @@
+{
+  "title": "End-to-End Test",
+  "subtext": "Another type of testing",
+  "categories": ["Testing", "SDLC", "Quality Assurance"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "End-to-End Test",
+    "texts": [
+      "End-to-End (E2E) testing is a type of software testing that validates the entire application flow, from start to finish. It ensures that all integrated components of an application work together as expected.",
+      "This testing approach simulates real-world scenarios and user interactions, providing confidence that the system behaves correctly in a production-like environment."
+    ],
+    "image": "https://www.lambdatest.com/resources/images/learning-hub/end-to-end-testing-pyramid.webp",
+    "references": [
+      "https://qalified.com/blog/end-to-end-testing/"
+    ]
+  }
+}

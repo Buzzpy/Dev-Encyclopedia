@@ -1,0 +1,18 @@
+{
+    "title": "VanillaJS",
+    "subtext": "Pure JavaScript without frameworks",
+    "categories": ["Language"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "VanillaJS",
+      "texts": [
+        "VanillaJS is a term used to refer to plain JavaScript, without any libraries or frameworks. It emphasizes the use of native JavaScript APIs to build web applications.",
+        "VanillaJS is lightweight, fast, and effective for small projects or when developers want full control over the codebase without the overhead of additional frameworks."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png",
+      "references": [
+        "http://vanilla-js.com/"
+      ]
+    }
+  }
+  

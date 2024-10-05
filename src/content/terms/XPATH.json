@@ -1,0 +1,18 @@
+{
+    "title": "XPATH",
+    "subtext": "XML Path Language",
+    "categories": ["Language"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "XPATH",
+      "texts": [
+        "XPath is a query language for selecting nodes from an XML document. It is used to navigate through elements and attributes in an XML document.",
+        "XPath is used in a variety of programming languages and is often used to extract information from web pages using XML or HTML."
+      ],
+      "image": "https://www.scientecheasy.com/wp-content/uploads/2019/08/xpath-syntax.png",
+      "references": [
+        "https://www.geeksforgeeks.org/introduction-to-xpath/"
+      ]
+    }
+  }
+  

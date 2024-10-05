@@ -1,0 +1,18 @@
+{
+    "title": "Promises",
+    "subtext": "Asynchronous code handling",
+    "categories": ["Web Development"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Promises",
+      "texts": [
+        "Promises are a way to handle asynchronous operations in JavaScript. They represent a value that may be available now, or in the future, or never.",
+        "Promises make it easier to write clean, manageable, and error-handling code when dealing with asynchronous tasks like API calls."
+      ],
+      "image": "https://miro.medium.com/v2/resize:fit:1400/1*3S0Y1DQJe-NsUXHdNl8gHg.png",
+      "references": [
+        "https://javascript.plainenglish.io/promise-in-javascript-with-all-the-methods-b7357196a57e"
+      ]
+    }
+  }
+  

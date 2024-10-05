@@ -1,0 +1,17 @@
+{
+  "title": "Throttling",
+  "subtext": "Control network traffic to prevent overloading",
+  "categories": ["Networking", "Backend Development"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Throttling",
+    "texts": [
+      "Throttling is a technique used to control the amount of traffic sent or received on a network to prevent overloading.",
+      "Imagine throttling as a traffic light controlling the flow of cars to prevent congestion."
+    ],
+    "image": "",
+    "references": [
+      "https://www.cloudflare.com/learning/bots/what-is-rate-limiting/"
+    ]
+  }
+}

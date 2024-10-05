@@ -1,0 +1,17 @@
+{
+  "title": "Ensemble Methods",
+  "subtext": "Combines multiple models to improve overall performance.",
+  "categories": ["Machine Learning", "AI"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Ensemble Methods",
+    "texts": [
+      "Ensemble Methods combine the predictions from multiple models to improve overall performance. Techniques like bagging, boosting, and stacking are common ensemble methods.",
+      "It's like using the wisdom of a group to make a better decision."
+    ],
+    "image": "https://cdn.corporatefinanceinstitute.com/assets/ensemble-methods.png",
+    "references": [
+      "https://corporatefinanceinstitute.com/resources/data-science/ensemble-methods/"
+    ]
+  }
+}

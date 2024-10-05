@@ -1,0 +1,18 @@
+{
+    "title": "Go",
+    "subtext": "Programming language by Google",
+    "categories": ["Language"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Go",
+      "texts": [
+        "Go, also known as Golang, is an open-source programming language developed by Google. It is designed for building simple, fast, and reliable software, with strong support for concurrent programming.",
+        "Go is widely used in cloud computing, microservices, and distributed systems due to its efficiency and ease of deployment."
+      ],
+      "image": "https://www.freecodecamp.org/news/content/images/2021/10/golang.png",
+      "references": [
+        "https://golang.org/"
+      ]
+    }
+  }
+  

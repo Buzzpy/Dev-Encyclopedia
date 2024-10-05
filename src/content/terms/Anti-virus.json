@@ -1,0 +1,18 @@
+{
+    "title": "Anti Virus",
+    "subtext": "Software to protect against malware",
+    "categories": ["Cybersecurity", "Tools"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Anti Virus",
+      "texts": [
+        "Antivirus software is designed to detect, prevent, and remove malware, including viruses, worms, and trojans.",
+        "It works by scanning files and comparing them to a database of known malware signatures, helping to protect systems from infections."
+      ],
+      "image": "",
+      "references": [
+        "https://www.verizon.com/articles/internet-essentials/antivirus-definition/"
+      ]
+    }
+  }
+  

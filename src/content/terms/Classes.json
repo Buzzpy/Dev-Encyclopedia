@@ -1,0 +1,17 @@
+{
+  "title": "Classes",
+  "subtext": "Blueprints for creating objects with defined properties and behaviors.",
+  "categories": ["Programming Concepts"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Classes",
+    "texts": [
+      "Classes are blueprints for creating objects in programming. They define the properties and behaviors that the objects created from the class will have.",
+      "Think of a class as a cookie cutter and the objects as the cookies made from it."
+    ],
+    "image": "https://nonlineardata.com/wp-content/uploads/2020/11/Car_Class.png",
+    "references": [
+      "https://brilliant.org/wiki/classes-oop/"
+    ]
+  }
+}

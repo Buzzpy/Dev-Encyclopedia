@@ -1,0 +1,17 @@
+{
+  "title": "Transfer Learning",
+  "subtext": "Adapts pre-trained models for new but related tasks.",
+  "categories": ["Machine Learning"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Transfer Learning",
+    "texts": [
+      "Transfer Learning is a technique where a pre-trained model is adapted to perform a different but related task. This approach helps save time and computational resources.",
+      "For example, a model trained to recognize cats and dogs can be adapted to identify different breeds of dogs."
+    ],
+    "image": "https://cdn.prod.website-files.com/5d7b77b063a9066d83e1209c/627d125248f5fa07e1faf0c6_61f54fb4bbd0e14dfe068c8f_transfer-learned-knowledge.png",
+    "references": [
+      "https://www.v7labs.com/blog/transfer-learning-guide"
+    ]
+  }
+}

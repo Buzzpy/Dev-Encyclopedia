@@ -1,0 +1,18 @@
+{
+    "title": "Beautifulsoup",
+    "subtext": "HTML/XML parsing library",
+    "categories": ["Web Scraping", "Scripting"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Beautifulsoup",
+      "texts": [
+        "Beautifulsoup is a Python library for parsing HTML and XML documents. It creates a parse tree from page source code that can be used to extract data.",
+        "It is widely used for web scraping projects to navigate, search, and modify parse trees easily."
+      ],
+      "image": "https://datascientest.com/en/files/2024/01/beautiful-soup.png",
+      "references": [
+        "https://www.educative.io/answers/what-is-beautiful-soup"
+      ]
+    }
+  }
+  

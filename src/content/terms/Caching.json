@@ -1,0 +1,17 @@
+{
+  "title": "Caching",
+  "subtext": "Storing data for quick access",
+  "categories": ["OS", "Web Development"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Caching",
+    "texts": [
+      "Caching is a technique used to store copies of frequently accessed data in a temporary storage area, or cache, so that it can be accessed more quickly.",
+      "Think of caching like keeping your favorite snacks in a drawer so you don\u2019t have to go to the kitchen every time you\u2019re hungry."
+    ],
+    "image": "",
+    "references": [
+      "https://hazelcast.com/glossary/caching/"
+    ]
+  }
+}

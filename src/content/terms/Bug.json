@@ -1,0 +1,18 @@
+{
+    "title": "Bug",
+    "subtext": "Programmers' Nightmare",
+    "categories": ["Programming Concepts", "Quality Assurance"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Bug",
+      "texts": [
+        "A bug is an error, flaw, or fault in software that causes it to produce an incorrect or unexpected result, or to behave in unintended ways.",
+        "Bugs can arise from mistakes or errors made by programmers, and they need to be identified and fixed through debugging."
+      ],
+      "image": "",
+      "references": [
+        "https://www.goodfirms.co/glossary/software-bug"
+      ]
+    }
+  }
+  

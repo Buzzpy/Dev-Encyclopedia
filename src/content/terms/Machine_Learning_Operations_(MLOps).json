@@ -1,0 +1,18 @@
+{
+  "title": "Machine Learning Operations (MLOps)",
+  "subtext": "Streamline machine learning processes using DevOps principles",
+  "categories": ["Machine Learning", "DevOps"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Machine Learning Operations (MLOps)",
+    "texts": [
+      "MLOps, or Machine Learning Operations, is the practice of applying DevOps principles to machine learning workflows. It aims to streamline the deployment, monitoring, and governance of machine learning models in production.",
+      "MLOps bridges the gap between data science and IT operations, enabling organizations to scale and manage their machine learning models efficiently."
+    ],
+    "image": "https://example.com/mlops-image-url.png",
+    "references": [
+      "https://ml-ops.org/",
+      "https://www.databricks.com/glossary/what-is-mlops"
+    ]
+  }
+}

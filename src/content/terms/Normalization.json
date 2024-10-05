@@ -1,0 +1,16 @@
+{
+    "title": "Normalization",
+    "subtext": "Database design process",
+    "categories": ["Database"],
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Normalization",
+        "texts": [
+            "Normalization is a systematic process used in database design to structure data by organizing fields and tables. Its primary goal is to reduce redundancy and improve data integrity by ensuring that each piece of data is stored in only one place. This process involves decomposing tables into smaller, related tables and establishing relationships between them to minimize duplication and anomalies."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Database_normalization"
+        ]
+    }
+}

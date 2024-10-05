@@ -1,0 +1,17 @@
+{
+    "title": "MongoDB",
+    "subtext": "A NoSQL DataBase",
+    "categories": ["Database"],
+    "author": "Vignesh025",
+    "description": {
+      "title": "MongoDB",
+      "texts": [
+        "MongoDB is an open source, nonrelational database management system (DBMS) that uses flexible documents instead of tables and rows to process and store various forms of data.",
+        "As a NoSQL database solution, MongoDB does not require a relational database management system (RDBMS), so it provides an elastic data storage model that enables users to store and query multivariate data types with ease."
+      ],
+      "image": "https://cdn.educba.com/academy/wp-content/uploads/2019/05/MongoDB-chart1.jpg.webp",
+      "references": [
+        "https://www.ibm.com/topics/mongodb"
+      ]
+    }
+  }

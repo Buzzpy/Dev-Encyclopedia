@@ -1,0 +1,16 @@
+{
+    "title": "Futures",
+    "subtext": "Asynchronous programming construct",
+    "categories": ["Programming Concepts"],
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Futures",
+        "texts": [
+            "In asynchronous programming, Futures represent a value that will be available at some point in the future. They are used to handle results of asynchronous operations, allowing programs to perform other tasks while waiting for the operation to complete."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Futures_and_promises"
+        ]
+    }
+}

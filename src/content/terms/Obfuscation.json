@@ -1,0 +1,16 @@
+{
+    "title": "Obfuscation",
+    "subtext": "Code disguise technique",
+    "categories": ["Cybersecurity"],
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Obfuscation",
+        "texts": [
+            "Obfuscation is a technique used in software development to make code difficult to understand, often to protect intellectual property or prevent reverse engineering. By transforming the code into a more complex or confusing format, it becomes harder for unauthorized users to analyze or modify it."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Obfuscation"
+        ]
+    }
+}

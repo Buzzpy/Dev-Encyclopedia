@@ -1,0 +1,17 @@
+{
+  "title": "Branching",
+  "subtext": "Creating separate code versions",
+  "categories": ["SDLC"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Branching",
+    "texts": [
+      "Branching is a feature of version control systems like Git that allows developers to create separate copies of the codebase to work on different tasks without affecting the main project.",
+      "It's like having different drafts of an essay where you can make changes without messing up the original."
+    ],
+    "image": "https://res.cloudinary.com/snyk/image/upload/v1615821731/wordpress-sync/image1-11.png",
+    "references": [
+      "https://medium.com/@jacoblogan98/understanding-git-branching-5d01f3dda541"
+    ]
+  }
+}

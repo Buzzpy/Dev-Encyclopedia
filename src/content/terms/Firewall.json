@@ -1,0 +1,16 @@
+{
+    "title": "Firewall",
+    "subtext": "Network security device",
+    "categories": ["Cybersecurity", "Networking"],
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Firewall",
+        "texts": [
+            "A firewall is a crucial network security device that monitors and controls incoming and outgoing traffic based on predefined security rules. Firewalls act as a barrier between trusted internal networks and untrusted external networks, protecting against unauthorized access and potential threats."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Firewall_(networking)"
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Decision Trees",
+  "subtext": "Uses a tree-like model of decisions and their possible consequences.",
+  "categories": ["Machine Learning", "AI"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Decision Trees",
+    "texts": [
+      "Decision Trees are a type of algorithm used for classification and regression tasks. They split data into branches to make decisions based on various features, much like a flowchart.",
+      "For instance, they can help determine whether a loan should be approved based on applicant details."
+    ],
+    "image": "https://miro.medium.com/v2/resize:fit:820/1*JAEY3KP7TU2Q6HN6LasMrw.png",
+    "references": [
+      "https://chirag-sehra.medium.com/decision-trees-explained-easily-28f23241248"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "title": "Attribute",
+    "subtext": "Properties that can be assigned to elements like variables, objects, or classes",
+    "categories": ["Programming Concepts"],
+    "author": "RayMathew",
+    "description": {
+      "title": "Attribute",
+      "texts": [
+        "An attribute is a specification that can be assigned to elements like variables, objects, or classes. It may also refer to or set the specific value for a given instance of such. They provide additional information or behavior to these elements, helping you define their specific traits."
+      ],
+      "image": "https://en.wikipedia.org/wiki/Attribute_(computing)#/media/File:CPT-OOP-objects_and_classes_-_attmeth.svg",
+      "references": [
+        "https://en.wikipedia.org/wiki/Attribute_(computing)"
+      ]
+    }
+  }
+  

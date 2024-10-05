@@ -1,0 +1,18 @@
+{
+    "title": "UI (User Interface)",
+    "subtext": "Design of the system’s interface",
+    "categories": ["Frontend Development"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "UI (User Interface)",
+      "texts": [
+        "UI refers to the design of user interfaces for software and machines, focusing on maximizing usability and user experience.",
+        "It includes everything that the user interacts with on a device, such as buttons, icons, menus, and other visual elements."
+      ],
+      "image": "https://blog.whooshpro.com/wp-content/uploads/2021/05/the-differences-between-ui-and-ux.png",
+      "references": [
+        "https://www.interaction-design.org/literature/topics/ui-design"
+      ]
+    }
+  }
+  

@@ -1,0 +1,18 @@
+{
+    "title": "Keras",
+    "subtext": "Deep learning API in Python",
+    "categories": ["Machine Learning", "Tools"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Keras",
+      "texts": [
+        "Keras is an open-source neural network library written in Python. It is capable of running on top of TensorFlow, Microsoft Cognitive Toolkit, R, and other frameworks.",
+        "Keras is designed to enable fast experimentation with deep neural networks, making it easy to build and train models for machine learning tasks."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/1024px-Keras_logo.svg.png",
+      "references": [
+        "https://keras.io/"
+      ]
+    }
+  }
+  

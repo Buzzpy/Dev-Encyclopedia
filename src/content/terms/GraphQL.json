@@ -1,0 +1,17 @@
+{
+  "title": "GraphQL",
+  "subtext": "Query language for APIs",
+  "categories": ["Web Development"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "GraphQL",
+    "texts": [
+      "GraphQL is a query language for APIs that allows clients to request exactly the data they need. It provides a more efficient and flexible alternative to RESTful APIs.",
+      "Imagine being able to ask for specific ingredients in a recipe, rather than getting the entire cookbook."
+    ],
+    "image": "https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/614841249e5f844b0c7550d1_REST%20vs%20GraphQL.png",
+    "references": [
+      "https://www.solo.io/topics/graphql/"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "title": "Python",
+    "subtext": "A great programming language",
+    "categories": ["Language"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Python",
+      "texts": [
+        "Python is a high-level, interpreted programming language known for its readability and ease of use. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming.",
+        "Python is widely used for web development, data analysis, artificial intelligence, scientific computing, and automation."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png",
+      "references": [
+        "https://www.python.org/"
+      ]
+    }
+  }
+  

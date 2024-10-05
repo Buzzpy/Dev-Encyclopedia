@@ -1,0 +1,17 @@
+{
+  "title": "Reinforcement Learning",
+  "subtext": "Trains agents to make decisions by rewarding or punishing actions.",
+  "categories": ["Machine Learning"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Reinforcement Learning",
+    "texts": [
+      "Reinforcement Learning is a type of machine learning where an agent learns to make decisions by receiving rewards or penalties. The goal is to maximize the total reward over time.",
+      "It's like training a robot to play a game by giving it points for making good moves and penalties for bad moves."
+    ],
+    "image": "https://images.spiceworks.com/wp-content/uploads/2022/09/29100907/Reinforcement-Learning-Model.png",
+    "references": [
+      "https://www.spiceworks.com/tech/artificial-intelligence/articles/what-is-reinforcement-learning/"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "SwiftUI",
+  "subtext": "A framework from Apple",
+  "categories": ["Frontend Development", "iOS Development"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "SwiftUI",
+    "texts": [
+      "SwiftUI is a user interface toolkit that lets developers create UIs across all Apple platforms with the power of Swift.",
+      "It provides a declarative Swift syntax that is easy to write and read, allowing developers to build interfaces by simply describing what they want to show.",
+      "SwiftUI integrates seamlessly with existing UIKit, AppKit, and WatchKit code, allowing you to reuse much of your existing logic."
+    ],
+    "image": "https://developer.apple.com/news/images/og/swiftui-og.png",
+    "references": [
+      "https://www.hackingwithswift.com/quick-start/swiftui/what-is-swiftui"
+    ]
+  }
+}

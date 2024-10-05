@@ -1,0 +1,16 @@
+{
+  "title": "YAML",
+  "subtext": "YAML Ain't Markup Language",
+  "categories": ["Language"],
+  "author": "RayMathew",
+  "description": {
+    "title": "YAML",
+    "texts": [
+      "YAML, or YAML Ain't Markup Language (a recursive acronym), is a data serialization language that's often used to write configuration files. It's a popular choice among developers because it's designed to be easy to read and understand, and it works well with any programming language."
+    ],
+    "image": "https://miro.medium.com/v2/resize:fit:1244/format:webp/1*aIaAP040ct-LQuvvM5R0ng.png",
+    "references": [
+      "https://www.redhat.com/en/topics/automation/what-is-yaml"
+    ]
+  }
+}

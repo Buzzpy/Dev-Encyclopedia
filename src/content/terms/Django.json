@@ -1,0 +1,18 @@
+{
+    "title": "Django",
+    "subtext": "Python web framework",
+    "categories": ["Web Development", "Backend Development"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Django",
+      "texts": [
+        "Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design.",
+        "It is known for its 'batteries-included' philosophy, providing many built-in features like authentication, ORM, and an admin interface."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Django_logo.svg/1024px-Django_logo.svg.png",
+      "references": [
+        "https://www.djangoproject.com/"
+      ]
+    }
+  }
+  

@@ -1,0 +1,14 @@
+{
+  "title": "The __init__ Function",
+  "subtext": "A special method in Python Programming Language",
+  "categories": ["General"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "The __init__ Function",
+    "texts": ["The __init__ function is a special method in Python that is called when an object is instantiated. It initializes the object's attributes and sets up the initial state of the object.",
+
+"It is commonly used to set default values for object properties or to perform setup tasks when creating new instances of a class."],
+    "image": "https://www.boardinfinity.com/blog/content/images/2023/05/init-in-python.png",
+    "references": ["https://www.geeksforgeeks.org/__init__-in-python/"]
+  }
+}

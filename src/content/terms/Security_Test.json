@@ -1,0 +1,17 @@
+{
+  "title": "Security Test",
+  "subtext": "A test against hacking and whatnot",
+  "categories": ["Testing", "Cybersecurity"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Security Test",
+    "texts": [
+      "Security testing identifies vulnerabilities and weaknesses in a software application to ensure it is protected against potential threats and attacks.",
+      "It involves checking for issues such as unauthorized access, data breaches, and compliance with security standards."
+    ],
+    "image": "",
+    "references": [
+      "https://www.hackerone.com/knowledge-center/what-security-testing"
+    ]
+  }
+}

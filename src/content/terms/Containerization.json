@@ -1,0 +1,17 @@
+{
+  "title": "Containerization",
+  "subtext": "Packaging applications for consistent deployment",
+  "categories": ["DevOps", "Cloud Computing"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Containerization",
+    "texts": [
+      "Containerization is a technology that packages an application and its dependencies into a \"container\" that can run anywhere. Containers make it easy to deploy and manage applications consistently across different environments.",
+      "Think of it like packing everything you need for a trip into a single, portable box."
+    ],
+    "image": "",
+    "references": [
+      "https://aws.amazon.com/what-is/containerization/"
+    ]
+  }
+}

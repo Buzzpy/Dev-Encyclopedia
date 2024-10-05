@@ -1,0 +1,17 @@
+{
+  "title": "Zero Trust Security Model",
+  "subtext": "Security that trusts no one by default",
+  "categories": ["Cyber"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Zero Trust Security Model",
+    "texts": [
+      "Zero Trust is a security approach where no one inside or outside the network is trusted by default. It's like having multiple locks and security checks before letting someone in.",
+      "Think of Zero Trust as always double-checking and verifying everyone before allowing access to important stuff."
+    ],
+    "image": "",
+    "references": [
+      "https://www.csoonline.com/article/3247848/what-is-zero-trust-a-model-for-more-effective-security.html"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Edge Services",
+  "subtext": "Technologies providing services closer to the user",
+  "categories": ["IoT"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Edge Services",
+    "texts": [
+      "Edge services are technologies that provide content, computing, and security to user devices at the edge of the network, closer to the user.",
+      "Think of edge services as local branches of a bank, offering faster and more personalized services than the main headquarters."
+    ],
+    "image": "",
+    "references": [
+      "https://www.veea.com/edge-services"
+    ]
+  }
+}

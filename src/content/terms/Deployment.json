@@ -1,0 +1,17 @@
+{
+  "title": "Deployment",
+  "subtext": "Making applications available for use",
+  "categories": ["DevOps", "Automation"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Deployment",
+    "texts": [
+      "Deployment is the process of making an application available for use. This involves moving the code from development to a live environment where users can access it.",
+      "Think of deployment like launching a new video game, making it available for everyone to play."
+    ],
+    "image": "",
+    "references": [
+      "https://www.ibm.com/docs/en/zos/2.4.0?topic=task-deploying-software"
+    ]
+  }
+}

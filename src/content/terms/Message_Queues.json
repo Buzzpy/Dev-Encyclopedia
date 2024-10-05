@@ -1,0 +1,17 @@
+{
+  "title": "Message Queues",
+  "subtext": "Manage asynchronous communication between processes",
+  "categories": ["Distributed Systems", "Software Architecture"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Message Queues",
+    "texts": [
+      "Message queues help applications communicate and process operations asynchronously, managing data exchange between different processes or services.",
+      "Imagine a message queue as a series of post office boxes, where messages wait safely until their recipient is ready to process them."
+    ],
+    "image": "",
+    "references": [
+      "https://www.ibm.com/cloud/learn/message-queues"
+    ]
+  }
+}

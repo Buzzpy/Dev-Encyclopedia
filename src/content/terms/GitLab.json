@@ -1,0 +1,18 @@
+{
+    "title": "GitLab",
+    "subtext": "DevOps lifecycle tool",
+    "categories": ["Tools"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "GitLab",
+      "texts": [
+        "GitLab is a web-based DevOps lifecycle tool that provides a Git repository manager, CI/CD pipeline features, and more.",
+        "It allows developers to plan, build, secure, and deploy software in a single application, facilitating collaboration and automation in software development."
+      ],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlkM-qU2AuiWfB1crY0XbKAUgpmbpnFqQtwA&s",
+      "references": [
+        "https://about.gitlab.com/"
+      ]
+    }
+  }
+  

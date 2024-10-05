@@ -1,0 +1,17 @@
+{
+  "title": "AUC Curve",
+  "subtext": "i.e. Area Under the Curve",
+  "categories": ["AI", "Machine Learning"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "AUC Curve",
+    "texts": [
+      "AUC (Area Under the Curve) is a performance measurement for classification problems at various threshold settings. The AUC represents the degree or measure of separability. It tells how much the model is capable of distinguishing between classes.",
+      "It's like checking how well a doctor can distinguish between patients with and without a disease based on a diagnostic test."
+    ],
+    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20230410164437/AUC-ROC-Curve.webp",
+    "references": [
+      "https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc#:~:text=hypothetical%20perfect%20model.-,Area%20under%20the%20curve%20(AUC),-The%20area%20under"
+    ]
+  }
+}

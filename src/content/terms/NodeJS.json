@@ -1,0 +1,17 @@
+{
+  "title": "Node.js",
+  "subtext": "JavaScript runtime environment to build network applications using JS",
+  "categories": ["Web Development", "Backend Development"],
+  "author": "Stark-Akshay",
+  "description": {
+    "title": "Node.js",
+    "texts": [
+      "Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to build server-side web applications.",
+      "It employs an event-driven, non-blocking architecture, making it highly efficient for handling multiple concurrent connections, ideal for real-time applications and data-intensive workloads."
+    ],
+    "image": "https://d2i2xyh28mr8fx.cloudfront.net/wp-content/uploads/2023/03/13154403/WHY-USE-NODE.JS_.png",
+    "references": [
+      "https://www.freecodecamp.org/news/the-definitive-node-js-handbook-6912378afc6e/"
+    ]
+  }
+}

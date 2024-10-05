@@ -1,0 +1,18 @@
+{
+    "title": "K-Nearest Neighbors (KNN)",
+    "subtext": "Simple algorithm for classification and regression",
+    "categories": ["Machine Learning"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "K-Nearest Neighbors (KNN)",
+      "texts": [
+        "K-Nearest Neighbors (KNN) is a non-parametric algorithm used for classification and regression. It works by finding the closest training examples in the feature space to a given data point.",
+        "KNN is popular due to its simplicity and effectiveness, particularly in cases where the decision boundary is not well-defined."
+      ],
+      "image": "",
+      "references": [
+        "https://www.ibm.com/topics/knn"
+      ]
+    }
+  }
+  

@@ -1,0 +1,17 @@
+{
+  "title": "Data Governance",
+  "subtext": "Management of data's availability, usability, integrity, and security",
+  "categories": ["Big Data"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Data Governance",
+    "texts": [
+      "Data Governance is the management of data's availability, usability, integrity, and security. It's like making sure your library's books are organized, accessible, and protected.",
+      "Think of Data Governance as setting rules and responsibilities for handling data properly."
+    ],
+    "image": "",
+    "references": [
+      "https://www.dataversity.net/what-is-data-governance/"
+    ]
+  }
+}

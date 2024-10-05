@@ -1,0 +1,18 @@
+{
+    "title": "Bayes Theorem",
+    "subtext": "Principle of probability theory",
+    "categories": ["AI", "Machine Learning"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Bayes Theorem",
+      "texts": [
+        "Bayes Theorem is a mathematical formula used to determine the conditional probability of an event based on prior knowledge of related events.",
+        "It is widely applied in statistics, machine learning, and decision-making processes where updating the probability estimate as more evidence becomes available is crucial."
+      ],
+      "image": "https://miro.medium.com/v2/resize:fit:1067/1*LaTxXlJ0tz0dUvBqISvylw@2x.jpeg",
+      "references": [
+        "https://www.investopedia.com/terms/b/bayes-theorem.asp"
+      ]
+    }
+  }
+  

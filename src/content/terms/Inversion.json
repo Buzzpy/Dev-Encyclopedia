@@ -1,0 +1,16 @@
+{
+  "title": "Inversion",
+  "subtext": "Dependency inversion principle",
+  "categories": ["Design"],
+  "author": "AnshumanMishra",
+  "description": {
+      "title": "Inversion",
+      "texts": [
+          "The Dependency Inversion Principle states that high-level modules should not depend on low-level modules, but both should depend on abstractions."
+      ],
+      "image": "",
+      "references": [
+          "https://en.wikipedia.org/wiki/Dependency_inversion_principle"
+      ]
+  }
+}

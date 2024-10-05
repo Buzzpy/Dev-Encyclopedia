@@ -1,0 +1,17 @@
+{
+  "title": "Software Containers",
+  "subtext": "Package an application and its dependencies into a unit",
+  "categories": ["DevOps", "Cloud Computing"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Software Containers",
+    "texts": [
+      "Software containers package an application and its dependencies into a standardized unit for development, shipment, and deployment.",
+      "Think of containers as portable lunchboxes that hold everything needed for a meal, no matter where you eat it."
+    ],
+    "image": "",
+    "references": [
+      "https://www.docker.com/resources/what-container/"
+    ]
+  }
+}

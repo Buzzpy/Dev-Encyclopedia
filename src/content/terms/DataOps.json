@@ -1,0 +1,17 @@
+{
+  "title": "DataOps",
+  "subtext": "Agile approach to data management",
+  "categories": ["Big Data", "DevOps", "Automation"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "DataOps",
+    "texts": [
+      "DataOps, short for Data Operations, is an agile, process-oriented methodology used for designing, implementing, and managing data workflows and a distributed data architecture. It aims to improve the communication, integration, and automation of data flows between data managers and consumers across an organization.",
+      "DataOps draws inspiration from DevOps, applying its principles to the data pipeline, ensuring data quality, reducing cycle times, and fostering collaboration between teams to deliver reliable data faster."
+    ],
+    "image": "https://www.montecarlodata.com/wp-content/uploads/2022/08/Is-DataOps-the-Future-Of-the-Modern-Data-Stack.png",
+    "references": [
+      "https://www.montecarlodata.com/blog-what-is-dataops/"
+    ]
+  }
+}

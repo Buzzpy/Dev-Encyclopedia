@@ -1,0 +1,17 @@
+{
+  "title": "Chaos Engineering",
+  "subtext": "Practice of testing systems to withstand turbulent conditions",
+  "categories": ["Quality Assurance", "DevOps", "Site Reliability Engineering"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Chaos Engineering",
+    "texts": [
+      "Chaos Engineering is the practice of experimenting on a system to build confidence in its ability to withstand turbulent conditions. It's like testing a bridge by simulating strong winds.",
+      "Imagine Chaos Engineering as stress-testing your structures to ensure they can handle unexpected events."
+    ],
+    "image": "",
+    "references": [
+      "https://principlesofchaos.org/"
+    ]
+  }
+}

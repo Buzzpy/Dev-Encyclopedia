@@ -1,0 +1,17 @@
+{
+  "title": "VueJS",
+  "subtext": "A progressive JavaScript framework for building user interfaces.",
+  "categories": ["Frontend Development"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "VueJS",
+    "texts": [
+      "VueJS is a modern JavaScript framework used for building interactive web interfaces and single-page applications (SPAs). It is designed to be incrementally adoptable, meaning you can integrate it into existing projects or use it to build new ones from scratch.",
+      "VueJS is known for its simplicity, flexibility, and ease of learning compared to other frameworks. It features a reactive data-binding system and a component-based architecture, making it powerful yet approachable for developers."
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/240px-Vue.js_Logo_2.svg.png",
+    "references": [
+      "https://vuejs.org/"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Canary Testing",
+  "subtext": "Testing new software by releasing to a small group of users",
+  "categories": ["Quality Assurance", "SDLC", "DevOps"],
+  "author": "RayMathew",
+  "description": {
+    "title": "Canary Testing",
+    "texts": [
+      "Canary testing, or canary release is a technique to reduce the risk of introducing a new software version in production by slowly rolling out the change to a small subset of users before rolling it out to the entire infrastructure and making it available to everybody.",
+      "Also referred to as canary deployments, incremental, staged, or phased rollouts, canary releases are a best practice in devops and software development."
+    ],
+    "image": "https://cdn.ttgtmedia.com/rms/onlineImages/canary_testing.jpg",
+    "references": [
+      "https://martinfowler.com/bliki/CanaryRelease.html?ref=wellarchitected"
+    ]
+  }
+}

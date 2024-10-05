@@ -1,0 +1,17 @@
+{
+  "title": "Kanban",
+  "subtext": "A visual workflow management method",
+  "categories": ["SDLC"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Kanban",
+    "texts": [
+      "Kanban is a visual workflow management method that helps teams visualize and manage work. It uses a board with columns to represent different stages of the work process.",
+      "Kanban helps teams improve efficiency by limiting work in progress and optimizing the flow of tasks through the workflow."
+    ],
+    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20231107173425/Kanban-board-2.png",
+    "references": [
+      "https://www.atlassian.com/agile/kanban"
+    ]
+  }
+}

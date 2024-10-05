@@ -1,0 +1,17 @@
+{
+  "title": "Floats",
+  "subtext": "Numbers with decimal points for precision.",
+  "categories": ["Programming Concepts"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Floats",
+    "texts": [
+      "Floats are numbers that have a decimal point. They can represent fractions and very precise values.",
+      "Think of a float as the way you write money, like $3.50 or $7.99."
+    ],
+    "image": "",
+    "references": [
+      "https://codenga.com/pages/guides/float_vs_integer"
+    ]
+  }
+}

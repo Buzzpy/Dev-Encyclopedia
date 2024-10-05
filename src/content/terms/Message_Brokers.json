@@ -1,0 +1,17 @@
+{
+  "title": "Message Brokers",
+  "subtext": "Intermediaries that manage communication between apps",
+  "categories": ["Distributed Systems", "Software Architecture"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Message Brokers",
+    "texts": [
+      "Message brokers are intermediaries that manage communication and data exchange between different software applications.",
+      "Think of message brokers as post offices, ensuring that messages are delivered from one application to another without them needing to communicate directly."
+    ],
+    "image": "",
+    "references": [
+      "https://www.ibm.com/topics/message-brokers#:~:text=Message%20brokers%20are%20software%20modules,focus%20on%20its%20core%20logic."
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Next.js",
+  "subtext": "React framework to build high performant web applications",
+  "categories": ["Web Development"],
+  "author": "Stark-Akshay",
+  "description": {
+    "title": "Next.js",
+    "texts": [
+      "Next.js is a React framework that simplifies building high-performance web applications.",
+      "It offers features like server-side rendering, static site generation, and image optimization out of the box, improving website speed and SEO."
+    ],
+    "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*kUKiJUFeCs4rKjjGNUtvUQ.png",
+    "references": ["https://www.freecodecamp.org/news/the-next-js-handbook/"]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Dependency Graph",
+  "subtext": "Visualize dependencies in systems or projects",
+  "categories": ["Software Architecture", "Tools"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Dependency Graph",
+    "texts": [
+      "A dependency graph is a tool that helps visualize dependencies in systems or projects, showing how different elements are interconnected.",
+      "Imagine a dependency graph as a map that shows which city roads are connected to which, helping you plan your travel efficiently."
+    ],
+    "image": "",
+    "references": [
+      "https://deepsource.com/glossary/dependency-graph#:~:text=A%20dependency%20graph%20is%20a,node%20on%20which%20it%20depends."
+    ]
+  }
+}

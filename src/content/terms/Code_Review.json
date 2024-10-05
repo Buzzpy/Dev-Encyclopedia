@@ -1,0 +1,17 @@
+{
+  "title": "Code Review",
+  "subtext": "Checking code for quality and improvement",
+  "categories": ["SDLC", "Quality Assurance"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Code Review",
+    "texts": [
+      "Code review is the process where developers check each other's code for mistakes, improvements, and learning opportunities. It ensures code quality and helps share knowledge within the team.",
+      "Think of it as having a friend read your essay to catch any errors and suggest better ways to write it."
+    ],
+    "image": "https://browserstack.wpenginepowered.com/wp-content/uploads/2023/09/Code-Review-Process-700x380.png",
+    "references": [
+      "https://about.gitlab.com/topics/version-control/what-is-code-review/"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Feature Branching",
+  "subtext": "Isolate development in branches for easier integration",
+  "categories": ["SDLC"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Feature Branching",
+    "texts": [
+      "Feature branching is a version control strategy where developers create a branch for each new feature, isolating development and making integration easier.",
+      "Think of feature branching as setting up individual workstations for each project in a workshop."
+    ],
+    "image": "",
+    "references": [
+      "https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow"
+    ]
+  }
+}

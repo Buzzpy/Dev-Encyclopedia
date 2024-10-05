@@ -1,0 +1,17 @@
+{
+  "title": "K-Means Clustering",
+  "subtext": "Groups data into clusters based on similarity.",
+  "categories": ["Machine Learning"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "K-Means Clustering",
+    "texts": [
+      "K-Means Clustering is an unsupervised machine learning algorithm that groups data points into clusters based on their similarities. The algorithm assigns each data point to the nearest cluster center, known as a 'centroid', iteratively refining the cluster centers until convergence.",
+      "Imagine you have a scatter plot of data points, and you want to group them into clusters where each cluster contains points that are more similar to each other than to points in other clusters. K-Means finds the optimal grouping by minimizing the variance within each cluster."
+    ],
+    "image": "https://editor.analyticsvidhya.com/uploads/56854k%20means%20clustering.png",
+    "references": [
+      "https://en.wikipedia.org/wiki/K-means_clustering"
+    ]
+  }
+}

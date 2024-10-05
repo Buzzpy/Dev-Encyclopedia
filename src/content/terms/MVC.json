@@ -1,0 +1,18 @@
+{
+    "title": "MVC",
+    "subtext": "Model-View-Controller architecture",
+    "categories": ["Software Architecture", "Web Development"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "MVC",
+      "texts": [
+        "MVC (Model-View-Controller) is a software architectural pattern commonly used for developing user interfaces. It divides an application into three interconnected components: the Model, the View, and the Controller.",
+        "MVC helps organize code, making it easier to manage and scale, particularly in complex applications."
+      ],
+      "image": "https://developer.mozilla.org/en-US/docs/Glossary/MVC/model-view-controller-light-blue.png",
+      "references": [
+        "https://developer.mozilla.org/en-US/docs/Glossary/MVC"
+      ]
+    }
+  }
+  

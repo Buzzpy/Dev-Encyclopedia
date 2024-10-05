@@ -1,0 +1,17 @@
+{
+  "title": "Epoch (Time)",
+  "subtext": "Date and time used by computers",
+  "categories": ["Programming Concepts"],
+  "author": "RayMathew",
+  "description": {
+    "title": "Epochs (Time)",
+    "texts": [
+      "An epoch is a fixed date and time used as a reference from which a computer measures system time.",
+      "Most computer systems determine time as a number representing the seconds removed from a particular arbitrary date and time. For instance, Unix and POSIX measure time as the number of seconds that have passed since Thursday 1 January 1970 00:00:00 UT, a point in time known as the Unix epoch. Windows NT systems, up to and including Windows 11 and Windows Server 2022, measure time as the number of 100-nanosecond intervals that have passed since 1 January 1601 00:00:00 UTC, making that point in time the epoch for those systems."
+    ],
+    "image": "",
+    "references": [
+      "https://en.wikipedia.org/wiki/Epoch_(computing)"
+    ]
+  }
+}

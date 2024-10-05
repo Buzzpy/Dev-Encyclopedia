@@ -1,0 +1,17 @@
+{
+  "title": "Stateful Widget",
+  "subtext": "UI component that maintains state across sessions",
+  "categories": ["General"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Stateful Widget",
+    "texts": [
+      "A Stateful Widget in UI programming is a component that maintains state data across user sessions and redraws itself when the data changes.",
+      "Think of a stateful widget as a scorekeeper in a game, constantly updating the score based on the game's progress."
+    ],
+    "image": "",
+    "references": [
+      "https://www.googlecloudcommunity.com/gc/Community-Blogs/How-to-create-stateful-and-stateless-widgets-in-Flutter/ba-p/551657#:~:text=Stateful%20widgets%20are%20widgets%20that,location%20in%20a%20map%20application."
+    ]
+  }
+}

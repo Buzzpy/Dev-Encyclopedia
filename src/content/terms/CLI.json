@@ -1,0 +1,18 @@
+{
+    "title": "CLI",
+    "subtext": "Command-line interface",
+    "categories": ["Tools"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "CLI",
+      "texts": [
+        "A Command-Line Interface (CLI) is a text-based interface used to interact with software and operating systems by typing commands.",
+        "CLIs are widely used by developers and system administrators for tasks like file manipulation, program execution, and system management."
+      ],
+      "image": "https://eecs280staff.github.io/tutorials/images/cli001.png",
+      "references": [
+        "https://en.wikipedia.org/wiki/Command-line_interface"
+      ]
+    }
+  }
+  

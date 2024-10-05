@@ -1,0 +1,17 @@
+{
+  "title": "CQRS (Command Query Responsibility Segregation)",
+  "subtext": "Pattern for separating read and write operations",
+  "categories": ["Distributed Systems"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "CQRS (Command Query Responsibility Segregation)",
+    "texts": [
+      "CQRS is a design pattern that separates the read and write operations in a system. The main idea is to use different models to handle updates (commands) and queries (reads) to optimize performance, scalability, and security.",
+      "In a typical application, the same data model is used for both reading and writing data. However, in CQRS, you split the data model into two separate models: one for updates and another for reads."
+    ],
+    "image": "https://miro.medium.com/v2/resize:fit:875/1*sDOCS6W0SxsNRS5KlQoYgQ.png",
+    "references": [
+      "https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs"
+    ]
+  }
+}

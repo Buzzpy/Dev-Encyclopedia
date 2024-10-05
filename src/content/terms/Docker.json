@@ -1,0 +1,17 @@
+{
+  "title": "Docker",
+  "subtext": "The most popular Container tool",
+  "categories": ["DevOps", "Cloud Computing"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Docker",
+    "texts": [
+      "Docker is a platform that allows developers to package applications and their dependencies into containers. Containers are lightweight, portable, and can run on any system with Docker installed.",
+      "Docker simplifies deployment and scaling of applications, ensuring consistency across different environments."
+    ],
+    "image": "https://accesto.com/blog/static/d97eced7f59a885b5ba877366cf21909/3c492/docker-explained-1.png",
+    "references": [
+      "https://docker-curriculum.com/"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Debugging",
+  "subtext": "An interesting process that makes programmers yell \"Just Why!?\"",
+  "categories": ["Programming Concepts", "Quality Assurance"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Debugging",
+    "texts": [
+      "Debugging is the process of identifying and fixing errors or bugs in software code. It involves testing, analyzing, and modifying code to ensure that it functions correctly.",
+      "Effective debugging is crucial for improving software quality and performance."
+    ],
+    "image": "https://www.edureka.co/blog/wp-content/uploads/2019/08/debuuging-steps-528x294.png",
+    "references": [
+      "https://www.ibm.com/topics/debugging"
+    ]
+  }
+}

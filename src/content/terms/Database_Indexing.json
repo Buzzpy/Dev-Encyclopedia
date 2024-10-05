@@ -1,0 +1,17 @@
+{
+  "title": "Database Indexing",
+  "subtext": "Improve data retrieval speed in databases",
+  "categories": ["Database"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Database Indexing",
+    "texts": [
+      "Database indexing improves the speed of data retrieval operations by efficiently locating and accessing the data within a database.",
+      "Think of database indexing like an index in a book, helping you find information quickly without scanning every page."
+    ],
+    "image": "https://media.geeksforgeeks.org/wp-content/uploads/20230620131119/Structure-of-an-Index-in-Database_1-(1).webp",
+    "references": [
+      "https://www.geeksforgeeks.org/indexing-in-databases-set-1/"
+    ]
+  }
+}

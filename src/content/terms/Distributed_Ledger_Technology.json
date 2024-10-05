@@ -1,0 +1,17 @@
+{
+  "title": "Distributed Ledger Technology (DLT)",
+  "subtext": "The foundation of decentralized digital systems",
+  "categories": ["Distributed Systems"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Distributed Ledger Technology (DLT)",
+    "texts": [
+      "Distributed Ledger Technology (DLT) refers to a digital system for recording transactions and their details in multiple places simultaneously. It eliminates the need for a central authority and ensures that all copies of the ledger are identical across the network.",
+      "DLT underpins a wide variety of applications beyond cryptocurrencies, including smart contracts, supply chain management, healthcare records, and more. The most famous form of DLT is blockchain, which is used in cryptocurrencies like Bitcoin and Ethereum."
+    ],
+    "image": "https://cdn.ttgtmedia.com/rms/onlineimages/cio-distributed__vs_central_ledger-f_mobile.png",
+    "references": [
+      "https://www.techtarget.com/searchcio/definition/distributed-ledger"
+    ]
+  }
+}

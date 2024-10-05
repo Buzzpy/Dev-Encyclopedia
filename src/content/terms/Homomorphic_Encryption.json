@@ -1,0 +1,17 @@
+{
+  "title": "Homomorphic Encryption",
+  "subtext": "Performing computations on encrypted data without decryption",
+  "categories": ["Cryptography", "Cybersecurity"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Homomorphic Encryption",
+    "texts": [
+      "Homomorphic Encryption allows computations on encrypted data without decrypting it. It's like solving a puzzle without seeing the pieces.",
+      "Imagine Homomorphic Encryption as doing math with secret numbers that only make sense when you finish the calculation."
+    ],
+    "image": "",
+    "references": [
+      "https://en.wikipedia.org/wiki/Homomorphic_encryption"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+    "title": "Ajax",
+    "subtext": "Asynchronous JavaScript and XML",
+    "categories": ["Web Development"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Ajax",
+      "texts": [
+        "Ajax stands for Asynchronous JavaScript and XML. It is a technique used to create faster and more interactive web applications by sending and retrieving data from a server asynchronously without interfering with the display and behavior of the existing page.",
+        "This allows for dynamic content updates and smooth, responsive web pages."
+      ],
+      "image": "https://www.keycdn.com/img/support/how-ajax-programming-works-lg.webp",
+      "references": [
+        "https://www.keycdn.com/support/ajax-programming"
+      ]
+    }
+  }
+  

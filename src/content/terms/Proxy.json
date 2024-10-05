@@ -1,0 +1,18 @@
+{
+    "title": "Proxy",
+    "subtext": "Intermediate server for network requests",
+    "categories": ["Networking", "Software Architecture"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Proxy",
+      "texts": [
+        "A proxy server acts as an intermediary between a user's computer and the internet. It processes requests from clients seeking resources from other servers.",
+        "Proxies are used for various purposes, including improving security, caching data, and anonymizing internet traffic."
+      ],
+      "image": "https://info.varonis.com/hubfs/Imported_Blog_Media/what-is-a-proxy-server-1.png",
+      "references": [
+        "https://www.varonis.com/blog/what-is-a-proxy-server"
+      ]
+    }
+  }
+  

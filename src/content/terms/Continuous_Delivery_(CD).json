@@ -1,0 +1,13 @@
+{
+  "title": "Continuous Delivery (CD)",
+  "subtext": "A software development practice often implemented with CI",
+  "categories": ["DevOps", "Automation"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Continuous Delivery (CD)",
+    "texts": ["Continuous Delivery (CD) is a practice where code changes are automatically built, tested, and prepared for release to production. It ensures that software can be deployed at any time with minimal manual intervention.",
+    "CD promotes faster delivery of new features and bug fixes by streamlining the release process and ensuring that software is always in a deployable state."],
+    "image": "https://infraascode.com.br/images/ci_cd-CD.png",
+    "references": ["https://aws.amazon.com/devops/continuous-delivery/"]
+  }
+}

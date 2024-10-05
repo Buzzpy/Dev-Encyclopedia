@@ -1,0 +1,16 @@
+{
+    "title": "Sticky",
+    "subtext": "Persistent UI element",
+    "categories": ["Frontend Development"],
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Sticky",
+        "texts": [
+            "In web design, a 'Sticky' element is a UI component that remains fixed in place as the user scrolls through a page. This technique ensures that key features or important information are always visible, providing consistent accessibility and enhancing user experience."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Sticky_(web_design)"
+        ]
+    }
+}

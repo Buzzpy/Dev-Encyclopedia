@@ -1,0 +1,18 @@
+{
+  "title": "DOM",
+  "subtext": "Document Object Model (DOM)",
+  "categories": ["Web Development", "Frontend Development"],
+  "author": "bellodamilola",
+  "description": {
+    "title": "DOM",
+    "texts": [
+      "The Document Object Model (DOM) is the data representation of the objects that comprise the structure and content of a document on the web.",
+      "The DOM represents a document with a logical tree. Each branch of the tree ends in a node, and each node contains objects. DOM methods allow programmatic access to the tree. With them, you can change the document's structure, style, or content.",
+      "A web page is a document that can be either displayed in the browser window or as the HTML source. In both cases, it is the same document but the Document Object Model (DOM) representation allows it to be manipulated. As an object-oriented representation of the web page, it can be modified with a scripting language such as JavaScript."
+    ],
+    "image": "",
+    "references": [
+      "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction"
+    ]
+  }
+}

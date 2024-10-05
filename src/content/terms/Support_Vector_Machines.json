@@ -1,0 +1,17 @@
+{
+  "title": "Support Vector Machines",
+  "subtext": "Finds the best boundary between classes in data.",
+  "categories": ["Machine Learning"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Support Vector Machines",
+    "texts": [
+      "Support Vector Machines (SVM) are a type of supervised learning algorithm used for classification and regression. They work by finding the best boundary that separates different classes of data points.",
+      "Imagine drawing a line that best divides two groups of points on a graph. SVM finds this optimal line."
+    ],
+    "image": "https://dev-to-uploads.s3.amazonaws.com/uploads/articles/l4xu4d635cva6izqylzl.png",
+    "references": [
+      "https://www.kdnuggets.com/2016/07/support-vector-machines-simple-explanation.html"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Precision and Recall",
+  "subtext": "Metrics for evaluating classification model accuracy and completeness.",
+  "categories": ["Machine Learning"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Precision and Recall",
+    "texts": [
+      "Precision and Recall are two crucial metrics used in evaluating the performance of a classification model.",
+      "Precision measures the accuracy of the positive predictions made by the model, calculated as the ratio of true positives to the sum of true positives and false positives.",
+      "Recall, also known as sensitivity, measures the completeness by calculating the ratio of true positives to the sum of true positives and false negatives.",
+      "Together, these metrics provide a balanced view of a model's performance, especially in cases where the class distribution is imbalanced."
+    ],
+    "image": "",
+    "references": [
+      "https://en.wikipedia.org/wiki/Precision_and_recall"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Infrastructure as Code (IaC)",
+  "subtext": "Managing infrastructure through machine-readable scripts",
+  "categories": ["DevOps", "Automation", "Cloud Computing"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Infrastructure as Code (IaC)",
+    "texts": [
+      "Infrastructure as Code (IaC) is the process of managing and provisioning computing infrastructure through machine-readable configuration files or scripts, rather than through physical hardware configuration or interactive configuration tools.",
+      "IaC enables DevOps teams to automate and scale infrastructure management, ensuring consistency across environments and reducing the risk of manual errors."
+    ],
+    "image": "",
+    "references": [
+      "https://docs.microsoft.com/en-us/azure/devops/learn/what-is-infrastructure-as-code"
+    ]
+  }
+}

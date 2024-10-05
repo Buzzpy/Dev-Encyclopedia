@@ -1,0 +1,14 @@
+{
+  "title": "Cross-Entropy",
+  "subtext": "Loss function measuring the difference between predicted and actual class labels.",
+  "categories": ["Machine Learning"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Cross-Entropy",
+    "texts": [
+  "Cross-Entropy is a loss function used to measure the performance of a classification model. It quantifies the difference between the predicted probabilities and the actual class labels.",
+"Lower cross-entropy indicates better model performance."],
+    "image": "",
+    "references": ["https://towardsdatascience.com/what-is-cross-entropy-3bdb04c13616"]
+  }
+}

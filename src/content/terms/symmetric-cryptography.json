@@ -1,0 +1,17 @@
+{
+  "title": "Symmetric Cryptography",
+  "subtext": "Encryption using the same key for both encryption and decryption.",
+  "categories": ["Cryptography"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Symmetric Cryptography",
+    "texts": [
+      "Symmetric cryptography is a method of encryption where the same key is used for both encrypting and decrypting data. This approach is widely used due to its efficiency and speed, making it ideal for encrypting large amounts of data.",
+      "Common examples of symmetric encryption algorithms include AES (Advanced Encryption Standard) and DES (Data Encryption Standard). While symmetric cryptography is efficient, it requires secure key management, as the same key must be shared and kept secret between the communicating parties."
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Simple_symmetric_encryption.png/640px-Simple_symmetric_encryption.png",
+    "references": [
+      "https://en.wikipedia.org/wiki/Symmetric-key_algorithm"
+    ]
+  }
+}

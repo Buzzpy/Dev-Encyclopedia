@@ -1,0 +1,16 @@
+{
+  "title": "IoT Edge Computing",
+  "subtext": "Process data near its source in IoT devices",
+  "categories": ["IoT"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "IoT Edge Computing",
+    "texts": [
+      "(TODO)"
+    ],
+    "image": "",
+    "references": [
+      "https://www.redhat.com/en/topics/edge-computing/iot-edge-computing-need-to-work-together"
+    ]
+  }
+}

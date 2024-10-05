@@ -1,0 +1,18 @@
+{
+    "title": "Load Balancer",
+    "subtext": "Distributes network traffic across servers",
+    "categories": ["Networking", "Software Architecture", "Cloud Computing"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Load Balancer",
+      "texts": [
+        "A load balancer is a device or software that distributes incoming network or application traffic across multiple servers to ensure no single server becomes overwhelmed.",
+        "Load balancers improve the availability and reliability of applications by spreading the load, ensuring high performance, and reducing downtime."
+      ],
+      "image": "",
+      "references": [
+        "https://aws.amazon.com/what-is/load-balancing/"
+      ]
+    }
+  }
+  

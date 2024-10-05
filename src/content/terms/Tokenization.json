@@ -1,0 +1,17 @@
+{
+  "title": "Tokenization (NLP)",
+  "subtext": "Breaking down text into smaller components.",
+  "categories": ["Machine Learning"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Tokenization in Programming",
+    "texts": [
+      "Tokenization is the process of breaking down a string of text into smaller pieces called tokens. These tokens can be words, phrases, or even characters, depending on the level of granularity required.",
+      "In programming, tokenization is commonly used in natural language processing (NLP) to prepare text for analysis, or in compilers and interpreters to break down source code into manageable elements for parsing and execution."
+    ],
+    "image": "https://miro.medium.com/v2/resize:fit:1400/1*PZYP2nL6Zc_jpkaHLRxLQQ.png",
+    "references": [
+      "https://www.datacamp.com/blog/what-is-tokenization"
+    ]
+  }
+}

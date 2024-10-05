@@ -1,0 +1,16 @@
+{
+  "title": "Data Lake",
+  "subtext": "Vast storage for raw data in its native format",
+  "categories": ["Big Data", "Cloud Computing"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Data Lake",
+    "texts": [
+      "A Data Lake is a storage system that holds vast amounts of raw data in its native format. It's like having a giant pool where you can store all kinds of water without sorting."
+    ],
+    "image": "https://learn.microsoft.com/en-us/azure/architecture/data-guide/scenarios/images/data-lake-use-cases.jpg",
+    "references": [
+      "https://aws.amazon.com/big-data/datalakes-and-analytics/what-is-a-data-lake/"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Cache Invalidation",
+  "subtext": "Remove outdated data to make room for fresh information",
+  "categories": ["Web Development", "Optimization", "Caching"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Cache Invalidation",
+    "texts": [
+      "Cache invalidation is the process of removing outdated data from cache so that fresh data can be loaded the next time it is needed.",
+      "Think of cache invalidation like cleaning out your fridge; you need to remove old food to make room for fresh groceries."
+    ],
+    "image": "",
+    "references": [
+      "https://redis.io/glossary/cache-invalidation/"
+    ]
+  }
+}

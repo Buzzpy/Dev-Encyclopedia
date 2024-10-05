@@ -1,0 +1,16 @@
+{
+    "title": "Blue-Green Deployment",
+    "subtext": "Deployment strategy",
+    "categories": ["DevOps"],
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "Blue-Green Deployment",
+        "texts": [
+            "Blue-Green Deployment is a software deployment strategy where two identical environments (Blue and Green) are maintained. One environment (Blue) is live, while the other (Green) is idle. Updates are deployed to the idle environment first, and once verified, traffic is switched, minimizing downtime."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/Blue%E2%80%93green_deployment"
+        ]
+    }
+}

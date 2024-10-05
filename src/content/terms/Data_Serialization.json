@@ -1,0 +1,17 @@
+{
+  "title": "Data Serialization",
+  "subtext": "Converting data for storage or transmission",
+  "categories": ["Programming Concepts"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Data Serialization",
+    "texts": [
+      "Data serialization is the process of converting data into a format that can be easily stored or transmitted and then reconstructed later. Common formats include JSON and XML.",
+      "Think of data serialization like packing a suitcase for a trip, making it easy to carry and unpack later."
+    ],
+    "image": "https://miro.medium.com/v2/resize:fit:1018/1*QaauFe77Rsk7YeULrhUtxw.gif",
+    "references": [
+      "https://medium.com/@jdelamettrie/data-serialization-631a0325c38a"
+    ]
+  }
+}

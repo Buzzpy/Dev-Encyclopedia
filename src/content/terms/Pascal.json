@@ -1,0 +1,18 @@
+{
+    "title": "Pascal",
+    "subtext": "A structured programming language",
+    "categories": ["Language"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Pascal",
+      "texts": [
+        "Pascal is a procedural programming language designed for teaching structured programming and data structuring. It was developed in the 1970s and is known for its clear syntax and strong typing.",
+        "Pascal has been used in education and for developing small to medium-sized applications, though it has largely been supplanted by other languages in modern use."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Niklaus_Wirth_1972.jpg/1024px-Niklaus_Wirth_1972.jpg",
+      "references": [
+        "https://en.wikipedia.org/wiki/Pascal_(programming_language)"
+      ]
+    }
+  }
+  

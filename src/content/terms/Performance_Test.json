@@ -1,0 +1,17 @@
+{
+  "title": "Performance Test",
+  "subtext": "A type of testing focusing on application performance",
+  "categories": ["Testing", "SDLC", "Quality Assurance"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Performance Test",
+    "texts": [
+      "Performance testing is a type of software testing that focuses on how a system performs under various conditions. It evaluates the speed, responsiveness, and stability of a software application under a particular workload.",
+      "This testing is crucial for ensuring that the application can handle expected user loads, perform under stress, and meet performance criteria such as response times, throughput, and resource usage."
+    ],
+    "image": "",
+    "references": [
+      "https://www.softwaretestinghelp.com/what-is-performance-testing/"
+    ]
+  }
+}

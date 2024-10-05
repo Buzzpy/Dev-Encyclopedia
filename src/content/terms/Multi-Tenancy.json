@@ -1,0 +1,17 @@
+{
+  "title": "Multi-Tenancy",
+  "subtext": "Single instance of software serves multiple customers",
+  "categories": ["Cloud Computing"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Multi-Tenancy",
+    "texts": [
+      "Multi-Tenancy refers to a software architecture where a single instance of the software serves multiple customers or tenants. Each tenant's data is isolated and remains invisible to others, while they all share the same software infrastructure.",
+      "This approach is common in cloud computing environments, enabling efficient resource utilization, cost savings, and easier maintenance. It is widely used in SaaS (Software as a Service) applications."
+    ],
+    "image": "",
+    "references": [
+      "https://www.ibm.com/topics/multi-tenant"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Mocking",
+  "subtext": "Creating fake objects for testing",
+  "categories": ["Backend Development", "Testing"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Mocking",
+    "texts": [
+      "Mocking is a technique in software testing where you create fake versions of objects or functions to test parts of your code without relying on the real ones.",
+      "Imagine mocking like practicing a play with stand-ins before the actual actors come in."
+    ],
+    "image": "",
+    "references": [
+      "https://www.geeksforgeeks.org/software-testing-mock-testing/"
+    ]
+  }
+}

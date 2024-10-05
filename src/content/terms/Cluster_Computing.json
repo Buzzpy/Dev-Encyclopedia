@@ -1,0 +1,17 @@
+{
+  "title": "Cluster Computing",
+  "subtext": "Connecting multiple computers to work as a single system",
+  "categories": ["Distributed Systems", "Cloud Computing"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Cluster Computing",
+    "texts": [
+      "Cluster computing involves connecting multiple computers to work as a single system, enhancing computing strength and reliability.",
+      "Think of cluster computing as a team of horses pulling a wagon, where the load is shared and the journey is faster."
+    ],
+    "image": "",
+    "references": [
+      "https://www.ibm.com/think/topics/cluster-computing"
+    ]
+  }
+}

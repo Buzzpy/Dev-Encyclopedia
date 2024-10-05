@@ -1,0 +1,18 @@
+{
+    "title": ".NET",
+    "subtext": "Free, open source developer platform based on C#",
+    "categories": ["Tools"],
+    "author": "patrickpiedad",
+    "description": {
+      "title": ".NET",
+      "texts": [
+        ".NET is a free, open-source developer platform created by Microsoft. It provides a framework for building, deploying, and running a wide range of applications, including web, mobile, desktop, gaming, and Internet of Things (IoT) applications.",
+        ".NET is based on the strongly typed, type-safe C# programming language. It has multiple variants with the most modern variant being .NET (Core) with it's yearly releases designated by version number (ie. .NET 8.0)."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg",
+      "references": [
+        "https://learn.microsoft.com/en-us/dotnet/core/introduction?WT.mc_id=dotnet-35129-website"
+      ]
+    }
+  }
+  

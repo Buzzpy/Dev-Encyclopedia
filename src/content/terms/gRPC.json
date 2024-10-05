@@ -1,0 +1,17 @@
+{
+  "title": "gRPC",
+  "subtext": "A high-performance framework for service communication",
+  "categories": ["Networking"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "gRPC",
+    "texts": [
+      "gRPC is a high-performance, open-source framework developed by Google that enables communication between services in a distributed system. It uses HTTP/2 for transport, Protocol Buffers as the interface description language, and provides features like authentication, load balancing, and bidirectional streaming.",
+      "gRPC is particularly well-suited for microservices architectures, where efficient communication between different services is crucial. It allows for different services written in different languages to work together seamlessly, making it a popular choice for building scalable and high-performance distributed systems."
+    ],
+    "image": "",
+    "references": [
+      "https://grpc.io/"
+    ]
+  }
+}

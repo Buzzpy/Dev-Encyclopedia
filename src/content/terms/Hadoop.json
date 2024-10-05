@@ -1,0 +1,18 @@
+{
+    "title": "Hadoop",
+    "subtext": "Big data processing framework",
+    "categories": ["Distributed Systems", "Big Data"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Hadoop",
+      "texts": [
+        "Apache Hadoop is an open-source framework for processing and storing large datasets in a distributed computing environment.",
+        "Hadoop's ecosystem includes tools for distributed storage, data processing, and management, making it a cornerstone of big data solutions."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Hadoop_logo.svg/1024px-Hadoop_logo.svg.png",
+      "references": [
+        "https://hadoop.apache.org/"
+      ]
+    }
+  }
+  

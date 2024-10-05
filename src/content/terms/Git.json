@@ -1,0 +1,17 @@
+{
+  "title": "Git",
+  "subtext": "The most popular version control system",
+  "categories": ["Tools"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Git",
+    "texts": [
+      "Git is a version control system that tracks changes to files and allows multiple people to collaborate on a project. It helps manage code changes, track history, and resolve conflicts.",
+      "Git is widely used in software development to maintain code integrity and support collaborative work."
+    ],
+    "image": "",
+    "references": [
+      "https://dev.to/milu_franz/git-explained-the-basics-igc"
+    ]
+  }
+}
