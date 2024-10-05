@@ -1,0 +1,18 @@
+{
+    "title": "Content Management System (CMS)",
+    "subtext": "Application non technical users can use to build projects with content",
+    "categories": ["Database"],
+    "author": "AnshumanMishra",
+    "description": {
+        "title": "CMS",
+        "texts": [
+            "A Content Management System (CMS) is an application designed to help non technical users manage content and structure of applications, without the need for code.",
+            "A CMS is like a User Interface (UI), where non technical users can manage content without need for technical skills.",
+            "CMS examples are: WordPress, Drupal, AEM, Joomla!, and Shopify."
+        ],
+        "image": "",
+        "references": [
+            "https://www.hostinger.com/tutorials/what-is-a-cms/"
+        ]
+    }
+}
