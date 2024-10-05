@@ -11,6 +11,5 @@
   ],
   "[astro]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "prettier.singleQuote": false,
   },
 }
