@@ -1,0 +1,18 @@
+{
+    "title": "Behaviour Driven development (BDD)",
+    "subtext": "A software development approach where the application is designed by specifying its behavior through examples written in a human-readable format.",
+    "categories": ["Software Development", "Testing Methodologies", "Agile Methodologies"],
+    "author": "Rilwan",
+    "description": {
+      "title": "Behaviour Driven development (BDD)",
+      "texts": [
+        "BDD is a practise in software development that ensures a software satisfies the needs of its end-users.",
+        "In other words, BDD is a practice in software development that ensures software meets the needs of its end-users by defining and understanding system behaviour through user-centric scenarios.",
+        "The major aim of BDD is to streamline the development process to align with the user needs."
+      ],
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240613150124/Behavior-Driven-Development-bDD-Life-Cycle.webp",
+      "references": [
+         "https://www.geeksforgeeks.org/behavioral-driven-development-bdd-in-software-engineering/"
+      ]
+    }
+}

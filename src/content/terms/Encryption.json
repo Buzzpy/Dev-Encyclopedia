@@ -1,0 +1,18 @@
+{
+    "title": "Encryption",
+    "subtext": "A method of converting plaintext into ciphertext to protect data from unauthorized access",
+    "categories": ["Cryptography", "Data Security", "Network Security"],
+    "author": "Rilwan",
+    "description": {
+      "title": "Encryption",
+      "texts": [
+        "Encryption is a process that uses algorithms and keys to conceal a file, text, or any other content. It is widely used to securely transfer data or messages between two or more parties.", 
+        "When data is encrypted, it is transformed into an unreadable format using an algorithm ensuring that even if it is intercepted, it cannot be understood without the proper decryption key.",
+        "For example, a message like 'I am beautiful' could be encrypted into a string such as 'bchgtiuythnhuiol'."
+      ],
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Public_key_encryption_keys.svg/300px-Public_key_encryption_keys.svg.png",
+      "references": [
+        "https://www.fortinet.com/resources/cyberglossary/encryption"
+      ]
+    }
+} 

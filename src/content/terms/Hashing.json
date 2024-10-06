@@ -1,0 +1,18 @@
+{
+    "title": "Hashing",
+    "subtext": "A data security algorithm",
+    "categories": ["Cryptography", "Data Security", "Data Structures"],
+    "author": "Rilwan",
+    "description": {
+      "title": "Hashing",
+      "texts": [
+        "Hashing is a one-way process of converting plain text, files, or any digital content into a hashed value.", 
+        "This hashed value is a fixed-length string of characters that appears random and lacks coherent meaning",
+        "For example, the hashed value of the phrase 'I love Python' might look like '&5668?+#@/)(:;!'"
+      ],
+      "image": "https://www.techtarget.com/rms/onlineimages/sqlserver-hash_table_example-f.png",
+      "references": [
+        "https://www.techtarget.com/searchdatamanagement/definition/hashing"
+      ]
+    }
+}

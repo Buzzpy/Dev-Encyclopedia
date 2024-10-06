@@ -1,0 +1,17 @@
+{
+    "title": "Code refactoring",
+    "subtext": "Improving the internal structure of code without altering its external behavior" ,
+    "categories": ["Software Development", "Code Maintenance", "Software Design"],
+    "author": "Rilwan",
+    "description": {
+      "title": "Code refactoring",
+      "texts": [
+        "Code refactoring is the process of editing and fine-tuning the source code of a software without changing or affecting its functionality.",
+        "This concept is aimed at ensuring a well written source code that is easy to read and flexible enough for collaborations."
+      ],
+      "image": "https://www.techtarget.com/rms/onlineimages/code_refactoring_process-f.png",
+      "references": [
+        "https://www.techtarget.com/searchapparchitecture/definition/refactoring"
+      ]
+    }
+}
