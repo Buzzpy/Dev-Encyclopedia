@@ -1,0 +1,18 @@
+{
+    "title": "Dependency",
+    "subtext": "A required software library or component that other software relies on",
+    "categories": ["Software Development", "Package Management", "Build Systems"],
+    "author": "Rilwan",
+    "description": {
+      "title": "Dependency",
+      "texts": [
+        "A dependency, also known as a package, is a collection of code functions or modules packaged as a single unit of code.", 
+        "These dependencies often consist of multiple lines of code designed to perform repetitive or complex tasks efficiently.",
+        "This packaged code can be installed and used by developers to achieve specific results. For example, `Express` in JavaScript and `Pillow` in Python."
+      ],
+      "image": "",
+      "references": [
+        "https://phoenixnap.com/blog/software-dependencies"
+      ]
+    }
+}
