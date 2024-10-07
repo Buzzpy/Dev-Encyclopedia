@@ -138,7 +138,6 @@ Found some important information missing? Please open a Pull Request and help im
 
 > `IMPORTANT`: This project uses the `main` branch for **deployment** and the `develop` branch for **active development**. All contributions should be made to the `develop` branch, which will be tested and reviewed before being merged into the main branch for deployment.
 
-![Copy of assets (2)](https://github.com/user-attachments/assets/43d3e163-e279-4f0e-8d70-2a49fcef1632)
 
 Thank you for contributing to the Dev Encyclopedia!
 
