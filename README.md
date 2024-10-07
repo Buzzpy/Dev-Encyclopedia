@@ -53,17 +53,6 @@ The [preview](https://docs.astro.build/en/reference/cli-reference/#astro-preview
   npm run preview
 ```
 
-## Tech Stack
-
-**Client:** 
-  - [Astro](https://astro.build/)
-  - [Boostrap CSS](https://getbootstrap.com/) 
-  - [Prettier](https://prettier.io/)
-  - [TypeScript](https://www.typescriptlang.org/)
-
-**Server:** 
- - [Node](https://nodejs.org/en)
-
 ## Installation
 
 Install all the requirements with **npm install** after forking and cloning the repository
