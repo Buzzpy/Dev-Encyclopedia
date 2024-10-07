@@ -1,16 +1,16 @@
 {
     "title": "SQL Injection (SQLi)",
-    "subtext": "A security vulnerability that allows attackers to interfere with the queries an application makes to its database, often leading to unauthorized access to data",
+    "subtext": "A security vulnerability",
     "categories": ["Web Security", "Database Security", "Software Vulnerabilities"],
     "author": "Rilwan",
     "description": {
       "title": "SQL Injection (SQLi)",
       "texts": [
-        "SQL injection (SQLi) is a kind of cyber-attack targeted at a software's database.",
+        "SQL injection (SQLi) is a kind of cyber-attack targeted at a software's database. It allows allows attackers to interfere with the queries an application makes to its database, often leading to unauthorized access to data",
         "It involves sending raw SQL statements instead of actual form data via the inputs in a web form or URL.",
         "This raw SQL statement is unknowingly received in the backend and used to query the database, revealing unauthorised data to the attacker."
       ],
-      "image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1704899971801/80447ae3-883f-4af4-ae7d-ddf10accefb1.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
+      "image": "https://spanning.com/wp-content/uploads/2019/07/SQL-injection-attack-example.png",
       "references": [
         "https://superbemiloju.hashnode.dev/protecting-your-data-understanding-sql-injection-and-prevention"
       ]

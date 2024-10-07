@@ -1,6 +1,6 @@
 {
     "title": "Behaviour Driven development (BDD)",
-    "subtext": "A software development approach where the application is designed by specifying its behavior through examples written in a human-readable format.",
+    "subtext": "A software development approach",
     "categories": ["Software Development", "Testing Methodologies", "Agile Methodologies"],
     "author": "Rilwan",
     "description": {
