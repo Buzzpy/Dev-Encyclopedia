@@ -9,6 +9,10 @@ import { getCollection } from "astro:content"
 const terms = await getCollection("terms")
 ---
 
+<head>
+  <meta name="google-site-verification" content="-QKN9sbp37vkvEPbvMv7pz_OtmphW72Qoz_KhnNC3MI" />
+</head>
+
 <BaseLayout>
   <Hero terms={terms} />
   <CardList terms={terms} />
