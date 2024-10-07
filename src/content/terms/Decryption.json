@@ -1,0 +1,17 @@
+{
+    "title": "Decryption",
+    "subtext": "Conversion of encrypted data back into its original form",
+    "categories": ["Cryptography", "Data Security", "Network Security"],
+    "author": "Rilwan",
+    "description": {
+      "title": "Decryption",
+      "texts": [
+        "This is the opposite of encryption. In decryption, an encrypted content is converted back to its original form, making it readable again.",
+        "For instance, 'bchgtiuythnhuiol' will be decrypted into 'I am beautiful' using the appropriate decryption key."
+      ],
+      "image": "https://usemynotes.com/wp-content/uploads/2021/03/what-is-decryption.jpg",
+      "references": [
+        "https://usemynotes.com/what-is-encryption-and-decryption-techniques/"
+      ]
+    }
+}

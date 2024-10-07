@@ -1,12 +1,12 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import Hero from '../components/Hero.astro';
-import CardList from '../components/CardList.astro';
-import Modal from '../components/Modal.astro';
+import BaseLayout from "../layouts/BaseLayout.astro"
+import Hero from "../components/Hero.astro"
+import CardList from "../components/CardList.astro"
+import Modal from "../components/Modal.astro"
 
-import { getCollection } from 'astro:content';
+import { getCollection } from "astro:content"
 
-const terms = await getCollection("terms");
+const terms = await getCollection("terms")
 ---
 
 <BaseLayout>

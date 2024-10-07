@@ -1,18 +1,22 @@
 ---
-const { terms: cards } = Astro.props;
+const { terms: cards } = Astro.props
 ---
 
 <div class="card-container" id="cardContainer">
-  {cards.map(card => (
-    <div class="card" 
-         data-title={card.data.title} 
-         data-description={card.data.description.texts.join('\n\n')} 
-         data-image-url={card.data.description.image} 
-         data-resource-url={card.data.description.references[0]}
-         data-categories={(card.data.categories || []).join(', ')}>
-      <div class="card-title">{card.data.title}</div>
-      <div class="card-subtext">{card.data.subtext}</div>
-      <button class="explain-button">Explain</button>
-    </div>
-  ))}
+  {
+    cards.map((card) => (
+      <div
+        class="card"
+        data-title={card.data.title}
+        data-description={card.data.description.texts.join("\n\n")}
+        data-image-url={card.data.description.image}
+        data-resource-url={card.data.description.references[0]}
+        data-categories={(card.data.categories || []).join(", ")}
+      >
+        <div class="card-title">{card.data.title}</div>
+        <div class="card-subtext">{card.data.subtext}</div>
+        <button class="explain-button">Explain</button>
+      </div>
+    ))
+  }
 </div>
