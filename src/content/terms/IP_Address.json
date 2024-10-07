@@ -1,0 +1,17 @@
+{
+  "title": "IP Address",
+  "subtext": "Unique identifier for devices on a network",
+  "categories": ["Networking", "Internet"],
+  "author": "KrishDave",
+  "description": {
+    "title": "IP Address",
+    "texts": [
+      "An IP (Internet Protocol) address is a unique set of numbers assigned to each device connected to a network, allowing devices to communicate over the internet.",
+      "There are two versions: IPv4, which uses four sets of numbers like 192.168.1.1, and IPv6, which has a longer format such as 2001:0db8:85a3:0000:0000:8a2e:0370:7334."
+    ],
+    "image": "https://www.investopedia.com/thmb/C52cUY2M65feyxz6nrE3YMRc-8c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/IPaddress-1e113dd325f74135ab2183d432ea5865.jpg",
+    "references": [
+      "https://www.kaspersky.com/resource-center/definitions/what-is-an-ip-address"
+    ]
+  }
+}

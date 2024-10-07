@@ -1,0 +1,15 @@
+{
+  "title": "ECMAScript",
+  "subtext": "The standardized scripting language behind JavaScript",
+  "categories": ["Programming", "JavaScript"],
+  "author": "KrishDave",
+  "description": {
+    "title": "ECMAScript",
+    "texts": [
+      "ECMAScript is a scripting language specification that serves as the foundation for JavaScript, standardizing the behavior of the language across platforms.",
+      "New ECMAScript versions introduce features that drive modern JavaScript development, such as ES6 (ECMAScript 2015), which added key functionalities like classes, modules, and arrow functions."
+    ],
+    "image": "https://raw.githubusercontent.com/nitayneeman/ecmascript-examples/refs/heads/main/logo.png",
+    "references": ["https://en.wikipedia.org/wiki/ECMAScript"]
+  }
+}

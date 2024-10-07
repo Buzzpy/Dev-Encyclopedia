@@ -1,0 +1,15 @@
+{
+  "title": "Modules",
+  "subtext": "Reusable, self-contained block of code in programming",
+  "categories": ["Programming", "Software Development"],
+  "author": "KrishDave",
+  "description": {
+    "title": "Modules",
+    "texts": [
+      "In programming, a module is a self-contained block of code that encapsulates specific functionality, making it reusable in different parts of an application.",
+      "Modules can contain variables, functions, classes, or entire libraries. In JavaScript, they help developers organize code into smaller, maintainable files that can be imported or exported as needed, improving reusability and maintainability."
+    ],
+    "image": "https://image.slidesharecdn.com/modularprogramming-200112103156/85/Modular-programming-4-320.jpg",
+    "references": ["https://www.tiny.cloud/blog/modular-programming-principle/"]
+  }
+}
