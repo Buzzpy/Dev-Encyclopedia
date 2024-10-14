@@ -8,7 +8,7 @@
     "build": "tsc --noEmit || true && npx astro build",
     "preview": "astro preview",
     "prepare": "husky",
-    "test": "echo no tests specified",
+    "test": "vitest",
     "lint": "prettier --write  \"**/*.{js,jsx,ts,tsx,astro}\" && eslint --fix \"src/**/*.{js,ts,jsx,tsx,astro}\""
   },
   "dependencies": {
@@ -27,8 +27,10 @@
     "eslint-plugin-astro": "^1.2.4",
     "eslint-plugin-jsx-a11y": "^6.10.0",
     "husky": "^9.1.6",
+    "jsdom": "^25.0.1",
     "prettier": "^3.3.3",
     "prettier-config-standard": "^7.0.0",
-    "prettier-plugin-astro": "^0.14.1"
+    "prettier-plugin-astro": "^0.14.1",
+    "vitest": "^2.1.2"
   }
 }
