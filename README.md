@@ -53,46 +53,6 @@ The [preview](https://docs.astro.build/en/reference/cli-reference/#astro-preview
   npm run preview
 ```
 
-## Tech Stack
-
-**Client:** 
-  - [Astro](https://astro.build/)
-  - [Boostrap CSS](https://getbootstrap.com/) 
-  - [Prettier](https://prettier.io/)
-  - [TypeScript](https://www.typescriptlang.org/)
-
-**Server:** 
- - [Node](https://nodejs.org/en)
-
-## Installation
-
-Install all the requirements with **npm install** after forking and cloning the repository
-
-```bash
-  npm install
-```
-
-## Deployment
-
-To deploy this project in a local environment, run the following 
-
-```bash
-  npm run dev
-```
-
-To build your site for deployment. run the following. By default, this will generate static files and place them in a dist/ directory. If SSR is enabled, this will generate the necessary server files to serve your site.
-
-```bash
-  npm run build
-```
-
-The [preview](https://docs.astro.build/en/reference/cli-reference/#astro-preview) command allows you to preview your site locally after building to catch any errors in your build output before deploying it by starting a local server to serve the contents of your static directory (*dist/* by default) created by running *astro build*. 
-**_The command is not designed to be run in production._**
-
-```bash
-  npm run preview
-```
-
 ## Contributing
 
 Found some important information missing? Please open a Pull Request and help improve this project. We welcome contributions of all kinds, whether it's adding new terms, fixing typos, or suggesting new features.
@@ -149,7 +109,6 @@ Found some important information missing? Please open a Pull Request and help im
 
 > `IMPORTANT`: This project uses the `main` branch for **deployment** and the `develop` branch for **active development**. All contributions should be made to the `develop` branch, which will be tested and reviewed before being merged into the main branch for deployment.
 
-![Copy of assets (2)](https://github.com/user-attachments/assets/43d3e163-e279-4f0e-8d70-2a49fcef1632)
 
 Thank you for contributing to the Dev Encyclopedia!
 
@@ -163,7 +122,7 @@ We are grateful to our outstanding contributors who have significantly impacted 
 | **Ray Mathew (@RayMathew)**                                  | [![LinkedIn](https://img.shields.io/badge/-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/ray-mathew7/) | [![GitHub](https://img.shields.io/badge/-Profile-black?style=flat&logo=github)](https://github.com/RayMathew) |
 | **Amine Naqi (@Rodelph)**                              | [![LinkedIn](https://img.shields.io/badge/-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/amine-naqi-aa898724b/) | [![GitHub](https://img.shields.io/badge/-Profile-black?style=flat&logo=github)](https://github.com/Rodelph) |
 | **Sudharshaun Mugundan (@Sudharshaun)**                              | [![LinkedIn](https://img.shields.io/badge/-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/sudharshaun/) | [![GitHub](https://img.shields.io/badge/-Profile-black?style=flat&logo=github)](https://github.com/Sudharshaun) |
-| **Kwong Cheong N. (@KC900201)**                              | [![LinkedIn](https://img.shields.io/badge/-Connect-blue?style=flat&logo=linkedin)]([https://www.linkedin.com/in/sudharshaun/](https://www.linkedin.com/in/kwongcheongng)) | [![GitHub](https://img.shields.io/badge/-Profile-black?style=flat&logo=github)]([https://github.com/Sudharshaun](https://github.com/KC900201)) |
+| **Kwong Cheong N. (@KC900201)**                              | [![LinkedIn](https://img.shields.io/badge/-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/kwongcheongng) | [![GitHub](https://img.shields.io/badge/-Profile-black?style=flat&logo=github)](https://github.com/KC900201) |
 
 
 

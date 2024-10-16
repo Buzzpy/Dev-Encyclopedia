@@ -1,6 +1,6 @@
 {
     "title": "Encryption",
-    "subtext": "A method of converting plaintext into ciphertext to protect data from unauthorized access",
+    "subtext": "Converting plaintext into ciphertext to protect data from unauthorized access",
     "categories": ["Cryptography", "Data Security", "Network Security"],
     "author": "Rilwan",
     "description": {

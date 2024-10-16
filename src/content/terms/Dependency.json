@@ -1,6 +1,6 @@
 {
     "title": "Dependency",
-    "subtext": "A software component or library that another piece of software relies on to function properly",
+    "subtext": "A required software library or component that other software relies on",
     "categories": ["Software Development", "Package Management", "Build Systems"],
     "author": "Rilwan",
     "description": {
@@ -10,7 +10,7 @@
         "These dependencies often consist of multiple lines of code designed to perform repetitive or complex tasks efficiently.",
         "This packaged code can be installed and used by developers to achieve specific results. For example, `Express` in JavaScript and `Pillow` in Python."
       ],
-      "image": "https://phoenixnap.com/blog/wp-content/uploads/2024/01/what-are-software-dependencies.jpg",
+      "image": "",
       "references": [
         "https://phoenixnap.com/blog/software-dependencies"
       ]
