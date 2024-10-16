@@ -1,0 +1,18 @@
+{
+  "title": "Bundlers",
+  "subtext": "Tools that compile and optimize JavaScript code for efficient loading",
+  "categories": ["JavaScript", "Development Tools"],
+  "author": "KrishDave",
+  "description": {
+    "title": "Bundlers",
+    "texts": [
+      "A Bundler is a tool that compiles and optimizes JavaScript code for efficient loading in web applications.",
+      "It examines the entire project, including sub-projects and third-party dependencies, and bundles them into minimal files, typically a single .js file for improved client-side performance."
+    ],
+    "image": "https://miro.medium.com/v2/resize:fit:1400/1*-JfKHumt7O_RsDg601EDIg.png",
+    "references": [
+      "https://snipcart.com/blog/javascript-module-bundler"
+    ]
+  }
+}
+
