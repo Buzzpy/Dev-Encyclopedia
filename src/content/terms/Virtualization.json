@@ -1,0 +1,17 @@
+{
+    "title": "Virtualization",
+    "subtext": "Virtualization enables multiple virtual environments to operate on a single physical machine, optimizing resource use and simplifying management." ,
+    "categories": ["Software Engineering", "Infrastructure as a Service (IaaS)", "Operating Systems", "Cloud Computing"],
+    "author": "Rilwan",
+    "description": {
+      "title": "Virtualization",
+      "texts": [
+        "Virtualization is the process of creating a virtual representation of an hardware or technology such as operating systems, servers, etc. that can run independently on a single machine.",
+        "In software engineering, virtualization is often used in web servers. While a hardware server with an operating system exists, virtualization allows engineers to set up multiple virtual servers that shares resources of the main hardware server. These virtual servers can be easily setup independently as a software without needing to deal with the complexities of a physical hardware server. An example of a virtual server is render.io shared hosting. While render manages a physical hardware server, it allows developers to easily setup multiple virtual servers on top of this physical server."
+      ],
+      "image": "https://www.techtarget.com/rms/onlineImages/server_virtualization-traditional_virtual_architecture.jpg",
+      "references": [
+        "https://www.techtarget.com/searchitoperations/definition/virtualization"
+      ]
+    }
+}

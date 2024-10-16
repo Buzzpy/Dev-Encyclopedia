@@ -1,0 +1,17 @@
+{
+    "title": "Data streaming",
+    "subtext": "Data streaming is the continuous flow of data that allows for real-time processing and analysis." ,
+    "categories": ["Data Processing", "Real-time Data", "Data Analytics"],
+    "author": "Rilwan",
+    "description": {
+      "title": "Data streaming",
+      "texts": [
+        "Data streaming refers to the continuous flow of data in real-time, allowing for the processing and analysis of data as it is generated or received.",
+        "This concept is widely used in various applications, such as live video and audio broadcasts, social media feeds, online gaming, and real-time analytics."
+      ],
+      "image": "https://estuary.dev/static/f7caa622ba4ee2f23336ba7cb2a9b0b3/dabc0/29eb38_02_Data_Streaming_Technology_Batch_Processing_Vs_Data_Streaming_9806558902.webp",
+      "references": [
+        "https://estuary.dev/data-streaming-technology/"
+      ]
+    }
+}

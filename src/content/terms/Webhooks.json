@@ -1,0 +1,20 @@
+{
+    "title": "Webhooks",
+    "subtext": "Webhooks enable real-time communication between applications, simplifying event-driven integrations and enhancing user experiences." ,
+    "categories": ["APIs", "Real-time Data", "Automation", "Event-driven architecture", "Software development"],
+    "author": "Rilwan",
+    "description": {
+      "title": "Webhooks",
+      "texts": [
+        "A webhook is an API endpoint e.g '/new-sales' used to recive event-triggered messages from another another web server.",
+        "An example event includes the following: new sales from a product, new subscription, failed payments, new follower, etc.",
+        "A webhook is responsible for receiving and processing incoming data.",
+        "For instance, with Gumroad API, you can get notified on new sales from your digital products. This notification is usually sent to a webhook endpoint(or API endpoint) within your web application. Therefore, the webhook endpoint serves as a watchman for receiving these ntoifications for use within your app.",
+        "This is useful if you are building an application for Gumroad creators/store owners. With webhooks, you can notify users of new events in their store."  
+      ],
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20201113123312/79F70A0459CC44DE9A63795BBCA0F727.png",
+      "references": [
+        "https://www.geeksforgeeks.org/what-is-a-webhook-and-how-to-use-it/"
+      ]
+    }
+}
