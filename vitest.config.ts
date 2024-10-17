@@ -6,6 +6,5 @@ export default getViteConfig({
     // Vitest configuration options
     // use the APIs globally like Jest
     globals: true,
-    environment: 'node',
   }
 })
