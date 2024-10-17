@@ -1,6 +1,6 @@
 {
     "title": "Webhooks",
-    "subtext": "Webhooks enable real-time communication between applications, simplifying event-driven integrations and enhancing user experiences." ,
+    "subtext": "Real-time updates via event notifications." ,
     "categories": ["APIs", "Real-time Data", "Automation", "Event-driven architecture", "Software development"],
     "author": "Rilwan",
     "description": {

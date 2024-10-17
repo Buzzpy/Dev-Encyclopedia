@@ -1,6 +1,6 @@
 {
-    "title": "Data streaming",
-    "subtext": "Data streaming is the continuous flow of data that allows for real-time processing and analysis." ,
+    "title": "Data Streaming",
+    "subtext": "A continuous flow of data that allows for real-time processing and analysis." ,
     "categories": ["Data Processing", "Real-time Data", "Data Analytics"],
     "author": "Rilwan",
     "description": {

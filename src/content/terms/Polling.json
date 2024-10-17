@@ -1,6 +1,6 @@
 {
     "title": "Polling",
-    "subtext": "Polling is a method where an application repeatedly requests data from a server at regular intervals to check for updates." ,
+    "subtext": "Repeated data requests for updates" ,
     "categories": ["Data retrieval", "APIs"],
     "author": "Rilwan",
     "description": {
