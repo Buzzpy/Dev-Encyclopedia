@@ -7,8 +7,17 @@
     "noUnusedParameters": false,
     "allowJs": true,
     "strictNullChecks": true,
-    "noImplicitReturns": false
+    "noImplicitReturns": false,
+    // get Typescript working global APIs
+    "types": [
+      "vitest/globals"
+    ]
   },
-  "include": ["src/**/*", "public/card-actions.js"],
-  "extends": ["astro/tsconfigs/strictest"]
+  "include": [
+    "src/**/*",
+    "public/card-actions.js"
+  ],
+  "extends": [
+    "astro/tsconfigs/strictest"
+  ]
 }
