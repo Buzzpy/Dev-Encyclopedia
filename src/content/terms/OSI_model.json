@@ -1,0 +1,18 @@
+{
+    "title": "OSI model",
+    "subtext": "A network communication framework" ,
+    "categories": ["Network Architecture", "Data Communication", "Communication Protocols", "IT Infrastructure"],
+    "author": "Rilwan",
+    "description": {
+      "title": "Open systems interconnection (OSI)",
+      "texts": [
+        "The OSI (Open Systems Interconnection) model is a conceptual framework used to understand and standardize the functions of a networking system. It divides the communication process into seven layers.",
+        "These layers—Physical, Data Link, Network, Transport, Session, Presentation, and Application—each serve a specific purpose, such as routing, error handling, or encryption. This framework ensures interoperability between different systems and devices by breaking communication into manageable steps, fostering standardization across networks."
+
+      ],
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240615010645/OSI-Model.png",
+      "references": [
+        "https://www.geeksforgeeks.org/open-systems-interconnection-model-osi/"
+      ]
+    }
+}

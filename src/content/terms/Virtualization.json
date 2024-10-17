@@ -1,0 +1,18 @@
+{
+    "title": "Virtualization",
+    "subtext": "Creating virtual environments for efficiency" ,
+    "categories": ["Software Engineering", "Infrastructure as a Service (IaaS)", "Operating Systems", "Cloud Computing"],
+    "author": "Rilwan",
+    "description": {
+      "title": "Virtualization",
+      "texts": [
+        "Virtualization is the process of creating virtual versions of hardware or software, like operating systems or servers, that run independently on the same physical machine.",
+        "Virtualization lets multiple virtual servers share one physical server’s resources. This allows developers to create and manage virtual servers easily, without dealing with the complexities of physical hardware.",
+        "For example, platforms like Render manage the hardware but let users set up multiple virtual servers on top of it for hosting applications."
+      ],
+      "image": "https://www.techtarget.com/rms/onlineImages/server_virtualization-traditional_virtual_architecture.jpg",
+      "references": [
+        "https://aws.amazon.com/what-is/virtualization/"
+      ]
+    }
+}
