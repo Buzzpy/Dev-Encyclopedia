@@ -8,7 +8,7 @@
     "build": "tsc --noEmit || true && npx astro build",
     "preview": "astro preview",
     "prepare": "husky",
-    "test": "echo hello",
+    "test": "vitest --run",
     "lint": "prettier --write  \"**/*.{js,jsx,ts,tsx,astro}\" && eslint --fix \"src/**/*.{js,ts,jsx,tsx,astro}\""
   },
   "dependencies": {
