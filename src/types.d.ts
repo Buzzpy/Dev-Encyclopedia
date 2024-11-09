@@ -1,8 +1,17 @@
 // src/types.d.ts
-export interface CardProps {
+interface DescriptionInterface {
   title: string
-  subtext: string
-  description: string
-  imageUrl: string
-  resourceUrl: string
+  texts: string[]
+  image: string
+  references: string[]
+}
+
+export interface CardProps {
+  data: {
+    title: string
+    subtext: string
+    categories: string[]
+    author: string
+    description: DescriptionInterface
+  }
 }

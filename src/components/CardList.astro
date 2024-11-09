@@ -1,10 +1,12 @@
 ---
+import type { CardProps } from "../types"
+
 const { terms: cards } = Astro.props
 ---
 
 <div class="card-container" id="cardContainer">
   {
-    cards.map((card) => (
+    cards.map((card: CardProps) => (
       <div
         class="card"
         data-title={card.data.title}
