@@ -35,4 +35,17 @@ describe("test modal function script", () => {
     expect(modalBody?.innerHTML).toContain('<img src="https://example.com/image.jpg"')
     expect(modalBody?.innerHTML).toContain('<a href="https://example.com/resource"')
   })
+
+  test('should close modal on escape key press', () => {
+    // Test function
+    showModal("Test", "Description",  "https://example.com/image.jpg", "https://example.com/resource")
+
+    const event = new KeyboardEvent('keydown', { key: 'Escape' })
+
+    // dispatch event to mock closeModal
+    document.dispatchEvent(event)
+
+    // Assertion
+    expect(document.body.classList.contains('modal')).toBe(false)
+  })
 })

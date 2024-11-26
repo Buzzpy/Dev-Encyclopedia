@@ -10,7 +10,7 @@ modal?.addEventListener("click", (event) => {
 
 // Close the modal when pressing the Escape key
 document.addEventListener("keydown", (event) => {
-  if (event.key === "Escape" && modal.style.display === "block") {
+  if (event.key === "Escape" && modal?.style.display === "block") {
     closeModal()
   }
 })
