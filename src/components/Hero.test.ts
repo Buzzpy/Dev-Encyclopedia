@@ -2,7 +2,7 @@ import { experimental_AstroContainer as AstroContainer } from "astro/container"
 import { expect, test } from "vitest"
 import Hero from "./Hero.astro"
 
-test("Hero", async() => {
+test("Hero", async () => {
   const container = await AstroContainer.create()
   // mock terms data
   const mockTerms = [
