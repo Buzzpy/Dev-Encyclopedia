@@ -1,3 +1,5 @@
+import { logger } from "@it-astro:logger"
+
 export async function GET() {
   try {
     // Dynamically import fs and path
@@ -17,6 +19,9 @@ export async function GET() {
     })
 
     const responseBody = JSON.stringify(titles)
+    // Testing logger
+    // Todo: configure log file location
+    logger.info("test")
     return new Response(responseBody, {
       headers: {
         "Content-Type": "application/json"
