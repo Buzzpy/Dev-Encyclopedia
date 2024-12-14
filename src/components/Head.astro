@@ -2,6 +2,21 @@
 const { title = "Dev Encyclopedia", ...props } = Astro.props
 ---
 
+<!-- Common meta tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="title" content={title} />
+<meta
+  name="description"
+  content="Discover concise explanations and samples for tech terms and concepts in the Dev Encyclopedia. Find everything you need for development, all in one place."
+/>
+<meta
+  name="keywords"
+  content="dev encyclopedia,developer encyclopedia,developer dictionary,developer resources,developer tools,software resources,programming resources,programming terms,tech terms"
+/>
+<meta name="robots" content="index,follow" />
+<meta name="language" content="en" />
+<meta name="author" content="Chenuli Jayasinghe" />
+
 <!-- Open Graph tags -->
 <meta property="og:title" content="Dev Encyclopedia" />
 <meta property="og:type" content="website" />
