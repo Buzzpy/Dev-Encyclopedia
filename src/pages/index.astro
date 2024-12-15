@@ -3,6 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro"
 import Hero from "../components/Hero.astro"
 import CardList from "../components/CardList.astro"
 import Modal from "../components/Modal.astro"
+import Head from "../components/Head.astro"
 
 import { getCollection } from "astro:content"
 
@@ -10,26 +11,30 @@ const terms = await getCollection("terms")
 ---
 
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="google-site-verification" content="-QKN9sbp37vkvEPbvMv7pz_OtmphW72Qoz_KhnNC3MI" />
-  <meta name="title" content="Dev Encyclopedia">
-  <meta name="description" content="Discover concise explanations and samples for tech terms and concepts in the Dev Encyclopedia. Find everything you need for development, all in one place.">
-  <meta name="keywords" content="dev encyclopedia,developer encyclopedia,developer dictionary,developer resources,developer tools,software resources,programming resources,programming terms,tech terms">
-  <meta name="robots" content="index,follow">
-  <meta name="language" content="en">
-  <meta name="author" content="Chenuli Jayasinghe">
+  <meta
+    name="google-site-verification"
+    content="-QKN9sbp37vkvEPbvMv7pz_OtmphW72Qoz_KhnNC3MI"
+  />
+  <Head />
 
   <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E51GWY7QV4"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E51GWY7QV4"
+  ></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-E51GWY7QV4');
+    window.dataLayer = window.dataLayer || []
+    function gtag() {
+      dataLayer.push(arguments)
+    }
+    gtag("js", new Date())
+    gtag("config", "G-E51GWY7QV4")
   </script>
 
   <title>Dev Encyclopedia | Encyclopedia for Developers</title>
-  <link rel="icon" type="image/x-icon" href="https://ph-files.imgix.net/9669f231-c78f-4d66-889b-e4e3073c7f36.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=72&h=72&fit=crop&dpr=2">
+  <link
+    rel="icon"
+    type="image/x-icon"
+    href="https://ph-files.imgix.net/9669f231-c78f-4d66-889b-e4e3073c7f36.png?auto=compress&codec=mozjpeg&cs=strip&auto=format&w=72&h=72&fit=crop&dpr=2"
+  />
 </head>
 
 <BaseLayout>
