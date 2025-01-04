@@ -17,9 +17,11 @@
     "src/**/*",
     "public/card-actions.js"
   ],
+
   "exclude": [
     "coverage/",
   ],
+
   "extends": [
     "astro/tsconfigs/strictest"
   ]

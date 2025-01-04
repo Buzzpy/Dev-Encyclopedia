@@ -9,7 +9,9 @@
     "preview": "astro preview",
     "prepare": "husky",
     "test": "vitest --run",
+
     "test:coverage": "vitest run --coverage",
+
     "lint": "prettier --write  \"**/*.{js,jsx,ts,tsx,astro}\" && eslint --fix \"src/**/*.{js,ts,jsx,tsx,astro}\""
   },
   "dependencies": {
