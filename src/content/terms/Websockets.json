@@ -1,0 +1,21 @@
+{
+    "title": "Websocket",
+    "subtext": "A bi-directional communication between a client and the server" ,
+    "categories": ["Communication protocol", "Real-Time communication", "Persistent connection", "Live updates"],
+    "author": "Rilwan",
+    "description": {
+      "title": "Websocket",
+      "texts": [
+        "A websocket is a stateful communication between a client and the server.",
+        "Like the HTTP/HTTPS, websockets is also an internet communication protocol that allows both the server and client to exchange data over the    web.",
+        "However, while the HTTP establishes a new connection for each data exchange, websockets use a single network connection for client-server  interaction. This is why it is stateful.",
+        "Websockets are often used in applications where there is frequent interaction between the client and the server, e.g chat applicatons, data streaming apps, trading apps, etc.",
+        "With websockets' single network connection, a web page does not need to reload frequently for the client to exchange data with the server.",
+        "The technology that allows you to send a message to a friend within a chat application without reloading the site is Websocket."  
+      ],
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20191203183648/WebSocket-Connection.png",
+      "references": [
+        "https://www.geeksforgeeks.org/what-is-web-socket-and-how-it-is-different-from-the-http/#:~:text=HTTP%20header%20payload.-,WebSocket,-WebSocket%20is%20bidirectional"
+      ]
+    }
+}

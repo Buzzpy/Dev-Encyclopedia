@@ -1,0 +1,21 @@
+{
+    "title": "Polling",
+    "subtext": "Repeated data requests for updates" ,
+    "categories": ["Data retrieval", "APIs"],
+    "author": "Rilwan",
+    "description": {
+      "title": "Polling",
+      "texts": [
+        "Polling is a method used to retrieve data from a server by continuously sending requests at regular intervals.", 
+        "Unlike webhooks, which are event-driven and send data to clients automatically when changes occur, polling actively queries the server for updates, making it a proactive approach.",
+        "It is commonly used in applications where timely access to fresh data is essential. For example, a crypto trading platform might poll a central database like Coinbase for the latest exchange rates.",
+        "In this scenario, the platform repeatedly requests updates until it detects a change, ensuring users have the most current information.",    
+        "However, polling can be less efficient than webhooks, especially if updates occur infrequently."
+
+      ],
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20240516192547/Polling-in-System-Design.webp",
+      "references": [
+        "https://www.geeksforgeeks.org/polling-in-system-design/"
+      ]
+    }
+}

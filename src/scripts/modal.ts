@@ -2,7 +2,7 @@ const modal = document.getElementById("modal")!
 const body = document.body
 
 // Close the modal when clicking outside of it
-modal.addEventListener("click", (event) => {
+modal?.addEventListener("click", (event) => {
   if (event.target === modal) {
     closeModal()
   }
@@ -10,7 +10,7 @@ modal.addEventListener("click", (event) => {
 
 // Close the modal when pressing the Escape key
 document.addEventListener("keydown", (event) => {
-  if (event.key === "Escape" && modal.style.display === "block") {
+  if (event.key === "Escape" && modal?.style.display === "block") {
     closeModal()
   }
 })
@@ -39,7 +39,10 @@ export function showModal(
       ${imageElement} <!-- Only include the image if imageUrl is not empty -->
       <a href="${resourceUrl}" id="modal-link" target="_blank">⌁—— Learn more about ${title} ——⌁</a>
     `
-  modal.style.display = "block"
+  // Modify display style of modal to be block if click event is detected
+  if (modal) {
+    modal.style.display = "block"
+  }
   body.classList.add("modal-open")
 }
 

@@ -1,0 +1,21 @@
+{
+    "title": "Nginx",
+    "subtext": "A versatile web-server" ,
+    "categories": ["Web server", "Load balancer", "Reverse proxy", "Networking"],
+    "author": "Rilwan",
+    "description": {
+      "title": "Nginx",
+      "texts": [
+        "Nginx (pronounced as Engine-X) is a webs server that can fucntion as a reverse proxy server and a load balancer. It sits between a web server and the client",
+        "It recives client requests before before forwarding it to the server, and recives client's responses before they are delivered to them.",
+        "Nginx performs the following functions:",
+        "As a reverse proxy: It helps the web server to deliver responses to clients without revealing information about the server. This is useful to prevent attacks on the server. Nginx can also optimize performance through features like caching, SSL termination, and compression",
+        "As a load balancer: As a middleman, Nginx receives clients requests before the web server(s). Therefore, it can be used to evenly distribute traffic between multiple servers ensuring that a single server is not overloaded"
+
+      ],
+      "image": "https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2023/11/nginx-homepage.webp",
+      "references": [
+        "https://www.hostinger.com/tutorials/what-is-nginx"
+      ]
+    }
+}
