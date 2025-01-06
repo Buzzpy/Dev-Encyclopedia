@@ -1,0 +1,15 @@
+{
+  "title": "Brainfuck",
+  "subtext": "An esoteric programming language",
+  "categories": ["Language"],
+  "author": "Urban Müller",
+  "description": {
+    "title": "Brainfuck",
+    "texts": [
+      "Brainfuck is an example of a so-called Turing tarpit: it can be used to write any program, but it is not practical to do so because it provides so little abstraction that the programs get very long or complicated. While Brainfuck is fully Turing-complete, it is not intended for practical use but to challenge and amuse programmers.",
+      "The language takes its name from the slang term brainfuck, which refers to things so complicated or unusual that they exceed the limits of one's understanding, as it was not meant or made for designing actual software but to challenge the boundaries of computer programming."
+    ],
+    "image": "https://miro.medium.com/v2/resize:fit:1400/1*Al_PqIj5BoYtbErAN663VA.png",
+    "references": ["https://en.wikipedia.org/wiki/Brainfuck"]
+  }
+}
