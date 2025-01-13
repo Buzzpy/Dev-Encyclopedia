@@ -1,0 +1,19 @@
+{
+    "title": "XML",
+    "subtext": "Extensible Markup Language",
+    "categories": [
+        "Language"
+    ],
+    "author": "Sasakiroo",
+    "description": {
+        "title": "XML",
+        "texts": [
+            "XML (Extensible Markup Language) is a markup language and file format. It is used to store and transfer data on the web and in many other applications. XML is widely used. \n\nXML steps in as a versatile tool for encoding and organizing data in a way that both humans and machines can comprehend. \n\nThe main purpose of XML is serialization, i.e., storing, transmitting, and reconstructing arbitrary data."
+        ],
+        "image": "",
+        "references": [
+            "https://en.wikipedia.org/wiki/XML",
+            "https://www.geeksforgeeks.org/what-is-xml"
+        ]
+    }
+}
