@@ -37,11 +37,4 @@ export default getViteConfig(
   }
 )
 
-export default getViteConfig({
-  test: {
-    // Vitest configuration options
-    // use the APIs globally like Jest
-    globals: true,
-  }
-})
 
