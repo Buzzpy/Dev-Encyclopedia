@@ -1,0 +1,16 @@
+{
+  "title": "Neo4J",
+  "subtext": "Graph database management system",
+  "categories": ["Database", "Graph Database"],
+  "author": "Kaizz (phunlh2001)",
+  "description": {
+    "title": "Neo4J",
+    "texts": [
+      "Native graph storage, data science, ML, analytics, and visualization with enterprise-grade security controls to scale your transactional and analytical workloads – without constraints.",
+      "Built by data scientists for data scientists, Neo4j Graph Data Science unearths and analyzes relationships in connected data to increase ML model accuracy and drive contextual AI – making better predictions with the data you already have.",
+      "Develop intelligent applications quickly and collaborate with a global network of developers, data scientists, and innovators, while sharing resources, insights, and technical expertise."
+    ],
+    "image": "https://mma.prnewswire.com/media/2047144/Neo4j_logo_color_Logov1.jpg?p=twitter",
+    "references": ["https://neo4j.com/"]
+  }
+}
