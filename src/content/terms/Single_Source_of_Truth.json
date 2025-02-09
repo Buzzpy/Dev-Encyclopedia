@@ -1,0 +1,17 @@
+{
+    "title": "Single Source of Truth",
+    "subtext": "Centralized data management ensures information is consistent and correct",
+    "categories": ["Programming Concepts"],
+    "author": "dnnsmnstrr",
+    "description": {
+        "title": "Single Source of Truth",
+        "texts": [
+            "A single source of truth (SSOT) is a data management approach that ensures information is centrally available and always up-to-date.",
+            "The goal is to avoid fragmentation of data into different versions over multiple locations and instead reference a shared instance of the data, so changes will be reflected wherever the data is sourced."
+        ],
+        "image": "https://miro.medium.com/v2/resize:fit:836/format:webp/0*e99MMFnmZlQ2Pssh.png",
+        "references": [
+            "https://edunceputans.medium.com/single-source-of-truth-and-problems-with-implication-in-an-organisation-588883492133"
+        ]
+    }
+}
