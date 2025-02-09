@@ -1,29 +1,66 @@
 ---
 const { title = "Dev Encyclopedia", ...props } = Astro.props
 ---
-
 <!-- Common meta tags -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="title" content={title} />
-<meta
-  name="description"
-  content="Discover concise explanations and samples for tech terms and concepts in the Dev Encyclopedia. Find everything you need for development, all in one place. Backed by Programming and Doodles 2025; All rights reserved."
-/>
-<meta
-  name="keywords"
-  content="dev encyclopedia,devpedia,developer encyclopedia,developer dictionary,developer resources,developer tools,software resources,programming resources,programming terms,tech terms"
-/>
-<meta name="robots" content="index,follow" />
-<meta name="language" content="en" />
-<meta name="author" content="Chenuli Jayasinghe" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="title" content="DevPedia | Open-Source Developer Reference">
+<meta 
+  name="description" 
+  content="400+ programming terms explained clearly. Open-source tech dictionary with category filters for frontend, backend, DevOps, and CS fundamentals. Community-maintained knowledge base.">
+<meta 
+  name="keywords" 
+  content="open source programming dictionary, coding glossary, developer reference, tech terminology, frontend concepts, backend concepts, DevOps terms, computer science basics, GitHub knowledge base">
+<meta name="robots" content="index, follow">
+<meta name="language" content="en">
+<meta name="author" content="Chenuli Jayasinghe">
 
-<!-- Open Graph tags -->
-<meta property="og:title" content="Dev Encyclopedia" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://devpedia.dev/" />
-<meta
-  property="og:description"
-  content="Discover concise explanations and samples for tech terms and concepts in the Dev Encyclopedia. Find everything you need for development, all in one place. Backed by Programming and Doodles 2025; All rights reserved."
-/>
-<meta property="og:image" content="" />
-<meta property="og:image:alt" content="" />
+<!-- Canonical URL -->
+<link rel="canonical" href="https://devpedia.dev" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://devpedia.dev">
+
+<meta property="og:title" content="Dev Encyclopedia | A dictionary for programmers">
+<meta 
+  property="og:description" 
+  content="Community-driven encyclopedia for programmers with 400+ terms + category filters. Learn about programming concepts and tech jargon in Plain English">
+<meta property="og:image" content="https://i.ibb.co/nMwVhk7c/social-media-cover.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Dev Encyclopedia",
+  "url": "https://devpedia.pages.dev",
+  "description": "A dictionary for programmers",
+  "license": "https://github.com/Buzzpy/Dev-Encyclopedia/blob/develop/LICENSE",
+  "isAccessibleForFree": true,
+  "keywords": "programmer dictionary, dev encyclopedia, devpedia, programming, development, glossary, open source, technical terms, programmer encyclopedia",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Programming and Doodles",
+    "founder": "Chenuli Jayasinghe",
+    "foundingDate": "2024",
+    "email": "chenuli@devpedia.dev",
+    "sameAs": "https://github.com/Buzzpy"
+  }
+}
+</script>
+
+<!-- Footer Microdata -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WPFooter",
+  "copyrightHolder": {
+    "@type": "Organization",
+    "name": "Programming and Doodles",
+    "copyrightYear": "2025"
+  },
+  "copyrightNotice": "Content available under CC BY-SA 4.0 license"
+}
+</script>
