@@ -1,0 +1,23 @@
+{
+    "title": "RUM (Real User Monitoring)",
+    "subtext": "Measures the performance of a page from real users' machines",
+    "categories": [
+        "Web Development",
+        "App Development",
+        "Software Development"
+    ],
+    "author": "sasakiroo",
+    "description": {
+        "title": "RUM (Real User Monitoring)",
+        "texts": [
+            "RUM is a technique that monitors an application's actual user interactions. In RUM, the third party script collects performance metrics from the real users' browsers.",
+            "RUM helps identify how an application is being used, including the geographic distribution of users and the impact of that distribution on the end user experience.",
+            "RUM leverages technology to directly collect a website or application performance metrics through the end user's browser. Using a tiny amount of JavaScript embedded in every page, data is collected from all users as they click, scroll, pause, exit, or otherwise use the page. This data is then transferred back for analysis."
+        ],
+        "image": "https://zd-brightspot.s3.us-east-1.amazonaws.com/wp-content/uploads/2021/04/13104255/Real-User-Monitoring-1.png",
+        "references": [
+            "https://developer.mozilla.org/en-US/docs/Glossary/Real_User_Monitoring",
+            "https://www.spiceworks.com/it-security/application-security/articles/what-is-real-user-monitoring"
+        ]
+    }
+}
