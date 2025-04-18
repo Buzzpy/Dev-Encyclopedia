@@ -1,7 +1,7 @@
 {
     "title": "SQL Injection (SQLi)",
     "subtext": "A security vulnerability",
-    "categories": ["Web Security", "Database Security", "Software Vulnerabilities"],
+    "categories": ["Cybersecurity"],
     "author": "Rilwan",
     "description": {
       "title": "SQL Injection (SQLi)",

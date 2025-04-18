@@ -1,0 +1,18 @@
+{
+    "title": "Churn Rate",
+    "subtext": "Measuring how many customers leave",
+    "categories": ["SaaS"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Churn Rate",
+      "texts": [
+        "Churn Rate is the percentage of users or revenue lost in a given period. High churn indicates dissatisfaction or poor product-market fit.",
+        "SaaS companies obsess over churn, because reducing it even slightly can massively improve long-term revenue."
+      ],
+      "image": "https://assets-global.website-files.com/625f87c5d4e4fb29d37658dc/62d5745f8912a58213485db7_churn-rate.webp",
+      "references": [
+        "https://www.profitwell.com/blog/churn-rate",
+        "https://baremetrics.com/academy/churn-rate"
+      ]
+    }
+  }

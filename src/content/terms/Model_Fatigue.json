@@ -1,0 +1,17 @@
+{
+    "title": "Modal Fatigue",
+    "subtext": "Overuse of modals harms UX",
+    "categories": ["UI/UX Design"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Modal Fatigue",
+      "texts": [
+        "Modal fatigue occurs when users are overwhelmed by too many popups or dialog boxes, leading to frustration or accidental dismissals.",
+        "Designers should use modals sparingly, especially for interruptions like newsletter signups or confirmations."
+      ],
+      "image": "",
+      "references": [
+        "https://medium.com/@marketing_96275/design-for-fatigue-how-ux-ui-can-combat-digital-burnout-3e1fa6f56b7a"
+      ]
+    }
+  }

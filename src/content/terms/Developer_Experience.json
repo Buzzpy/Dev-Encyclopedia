@@ -1,0 +1,19 @@
+{
+    "title": "DX (Developer Experience)",
+    "subtext": "Optimizing tools and workflows for developers",
+    "categories": ["General"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "DX (Developer Experience)",
+      "texts": [
+        "Developer Experience (DX or DevEx) refers to the overall experience developers have while interacting with tools, libraries, platforms, and documentation.",
+        "A high-quality DX leads to faster development, fewer bugs, and happier developers. This includes clear error messages, well-structured documentation, intuitive APIs, fast feedback loops, and seamless onboarding.",
+        "For example, tools like Vite and Next.js are praised for their excellent DX due to instant reloads, easy configuration, and strong community support."
+      ],
+      "image": "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*Quy-0wA1qaj726j9",
+      "references": [
+        "https://medium.com/swlh/what-is-dx-developer-experience-401a0e44a9d9"
+      ]
+    }
+  }
+  

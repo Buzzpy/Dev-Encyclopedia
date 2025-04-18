@@ -1,0 +1,17 @@
+{
+    "title": "Empty State Design",
+    "subtext": "Making blank screens helpful",
+    "categories": ["UI/UX Design"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Empty State Design",
+      "texts": [
+        "Empty states appear when there’s no content to show—like a new inbox or a deleted list.",
+        "Well-designed empty states guide users toward action, explain what’s missing, or offer a friendly message to reduce confusion."
+      ],
+      "image": "https://img.uxcel.com/practices/replace-the-element-1602859019475/a-1702667421183-2x.jpg",
+      "references": [
+        "https://www.toptal.com/designers/ux/empty-state-ux-design"
+      ]
+    }
+  }

@@ -1,7 +1,7 @@
 {
   "title": "Bundlers",
   "subtext": "Tools that compile and optimize JavaScript code for efficient loading",
-  "categories": ["JavaScript", "Development Tools"],
+  "categories": ["JavaScript"],
   "author": "KrishDave",
   "description": {
     "title": "Bundlers",
