@@ -1,0 +1,18 @@
+{
+    "title": "Tower of Hanoi",
+    "subtext": "A Mathematical puzzle involving three rods and a set of disks of different sizes",
+    "categories": ["Mathematic", "Algorithm", "Puzzle"],
+    "author": "Sasakiroo",
+    "description": {
+        "title":"Tower of Hanoi in Programming",
+        "Texts:": [
+            "In programming, Tower of Hanoi — the Algorithm involves breaking down the problems into smaller subproblems",
+            "This algorithm let you recursively moving smaller stacks of disks to an auxiliary rod, moving the largest disk to the destination rod, then moving the smaller stack from auxiliary rod to the destination"
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Tower_of_Hanoi.jpeg",
+        "refrences": [
+            "https://en.wikipedia.org/wiki/Tower_of_Hanoi",
+            "https://www.shiksha.com/online-courses/articles/tower-of-hanoi-program-in-c/"
+        ]
+    }
+}
