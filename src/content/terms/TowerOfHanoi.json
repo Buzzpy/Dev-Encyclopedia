@@ -1,7 +1,7 @@
 {
     "title": "Tower of Hanoi",
     "subtext": "A Mathematical puzzle involving three rods and a set of disks of different sizes",
-    "categories": ["Mathematic", "Algorithm", "Puzzle"],
+    "categories": ["Mathematic", "Programming Concepts"],
     "author": "Sasakiroo",
     "description": {
         "title":"Tower of Hanoi in Programming",
