@@ -1,7 +1,7 @@
 {
     "title": "Nix OS",
     "subtext": "A powerful package manager and operating system",
-    "categories": ["Operating Systems", "Package Managers", "DevOps"],
+    "categories": ["OS", "Other", "DevOps"],
     "author": "Rayyan Hunerkar",
     "description": {
         "title": "Nix",
