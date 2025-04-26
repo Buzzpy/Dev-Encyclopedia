@@ -1,0 +1,17 @@
+{
+    "title": "Nix OS",
+    "subtext": "A powerful package manager and operating system",
+    "categories": ["OS", "Other", "DevOps"],
+    "author": "Rayyan Hunerkar",
+    "description": {
+        "title": "Nix",
+        "texts": [
+            "Nix is a powerful package manager and operating system that allows developers to build, deploy, and manage applications efficiently.",
+            "It provides a declarative way to manage software dependencies and configurations, making it easier to maintain consistent environments across different systems."
+        ],
+        "references": [
+            "https://nixos.org/guides/how-nix-works/",
+            "https://nixos-and-flakes.thiscute.world/"
+        ]
+    }
+}
