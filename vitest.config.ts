@@ -21,6 +21,7 @@ export default getViteConfig(
           '.vscode/**',
           '.github/**',
           'public/**',
+          'coverage/',
           '**/node_modules/**',
           '**/*.astro',
           '**/script.js',
