@@ -4,6 +4,24 @@ import type { CardProps } from "../types"
 const { terms: cards } = Astro.props
 ---
 
+<div class="pagination-bar">
+  <div class="pagination-filter">
+    <select class="select" id="pagination-select">
+      <option value={6}>6</option>
+      <option value={12}>12</option>
+      <option value={24}>24</option>
+    </select>
+  </div>
+
+  <button class="button navigation-button" id="prev-button">
+    <i class="bi bi-arrow-left-circle"></i>
+  </button>
+
+  <button class="button navigation-button" id="next-button">
+    <i class="bi bi-arrow-right-circle"></i>
+  </button>
+</div>
+
 <div class="card-container" id="cardContainer">
   {
     cards.map((card: CardProps) => (
@@ -22,3 +40,16 @@ const { terms: cards } = Astro.props
     ))
   }
 </div>
+
+<script>
+  const prevButton = document.getElementById("prev-button")
+  const nextButton = document.getElementById("next-button")
+
+  prevButton?.addEventListener("click", () => {
+    alert("Button was clicked")
+  })
+
+  nextButton?.addEventListener("click", () => {
+    alert("Click next button")
+  })
+</script>
