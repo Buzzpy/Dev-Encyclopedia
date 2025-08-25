@@ -2,14 +2,25 @@
 import type { CardProps } from "../types"
 
 const { terms: cards } = Astro.props
+
+const paginateOptions = [
+  { label: "6", value: 6 },
+  { label: "12", value: 12 },
+  { label: "24", value: 24 },
+  { label: "48", value: 48 }
+]
 ---
 
 <div class="pagination-bar">
   <div class="pagination-filter">
     <select class="select" id="pagination-select">
-      <option value={6}>6</option>
-      <option value={12}>12</option>
-      <option value={24}>24</option>
+      {
+        paginateOptions.map((option) => (
+          <option value={option.value} id={`paginate-${option.label}`}>
+            {option.label}
+          </option>
+        ))
+      }
     </select>
   </div>
 
@@ -41,15 +52,11 @@ const { terms: cards } = Astro.props
   }
 </div>
 
-<script>
-  const prevButton = document.getElementById("prev-button")
-  const nextButton = document.getElementById("next-button")
+<!-- To-do -->
+<!--
+  [x] Implement pagination feature with buttons and dropdowns (6, 12, 24)
+  [ ] Implement unit test for pagination feature
+  [x] Migrate pagination feature to a new script (./scripts/pagination.ts)
+ -->
 
-  prevButton?.addEventListener("click", () => {
-    alert("Button was clicked")
-  })
-
-  nextButton?.addEventListener("click", () => {
-    alert("Click next button")
-  })
-</script>
+<script src="../scripts/paginate.ts"></script>
