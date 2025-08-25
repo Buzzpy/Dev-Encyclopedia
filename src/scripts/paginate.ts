@@ -1,17 +1,39 @@
   class PaginationManager {
-    private cards: HTMLElement[]
+    private allCards: HTMLElement[]
     private currentPage: number = 1
     private itemsPerPage: number = 6
     private totalPages: number = 1
 
     constructor() {
-      this.cards = Array.from(document.querySelectorAll(".card"))
+      this.allCards = Array.from(document.querySelectorAll(".card"))
       this.init()
+      this.observeFilterChanges()
     }
 
     private init() {
       this.calculateTotalPages()
       this.setupEventListeners()
+      this.showCurrentPage()
+      this.updateButtonStates()
+    }
+
+    private observeFilterChanges() {
+      // Listen for the custom event dispatched by hero-action.ts
+      window.addEventListener('cardsFiltered', () => {
+        setTimeout(() => this.refreshPagination(), 10)
+      })
+    }
+
+    private getFilteredCards(): HTMLElement[] {
+      // Get cards that are not hidden by filtering
+      return this.allCards.filter(card => {
+        return card.getAttribute('data-hidden-by-filter') !== 'true'
+      })
+    }
+
+    private refreshPagination() {
+      this.currentPage = 1 // Reset to first page when filters change
+      this.calculateTotalPages()
       this.showCurrentPage()
       this.updateButtonStates()
     }
@@ -53,20 +75,29 @@
     }
 
     private calculateTotalPages() {
-      this.totalPages = Math.ceil(this.cards.length / this.itemsPerPage)
+      const filteredCards = this.getFilteredCards()
+      this.totalPages = Math.ceil(filteredCards.length / this.itemsPerPage)
+      if (this.totalPages === 0) this.totalPages = 1
     }
 
     private showCurrentPage() {
+      const filteredCards = this.getFilteredCards()
       const startIndex = (this.currentPage - 1) * this.itemsPerPage
       const endIndex = startIndex + this.itemsPerPage
 
-      // Hide all cards
-      this.cards.forEach((card) => {
-        card.style.display = "none"
+      // First, hide all cards
+      this.allCards.forEach((card) => {
+        // If card is hidden by filter, keep it hidden
+        if (card.getAttribute('data-hidden-by-filter') === 'true') {
+          card.style.display = "none"
+        } else {
+          // For filtered cards, hide by default (pagination will show the correct ones)
+          card.style.display = "none"
+        }
       })
 
-      // Show cards for current page
-      this.cards.slice(startIndex, endIndex).forEach((card) => {
+      // Show only the cards for current page from filtered results
+      filteredCards.slice(startIndex, endIndex).forEach((card) => {
         card.style.display = "block"
       })
     }

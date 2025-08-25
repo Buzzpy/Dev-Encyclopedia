@@ -21,28 +21,44 @@ const setupDOM = (cardCount: number = 10) => {
           <button id="next-button">Next</button>
         </div>
         <div id="cardContainer">
-          ${Array.from({ length: cardCount }, (_, i) =>
+          ${Array.from({ length: cardCount }, (_, i) => 
             `<div class="card" data-title="Card ${i + 1}">Card ${i + 1}</div>`
           ).join('')}
         </div>
       </body>
     </html>
-  `)
+  `, {
+    url: "http://localhost", // Provide a URL to avoid localStorage issues
+  })
 
   global.document = dom.window.document
   global.window = dom.window as any
   global.Event = dom.window.Event
-}
-
-// Simple PaginationManager class for testing (extracted from paginate.ts)
+  global.CustomEvent = dom.window.CustomEvent
+  
+  // Mock localStorage
+  const localStorageMock = {
+    getItem: vi.fn(),
+    setItem: vi.fn(), 
+    removeItem: vi.fn(),
+    clear: vi.fn(),
+    length: 0,
+    key: vi.fn()
+  }
+  Object.defineProperty(dom.window, 'localStorage', {
+    value: localStorageMock,
+    writable: true
+  })
+  global.localStorage = localStorageMock
+}// Simple PaginationManager class for testing (extracted from paginate.ts)
 class PaginationManager {
-  private cards: HTMLElement[]
+  private allCards: HTMLElement[]
   private currentPage: number = 1
   private itemsPerPage: number = 6
   private totalPages: number = 1
 
   constructor() {
-    this.cards = Array.from(document.querySelectorAll(".card"))
+    this.allCards = Array.from(document.querySelectorAll(".card"))
     this.init()
   }
 
@@ -57,6 +73,11 @@ class PaginationManager {
     const paginateSelect = document.getElementById("pagination-select") as HTMLSelectElement
     const prevButton = document.getElementById("prev-button")
     const nextButton = document.getElementById("next-button")
+
+    // Listen for filter changes
+    window.addEventListener('cardsFiltered', () => {
+      setTimeout(() => this.refreshPagination(), 10)
+    })
 
     paginateSelect?.addEventListener("change", (e) => {
       const target = e.target as HTMLSelectElement
@@ -84,19 +105,33 @@ class PaginationManager {
     })
   }
 
+  private refreshPagination() {
+    this.currentPage = 1
+    this.calculateTotalPages()
+    this.showCurrentPage()
+    this.updateButtonStates()
+  }
+
   private calculateTotalPages() {
-    this.totalPages = Math.ceil(this.cards.length / this.itemsPerPage)
+    const filteredCards = this.getFilteredCards()
+    this.totalPages = Math.ceil(filteredCards.length / this.itemsPerPage)
+    if (this.totalPages === 0) this.totalPages = 1
   }
 
   private showCurrentPage() {
+    const filteredCards = this.getFilteredCards()
     const startIndex = (this.currentPage - 1) * this.itemsPerPage
     const endIndex = startIndex + this.itemsPerPage
 
-    this.cards.forEach((card) => {
-      card.style.display = "none"
+    this.allCards.forEach((card) => {
+      if (card.getAttribute('data-hidden-by-filter') === 'true') {
+        card.style.display = "none"
+      } else {
+        card.style.display = "none"
+      }
     })
 
-    this.cards.slice(startIndex, endIndex).forEach((card) => {
+    filteredCards.slice(startIndex, endIndex).forEach((card) => {
       card.style.display = "block"
     })
   }
@@ -130,7 +165,13 @@ class PaginationManager {
   }
 
   public getVisibleCards(): HTMLElement[] {
-    return this.cards.filter(card => card.style.display !== "none")
+    return this.allCards.filter(card => card.style.display !== "none")
+  }
+
+  public getFilteredCards(): HTMLElement[] {
+    return this.allCards.filter(card => {
+      return card.getAttribute('data-hidden-by-filter') !== 'true'
+    })
   }
 }
 
@@ -266,6 +307,48 @@ describe("PaginationManager", () => {
 
     // Try to go to next page (should stay at 1)
     nextButton.click()
+    expect(paginationManager.getCurrentPage()).toBe(1)
+  })
+
+  test("works with filtered cards", () => {
+    setupDOM(10)
+    paginationManager = new PaginationManager()
+
+    // Simulate filtering by marking some cards as hidden by filter
+    const cards = Array.from(document.querySelectorAll('.card'))
+    if (cards.length >= 3) {
+      cards[0]!.setAttribute('data-hidden-by-filter', 'true')
+      cards[1]!.setAttribute('data-hidden-by-filter', 'true')
+      cards[2]!.setAttribute('data-hidden-by-filter', 'true')
+    }
+
+    // Trigger pagination refresh with custom event
+    window.dispatchEvent(new CustomEvent('cardsFiltered'))
+
+    // Should now work with 7 visible cards instead of 10
+    expect(paginationManager.getTotalPages()).toBe(2) // 7 cards / 6 per page = 2 pages
+    
+    // First page should show 6 cards
+    const visibleCards = paginationManager.getVisibleCards()
+    expect(visibleCards).toHaveLength(6)
+  })
+
+  test("resets to page 1 when filters change", async () => {
+    setupDOM(15)
+    paginationManager = new PaginationManager()
+
+    // Go to page 2
+    const nextButton = document.getElementById("next-button") as HTMLButtonElement
+    nextButton.click()
+    expect(paginationManager.getCurrentPage()).toBe(2)
+
+    // Simulate filter change
+    window.dispatchEvent(new CustomEvent('cardsFiltered'))
+
+    // Wait for the setTimeout in the event handler
+    await new Promise(resolve => setTimeout(resolve, 20))
+
+    // Should reset to page 1
     expect(paginationManager.getCurrentPage()).toBe(1)
   })
 })
