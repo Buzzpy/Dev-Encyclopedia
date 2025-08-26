@@ -125,16 +125,12 @@
     }
   }
 
-  // Initialize pagination when DOM is loaded
-  document.addEventListener("DOMContentLoaded", () => {
-    new PaginationManager()
-  })
-
   // Also initialize immediately if DOM is already loaded
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", () => {
       new PaginationManager()
     })
   } else {
+    // Initialize pagination when DOM is loaded
     new PaginationManager()
   }
