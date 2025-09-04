@@ -1,7 +1,7 @@
 {
     "title": "Webhooks",
     "subtext": "Real-time updates via event notifications." ,
-    "categories": ["APIs", "Real-time Data", "Automation", "Event-driven architecture", "Software development"],
+    "categories": ["APIs", "Software Development"],
     "author": "Rilwan",
     "description": {
       "title": "Webhooks",

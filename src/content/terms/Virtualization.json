@@ -1,7 +1,7 @@
 {
     "title": "Virtualization",
     "subtext": "Creating virtual environments for efficiency" ,
-    "categories": ["Software Engineering", "Infrastructure as a Service (IaaS)", "Operating Systems", "Cloud Computing"],
+    "categories": ["Software Development", "Infrastructure as a Service (IaaS)", "OS", "Cloud Computing"],
     "author": "Rilwan",
     "description": {
       "title": "Virtualization",

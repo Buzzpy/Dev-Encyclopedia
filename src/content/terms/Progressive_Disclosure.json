@@ -1,0 +1,17 @@
+{
+    "title": "Progressive Disclosure",
+    "subtext": "Revealing complexity only when needed",
+    "categories": ["UI/UX Design"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Progressive Disclosure",
+      "texts": [
+        "Progressive disclosure is a design principle where only essential information is shown upfront, and additional options or details are revealed as needed.",
+        "This reduces cognitive load and helps users focus on completing primary tasks before diving into advanced features."
+      ],
+      "image": "https://pbs.twimg.com/media/FjTaHyOX0AACfl6?format=jpg&name=large",
+      "references": [
+        "https://www.nngroup.com/articles/progressive-disclosure/"
+      ]
+    }
+  }

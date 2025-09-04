@@ -1,0 +1,17 @@
+{
+    "title": "Dark Patterns",
+    "subtext": "Interfaces that trick users into actions",
+    "categories": ["UI/UX Design"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Dark Patterns",
+      "texts": [
+        "Dark patterns are deceptive UI techniques designed to trick users into doing things they might not have intended—like signing up for recurring payments.",
+        "Ethical design avoids dark patterns and respects user consent and transparency."
+      ],
+      "image": "https://www.uxdesigninstitute.com/blog/wp-content/uploads/2022/12/219_dark_patterns_in_UX_illustration_blog.png",
+      "references": [
+        "https://www.uxdesigninstitute.com/blog/what-are-dark-patterns-in-ux/"
+      ]
+    }
+  }

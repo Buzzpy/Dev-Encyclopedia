@@ -1,0 +1,18 @@
+{
+  "title": "Cold Start Problem",
+  "subtext": "Initial latency in systems due to lack of prior data",
+  "categories": ["Machine Learning", "DevOps"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Cold Start Problem",
+    "texts": [
+      "The Cold Start Problem refers to the challenge of making accurate predictions or delivering optimal performance in systems when there is little to no historical data available.",
+      "For instance, a new user on a recommendation platform may receive less personalized suggestions until the system gathers sufficient interaction data."
+    ],
+    "image": "https://thingsolver.com/wp-content/uploads/cold-start-problem.webp",
+    "references": [
+      "https://calv.info/bookshelf/cold-start-problem"
+
+    ]
+  }
+}

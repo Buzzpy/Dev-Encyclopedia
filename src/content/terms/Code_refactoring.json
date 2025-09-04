@@ -1,7 +1,7 @@
 {
     "title": "Code refactoring",
     "subtext": "Improving the internal structure of code without altering its external behavior" ,
-    "categories": ["Software Development", "Code Maintenance", "Software Design"],
+    "categories": ["Software Development"],
     "author": "Rilwan",
     "description": {
       "title": "Code refactoring",

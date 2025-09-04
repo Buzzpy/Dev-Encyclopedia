@@ -1,7 +1,7 @@
 {
     "title": "Dependency",
     "subtext": "A required software library or component that other software relies on",
-    "categories": ["Software Development", "Package Management", "Build Systems"],
+    "categories": ["Software Development", "Software Architecture"],
     "author": "Rilwan",
     "description": {
       "title": "Dependency",

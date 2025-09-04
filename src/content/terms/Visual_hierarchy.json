@@ -1,0 +1,17 @@
+{
+    "title": "Visual Hierarchy",
+    "subtext": "Prioritizing elements through design",
+    "categories": ["UI/UX Design"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Visual Hierarchy",
+      "texts": [
+        "Visual hierarchy is the arrangement of elements to show their importance. It’s driven by size, color, contrast, alignment, and spacing.",
+        "A strong hierarchy ensures users intuitively know where to look and what actions to take first."
+      ],
+      "image": "https://public-images.interaction-design.org/tags/td-visual%20hierarchy-reading%20patterns.png",
+      "references": [
+        "https://www.interaction-design.org/literature/topics/visual-hierarchy"
+      ]
+    }
+  }

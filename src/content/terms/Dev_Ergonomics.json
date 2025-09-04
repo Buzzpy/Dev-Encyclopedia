@@ -1,0 +1,17 @@
+{
+  "title": "Dev Ergonomics",
+  "subtext": "Designing tools that feel good to use",
+  "categories": ["General"],
+  "author": "Buzzpy",
+  "description": {
+    "title": "Dev Ergonomics",
+    "texts": [
+      "Dev Ergonomics is the practice of designing developer tools and environments that reduce mental friction, cognitive overload, and context-switching fatigue.",
+      "A well-designed CLI with intuitive commands, syntax-highlighted logs, or a zero-config tool are all examples of ergonomic thinking in developer workflows."
+    ],
+    "image": "",
+    "references": [
+      "https://medium.com/rebaze/into-developer-ergonomics-d3d7e0d1da6f"
+    ]
+  }
+}

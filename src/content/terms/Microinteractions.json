@@ -1,0 +1,17 @@
+{
+    "title": "Microinteractions",
+    "subtext": "Tiny animations that bring delight and feedback",
+    "categories": ["UI/UX Design", "Animation"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Microinteractions",
+      "texts": [
+        "Microinteractions are subtle animations or feedback loops that respond to user actions—like a heart icon filling when tapped.",
+        "They help improve usability, reinforce user actions, and add a touch of personality to a product."
+      ],
+      "image": "https://www.uxdesigninstitute.com/blog/wp-content/uploads/2023/07/266_microinteractions_ui_design_illustration_blog-1.png",
+      "references": [
+        "https://www.uxdesigninstitute.com/blog/microinteractions-in-ui-design/"
+      ]
+    }
+  }

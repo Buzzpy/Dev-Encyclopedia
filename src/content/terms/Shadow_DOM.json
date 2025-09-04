@@ -1,0 +1,17 @@
+{
+    "title": "Shadow DOM",
+    "subtext": "Encapsulated DOM and styling for web components",
+    "categories": ["Frontend Development"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Shadow DOM",
+      "texts": [
+        "Shadow DOM is a web standard that enables encapsulation of DOM and CSS in web components, allowing developers to isolate styles and markup from the main document.",
+        "This means that styles defined inside a shadow DOM do not leak out, and external styles do not penetrate the shadow DOM, ensuring modular and maintainable code."
+      ],
+      "image": "https://www.ionos.com/digitalguide/fileadmin/DigitalGuide/Schaubilder/EN-diagram-shadow-dom.png",
+      "references": [
+        "https://www.ionos.com/digitalguide/websites/web-development/shadow-dom/"
+      ]
+    }
+  }

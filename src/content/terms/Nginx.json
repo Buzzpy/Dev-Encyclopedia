@@ -1,7 +1,7 @@
 {
     "title": "Nginx",
     "subtext": "A versatile web-server" ,
-    "categories": ["Web server", "Load balancer", "Reverse proxy", "Networking"],
+    "categories": ["Networking", "Other"],
     "author": "Rilwan",
     "description": {
       "title": "Nginx",

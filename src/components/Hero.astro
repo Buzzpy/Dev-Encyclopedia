@@ -12,6 +12,23 @@ let sortedCategories = Array.from(categories).sort((a, b) => a.localeCompare(b))
 
 <hero-com data>
   <div class="hero-section">
+    <div class="hero-paragraph" id="heroParagraph" style="font-size: 10px;
+    margin-top: -12px !important;  /* Pull element UP */
+    padding-top: 0 !important;
+    position: relative;
+    top: -8px; /* Fine-tune position */
+    display: block;">
+        Backed by 
+        <a href="https://codedoodles.xyz" 
+           target="_blank" 
+           rel="dofollow noopener noreferrer" 
+           style="color:rgb(128, 128, 128);"
+           aria-label="Visit Programming and Doodles official website">
+          <span itemscope itemtype="https://schema.org/Organization">
+            <meta itemprop="name" content="Programming and Doodles™">
+            <span itemprop="name">Programming and Doodles</span>&#8482;</span>
+        <time datetime="2025">2025.</time></a> All rights reserved.
+      </div>
     <div class="search-and-filter">
       <div class="search-bar">
         <i class="fas fa-search"></i>
@@ -53,14 +70,17 @@ let sortedCategories = Array.from(categories).sort((a, b) => a.localeCompare(b))
           id="darkModeText">Dark Mode</span
         >
       </button>
-
-      <button class="button" id="builderButton">
-        <i class="fas fa-hammer" style="padding-right: 10px;"></i> Builder's Note
-      </button>
-
+    
       <button class="button" id="sponsorButton">
         <i class="fa-solid fa-dollar-sign" style="padding-right: 10px;"></i> Sponsor
       </button>
+      <button
+      class="button"
+      onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSfKxg9lGenniBRrmPQz_qsCa7NtlN1uZPu_vv780UiRCppcOQ/viewform', '_blank')"
+    >
+      <i class="fa-solid fa-pen" style="padding-right: 10px;"></i> User survey
+    </button>
+
     </div>
 
     <div class="hero-title" id="heroTitle" style="padding-top: 50px;">
