@@ -1,4 +1,6 @@
 ---
+import "bootstrap-icons/font/bootstrap-icons.css"
+
 import BaseLayout from "../layouts/BaseLayout.astro"
 import Hero from "../components/Hero.astro"
 import CardList from "../components/CardList.astro"
@@ -46,3 +48,4 @@ const terms = await getCollection("terms")
 <script src="../scripts/cards.ts"></script>
 <script src="../scripts/modal.ts"></script>
 <script src="../scripts/hero-action.ts"></script>
+<script src="../scripts/paginate.ts"></script>

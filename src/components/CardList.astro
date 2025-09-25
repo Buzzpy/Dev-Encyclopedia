@@ -2,7 +2,36 @@
 import type { CardProps } from "../types"
 
 const { terms: cards } = Astro.props
+
+const paginateOptions = [
+  { label: "6", value: 6 },
+  { label: "12", value: 12 },
+  { label: "24", value: 24 },
+  { label: "48", value: 48 }
+]
 ---
+
+<div class="pagination-bar">
+  <div class="pagination-filter">
+    <select class="select" id="pagination-select">
+      {
+        paginateOptions.map((option) => (
+          <option value={option.value} id={`paginate-${option.label}`}>
+            {option.label}
+          </option>
+        ))
+      }
+    </select>
+  </div>
+
+  <button class="button navigation-button" id="prev-button">
+    <i class="bi bi-arrow-left-circle"></i>
+  </button>
+
+  <button class="button navigation-button" id="next-button">
+    <i class="bi bi-arrow-right-circle"></i>
+  </button>
+</div>
 
 <div class="card-container" id="cardContainer">
   {
