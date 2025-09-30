@@ -1,0 +1,17 @@
+{
+  "title": "Remote Desktop Protocol (RDP)",
+  "subtext": "Enables remote access to a computer over a network",
+  "categories": ["Networking", "Other"],
+  "author": "0xArchit",
+  "description": {
+    "title": "Remote Desktop Protocol (RDP)",
+    "texts": [
+      "Remote Desktop Protocol (RDP) is a proprietary protocol developed by Microsoft. It enables users to connect to another computer remotely, providing access to its graphical user interface and allowing them to control it as if they were physically present.",
+      "RDP is commonly used for remote administration, technical support, and virtual desktop access. It ensures secure communication between the host and client, and supports features like file sharing and clipboard synchronization."
+    ],
+    "image": "https://i.postimg.cc/52wCd2Hf/delinea-glossary-rdp.webp",
+    "references": [
+      "https://learn.microsoft.com/en-us/windows-server/remote/remote-desktop-services"
+    ]
+  }
+}

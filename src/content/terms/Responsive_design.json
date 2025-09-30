@@ -1,0 +1,17 @@
+{
+    "title": "Responsive Design",
+    "subtext": "Adapting layouts across screen sizes",
+    "categories": ["UI/UX Design", "Frontend Development"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Responsive Design",
+      "texts": [
+        "Responsive design ensures a website or app works well on all devices—mobile, tablet, desktop—by adapting layout, images, and content fluidly.",
+        "It uses CSS techniques like media queries and flexible grids to provide optimal user experience regardless of screen size."
+      ],
+      "image": "https://studio.uxpincdn.com/studio/wp-content/uploads/2022/01/Responsive-design-best-practices-1024x512.png.webp",
+      "references": [
+        "https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/"
+      ]
+    }
+  }

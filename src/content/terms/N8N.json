@@ -1,0 +1,17 @@
+{
+    "title": "n8n",
+    "subtext":"AI Workflow Automation Tool",
+    "categories": ["Automation", "Productivity"],
+    "author": "halukerenozlu",
+    "description": {
+        "title": "n8n",
+        "texts": [
+            "n8n is an open-source workflow automation tool that enables users to connect various applications and services to automate tasks and processes. It provides a visual interface for designing workflows, allowing users to create complex automations without needing extensive coding knowledge. n8n supports a wide range of integrations with popular services like Google Sheets, Slack, and more, making it a versatile choice for automating repetitive tasks and improving productivity."
+        ],
+        "image": "https://n8niostorageaccount.blob.core.windows.net/n8nio-strapi-blobs-prod/assets/Home_ITO_Ps_5a5aac3fda.webp",
+        "references": [
+            "https://n8n.io/",
+            "https://github.com/n8n-io/n8n"
+        ]
+    }
+}

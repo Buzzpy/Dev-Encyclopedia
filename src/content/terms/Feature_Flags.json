@@ -1,0 +1,17 @@
+{
+    "title": "Feature Flags",
+    "subtext": "Turn features on/off without redeploying",
+    "categories": ["SaaS", "DevOps"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Feature Flags",
+      "texts": [
+        "Feature Flags (or toggles) are switches in code that let you enable or disable features without deploying new code. They allow for gradual rollouts, A/B testing, and fast reversals if something breaks.",
+        "Think of them as light switches for product experiments and operational safety."
+      ],
+      "image": "https://www.kameleoon.com/sites/default/files/2023-02/Blog%20Article%20Image_665x460-1.svg",
+      "references": [
+        "https://configcat.com/feature-flag-saas/#:~:text=Feature%20flags%2C%20otherwise%20known%20as,functionalities%20across%20their%20SaaS%20products."
+      ]
+    }
+  }

@@ -1,4 +1,5 @@
 class Hero extends HTMLElement {
+  
   constructor() {
     super()
 
@@ -178,9 +179,7 @@ class Hero extends HTMLElement {
 customElements.define("hero-com", Hero)
 
 document.getElementById("aboutButton")!.addEventListener("click", showAbout)
-document
-  .getElementById("builderButton")!
-  .addEventListener("click", showBuilders)
+
 document
   .getElementById("sponsorButton")!
   .addEventListener("click", showSponsors)
