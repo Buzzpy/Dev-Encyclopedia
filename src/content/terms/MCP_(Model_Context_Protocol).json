@@ -1,0 +1,17 @@
+{
+    "title": "MCP (Model Context Protocol)",
+    "subtext": "A protocol for managing model contexts in AI systems",
+    "categories": ["Artificial Intelligence"],
+    "author":"halukerenozlu",
+    "description": {
+        "title": "MCP (Model Context Protocol)",
+        "texts": [
+            "MCP is an open protocol that standardizes how applications provide context to large language models (LLMs). Think of MCP like a USB-C port for AI applications.", "Just as USB-C provides a standardized way to connect your devices to various peripherals and accessories, MCP provides a standardized way to connect AI models to different data sources and tools. MCP enables you to build agents and complex workflows on top of LLMs and connects your models with the world."
+        ],
+        "image": "https://miro.medium.com/v2/resize:fit:1400/1*MfI2XLk63rQye0Sh-hAUag.png",
+        "references": [
+            "https://www.anthropic.com/news/model-context-protocol",
+            "https://modelcontextprotocol.io/docs/getting-started/intro"
+        ]
+    }
+}
