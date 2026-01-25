@@ -133,14 +133,14 @@ describe("pagination functionality", () => {
     })
 
     // Check all pagination options are present
-    expect(result).toContain('value="6"')
-    expect(result).toContain('value="12"')
-    expect(result).toContain('value="24"')
-    expect(result).toContain('value="48"')
-    expect(result).toContain('id="paginate-6"')
-    expect(result).toContain('id="paginate-12"')
-    expect(result).toContain('id="paginate-24"')
-    expect(result).toContain('id="paginate-48"')
+    expect(result).toContain('value="10"')
+    expect(result).toContain('value="20"')
+    expect(result).toContain('value="30"')
+    expect(result).toContain('value="40"')
+    expect(result).toContain('id="paginate-10"')
+    expect(result).toContain('id="paginate-20"')
+    expect(result).toContain('id="paginate-30"')
+    expect(result).toContain('id="paginate-40"')
   })
 
   test("renders all cards in container", async () => {
