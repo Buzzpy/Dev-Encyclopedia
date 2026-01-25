@@ -4,13 +4,14 @@ import type { CardProps } from "../types"
 const { terms: cards } = Astro.props
 
 const paginateOptions = [
-  { label: "6", value: 6 },
-  { label: "12", value: 12 },
-  { label: "24", value: 24 },
-  { label: "48", value: 48 }
+  { label: "10", value: 10 },
+  { label: "20", value: 20 },
+  { label: "30", value: 30 },
+  { label: "40", value: 40 }
 ]
 ---
 
+<!-- Pagination component -->
 <div class="pagination-bar">
   <div class="pagination-filter">
     <select class="select" id="pagination-select">

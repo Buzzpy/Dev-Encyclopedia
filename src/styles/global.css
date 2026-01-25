@@ -200,7 +200,8 @@ body {
 
 .hero-section {
   text-align: center;
-  padding: 50px 20px;
+  padding: 10px 20px;
+  padding-bottom: 0%;
 }
 
 .hero-title {
@@ -440,10 +441,12 @@ body.dark-mode select option {
 
 .pagination-bar {
   display: flex;
-  gap: 0.5rem;
-  justify-content: flex-end;
+  gap: 0.25rem;
+  justify-content: center;
+  justify-self: end;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
+  width: fit-content;
 }
 
 #pagination-select {

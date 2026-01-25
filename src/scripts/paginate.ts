@@ -1,7 +1,7 @@
   class PaginationManager {
     private allCards: HTMLElement[]
     private currentPage: number = 1
-    private itemsPerPage: number = 6
+    private itemsPerPage: number = 10
     private totalPages: number = 1
 
     constructor() {
