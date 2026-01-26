@@ -1,5 +1,5 @@
 class Hero extends HTMLElement {
-  
+
   constructor() {
     super()
 
@@ -29,7 +29,12 @@ class Hero extends HTMLElement {
       searchInput.value = ""
 
       if (selectedCategory === "") {
-        cards.forEach((card: HTMLElement) => (card.style.display = ""))
+        cards.forEach((card: HTMLElement) => {
+          card.style.display = ""
+          card.removeAttribute('data-hidden-by-filter')
+        })
+        // Trigger pagination refresh
+        window.dispatchEvent(new CustomEvent('cardsFiltered'))
         return
       }
       for (let i = 0; i < cards.length; i++) {
@@ -37,10 +42,14 @@ class Hero extends HTMLElement {
           cards[i]!.getAttribute("data-categories")!.split(", ")
         if (cardCategories.includes(selectedCategory)) {
           ;(cards[i] as HTMLElement).style.display = ""
+          ;(cards[i] as HTMLElement).removeAttribute('data-hidden-by-filter')
         } else {
           ;(cards[i] as HTMLElement).style.display = "none"
+          ;(cards[i] as HTMLElement).setAttribute('data-hidden-by-filter', 'true')
         }
       }
+      // Trigger pagination refresh
+      window.dispatchEvent(new CustomEvent('cardsFiltered'))
     })
 
     let currentFocus = -1 // Track the currently focused item in the autocomplete list
@@ -168,10 +177,14 @@ class Hero extends HTMLElement {
           filterByCategory(selectedCategory, cardCategories)
         ) {
           ;(cards[i] as HTMLElement).style.display = ""
+          ;(cards[i] as HTMLElement).removeAttribute('data-hidden-by-filter')
         } else {
           ;(cards[i] as HTMLElement).style.display = "none"
+          ;(cards[i] as HTMLElement).setAttribute('data-hidden-by-filter', 'true')
         }
       }
+      // Trigger pagination refresh
+      window.dispatchEvent(new CustomEvent('cardsFiltered'))
     }
   }
 }
