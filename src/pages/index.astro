@@ -6,6 +6,7 @@ import Hero from "../components/Hero.astro"
 import CardList from "../components/CardList.astro"
 import Modal from "../components/Modal.astro"
 import Head from "../components/Head.astro"
+import Footer from "../components/Footer.astro"
 
 import { getCollection } from "astro:content"
 
@@ -40,9 +41,12 @@ const terms = await getCollection("terms")
 </head>
 
 <BaseLayout>
-  <Hero terms={terms} />
-  <CardList terms={terms} />
-  <Modal />
+  <main>
+    <Hero terms={terms} />
+    <CardList terms={terms} />
+    <Modal />
+  </main>
+  <Footer />
 </BaseLayout>
 
 <script src="../scripts/cards.ts"></script>
