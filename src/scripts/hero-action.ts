@@ -199,8 +199,8 @@ document
 document
   .getElementById("darkModeToggle")!
   .addEventListener("click", toggleDarkMode)
-const darkModeHTML = `<i class="fas fa-moon" style="padding-right: 10px;"></i><span id="darkModeText"> Light Mode</span>`
-const lightModeHTML = `<i class="fas fa-sun" style="padding-right: 10px;"></i><span id="darkModeText"> Dark Mode</span>`
+const darkModeHTML = `<i class="fas fa-moon" ></i>`
+const lightModeHTML = `<i class="fas fa-sun" ></i>`
 
 setTheme()
 

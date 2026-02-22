@@ -1,5 +1,5 @@
 import { experimental_AstroContainer as AstroContainer } from "astro/container"
-import { expect, test, describe, beforeEach, vi } from "vitest"
+import { expect, test, describe, beforeEach } from "vitest"
 import CardList from "./CardList.astro"
 
 describe("component UI display", () => {
