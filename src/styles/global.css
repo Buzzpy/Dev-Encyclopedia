@@ -431,12 +431,12 @@ body.dark-mode select option {
 .card-title {
   font-size: 20px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .card-subtext {
-  font-size: 18px;
-  margin-bottom: 20px;
+  font-size: 15px;
+  margin-bottom: 40px;
 }
 
 .pagination-bar {

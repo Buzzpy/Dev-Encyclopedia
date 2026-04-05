@@ -1,0 +1,18 @@
+{
+    "title": "Forward Pass",
+    "subtext": "How a neural network makes a prediction",
+    "categories": ["Artificial Intelligence", "Machine Learning"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Forward Pass",
+      "texts": [
+        "A forward pass is the process of feeding input data through a neural network, layer by layer, to produce an output (prediction). Each layer transforms the data using weights and activation functions until a final result is reached.",
+        "During training, the forward pass runs first to generate a prediction. That prediction is then compared against the correct answer to calculate how wrong the model was — this error is called the loss.",
+        "The term 'forward' refers to the direction of data flow: input → hidden layers → output. No weights are updated during this step; it is purely a computation pass."
+      ],
+      "image": "",
+      "references": [
+        "https://www.geeksforgeeks.org/deep-learning/what-is-forward-propagation-in-neural-networks/"
+      ]
+    }
+  }

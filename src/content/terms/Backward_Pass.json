@@ -1,0 +1,18 @@
+{
+    "title": "Backward Pass",
+    "subtext": "How a neural network learns from its mistakes",
+    "categories": ["Artificial Intelligence", "Machine Learning"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Backward Pass",
+      "texts": [
+        "The backward pass (also called backpropagation) happens after the forward pass. Once the model's loss is calculated, the backward pass works in reverse — from output back to input — computing how much each weight contributed to the error.",
+        "Using calculus (specifically the chain rule), gradients are computed for every weight in the network. These gradients tell the optimizer which direction to adjust each weight, and by how much, to reduce the loss.",
+        "The forward pass and backward pass together form one training step. The forward pass produces a prediction; the backward pass produces the gradients used to improve it."
+      ],
+      "image": "",
+      "references": [
+        "https://brilliant.org/wiki/backpropagation/"
+      ]
+    }
+  }

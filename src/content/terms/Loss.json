@@ -1,0 +1,18 @@
+{
+    "title": "Loss",
+    "subtext": "A number that measures how wrong a model's prediction is",
+    "categories": ["Artificial Intelligence", "Machine Learning"],
+    "author": "Buzzpy",
+    "description": {
+      "title": "Loss",
+      "texts": [
+        "Loss (also called the loss value or cost) is a single number that quantifies the difference between a model's prediction and the correct answer. A lower loss means the model is performing better; a loss of zero would mean perfect predictions.",
+        "Different tasks use different loss functions. For regression problems, Mean Squared Error (MSE) is common. For classification, Cross-Entropy Loss is widely used. The choice of loss function directly shapes what the model learns to optimize.",
+        "The loss is calculated after every forward pass during training. The backward pass then uses it to compute gradients and update the model's weights — making loss the central signal that drives all learning."
+      ],
+      "image": "",
+      "references": [
+        "https://www.ibm.com/think/topics/loss-function"
+      ]
+    }
+  }
